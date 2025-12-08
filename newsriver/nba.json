@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2025-12-08T01:22:26.857714Z",
+  "generated_utc": "2025-12-08T03:06:55.376554Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401810215",
-          "gameDate": "2025-12-07T23:00Z",
+          "gamePk": "401810218",
+          "gameDate": "2025-12-08T01:00Z",
           "status": {
             "detailedState": "Live",
             "abstractGameState": "Live"
@@ -17,41 +17,15 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "POR"
+                "abbreviation": "OKC"
               },
-              "score": 91
+              "score": 109
             },
             "home": {
               "team": {
-                "abbreviation": "MEM"
+                "abbreviation": "UTAH"
               },
-              "score": 104
-            }
-          }
-        },
-        {
-          "gamePk": "401810216",
-          "gameDate": "2025-12-08T00:00Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "3rd",
-            "currentQuarter": "3rd"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "GSW"
-              },
-              "score": 67
-            },
-            "home": {
-              "team": {
-                "abbreviation": "CHI"
-              },
-              "score": 51
+              "score": 71
             }
           }
         },
@@ -59,51 +33,51 @@
           "gamePk": "401810217",
           "gameDate": "2025-12-08T00:30Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": "2nd",
-            "currentQuarter": "2nd"
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "LAL"
               },
-              "score": 38
+              "score": 112
             },
             "home": {
               "team": {
                 "abbreviation": "PHI"
               },
-              "score": 46
+              "score": 108
             }
           }
         },
         {
-          "gamePk": "401810218",
-          "gameDate": "2025-12-08T01:00Z",
+          "gamePk": "401810216",
+          "gameDate": "2025-12-08T00:00Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": "1st",
-            "currentQuarter": "1st"
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "OKC"
+                "abbreviation": "GSW"
               },
-              "score": 13
+              "score": 123
             },
             "home": {
               "team": {
-                "abbreviation": "UTAH"
+                "abbreviation": "CHI"
               },
-              "score": 5
+              "score": 91
             }
           }
         },
@@ -134,8 +108,8 @@
           }
         },
         {
-          "gamePk": "401810213",
-          "gameDate": "2025-12-07T20:30Z",
+          "gamePk": "401810215",
+          "gameDate": "2025-12-07T23:00Z",
           "status": {
             "detailedState": "Final",
             "abstractGameState": "Final"
@@ -147,15 +121,15 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "BOS"
+                "abbreviation": "POR"
               },
-              "score": 121
+              "score": 96
             },
             "home": {
               "team": {
-                "abbreviation": "TOR"
+                "abbreviation": "MEM"
               },
-              "score": 113
+              "score": 119
             }
           }
         }
@@ -168,7 +142,7 @@
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20251206",
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20251207"
     ],
-    "games_count": 6,
+    "games_count": 5,
     "http_timeout_sec": 12.0,
     "version": "nba-relay-1.1",
     "preview_hours": 36,
