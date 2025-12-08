@@ -1,6 +1,26 @@
 {
   "items":[
     {
+      "text":"These are the Top 10 moments in Blue Jays history",
+      "display":"These are the Top 10 moments in Blue Jays history",
+      "url":"https://www.mlb.com/bluejays/news/top-moments-in-blue-jays-history",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Future of Halifax shelter spaces uncertain as designated tent encampment closes",
+      "display":"Future of Halifax shelter spaces uncertain as designated tent encampment closes",
+      "url":"https://globalnews.ca/news/11568487/questions-shelter-spaces-halifax-designated-tent-encampment-closes",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
       "text":"OPP to probe company that received Ontario government payments",
       "display":"OPP to probe company that received Ontario government payments",
       "url":"https://toronto.citynews.ca/2025/12/08/opp-to-probe-company-that-received-ontario-government-payments",
@@ -9,27 +29,7 @@
         "is_landmark":false,
         "has_bitcoin":false
       }
-    },
-    {
-      "text":"McDavid says confidence rising in Edmonton",
-      "display":"McDavid says confidence rising in Edmonton",
-      "url":"https://globalnews.ca/news/11568855/mcdavid-says-confidence-rising-in-edmonton",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "display":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "url":"https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
     }
   ],
-  "generated_utc":"2025-12-08T21:37:09Z"
+  "generated_utc":"2025-12-08T21:47:31Z"
 }
