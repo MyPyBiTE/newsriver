@@ -1,13 +1,26 @@
 {
-  "generated_utc": "2025-12-09T11:21:58.153Z",
-  "itemset_hash": "1ee30f99cc66e526",
+  "generated_utc": "2025-12-09T11:39:38.526Z",
+  "itemset_hash": "34e1c7e39992e5c8",
   "count": 69,
   "items": [
     {
-      "title": "What To Do About A Problem Like Dianne Feinstein?",
-      "url": "https://fivethirtyeight.com/videos/what-to-do-about-a-problem-like-dianne-feinstein",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-09T11:19:13.036Z",
+      "title": "Golden Globe-nominated director Jafar Panahi sentenced to prison in Iran",
+      "url": "https://www.nme.com/news/film/golden-globe-nominated-director-jafar-panahi-sentenced-to-prison-in-iran-3917428",
+      "source": "NME",
+      "published_utc": "2025-12-09T11:32:15.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Jon Stewart Ridicules Newsmax Host for Struggling to Locate Venezuela on a Map: ‘Do You Guys Not Have a Meeting Before the News?!’",
+      "url": "https://www.mediaite.com/media/tv/jon-stewart-ridicules-newsmax-host-for-struggling-to-locate-venezuela-on-a-map-do-you-guys-not-have-a-meeting-before-the-news",
+      "source": "Mediaite",
+      "published_utc": "2025-12-09T11:30:47.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -17,10 +30,26 @@
       "region": "World"
     },
     {
-      "title": "Politics Podcast",
-      "url": "https://fivethirtyeight.com/tag/politics-podcast",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-09T11:19:13.036Z",
+      "title": "Crypto Markets Today: Bitcoin Slips Back Toward Danger Zone Ahead of Fed Decision",
+      "url": "https://www.coindesk.com/markets/2025/12/09/crypto-markets-today-bitcoin-slips-back-toward-danger-zone-ahead-of-fed-decision",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2025-12-09T11:30:46.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Gavin Adcock, Zach Top, Kane Brown to Headline 2026 Country Thunder Florida Fest",
+      "url": "https://www.rollingstone.com/music/music-country/2026-country-thunder-florida-lineup-gavin-adcock-1235480255",
+      "source": "Rolling Stone",
+      "published_utc": "2025-12-09T11:30:00.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -28,6 +57,93 @@
       },
       "category": "General",
       "region": "World"
+    },
+    {
+      "title": "Are we in a recession? Maybe professional Santas can tell us",
+      "url": "https://www.npr.org/sections/planet-money/2025/12/09/g-s1-101130/are-we-in-a-recession-maybe-professional-santas-can-tell-us",
+      "source": "NPR Topics: Economy",
+      "published_utc": "2025-12-09T11:30:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Oslo appearance by Nobel peace prize winner María Corina Machado delayed",
+      "url": "https://www.theguardian.com/world/2025/dec/09/nobel-peace-prize-maria-corina-machado-venezuela-oslo",
+      "source": "World news | The Guardian",
+      "published_utc": "2025-12-09T11:29:21.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Polygon deploys Madhugiri hard fork, aims for 33% throughput boost",
+      "url": "https://cointelegraph.com/news/polygon-madhugiri-hardfork-throughput-stablecoins-rwa",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2025-12-09T11:28:47.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Judge Orders Mom of Karoline Leavitt’s Nephew Released from ICE Custody",
+      "url": "https://www.mediaite.com/media/news/judge-orders-mom-of-karoline-leavitts-nephew-released-from-ice-custody",
+      "source": "Mediaite",
+      "published_utc": "2025-12-09T11:26:36.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Braves Sign James Karinchak To Minor League Deal",
+      "url": "https://www.mlbtraderumors.com/2025/12/braves-sign-james-karinchak-to-minor-league-deal.html",
+      "source": "MLB Trade Rumors",
+      "published_utc": "2025-12-09T11:22:28.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "The Rangers prospect testing their patient approach to refreshing the lineup",
+      "url": "https://nypost.com/2025/12/09/sports/where-gabe-perreault-fits-in-rangers-new-prospect-timeline",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2025-12-09T11:20:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
     },
     {
       "title": "Apps including weather, Google Maps and WhatsApp now available on Rogers Satellite",
@@ -46,32 +162,6 @@
       "region": "Canada"
     },
     {
-      "title": "How Our Presidential Endorsement Tracker Works",
-      "url": "https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-09T11:19:13.037Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "url": "https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-09T11:19:13.037Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Trump Rails at ‘Dark and Sinister Forces’ in Overnight Rant as Supreme Court Tariff Ruling Looms",
       "url": "https://www.mediaite.com/media/news/trump-rails-at-dark-and-sinister-forces-in-overnight-rant-as-supreme-court-tariff-ruling-looms",
       "source": "Mediaite",
@@ -85,62 +175,10 @@
       "region": "World"
     },
     {
-      "title": "Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "url": "https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-09T11:19:13.037Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "What’s Next In The Abortion Drug Case",
-      "url": "https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-09T11:19:13.037Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Should We Legalize Assisted Suicide?",
+      "title": "Should We Legalize Medical Aid in Dying?",
       "url": "https://www.thefp.com/p/should-we-legalize-assisted-suicide-honestly",
       "source": "The Free Press",
       "published_utc": "2025-12-09T11:03:22.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "How Concerned Are Americans About The Pitfalls Of AI?",
-      "url": "https://fivethirtyeight.com/videos/how-concerned-are-americans-about-the-pitfalls-of-ai",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-09T11:19:13.037Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Live From New York: Will AI Replace This Podcast?",
-      "url": "https://fivethirtyeight.com/videos/live-from-new-york-will-ai-replace-this-podcast",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-09T11:19:13.036Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -173,6 +211,19 @@
         "reasons": []
       },
       "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Thai foreign minister says Cambodia not ready to negotiate peace",
+      "url": "https://www.aljazeera.com/video/newsfeed/2025/12/9/thai-foreign-minister-says-cambodia-not-ready-to-negotiate-peace?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2025-12-09T11:01:42.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
       "region": "World"
     },
     {
@@ -293,6 +344,35 @@
           "score≥2.1"
         ],
         "style": "glitch"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Black bear populations are bouncing back. Here's how these Texas towns are coping",
+      "url": "https://www.npr.org/2025/12/09/nx-s1-5504109/texas-black-bear-population",
+      "source": "NPR Topics: Home Page Top Stories",
+      "published_utc": "2025-12-09T11:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "HashKey Seeks $215 Million in Hong Kong IPO While Racing Against Its Cash Burn Rate",
+      "url": "https://www.coindesk.com/markets/2025/12/09/hashkey-seeks-usd215-million-in-hong-kong-ipo-while-racing-against-its-cash-burn-rate",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2025-12-09T10:58:28.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
       },
       "category": "Business",
       "region": "World"
@@ -498,11 +578,8 @@
       "published_utc": "2025-12-09T10:26:40.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Business",
       "region": "World"
@@ -608,8 +685,8 @@
       "region": "Canada"
     },
     {
-      "title": "A 101-year-old runs the largest nutcracker museum in the U.S. Here's a look inside",
-      "url": "https://www.npr.org/2025/12/09/nx-s1-5629014/nutcracker-museum-washington-leavenworth",
+      "title": "The GOP has allowed Trump to expand his authority. Here's where they're pushing back",
+      "url": "https://www.npr.org/2025/12/09/g-s1-101183/gop-authority-trump-pushback",
       "source": "NPR Topics: Home Page Top Stories",
       "published_utc": "2025-12-09T10:00:00.000Z",
       "effects": {
@@ -621,8 +698,8 @@
       "region": "World"
     },
     {
-      "title": "The GOP has allowed Trump to expand his authority. Here's where they're pushing back",
-      "url": "https://www.npr.org/2025/12/09/g-s1-101183/gop-authority-trump-pushback",
+      "title": "A 101-year-old runs the largest nutcracker museum in the U.S. Here's a look inside",
+      "url": "https://www.npr.org/2025/12/09/nx-s1-5629014/nutcracker-museum-washington-leavenworth",
       "source": "NPR Topics: Home Page Top Stories",
       "published_utc": "2025-12-09T10:00:00.000Z",
       "effects": {
@@ -707,12 +784,12 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published_utc": "2025-12-09T09:49:58.000Z",
       "effects": {
-        "lightsaber": true,
-        "glitch": false,
+        "lightsaber": false,
+        "glitch": true,
         "reasons": [
-          "score≥2.6"
+          "score≥2.1"
         ],
-        "style": "lightsaber"
+        "style": "glitch"
       },
       "category": "Business",
       "region": "World"
@@ -833,12 +910,12 @@
       "source": "Oilprice.com",
       "published_utc": "2025-12-09T09:30:00.000Z",
       "effects": {
-        "lightsaber": true,
-        "glitch": false,
+        "lightsaber": false,
+        "glitch": true,
         "reasons": [
-          "score≥2.6"
+          "score≥2.1"
         ],
-        "style": "lightsaber"
+        "style": "glitch"
       },
       "category": "Energy",
       "region": "Canada"
@@ -894,87 +971,16 @@
       },
       "category": "Labour",
       "region": "World"
-    },
-    {
-      "title": "Mets Notes: King, Senga, Scott, Minter, Alonso",
-      "url": "https://www.mlbtraderumors.com/2025/12/mets-notes-king-senga-scott-minter-alonso.html",
-      "source": "MLB Trade Rumors",
-      "published_utc": "2025-12-09T09:22:31.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "Benin’s real coup already happened under President Talon",
-      "url": "https://www.aljazeera.com/opinions/2025/12/9/benins-real-coup-already-happened-under-president-talon?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2025-12-09T09:19:59.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Channel 4 Expected To Name New CEO Imminently",
-      "url": "https://deadline.com/2025/12/channel-4-to-name-new-ceo-1236642243",
-      "source": "Deadline",
-      "published_utc": "2025-12-09T09:18:01.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Ukrainians raise flag to show BBC the fight goes on in city claimed by Russia",
-      "url": "https://www.bbc.com/news/articles/cd6x3vv7y60o?at_campaign=rss&at_medium=RSS",
-      "source": "BBC News",
-      "published_utc": "2025-12-09T09:13:18.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "Fernandes, Manchester United crush Wolves, go sixth on ladder",
-      "url": "https://www.aljazeera.com/sports/2025/12/9/fernandes-manchester-united-crush-wolves-go-sixth-on-ladder?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2025-12-09T09:12:42.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
     }
   ],
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 816,
-    "dedup_pass1": 793,
+    "collected": 802,
+    "dedup_pass1": 781,
     "dedup_final": 320,
-    "slow_domains": [
-      "www.labourstart.org"
-    ],
+    "slow_domains": [],
     "timeouts": [
-      "japantoday.com",
       "news.communitech.ca",
       "www.cbc.ca"
     ],
@@ -986,7 +992,6 @@
       "cultmtl.com",
       "financialpost.com",
       "globalnews.ca",
-      "nypost.com",
       "toronto.citynews.ca",
       "variety.com",
       "www.boston.com",
@@ -997,56 +1002,56 @@
     "feed_times_sample": [
       {
         "host": "www.labourstart.org",
-        "sec": 3.722,
+        "sec": 1.698,
         "kept": 0
       },
       {
         "host": "toronto.citynews.ca",
-        "sec": 1.865,
+        "sec": 1.327,
         "kept": 8
       },
       {
-        "host": "www.mlb.com",
-        "sec": 0.698,
-        "kept": 14
-      },
-      {
         "host": "globalnews.ca",
-        "sec": 0.551,
+        "sec": 0.839,
         "kept": 10
       },
       {
         "host": "www.blogto.com",
-        "sec": 0.48,
+        "sec": 0.679,
         "kept": 0
       },
       {
+        "host": "www.mlb.com",
+        "sec": 0.603,
+        "kept": 14
+      },
+      {
         "host": "www.cp24.com",
-        "sec": 0.408,
+        "sec": 0.468,
         "kept": 14
       },
       {
         "host": "www.bls.gov",
-        "sec": 0.389,
+        "sec": 0.353,
         "kept": 0
       },
       {
         "host": "www.mlbtraderumors.com",
-        "sec": 0.293,
+        "sec": 0.337,
         "kept": 14
       },
       {
         "host": "www.nhl.com",
-        "sec": 0.271,
+        "sec": 0.219,
         "kept": 0
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.189,
+        "sec": 0.204,
         "kept": 14
       }
     ],
-    "elapsed_sec": 323.07,
+    "elapsed_sec": 321.52,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1083,12 +1088,12 @@
       "preferred_bonus": 124,
       "substack_tagged": 0,
       "sports_team_hits": 8,
-      "sports_player_hits": 5,
+      "sports_player_hits": 4,
       "sports_result_win_hits": 19,
       "sports_result_loss_hits": 0,
       "sports_evening_hits": 0,
       "sports_playoff_hits": 0,
-      "sports_focus_team_hits": 13,
+      "sports_focus_team_hits": 11,
       "sports_final_hits": 0,
       "sports_final_score_hits": 0,
       "hype_politics": 0,
@@ -1100,13 +1105,13 @@
       "reject_hits": 1,
       "obit_hits": 1,
       "major_figure_hits": 5,
-      "business_am_hits": 63
+      "business_am_hits": 62
     },
     "sanity_stats": {
-      "link_verification_fail": 21,
-      "soft_404_drops": 36,
+      "link_verification_fail": 24,
+      "soft_404_drops": 28,
       "max_age_drops": 0,
-      "min_age_drops": 0,
+      "min_age_drops": 8,
       "market_sanity_drops": 3,
       "backfill_steps_used": 0
     },
