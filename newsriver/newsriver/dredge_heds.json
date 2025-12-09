@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Toronto police officer facing theft, breach of trust charges",
-      "display":"Toronto police officer facing theft, breach of trust charges",
-      "url":"https://globalnews.ca/news/11570791/toronto-police-officer-charged-theft-breach-of-trust",
+      "text":"What's next? With Cease signed, Blue Jays have the most momentum in baseball",
+      "display":"What's next? With Cease signed, Blue Jays have the most momentum in baseball",
+      "url":"https://www.mlb.com/bluejays/news/dylan-cease-introduced-by-blue-jays",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Toronto police responding to ‘medical complaint’ now probing suspicious death",
+      "display":"Toronto police responding to ‘medical complaint’ now probing suspicious death",
+      "url":"https://globalnews.ca/news/11570437/toronto-woman-suspicious-death-medical-complaint",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "display":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "url":"https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"City of San Fernando’s popular Holiday Tree Lighting Ceremony drew a crowd of 3,000",
-      "display":"City of San Fernando’s popular Holiday Tree Lighting Ceremony drew a crowd of 3,000",
-      "url":"https://www.dailynews.com/2025/12/09/city-of-san-fernandos-popular-holiday-tree-lighting-ceremony-drew-a-crowd-of-3000",
+      "text":"Kirsten Hillman, Canada’s ambassador to the U.S., resigning next year",
+      "display":"Kirsten Hillman, Canada’s ambassador to the U.S., resigning next year",
+      "url":"https://toronto.citynews.ca/2025/12/09/kirsten-hillman-canadas-ambassador-to-the-u-s-resigning-next-year",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2025-12-09T23:30:16Z"
+  "generated_utc":"2025-12-09T23:47:30Z"
 }
