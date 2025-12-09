@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2025-12-09T02:03:54.734255Z",
+  "generated_utc": "2025-12-09T03:33:33.532700Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401810219",
-          "gameDate": "2025-12-09T00:00Z",
+          "gamePk": "401810221",
+          "gameDate": "2025-12-09T01:00Z",
           "status": {
             "detailedState": "Live",
             "abstractGameState": "Live"
@@ -17,15 +17,15 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "SAC"
+                "abbreviation": "SAS"
               },
-              "score": 95
+              "score": 135
             },
             "home": {
               "team": {
-                "abbreviation": "IND"
+                "abbreviation": "NOP"
               },
-              "score": 97
+              "score": 132
             }
           }
         },
@@ -33,51 +33,51 @@
           "gamePk": "401810220",
           "gameDate": "2025-12-09T00:30Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": "3rd",
-            "currentQuarter": "3rd"
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "PHX"
               },
-              "score": 69
+              "score": 108
             },
             "home": {
               "team": {
                 "abbreviation": "MIN"
               },
-              "score": 65
+              "score": 105
             }
           }
         },
         {
-          "gamePk": "401810221",
-          "gameDate": "2025-12-09T01:00Z",
+          "gamePk": "401810219",
+          "gameDate": "2025-12-09T00:00Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": "2nd",
-            "currentQuarter": "2nd"
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "SAS"
+                "abbreviation": "SAC"
               },
-              "score": 74
+              "score": 105
             },
             "home": {
               "team": {
-                "abbreviation": "NOP"
+                "abbreviation": "IND"
               },
-              "score": 55
+              "score": 116
             }
           }
         }
