@@ -1,6 +1,16 @@
 {
   "items":[
     {
+      "text":"Knicks storm past Raptors to advance into NBA Cup semifinals in Las Vegas",
+      "display":"Knicks storm past Raptors to advance into NBA Cup semifinals in Las Vegas",
+      "url":"https://nypost.com/2025/12/09/sports/knicks-storm-past-raptors-to-advance-into-nba-cup-semifinals",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
       "text":"Raptors eliminated from NBA Cup with loss to Knicks",
       "display":"Raptors eliminated from NBA Cup with loss to Knicks",
       "url":"https://toronto.citynews.ca/2025/12/09/raptors-eliminated-from-nba-cup-with-loss-to-knicks",
@@ -19,17 +29,7 @@
         "is_landmark":true,
         "has_bitcoin":false
       }
-    },
-    {
-      "text":"Calgary airport launches new security screening program",
-      "display":"Calgary airport launches new security screening program",
-      "url":"https://globalnews.ca/news/11570210/calgary-airport-new-security-screening-program",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
     }
   ],
-  "generated_utc":"2025-12-10T06:20:33Z"
+  "generated_utc":"2025-12-10T06:53:21Z"
 }
