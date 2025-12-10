@@ -1,57 +1,57 @@
 {
-  "generated_utc": "2025-12-10T01:23:44.736675Z",
+  "generated_utc": "2025-12-10T03:07:52.545433Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401809833",
-          "gameDate": "2025-12-09T23:00Z",
+          "gamePk": "401809834",
+          "gameDate": "2025-12-10T01:30Z",
           "status": {
             "detailedState": "Live",
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "MIA"
-              },
-              "score": 91
-            },
-            "home": {
-              "team": {
-                "abbreviation": "ORL"
-              },
-              "score": 103
-            }
-          }
-        },
-        {
-          "gamePk": "401809834",
-          "gameDate": "2025-12-10T01:30Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "2nd",
+            "currentQuarter": "2nd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "NYK"
               },
-              "score": 0
+              "score": 69
             },
             "home": {
               "team": {
                 "abbreviation": "TOR"
               },
-              "score": 0
+              "score": 52
+            }
+          }
+        },
+        {
+          "gamePk": "401809833",
+          "gameDate": "2025-12-09T23:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "MIA"
+              },
+              "score": 108
+            },
+            "home": {
+              "team": {
+                "abbreviation": "ORL"
+              },
+              "score": 117
             }
           }
         }
