@@ -1,8 +1,21 @@
 {
-  "generated_utc": "2025-12-12T07:45:42.330Z",
-  "itemset_hash": "ca893635e48d0505",
+  "generated_utc": "2025-12-12T07:59:14.064Z",
+  "itemset_hash": "a6e30c96531a8e0b",
   "count": 69,
   "items": [
+    {
+      "title": "Taylor Swift says she’s “very lucky” to have the guidance of Stevie Nicks: “She paved the way for me”",
+      "url": "https://www.nme.com/news/music/taylor-swift-says-shes-very-lucky-to-have-the-guidance-of-stevie-nicks-she-paved-the-way-for-me-3918070",
+      "source": "NME",
+      "published_utc": "2025-12-12T07:46:29.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
     {
       "title": "Lenny Kravitz To Play Bond Villain in ‘007: First Light’ Video Game",
       "url": "https://www.rollingstone.com/music/music-news/lenny-kravitz-bond-villain-007-first-light-game-1235482954",
@@ -37,6 +50,19 @@
       "url": "https://www.hollywoodreporter.com/movies/movie-news/red-sea-film-festival-2025-awards-winners-list-1236448835",
       "source": "The Hollywood Reporter",
       "published_utc": "2025-12-12T07:36:07.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Rights group accuses RSF of systematic sexual violence in Sudan’s civil war",
+      "url": "https://www.aljazeera.com/news/2025/12/12/rights-group-accuses-rsf-of-systematic-sexual-violence-in-sudans-civil-war?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2025-12-12T07:31:47.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -347,32 +373,6 @@
       "region": "Canada"
     },
     {
-      "title": "Charli XCX Faces the Pressures of Her ‘BRAT’ Fame in ‘The Moment’ Trailer",
-      "url": "https://hypebeast.com/2025/12/a24-aidan-zamiri-charli-xcx-the-moment-trailer-stream",
-      "source": "Hypebeast",
-      "published_utc": "2025-12-12T05:56:50.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "The ‘Lord of Hatred’ Rises: ‘Diablo IV’ Expansion Set for April 2026",
-      "url": "https://hypebeast.com/2025/12/blizzard-diablo-4-lord-of-hatred-announcement-info",
-      "source": "Hypebeast",
-      "published_utc": "2025-12-12T05:52:32.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
       "title": "Dogecoin Hovers Near Key Support as Fed Easing Fails to Spark Risk Rally",
       "url": "https://www.coindesk.com/markets/2025/12/12/dogecoin-hovers-near-key-support-as-fed-easing-fails-to-spark-risk-rally",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
@@ -383,19 +383,6 @@
         "reasons": []
       },
       "category": "Business",
-      "region": "World"
-    },
-    {
-      "title": "Ready! Fight!: Official ‘Street Fighter’ Teaser Trailer Offers the First Look at New Live-Action Film",
-      "url": "https://hypebeast.com/2025/12/legendary-entertainment-street-fighter-live-action-film-teaser-trailer-2026-release",
-      "source": "Hypebeast",
-      "published_utc": "2025-12-12T05:47:21.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
       "region": "World"
     },
     {
@@ -474,6 +461,19 @@
       "url": "https://www.thewrap.com/jimmy-kimmel-reacts-time-ai-architects-person-of-the-year-cover",
       "source": "TheWrap",
       "published_utc": "2025-12-12T05:36:18.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Harvard-Westlake boys basketball rolls past Valencia",
+      "url": "https://www.dailynews.com/2025/12/11/harvard-westlake-boys-basketball-rolls-past-valencia",
+      "source": "Daily News",
+      "published_utc": "2025-12-12T05:34:43.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -883,11 +883,8 @@
       "published_utc": "2025-12-12T03:46:25.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Sports",
       "region": "Canada"
@@ -967,10 +964,12 @@
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 749,
-    "dedup_pass1": 737,
+    "collected": 797,
+    "dedup_pass1": 778,
     "dedup_final": 320,
-    "slow_domains": [],
+    "slow_domains": [
+      "hypebeast.com"
+    ],
     "timeouts": [
       "canadianbeats.ca",
       "news.communitech.ca",
@@ -983,6 +982,7 @@
     "caps_hit": [
       "cultmtl.com",
       "financialpost.com",
+      "nypost.com",
       "toronto.citynews.ca",
       "variety.com",
       "www.boston.com",
@@ -993,56 +993,56 @@
     "feed_times_sample": [
       {
         "host": "www.labourstart.org",
-        "sec": 1.83,
+        "sec": 1.273,
         "kept": 0
       },
       {
         "host": "toronto.citynews.ca",
-        "sec": 1.241,
+        "sec": 0.854,
         "kept": 8
       },
       {
         "host": "globalnews.ca",
-        "sec": 0.858,
+        "sec": 0.823,
         "kept": 1
       },
       {
-        "host": "www.cp24.com",
-        "sec": 0.563,
-        "kept": 14
-      },
-      {
-        "host": "www.mlb.com",
-        "sec": 0.518,
-        "kept": 14
-      },
-      {
         "host": "www.blogto.com",
-        "sec": 0.492,
-        "kept": 0
-      },
-      {
-        "host": "www.bls.gov",
-        "sec": 0.425,
+        "sec": 0.432,
         "kept": 0
       },
       {
         "host": "www.mlbtraderumors.com",
+        "sec": 0.344,
+        "kept": 14
+      },
+      {
+        "host": "www.mlb.com",
         "sec": 0.314,
         "kept": 14
       },
       {
+        "host": "www.cp24.com",
+        "sec": 0.281,
+        "kept": 14
+      },
+      {
         "host": "www.nhl.com",
-        "sec": 0.266,
+        "sec": 0.212,
+        "kept": 0
+      },
+      {
+        "host": "www.bls.gov",
+        "sec": 0.142,
         "kept": 0
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.22,
+        "sec": 0.114,
         "kept": 14
       }
     ],
-    "elapsed_sec": 329.26,
+    "elapsed_sec": 398.51,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1068,7 +1068,7 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 11,
+      "ps_fatal_hits": 12,
       "ps_injury_hits": 0,
       "market_btc_hits": 0,
       "market_index_hits": 0,
@@ -1076,11 +1076,11 @@
       "market_single_hits": 0,
       "agg_penalties": 0,
       "press_penalties": 0,
-      "preferred_bonus": 122,
+      "preferred_bonus": 121,
       "substack_tagged": 0,
       "sports_team_hits": 6,
-      "sports_player_hits": 4,
-      "sports_result_win_hits": 22,
+      "sports_player_hits": 5,
+      "sports_result_win_hits": 23,
       "sports_result_loss_hits": 0,
       "sports_evening_hits": 0,
       "sports_playoff_hits": 0,
@@ -1099,11 +1099,11 @@
       "business_am_hits": 0
     },
     "sanity_stats": {
-      "link_verification_fail": 26,
-      "soft_404_drops": 79,
+      "link_verification_fail": 27,
+      "soft_404_drops": 85,
       "max_age_drops": 0,
       "min_age_drops": 8,
-      "market_sanity_drops": 4,
+      "market_sanity_drops": 3,
       "backfill_steps_used": 0
     },
     "require_exact_count": 69,
