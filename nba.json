@@ -1,31 +1,57 @@
 {
-  "generated_utc": "2025-12-12T03:08:52.806026Z",
+  "generated_utc": "2025-12-12T04:03:11.545766Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401836746",
-          "gameDate": "2025-12-12T01:00Z",
+          "gamePk": "401836749",
+          "gameDate": "2025-12-12T03:00Z",
           "status": {
             "detailedState": "Live",
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
+            "currentPeriodOrdinal": "2nd",
+            "currentQuarter": "2nd"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "DEN"
+              },
+              "score": 66
+            },
+            "home": {
+              "team": {
+                "abbreviation": "SAC"
+              },
+              "score": 48
+            }
+          }
+        },
+        {
+          "gamePk": "401836746",
+          "gameDate": "2025-12-12T01:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "LAC"
               },
-              "score": 97
+              "score": 113
             },
             "home": {
               "team": {
                 "abbreviation": "HOU"
               },
-              "score": 101
+              "score": 115
             }
           }
         },
@@ -33,25 +59,25 @@
           "gamePk": "401836747",
           "gameDate": "2025-12-12T01:00Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "BOS"
               },
-              "score": 86
+              "score": 101
             },
             "home": {
               "team": {
                 "abbreviation": "MIL"
               },
-              "score": 98
+              "score": 116
             }
           }
         },
@@ -59,51 +85,25 @@
           "gamePk": "401836748",
           "gameDate": "2025-12-12T01:00Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "POR"
               },
-              "score": 103
+              "score": 120
             },
             "home": {
               "team": {
                 "abbreviation": "NOP"
               },
-              "score": 115
-            }
-          }
-        },
-        {
-          "gamePk": "401836749",
-          "gameDate": "2025-12-12T03:00Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "DEN"
-              },
-              "score": 0
-            },
-            "home": {
-              "team": {
-                "abbreviation": "SAC"
-              },
-              "score": 0
+              "score": 143
             }
           }
         }
