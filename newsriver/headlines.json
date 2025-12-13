@@ -1,32 +1,80 @@
 {
-  "generated_utc": "2025-12-13T19:16:05.336Z",
-  "itemset_hash": "8dd2cb2c5c17b335",
+  "generated_utc": "2025-12-13T19:30:33.337Z",
+  "itemset_hash": "53b5caffb0f98e82",
   "count": 69,
   "items": [
     {
-      "title": "What To Do About A Problem Like Dianne Feinstein?",
-      "url": "https://fivethirtyeight.com/videos/what-to-do-about-a-problem-like-dianne-feinstein",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-13T19:13:26.038Z",
+      "title": "Lindsay Lohan Will Voice Maggie Simpson in New Simpsons Episode",
+      "url": "https://consequence.net/2025/12/lindsay-lohan-maggie-simpson-simpsons",
+      "source": "Consequence",
+      "published_utc": "2025-12-13T19:20:22.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
         "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Trump Lashes Out in First Statement on ISIS Killing of Two American Soldiers in Syria: ‘Serious Retaliation!’",
+      "url": "https://www.mediaite.com/media/news/trump-lashes-out-in-first-statement-on-isis-killing-of-two-american-soldiers-in-syria-serious-retaliation",
+      "source": "Mediaite",
+      "published_utc": "2025-12-13T19:19:35.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Two US soldiers and interpreter killed by IS gunman in Syria, US military says",
+      "url": "https://www.bbc.com/news/articles/c9d9vpxjp2go?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2025-12-13T19:17:34.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
       },
       "category": "General",
       "region": "World"
     },
     {
-      "title": "Politics Podcast",
-      "url": "https://fivethirtyeight.com/tag/politics-podcast",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-13T19:13:26.038Z",
+      "title": "Yankees To Re-Sign Amed Rosario",
+      "url": "https://www.mlbtraderumors.com/2025/12/yankees-to-re-sign-amed-rosario.html",
+      "source": "MLB Trade Rumors",
+      "published_utc": "2025-12-13T19:15:42.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Megan Moroney’s 2026 “Cloud 9” Tour: How to Get Tickets",
+      "url": "https://consequence.net/2025/12/megan-moroney-2026-tour-dates-tickets",
+      "source": "Consequence",
+      "published_utc": "2025-12-13T19:12:10.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
         "reasons": []
       },
-      "category": "General",
+      "category": "Culture",
       "region": "World"
     },
     {
@@ -46,62 +94,10 @@
       "region": "Canada"
     },
     {
-      "title": "How Our Presidential Endorsement Tracker Works",
-      "url": "https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-13T19:13:26.039Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "url": "https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-13T19:13:26.039Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Frankie Muniz Says ‘Malcolm in the Middle’ Reboot Was First Time He Was ‘Happy to Call Myself an Actor’ and One of the ‘Best Times’ He’s Had on Set",
       "url": "https://variety.com/2025/tv/news/frankie-muniz-happy-actor-malcolm-in-the-middle-reboot-1236608138",
       "source": "Variety",
       "published_utc": "2025-12-13T19:08:56.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "url": "https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-13T19:13:26.039Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "What’s Next In The Abortion Drug Case",
-      "url": "https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-13T19:13:26.039Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -124,48 +120,6 @@
       "region": "World"
     },
     {
-      "title": "How Concerned Are Americans About The Pitfalls Of AI?",
-      "url": "https://fivethirtyeight.com/videos/how-concerned-are-americans-about-the-pitfalls-of-ai",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-13T19:13:26.039Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Live From New York: Will AI Replace This Podcast?",
-      "url": "https://fivethirtyeight.com/videos/live-from-new-york-will-ai-replace-this-podcast",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-13T19:13:26.038Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Two US soldiers and interpreter killed by IS gunman in Syria, US military says",
-      "url": "https://www.bbc.com/news/articles/c9d9vpxjp2go?at_campaign=rss&at_medium=RSS",
-      "source": "BBC News",
-      "published_utc": "2025-12-13T19:07:05.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Vin Diesel “Wrote A Role” For Cristiano Ronaldo In Final ‘Fast & Furious’ Movie",
       "url": "https://deadline.com/2025/12/vin-diesel-wrote-role-cristiano-ronaldo-fast-furious-1236647917",
       "source": "Deadline",
@@ -176,35 +130,6 @@
         "reasons": []
       },
       "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Amy Schumer praised estranged husband Chris Fischer just hours before announcing split",
-      "url": "https://pagesix.com/2025/12/13/celebrity-news/amy-schumer-praised-estranged-husband-chris-fischer-just-hours-before-announcing-split",
-      "source": "New York Post",
-      "published_utc": "2025-12-13T19:04:01.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Joseph Byrd, Who Led Pioneering Psych Rock Band the United States of America, Dead at 87",
-      "url": "https://www.rollingstone.com/music/music-news/joseph-byrd-united-states-of-america-band-leader-dead-obit-1235483707",
-      "source": "Rolling Stone",
-      "published_utc": "2025-12-13T19:03:21.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
       "region": "World"
     },
     {
@@ -241,19 +166,6 @@
       "url": "https://variety.com/2025/tv/actors/diane-kruger-little-disasters-postpartum-anxiety-1236606651",
       "source": "Variety",
       "published_utc": "2025-12-13T19:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "The Best and Brightest Moments From Jingle Ball",
-      "url": "https://www.rollingstone.com/music/music-pictures/the-best-and-brightest-moments-from-jingle-ball-1235483599",
-      "source": "Rolling Stone",
-      "published_utc": "2025-12-13T18:59:31.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -321,6 +233,22 @@
       "region": "Canada"
     },
     {
+      "title": "2 U.S. service members and 1 civilian are killed in ISIS attack in Syria",
+      "url": "https://www.npr.org/2025/12/13/nx-s1-5643557/2-u-s-service-members-and-1-civilian-are-killed-in-isis-attack-in-syria",
+      "source": "NPR Topics: Home Page Top Stories",
+      "published_utc": "2025-12-13T18:56:08.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
       "title": "Tigers “Deep In Talks” With Kenley Jansen",
       "url": "https://www.mlbtraderumors.com/2025/12/tigers-deep-in-talks-with-kenley-jansen.html",
       "source": "MLB Trade Rumors",
@@ -350,22 +278,6 @@
       "region": "World"
     },
     {
-      "title": "Yankees To Re-Sign Amed Rosario",
-      "url": "https://www.mlbtraderumors.com/2025/12/yankees-to-re-sign-amed-rosario.html",
-      "source": "MLB Trade Rumors",
-      "published_utc": "2025-12-13T18:47:42.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
       "title": "Israel targets senior Hamas official in deadly Gaza strike",
       "url": "https://www.bbc.com/news/articles/cx2dklj3rxvo?at_campaign=rss&at_medium=RSS",
       "source": "BBC News",
@@ -388,29 +300,10 @@
       "published_utc": "2025-12-13T18:46:03.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Actor Peter Greene was lying ‘face down’ on the floor with ‘blood everywhere’ when police found him dead: report",
-      "url": "https://pagesix.com/2025/12/13/celebrity-news/actor-peter-greene-was-lying-face-down-on-the-floor-with-blood-everywhere-when-police-found-him-dead-report",
-      "source": "New York Post",
-      "published_utc": "2025-12-13T18:43:50.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "breaker"
-      },
-      "category": "General",
       "region": "World"
     },
     {
@@ -428,19 +321,6 @@
       },
       "category": "General",
       "region": "Canada"
-    },
-    {
-      "title": "Instead of Waiting for Godot, Some Wait for Perfection",
-      "url": "https://www.psychologytoday.com/ca/blog/perfectionism/202512/instead-of-waiting-for-godot-some-wait-for-perfection",
-      "source": "Psychology Today: The Latest",
-      "published_utc": "2025-12-13T18:41:07.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Youth",
-      "region": "World"
     },
     {
       "title": "Bangladesh says six peacekeepers killed in attack on UN base in Abyei",
@@ -505,19 +385,6 @@
       "url": "https://www.aljazeera.com/video/inside-story/2025/12/13/could-violence-in-the-drc-become-a-regional-conflict?traffic_source=rss",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
       "published_utc": "2025-12-13T18:27:34.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Tim Scott Sounds the Alarm Over Netflix/Warner Bros. Discovery Deal: ‘Significant Antitrust Problems’",
-      "url": "https://www.thewrap.com/tim-scott-netflix-warner-bros-deal-antitrust-letter",
-      "source": "TheWrap",
-      "published_utc": "2025-12-13T18:27:14.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -601,19 +468,6 @@
       "region": "World"
     },
     {
-      "title": "'Game of Thrones' Star Maisie Williams Skinny Dips in Italy, on Video",
-      "url": "https://www.tmz.com/2025/12/13/maisie-williams-skinny-dips-italy-video",
-      "source": "TMZ.com",
-      "published_utc": "2025-12-13T18:18:43.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Alabama Shakes announce US headline tour for 2026",
       "url": "https://www.nme.com/news/music/alabama-shakes-announce-us-headline-tour-for-2026-3918415",
       "source": "NME",
@@ -653,49 +507,10 @@
       "region": "World"
     },
     {
-      "title": "The Mixed Emotions of the Most Wonderful Time of the Year",
-      "url": "https://www.psychologytoday.com/ca/blog/resonant-minds/202512/the-mixed-emotions-of-the-most-wonderful-time-of-the-year",
-      "source": "Psychology Today: The Latest",
-      "published_utc": "2025-12-13T18:08:21.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Youth",
-      "region": "World"
-    },
-    {
       "title": "Salah assists Ekitike’s second as Liverpool beat Brighton in EPL",
       "url": "https://www.aljazeera.com/sports/2025/12/13/salah-assists-ekitikes-brace-as-liverpool-beat-brighton?traffic_source=rss",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
       "published_utc": "2025-12-13T18:05:52.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Man suspected of killing wife in Lancaster, fleeing with kids to Peru, is arrested at LAX",
-      "url": "https://www.dailynews.com/2025/12/13/man-suspected-of-killing-wife-in-lancaster-fleeing-with-kids-to-peru-is-arrested-at-lax",
-      "source": "Daily News",
-      "published_utc": "2025-12-13T18:04:56.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Usher and His Sons Team Up With Instagram on Meta ‘Carversations’ Series to Talk Teen Social Media Use (and Whose DMs They Would Slide Into)",
-      "url": "https://www.rollingstone.com/product-recommendations/lifestyle/usher-instagram-carversations-series-campaign-interview-1235483596",
-      "source": "Rolling Stone",
-      "published_utc": "2025-12-13T18:02:37.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -808,19 +623,6 @@
       "region": "World"
     },
     {
-      "title": "Starts With A Bang podcast #124 – Astrochemistry",
-      "url": "https://bigthink.com/starts-with-a-bang/starts-with-a-bang-podcast-124-astrochemistry",
-      "source": "Big Think",
-      "published_utc": "2025-12-13T17:58:32.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
       "title": "Caitlin Clark calls contentious WNBA labor talks ‘biggest moment’ league has ever seen",
       "url": "https://nypost.com/2025/12/13/sports/caitlin-clark-wnba-labor-talks-biggest-moment-league-has-seen",
       "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
@@ -863,49 +665,10 @@
       "region": "World"
     },
     {
-      "title": "Lady Gaga Halts 'Mayhem Ball' Show After Dancer Falls Off Stage",
-      "url": "https://www.tmz.com/2025/12/13/lady-gaga-dancer-falls-off-stage-stop-show",
-      "source": "TMZ.com",
-      "published_utc": "2025-12-13T17:40:40.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
       "title": "Trump Admin Secures Release Of 123 Political Prisoners, Including American Citizens, From Belarus",
       "url": "https://dailycaller.com/2025/12/13/donald-trump-administration-eases-trade-sanctions-belarus-release-123-political-prisoners-american-citizens",
       "source": "The Daily Caller",
       "published_utc": "2025-12-13T17:39:07.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Are You Stuck in Your Head During the Festive Season?",
-      "url": "https://www.psychologytoday.com/ca/blog/self-made/202511/are-you-stuck-in-your-head-during-the-festive-season",
-      "source": "Psychology Today: The Latest",
-      "published_utc": "2025-12-13T17:37:55.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Youth",
-      "region": "World"
-    },
-    {
-      "title": "How to Watch John Cena’s Final WWE Match Online",
-      "url": "https://www.rollingstone.com/product-recommendations/streaming/how-to-watch-john-cena-final-wwe-match-online-1235481875",
-      "source": "Rolling Stone",
-      "published_utc": "2025-12-13T17:35:00.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -954,7 +717,7 @@
         "reasons": [
           "score≥2.6"
         ],
-        "style": "lightsaber"
+        "style": "breaker"
       },
       "category": "Labour",
       "region": "World"
@@ -971,19 +734,277 @@
       },
       "category": "Culture",
       "region": "World"
+    },
+    {
+      "title": "Steve Cohen needs to personally address potential Juan Soto-Francisco Lindor rift to avoid Mets disaster",
+      "url": "https://nypost.com/2025/12/13/sports/steve-cohen-must-address-potential-juan-soto-francisco-lindor-mets-rift",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2025-12-13T17:26:50.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Michael Saylor's Strategy Hangs on to Spot in Nasdaq 100 Index",
+      "url": "https://www.coindesk.com/business/2025/12/13/michael-saylor-s-strategy-hangs-on-to-spot-in-nasdaq-100-index",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2025-12-13T17:23:19.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Victor Wembanyama takes dig at Nikola Jokic while assessing who is NBA’s best player",
+      "url": "https://nypost.com/2025/12/13/sports/victor-wembanyama-takes-dig-at-nikola-jokic-while-assessing-who-is-nbas-best-player",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2025-12-13T17:23:05.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Trump just took this giant step towards authoritarian rule — and the media ignored it",
+      "url": "https://www.rawstory.com/trump-memo-2674394680",
+      "source": "Raw Story",
+      "published_utc": "2025-12-13T17:21:39.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Watch CMAT return to hometown local pub for surprise intimate performance",
+      "url": "https://www.nme.com/news/music/watch-cmat-return-to-hometown-local-pub-for-surprise-intimate-performance-3918411",
+      "source": "NME",
+      "published_utc": "2025-12-13T17:21:08.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Vanguard Exec Likens Bitcoin to ‘Digital Labubu’ Even as Firm Opens ETF Trading Access",
+      "url": "https://www.coindesk.com/business/2025/12/13/vanguard-exec-likens-bitcoin-to-digital-labubu-even-as-firm-opens-etf-trading-access",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2025-12-13T17:19:49.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Trump Ally Accused of Using Biden Era Dem ‘Talking Points’ To Defend Trump on CNN Panel",
+      "url": "https://www.mediaite.com/media/tv/trump-ally-accused-of-using-biden-era-dem-talking-points-to-defend-trump-on-cnn-panel",
+      "source": "Mediaite",
+      "published_utc": "2025-12-13T17:19:29.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Collingwood opens bottled water distribution centres as boil-water advisory continues",
+      "url": "https://globalnews.ca/news/11576677/collingwood-ont-boil-water-advisory",
+      "source": ": Toronto",
+      "published_utc": "2025-12-13T17:04:34.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Local",
+      "region": "Canada"
+    },
+    {
+      "title": "Box Office: ‘Zootopia 2’ Hops to $6.2 Million, ‘Ella McCay’ Polls Low With $850,000 Opening Day",
+      "url": "https://variety.com/2025/film/news/box-office-zootopia-2-ella-mccay-five-nights-at-freddys-2-1236608109",
+      "source": "Film",
+      "published_utc": "2025-12-13T17:04:22.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "bet365 bonus code NYPBET: Bet $5, get $150 in bonus bets for NFL Week 15",
+      "url": "https://nypost.com/2025/12/13/betting/bet365-bonus-code-nypbet-bet-5-get-150-in-bonus-bets-for-nfl-week-15",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2025-12-13T17:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "After 2025’s Test Run, Crypto IPOs Face Their Real Trial in 2026",
+      "url": "https://www.coindesk.com/business/2025/12/10/after-2025-s-test-run-crypto-ipos-face-their-real-trial-in-2026",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2025-12-13T17:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "‘Taghiyev: Oil’ Review: Azerbaijan’s Oscar Hopeful is the First Act of a Larger Biopic",
+      "url": "https://variety.com/2025/film/news/taghiyev-oil-review-1236608083",
+      "source": "Film",
+      "published_utc": "2025-12-13T17:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Philip Rivers officially set to start for Colts in wild NFL comeback story",
+      "url": "https://nypost.com/2025/12/13/sports/philip-rivers-44-to-start-for-colts-vs-seahawks-in-nfl-return",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2025-12-13T16:57:13.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Abraham Quintanilla Dies: Selena’s Father Who Produced 1997 Biopic & Netflix Series Was 86",
+      "url": "https://deadline.com/2025/12/abraham-quintanilla-selena-father-dies-86-1236647884",
+      "source": "Deadline",
+      "published_utc": "2025-12-13T16:45:04.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "X marks spot where Will Flemming ran afoul of some mean-spirited Red Sox fans on social media",
+      "url": "https://www.boston.com/sports/boston-red-sox/2025/12/13/red-sox-announcer-will-flemming-x-twitter",
+      "source": "Boston Red Sox: News, commentary, scores, schedule, and stats",
+      "published_utc": "2025-12-13T16:45:01.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Tether’s Bid to Buy Italian Soccer Club Juventus Rejected by Majority Shareholder Exor",
+      "url": "https://www.coindesk.com/coindesk-news/2025/12/13/tether-s-bid-to-buy-italian-soccer-club-juventus-rejected-by-majority-shareholder-exor",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2025-12-13T16:40:29.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "‘One hour is just nothing’: Toronto man honoured for 500th  blood donation",
+      "url": "https://globalnews.ca/news/11576702/toronto-milestone-blood-donation",
+      "source": ": Toronto",
+      "published_utc": "2025-12-13T16:39:02.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Local",
+      "region": "Canada"
+    },
+    {
+      "title": "Israel says it has killed a top Hamas commander in Gaza",
+      "url": "https://toronto.citynews.ca/2025/12/13/israel-says-it-has-killed-a-top-hamas-commander-in-gaza",
+      "source": "CityNews Toronto",
+      "published_utc": "2025-12-13T16:36:19.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
     }
   ],
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 872,
-    "dedup_pass1": 849,
+    "collected": 725,
+    "dedup_pass1": 711,
     "dedup_final": 320,
-    "slow_domains": [
-      "theintercept.com"
-    ],
+    "slow_domains": [],
     "timeouts": [
-      "japantoday.com",
       "news.communitech.ca",
       "www.cbc.ca"
     ],
@@ -995,7 +1016,6 @@
       "cultmtl.com",
       "financialpost.com",
       "globalnews.ca",
-      "nypost.com",
       "toronto.citynews.ca",
       "variety.com",
       "www.boston.com",
@@ -1005,57 +1025,57 @@
     ],
     "feed_times_sample": [
       {
-        "host": "toronto.citynews.ca",
-        "sec": 1.329,
-        "kept": 8
-      },
-      {
         "host": "www.labourstart.org",
-        "sec": 1.307,
+        "sec": 1.503,
         "kept": 0
       },
       {
+        "host": "toronto.citynews.ca",
+        "sec": 1.166,
+        "kept": 8
+      },
+      {
+        "host": "www.mlb.com",
+        "sec": 0.491,
+        "kept": 14
+      },
+      {
         "host": "www.blogto.com",
-        "sec": 0.42,
+        "sec": 0.478,
         "kept": 0
       },
       {
         "host": "www.cp24.com",
-        "sec": 0.329,
-        "kept": 14
-      },
-      {
-        "host": "www.mlb.com",
-        "sec": 0.329,
+        "sec": 0.383,
         "kept": 14
       },
       {
         "host": "globalnews.ca",
-        "sec": 0.282,
+        "sec": 0.35,
         "kept": 10
       },
       {
-        "host": "www.mlbtraderumors.com",
-        "sec": 0.267,
-        "kept": 14
+        "host": "www.bls.gov",
+        "sec": 0.335,
+        "kept": 0
       },
       {
         "host": "www.nhl.com",
-        "sec": 0.221,
+        "sec": 0.27,
         "kept": 0
       },
       {
-        "host": "www.bls.gov",
-        "sec": 0.208,
-        "kept": 0
+        "host": "www.mlbtraderumors.com",
+        "sec": 0.238,
+        "kept": 14
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.139,
+        "sec": 0.213,
         "kept": 14
       }
     ],
-    "elapsed_sec": 304.61,
+    "elapsed_sec": 327.17,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1081,7 +1101,7 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 31,
+      "ps_fatal_hits": 23,
       "ps_injury_hits": 0,
       "market_btc_hits": 0,
       "market_index_hits": 0,
@@ -1089,11 +1109,11 @@
       "market_single_hits": 0,
       "agg_penalties": 0,
       "press_penalties": 0,
-      "preferred_bonus": 124,
+      "preferred_bonus": 110,
       "substack_tagged": 0,
       "sports_team_hits": 9,
       "sports_player_hits": 5,
-      "sports_result_win_hits": 25,
+      "sports_result_win_hits": 22,
       "sports_result_loss_hits": 0,
       "sports_evening_hits": 0,
       "sports_playoff_hits": 0,
@@ -1106,17 +1126,17 @@
       "hype_jobs": 0,
       "hype_sports": 0,
       "hype_ceasefire": 0,
-      "reject_hits": 1,
-      "obit_hits": 10,
+      "reject_hits": 0,
+      "obit_hits": 7,
       "major_figure_hits": 3,
       "business_am_hits": 0
     },
     "sanity_stats": {
-      "link_verification_fail": 22,
-      "soft_404_drops": 44,
+      "link_verification_fail": 30,
+      "soft_404_drops": 34,
       "max_age_drops": 0,
-      "min_age_drops": 1,
-      "market_sanity_drops": 2,
+      "min_age_drops": 9,
+      "market_sanity_drops": 4,
       "backfill_steps_used": 0
     },
     "require_exact_count": 69,
