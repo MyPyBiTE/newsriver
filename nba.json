@@ -1,57 +1,31 @@
 {
-  "generated_utc": "2025-12-14T22:56:21.158759Z",
+  "generated_utc": "2025-12-14T23:18:41.063680Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401836799",
-          "gameDate": "2025-12-14T20:30Z",
+          "gamePk": "401836798",
+          "gameDate": "2025-12-14T23:00Z",
           "status": {
             "detailedState": "Live",
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "CHA"
-              },
-              "score": 111
-            },
-            "home": {
-              "team": {
-                "abbreviation": "CLE"
-              },
-              "score": 111
-            }
-          }
-        },
-        {
-          "gamePk": "401836798",
-          "gameDate": "2025-12-14T23:00Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "PHI"
               },
-              "score": 0
+              "score": 10
             },
             "home": {
               "team": {
                 "abbreviation": "ATL"
               },
-              "score": 0
+              "score": 11
             }
           }
         },
@@ -59,25 +33,25 @@
           "gamePk": "401836800",
           "gameDate": "2025-12-14T23:00Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "MIL"
               },
-              "score": 0
+              "score": 12
             },
             "home": {
               "team": {
                 "abbreviation": "BKN"
               },
-              "score": 0
+              "score": 17
             }
           }
         },
@@ -182,6 +156,32 @@
                 "abbreviation": "POR"
               },
               "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401836799",
+          "gameDate": "2025-12-14T20:30Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "CHA"
+              },
+              "score": 119
+            },
+            "home": {
+              "team": {
+                "abbreviation": "CLE"
+              },
+              "score": 111
             }
           }
         },
