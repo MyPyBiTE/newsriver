@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Politics Podcast",
-      "display":"Politics Podcast",
-      "url":"https://fivethirtyeight.com/tag/politics-podcast",
+      "text":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
+      "display":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
+      "url":"https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Police say 2 people have been arrested after reports that several people were shot at Sydney’s Bondi Beach",
+      "display":"Police say 2 people have been arrested after reports that several people were shot at Sydney’s Bondi Beach",
+      "url":"https://www.dailynews.com/2025/12/14/police-say-2-people-have-been-arrested-after-reports-that-several-people-were-shot-at-sydneys-bondi-beach",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -19,17 +29,7 @@
         "is_landmark":false,
         "has_bitcoin":false
       }
-    },
-    {
-      "text":"Five arrested over plot to attack German Christmas market",
-      "display":"Five arrested over plot to attack German Christmas market",
-      "url":"https://www.bbc.com/news/articles/c2dz7r708dxo?at_campaign=rss&at_medium=RSS",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
     }
   ],
-  "generated_utc":"2025-12-14T09:31:15Z"
+  "generated_utc":"2025-12-14T09:47:48Z"
 }
