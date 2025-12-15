@@ -1,8 +1,18 @@
 {
   "items":[
     {
-      "text":"Rob Reiner and his wife found dead in L.A. home with stab wounds: reports",
-      "display":"Rob Reiner and his wife found dead in L.A. home with stab wounds: reports",
+      "text":"St. Louis sends thoughts to Brown after shooting",
+      "display":"St. Louis sends thoughts to Brown after shooting",
+      "url":"https://globalnews.ca/news/11577877/st-louis-sends-thoughts-to-brown-after-shooting",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Rob Reiner and his wife found dead in Los Angeles home, AP source says",
+      "display":"Rob Reiner and his wife found dead in Los Angeles home, AP source says",
       "url":"https://toronto.citynews.ca/2025/12/14/2-people-found-dead-in-home-owned-by-rob-reiner-source-says",
       "flags":{
         "is_breaking":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Dobes, Canadiens hold off Oilers for 4-1 win",
-      "display":"Dobes, Canadiens hold off Oilers for 4-1 win",
-      "url":"https://globalnews.ca/news/11577765/dobes-canadiens-hold-off-oilers-for-4-1-win",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Hong Kong court convicts democracy activist Jimmy Lai on conspiracy charges",
-      "display":"Hong Kong court convicts democracy activist Jimmy Lai on conspiracy charges",
-      "url":"https://www.aljazeera.com/news/2025/12/15/hong-kong-court-convicts-democracy-activist-jimmy-lai-on-conspiracy-charges?traffic_source=rss",
+      "text":"Diamondbacks To Sign Merrill Kelly",
+      "display":"Diamondbacks To Sign Merrill Kelly",
+      "url":"https://www.mlbtraderumors.com/2025/12/diamondbacks-to-sign-merrill-kelly.html",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2025-12-15T05:18:43Z"
+  "generated_utc":"2025-12-15T05:46:23Z"
 }
