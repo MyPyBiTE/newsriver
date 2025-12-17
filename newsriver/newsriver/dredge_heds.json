@@ -1,19 +1,9 @@
 {
   "items":[
     {
-      "text":"Joshua’s late goal helps Leafs rally to win",
-      "display":"Joshua’s late goal helps Leafs rally to win",
-      "url":"https://globalnews.ca/news/11581043/joshuas-late-goal-helps-leafs-rally-to-win",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"4 males flee after North York restaurant shooting: police",
-      "display":"4 males flee after North York restaurant shooting: police",
-      "url":"https://toronto.citynews.ca/2025/12/16/4-males-flee-after-etobicoke-restaurant-shooting-police",
+      "text":"Head of Via Rail to step down in January as Canada pursues high-speed rail",
+      "display":"Head of Via Rail to step down in January as Canada pursues high-speed rail",
+      "url":"https://toronto.citynews.ca/2025/12/16/head-of-via-rail-to-step-down-in-january-as-canada-pursues-high-speed-rail",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -21,9 +11,19 @@
       }
     },
     {
-      "text":"A Texas News Vlogger Asks SCOTUS To Decide Whether Criminalizing Journalism Is 'Obviously Unconstitutional'",
-      "display":"A Texas News Vlogger Asks SCOTUS To Decide Whether Criminalizing Journalism Is 'Obviously Unconstitutional'",
-      "url":"https://reason.com/2025/12/17/a-texas-news-vlogger-asks-scotus-to-decide-whether-criminalizing-journalism-is-obviously-unconstitutional",
+      "text":"Marjorie Taylor Greene Says ‘the Dam Is Breaking’ in the GOP After Party’s Recent Breaks With Trump | Video",
+      "display":"Marjorie Taylor Greene Says ‘the Dam Is Breaking’ in the GOP After Party’s Recent Breaks With Trump | Video",
+      "url":"https://www.thewrap.com/marjorie-taylor-greene-cnn-interview-gop-dam-breaking-trump-fallout",
+      "flags":{
+        "is_breaking":true,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Politics Podcast",
+      "display":"Politics Podcast",
+      "url":"https://fivethirtyeight.com/tag/politics-podcast",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2025-12-17T05:43:28Z"
+  "generated_utc":"2025-12-17T05:53:14Z"
 }
