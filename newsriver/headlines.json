@@ -1,13 +1,13 @@
 {
-  "generated_utc": "2025-12-18T23:40:04.643Z",
-  "itemset_hash": "6ff60fbe75ce923f",
+  "generated_utc": "2025-12-18T23:51:50.354Z",
+  "itemset_hash": "e694d726765c3347",
   "count": 69,
   "items": [
     {
       "title": "What To Do About A Problem Like Dianne Feinstein?",
       "url": "https://fivethirtyeight.com/videos/what-to-do-about-a-problem-like-dianne-feinstein",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-18T23:36:55.361Z",
+      "published_utc": "2025-12-18T23:48:38.719Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -20,7 +20,7 @@
       "title": "Politics Podcast",
       "url": "https://fivethirtyeight.com/tag/politics-podcast",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-18T23:36:55.361Z",
+      "published_utc": "2025-12-18T23:48:38.720Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -30,23 +30,26 @@
       "region": "World"
     },
     {
-      "title": "Trump's latest 'insult' will be measured in 'empty billets and early graves': analyst",
-      "url": "https://www.rawstory.com/trump-2674712689",
-      "source": "Raw Story",
-      "published_utc": "2025-12-18T23:36:30.000Z",
+      "title": "Joe Buck set to call Mets-Dodgers game on ESPN in 2026",
+      "url": "https://nypost.com/2025/12/18/sports/joe-buck-set-to-call-mets-dodgers-game-on-espn-in-2026",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2025-12-18T23:46:20.000Z",
       "effects": {
-        "lightsaber": false,
+        "lightsaber": true,
         "glitch": false,
-        "reasons": []
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
       },
-      "category": "General",
-      "region": "World"
+      "category": "Sports",
+      "region": "Canada"
     },
     {
       "title": "How Our Presidential Endorsement Tracker Works",
       "url": "https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-18T23:36:55.361Z",
+      "published_utc": "2025-12-18T23:48:38.720Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -59,7 +62,163 @@
       "title": "Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
       "url": "https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-18T23:36:55.362Z",
+      "published_utc": "2025-12-18T23:48:38.720Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Ex-Nascar driver and his family among seven killed in US plane crash",
+      "url": "https://www.bbc.com/news/articles/c741r9ve3z7o?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2025-12-18T23:46:06.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6",
+          "body_count≥3"
+        ],
+        "style": "breaker"
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Republicans Amplified Pro-Gun Control Protesters In Tennessee",
+      "url": "https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
+      "source": "FiveThirtyEight — Nate Silver",
+      "published_utc": "2025-12-18T23:48:38.720Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "What’s Next In The Abortion Drug Case",
+      "url": "https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
+      "source": "FiveThirtyEight — Nate Silver",
+      "published_utc": "2025-12-18T23:48:38.721Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Blue Jays To Sign Jorge Alcala To Minor League Deal",
+      "url": "https://www.mlbtraderumors.com/2025/12/blue-jays-to-sign-jorge-alcala-to-minor-league-deal.html",
+      "source": "MLB Trade Rumors",
+      "published_utc": "2025-12-18T23:45:25.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "How Concerned Are Americans About The Pitfalls Of AI?",
+      "url": "https://fivethirtyeight.com/videos/how-concerned-are-americans-about-the-pitfalls-of-ai",
+      "source": "FiveThirtyEight — Nate Silver",
+      "published_utc": "2025-12-18T23:48:38.720Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Live From New York: Will AI Replace This Podcast?",
+      "url": "https://fivethirtyeight.com/videos/live-from-new-york-will-ai-replace-this-podcast",
+      "source": "FiveThirtyEight — Nate Silver",
+      "published_utc": "2025-12-18T23:48:38.720Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Pope Leo names Ronald Hicks next archbishop of New York",
+      "url": "https://www.bbc.com/news/articles/c8983vzg79go?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2025-12-18T23:43:52.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Tenants at East York apartment building demand rent abatement",
+      "url": "https://toronto.citynews.ca/2025/12/18/tenants-at-east-york-apartment-building-demand-rent-abatement",
+      "source": "CityNews Toronto",
+      "published_utc": "2025-12-18T23:43:50.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Local",
+      "region": "Canada"
+    },
+    {
+      "title": "Stolen plane at Van Nuys Airport never gets off ground, crashes into hangar",
+      "url": "https://www.dailynews.com/2025/12/18/stolen-plane-at-van-nuys-airport-never-gets-off-ground-crashes-into-hangar",
+      "source": "Daily News",
+      "published_utc": "2025-12-18T23:37:26.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Tribeca Film Festival formall invites social media creators to hit the big screen",
+      "url": "https://www.tubefilter.com/2025/12/18/tribeca-film-festival-now-social-media-creators-2026",
+      "source": "Tubefilter",
+      "published_utc": "2025-12-18T23:37:23.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Trump's latest 'insult' will be measured in 'empty billets and early graves': analyst",
+      "url": "https://www.rawstory.com/trump-2674712689",
+      "source": "Raw Story",
+      "published_utc": "2025-12-18T23:36:30.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -85,62 +244,10 @@
       "region": "Canada"
     },
     {
-      "title": "Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "url": "https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-18T23:36:55.362Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "What’s Next In The Abortion Drug Case",
-      "url": "https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-18T23:36:55.362Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Jelly Roll Receives Pardon From Tennessee Gov., Who Cites His “Remarkable” Story of Redemption",
       "url": "https://www.hollywoodreporter.com/music/music-news/jelly-roll-receives-pardon-from-tennessee-governor-bill-lee-1236454565",
       "source": "The Hollywood Reporter",
       "published_utc": "2025-12-18T23:32:23.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "How Concerned Are Americans About The Pitfalls Of AI?",
-      "url": "https://fivethirtyeight.com/videos/how-concerned-are-americans-about-the-pitfalls-of-ai",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-18T23:36:55.362Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Live From New York: Will AI Replace This Podcast?",
-      "url": "https://fivethirtyeight.com/videos/live-from-new-york-will-ai-replace-this-podcast",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-18T23:36:55.361Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -512,23 +619,6 @@
       "region": "World"
     },
     {
-      "title": "Ex-Nascar driver and family among seven killed in US plane crash",
-      "url": "https://www.bbc.com/news/articles/c741r9ve3z7o?at_campaign=rss&at_medium=RSS",
-      "source": "BBC News",
-      "published_utc": "2025-12-18T23:09:19.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6",
-          "body_count≥3"
-        ],
-        "style": "breaker"
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "TikTok U.S. Joint Venture Deal Set to Close in January With Investors Including Oracle, Silver Lake",
       "url": "https://variety.com/2025/digital/news/tiktok-us-joint-venture-deal-close-date-oracle-silver-lake-1236612315",
       "source": "Variety",
@@ -548,11 +638,8 @@
       "published_utc": "2025-12-18T23:08:41.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Labour",
       "region": "World"
@@ -577,11 +664,8 @@
       "published_utc": "2025-12-18T23:07:05.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Labour",
       "region": "World"
@@ -707,19 +791,6 @@
         "reasons": []
       },
       "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Expert Advice for Well-Being in the New Year",
-      "url": "https://www.psychologytoday.com/ca/blog/experimentations/202512/expert-advice-for-well-being-in-the-new-year",
-      "source": "Psychology Today: The Latest",
-      "published_utc": "2025-12-18T22:58:24.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Youth",
       "region": "World"
     },
     {
@@ -879,78 +950,13 @@
       },
       "category": "General",
       "region": "World"
-    },
-    {
-      "title": "When We Were Lunch",
-      "url": "https://nautil.us/when-we-were-lunch-1255357",
-      "source": "Nautilus",
-      "published_utc": "2025-12-18T22:42:18.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Youth",
-      "region": "World"
-    },
-    {
-      "title": "The Dark Matter of Food",
-      "url": "https://nautil.us/the-dark-matter-of-food-1255448",
-      "source": "Nautilus",
-      "published_utc": "2025-12-18T22:41:46.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Youth",
-      "region": "World"
-    },
-    {
-      "title": "Oscar Predictions: Post-Shortlist Shake-Up as Studio Behemoths Rule and International Cinema Cracks the Door Wider",
-      "url": "https://variety.com/lists/2026-oscars-predictions",
-      "source": "Film",
-      "published_utc": "2025-12-18T22:40:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Eat Your Molecules",
-      "url": "https://nautil.us/eat-your-molecules-1255345",
-      "source": "Nautilus",
-      "published_utc": "2025-12-18T22:41:19.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Youth",
-      "region": "World"
-    },
-    {
-      "title": "TikTok U.S. Deal to Close Next Month: Oracle and Silver Lake Confirmed in Buyer Consortium",
-      "url": "https://www.hollywoodreporter.com/business/digital/tiktok-sale-done-oracle-silver-lake-buyers-1236454493",
-      "source": "The Hollywood Reporter",
-      "published_utc": "2025-12-18T22:39:56.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
     }
   ],
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 898,
-    "dedup_pass1": 878,
+    "collected": 812,
+    "dedup_pass1": 792,
     "dedup_final": 320,
     "slow_domains": [],
     "timeouts": [
@@ -976,57 +982,57 @@
     ],
     "feed_times_sample": [
       {
-        "host": "toronto.citynews.ca",
-        "sec": 1.579,
-        "kept": 8
-      },
-      {
         "host": "www.labourstart.org",
-        "sec": 1.331,
+        "sec": 1.918,
         "kept": 0
       },
       {
+        "host": "toronto.citynews.ca",
+        "sec": 0.862,
+        "kept": 8
+      },
+      {
         "host": "www.bls.gov",
-        "sec": 0.617,
+        "sec": 0.669,
         "kept": 0
       },
       {
         "host": "globalnews.ca",
-        "sec": 0.455,
+        "sec": 0.638,
         "kept": 10
       },
       {
         "host": "www.cp24.com",
-        "sec": 0.411,
-        "kept": 14
-      },
-      {
-        "host": "www.blogto.com",
-        "sec": 0.373,
-        "kept": 0
-      },
-      {
-        "host": "www.mlbtraderumors.com",
-        "sec": 0.341,
+        "sec": 0.556,
         "kept": 14
       },
       {
         "host": "www.mlb.com",
-        "sec": 0.271,
+        "sec": 0.504,
+        "kept": 14
+      },
+      {
+        "host": "www.blogto.com",
+        "sec": 0.386,
+        "kept": 0
+      },
+      {
+        "host": "www.mlbtraderumors.com",
+        "sec": 0.293,
         "kept": 14
       },
       {
         "host": "www.nhl.com",
-        "sec": 0.17,
+        "sec": 0.19,
         "kept": 0
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.129,
+        "sec": 0.094,
         "kept": 14
       }
     ],
-    "elapsed_sec": 321.91,
+    "elapsed_sec": 350.57,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1052,7 +1058,7 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 23,
+      "ps_fatal_hits": 22,
       "ps_injury_hits": 0,
       "market_btc_hits": 0,
       "market_index_hits": 0,
@@ -1062,13 +1068,13 @@
       "press_penalties": 0,
       "preferred_bonus": 125,
       "substack_tagged": 0,
-      "sports_team_hits": 8,
+      "sports_team_hits": 9,
       "sports_player_hits": 1,
       "sports_result_win_hits": 20,
       "sports_result_loss_hits": 0,
-      "sports_evening_hits": 21,
+      "sports_evening_hits": 23,
       "sports_playoff_hits": 0,
-      "sports_focus_team_hits": 13,
+      "sports_focus_team_hits": 14,
       "sports_final_hits": 0,
       "sports_final_score_hits": 0,
       "hype_politics": 0,
@@ -1078,16 +1084,16 @@
       "hype_sports": 0,
       "hype_ceasefire": 0,
       "reject_hits": 2,
-      "obit_hits": 8,
+      "obit_hits": 7,
       "major_figure_hits": 7,
       "business_am_hits": 0
     },
     "sanity_stats": {
-      "link_verification_fail": 26,
+      "link_verification_fail": 27,
       "soft_404_drops": 81,
       "max_age_drops": 0,
       "min_age_drops": 0,
-      "market_sanity_drops": 1,
+      "market_sanity_drops": 2,
       "backfill_steps_used": 0
     },
     "require_exact_count": 69,
