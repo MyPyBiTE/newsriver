@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2025-12-21T05:51:49.953Z",
+  "generated_utc": "2025-12-21T05:59:12.755Z",
   "itemset_hash": "41e619e91c46a1bb",
   "count": 69,
   "items": [
@@ -899,12 +899,12 @@
       "source": "MLB Trade Rumors",
       "published_utc": "2025-12-20T20:33:58.000Z",
       "effects": {
-        "lightsaber": true,
-        "glitch": false,
+        "lightsaber": false,
+        "glitch": true,
         "reasons": [
-          "score≥2.6"
+          "score≥2.1"
         ],
-        "style": "lightsaber"
+        "style": "glitch"
       },
       "category": "Sports",
       "region": "Canada"
@@ -1004,16 +1004,13 @@
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 458,
-    "dedup_pass1": 450,
+    "collected": 486,
+    "dedup_pass1": 477,
     "dedup_final": 320,
     "slow_domains": [],
     "timeouts": [
       "news.communitech.ca",
-      "weather.gc.ca",
-      "www.cbc.ca",
-      "www.publicsafety.gc.ca",
-      "www150.statcan.gc.ca"
+      "www.cbc.ca"
     ],
     "errors": [
       "alert.weather.gc.ca",
@@ -1026,57 +1023,57 @@
     ],
     "feed_times_sample": [
       {
-        "host": "www.labourstart.org",
-        "sec": 1.917,
-        "kept": 0
-      },
-      {
         "host": "toronto.citynews.ca",
-        "sec": 1.5,
+        "sec": 1.82,
         "kept": 8
       },
       {
-        "host": "globalnews.ca",
-        "sec": 0.803,
-        "kept": 1
-      },
-      {
-        "host": "www.blogto.com",
-        "sec": 0.39,
+        "host": "www.labourstart.org",
+        "sec": 1.292,
         "kept": 0
       },
       {
         "host": "www.mlb.com",
-        "sec": 0.334,
+        "sec": 0.857,
         "kept": 14
       },
       {
+        "host": "globalnews.ca",
+        "sec": 0.814,
+        "kept": 1
+      },
+      {
+        "host": "www.blogto.com",
+        "sec": 0.447,
+        "kept": 0
+      },
+      {
         "host": "www.mlbtraderumors.com",
-        "sec": 0.285,
+        "sec": 0.391,
         "kept": 14
       },
       {
         "host": "www.cp24.com",
-        "sec": 0.283,
+        "sec": 0.373,
         "kept": 14
       },
       {
         "host": "www.bls.gov",
-        "sec": 0.246,
+        "sec": 0.255,
+        "kept": 0
+      },
+      {
+        "host": "www.nhl.com",
+        "sec": 0.169,
         "kept": 0
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.15,
+        "sec": 0.109,
         "kept": 14
-      },
-      {
-        "host": "www.nhl.com",
-        "sec": 0.099,
-        "kept": 0
       }
     ],
-    "elapsed_sec": 353.54,
+    "elapsed_sec": 330.87,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1102,7 +1099,7 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 6,
+      "ps_fatal_hits": 7,
       "ps_injury_hits": 1,
       "market_btc_hits": 0,
       "market_index_hits": 0,
@@ -1133,8 +1130,8 @@
       "business_am_hits": 0
     },
     "sanity_stats": {
-      "link_verification_fail": 12,
-      "soft_404_drops": 22,
+      "link_verification_fail": 11,
+      "soft_404_drops": 36,
       "max_age_drops": 0,
       "min_age_drops": 0,
       "market_sanity_drops": 9,
