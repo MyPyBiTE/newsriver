@@ -3,14 +3,14 @@ name: Build NHL JSON
 on:
   workflow_dispatch:
   schedule:
-    - cron: "* * * * *"  # every 1 min
+    - cron: "*/5 * * * *"  # every 5 min (GitHub scheduled workflows are not reliably 1-min)
 
 permissions:
   contents: write
 
 concurrency:
-  group: newsriver-json
-  cancel-in-progress: false
+  group: nhl-json
+  cancel-in-progress: true
 
 jobs:
   build:
