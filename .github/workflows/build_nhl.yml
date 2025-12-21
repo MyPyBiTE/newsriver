@@ -3,7 +3,15 @@ name: Build NHL JSON
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/5 * * * *"  # every 5 min (GitHub scheduled workflows are not reliably 1-min)
+    # NOTE: GitHub Actions cron uses UTC, not Eastern.
+    # Mon–Wed: run 7pm–1am ET  => 00:00–06:59 UTC (next day), every 5 min
+    - cron: "*/5 0-6 * * 2-4"
+
+    # Thu–Sun: run 4pm–1am ET => 21:00–23:59 UTC (same day), every 5 min
+    - cron: "*/5 21-23 * * 4-0"
+
+    # Thu–Sun: run 4pm–1am ET => 00:00–06:59 UTC (next day), every 5 min
+    - cron: "*/5 0-6 * * 5-1"
 
 permissions:
   contents: write
