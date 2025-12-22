@@ -1,8 +1,53 @@
 {
-  "generated_utc": "2025-12-22T10:27:02.963Z",
-  "itemset_hash": "e3d551eac0747028",
+  "generated_utc": "2025-12-22T10:49:07.426Z",
+  "itemset_hash": "c364d0dfdd9c8760",
   "count": 69,
   "items": [
+    {
+      "title": "Russian general killed by car bomb in Moscow, officials say",
+      "url": "https://www.bbc.com/news/articles/c8jwn9wznx1o?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2025-12-22T10:35:57.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "The Trump name will be trash after this bizarre gamble",
+      "url": "https://www.rawstory.com/raw-investigates/kennedy-center-2674815756",
+      "source": "Raw Story",
+      "published_utc": "2025-12-22T10:30:02.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "Australian PM apologises over Bondi attack, calls for tougher hate laws",
+      "url": "https://www.aljazeera.com/news/2025/12/22/australian-pm-apologises-over-bondi-attack-calls-for-tougher-hate-laws?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2025-12-22T10:27:25.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
     {
       "title": "Watch Father John Misty cover The Who and The Magnetic Fields at California benefit show",
       "url": "https://www.nme.com/news/music/watch-father-john-misty-cover-the-who-and-the-magnetic-fields-at-california-benefit-show-3919797",
@@ -78,7 +123,7 @@
       "region": "World"
     },
     {
-      "title": "Bullish Bitcoin Plays on Bitfinex Swell to Highest Since Early 2024",
+      "title": "Bullish bitcoin plays on Bitfinex swell to highest since early 2024",
       "url": "https://www.coindesk.com/markets/2025/12/22/bullish-bitcoin-plays-on-bitfinex-swell-to-highest-since-early-2024",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published_utc": "2025-12-22T10:06:15.000Z",
@@ -100,11 +145,8 @@
       "published_utc": "2025-12-22T10:06:14.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Labour",
       "region": "World"
@@ -116,11 +158,8 @@
       "published_utc": "2025-12-22T10:02:45.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Labour",
       "region": "World"
@@ -184,6 +223,32 @@
       "region": "Canada"
     },
     {
+      "title": "How President Trump reshaped capitalism in 2025",
+      "url": "https://www.npr.org/2025/12/22/nx-s1-5639916/trump-crony-capitalism-free-market",
+      "source": "NPR Topics: Economy",
+      "published_utc": "2025-12-22T10:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Some patients face hurdles getting HIV prevention drugs. Here's what to know",
+      "url": "https://www.npr.org/2025/12/22/nx-s1-5645054/hiv-prevention-drug-prep-billing",
+      "source": "NPR Topics: Home Page Top Stories",
+      "published_utc": "2025-12-22T10:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
       "title": "ENHYPEN announce new mini-album ‘The Sin: Vanish’",
       "url": "https://www.nme.com/news/music/enhypen-announce-new-mini-album-the-sin-vanish-3919783",
       "source": "NME",
@@ -194,6 +259,32 @@
         "reasons": []
       },
       "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Here are some of the NPR stories that had a big impact in 2025",
+      "url": "https://www.npr.org/2025/12/22/g-s1-99098/impact-journalism",
+      "source": "NPR Topics: Home Page Top Stories",
+      "published_utc": "2025-12-22T10:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Can Americans learn to love tiny, cheap kei cars?",
+      "url": "https://www.npr.org/2025/12/22/nx-s1-5644937/kei-cars-tiny-vehicles",
+      "source": "NPR Topics: Home Page Top Stories",
+      "published_utc": "2025-12-22T10:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
       "region": "World"
     },
     {
@@ -213,17 +304,27 @@
       "region": "World"
     },
     {
+      "title": "How systemic failures turn state mental hospitals into prisons",
+      "url": "https://www.npr.org/sections/shots-health-news/2025/12/22/nx-s1-5644745/serious-mental-illness-psychosis-psychiatric-hospital-schizophrenia-crime-prison-ohio",
+      "source": "NPR Topics: Home Page Top Stories",
+      "published_utc": "2025-12-22T10:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
       "title": "MacMahon Knitting Mills and BEAMS Unveil New Hand-Knitted Collection",
       "url": "https://hypebeast.com/2025/12/beams-macmahon-knitting-mills-collaboration-collection-release-info",
       "source": "Hypebeast",
       "published_utc": "2025-12-22T09:50:39.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Labour",
       "region": "World"
@@ -440,22 +541,6 @@
         "reasons": []
       },
       "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Russian general killed by car bomb in Moscow, officials say",
-      "url": "https://www.bbc.com/news/articles/c8jwn9wznx1o?at_campaign=rss&at_medium=RSS",
-      "source": "BBC News",
-      "published_utc": "2025-12-22T09:02:37.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
       "region": "World"
     },
     {
@@ -786,6 +871,19 @@
       "region": "World"
     },
     {
+      "title": "The 5 best Travis Scott tracks... according to his mum",
+      "url": "https://www.dazeddigital.com/music/article/69331/1/the-5-best-travis-scott-tracks-according-mother-mum",
+      "source": "Dazed",
+      "published_utc": "2025-12-22T07:30:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
       "title": "US pursuing third oil tanker linked to Venezuela, official says",
       "url": "https://www.bbc.com/news/articles/c99722j4lkgo?at_campaign=rss&at_medium=RSS",
       "source": "BBC News",
@@ -849,130 +947,16 @@
       },
       "category": "Culture",
       "region": "World"
-    },
-    {
-      "title": "Australia to Mandate LNG Export Curbs to Ensure Local Supply",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Australia-to-Mandate-LNG-Export-Curbs-to-Ensure-Local-Supply.html",
-      "source": "Oilprice.com",
-      "published_utc": "2025-12-22T06:44:41.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Energy",
-      "region": "Canada"
-    },
-    {
-      "title": "Jeju Air crash: South Korea sets up independent inquiry into disaster that killed 179 amid delays and acrimony",
-      "url": "https://www.theguardian.com/world/2025/dec/22/jeju-air-crash-independent-inquiry-south-korea",
-      "source": "World news | The Guardian",
-      "published_utc": "2025-12-22T06:33:23.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "breaker"
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Binance opens up ways for users to generate income using ETH options",
-      "url": "https://www.coindesk.com/markets/2025/12/22/binance-opens-up-ways-for-users-to-generate-income-using-eth-options",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published_utc": "2025-12-22T06:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Business",
-      "region": "World"
-    },
-    {
-      "title": "Dogecoin slips below $0.129 as range support gives way",
-      "url": "https://www.coindesk.com/markets/2025/12/22/dogecoin-slips-below-usd0-129-as-range-support-gives-way",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published_utc": "2025-12-22T05:37:43.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Business",
-      "region": "World"
-    },
-    {
-      "title": "Tether-backed Northern Data sold mining firm to Tether execs: FT",
-      "url": "https://cointelegraph.com/news/tether-backed-northern-data-sold-mining-business-to-firms-owned-by-tether-execs-ft",
-      "source": "Cointelegraph.com News",
-      "published_utc": "2025-12-22T05:37:30.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Business",
-      "region": "World"
-    },
-    {
-      "title": "Sudanese bloc declares Nairobi roadmap, but is it a civilian breakthrough?",
-      "url": "https://www.aljazeera.com/news/2025/12/22/sudanese-bloc-declares-nairobi-roadmap-but-is-it-a-civilian-breakthrough?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2025-12-22T05:29:55.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "XRP weakens after repeated price-action failures near $1.95",
-      "url": "https://www.coindesk.com/markets/2025/12/22/xrp-weakens-after-repeated-price-action-failures-near-usd1-95",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published_utc": "2025-12-22T05:27:08.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Business",
-      "region": "World"
-    },
-    {
-      "title": "Some pepperoni and bacon Pizza Pops snacks recalled due to possible E. coli",
-      "url": "https://toronto.citynews.ca/2025/12/22/some-pepperoni-and-bacon-pizza-pops-snacks-recalled-due-to-possible-e-coli",
-      "source": "CityNews Toronto",
-      "published_utc": "2025-12-22T05:20:45.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Local",
-      "region": "Canada"
     }
   ],
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 625,
-    "dedup_pass1": 615,
+    "collected": 709,
+    "dedup_pass1": 699,
     "dedup_final": 320,
     "slow_domains": [
-      "financialpost.com",
-      "rollcall.com"
+      "www.stereophile.com"
     ],
     "timeouts": [
       "news.communitech.ca",
@@ -985,61 +969,64 @@
     "caps_hit": [
       "cultmtl.com",
       "financialpost.com",
-      "toronto.citynews.ca"
+      "toronto.citynews.ca",
+      "www.marketwatch.com",
+      "www.npr.org",
+      "www.wsj.com"
     ],
     "feed_times_sample": [
       {
         "host": "toronto.citynews.ca",
-        "sec": 1.854,
+        "sec": 2.185,
         "kept": 8
       },
       {
         "host": "www.labourstart.org",
-        "sec": 1.538,
+        "sec": 2.029,
         "kept": 0
       },
       {
         "host": "globalnews.ca",
-        "sec": 0.889,
+        "sec": 0.907,
         "kept": 1
       },
       {
-        "host": "www.blogto.com",
-        "sec": 0.508,
-        "kept": 0
-      },
-      {
         "host": "www.cp24.com",
-        "sec": 0.448,
+        "sec": 0.795,
         "kept": 14
       },
       {
         "host": "www.mlb.com",
-        "sec": 0.448,
+        "sec": 0.516,
         "kept": 14
       },
       {
+        "host": "www.blogto.com",
+        "sec": 0.401,
+        "kept": 0
+      },
+      {
         "host": "www.mlbtraderumors.com",
-        "sec": 0.306,
+        "sec": 0.328,
         "kept": 14
       },
       {
         "host": "www.bls.gov",
-        "sec": 0.227,
-        "kept": 0
-      },
-      {
-        "host": "www.nhl.com",
-        "sec": 0.2,
+        "sec": 0.285,
         "kept": 0
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.137,
+        "sec": 0.163,
         "kept": 14
+      },
+      {
+        "host": "www.nhl.com",
+        "sec": 0.097,
+        "kept": 0
       }
     ],
-    "elapsed_sec": 312.42,
+    "elapsed_sec": 338.31,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1065,7 +1052,7 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 16,
+      "ps_fatal_hits": 18,
       "ps_injury_hits": 0,
       "market_btc_hits": 0,
       "market_index_hits": 0,
@@ -1073,15 +1060,15 @@
       "market_single_hits": 0,
       "agg_penalties": 0,
       "press_penalties": 0,
-      "preferred_bonus": 118,
+      "preferred_bonus": 122,
       "substack_tagged": 0,
       "sports_team_hits": 6,
-      "sports_player_hits": 7,
-      "sports_result_win_hits": 13,
+      "sports_player_hits": 8,
+      "sports_result_win_hits": 17,
       "sports_result_loss_hits": 2,
       "sports_evening_hits": 0,
       "sports_playoff_hits": 0,
-      "sports_focus_team_hits": 4,
+      "sports_focus_team_hits": 12,
       "sports_final_hits": 0,
       "sports_final_score_hits": 0,
       "hype_politics": 0,
@@ -1096,8 +1083,8 @@
       "business_am_hits": 0
     },
     "sanity_stats": {
-      "link_verification_fail": 21,
-      "soft_404_drops": 32,
+      "link_verification_fail": 34,
+      "soft_404_drops": 77,
       "max_age_drops": 0,
       "min_age_drops": 8,
       "market_sanity_drops": 6,
