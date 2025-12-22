@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Car bomb kills Russian general Fanil Sarvarov in Moscow",
-      "display":"Car bomb kills Russian general Fanil Sarvarov in Moscow",
-      "url":"https://globalnews.ca/news/11587571/car-bomb-kills-russian-general-fanil-sarvarov-moscow",
+      "text":"Remember Blue Jays prospect Ricky T? You should",
+      "display":"Remember Blue Jays prospect Ricky T? You should",
+      "url":"https://www.mlb.com/bluejays/news/ricky-tiedemann-blue-jays-prospect-to-watch-in-2026",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Power outages linger across the Maritimes as snow squalls lash Nova Scotia and P.E.I.",
+      "display":"Power outages linger across the Maritimes as snow squalls lash Nova Scotia and P.E.I.",
+      "url":"https://globalnews.ca/news/11587682/power-outages-snow-storm-maritimes-nova-scotia-pei",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -19,17 +29,7 @@
         "is_landmark":false,
         "has_bitcoin":false
       }
-    },
-    {
-      "text":"Netflix Refinances Chunk Of Bridge Loan For Warner Bros. Acquisition",
-      "display":"Netflix Refinances Chunk Of Bridge Loan For Warner Bros. Acquisition",
-      "url":"https://deadline.com/2025/12/netflix-bolsters-funding-warner-bros-acquisition-1236654965",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
     }
   ],
-  "generated_utc":"2025-12-22T15:51:22Z"
+  "generated_utc":"2025-12-22T16:15:25Z"
 }
