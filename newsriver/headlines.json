@@ -1,52 +1,62 @@
 {
-  "generated_utc": "2025-12-23T13:55:40.977Z",
-  "itemset_hash": "d3d97f20a4ad6b2c",
+  "generated_utc": "2025-12-23T14:21:41.873Z",
+  "itemset_hash": "a81ec8a25c03d81c",
   "count": 69,
   "items": [
     {
-      "title": "Holly Ramsay and Adam Peaty's wedding week gets underway: Couple enjoy a slap-up meal at dad Gordon's Lucky Cat restaurant with Olympian's swimming pal and wife amid toxic family feud",
-      "url": "https://www.dailymail.co.uk/tvshowbiz/article-15408923/Holly-Ramsay-Adam-Peaty-toxic-family-feud-one-slap-meal-dad-Gordons-Lucky-Cat-restaurant-guests-start-arriving-wedding-week.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2025-12-23T13:52:27.000Z",
+      "title": "Hideo Kojima Found Himself Unexpectedly Hooked on ‘KPop Demon Hunters’ — and ‘Ended Up Crying My Eyes Out’",
+      "url": "https://variety.com/2025/digital/news/hideo-kojima-kpop-demon-hunters-crying-my-eyes-out-1236616510",
+      "source": "Variety",
+      "published_utc": "2025-12-23T14:15:40.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": false,
-        "reasons": []
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
       },
-      "category": "General",
+      "category": "Labour",
       "region": "World"
     },
     {
-      "title": "What To Do About A Problem Like Dianne Feinstein?",
-      "url": "https://fivethirtyeight.com/videos/what-to-do-about-a-problem-like-dianne-feinstein",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-23T13:52:23.455Z",
+      "title": "Three killed after Russia launches 'massive' attack across Ukraine",
+      "url": "https://www.bbc.com/news/articles/cr4d99p63y4o?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2025-12-23T14:11:18.000Z",
       "effects": {
-        "lightsaber": false,
+        "lightsaber": true,
         "glitch": false,
-        "reasons": []
+        "reasons": [
+          "score≥2.6",
+          "body_count≥3"
+        ],
+        "style": "breaker"
       },
-      "category": "General",
+      "category": "Labour",
       "region": "World"
     },
     {
-      "title": "Politics Podcast",
-      "url": "https://fivethirtyeight.com/tag/politics-podcast",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-23T13:52:23.455Z",
+      "title": "'This terrifies me!' CNN's Maria Cardona freaks out that Trump might deport her",
+      "url": "https://www.rawstory.com/wrongful-deportations",
+      "source": "Raw Story",
+      "published_utc": "2025-12-23T14:10:12.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": false,
-        "reasons": []
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
       },
-      "category": "General",
+      "category": "Labour",
       "region": "World"
     },
     {
-      "title": "Sir U-turn strikes again! Labour waters down hated inheritance tax raid on farmers by raising threshold from £1m to £2.5m amid rural fury",
-      "url": "https://www.dailymail.co.uk/news/article-15408875/Labour-waters-hated-inheritance-tax-raid-farmers.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2025-12-23T13:52:01.000Z",
+      "title": "What to do today in Montreal",
+      "url": "https://cultmtl.com/2025/12/what-to-do-today-in-montreal-mtl-to-do-list",
+      "source": "Cult MTL",
+      "published_utc": "2025-12-23T14:10:00.000Z",
       "effects": {
         "lightsaber": true,
         "glitch": false,
@@ -55,14 +65,62 @@
         ],
         "style": "lightsaber"
       },
+      "category": "Culture",
+      "region": "Canada"
+    },
+    {
+      "title": "CoinDesk 20 Performance Update: Uniswap Drops 3.7% as All Index Constituents Decline",
+      "url": "https://www.coindesk.com/coindesk-indices/2025/12/23/coindesk-20-performance-update-uniswap-drops-3-7-as-all-index-constituents-decline",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2025-12-23T14:09:34.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "This Week in Canada: Extremism Is Extremely Normal",
+      "url": "https://www.thefp.com/p/this-week-in-canada-extremism-is",
+      "source": "The Free Press",
+      "published_utc": "2025-12-23T14:02:54.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "Bolsonaro supporters ‘cancel’ Havaianas flip-flop brand over television ad",
+      "url": "https://www.theguardian.com/world/2025/dec/23/brazil-jair-bolsonaro-eduardo-havaianas-television-ad-fernanda-torres",
+      "source": "World news | The Guardian",
+      "published_utc": "2025-12-23T14:02:48.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
       "category": "Labour",
       "region": "World"
     },
     {
-      "title": "How Our Presidential Endorsement Tracker Works",
-      "url": "https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-23T13:52:23.455Z",
+      "title": "James Ransone’s Wife Posts Emotional Tribute After Actor’s Death by Suicide: “We Are Forever”",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/james-ransone-dead-wife-tribute-instagram-1236457356",
+      "source": "The Hollywood Reporter",
+      "published_utc": "2025-12-23T14:02:00.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -72,10 +130,58 @@
       "region": "World"
     },
     {
-      "title": "Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "url": "https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-23T13:52:23.455Z",
+      "title": "Polkadot's DOT slips 4.5% as token underperforms wider crypto markets",
+      "url": "https://www.coindesk.com/markets/2025/12/23/polkadot-s-dot-slips-4-5-as-token-underperforms-wider-crypto-markets",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2025-12-23T14:01:36.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Crypto hack counts fall but supply chain attacks reshape threat landscape",
+      "url": "https://cointelegraph.com/news/crypto-security-phishing-supply-chain-attacks",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2025-12-23T14:01:00.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "U.S. Ready for Partnership in India’s Nuclear Energy Industry",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Ready-for-Partnership-in-Indias-Nuclear-Energy-Industry.html",
+      "source": "Oilprice.com",
+      "published_utc": "2025-12-23T14:00:00.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Energy",
+      "region": "Canada"
+    },
+    {
+      "title": "Rob Sheffield’s Top 25 Songs of 2025",
+      "url": "https://www.rollingstone.com/music/music-lists/rob-sheffield-best-songs-2025-1235487222",
+      "source": "Rolling Stone",
+      "published_utc": "2025-12-23T14:00:00.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -85,10 +191,10 @@
       "region": "World"
     },
     {
-      "title": "U.S. economy grows by 4.3% in third quarter, much more than expected, delayed report shows",
-      "url": "https://www.cnbc.com/2025/12/23/us-economy-grows-by-4point3percent-in-third-quarter-much-more-than-expected-delayed-report-shows.html",
-      "source": "US Top News and Analysis",
-      "published_utc": "2025-12-23T13:51:59.000Z",
+      "title": "Editors’ Picks: Carter Faith, Zara Larsson, Clipse, ATEEZ and More of Our Favorite Albums of 2025",
+      "url": "https://www.hollywoodreporter.com/lists/thr-music-editors-picks-favorite-albums-2025",
+      "source": "The Hollywood Reporter",
+      "published_utc": "2025-12-23T14:00:00.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -98,10 +204,10 @@
       "region": "World"
     },
     {
-      "title": "Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "url": "https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-23T13:52:23.456Z",
+      "title": "Why Isn’t Paramount and the Ellisons Showing Warner Bros. Discovery Shareholders the Money? | Analysis",
+      "url": "https://www.thewrap.com/industry-news/deals-ma/paramount-warner-bros-discovery-revised-bid-sweeter-offer-analysis",
+      "source": "TheWrap",
+      "published_utc": "2025-12-23T14:00:00.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -111,10 +217,10 @@
       "region": "World"
     },
     {
-      "title": "What’s Next In The Abortion Drug Case",
-      "url": "https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-23T13:52:23.456Z",
+      "title": "Will Arnett: ‘I Shed a Lot of Stuff I’d Done for Years’",
+      "url": "https://www.rollingstone.com/tv-movies/tv-movie-features/will-arnett-new-movie-is-this-thing-on-interview-1235489045",
+      "source": "Rolling Stone",
+      "published_utc": "2025-12-23T14:00:00.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -124,10 +230,58 @@
       "region": "World"
     },
     {
-      "title": "The Manchester influencer tiers from A to Z-list. The UK's social capital's a viper's nest. Now our snitches tell MOLLY CLAYTON how much Queen Bees are making, what people REALLY think of the Thomas brothers... and who's really in and OUT",
-      "url": "https://www.dailymail.co.uk/tvshowbiz/article-15408877/manchester-influencers-alist-zlist-molly-mae-queen-bees-thomas-brothers.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2025-12-23T13:51:54.000Z",
+      "title": "BNB slips toward $850 as market pullback weighs on token",
+      "url": "https://www.coindesk.com/markets/2025/12/23/bnb-slips-toward-usd850-as-market-pullback-weighs-on-token",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2025-12-23T13:58:11.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Canadian economy grew in November following October dip",
+      "url": "https://www.canadianmortgagetrends.com/2025/12/canadian-economy-grew-in-november-following-october-dip",
+      "source": "CMT News",
+      "published_utc": "2025-12-23T13:58:05.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Real Estate",
+      "region": "Canada"
+    },
+    {
+      "title": "Ethena’s USDe loses $8.3B since October crash amid ‘loss of confidence’",
+      "url": "https://cointelegraph.com/news/ethena-usde-market-cap-drops-october-crash-deleveraging",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2025-12-23T13:57:28.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Scorching the Monk Forest: Israel’s ecocide in southern Lebanon",
+      "url": "https://www.aljazeera.com/features/2025/12/23/scorching-the-monk-forest-israels-ecocide-in-southern-lebanon?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2025-12-23T13:57:00.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -137,10 +291,26 @@
       "region": "World"
     },
     {
-      "title": "How Concerned Are Americans About The Pitfalls Of AI?",
-      "url": "https://fivethirtyeight.com/videos/how-concerned-are-americans-about-the-pitfalls-of-ai",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-23T13:52:23.455Z",
+      "title": "More Epstein files released, including email saying Trump flew on his private jet",
+      "url": "https://globalnews.ca/news/11588874/jeffrey-epstein-files-released-video-photos-trump-jet-dec-23",
+      "source": "globalnews.ca",
+      "published_utc": "2025-12-23T13:54:54.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "What If Congress Limited Birthright Citizenship and Nobody Noticed?",
+      "url": "https://reason.com/volokh/2025/12/23/what-if-congress-limited-birthright-citizenship-and-nobody-noticed",
+      "source": "Reason.com",
+      "published_utc": "2025-12-23T13:53:28.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -150,29 +320,19 @@
       "region": "World"
     },
     {
-      "title": "Live From New York: Will AI Replace This Podcast?",
-      "url": "https://fivethirtyeight.com/videos/live-from-new-york-will-ai-replace-this-podcast",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-23T13:52:23.455Z",
+      "title": "Russia’s central bank signals shift toward retail crypto access",
+      "url": "https://cointelegraph.com/news/russia-central-bank-proposes-crypto-widening-non-qualified-investors",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2025-12-23T13:52:42.000Z",
       "effects": {
-        "lightsaber": false,
+        "lightsaber": true,
         "glitch": false,
-        "reasons": []
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
       },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Is your turkey Polish? Supermarkets accused of misleading shoppers with turkeys imported from the EU as bird flu outbreak on British farms hits supplies",
-      "url": "https://www.dailymail.co.uk/news/article-15408627/turkey-foreign-Supermarkets-shoppers-turkeys-imported-EU-bird-flu-outbreak-British-farms-hits-supplies.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2025-12-23T13:51:41.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
+      "category": "Business",
       "region": "World"
     },
     {
@@ -192,19 +352,6 @@
       "region": "World"
     },
     {
-      "title": "Two Islamist fanatics found guilty of plotting gun terror attack on Manchester's Jewish community",
-      "url": "https://www.dailymail.co.uk/news/article-15409169/Two-Islamist-fanatics-guilty-plotting-gun-terror-attack-Manchesters-Jewish-community.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2025-12-23T13:51:36.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Bondi Beach and the Creeping Culture of Antisemitism",
       "url": "https://www.rollingstone.com/culture/culture-news/bondi-beach-shooting-antisemitism-1235489389",
       "source": "Rolling Stone",
@@ -218,117 +365,7 @@
       "region": "World"
     },
     {
-      "title": "Charlotte Tilbury fans snag rare discount on 'best' setting spray ahead of NYE",
-      "url": "https://www.mirror.co.uk/money/shopping-deals/charlotte-tilbury-fans-snag-rare-36445718",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2025-12-23T13:50:21.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Timothee Chalamet might win an Oscar but the cringe will turn everyone off",
-      "url": "https://metro.co.uk/2025/12/23/timothee-chalamet-might-win-oscar-cringe-will-turn-everyone-off-25727446",
-      "source": "Metro",
-      "published_utc": "2025-12-23T13:48:30.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Man in his 60s killed after getting caught in wood chipper",
-      "url": "https://www.independent.co.uk/news/world/americas/pennsylvania-dead-wood-chipper-accident-b2889565.html",
-      "source": "The Independent News",
-      "published_utc": "2025-12-23T13:48:13.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "‘Gremlins’ Was Originally Much Darker",
-      "url": "https://www.vice.com/en/article/gremlins-was-originally-much-darker-film",
-      "source": "English - VICE",
-      "published_utc": "2025-12-23T13:47:05.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "'I made a grim discovery at a hotel - now I always check one thing'",
-      "url": "https://www.mirror.co.uk/travel/i-made-grim-discovery-hotel-36405402",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2025-12-23T13:47:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Greta Thunberg arrested in London at demonstration supporting Palestine Action protesters who are on hunger strike",
-      "url": "https://www.dailymail.co.uk/news/article-15408855/Greta-Thunberg-arrested-London-demonstration-supporting-Palestine-Action-protesters-hunger-strike.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2025-12-23T13:46:59.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Epstein Files reveal email to Ghislaine 'from Balmoral' asking for 'inappropriate friends'... and signed 'A'",
-      "url": "https://www.dailymail.co.uk/news/article-15408839/Email-Balmoral-appears-new-trove-Epstein-files-Message-Ghislaine-Maxwell-signed-xxx-asks-you-new-inappropriate-friends.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2025-12-23T13:45:49.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Bradley Cooper takes major step in proposal plans two years into Gigi Hadid romance: report",
-      "url": "https://pagesix.com/2025/12/23/celebrity-news/bradley-cooper-takes-major-step-in-proposal-plans-two-years-into-gigi-hadid-romance-report",
-      "source": "New York Post",
-      "published_utc": "2025-12-23T13:45:26.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Draymond Green abruptly leaves court mid-game after explosive Steve Kerr blowup",
+      "title": "Draymond Green abruptly leaves court mid-game after explosive Steve Kerr blowup — and never returns",
       "url": "https://nypost.com/2025/12/23/sports/draymond-green-abruptly-leaves-court-mid-game-after-explosive-steve-kerr-blowup",
       "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
       "published_utc": "2025-12-23T13:45:08.000Z",
@@ -342,32 +379,6 @@
       },
       "category": "Sports",
       "region": "Canada"
-    },
-    {
-      "title": "Epstein files: Latest batch from DOJ includes court records, flight logs and heavily redacted documents",
-      "url": "https://www.cnbc.com/2025/12/23/epstein-files-doj-release-trump.html",
-      "source": "US Top News and Analysis",
-      "published_utc": "2025-12-23T13:44:12.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Trump flew on Epstein’s plane ‘many more times’ than previously reported, DOJ emails claim in latest files release",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-epstein-plane-doj-files-b2889315.html",
-      "source": "The Independent News",
-      "published_utc": "2025-12-23T13:44:05.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
     },
     {
       "title": "Nike Made Its Toughest Air Max Boot Into a Lovely \"Cherry Blossom\" Treat",
@@ -396,19 +407,6 @@
       "region": "World"
     },
     {
-      "title": "Major climbdown on inheritance tax raid on farmers as Starmer caves in after months of pressure",
-      "url": "https://www.independent.co.uk/news/uk/politics/inheritance-tax-farmers-labour-starmer-b2889532.html",
-      "source": "The Independent News",
-      "published_utc": "2025-12-23T13:42:30.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Why is Russia escalating attacks on Ukraine’s Odesa?",
       "url": "https://www.aljazeera.com/news/2025/12/23/why-is-russia-escalating-attacks-on-ukraines-odesa?traffic_source=rss",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
@@ -422,279 +420,10 @@
       "region": "World"
     },
     {
-      "title": "Coronation Street fans ‘work out’ who Carl’s real mum is after death news",
-      "url": "https://metro.co.uk/2025/12/23/coronation-street-fans-work-out-carls-real-mum-death-news-25729694",
-      "source": "Metro",
-      "published_utc": "2025-12-23T13:41:58.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Stepbrothers are charged with rape after 'tricking' woman by switching places during sex encounter on Carnival cruise ship",
-      "url": "https://www.dailymail.co.uk/news/article-15407391/American-stepbrothers-rape-tricking-woman-switching-sex-carnival-cruise.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2025-12-23T13:41:35.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Trump doubles down on claim that US must take over Greenland for national security: ‘We’ll have to work it all out’",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-greenland-envoy-annex-national-security-b2889360.html",
-      "source": "The Independent News",
-      "published_utc": "2025-12-23T13:41:30.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Trump flew on Epstein's private jet 'MORE times than we knew'... along with pedophile and 20-year-old woman, new files reveal",
-      "url": "https://www.dailymail.co.uk/news/article-15408701/Huge-new-trove-11-000-Epstein-files-including-videos-photos-released.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2025-12-23T13:40:55.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Who's on King Charles' Christmas guest list: The 43 Royals with a coveted invitation to Sandringham, the Princess 'torn' over where to go...and who is definitely NOT welcome",
-      "url": "https://www.dailymail.co.uk/news/royals/article-15143853/king-charles-sandringham-christmas-invite.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2025-12-23T13:40:10.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Drugs lord who ran £20,000,000 cocaine ring jailed for 14 years after capture in Thailand",
-      "url": "https://metro.co.uk/2025/12/23/drugs-lord-ran-20-000-000-cocaine-ring-jailed-14-years-capture-thailand-25729942",
-      "source": "Metro",
-      "published_utc": "2025-12-23T13:40:03.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Happy Easter! Astonished shoppers find Poundland selling chocolate EGGS before Christmas has even taken place",
-      "url": "https://www.dailymail.co.uk/news/article-15408639/Happy-Easter-Astonished-shoppers-Poundland-selling-chocolate-EGGS-Christmas.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2025-12-23T13:40:10.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Warning Chernobyl nuclear plant radiation shield is at risk of collapse",
-      "url": "https://www.dailymail.co.uk/news/article-15409149/Warning-Chernobyl-nuclear-plant-radiation-shield-risk-collapse.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2025-12-23T13:39:28.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Taylor Swift ‘felt like a dumbass’ crying onstage during Eras Tour show in Toronto: ‘Embarrassing’",
-      "url": "https://pagesix.com/2025/12/23/entertainment/taylor-swift-felt-like-a-dumbass-crying-onstage-during-last-eras-tour-show-in-toronto",
-      "source": "New York Post",
-      "published_utc": "2025-12-23T13:39:13.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "Andrew Mountbatten-Windsor 'is stripped of his gun licence and can only use firearms under strict supervision'",
-      "url": "https://www.dailymail.co.uk/news/article-15407557/Andrew-Mountbatten-Windsor-stripped-gun-licence-strict-supervision.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2025-12-23T13:39:28.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Two men convicted of plotting gun attack on mass gathering of Jewish people",
-      "url": "https://metro.co.uk/2025/12/23/two-men-convicted-plotting-gun-attack-mass-gathering-jewish-people-25733082",
-      "source": "Metro",
-      "published_utc": "2025-12-23T13:37:07.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Kendall Jenner gives rare glimpse inside $23M Montecito ranch as she decorates for Christmas",
-      "url": "https://pagesix.com/2025/12/23/entertainment/kendall-jenner-gives-rare-glimpse-inside-23m-montecito-ranch-decorated-for-christmas",
-      "source": "New York Post",
-      "published_utc": "2025-12-23T13:36:53.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Father Christmas is turned into immigration agent by Trump’s administration",
-      "url": "https://metro.co.uk/2025/12/23/father-christmas-turned-immigration-agent-trumps-administration-25731328",
-      "source": "Metro",
-      "published_utc": "2025-12-23T13:36:50.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "The best ski helmets for the greatest protection, reviewed by the experts, from Smith to Salomon",
-      "url": "https://www.telegraph.co.uk/recommended/leisure/fitness/best-ski-helmets-telegraph-ski",
-      "source": "www.telegraph.co.uk for the latest news from the UK and around the world.",
-      "published_utc": "2025-12-23T13:36:11.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Greenland PM rebukes Trump special envoy overture",
-      "url": "https://www.cnbc.com/2025/12/22/greenland-pm-rebukes-trump-special-envoy-overture.html",
-      "source": "US Top News and Analysis",
-      "published_utc": "2025-12-23T13:34:17.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Another Libel Suit by Doctor Who Had Been Accused of Performing Unnecessary Gynecological Procedures on Immigration Detainees",
       "url": "https://reason.com/volokh/2025/12/23/another-libel-suit-by-doctor-who-had-been-accused-of-performing-unnecessary-gynecological-procedures-on-immigration-detainees",
       "source": "Reason.com",
       "published_utc": "2025-12-23T13:33:49.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "How has the inheritance tax plan for farmers changed?",
-      "url": "https://www.independent.co.uk/news/uk/home-news/farmer-tractor-inheritance-tax-labour-update-threshold-b2889544.html",
-      "source": "The Independent News",
-      "published_utc": "2025-12-23T13:33:12.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "'I'm stealing my sister's baby name – she's fuming but it's special to me too'",
-      "url": "https://www.mirror.co.uk/lifestyle/family/im-stealing-sisters-baby-name-36446209",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2025-12-23T13:32:56.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "One of the ‘best films of the 21st century’ now streaming for free on BBC iPlayer",
-      "url": "https://metro.co.uk/2025/12/23/one-best-films-21st-century-now-streaming-free-bbc-iplayer-25730902",
-      "source": "Metro",
-      "published_utc": "2025-12-23T13:30:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "Sorry ‘Percy Jackson’ Fans, Walker Scobell Says the Percabeth Stares Are Unintentional: “It’s Incredible How Much Thought We Haven’t Put Into It”",
-      "url": "https://decider.com/2025/12/23/sorry-percy-jackson-fans-walker-scobell-says-the-percabeth-stares-are-unintentional-its-incredible-how-much-thought-we-havent-put-into-it",
-      "source": "New York Post",
-      "published_utc": "2025-12-23T13:30:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "'I worked with Marcus Rashford - this one thing caused him to leave Man Utd'",
-      "url": "https://www.mirror.co.uk/sport/football/news/marcus-rashford-barcelona-man-utd-36446299",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2025-12-23T13:30:00.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -730,61 +459,6 @@
         "style": "glitch"
       },
       "category": "Business",
-      "region": "World"
-    },
-    {
-      "title": "Russia strikes Ukraine in deadly Christmas attack as hundreds of missiles launched",
-      "url": "https://www.mirror.co.uk/news/world-news/russia-strikes-ukraine-deadly-christmas-36446470",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2025-12-23T13:26:57.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "breaker"
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Doctor beats up patient ‘struggling to breathe’ after asking for respect",
-      "url": "https://metro.co.uk/2025/12/23/doctor-beats-patient-struggling-breathe-asking-respect-25729621",
-      "source": "Metro",
-      "published_utc": "2025-12-23T13:26:32.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Woman volunteers at animal show and crowd is in tears after what happens next",
-      "url": "https://www.mirror.co.uk/news/weird-news/woman-volunteers-animal-show-crowd-36446718",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2025-12-23T13:25:53.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Prince Harry and Meghan Markle 'make redundancies' after major unexpected change",
-      "url": "https://www.mirror.co.uk/news/royals/prince-harry-meghan-markle-make-36446950",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2025-12-23T13:24:45.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
       "region": "World"
     },
     {
@@ -836,19 +510,6 @@
       "region": "World"
     },
     {
-      "title": "Ukraine's own 'Dancing with the Stars' is back on for a special episode with wartime heroes",
-      "url": "https://www.independent.co.uk/news/ukraine-kyiv-media-russia-dominican-republic-b2889562.html",
-      "source": "The Independent News",
-      "published_utc": "2025-12-23T13:19:02.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Man killed after being stabbed multiple times in Oshawa: police",
       "url": "https://toronto.citynews.ca/2025/12/23/man-killed-after-being-stabbed-multiple-times-in-oshawa-police",
       "source": "CityNews Toronto",
@@ -878,10 +539,10 @@
       "region": "World"
     },
     {
-      "title": "Hollyoaks star shares incredible baby news with sweet post",
-      "url": "https://www.mirror.co.uk/3am/celebrity-news/hollyoaks-star-shares-incredible-baby-36446644",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2025-12-23T13:15:38.000Z",
+      "title": "‘Our President Also Shares Our Love of Young, Nubile Girls’: New Epstein Files Release Shows Purported Letter to Fellow Sex Creep Days Before Suicide",
+      "url": "https://www.mediaite.com/media/news/our-president-also-shares-our-love-of-young-nubile-girls-new-epstein-files-release-shows-purported-letter-to-fellow-sex-creep-days-before-suicide",
+      "source": "Mediaite",
+      "published_utc": "2025-12-23T13:13:31.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -891,10 +552,58 @@
       "region": "World"
     },
     {
-      "title": "British people drinking less alcohol than any time on record with a pub closing each day of 2025",
-      "url": "https://www.independent.co.uk/news/uk/home-news/alcohol-decline-pubs-christmas-health-b2889494.html",
-      "source": "The Independent News",
-      "published_utc": "2025-12-23T13:15:01.000Z",
+      "title": "South Korean card giant completes stablecoin payments pilot for foreigners",
+      "url": "https://cointelegraph.com/news/south-korea-bc-card-tests-stablecoin-spending-at-local-merchants",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2025-12-23T13:10:53.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Business",
+      "region": "Canada"
+    },
+    {
+      "title": "How did Canada’s young people become its unhappiest generation?",
+      "url": "https://www.canadianmortgagetrends.com/2025/12/how-did-canadas-young-people-become-its-unhappiest-generation",
+      "source": "CMT News",
+      "published_utc": "2025-12-23T13:10:42.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Real Estate",
+      "region": "Canada"
+    },
+    {
+      "title": "Bob Dylan attempts to describe “ancient Viking soul” Willie Nelson: “How would you define the indefinable?”",
+      "url": "https://www.nme.com/news/music/bob-dylan-attempts-to-describe-ancient-viking-soul-willie-nelson-how-would-you-define-the-indefinable-3919970",
+      "source": "NME",
+      "published_utc": "2025-12-23T13:09:15.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Culture",
+      "region": "Canada"
+    },
+    {
+      "title": "How pro-war extremism is becoming mainstream in Israel",
+      "url": "https://www.aljazeera.com/video/newsfeed/2025/12/23/how-pro-war-extremism-is-becoming-mainstream-in-israel?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2025-12-23T13:09:07.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -904,10 +613,10 @@
       "region": "World"
     },
     {
-      "title": "Bolivian Indigenous women carry history and pride in the traditional 'pollera' skirt",
-      "url": "https://www.independent.co.uk/news/la-paz-evo-morales-indigenous-spanish-latin-america-b2889558.html",
-      "source": "The Independent News",
-      "published_utc": "2025-12-23T13:14:23.000Z",
+      "title": "Trump says Greenland ‘essential’ for security: Could he take it by force?",
+      "url": "https://www.aljazeera.com/news/2025/12/23/trump-says-greenland-essential-for-security-could-he-take-it-by-force?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2025-12-23T13:02:55.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -917,10 +626,10 @@
       "region": "World"
     },
     {
-      "title": "Kitten found next to Costco bin now lives a very different life",
-      "url": "https://www.mirror.co.uk/news/us-news/kitten-found-next-costco-bin-36446211",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2025-12-23T13:13:57.000Z",
+      "title": "Parent's Claim Over School Board Meeting Attendance Ban Can Go Forward",
+      "url": "https://reason.com/volokh/2025/12/23/parents-claim-over-school-board-meeting-attendance-ban-can-go-forward",
+      "source": "Reason.com",
+      "published_utc": "2025-12-23T13:01:51.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -930,10 +639,55 @@
       "region": "World"
     },
     {
-      "title": "Strictly star tearfully reveals he attempted suicide after witnessing murder aged 14",
-      "url": "https://www.mirror.co.uk/3am/celebrity-news/strictly-star-tearfully-reveals-attempted-36446519",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2025-12-23T13:13:48.000Z",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2025-12-23T13:00:27.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Supreme Court Grants Stay Without Granting Stay",
+      "url": "https://reason.com/volokh/2025/12/23/supreme-court-grants-stay-without-granting-stay",
+      "source": "Reason.com",
+      "published_utc": "2025-12-23T13:00:27.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Sanctioned Ships Still Loading Venezuelan Oil Despite U.S. Blockade",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Sanctioned-Ships-Still-Loading-Venezuelan-Oil-Despite-US-Blockade.html",
+      "source": "Oilprice.com",
+      "published_utc": "2025-12-23T13:00:00.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Energy",
+      "region": "Canada"
+    },
+    {
+      "title": "He Was a Legendary Sheriff Who Inspired a Movie. Did He Also Murder His Wife?",
+      "url": "https://www.rollingstone.com/culture/culture-features/walking-tall-burford-pusser-true-story-1235488052",
+      "source": "Rolling Stone",
+      "published_utc": "2025-12-23T13:00:00.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": true,
@@ -944,16 +698,323 @@
       },
       "category": "General",
       "region": "World"
+    },
+    {
+      "title": "MJF sent everyone a clear reminder — here’s what AEW needs to do with it",
+      "url": "https://nypost.com/2025/12/23/sports/mjf-sent-us-all-a-clear-reminder-heres-what-aew-needs-to-do-with-it",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2025-12-23T13:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Syrian army, Kurdish-led SDF agree to pause after night of fighting",
+      "url": "https://www.aljazeera.com/video/newsfeed/2025/12/23/syrian-army-kurdish-led-sdf-agree-to-pause-after-night-of-fighting?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2025-12-23T12:59:51.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "‘Gunboat diplomacy on steroids’: US signs security deals across Latin America",
+      "url": "https://www.theguardian.com/us-news/2025/dec/23/us-trump-administration-signs-security-deals-across-latin-america",
+      "source": "World news | The Guardian",
+      "published_utc": "2025-12-23T12:59:29.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Polymarket bets surge on Lighter airdrop as Hyperliquid lists LIT",
+      "url": "https://cointelegraph.com/news/polymarket-odds-lighter-airdrop-surge-hyperliquid-lit-usdc",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2025-12-23T12:55:46.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Should cities be reinvented entirely?",
+      "url": "https://www.aljazeera.com/video/doha-debates/2025/12/23/should-cities-be-reinvented-entirely?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2025-12-23T12:52:48.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Greta Thunberg arrested in London while supporting hunger-striking pro-Palestinian activists",
+      "url": "https://toronto.citynews.ca/2025/12/23/greta-thunberg-arrested-in-london-while-supporting-hunger-striking-pro-palestinian-activists",
+      "source": "CityNews Toronto",
+      "published_utc": "2025-12-23T12:48:36.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "Screams for help and panic as tourists rescued from fatal Laos ferry disaster",
+      "url": "https://www.bbc.com/news/articles/cx2gk56pd5eo?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2025-12-23T12:47:23.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "These ludicrous exchanges show how Trump lies infect voters' minds",
+      "url": "https://www.rawstory.com/raw-investigates/antifa-2674821824",
+      "source": "Raw Story",
+      "published_utc": "2025-12-23T12:45:27.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Trump's latest Epstein scramble hit head-on by Morning Joe: 'Who's he trying to protect?'",
+      "url": "https://www.rawstory.com/trump-epstein-2674823917",
+      "source": "Raw Story",
+      "published_utc": "2025-12-23T12:40:20.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Karl-Anthony Towns is the up-and-down key to the Knicks’ biggest ambitions",
+      "url": "https://nypost.com/2025/12/23/sports/karl-anthony-towns-is-key-to-knicks-biggest-ambitions",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2025-12-23T12:40:00.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "60 Minutes episode on brutal El Salvador prison, pulled from air by CBS, appears online",
+      "url": "https://www.theguardian.com/media/2025/dec/23/60-minutes-cecot-appears-online",
+      "source": "World news | The Guardian",
+      "published_utc": "2025-12-23T12:35:30.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "Trump recalls dozens of career diplomats in ‘America First’ push",
+      "url": "https://www.aljazeera.com/news/2025/12/23/trump-recalls-30-career-diplomats-in-america-first-push?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2025-12-23T12:32:26.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Trump’s Latest Climate Attack: Offshore Wind Farms",
+      "url": "https://www.motherjones.com/politics/2025/12/trumps-latest-climate-attack-offshore-wind-farms",
+      "source": "Mother Jones",
+      "published_utc": "2025-12-23T12:30:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Monster of 2025: Cigarettes",
+      "url": "https://www.motherjones.com/media/2025/12/how-to-quit-smoking-heroes-monsters-2025-cigarettes-addiction-hanna-pickard-cocaine",
+      "source": "Mother Jones",
+      "published_utc": "2025-12-23T12:30:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Prison chiefs planned to put Epstein in cell with fanatic who 'found light in Trump': file",
+      "url": "https://www.rawstory.com/epstein-2674823926",
+      "source": "Raw Story",
+      "published_utc": "2025-12-23T12:29:39.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Greta Thunberg arrested in London under the Terrorism Act",
+      "url": "https://www.dazeddigital.com/life-culture/article/69351/1/greta-thunberg-has-been-arrested-terrorism-act-london-aspen-insurance-palestine",
+      "source": "Dazed",
+      "published_utc": "2025-12-23T12:29:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Yemen’s warring sides agree to release 2,900 detainees in war’s largest exchange",
+      "url": "https://toronto.citynews.ca/2025/12/23/yemens-warring-sides-to-release-some-2700-prisoners-in-wars-largest-exchange",
+      "source": "CityNews Toronto",
+      "published_utc": "2025-12-23T12:24:26.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Local",
+      "region": "Canada"
+    },
+    {
+      "title": "Video: Al Jazeera at scene of armed clashes in Syria’s Aleppo",
+      "url": "https://www.aljazeera.com/video/newsfeed/2025/12/23/video-al-jazeera-at-scene-of-armed-clashes-in-syrias-aleppo?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2025-12-23T12:19:57.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Epstein files show Trump flagged by prosecutor for 'many' flights on sex offender's plane",
+      "url": "https://www.rawstory.com/trump-2674823844",
+      "source": "Raw Story",
+      "published_utc": "2025-12-23T12:16:19.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Risk aversion boosts gold, hurts bitcoin: Crypto Daybook Americas",
+      "url": "https://www.coindesk.com/daybook-us/2025/12/23/risk-aversion-boosts-gold-hurts-bitcoin-crypto-daybook-americas",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2025-12-23T12:15:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "READ: Bari Weiss Laid Out ‘Specific’ Issues with 60 Minutes CECOT Report in Leaked Memo Before Yanking Segment",
+      "url": "https://www.mediaite.com/media/news/read-bari-weiss-laid-out-specific-issues-with-60-minutes-cecot-report-in-leaked-memo-before-yanking-segment",
+      "source": "Mediaite",
+      "published_utc": "2025-12-23T12:12:30.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Israel extends law that banned Al Jazeera for two more years",
+      "url": "https://www.aljazeera.com/news/2025/12/23/israel-extends-law-that-banned-al-jazeera-for-two-more-years?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2025-12-23T12:09:58.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
     }
   ],
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 1078,
-    "dedup_pass1": 1061,
+    "collected": 759,
+    "dedup_pass1": 752,
     "dedup_final": 320,
     "slow_domains": [
-      "www.peelpolice.ca"
+      "www.cp24.com"
     ],
     "timeouts": [
       "news.communitech.ca",
@@ -966,7 +1027,6 @@
     "caps_hit": [
       "cultmtl.com",
       "financialpost.com",
-      "nypost.com",
       "toronto.citynews.ca",
       "variety.com",
       "www.boston.com",
@@ -976,57 +1036,57 @@
     ],
     "feed_times_sample": [
       {
+        "host": "www.cp24.com",
+        "sec": 5.424,
+        "kept": 14
+      },
+      {
         "host": "www.labourstart.org",
-        "sec": 1.418,
+        "sec": 1.801,
         "kept": 0
       },
       {
-        "host": "globalnews.ca",
-        "sec": 0.868,
-        "kept": 2
-      },
-      {
         "host": "toronto.citynews.ca",
-        "sec": 0.729,
+        "sec": 1.351,
         "kept": 8
       },
       {
-        "host": "www.cp24.com",
-        "sec": 0.418,
+        "host": "globalnews.ca",
+        "sec": 0.999,
+        "kept": 2
+      },
+      {
+        "host": "www.mlb.com",
+        "sec": 0.65,
         "kept": 14
       },
       {
         "host": "www.blogto.com",
-        "sec": 0.336,
+        "sec": 0.502,
+        "kept": 0
+      },
+      {
+        "host": "www.bls.gov",
+        "sec": 0.48,
         "kept": 0
       },
       {
         "host": "www.mlbtraderumors.com",
-        "sec": 0.297,
+        "sec": 0.421,
         "kept": 14
-      },
-      {
-        "host": "www.mlb.com",
-        "sec": 0.263,
-        "kept": 14
-      },
-      {
-        "host": "www.bls.gov",
-        "sec": 0.162,
-        "kept": 0
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.083,
+        "sec": 0.181,
         "kept": 14
       },
       {
         "host": "www.nhl.com",
-        "sec": 0.081,
+        "sec": 0.171,
         "kept": 0
       }
     ],
-    "elapsed_sec": 322.32,
+    "elapsed_sec": 360.11,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1052,7 +1112,7 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 30,
+      "ps_fatal_hits": 21,
       "ps_injury_hits": 0,
       "market_btc_hits": 0,
       "market_index_hits": 0,
@@ -1060,12 +1120,12 @@
       "market_single_hits": 0,
       "agg_penalties": 0,
       "press_penalties": 0,
-      "preferred_bonus": 124,
+      "preferred_bonus": 125,
       "substack_tagged": 0,
       "sports_team_hits": 4,
-      "sports_player_hits": 4,
-      "sports_result_win_hits": 23,
-      "sports_result_loss_hits": 2,
+      "sports_player_hits": 2,
+      "sports_result_win_hits": 15,
+      "sports_result_loss_hits": 0,
       "sports_evening_hits": 0,
       "sports_playoff_hits": 0,
       "sports_focus_team_hits": 10,
@@ -1077,16 +1137,16 @@
       "hype_jobs": 0,
       "hype_sports": 0,
       "hype_ceasefire": 0,
-      "reject_hits": 1,
-      "obit_hits": 9,
-      "major_figure_hits": 5,
-      "business_am_hits": 63
+      "reject_hits": 0,
+      "obit_hits": 7,
+      "major_figure_hits": 4,
+      "business_am_hits": 56
     },
     "sanity_stats": {
-      "link_verification_fail": 18,
-      "soft_404_drops": 83,
+      "link_verification_fail": 21,
+      "soft_404_drops": 80,
       "max_age_drops": 0,
-      "min_age_drops": 0,
+      "min_age_drops": 8,
       "market_sanity_drops": 2,
       "backfill_steps_used": 0
     },
