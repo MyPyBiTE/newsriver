@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Edmonton paramedics deal with long wait times, fewer staff",
-      "display":"Edmonton paramedics deal with long wait times, fewer staff",
-      "url":"https://globalnews.ca/news/11588568/edmonton-paramedics-long-wait-times-fewer-staff",
+      "text":"Maple Leafs fire assistant coach Marc Savard",
+      "display":"Maple Leafs fire assistant coach Marc Savard",
+      "url":"https://globalnews.ca/news/11588488/maple-leafs-fire-assistant-coach-marc-savard",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"At least 5 killed after Mexican Navy plane on medical mission crashes in Texas",
+      "display":"At least 5 killed after Mexican Navy plane on medical mission crashes in Texas",
+      "url":"https://toronto.citynews.ca/2025/12/22/at-least-5-killed-after-mexican-navy-plane-on-medical-mission-crashes-in-texas",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"The most tragic injuries of the fantasy football season",
-      "display":"The most tragic injuries of the fantasy football season",
-      "url":"https://nypost.com/2025/12/22/sports/the-most-tragic-injuries-of-the-fantasy-football-season",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Politics Podcast",
-      "display":"Politics Podcast",
-      "url":"https://fivethirtyeight.com/tag/politics-podcast",
+      "text":"Feds’ Case Against Ex-Democrat Aide Accused Of Working With China Hits Roadblock",
+      "display":"Feds’ Case Against Ex-Democrat Aide Accused Of Working With China Hits Roadblock",
+      "url":"https://dailycaller.com/2025/12/22/linda-sun-kathy-hochul-aide-case-roadblock",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2025-12-23T02:55:51Z"
+  "generated_utc":"2025-12-23T03:57:07Z"
 }
