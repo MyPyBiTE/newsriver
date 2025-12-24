@@ -1,6 +1,16 @@
 {
   "items":[
     {
+      "text":"‘He was my best friend,’ says mother of child killed in Regina carbon monoxide incident",
+      "display":"‘He was my best friend,’ says mother of child killed in Regina carbon monoxide incident",
+      "url":"https://globalnews.ca/news/11589646/mother-of-11-year-old-killed-in-regina-incident-speaks",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
       "text":"A blast in Gaza wounds a soldier and Israel accuses Hamas of ceasefire violation",
       "display":"A blast in Gaza wounds a soldier and Israel accuses Hamas of ceasefire violation",
       "url":"https://toronto.citynews.ca/2025/12/24/a-blast-in-gaza-wounds-a-soldier-and-israel-accuses-hamas-of-ceasefire-violation",
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Two Russian police officers killed in Moscow explosion",
-      "display":"Two Russian police officers killed in Moscow explosion",
-      "url":"https://globalnews.ca/news/11590109/moscow-explosion-police-officers-killed",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"What’s Next In The Abortion Drug Case",
-      "display":"What’s Next In The Abortion Drug Case",
-      "url":"https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
+      "text":"What Andy Reid thinks of Travis Kelce retirement possibility",
+      "display":"What Andy Reid thinks of Travis Kelce retirement possibility",
+      "url":"https://nypost.com/2025/12/24/sports/what-andy-reid-thinks-of-travis-kelce-retirement-possibility",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2025-12-24T15:13:17Z"
+  "generated_utc":"2025-12-24T15:33:33Z"
 }
