@@ -1,13 +1,58 @@
 {
-  "generated_utc": "2025-12-24T12:36:40.622Z",
-  "itemset_hash": "a4d0dc60a67c38b6",
+  "generated_utc": "2025-12-24T13:17:00.490Z",
+  "itemset_hash": "5bc550551c895c12",
   "count": 69,
   "items": [
     {
-      "title": "What To Do About A Problem Like Dianne Feinstein?",
-      "url": "https://fivethirtyeight.com/videos/what-to-do-about-a-problem-like-dianne-feinstein",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-24T12:33:08.101Z",
+      "title": "Bob Vylan respond to police decision to drop investigation against them: “We hope this news inspires others to speak up”",
+      "url": "https://www.nme.com/news/music/bob-vylan-respond-to-police-decision-to-drop-investigation-against-them-we-hope-this-news-inspires-others-to-speak-up-3920071",
+      "source": "NME",
+      "published_utc": "2025-12-24T12:56:45.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Trump Media shuffles 2,000 BTC after fresh bitcoin inflows",
+      "url": "https://www.coindesk.com/business/2025/12/24/trump-media-shuffles-2-000-btc-after-fresh-bitcoin-inflows",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2025-12-24T12:54:58.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Thailand and Cambodia begin talks to end deadly clashes after venue row",
+      "url": "https://www.theguardian.com/world/2025/dec/24/thailand-and-cambodia-begin-talks-to-end-deadly-clashes-after-venue-row",
+      "source": "World news | The Guardian",
+      "published_utc": "2025-12-24T12:53:03.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Zelensky moves towards demilitarised zones in latest peace plan for Ukraine",
+      "url": "https://www.bbc.com/news/articles/c9d9wg2pwl1o?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2025-12-24T12:48:38.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -17,10 +62,10 @@
       "region": "World"
     },
     {
-      "title": "Politics Podcast",
-      "url": "https://fivethirtyeight.com/tag/politics-podcast",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-24T12:33:08.101Z",
+      "title": "Trump declared a ‘new Middle East’ – but what has changed?",
+      "url": "https://www.aljazeera.com/video/the-bottom-line/2025/12/24/trump-declared-a-new-middle-east-but-what-has?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2025-12-24T12:48:03.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -30,36 +75,58 @@
       "region": "World"
     },
     {
-      "title": "Hero of 2025: Ultra-Processed Foods",
-      "url": "https://www.motherjones.com/politics/2025/12/hero-of-2025-ultra-processed-foods",
-      "source": "Mother Jones",
-      "published_utc": "2025-12-24T12:30:00.000Z",
+      "title": "Libyan army chief killed in plane crash: What we know so far",
+      "url": "https://www.aljazeera.com/news/2025/12/24/libyan-army-chief-killed-in-plane-crash-what-we-know-so-far?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2025-12-24T12:44:01.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": false,
-        "reasons": []
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "breaker"
       },
       "category": "General",
       "region": "World"
     },
     {
-      "title": "How Our Presidential Endorsement Tracker Works",
-      "url": "https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-24T12:33:08.101Z",
+      "title": "‘Slow Horses’ Star Hiba Bennani To Star In Moroccan Drama ‘Rass Jbel’ Opposite Asaad Bouab",
+      "url": "https://deadline.com/2025/12/slow-horses-star-hiba-bennani-casting-rass-jbel-1236656416",
+      "source": "Deadline",
+      "published_utc": "2025-12-24T12:36:44.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": false,
-        "reasons": []
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
       },
-      "category": "General",
+      "category": "Culture",
+      "region": "Canada"
+    },
+    {
+      "title": "HashKey Capital's $500 million-target blockchain fund raises $250 million in first round",
+      "url": "https://www.coindesk.com/business/2025/12/24/hashkey-capital-s-usd500-million-target-blockchain-fund-raises-usd250-million-in-first-round",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2025-12-24T12:32:23.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Business",
       "region": "World"
     },
     {
-      "title": "Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "url": "https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-24T12:33:08.101Z",
+      "title": "Palestinian Christians worry about erasure as Israeli settlements grow",
+      "url": "https://www.aljazeera.com/video/newsfeed/2025/12/24/palestinian-christians-worry-about-erasure-as-israeli-settlements-grow?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2025-12-24T12:29:36.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -79,71 +146,6 @@
         "reasons": []
       },
       "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "url": "https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-24T12:33:08.102Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "What’s Next In The Abortion Drug Case",
-      "url": "https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-24T12:33:08.102Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "'Nasty intraparty fight' looming for Republicans when they return to DC: report",
-      "url": "https://www.rawstory.com/gop-nasty-budget-fight",
-      "source": "Raw Story",
-      "published_utc": "2025-12-24T12:11:45.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "How Concerned Are Americans About The Pitfalls Of AI?",
-      "url": "https://fivethirtyeight.com/videos/how-concerned-are-americans-about-the-pitfalls-of-ai",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-24T12:33:08.101Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Live From New York: Will AI Replace This Podcast?",
-      "url": "https://fivethirtyeight.com/videos/live-from-new-york-will-ai-replace-this-podcast",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-24T12:33:08.101Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
       "region": "World"
     },
     {
@@ -192,45 +194,6 @@
       "region": "World"
     },
     {
-      "title": "'16 and Pregnant' Star Whitney Purvis Avoids Arrest in Child Support Case",
-      "url": "https://www.tmz.com/2025/12/24/whitney-purvis-avoids-arrest-child-support-16-and-pregnant",
-      "source": "TMZ.com",
-      "published_utc": "2025-12-24T12:00:45.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "How Tariffs and Inflation Are Hitting Holiday Sweets",
-      "url": "https://reason.com/2025/12/24/how-tariffs-and-inflation-are-hitting-holiday-sweets",
-      "source": "Reason.com",
-      "published_utc": "2025-12-24T12:00:28.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Today in Supreme Court History: December 24, 1798",
-      "url": "https://reason.com/volokh/2025/12/24/today-in-supreme-court-history-december-24-1798-7",
-      "source": "Reason.com",
-      "published_utc": "2025-12-24T12:00:28.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Oil Prices Climb Despite Oversupply Fears",
       "url": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Climb-Despite-Oversupply-Fears.html",
       "source": "Oilprice.com",
@@ -263,10 +226,10 @@
       "region": "Canada"
     },
     {
-      "title": "Prosecutor Floating Death Penalty for Nick Reiner Knows It’s an Empty Threat",
-      "url": "https://theintercept.com/2025/12/24/nick-reiner-death-penalty-nathan-hochman-la",
-      "source": "The Intercept",
-      "published_utc": "2025-12-24T12:00:00.000Z",
+      "title": "Stokes concerned for England’s mental wellbeing on Ashes tour of Australia",
+      "url": "https://www.aljazeera.com/sports/2025/12/24/stokes-concerned-for-england-mental-well-being-on-ashes-tour-of-australia?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2025-12-24T11:57:46.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -308,20 +271,7 @@
       "region": "Canada"
     },
     {
-      "title": "Stokes concerned for England’s mental wellbeing on Ashes tour of Australia",
-      "url": "https://www.aljazeera.com/sports/2025/12/24/stokes-concerned-for-england-mental-well-being-on-ashes-tour-of-australia?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2025-12-24T11:57:46.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "UK campaigners among five denied US visas",
+      "title": "UK social media campaigners among five denied US visas",
       "url": "https://www.bbc.com/news/articles/cp39kngz008o?at_campaign=rss&at_medium=RSS",
       "source": "BBC News",
       "published_utc": "2025-12-24T11:53:53.000Z",
@@ -350,32 +300,6 @@
       "region": "Canada"
     },
     {
-      "title": "'Livid' Trump living in 'alternate reality' after GOP 'forced his hand' on Epstein: column",
-      "url": "https://www.rawstory.com/trump-epstein-2674826815",
-      "source": "Raw Story",
-      "published_utc": "2025-12-24T11:51:59.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Donald Trump Rages Over ‘Pathetic Trainwreck’ Stephen Colbert, Says CBS Should Cancel His Show Now: ‘Put Him to Sleep’",
-      "url": "https://variety.com/2025/tv/news/donald-trump-attacks-stephen-colbert-cbs-cancel-late-show-1236617088",
-      "source": "Variety",
-      "published_utc": "2025-12-24T11:48:17.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "‘Georgia On My Mind’ and ‘Dream A Little Dream Of Me’ among songs entering US public domain",
       "url": "https://www.nme.com/news/music/georgia-on-my-mind-and-dream-a-little-dream-of-me-among-songs-entering-us-public-domain-3920059",
       "source": "NME",
@@ -386,32 +310,6 @@
         "reasons": []
       },
       "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Zelensky moves towards demilitarised zones in latest peace plan for Ukraine",
-      "url": "https://www.bbc.com/news/articles/c9d9wg2pwl1o?at_campaign=rss&at_medium=RSS",
-      "source": "BBC News",
-      "published_utc": "2025-12-24T11:43:47.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "'I really can't point to much': Republicans admit they got little accomplished in Congress",
-      "url": "https://www.rawstory.com/congress-legislation-2025",
-      "source": "Raw Story",
-      "published_utc": "2025-12-24T11:42:57.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
       "region": "World"
     },
     {
@@ -426,38 +324,6 @@
       },
       "category": "General",
       "region": "World"
-    },
-    {
-      "title": "Three plans for the Jets to find a new QB — in NFL Draft, free agency and trades",
-      "url": "https://nypost.com/2025/12/24/sports/jets-qb-plans-using-2026-nfl-draft-free-agency-and-trades",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2025-12-24T11:40:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "Jaxson Dart hasn’t been the same without Brian Daboll",
-      "url": "https://nypost.com/2025/12/24/sports/giants-jaxson-dart-looks-like-hes-missing-brian-daboll",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2025-12-24T11:20:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Sports",
-      "region": "Canada"
     },
     {
       "title": "Breaking Baz: Why Kate Winslet Decided Fisayo Akinade Needed A Bigger Role In ‘Goodbye June’",
@@ -478,12 +344,12 @@
       "source": "Cointelegraph.com News",
       "published_utc": "2025-12-24T11:14:05.000Z",
       "effects": {
-        "lightsaber": true,
-        "glitch": false,
+        "lightsaber": false,
+        "glitch": true,
         "reasons": [
-          "score≥2.6"
+          "score≥2.1"
         ],
-        "style": "lightsaber"
+        "style": "glitch"
       },
       "category": "Business",
       "region": "World"
@@ -506,35 +372,6 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2025/12/24/video-captures-libyan-military-chiefs-fatal-plane-crash-near-ankara?traffic_source=rss",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
       "published_utc": "2025-12-24T11:01:16.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "REP. MARLIN STUTZMAN: No Silent Night For Nigeria’s Persecuted Christians",
-      "url": "https://dailycaller.com/2025/12/24/marlin-stutzman-silent-night-nigeria-persecuted-christians-islamic-extremists-boko-haram",
-      "source": "The Daily Caller",
-      "published_utc": "2025-12-24T11:00:42.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Where Israel Goes Next. The Real War on Christmas. Plus. . .",
-      "url": "https://www.thefp.com/p/where-israel-goes-next-the-real-war",
-      "source": "The Free Press",
-      "published_utc": "2025-12-24T11:00:39.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -560,45 +397,6 @@
       "region": "Canada"
     },
     {
-      "title": "More than 100 moons were discovered in our own solar system in 2025",
-      "url": "https://www.newscientist.com/article/2500310-more-than-100-moons-were-discovered-in-our-own-solar-system-in-2025",
-      "source": "New Scientist - Home",
-      "published_utc": "2025-12-24T11:00:17.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "How Robert Crumb Inspired the Underground Comix Movement",
-      "url": "https://reason.com/2025/12/24/robert-crumbs-roving-art-and-life",
-      "source": "Reason.com",
-      "published_utc": "2025-12-24T11:00:07.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "International Pressure Was Building to Hold Israel Accountable. What Happened?",
-      "url": "https://theintercept.com/2025/12/24/gaza-israel-palestine-ceasefire",
-      "source": "The Intercept",
-      "published_utc": "2025-12-24T11:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
       "title": "A Look Ahead At London’s West End In 2026: Cynthia Erivo, Josh O’Connor, Tilda Swinton & Gary Oldman Among Stars Returning To The Theater",
       "url": "https://deadline.com/2025/12/west-end-2026-cynthia-erivo-josh-oconnor-theater-1236651851",
       "source": "Deadline",
@@ -612,30 +410,17 @@
       "region": "World"
     },
     {
-      "title": "The Bible Says So…or Does It?",
-      "url": "https://www.motherjones.com/politics/2025/12/dan-mcclellan-bible-christian-nationalism-religion-politics",
-      "source": "Mother Jones",
-      "published_utc": "2025-12-24T11:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Sling Money receives approval to offer crypto services in UK as stablecoin payments gain popularity",
       "url": "https://www.coindesk.com/policy/2025/12/24/sling-money-receives-approval-to-offer-crypto-services-in-uk-as-stablecoin-payments-gain-popularity",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published_utc": "2025-12-24T10:56:30.000Z",
       "effects": {
-        "lightsaber": true,
-        "glitch": false,
+        "lightsaber": false,
+        "glitch": true,
         "reasons": [
-          "score≥2.6"
+          "score≥2.1"
         ],
-        "style": "lightsaber"
+        "style": "glitch"
       },
       "category": "Business",
       "region": "World"
@@ -654,49 +439,10 @@
       "region": "World"
     },
     {
-      "title": "Update: Flood advisory active for Los Angeles and Ventura counties until early Wednesday evening",
-      "url": "https://www.dailynews.com/2025/12/24/update-flood-advisory-active-for-los-angeles-and-ventura-counties-until-early-wednesday-evening",
-      "source": "Daily News",
-      "published_utc": "2025-12-24T10:49:39.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "The Most Beautiful Science of the Year",
-      "url": "https://nautil.us/the-most-beautiful-science-of-the-year-4-1256491",
-      "source": "Nautilus",
-      "published_utc": "2025-12-24T10:45:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Youth",
-      "region": "World"
-    },
-    {
       "title": "New clashes as Cambodia, Thailand hold first talks to end latest violence",
       "url": "https://www.aljazeera.com/news/2025/12/24/new-clashes-as-cambodia-thailand-hold-first-talks-to-end-latest-violence?traffic_source=rss",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
       "published_utc": "2025-12-24T10:40:08.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "U.S. and Ukraine reach consensus on key issues aimed at ending the war",
-      "url": "https://www.npr.org/2025/12/24/g-s1-103618/u-s-and-ukraine-reach-consensus-on-key-issues",
-      "source": "NPR Topics: Home Page Top Stories",
-      "published_utc": "2025-12-24T10:38:33.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -745,32 +491,6 @@
         "reasons": []
       },
       "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "There's one job nobody wants — no wonder this nonentity loves it",
-      "url": "https://www.rawstory.com/raw-investigates/jd-vance-2674824583",
-      "source": "Raw Story",
-      "published_utc": "2025-12-24T10:30:01.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "What does climate change look like? This year's hurricane season is one example",
-      "url": "https://www.npr.org/2025/12/24/nx-s1-5620997/2025-hurricane-season-storm-climate-melissa-category-5",
-      "source": "NPR Topics: Home Page Top Stories",
-      "published_utc": "2025-12-24T10:30:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
       "region": "World"
     },
     {
@@ -855,32 +575,6 @@
       "region": "World"
     },
     {
-      "title": "Despite Vatican-Israel tensions, Catholics and Jews work to build trust in Haifa",
-      "url": "https://www.npr.org/2025/12/24/g-s1-103018/israel-interfaith-understanding-jews-catholics-christmas",
-      "source": "NPR Topics: Home Page Top Stories",
-      "published_utc": "2025-12-24T10:03:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "The Birth of Christianity",
-      "url": "https://www.thefp.com/p/the-birth-of-christianity",
-      "source": "The Free Press",
-      "published_utc": "2025-12-24T10:02:22.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Bitcoin nears breakout from the $85,000-$90,000 range as options expiry looms",
       "url": "https://www.coindesk.com/markets/2025/12/24/bitcoin-nears-breakout-from-the-usd85-000-usd90-000-range-as-options-expiry-looms",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
@@ -913,19 +607,6 @@
       "region": "Canada"
     },
     {
-      "title": "Ranveer Singh’s ‘Dhurandhar 2’ Locks 2026 Release Date, Expands to Five Languages Following South India Demand",
-      "url": "https://variety.com/2025/film/news/ranveer-singh-dhurandhar-2-2026-release-date-1236617082",
-      "source": "Film",
-      "published_utc": "2025-12-24T10:01:01.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "‘Love Island’ Star & Make-Up YouTuber Lana Jenkins Joins Creator Agency NAO Talent",
       "url": "https://deadline.com/2025/12/lana-jenkins-love-island-joins-creator-agency-nao-talent-1236656385",
       "source": "Deadline",
@@ -939,10 +620,10 @@
       "region": "World"
     },
     {
-      "title": "The strangers who guided her home — and returned with Christmas dinner",
-      "url": "https://www.npr.org/2025/12/24/nx-s1-5648191/strangers-christmas-kindness",
-      "source": "NPR Topics: Home Page Top Stories",
-      "published_utc": "2025-12-24T10:00:00.000Z",
+      "title": "Aid cuts push Sudan deeper into “acute hunger”",
+      "url": "https://www.aljazeera.com/video/quotable/2025/12/24/aid-cuts-push-sudan-deeper-into-acute?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2025-12-24T09:57:27.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -950,79 +631,416 @@
       },
       "category": "General",
       "region": "World"
+    },
+    {
+      "title": "Arab League welcomes Sudanese gov’t peace plan presented at UN",
+      "url": "https://www.aljazeera.com/news/2025/12/24/arab-league-welcomes-sudanese-govt-peace-plan-presented-at-un?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2025-12-24T09:53:25.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Russell Brand charged with new offences of rape and sexual assault",
+      "url": "https://www.nme.com/news/russell-brand-charged-with-new-offences-of-rape-and-sexual-assault-3920015",
+      "source": "NME",
+      "published_utc": "2025-12-24T09:52:53.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Venezuela accuses US of 'extortion' over seizure of oil tankers",
+      "url": "https://www.bbc.com/news/articles/cd749gqgg11o?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2025-12-24T09:46:14.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Trend Research quietly becomes one of Ethereum’s largest whales with 46K ETH buy",
+      "url": "https://cointelegraph.com/news/trend-research-ethereum-largest-whales",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2025-12-24T09:34:49.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Wrangler and CamphorWood Team Up for Second Capsule",
+      "url": "https://hypebeast.com/2025/12/wrangler-camphorwood-capsule-collection-collaboration-release-info",
+      "source": "Hypebeast",
+      "published_utc": "2025-12-24T09:32:43.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Libya's army chief killed in air crash in Turkey",
+      "url": "https://www.bbc.com/news/articles/cyvgzyepdqno?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2025-12-24T09:27:31.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": [],
+        "style": "breaker"
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Martin Parr’s Most Influential Work Returns to Bristol in ‘The Last Resort’ Exhibition",
+      "url": "https://hypebeast.com/2025/12/martin-parr-foundation-the-last-resort-exhibition",
+      "source": "Hypebeast",
+      "published_utc": "2025-12-24T09:14:37.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "HashKey secures $250M for new crypto fund amid ‘significant interest’",
+      "url": "https://cointelegraph.com/news/hashkey-secures-250m-first-close-crypto-fund-iv-institutional-interest",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2025-12-24T09:10:15.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "UNO Meets Streetwear in WIND AND SEA’s Holiday Drop",
+      "url": "https://hypebeast.com/2025/12/wind-and-sea-uno-collection-collaboration-release-info",
+      "source": "Hypebeast",
+      "published_utc": "2025-12-24T09:08:24.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Border villagers abducted and taken to Russia, says Ukraine",
+      "url": "https://www.bbc.com/news/articles/czxpz05yj5po?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2025-12-24T09:07:52.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Sentimental Value is a raw study of generational trauma",
+      "url": "https://www.dazeddigital.com/film-tv/article/69320/1/sentimental-value-joachim-trier-renate-reinsve-elle-fanning-generational-trauma",
+      "source": "Dazed",
+      "published_utc": "2025-12-24T09:07:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "About one-third of Canadians optimistic about the new year: survey",
+      "url": "https://toronto.citynews.ca/2025/12/24/about-one-third-of-canadians-optimistic-about-the-new-year-survey",
+      "source": "CityNews Toronto",
+      "published_utc": "2025-12-24T09:01:23.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "Canada needs to stand firm as trade talks approach: Unifor’s Payne",
+      "url": "https://toronto.citynews.ca/2025/12/24/canada-needs-to-stand-firm-as-trade-talks-approach-unifors-payne",
+      "source": "CityNews Toronto",
+      "published_utc": "2025-12-24T09:00:59.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "10 heartwarming photo stories about community from 2025",
+      "url": "https://www.dazeddigital.com/art-photography/article/69342/1/10-photo-community-friendship-2025-portraits-rio-brazil-crete",
+      "source": "Dazed",
+      "published_utc": "2025-12-24T09:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Ontario economic development minister focusing on defence investments in 2026",
+      "url": "https://toronto.citynews.ca/2025/12/24/ontario-economic-development-minister-focusing-on-defence-investments-in-2026",
+      "source": "CityNews Toronto",
+      "published_utc": "2025-12-24T09:00:47.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Local",
+      "region": "Canada"
+    },
+    {
+      "title": "Christmas is not a Western story – it is a Palestinian one",
+      "url": "https://www.aljazeera.com/opinions/2025/12/24/christmas-is-not-a-western-story-it-is-a-palestinian-one?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2025-12-24T08:37:10.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Brooks Koepka quits LIV Golf to focus on family life",
+      "url": "https://www.aljazeera.com/sports/2025/12/24/brooks-koepka-quits-liv-golf-to-focus-on-family-life?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2025-12-24T08:28:04.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "2026 Horoscopes: Things are looking… kind of positive??",
+      "url": "https://www.dazeddigital.com/beauty/article/69325/1/2026-horoscope-we-are-moving-from-passivity-into-action",
+      "source": "Dazed",
+      "published_utc": "2025-12-24T08:05:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "China probe finds Taiwanese men controlled ship that cut undersea cables",
+      "url": "https://www.aljazeera.com/news/2025/12/24/china-probe-finds-taiwanese-men-controlled-ship-that-cut-undersea-cables?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2025-12-24T08:17:15.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "Australia’s NSW passes tough anti-protest, gun laws after Bondi attack",
+      "url": "https://www.aljazeera.com/news/2025/12/24/australias-nsw-passes-tough-anti-protest-gun-laws-after-bondi-attack?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2025-12-24T08:20:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": [],
+        "style": "breaker"
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "The Pluribus Season Finale Cemented This Show’s Existential Brilliance",
+      "url": "https://consequence.net/2025/12/pluribus-episode-9-recap-review-apple-tv",
+      "source": "Consequence",
+      "published_utc": "2025-12-24T08:00:53.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "11 alt Christmas anthems for the miserable and brokenhearted",
+      "url": "https://www.dazeddigital.com/music/article/69317/1/11-alt-christmas-anthems-miserable-brokenhearted-sophia-stel-sufjan-stevens",
+      "source": "Dazed",
+      "published_utc": "2025-12-24T08:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Japan Welcomes the Largest 'Ghost in the Shell' Exhibition in Franchise History",
+      "url": "https://hypebeast.com/2025/12/ghost-in-the-shell-exhibition-tokyo-node-gallery-japan",
+      "source": "Hypebeast",
+      "published_utc": "2025-12-24T07:58:43.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Revisiting the most-read fashion stories on Dazed in 2025",
+      "url": "https://www.dazeddigital.com/fashion/article/69350/1/most-read-fashion-stories-2025-basic-medieval-devil-wears-prada",
+      "source": "Dazed",
+      "published_utc": "2025-12-24T07:56:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Last Days: The opera exploring the myth of Kurt Cobain",
+      "url": "https://www.dazeddigital.com/music/article/69344/1/last-days-the-opera-exploring-the-myth-of-kurt-cobain-matt-copson",
+      "source": "Dazed",
+      "published_utc": "2025-12-24T07:43:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
     }
   ],
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 891,
-    "dedup_pass1": 875,
+    "collected": 447,
+    "dedup_pass1": 440,
     "dedup_final": 320,
     "slow_domains": [],
     "timeouts": [
-      "japantoday.com",
       "news.communitech.ca",
       "www.cbc.ca"
     ],
     "errors": [
-      "alert.weather.gc.ca",
       "feeds.reuters.com"
     ],
     "caps_hit": [
       "cultmtl.com",
       "financialpost.com",
-      "nypost.com",
-      "toronto.citynews.ca",
-      "variety.com",
-      "www.boston.com",
-      "www.marketwatch.com",
-      "www.npr.org",
-      "www.wsj.com"
+      "toronto.citynews.ca"
     ],
     "feed_times_sample": [
       {
-        "host": "www.labourstart.org",
-        "sec": 1.939,
-        "kept": 0
-      },
-      {
         "host": "toronto.citynews.ca",
-        "sec": 1.645,
+        "sec": 2.017,
         "kept": 8
       },
       {
+        "host": "www.labourstart.org",
+        "sec": 1.987,
+        "kept": 0
+      },
+      {
         "host": "globalnews.ca",
-        "sec": 0.985,
+        "sec": 1.079,
         "kept": 2
       },
       {
+        "host": "www.cp24.com",
+        "sec": 0.492,
+        "kept": 14
+      },
+      {
         "host": "www.mlb.com",
-        "sec": 0.534,
+        "sec": 0.484,
         "kept": 14
       },
       {
         "host": "www.blogto.com",
-        "sec": 0.409,
+        "sec": 0.464,
         "kept": 0
       },
       {
         "host": "www.mlbtraderumors.com",
-        "sec": 0.307,
-        "kept": 14
-      },
-      {
-        "host": "www.cp24.com",
-        "sec": 0.284,
+        "sec": 0.303,
         "kept": 14
       },
       {
         "host": "www.bls.gov",
-        "sec": 0.252,
+        "sec": 0.232,
         "kept": 0
       },
       {
         "host": "www.nhl.com",
-        "sec": 0.113,
+        "sec": 0.13,
         "kept": 0
       },
       {
@@ -1031,7 +1049,7 @@
         "kept": 14
       }
     ],
-    "elapsed_sec": 333.43,
+    "elapsed_sec": 360.43,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1057,7 +1075,7 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 22,
+      "ps_fatal_hits": 9,
       "ps_injury_hits": 0,
       "market_btc_hits": 0,
       "market_index_hits": 0,
@@ -1065,15 +1083,15 @@
       "market_single_hits": 0,
       "agg_penalties": 0,
       "press_penalties": 0,
-      "preferred_bonus": 123,
+      "preferred_bonus": 119,
       "substack_tagged": 0,
       "sports_team_hits": 4,
       "sports_player_hits": 2,
-      "sports_result_win_hits": 12,
-      "sports_result_loss_hits": 2,
+      "sports_result_win_hits": 7,
+      "sports_result_loss_hits": 1,
       "sports_evening_hits": 0,
       "sports_playoff_hits": 0,
-      "sports_focus_team_hits": 10,
+      "sports_focus_team_hits": 1,
       "sports_final_hits": 0,
       "sports_final_score_hits": 0,
       "hype_politics": 0,
@@ -1083,16 +1101,16 @@
       "hype_sports": 0,
       "hype_ceasefire": 0,
       "reject_hits": 0,
-      "obit_hits": 10,
-      "major_figure_hits": 4,
-      "business_am_hits": 64
+      "obit_hits": 3,
+      "major_figure_hits": 1,
+      "business_am_hits": 54
     },
     "sanity_stats": {
-      "link_verification_fail": 23,
-      "soft_404_drops": 39,
-      "max_age_drops": 0,
+      "link_verification_fail": 13,
+      "soft_404_drops": 15,
+      "max_age_drops": 7,
       "min_age_drops": 0,
-      "market_sanity_drops": 5,
+      "market_sanity_drops": 10,
       "backfill_steps_used": 0
     },
     "require_exact_count": 69,
