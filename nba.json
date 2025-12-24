@@ -1,34 +1,8 @@
 {
-  "generated_utc": "2025-12-24T05:12:21.296299Z",
+  "generated_utc": "2025-12-24T05:42:40.482412Z",
   "dates": [
     {
       "games": [
-        {
-          "gamePk": "401810275",
-          "gameDate": "2025-12-24T03:00Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "ORL"
-              },
-              "score": 102
-            },
-            "home": {
-              "team": {
-                "abbreviation": "POR"
-              },
-              "score": 99
-            }
-          }
-        },
         {
           "gamePk": "401810276",
           "gameDate": "2025-12-24T03:00Z",
@@ -45,13 +19,13 @@
               "team": {
                 "abbreviation": "DET"
               },
-              "score": 121
+              "score": 136
             },
             "home": {
               "team": {
                 "abbreviation": "SAC"
               },
-              "score": 103
+              "score": 127
             }
           }
         },
@@ -63,21 +37,47 @@
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "3rd",
-            "currentQuarter": "3rd"
+            "currentPeriodOrdinal": "4th",
+            "currentQuarter": "4th"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "HOU"
               },
-              "score": 75
+              "score": 96
             },
             "home": {
               "team": {
                 "abbreviation": "LAC"
               },
-              "score": 87
+              "score": 112
+            }
+          }
+        },
+        {
+          "gamePk": "401810275",
+          "gameDate": "2025-12-24T03:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "ORL"
+              },
+              "score": 110
+            },
+            "home": {
+              "team": {
+                "abbreviation": "POR"
+              },
+              "score": 106
             }
           }
         },
