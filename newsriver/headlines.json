@@ -1,13 +1,58 @@
 {
-  "generated_utc": "2025-12-25T20:45:28.761Z",
-  "itemset_hash": "ad700167c668a2c2",
+  "generated_utc": "2025-12-25T20:58:36.361Z",
+  "itemset_hash": "3999c8a21532dc9e",
   "count": 69,
   "items": [
     {
-      "title": "‘No negotiation, no truce’ with RSF, says senior Sudan official",
-      "url": "https://www.aljazeera.com/news/2025/12/25/no-negotiation-no-truce-with-rsf-says-senior-sudan-official?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2025-12-25T20:35:30.000Z",
+      "title": "'Blatant abuse of power': Lawyers sound off against RFK Jr.'s latest attack on health care",
+      "url": "https://www.rawstory.com/rfk-jr-2674829387",
+      "source": "Raw Story",
+      "published_utc": "2025-12-25T20:50:11.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Severe atmospheric river storm causes flooding, mudslides in Southern California",
+      "url": "https://globalnews.ca/news/11591023/atmospheric-river-flooding-southern-california",
+      "source": "globalnews.ca",
+      "published_utc": "2025-12-25T20:47:22.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "Dave Portnoy fumes at Adin Ross after Puka Nacua controversy over antisemitic celebration",
+      "url": "https://nypost.com/2025/12/25/sports/dave-portnoy-fumes-at-adin-ross-after-puka-nacua-controversy",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2025-12-25T20:47:18.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "‘Bridgerton’ Goes Full Cinderella in Season 4 Trailer",
+      "url": "https://www.rollingstone.com/tv-movies/tv-movie-news/bridgerton-cinderella-season-4-part-1-trailer-1235490488",
+      "source": "Rolling Stone",
+      "published_utc": "2025-12-25T20:45:46.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -46,16 +91,55 @@
       "region": "World"
     },
     {
-      "title": "What are the consequences of Israel’s expanding illegal settlements?",
-      "url": "https://www.aljazeera.com/video/inside-story/2025/12/25/what-are-the-consequences-of-israels-expanding-illegal-settlements?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2025-12-25T20:30:59.000Z",
+      "title": "'Ned's Declassified' Daniel Curtis Lee Says Tylor Chase Trashed Motel Room",
+      "url": "https://www.tmz.com/2025/12/25/daniel-curtis-lee-tylor-chase-motel-room-trashed",
+      "source": "TMZ.com",
+      "published_utc": "2025-12-25T20:28:40.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
         "reasons": []
       },
       "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "House Republicans Declare Rudolph the Red-Nosed Reindeer ‘Definitely a Republican’",
+      "url": "https://www.mediaite.com/media/news/house-republicans-declare-rudolph-the-red-nosed-reindeer-definitely-a-republican",
+      "source": "Mediaite",
+      "published_utc": "2025-12-25T20:24:29.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "‘Bridgerton’ Season 4 Trailer Adds a Dash of ‘Cinderella’ to a Forbidden Romance",
+      "url": "https://variety.com/2025/streaming/news/bridgerton-season-4-trailer-steamy-romance-cinderella-1236617470",
+      "source": "Variety",
+      "published_utc": "2025-12-25T20:24:13.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Travis and Jason Kelce Spark Viral Reactions with Suggestive Christmas Sweaters",
+      "url": "https://www.tmz.com/2025/12/25/travis-jason-kelce-christmas-sweaters",
+      "source": "TMZ.com",
+      "published_utc": "2025-12-25T20:17:27.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Labour",
       "region": "World"
     },
     {
@@ -73,6 +157,19 @@
       },
       "category": "Local",
       "region": "Canada"
+    },
+    {
+      "title": "Jimmy Kimmel Delivers Grim Christmas Message: ‘Tyranny Is Booming’",
+      "url": "https://www.mediaite.com/media/tv/jimmy-kimmel-delivers-grim-christmas-message-tyranny-is-booming",
+      "source": "Mediaite",
+      "published_utc": "2025-12-25T20:02:25.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
     },
     {
       "title": "‘Apex’ Trailer: Taron Egerton Is On The Hunt For Charlize Theron In Netflix Survival Thriller",
@@ -104,9 +201,9 @@
       "region": "Canada"
     },
     {
-      "title": "Crypto Biz: Exchanges place their bets on prediction markets",
-      "url": "https://cointelegraph.com/news/crypto-prediction-markets-crypto-com-fairness-coinbase-acquisition",
-      "source": "Cointelegraph.com News",
+      "title": "Broncos vs. Chiefs prediction: NFL Christmas Day picks, props, odds, bets",
+      "url": "https://nypost.com/2025/12/25/betting/broncos-vs-chiefs-prediction-nfl-christmas-day-picks-props-odds-bets",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
       "published_utc": "2025-12-25T20:00:00.000Z",
       "effects": {
         "lightsaber": false,
@@ -115,6 +212,35 @@
           "score≥2.1"
         ],
         "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Missouri sports betting promos for Broncos vs. Chiefs:  Grab bonus offers from Fanatics, BetMGM, more sportsbooks",
+      "url": "https://nypost.com/2025/12/25/betting/missouri-sports-betting-promos-for-broncos-vs-chiefs-grab-bonus-offers-from-fanatics-betmgm-more-sportsbooks",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2025-12-25T20:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Crypto Biz: Exchanges place their bets on prediction markets",
+      "url": "https://cointelegraph.com/news/crypto-prediction-markets-crypto-com-fairness-coinbase-acquisition",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2025-12-25T20:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
       },
       "category": "Business",
       "region": "World"
@@ -136,6 +262,22 @@
       "region": "World"
     },
     {
+      "title": "Knicks pull off monster comeback to steal Christmas game from Cavaliers at MSG",
+      "url": "https://nypost.com/2025/12/25/sports/knicks-pull-off-comeback-to-steal-christmas-game-from-cavaliers",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2025-12-25T19:57:05.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
       "title": "Athletics, Tyler Soderstrom Agree To Seven-Year Extension",
       "url": "https://www.mlbtraderumors.com/2025/12/athletics-tyler-soderstrom-agree-to-seven-year-extension.html",
       "source": "MLB Trade Rumors",
@@ -150,6 +292,77 @@
       },
       "category": "Sports",
       "region": "Canada"
+    },
+    {
+      "title": "​MAGA divided after right-wing influencer spotted in photo with 'Jew-hating holocaust gag'",
+      "url": "https://www.rawstory.com/maga-2674829264",
+      "source": "Raw Story",
+      "published_utc": "2025-12-25T19:54:23.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "The Top 10 ‘South Park’ Christmas Episodes, Ranked",
+      "url": "https://www.hollywoodreporter.com/lists/south-park-christmas-episodes-top-10-ranked",
+      "source": "The Hollywood Reporter",
+      "published_utc": "2025-12-25T19:51:17.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Josh Hart limps off with apparent ankle injury in latest Knicks worry",
+      "url": "https://nypost.com/2025/12/25/sports/josh-hart-limps-off-with-apparent-ankle-injury-in-latest-knicks-worry",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2025-12-25T19:39:28.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "St. Knicks come through for struggling NJ family at Christmas Day game: ‘Shocked and in awe’",
+      "url": "https://nypost.com/2025/12/25/us-news/st-knicks-come-through-for-struggling-nj-family-at-christmas-day-game-shocked-and-in-awe",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2025-12-25T19:37:41.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Ratings Tank For Kennedy Center Honors With President Trump as Host",
+      "url": "https://www.tmz.com/2025/12/25/trump-hosted-kennedy-center-honors-tanks-in-ratings",
+      "source": "TMZ.com",
+      "published_utc": "2025-12-25T19:35:41.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
     },
     {
       "title": "The Lemony Fresh Jordan 1’s GORE-TEX Era Peaks on The Trail",
@@ -175,7 +388,7 @@
         "reasons": [
           "score≥2.1"
         ],
-        "style": "glitch"
+        "style": "breaker"
       },
       "category": "General",
       "region": "World"
@@ -191,6 +404,48 @@
         "reasons": []
       },
       "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Joe Rogan and Shane Gillis Marvel at Jelly Roll's Dramatic Weight Loss",
+      "url": "https://www.tmz.com/2025/12/25/joe-rogan-shane-gillis-talk-jelly-roll-weight-loss",
+      "source": "TMZ.com",
+      "published_utc": "2025-12-25T19:13:46.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Fringe USMNT player Haji Wright’s club Coventry City demands record $270 million from desperate West Ham",
+      "url": "https://nypost.com/2025/12/25/sports/coventry-city-demands-record-270m-from-west-ham-for-haji-wright",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2025-12-25T19:12:09.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Senator Offers Holiday Wishes While Sitting Next to Taxidermied Alligator: ‘You Can Find God’s Love Everywhere’",
+      "url": "https://www.mediaite.com/media/news/senator-offers-holiday-wishes-while-sitting-next-to-taxidermied-alligator-you-can-find-gods-love-everywhere",
+      "source": "Mediaite",
+      "published_utc": "2025-12-25T19:03:05.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
       "region": "World"
     },
     {
@@ -210,10 +465,65 @@
       "region": "Canada"
     },
     {
+      "title": "Where to Watch the NBA’s Christmas Day Basketball Games",
+      "url": "https://www.thewrap.com/culture-lifestyle/sports/where-to-watch-the-nbas-christmas-day-basketball-games",
+      "source": "TheWrap",
+      "published_utc": "2025-12-25T19:00:46.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "theScore Bet bonus code NPNEWS: Bet $10, get $100 in bonus bets for Lakers vs. Rockets",
+      "url": "https://nypost.com/2025/12/25/betting/thescore-bet-bonus-code-npnews-bet-10-get-100-in-bonus-bets-for-lakers-vs-rockets",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2025-12-25T19:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "‘Stranger Things’ Season 5 Volume 1 Recap: What to Remember Before Volume 2",
+      "url": "https://www.thewrap.com/creative-content/what-to-watch/stranger-things-season-5-volume-1-recap",
+      "source": "TheWrap",
+      "published_utc": "2025-12-25T19:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
       "title": "Photos: A Venezuelan family Christmas – from the US dream to poverty",
       "url": "https://www.aljazeera.com/gallery/2025/12/25/photos-a-venezuelan-family-christmas-from-the-us-dream-to-poverty?traffic_source=rss",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
       "published_utc": "2025-12-25T18:59:10.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Martin Scorsese Remembers His Friend Rob Reiner: ‘It Breaks My Heart’",
+      "url": "https://www.rollingstone.com/tv-movies/tv-movie-news/martin-scorsese-rob-reiner-tribute-1235490479",
+      "source": "Rolling Stone",
+      "published_utc": "2025-12-25T18:47:43.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -262,6 +572,19 @@
       "region": "World"
     },
     {
+      "title": "Santa Gets Pulled Over By Police For Speeding In Ohio In Hilarious Video",
+      "url": "https://www.tmz.com/2025/12/25/santa-pulled-over-speeding-ohio-video",
+      "source": "TMZ.com",
+      "published_utc": "2025-12-25T18:39:03.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
       "title": "5 Times Stephen A. Smith Blasted Democrats, Lighting Them Up Like Christmas Trees In 2025",
       "url": "https://dailycaller.com/2025/12/25/5-times-stephen-a-smith-blasted-democrats-lighting-them-up-like-christmas-trees-in-2025",
       "source": "The Daily Caller",
@@ -279,6 +602,19 @@
       "url": "https://www.aljazeera.com/news/2025/12/25/turkiye-and-libya-intensify-probe-into-deadly-plane-crash-near-ankara?traffic_source=rss",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
       "published_utc": "2025-12-25T18:36:53.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Fox’s Mark Levin Claps Back at Jack Posobiec for Accusing Him of Attacking MAGA Influencer’s Faith: ‘Long Record of Woke Reichism’",
+      "url": "https://www.mediaite.com/media/news/foxs-mark-levin-claps-back-at-jack-posobiec-for-accusing-him-of-attacking-maga-influencers-faith-long-record-of-woke-reichism",
+      "source": "Mediaite",
+      "published_utc": "2025-12-25T18:28:52.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -356,6 +692,45 @@
       "region": "World"
     },
     {
+      "title": "'Un-American': Trump's 'soulless goons' accused of major violation with 'savior' statement",
+      "url": "https://www.rawstory.com/trump-dhs-2674829152",
+      "source": "Raw Story",
+      "published_utc": "2025-12-25T18:09:56.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Congress Sets Records in 2025 for Longest Shutdown, Fewest Bills, Retirements",
+      "url": "https://www.mediaite.com/politics/congress-sets-records-in-2025-for-longest-shutdown-fewest-bills-retirements",
+      "source": "Mediaite",
+      "published_utc": "2025-12-25T18:08:54.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Martin Scorsese Remembers Rob Reiner: ‘He Had a Beautiful Sense of Uninhibited Freedom’",
+      "url": "https://variety.com/2025/film/news/martin-scorsese-rob-reiner-essay-1236617459",
+      "source": "Film",
+      "published_utc": "2025-12-25T18:02:33.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
       "title": "Starz Drops ‘Outlander’ Teaser For Eighth & Final Season",
       "url": "https://deadline.com/2025/12/outlander-teaser-trailer-season-eight-1236656886",
       "source": "Deadline",
@@ -385,6 +760,22 @@
       "region": "Canada"
     },
     {
+      "title": "Mets tried to get Willson Contreras before Red Sox trade",
+      "url": "https://nypost.com/2025/12/25/sports/mets-tried-to-get-willson-contreras-before-red-sox-trade",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2025-12-25T18:00:10.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
       "title": "Unpacking Copper’s Phantom Deficit",
       "url": "https://oilprice.com/Metals/Commodities/The-Economically-Trapped-Tonne-Unpacking-Coppers-Phantom-Deficit.html",
       "source": "Oilprice.com",
@@ -401,6 +792,51 @@
       "region": "Canada"
     },
     {
+      "title": "DraftKings promo: Bet $5 and get $200 in bonus bets for Mavericks vs. Warriors",
+      "url": "https://nypost.com/2025/12/25/betting/draftkings-promo-bet-5-and-get-200-in-bonus-bets-for-mavericks-vs-warriors",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2025-12-25T18:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "How to watch Mavericks vs. Warriors for free on Christmas: Time, livestream",
+      "url": "https://nypost.com/2025/12/25/sports/how-to-watch-mavericks-vs-warriors-for-free-on-christmas-2025",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2025-12-25T18:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "‘Outlander’ Drops Special Bonus Teaser Ahead of Eighth and Final Season",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/outlander-bonus-teaser-season-8-1236458421",
+      "source": "The Hollywood Reporter",
+      "published_utc": "2025-12-25T18:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
       "title": "Jimmy Kimmel Uses Christmas TV Speech To Declare Victory Over “King Donny” Trump: “We Won, The President Lost”",
       "url": "https://deadline.com/2025/12/jimmy-kimmel-christmas-tv-speech-victory-donald-trump-1236655733",
       "source": "Deadline",
@@ -411,6 +847,19 @@
         "reasons": []
       },
       "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "‘We Won, the President Lost’: Jimmy Kimmel Reflects on Suspension and How ‘Tyranny Is Booming’ in America in Christmas Day Message",
+      "url": "https://variety.com/2025/tv/global/jimmy-kimmel-christmas-day-we-won-donald-trump-lost-1236616489",
+      "source": "Variety",
+      "published_utc": "2025-12-25T17:50:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
       "region": "World"
     },
     {
@@ -440,6 +889,19 @@
       "region": "World"
     },
     {
+      "title": "‘Diddy’s Holding it Down’: Former NBA Star Recalls Jail Stint with Disgraced Rapper",
+      "url": "https://www.mediaite.com/media/news/diddys-holding-it-down-former-nba-star-recalls-jail-stint-with-disgraced-rapper",
+      "source": "Mediaite",
+      "published_utc": "2025-12-25T17:48:16.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
       "title": "Tractor sinks in lake near Montreal: man and child missing",
       "url": "https://globalnews.ca/news/11590987/tractor-sinks-in-lake-missing-child-and-adult-montreal",
       "source": "globalnews.ca",
@@ -456,6 +918,35 @@
       "region": "Canada"
     },
     {
+      "title": "Kelly Clarkson Kicks Off a Very NFL Christmas With ‘Underneath the Tree’",
+      "url": "https://www.rollingstone.com/music/music-news/kelly-clarkson-nfl-christmas-netflix-performance-1235488123",
+      "source": "Rolling Stone",
+      "published_utc": "2025-12-25T17:38:25.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Charles Barkley blasts ‘greedy’ NFL commissioner Roger Goodell for putting Christmas games against NBA",
+      "url": "https://nypost.com/2025/12/25/sports/charles-barkley-blasts-greedy-nfl-roger-goodell-over-christmas-games",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2025-12-25T17:37:53.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
       "title": "The Singular Christmas Gift of the Light of Jesus",
       "url": "https://www.breitbart.com/faith/2025/12/25/singular-christmas-gift-light-jesus",
       "source": "Breitbart News",
@@ -469,500 +960,28 @@
       "region": "World"
     },
     {
-      "title": "‘Bridgerton’ Season 4 Part 1 Trailer Highlights Cinderella Retelling As Benedict’s “Rake” Meets “The Most Intriguing” Lady In Silver, Sophie Baek",
-      "url": "https://deadline.com/2025/12/bridgerton-season-4-part-1-trailer-lady-in-silver-1236655426",
-      "source": "Deadline",
-      "published_utc": "2025-12-25T17:30:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Five Chaotic Gubernatorial Races To Watch In The New Year",
-      "url": "https://dailycaller.com/2025/12/25/governor-elections-midterms-florida-ohio-california-arizona-michigan",
-      "source": "The Daily Caller",
-      "published_utc": "2025-12-25T17:28:45.000Z",
+      "title": "Streamer Seemingly Runs Over Person on Live, Banned from Platform",
+      "url": "https://www.tmz.com/2025/12/25/live-streamer-clavicular-runs-person-over",
+      "source": "TMZ.com",
+      "published_utc": "2025-12-25T17:34:53.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
         "reasons": []
       },
       "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "U.S. Southern Border: Christmas This Year vs. Last",
-      "url": "https://www.breitbart.com/border/2025/12/25/u-s-southern-border-christmas-this-year-vs-last",
-      "source": "Breitbart News",
-      "published_utc": "2025-12-25T17:25:19.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Chance the Rapper and Jeremih Gift Secret Santa EP",
-      "url": "https://pitchfork.com/news/chance-the-rapper-and-jeremih-secret-santa-ep",
-      "source": "RSS: News",
-      "published_utc": "2025-12-25T17:24:53.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Infant among Palestinians wounded in attacks by Israeli settlers, soldiers",
-      "url": "https://www.aljazeera.com/news/2025/12/25/infant-among-palestinians-wounded-in-attacks-by-israeli-settlers-soldiers?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2025-12-25T17:23:10.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Trump Posts Tribute to ‘Home Alone 2’ Casting Biden and Harris as Villains",
-      "url": "https://www.breitbart.com/pre-viral/2025/12/25/trump-posts-tribute-to-home-alone-2-casting-biden-and-harris-as-villains",
-      "source": "Breitbart News",
-      "published_utc": "2025-12-25T17:19:28.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "DOJ finds over a million potentially relevant Epstein files, delays release",
-      "url": "https://globalnews.ca/news/11590970/doj-finds-more-than-a-million-epstein-files-delays-release",
-      "source": "globalnews.ca",
-      "published_utc": "2025-12-25T17:17:35.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "How Trump’s DOJ, Texas Cops Showed Antifa Terror Threat Is Real",
-      "url": "https://dailycaller.com/2025/12/25/trump-doj-antifa-cell-benjamin-song-texas",
-      "source": "The Daily Caller",
-      "published_utc": "2025-12-25T17:09:15.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Why America Might Find Coal In Its Stocking This Christmas — And Be Jolly",
-      "url": "https://dailycaller.com/2025/12/25/christmas-coal-america-jolly-trump-energy",
-      "source": "The Daily Caller",
-      "published_utc": "2025-12-25T17:04:30.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Largest Contract In Franchise History For Each MLB Team",
-      "url": "https://www.mlbtraderumors.com/2025/12/largest-contract-in-franchise-history-for-each-mlb-team-2.html",
-      "source": "MLB Trade Rumors",
-      "published_utc": "2025-12-25T17:00:52.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "Christmas Eve Total B.O. Racks Up $27M+, +5% From 2024; ‘Avatar: Fire And Ash’ Leads With $10M+; ‘Marty Supreme’ & ‘Anaconda’ Previews $2M+ Apiece",
-      "url": "https://deadline.com/2025/12/box-office-christmas-avatar-fire-and-ash-marty-supreme-anaconda-1236656840",
-      "source": "Deadline",
-      "published_utc": "2025-12-25T16:57:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Kennedy Center Christmas Eve Jazz Concert Canceled Over Trump Name On Building",
-      "url": "https://deadline.com/2025/12/kennedy-center-jazz-concert-trump-1236656837",
-      "source": "Deadline",
-      "published_utc": "2025-12-25T16:52:53.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Sean “Diddy” Combs Requests “Immediate Release” From Prison",
-      "url": "https://pitchfork.com/news/sean-diddy-combs-appeals-prison-sentence",
-      "source": "RSS: News",
-      "published_utc": "2025-12-25T16:45:39.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Nike’s Chunky Winterized Air Max DN Is More Boot Than Sneaker",
-      "url": "https://www.highsnobiety.com/p/nike-air-max-dn-winterized-rome",
-      "source": "Highsnobiety",
-      "published_utc": "2025-12-25T16:33:01.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "What the $310B stablecoin market reveals about crypto adoption",
-      "url": "https://cointelegraph.com/explained/what-the-310b-stablecoin-market-reveals-about-crypto-adoption",
-      "source": "Cointelegraph.com News",
-      "published_utc": "2025-12-25T16:32:48.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Business",
-      "region": "World"
-    },
-    {
-      "title": "Watch: The Best Jokes and Moments from the Trump-Hosted Kennedy Center Honors",
-      "url": "https://www.breitbart.com/entertainment/2025/12/25/watch-the-best-jokes-and-moments-from-the-trump-hosted-kennedy-center-honors",
-      "source": "Breitbart News",
-      "published_utc": "2025-12-25T16:32:24.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Che Releases Surprise Rest In Bass Deluxe Edition",
-      "url": "https://stereogum.com/2483632/che-releases-surprise-rest-in-bass-deluxe-edition/music",
-      "source": "Stereogum",
-      "published_utc": "2025-12-25T16:31:43.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Bert Kreischer’s Shirtless Shenanigans Explored In Trailer For Netflix’s ‘Free Bert’ As Streamer Reveals Premiere Date",
-      "url": "https://deadline.com/2025/12/bert-kreischer-free-bert-netflix-trailer-premiere-1236655427",
-      "source": "Deadline",
-      "published_utc": "2025-12-25T16:30:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "‘The Bill Simmons Podcast’ Sets Premiere Date For Netflix Launch",
-      "url": "https://deadline.com/2025/12/the-bill-simmons-podcast-premiere-date-netflix-1236656611",
-      "source": "Deadline",
-      "published_utc": "2025-12-25T16:30:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Christmas Eve Thieves Attempt to Steal ATM from Texas Convenience Store",
-      "url": "https://www.breitbart.com/crime/2025/12/25/christmas-eve-thieves-attempt-steal-atm-texas-7-11",
-      "source": "Breitbart News",
-      "published_utc": "2025-12-25T16:29:26.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Teen suspect claims no memory of stepsister’s cruise ship death, documents say",
-      "url": "https://globalnews.ca/news/11590956/anna-kepner-cruise-ship-death-step-brother-doesnt-remember",
-      "source": "globalnews.ca",
-      "published_utc": "2025-12-25T16:28:28.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "NFL Legend Brett Favre Praises 'King of My Life, Jesus Christ' in Christmas Message",
-      "url": "https://www.breitbart.com/sports/2025/12/25/nfl-legend-brett-favre-praises-king-of-my-life-jesus-christ-in-christmas-message",
-      "source": "Breitbart News",
-      "published_utc": "2025-12-25T16:24:53.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Pope Leo urges 'courage' to end Ukraine war in first Christmas address",
-      "url": "https://www.bbc.com/news/articles/cm21728nwxlo?at_campaign=rss&at_medium=RSS",
-      "source": "BBC News",
-      "published_utc": "2025-12-25T16:21:18.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Why Christmas Is Still a Diesel Stress Test for Energy Markets",
-      "url": "https://oilprice.com/Energy/Energy-General/Why-Christmas-Is-Still-a-Diesel-Stress-Test-for-Energy-Markets.html",
-      "source": "Oilprice.com",
-      "published_utc": "2025-12-25T16:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Energy",
-      "region": "Canada"
-    },
-    {
-      "title": "PHOTO: Minnesota Homeowner Pays Tribute to 'Great Example' Charlie Kirk with Christmas Lights",
-      "url": "https://www.breitbart.com/politics/2025/12/25/photo-minnesota-homeowner-pays-tribute-great-example-charlie-kirk-christmas-lights",
-      "source": "Breitbart News",
-      "published_utc": "2025-12-25T15:46:30.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "5 Local Liberal Meltdowns You May Have Missed",
-      "url": "https://dailycaller.com/2025/12/25/5-local-liberal-meltdowns-2025",
-      "source": "The Daily Caller",
-      "published_utc": "2025-12-25T15:44:14.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Here’s How Bari Weiss Has Shaken Up CBS News So Far",
-      "url": "https://dailycaller.com/2025/12/25/bari-weiss-cbs-news-political-coverage",
-      "source": "The Daily Caller",
-      "published_utc": "2025-12-25T15:42:20.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Report: Nick Reiner Became Addicted to Heroin at 16 After Leaving Rehab",
-      "url": "https://www.breitbart.com/entertainment/2025/12/25/report-nick-reiner-became-addicted-to-heroin-at-16-after-leaving-rehab",
-      "source": "Breitbart News",
-      "published_utc": "2025-12-25T15:32:55.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Trump Threatens Broadcaster Licenses over Late-Night Comedians Being 'Almost 100 Percent Negative' Against Him",
-      "url": "https://www.breitbart.com/entertainment/2025/12/25/trump-threatens-broadcaster-licenses-for-being-almost-100-negative-toward-him",
-      "source": "Breitbart News",
-      "published_utc": "2025-12-25T15:32:43.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Bad Beat Share New EP For Christmas",
-      "url": "https://stereogum.com/2483627/bad-beat-share-new-ep-for-christmas/music",
-      "source": "Stereogum",
-      "published_utc": "2025-12-25T15:25:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Powerball player claims $1.817 billion lottery jackpot in Arkansas",
-      "url": "https://globalnews.ca/news/11590945/powerball-winner-1-817-billion-arkansas",
-      "source": "globalnews.ca",
-      "published_utc": "2025-12-25T15:20:51.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "Palestinian actor and filmmaker Mohammad Bakri dies at 72",
-      "url": "https://www.aljazeera.com/news/2025/12/25/palestinian-actor-and-filmmaker-mohammad-bakri-dies-at-72?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2025-12-25T15:05:10.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Waterskiing Santas and giant cuts of meat: Christmas around the world",
-      "url": "https://www.bbc.com/news/articles/ce8nep787pyo?at_campaign=rss&at_medium=RSS",
-      "source": "BBC News",
-      "published_utc": "2025-12-25T15:01:32.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "‘They’re scared of us now’: how co-investment in a tropical forest saw off loggers",
-      "url": "https://www.theguardian.com/environment/2025/dec/25/they-are-scared-of-us-now-how-one-tropical-forest-turned-the-tide-on-loggers",
-      "source": "World news | The Guardian",
-      "published_utc": "2025-12-25T15:00:43.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "2025-26 MLB Free Agents",
-      "url": "https://www.mlbtraderumors.com/2025/12/2025-26-mlb-free-agents.html",
-      "source": "MLB Trade Rumors",
-      "published_utc": "2025-12-25T15:00:42.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "Che Celebrates Christmas With REST IN BASS Deluxe",
-      "url": "https://pitchfork.com/news/che-celebrates-christmas-with-rest-in-bass-deluxe",
-      "source": "RSS: News",
-      "published_utc": "2025-12-25T14:53:31.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
       "region": "World"
     }
   ],
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 561,
-    "dedup_pass1": 555,
+    "collected": 792,
+    "dedup_pass1": 773,
     "dedup_final": 320,
     "slow_domains": [
-      "urbantoronto.ca"
+      "urbantoronto.ca",
+      "www.gorillavsbear.net"
     ],
     "timeouts": [
       "news.communitech.ca",
@@ -976,61 +995,66 @@
       "cultmtl.com",
       "financialpost.com",
       "globalnews.ca",
-      "toronto.citynews.ca"
+      "toronto.citynews.ca",
+      "variety.com",
+      "www.boston.com",
+      "www.marketwatch.com",
+      "www.npr.org",
+      "www.wsj.com"
     ],
     "feed_times_sample": [
       {
-        "host": "toronto.citynews.ca",
-        "sec": 1.845,
-        "kept": 8
-      },
-      {
         "host": "www.labourstart.org",
-        "sec": 1.695,
+        "sec": 1.733,
         "kept": 0
       },
       {
+        "host": "toronto.citynews.ca",
+        "sec": 1.142,
+        "kept": 8
+      },
+      {
         "host": "globalnews.ca",
-        "sec": 1.13,
+        "sec": 1.091,
         "kept": 7
       },
       {
         "host": "www.cp24.com",
-        "sec": 0.491,
+        "sec": 0.676,
         "kept": 14
       },
       {
         "host": "www.blogto.com",
-        "sec": 0.473,
-        "kept": 0
-      },
-      {
-        "host": "www.mlb.com",
-        "sec": 0.409,
-        "kept": 14
-      },
-      {
-        "host": "www.bls.gov",
-        "sec": 0.382,
+        "sec": 0.426,
         "kept": 0
       },
       {
         "host": "www.mlbtraderumors.com",
-        "sec": 0.304,
+        "sec": 0.39,
         "kept": 14
       },
       {
+        "host": "www.mlb.com",
+        "sec": 0.332,
+        "kept": 14
+      },
+      {
+        "host": "www.bls.gov",
+        "sec": 0.304,
+        "kept": 0
+      },
+      {
         "host": "www.nhl.com",
-        "sec": 0.233,
+        "sec": 0.207,
         "kept": 0
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.186,
+        "sec": 0.135,
         "kept": 14
       }
     ],
-    "elapsed_sec": 334.38,
+    "elapsed_sec": 317.24,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1056,7 +1080,7 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 15,
+      "ps_fatal_hits": 19,
       "ps_injury_hits": 1,
       "market_btc_hits": 0,
       "market_index_hits": 0,
@@ -1064,15 +1088,15 @@
       "market_single_hits": 0,
       "agg_penalties": 0,
       "press_penalties": 0,
-      "preferred_bonus": 123,
+      "preferred_bonus": 127,
       "substack_tagged": 0,
       "sports_team_hits": 3,
       "sports_player_hits": 3,
-      "sports_result_win_hits": 9,
+      "sports_result_win_hits": 12,
       "sports_result_loss_hits": 0,
       "sports_evening_hits": 0,
       "sports_playoff_hits": 0,
-      "sports_focus_team_hits": 1,
+      "sports_focus_team_hits": 10,
       "sports_final_hits": 0,
       "sports_final_score_hits": 0,
       "hype_politics": 0,
@@ -1081,17 +1105,17 @@
       "hype_jobs": 0,
       "hype_sports": 0,
       "hype_ceasefire": 0,
-      "reject_hits": 0,
-      "obit_hits": 6,
-      "major_figure_hits": 0,
+      "reject_hits": 1,
+      "obit_hits": 9,
+      "major_figure_hits": 1,
       "business_am_hits": 0
     },
     "sanity_stats": {
-      "link_verification_fail": 12,
-      "soft_404_drops": 28,
+      "link_verification_fail": 37,
+      "soft_404_drops": 80,
       "max_age_drops": 0,
       "min_age_drops": 8,
-      "market_sanity_drops": 10,
+      "market_sanity_drops": 8,
       "backfill_steps_used": 0
     },
     "require_exact_count": 69,
