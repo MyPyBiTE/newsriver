@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Two people killed in Alberta shooting, suspect arrested",
-      "display":"Two people killed in Alberta shooting, suspect arrested",
-      "url":"https://globalnews.ca/news/11591851/armed-man-alert-alberta-rcmp",
+      "text":"Video shows snowplow on fire during winter storm in Toronto",
+      "display":"Video shows snowplow on fire during winter storm in Toronto",
+      "url":"https://toronto.citynews.ca/2025/12/27/video-shows-snowplow-on-fire-during-winter-storm-in-toronto",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Carney announces $2.5B for Ukraine in meeting with Zelenskyy",
+      "display":"Carney announces $2.5B for Ukraine in meeting with Zelenskyy",
+      "url":"https://globalnews.ca/news/11591845/carney-announces-funding-for-ukraine",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -19,17 +29,7 @@
         "is_landmark":false,
         "has_bitcoin":false
       }
-    },
-    {
-      "text":"Tori Spelling Cancels Appearance with Ex Brian Austin Green Due to Illness",
-      "display":"Tori Spelling Cancels Appearance with Ex Brian Austin Green Due to Illness",
-      "url":"https://www.tmz.com/2025/12/27/tori-spelling-cancels-event-brian-austin-green-las-vegas",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
     }
   ],
-  "generated_utc":"2025-12-27T22:11:36Z"
+  "generated_utc":"2025-12-27T22:32:58Z"
 }
