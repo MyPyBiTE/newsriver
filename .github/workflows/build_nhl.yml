@@ -66,6 +66,88 @@ jobs:
           head -c 200 newsriver/nhl.json || true
           echo
 
+      # NEW: Guardrail to prevent stale/preview-only junk from being published.
+      # If the NHL upstream is lagging, we skip commit entirely and wait for next cron tick.
+      - name: Guardrail - refuse to publish stale nhl.json
+        env:
+          MAX_AGE_MINUTES: "12"   # strict on purpose; cron runs every 5 min in your windows
+          MIN_GAMES: "1"          # require at least 1 game object when file exists
+          REQUIRE_LIVE_IF_ANY_STARTED: "true"
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json, os, sys, time, datetime
+
+          def die(msg, code=1):
+            print(msg)
+            sys.exit(code)
+
+          path = "nhl.json"
+          with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+          gen = data.get("generated_utc")
+          if not gen:
+            die("GUARDRAIL FAIL: nhl.json missing generated_utc (refusing to publish).")
+
+          # Parse ISO Z
+          try:
+            gen_dt = datetime.datetime.fromisoformat(gen.replace("Z", "+00:00"))
+          except Exception as e:
+            die(f"GUARDRAIL FAIL: cannot parse generated_utc={gen!r}: {e}")
+
+          now = datetime.datetime.now(datetime.timezone.utc)
+          age_sec = (now - gen_dt).total_seconds()
+          max_age_min = int(os.getenv("MAX_AGE_MINUTES", "12"))
+          if age_sec > max_age_min * 60:
+            die(f"GUARDRAIL FAIL: generated_utc is stale: age={age_sec/60:.1f} min > {max_age_min} min (refusing to publish).")
+
+          # Collect games across ALL dates (important).
+          dates = data.get("dates") or []
+          games = []
+          for d in dates:
+            if isinstance(d, dict) and isinstance(d.get("games"), list):
+              games.extend(d["games"])
+
+          min_games = int(os.getenv("MIN_GAMES", "1"))
+          if len(games) < min_games:
+            die(f"GUARDRAIL FAIL: too few games in nhl.json: {len(games)} < {min_games} (refusing to publish).")
+
+          # Optional: if any game start time is in the past (game should have begun),
+          # require at least one Live/InProgress marker. This catches the exact failure mode
+          # you showed: everything stuck in Preview while games are underway.
+          require_live = os.getenv("REQUIRE_LIVE_IF_ANY_STARTED", "true").lower() == "true"
+          if require_live:
+            now_ts = time.time()
+            any_started = False
+            any_live = False
+
+            def parse_ts(iso):
+              if not iso:
+                return None
+              try:
+                dt = datetime.datetime.fromisoformat(iso.replace("Z", "+00:00"))
+                return dt.timestamp()
+              except Exception:
+                return None
+
+            for g in games:
+              gd = g.get("gameDate") or g.get("start") or g.get("date")
+              ts = parse_ts(gd)
+              if ts is not None and ts < now_ts - 10*60:  # started >10 min ago
+                any_started = True
+
+              st = (g.get("status") or {}).get("abstractGameState") or (g.get("status") or {}).get("detailedState") or g.get("state") or ""
+              st_u = str(st).upper()
+              if "LIVE" in st_u or "IN_PROGRESS" in st_u:
+                any_live = True
+
+            if any_started and not any_live:
+              die("GUARDRAIL FAIL: at least one game should have started, but none are marked LIVE/IN_PROGRESS. Upstream likely lagging. Refusing to publish.")
+
+          print("GUARDRAIL OK: nhl.json looks fresh enough to publish.")
+          PY
+
       - name: Commit & push nhl.json (root + /newsriver) with rebase
         run: |
           set -e
