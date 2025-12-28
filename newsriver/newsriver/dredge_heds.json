@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"How Our Presidential Endorsement Tracker Works",
-      "display":"How Our Presidential Endorsement Tracker Works",
-      "url":"https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
+      "text":"Blue Jays named The Canadian Press team of the year after deep playoff run",
+      "display":"Blue Jays named The Canadian Press team of the year after deep playoff run",
+      "url":"https://toronto.citynews.ca/2025/12/28/blue-jays-canadian-press-team-of-the-year",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Senators’ Ullmark takes personal leave of absence",
+      "display":"Senators’ Ullmark takes personal leave of absence",
+      "url":"https://globalnews.ca/news/11592517/senators-ullmark-takes-personal-leave-of-absence",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"The UK's most mysterious missing person cases: From the boy, 3, who vanished while playing in garden, to the two men who disappeared five years apart after boarding a ferry in Portsmouth",
-      "display":"The UK's most mysterious missing person cases: From the boy, 3, who vanished while playing in garden, to the two men who disappeared five years apart after boarding a ferry in Portsmouth",
-      "url":"https://www.dailymail.co.uk/news/article-15392489/The-UKs-mysterious-missing-person-cases-boy-3-vanished-playing-garden-two-men-disappeared-five-years-apart-boarding-ferry-Portsmouth.html",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Steelers face Ravens in win-or-go-home clash after Shedeur Sanders, Browns upset Pittsburgh",
-      "display":"Steelers face Ravens in win-or-go-home clash after Shedeur Sanders, Browns upset Pittsburgh",
-      "url":"https://nypost.com/2025/12/28/sports/steelers-lose-to-browns-will-face-ravens-for-afc-north-in-week-18",
+      "text":"‘Marty Supreme’ Cements Timothee Chalamet as King of the Christmas Box Office",
+      "display":"‘Marty Supreme’ Cements Timothee Chalamet as King of the Christmas Box Office",
+      "url":"https://variety.com/2025/film/box-office/marty-supreme-timothee-chalamet-christmas-box-office-king-1236615317",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2025-12-28T22:12:01Z"
+  "generated_utc":"2025-12-28T22:34:10Z"
 }
