@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2025-12-28T07:50:47.486Z",
+  "generated_utc": "2025-12-28T07:58:55.426Z",
   "itemset_hash": "e30005e28ac4567d",
   "count": 69,
   "items": [
@@ -7,7 +7,7 @@
       "title": "What To Do About A Problem Like Dianne Feinstein?",
       "url": "https://fivethirtyeight.com/videos/what-to-do-about-a-problem-like-dianne-feinstein",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-28T07:47:23.398Z",
+      "published_utc": "2025-12-28T07:56:37.001Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -20,7 +20,7 @@
       "title": "Politics Podcast",
       "url": "https://fivethirtyeight.com/tag/politics-podcast",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-28T07:47:23.399Z",
+      "published_utc": "2025-12-28T07:56:37.001Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -46,7 +46,7 @@
       "title": "How Our Presidential Endorsement Tracker Works",
       "url": "https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-28T07:47:23.399Z",
+      "published_utc": "2025-12-28T07:56:37.001Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -59,7 +59,7 @@
       "title": "Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
       "url": "https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-28T07:47:23.399Z",
+      "published_utc": "2025-12-28T07:56:37.002Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -85,7 +85,7 @@
       "title": "Republicans Amplified Pro-Gun Control Protesters In Tennessee",
       "url": "https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-28T07:47:23.399Z",
+      "published_utc": "2025-12-28T07:56:37.002Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -98,7 +98,7 @@
       "title": "What’s Next In The Abortion Drug Case",
       "url": "https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-28T07:47:23.399Z",
+      "published_utc": "2025-12-28T07:56:37.002Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -124,7 +124,7 @@
       "title": "How Concerned Are Americans About The Pitfalls Of AI?",
       "url": "https://fivethirtyeight.com/videos/how-concerned-are-americans-about-the-pitfalls-of-ai",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-28T07:47:23.399Z",
+      "published_utc": "2025-12-28T07:56:37.002Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -137,7 +137,7 @@
       "title": "Live From New York: Will AI Replace This Podcast?",
       "url": "https://fivethirtyeight.com/videos/live-from-new-york-will-ai-replace-this-podcast",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2025-12-28T07:47:23.399Z",
+      "published_utc": "2025-12-28T07:56:37.001Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -153,11 +153,8 @@
       "published_utc": "2025-12-28T06:58:11.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Business",
       "region": "World"
@@ -495,11 +492,8 @@
       "published_utc": "2025-12-28T03:57:36.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Sports",
       "region": "Canada"
@@ -964,14 +958,15 @@
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 860,
-    "dedup_pass1": 837,
+    "collected": 798,
+    "dedup_pass1": 775,
     "dedup_final": 320,
-    "slow_domains": [],
+    "slow_domains": [
+      "www150.statcan.gc.ca"
+    ],
     "timeouts": [
       "japantoday.com",
       "news.communitech.ca",
-      "reason.com",
       "www.cbc.ca"
     ],
     "errors": [
@@ -992,56 +987,56 @@
     "feed_times_sample": [
       {
         "host": "www.labourstart.org",
-        "sec": 1.989,
+        "sec": 1.35,
         "kept": 0
       },
       {
         "host": "toronto.citynews.ca",
-        "sec": 1.122,
+        "sec": 1.184,
         "kept": 8
       },
       {
         "host": "globalnews.ca",
-        "sec": 0.842,
+        "sec": 0.674,
         "kept": 1
       },
       {
-        "host": "www.cp24.com",
-        "sec": 0.562,
-        "kept": 14
-      },
-      {
-        "host": "www.mlb.com",
-        "sec": 0.526,
-        "kept": 14
-      },
-      {
         "host": "www.blogto.com",
-        "sec": 0.409,
+        "sec": 0.583,
         "kept": 0
       },
       {
+        "host": "www.mlb.com",
+        "sec": 0.531,
+        "kept": 14
+      },
+      {
+        "host": "www.cp24.com",
+        "sec": 0.35,
+        "kept": 14
+      },
+      {
         "host": "www.mlbtraderumors.com",
-        "sec": 0.358,
+        "sec": 0.268,
         "kept": 14
       },
       {
         "host": "www.bls.gov",
-        "sec": 0.28,
+        "sec": 0.236,
+        "kept": 0
+      },
+      {
+        "host": "www.nhl.com",
+        "sec": 0.226,
         "kept": 0
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.121,
+        "sec": 0.083,
         "kept": 14
-      },
-      {
-        "host": "www.nhl.com",
-        "sec": 0.11,
-        "kept": 0
       }
     ],
-    "elapsed_sec": 323.66,
+    "elapsed_sec": 302.02,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1067,7 +1062,7 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 30,
+      "ps_fatal_hits": 29,
       "ps_injury_hits": 0,
       "market_btc_hits": 0,
       "market_index_hits": 0,
@@ -1079,7 +1074,7 @@
       "substack_tagged": 0,
       "sports_team_hits": 3,
       "sports_player_hits": 1,
-      "sports_result_win_hits": 15,
+      "sports_result_win_hits": 14,
       "sports_result_loss_hits": 0,
       "sports_evening_hits": 0,
       "sports_playoff_hits": 0,
@@ -1093,7 +1088,7 @@
       "hype_sports": 0,
       "hype_ceasefire": 0,
       "reject_hits": 0,
-      "obit_hits": 13,
+      "obit_hits": 12,
       "major_figure_hits": 3,
       "business_am_hits": 0
     },
@@ -1102,7 +1097,7 @@
       "soft_404_drops": 41,
       "max_age_drops": 0,
       "min_age_drops": 0,
-      "market_sanity_drops": 4,
+      "market_sanity_drops": 5,
       "backfill_steps_used": 0
     },
     "require_exact_count": 69,
