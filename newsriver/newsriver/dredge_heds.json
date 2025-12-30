@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Mexican authorities seize motorbikes allegedly owned by fugitive Ryan Wedding",
-      "display":"Mexican authorities seize motorbikes allegedly owned by fugitive Ryan Wedding",
-      "url":"https://globalnews.ca/news/11594135/ryan-wedding-canadian-olympian-motorcycle-seized",
+      "text":"Dangerous person alert issued for Sask. community near Alberta border",
+      "display":"Dangerous person alert issued for Sask. community near Alberta border",
+      "url":"https://globalnews.ca/news/11594189/big-island-cree-nation-dangerous-person-alert",
+      "flags":{
+        "is_breaking":true,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Thieves drill into a German bank vault and steal tens of millions of euros worth of property",
+      "display":"Thieves drill into a German bank vault and steal tens of millions of euros worth of property",
+      "url":"https://toronto.citynews.ca/2025/12/30/thieves-drill-into-a-german-bank-vault-and-steal-tens-of-millions-of-euros-worth-of-property",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "display":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "url":"https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"DOGE 'evading' law as investigators demand answers on 'what happened' under Musk: report",
-      "display":"DOGE 'evading' law as investigators demand answers on 'what happened' under Musk: report",
-      "url":"https://www.rawstory.com/elon-musk-doge-2674836947",
+      "text":"What’s Next In The Abortion Drug Case",
+      "display":"What’s Next In The Abortion Drug Case",
+      "url":"https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2025-12-30T16:48:44Z"
+  "generated_utc":"2025-12-30T17:14:05Z"
 }
