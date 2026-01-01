@@ -1,6 +1,16 @@
 {
   "items":[
     {
+      "text":"Iran protests spread over ailing economy, at least 6 reported dead",
+      "display":"Iran protests spread over ailing economy, at least 6 reported dead",
+      "url":"https://globalnews.ca/news/11596460/iran-protests-economy-deaths",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
       "text":"SIU investigating man’s fatal fall from North York balcony",
       "display":"SIU investigating man’s fatal fall from North York balcony",
       "url":"https://toronto.citynews.ca/2026/01/01/siu-investigating-mans-fatal-fall-from-north-york-balcony",
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Barrie child found dead in home remembered as ‘very nice kid’ by neighbours",
-      "display":"Barrie child found dead in home remembered as ‘very nice kid’ by neighbours",
-      "url":"https://globalnews.ca/news/11596408/barrie-child-found-dead-in-home-remembered-as-very-nice-kid-by-neighbours",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "display":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "url":"https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
+      "text":"Politics Podcast",
+      "display":"Politics Podcast",
+      "url":"https://fivethirtyeight.com/tag/politics-podcast",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-01-01T22:12:38Z"
+  "generated_utc":"2026-01-01T22:35:14Z"
 }
