@@ -1,12 +1,22 @@
 {
   "items":[
     {
-      "text":"Pastrnak, Bruins cruise past Oilers 6-2",
-      "display":"Pastrnak, Bruins cruise past Oilers 6-2",
-      "url":"https://globalnews.ca/news/11596099/pastrnak-bruins-cruise-past-oilers-6-2",
+      "text":"Raptors fall just short in 106-103 loss to Nuggets",
+      "display":"Raptors fall just short in 106-103 loss to Nuggets",
+      "url":"https://globalnews.ca/news/11596049/raptors-fall-just-short-in-106-103-loss-to-nuggets",
       "flags":{
         "is_breaking":false,
-        "is_landmark":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Blue Jays To Sign Josh Winckowski To Minor League Deal",
+      "display":"Blue Jays To Sign Josh Winckowski To Minor League Deal",
+      "url":"https://www.mlbtraderumors.com/2025/12/blue-jays-to-sign-josh-winckowski-to-minor-league-deal.html",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
         "has_bitcoin":false
       }
     },
@@ -19,17 +29,7 @@
         "is_landmark":false,
         "has_bitcoin":false
       }
-    },
-    {
-      "text":"How Our Presidential Endorsement Tracker Works",
-      "display":"How Our Presidential Endorsement Tracker Works",
-      "url":"https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
     }
   ],
-  "generated_utc":"2026-01-01T06:23:34Z"
+  "generated_utc":"2026-01-01T06:53:55Z"
 }
