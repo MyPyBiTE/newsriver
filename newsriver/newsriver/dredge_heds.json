@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Matthews shines bright as Leafs keep rolling",
-      "display":"Matthews shines bright as Leafs keep rolling",
-      "url":"https://globalnews.ca/news/11597074/matthews-shines-bright-as-leafs-keep-rolling",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"Russia puts death toll from Ukrainian strike at 27 as Zelenskyy names intelligence chief to new role",
       "display":"Russia puts death toll from Ukrainian strike at 27 as Zelenskyy names intelligence chief to new role",
       "url":"https://toronto.citynews.ca/2026/01/02/russia-puts-death-toll-from-ukrainian-strike-at-27-as-zelenskyy-names-intelligence-chief-to-new-role",
@@ -21,9 +11,19 @@
       }
     },
     {
-      "text":"Trump and Iran start 2026 exchanging new threats on social media",
-      "display":"Trump and Iran start 2026 exchanging new threats on social media",
-      "url":"https://www.npr.org/2026/01/02/g-s1-104265/trump-iran-protests",
+      "text":"What we know about the deadly New Year’s Eve Swiss Alpine bar fire",
+      "display":"What we know about the deadly New Year’s Eve Swiss Alpine bar fire",
+      "url":"https://globalnews.ca/news/11597090/swiss-alps-fire-new-years-celebration-details",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"How Lane Kiffin reacted to Ole Miss’ upset of Georgia after skipping game",
+      "display":"How Lane Kiffin reacted to Ole Miss’ upset of Georgia after skipping game",
+      "url":"https://nypost.com/2026/01/02/sports/how-lane-kiffin-reacted-to-ole-miss-upset-of-georgia-after-skipping-game",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-01-02T13:55:01Z"
+  "generated_utc":"2026-01-02T14:13:09Z"
 }
