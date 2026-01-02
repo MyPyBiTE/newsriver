@@ -1,83 +1,31 @@
 {
-  "generated_utc": "2026-01-02T02:00:31.047106Z",
+  "generated_utc": "2026-01-02T03:46:47.676228Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401810327",
-          "gameDate": "2026-01-02T00:00Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "MIA"
-              },
-              "score": 94
-            },
-            "home": {
-              "team": {
-                "abbreviation": "DET"
-              },
-              "score": 81
-            }
-          }
-        },
-        {
-          "gamePk": "401810328",
-          "gameDate": "2026-01-02T01:30Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "1st",
-            "currentQuarter": "1st"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "PHI"
-              },
-              "score": 24
-            },
-            "home": {
-              "team": {
-                "abbreviation": "DAL"
-              },
-              "score": 29
-            }
-          }
-        },
-        {
           "gamePk": "401810329",
           "gameDate": "2026-01-02T03:00Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "2nd",
+            "currentQuarter": "2nd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "BOS"
               },
-              "score": 0
+              "score": 46
             },
             "home": {
               "team": {
                 "abbreviation": "SAC"
               },
-              "score": 0
+              "score": 45
             }
           }
         },
@@ -85,12 +33,12 @@
           "gamePk": "401810330",
           "gameDate": "2026-01-02T03:30Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
@@ -103,7 +51,59 @@
               "team": {
                 "abbreviation": "LAC"
               },
-              "score": 0
+              "score": 11
+            }
+          }
+        },
+        {
+          "gamePk": "401810328",
+          "gameDate": "2026-01-02T01:30Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "PHI"
+              },
+              "score": 123
+            },
+            "home": {
+              "team": {
+                "abbreviation": "DAL"
+              },
+              "score": 108
+            }
+          }
+        },
+        {
+          "gamePk": "401810327",
+          "gameDate": "2026-01-02T00:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "MIA"
+              },
+              "score": 118
+            },
+            "home": {
+              "team": {
+                "abbreviation": "DET"
+              },
+              "score": 112
             }
           }
         },
