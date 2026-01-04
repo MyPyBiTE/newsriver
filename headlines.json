@@ -1,13 +1,13 @@
 {
-  "generated_utc": "2026-01-04T13:14:09.246Z",
-  "itemset_hash": "465fc362c43b33ff",
+  "generated_utc": "2026-01-04T13:44:26.458Z",
+  "itemset_hash": "2c57210cab2df738",
   "count": 69,
   "items": [
     {
       "title": "Nicolás Maduro jailed in New York as Trump says US will ‘run’ Venezuela – live",
       "url": "https://www.theguardian.com/world/live/2026/jan/04/nicolas-maduro-jailed-us-attack-venezuela-donald-trump-reaction-latest-news-updates-live",
       "source": "World news | The Guardian",
-      "published_utc": "2026-01-04T13:03:21.000Z",
+      "published_utc": "2026-01-04T13:32:49.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": true,
@@ -18,6 +18,96 @@
       },
       "category": "General",
       "region": "Canada"
+    },
+    {
+      "title": "Photo of Maduro bound and blindfolded posted by Trump sparks condemnation",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/1/4/photo-of-maduro-bound-and-blindfolded-posted-by-trump-sparks-condemnation?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-01-04T13:26:37.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Chabot scores twice as Senators beat Jets 4-2",
+      "url": "https://globalnews.ca/news/11598519/chabot-scores-twice-as-senators-beat-jets-4-2",
+      "source": "globalnews.ca",
+      "published_utc": "2026-01-04T13:19:25.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "Chabot refuses to let injury spoil strong game",
+      "url": "https://globalnews.ca/news/11598657/chabot-refuses-to-let-injury-spoil-strong-game",
+      "source": "globalnews.ca",
+      "published_utc": "2026-01-04T13:16:56.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "Saudi-backed government forces retake multiple cities in southern Yemen",
+      "url": "https://www.aljazeera.com/news/2026/1/4/saudi-backed-government-forces-retake-multiple-cities-in-southern-yemen?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-01-04T13:16:07.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Flames frustrated with miscues against Predators",
+      "url": "https://globalnews.ca/news/11598662/flames-frustrated-with-miscues-against-predators",
+      "source": "globalnews.ca",
+      "published_utc": "2026-01-04T13:14:41.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "Why has the US captured Venezuela’s president and what happens next?",
+      "url": "https://www.theguardian.com/world/2026/jan/03/why-trump-us-attacked-caracas-captured-venezuela-president-nicolas-maduro",
+      "source": "World news | The Guardian",
+      "published_utc": "2026-01-04T13:09:16.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
     },
     {
       "title": "Canadian officials say US health institutions no longer dependable for accurate information",
@@ -271,11 +361,8 @@
       "published_utc": "2026-01-04T11:26:06.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "General",
       "region": "World"
@@ -543,19 +630,6 @@
       "region": "World"
     },
     {
-      "title": "Notion of “taking over Venezuela” will explode in our face",
-      "url": "https://www.aljazeera.com/video/quotable/2026/1/4/aje-onl-qt_harlan_ullman-040126?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-01-04T08:48:47.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Barry Manilow shares health update after lung cancer diagnosis",
       "url": "https://www.nme.com/news/music/barry-manilow-shares-health-update-after-lung-cancer-diagnosis-3920839",
       "source": "NME",
@@ -566,19 +640,6 @@
         "reasons": []
       },
       "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Bondi attack hero al-Ahmed, responders honoured at Australia cricket match",
-      "url": "https://www.aljazeera.com/sports/2026/1/4/bondi-attack-hero-al-ahmed-responders-honoured-at-australia-cricket-match?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-01-04T08:35:45.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
       "region": "World"
     },
     {
@@ -922,75 +983,21 @@
       },
       "category": "Local",
       "region": "Canada"
-    },
-    {
-      "title": "Dean Williams, ‘Legally Blonde 2’ & ‘Batman Returns’ Still Photographer, Dies",
-      "url": "https://deadline.com/2026/01/dean-williams-dead-legally-blonde-2-still-photographer-1236660954",
-      "source": "Deadline",
-      "published_utc": "2026-01-04T00:43:57.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Trump warning over Iran protests 'reckless' says foreign minister",
-      "url": "https://www.bbc.com/news/articles/c2057md3gvro?at_campaign=rss&at_medium=RSS",
-      "source": "BBC News",
-      "published_utc": "2026-01-04T00:11:46.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "1 person dead after early-morning Edmonton house fire",
-      "url": "https://globalnews.ca/news/11598418/1-person-dead-early-morning-house-fire-edmonton",
-      "source": "globalnews.ca",
-      "published_utc": "2026-01-04T00:10:11.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "breaker"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "Today’s Wordle answer and hints for #1660 on January 04",
-      "url": "https://www.nme.com/guides/gaming-guides/heres-the-wordle-answer-for-today-3171240",
-      "source": "NME",
-      "published_utc": "2026-01-04T00:01:34.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
     }
   ],
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 435,
-    "dedup_pass1": 430,
+    "collected": 439,
+    "dedup_pass1": 431,
     "dedup_final": 320,
-    "slow_domains": [],
+    "slow_domains": [
+      "www.dazeddigital.com"
+    ],
     "timeouts": [
+      "canadianbeats.ca",
       "news.communitech.ca",
-      "www.cbc.ca",
-      "www.gorillavsbear.net",
-      "www150.statcan.gc.ca"
+      "www.cbc.ca"
     ],
     "errors": [
       "feeds.reuters.com"
@@ -1003,56 +1010,56 @@
     "feed_times_sample": [
       {
         "host": "www.labourstart.org",
-        "sec": 1.919,
+        "sec": 2.067,
         "kept": 0
-      },
-      {
-        "host": "globalnews.ca",
-        "sec": 0.919,
-        "kept": 1
       },
       {
         "host": "toronto.citynews.ca",
-        "sec": 0.855,
+        "sec": 1.182,
         "kept": 8
       },
       {
+        "host": "globalnews.ca",
+        "sec": 0.877,
+        "kept": 1
+      },
+      {
         "host": "www.blogto.com",
-        "sec": 0.499,
+        "sec": 0.434,
         "kept": 0
       },
       {
-        "host": "www.cp24.com",
-        "sec": 0.352,
-        "kept": 14
-      },
-      {
         "host": "www.mlb.com",
-        "sec": 0.348,
+        "sec": 0.389,
         "kept": 14
       },
       {
         "host": "www.mlbtraderumors.com",
-        "sec": 0.341,
+        "sec": 0.347,
         "kept": 14
       },
       {
         "host": "www.bls.gov",
-        "sec": 0.236,
+        "sec": 0.327,
         "kept": 0
       },
       {
-        "host": "www.federalreserve.gov",
-        "sec": 0.159,
+        "host": "www.cp24.com",
+        "sec": 0.119,
         "kept": 14
       },
       {
         "host": "www.nhl.com",
-        "sec": 0.093,
+        "sec": 0.089,
         "kept": 0
+      },
+      {
+        "host": "www.federalreserve.gov",
+        "sec": 0.081,
+        "kept": 14
       }
     ],
-    "elapsed_sec": 322.09,
+    "elapsed_sec": 321.03,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1090,7 +1097,7 @@
       "substack_tagged": 0,
       "sports_team_hits": 5,
       "sports_player_hits": 1,
-      "sports_result_win_hits": 10,
+      "sports_result_win_hits": 11,
       "sports_result_loss_hits": 0,
       "sports_evening_hits": 0,
       "sports_playoff_hits": 0,
@@ -1106,12 +1113,12 @@
       "reject_hits": 0,
       "obit_hits": 4,
       "major_figure_hits": 0,
-      "business_am_hits": 48
+      "business_am_hits": 46
     },
     "sanity_stats": {
       "link_verification_fail": 13,
-      "soft_404_drops": 62,
-      "max_age_drops": 88,
+      "soft_404_drops": 61,
+      "max_age_drops": 85,
       "min_age_drops": 0,
       "market_sanity_drops": 11,
       "backfill_steps_used": 0
