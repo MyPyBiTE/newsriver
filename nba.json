@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-01-04T23:34:57.256019Z",
+  "generated_utc": "2026-01-04T23:47:26.666358Z",
   "dates": [
     {
       "games": [
@@ -11,21 +11,21 @@
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "1st",
-            "currentQuarter": "1st"
+            "currentPeriodOrdinal": "2nd",
+            "currentQuarter": "2nd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "NOP"
               },
-              "score": 34
+              "score": 43
             },
             "home": {
               "team": {
                 "abbreviation": "MIA"
               },
-              "score": 39
+              "score": 45
             }
           }
         },
@@ -45,13 +45,13 @@
               "team": {
                 "abbreviation": "MIN"
               },
-              "score": 40
+              "score": 51
             },
             "home": {
               "team": {
                 "abbreviation": "WSH"
               },
-              "score": 30
+              "score": 41
             }
           }
         },
