@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Blue Jays Sign Kazuma Okamoto",
-      "display":"Blue Jays Sign Kazuma Okamoto",
-      "url":"https://www.mlbtraderumors.com/2026/01/blue-jays-sign-kazuma-okamoto.html",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"Drone strikes leave 2 dead in Russian border regions ahead of Ukraine peace talks",
       "display":"Drone strikes leave 2 dead in Russian border regions ahead of Ukraine peace talks",
       "url":"https://globalnews.ca/news/11598707/drone-strikes-russia-border-regions-peace-talks",
@@ -21,9 +11,19 @@
       }
     },
     {
-      "text":"Gunmen raid village in northern Nigeria, killing at least 30 people and abducting others",
-      "display":"Gunmen raid village in northern Nigeria, killing at least 30 people and abducting others",
-      "url":"https://toronto.citynews.ca/2026/01/04/gunmen-raid-village-in-northern-nigeria-killing-at-least-30-people-and-abducting-others",
+      "text":"How Our Presidential Endorsement Tracker Works",
+      "display":"How Our Presidential Endorsement Tracker Works",
+      "url":"https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"'Trump's admitting it': Resurfaced video reveals president's pre-election Venezuela goal",
+      "display":"'Trump's admitting it': Resurfaced video reveals president's pre-election Venezuela goal",
+      "url":"https://www.rawstory.com/trump-resurfaced-video-venezuela",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-01-04T15:31:09Z"
+  "generated_utc":"2026-01-04T15:47:52Z"
 }
