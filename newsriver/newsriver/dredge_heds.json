@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Blue Jays Sign Kazuma Okamoto",
-      "display":"Blue Jays Sign Kazuma Okamoto",
-      "url":"https://www.mlbtraderumors.com/2026/01/blue-jays-sign-kazuma-okamoto.html",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"Gunmen raid village in northern Nigeria, killing at least 30 people and abducting others",
       "display":"Gunmen raid village in northern Nigeria, killing at least 30 people and abducting others",
       "url":"https://toronto.citynews.ca/2026/01/04/gunmen-raid-village-in-northern-nigeria-killing-at-least-30-people-and-abducting-others",
@@ -29,7 +19,17 @@
         "is_landmark":false,
         "has_bitcoin":false
       }
+    },
+    {
+      "text":"How Our Presidential Endorsement Tracker Works",
+      "display":"How Our Presidential Endorsement Tracker Works",
+      "url":"https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
     }
   ],
-  "generated_utc":"2026-01-04T14:11:20Z"
+  "generated_utc":"2026-01-04T14:31:58Z"
 }
