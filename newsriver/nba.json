@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-01-05T03:57:20.222478Z",
+  "generated_utc": "2026-01-05T04:58:39.852269Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401810355",
-          "gameDate": "2026-01-05T02:00Z",
+          "gamePk": "401810356",
+          "gameDate": "2026-01-05T02:30Z",
           "status": {
             "detailedState": "Live",
             "abstractGameState": "Live"
@@ -17,41 +17,41 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "MIL"
-              },
-              "score": 85
-            },
-            "home": {
-              "team": {
-                "abbreviation": "SAC"
-              },
-              "score": 72
-            }
-          }
-        },
-        {
-          "gamePk": "401810356",
-          "gameDate": "2026-01-05T02:30Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "3rd",
-            "currentQuarter": "3rd"
-          },
-          "teams": {
-            "away": {
-              "team": {
                 "abbreviation": "MEM"
               },
-              "score": 69
+              "score": 103
             },
             "home": {
               "team": {
                 "abbreviation": "LAL"
               },
-              "score": 59
+              "score": 112
+            }
+          }
+        },
+        {
+          "gamePk": "401810355",
+          "gameDate": "2026-01-05T02:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "MIL"
+              },
+              "score": 115
+            },
+            "home": {
+              "team": {
+                "abbreviation": "SAC"
+              },
+              "score": 98
             }
           }
         },
