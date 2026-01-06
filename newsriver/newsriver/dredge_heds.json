@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"RCMP investigating logging equipment fire on Vancouver Island",
-      "display":"RCMP investigating logging equipment fire on Vancouver Island",
-      "url":"https://globalnews.ca/news/11600387/rcmp-logging-equipment-fire-vancouver-island",
+      "text":"Murray-Boyles impresses as Raptors top Hawks",
+      "display":"Murray-Boyles impresses as Raptors top Hawks",
+      "url":"https://globalnews.ca/news/11600678/murray-boyles-impresses-as-raptors-top-hawks",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Canada beats Finland to win bronze at world juniors",
+      "display":"Canada beats Finland to win bronze at world juniors",
+      "url":"https://toronto.citynews.ca/2026/01/05/canada-beats-finland-to-win-bronze-at-world-juniors",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Some Thorncliffe Park residents returning home after being displaced for 5 weeks by unprecedented fire",
-      "display":"Some Thorncliffe Park residents returning home after being displaced for 5 weeks by unprecedented fire",
-      "url":"https://toronto.citynews.ca/2026/01/05/some-thorncliffe-park-residents-returning-home-after-being-displaced-for-5-weeks-by-unprecedented-fire",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"The biggest Edward Cabrera question in Yankees trade talks",
-      "display":"The biggest Edward Cabrera question in Yankees trade talks",
-      "url":"https://nypost.com/2026/01/05/sports/the-biggest-edward-cabrera-question-in-yankees-trade-talks",
+      "text":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
+      "display":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
+      "url":"https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-01-06T04:08:17Z"
+  "generated_utc":"2026-01-06T04:50:07Z"
 }
