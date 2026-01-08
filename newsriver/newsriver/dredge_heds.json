@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Engine stall in low-flying plane near Lloydminster led to fatal crash: report",
-      "display":"Engine stall in low-flying plane near Lloydminster led to fatal crash: report",
-      "url":"https://globalnews.ca/news/11604367/lloydminster-cessna-plane-crash",
+      "text":"Weekend need-to-know: Leafs, Raptors and Marlies in action",
+      "display":"Weekend need-to-know: Leafs, Raptors and Marlies in action",
+      "url":"https://toronto.citynews.ca/2026/01/08/weekend-need-to-know-leafs-raptors-and-marlies-in-action",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"How Our Presidential Endorsement Tracker Works",
+      "display":"How Our Presidential Endorsement Tracker Works",
+      "url":"https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Supreme Court to hear challenge of law allowing Ontario Place redevelopment",
-      "display":"Supreme Court to hear challenge of law allowing Ontario Place redevelopment",
-      "url":"https://toronto.citynews.ca/2026/01/08/ontario-place-coalition-challenge-supreme-court",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Now It Makes Sense Why Indiana Football Has Gotten So Elite — And Here To Stay",
-      "display":"Now It Makes Sense Why Indiana Football Has Gotten So Elite — And Here To Stay",
-      "url":"https://dailycaller.com/2026/01/08/indiana-hoosiers-mark-cuban-collee-football",
+      "text":"Why Your New Year’s Resolutions Don’t Stick",
+      "display":"Why Your New Year’s Resolutions Don’t Stick",
+      "url":"https://www.psychologytoday.com/ca/blog/the-mind-body-link/202601/why-your-new-years-resolutions-dont-stick",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-01-08T15:46:57Z"
+  "generated_utc":"2026-01-08T16:18:18Z"
 }
