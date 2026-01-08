@@ -1,60 +1,8 @@
 {
-  "generated_utc": "2026-01-08T03:16:02.308108Z",
+  "generated_utc": "2026-01-08T04:10:55.221146Z",
   "dates": [
     {
       "games": [
-        {
-          "gamePk": "401810379",
-          "gameDate": "2026-01-08T01:00Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "PHX"
-              },
-              "score": 115
-            },
-            "home": {
-              "team": {
-                "abbreviation": "MEM"
-              },
-              "score": 93
-            }
-          }
-        },
-        {
-          "gamePk": "401810380",
-          "gameDate": "2026-01-08T01:00Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "UTAH"
-              },
-              "score": 107
-            },
-            "home": {
-              "team": {
-                "abbreviation": "OKC"
-              },
-              "score": 103
-            }
-          }
-        },
         {
           "gamePk": "401810378",
           "gameDate": "2026-01-08T02:30Z",
@@ -63,21 +11,21 @@
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "1st",
-            "currentQuarter": "1st"
+            "currentPeriodOrdinal": "3rd",
+            "currentQuarter": "3rd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "LAL"
               },
-              "score": 23
+              "score": 57
             },
             "home": {
               "team": {
                 "abbreviation": "SAS"
               },
-              "score": 26
+              "score": 64
             }
           }
         },
@@ -89,21 +37,21 @@
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "1st",
-            "currentQuarter": "1st"
+            "currentPeriodOrdinal": "2nd",
+            "currentQuarter": "2nd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "MIL"
               },
-              "score": 12
+              "score": 53
             },
             "home": {
               "team": {
                 "abbreviation": "GSW"
               },
-              "score": 12
+              "score": 64
             }
           }
         },
@@ -115,21 +63,73 @@
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "1st",
-            "currentQuarter": "1st"
+            "currentPeriodOrdinal": "2nd",
+            "currentQuarter": "2nd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "HOU"
               },
-              "score": 6
+              "score": 46
             },
             "home": {
               "team": {
                 "abbreviation": "POR"
               },
-              "score": 2
+              "score": 57
+            }
+          }
+        },
+        {
+          "gamePk": "401810379",
+          "gameDate": "2026-01-08T01:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "PHX"
+              },
+              "score": 117
+            },
+            "home": {
+              "team": {
+                "abbreviation": "MEM"
+              },
+              "score": 98
+            }
+          }
+        },
+        {
+          "gamePk": "401810380",
+          "gameDate": "2026-01-08T01:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "UTAH"
+              },
+              "score": 125
+            },
+            "home": {
+              "team": {
+                "abbreviation": "OKC"
+              },
+              "score": 129
             }
           }
         },
