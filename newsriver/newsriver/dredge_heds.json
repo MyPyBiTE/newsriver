@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"What are B.C.’s most endangered rivers?",
-      "display":"What are B.C.’s most endangered rivers?",
-      "url":"https://globalnews.ca/news/11603766/bc-most-endangered-rivers-2026",
+      "text":"Immanuel Quickley hits buzzer-beating 3-pointer to propel Raptors to win",
+      "display":"Immanuel Quickley hits buzzer-beating 3-pointer to propel Raptors to win",
+      "url":"https://nypost.com/2026/01/08/sports/immanuel-quickley-hits-buzzer-beating-3-pointer-to-propel-raptors-to-win",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
+      "display":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
+      "url":"https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -19,17 +29,7 @@
         "is_landmark":false,
         "has_bitcoin":false
       }
-    },
-    {
-      "text":"BLACKPINK and My Melody Launch DEADLINE World Tour Collaboration",
-      "display":"BLACKPINK and My Melody Launch DEADLINE World Tour Collaboration",
-      "url":"https://hypebeast.com/2026/1/blackpink-my-melody-deadlin-world-tour-tokyo-japan-merch-release-info",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
     }
   ],
-  "generated_utc":"2026-01-08T07:51:47Z"
+  "generated_utc":"2026-01-08T08:19:09Z"
 }
