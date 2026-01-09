@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Man killed in industrial accident in Vaughan",
-      "display":"Man killed in industrial accident in Vaughan",
-      "url":"https://toronto.citynews.ca/2026/01/09/man-killed-in-industrial-accident-in-vaughan",
+      "text":"Henry signing a milestone moment for Toronto FC",
+      "display":"Henry signing a milestone moment for Toronto FC",
+      "url":"https://globalnews.ca/news/11606015/henry-signing-a-milestone-moment-for-toronto-fc",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Minnesotans continue to grapple with fatal ICE shooting",
+      "display":"Minnesotans continue to grapple with fatal ICE shooting",
+      "url":"https://toronto.citynews.ca/2026/01/09/minnesotans-continue-to-grapple-with-fatal-ice-shooting",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Heavy rain and snow bring messy start to weekend for B.C. north coast",
-      "display":"Heavy rain and snow bring messy start to weekend for B.C. north coast",
-      "url":"https://globalnews.ca/news/11606003/bc-north-coast-weather-rain-snow",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Politics Podcast",
-      "display":"Politics Podcast",
-      "url":"https://fivethirtyeight.com/tag/politics-podcast",
+      "text":"Limiting Grok AI image edits to paid users 'insulting' to victims, says No 10",
+      "display":"Limiting Grok AI image edits to paid users 'insulting' to victims, says No 10",
+      "url":"https://www.bbc.com/news/articles/c99kn52nx9do?at_campaign=rss&at_medium=RSS",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-01-09T12:26:21Z"
+  "generated_utc":"2026-01-09T13:11:45Z"
 }
