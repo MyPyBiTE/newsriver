@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Saskatoon hospital patient dead after altercation with security",
-      "display":"Saskatoon hospital patient dead after altercation with security",
-      "url":"https://toronto.citynews.ca/2026/01/09/saskatoon-hospital-patient-dead-after-altercation-with-security",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"‘Atrocious’: Chilliwack residents concerned about abandoned homeless camp",
       "display":"‘Atrocious’: Chilliwack residents concerned about abandoned homeless camp",
       "url":"https://globalnews.ca/news/11607145/atrocious-chilliwack-abandoned-homeless-camp-garbage",
@@ -21,9 +11,19 @@
       }
     },
     {
-      "text":"Red Sox, Seth Martinez Agree To Minor League Deal",
-      "display":"Red Sox, Seth Martinez Agree To Minor League Deal",
-      "url":"https://www.mlbtraderumors.com/2026/01/red-sox-seth-martinez-agree-to-minor-league-deal.html",
+      "text":"How Our Presidential Endorsement Tracker Works",
+      "display":"How Our Presidential Endorsement Tracker Works",
+      "url":"https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Former Disney Channel Star Matt Prokop Arrested, Facing Child Pornography Charge",
+      "display":"Former Disney Channel Star Matt Prokop Arrested, Facing Child Pornography Charge",
+      "url":"https://www.thewrap.com/industry-news/public-policy-legal/matt-prokop-arrested-child-pornography-charge-disney-channel",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-01-10T06:18:32Z"
+  "generated_utc":"2026-01-10T06:50:18Z"
 }
