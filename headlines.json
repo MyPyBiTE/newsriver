@@ -1,13 +1,13 @@
 {
-  "generated_utc": "2026-01-10T19:47:02.320Z",
-  "itemset_hash": "a1e53c4b551bf9a8",
+  "generated_utc": "2026-01-10T19:57:22.581Z",
+  "itemset_hash": "73aa9af74c263b83",
   "count": 69,
   "items": [
     {
       "title": "What To Do About A Problem Like Dianne Feinstein?",
       "url": "https://fivethirtyeight.com/videos/what-to-do-about-a-problem-like-dianne-feinstein",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-10T19:43:41.636Z",
+      "published_utc": "2026-01-10T19:54:02.951Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -20,7 +20,7 @@
       "title": "Politics Podcast",
       "url": "https://fivethirtyeight.com/tag/politics-podcast",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-10T19:43:41.636Z",
+      "published_utc": "2026-01-10T19:54:02.951Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -30,23 +30,26 @@
       "region": "World"
     },
     {
-      "title": "CNN’s Abby Phillip Clashes With Trump Allies Over Whether Somalis Are ‘Actual Victims’ of Minnesota Fraud",
-      "url": "https://www.mediaite.com/media/tv/cnns-abby-phillip-clashes-with-trump-allies-over-whether-somalis-are-actual-victims-of-minnesota-fraud",
-      "source": "Mediaite",
-      "published_utc": "2026-01-10T19:39:58.000Z",
+      "title": "Protests grow after shootings by immigration officer in Minneapolis and Portland",
+      "url": "https://globalnews.ca/news/11607763/us-immigration-enforcement",
+      "source": "globalnews.ca",
+      "published_utc": "2026-01-10T19:51:55.000Z",
       "effects": {
-        "lightsaber": false,
+        "lightsaber": true,
         "glitch": false,
-        "reasons": []
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
       },
       "category": "General",
-      "region": "World"
+      "region": "Canada"
     },
     {
       "title": "How Our Presidential Endorsement Tracker Works",
       "url": "https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-10T19:43:41.637Z",
+      "published_utc": "2026-01-10T19:54:02.951Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -59,7 +62,114 @@
       "title": "Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
       "url": "https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-10T19:43:41.637Z",
+      "published_utc": "2026-01-10T19:54:02.951Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "'There wasn't even time for CPR': Iran medics describe hospitals overwhelmed with dead and injured protesters",
+      "url": "https://www.bbc.com/news/articles/cj9rengvnp9o?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2026-01-10T19:49:01.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "breaker"
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Republicans Amplified Pro-Gun Control Protesters In Tennessee",
+      "url": "https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
+      "source": "FiveThirtyEight — Nate Silver",
+      "published_utc": "2026-01-10T19:54:02.951Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "What’s Next In The Abortion Drug Case",
+      "url": "https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
+      "source": "FiveThirtyEight — Nate Silver",
+      "published_utc": "2026-01-10T19:54:02.952Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Dave Matthews Slams Trump Administration and ICE After Minneapolis Shooting",
+      "url": "https://www.rollingstone.com/music/music-news/dave-matthews-trump-administration-ice-minneapolis-shooting-1235497217",
+      "source": "Rolling Stone",
+      "published_utc": "2026-01-10T19:48:25.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "How Concerned Are Americans About The Pitfalls Of AI?",
+      "url": "https://fivethirtyeight.com/videos/how-concerned-are-americans-about-the-pitfalls-of-ai",
+      "source": "FiveThirtyEight — Nate Silver",
+      "published_utc": "2026-01-10T19:54:02.951Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Live From New York: Will AI Replace This Podcast?",
+      "url": "https://fivethirtyeight.com/videos/live-from-new-york-will-ai-replace-this-podcast",
+      "source": "FiveThirtyEight — Nate Silver",
+      "published_utc": "2026-01-10T19:54:02.951Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "adidas’ Suavest Sneaker Is Too Good for Laces",
+      "url": "https://www.highsnobiety.com/p/adidas-urban-reverie-sneakers",
+      "source": "Highsnobiety",
+      "published_utc": "2026-01-10T19:43:47.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "CNN’s Abby Phillip Clashes With Trump Allies Over Whether Somalis Are ‘Actual Victims’ of Minnesota Fraud",
+      "url": "https://www.mediaite.com/media/tv/cnns-abby-phillip-clashes-with-trump-allies-over-whether-somalis-are-actual-victims-of-minnesota-fraud",
+      "source": "Mediaite",
+      "published_utc": "2026-01-10T19:39:58.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -82,32 +192,6 @@
       "region": "World"
     },
     {
-      "title": "Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "url": "https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-10T19:43:41.637Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "What’s Next In The Abortion Drug Case",
-      "url": "https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-10T19:43:41.637Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Why Trump's assault on blue states is blatantly illegal",
       "url": "https://www.rawstory.com/donald-trump-2674863863",
       "source": "Raw Story",
@@ -121,36 +205,23 @@
       "region": "World"
     },
     {
-      "title": "How Concerned Are Americans About The Pitfalls Of AI?",
-      "url": "https://fivethirtyeight.com/videos/how-concerned-are-americans-about-the-pitfalls-of-ai",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-10T19:43:41.637Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Live From New York: Will AI Replace This Podcast?",
-      "url": "https://fivethirtyeight.com/videos/live-from-new-york-will-ai-replace-this-podcast",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-10T19:43:41.636Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Renee Good’s Killing Reveals Why Fact-Based Journalism Loses the Narrative Battle",
       "url": "https://www.mediaite.com/opinion/renee-goods-killing-reveals-why-fact-based-journalism-loses-the-narrative-battle",
       "source": "Mediaite",
       "published_utc": "2026-01-10T19:36:07.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "What are Saudi Arabia’s plans in southern Yemen?",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/1/10/what-are-saudi-arabias-plans-in-southern-yemen?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-01-10T19:33:32.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -183,19 +254,6 @@
         "reasons": []
       },
       "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Giving Thanks in Turbulent Times",
-      "url": "https://www.psychologytoday.com/ca/blog/the-color-of-wellness/202511/giving-thanks-in-turbulent-times",
-      "source": "Psychology Today: The Latest",
-      "published_utc": "2026-01-10T19:27:29.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Youth",
       "region": "World"
     },
     {
@@ -257,22 +315,6 @@
       "region": "World"
     },
     {
-      "title": "'There wasn't even time for CPR': Iran medics describe hospitals overwhelmed with dead and injured protesters",
-      "url": "https://www.bbc.com/news/articles/cj9rengvnp9o?at_campaign=rss&at_medium=RSS",
-      "source": "BBC News",
-      "published_utc": "2026-01-10T19:22:23.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "breaker"
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Pop star Yungblud ditches his clothes, bares all during wild private yacht party",
       "url": "https://pagesix.com/2026/01/10/celebrity-news/pop-star-yungblud-ditches-his-clothes-bares-all-on-yacht",
       "source": "New York Post",
@@ -311,11 +353,8 @@
       "published_utc": "2026-01-10T19:11:38.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Labour",
       "region": "World"
@@ -327,26 +366,10 @@
       "published_utc": "2026-01-10T19:11:00.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "The Emotions Behind AI",
-      "url": "https://www.psychologytoday.com/ca/blog/dancing-with-the-devil/202601/the-emotions-behind-ai",
-      "source": "Psychology Today: The Latest",
-      "published_utc": "2026-01-10T19:09:58.000Z",
-      "effects": {
-        "lightsaber": false,
         "glitch": false,
         "reasons": []
       },
-      "category": "Youth",
+      "category": "Labour",
       "region": "World"
     },
     {
@@ -936,42 +959,13 @@
       },
       "category": "Culture",
       "region": "World"
-    },
-    {
-      "title": "Portland Police Chief Begins To Cry As He Reluctantly Confirms Two People Shot By CBP Were Connected To Tren De Aragua",
-      "url": "https://dailycaller.com/2026/01/10/portland-police-chief-cries-tren-de-aragua-shot-cbp",
-      "source": "The Daily Caller",
-      "published_utc": "2026-01-10T17:46:38.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Kalshi promo code NYPMAX: Earn a $10 bonus to trade on Rams vs. Panthers",
-      "url": "https://nypost.com/2026/01/10/betting/kalshi-promo-code-nypmax-earn-a-10-bonus-to-trade-on-rams-vs-panthers",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2026-01-10T17:45:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Sports",
-      "region": "Canada"
     }
   ],
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 899,
-    "dedup_pass1": 880,
+    "collected": 812,
+    "dedup_pass1": 793,
     "dedup_final": 320,
     "slow_domains": [],
     "timeouts": [
@@ -998,56 +992,56 @@
     "feed_times_sample": [
       {
         "host": "www.labourstart.org",
-        "sec": 1.877,
+        "sec": 1.621,
         "kept": 0
       },
       {
         "host": "toronto.citynews.ca",
-        "sec": 1.405,
+        "sec": 1.249,
         "kept": 8
       },
       {
         "host": "globalnews.ca",
-        "sec": 1.377,
+        "sec": 1.198,
         "kept": 8
       },
       {
         "host": "www.mlb.com",
-        "sec": 0.739,
-        "kept": 14
-      },
-      {
-        "host": "www.cp24.com",
-        "sec": 0.441,
+        "sec": 0.894,
         "kept": 14
       },
       {
         "host": "www.blogto.com",
-        "sec": 0.405,
+        "sec": 0.545,
         "kept": 0
       },
       {
         "host": "www.mlbtraderumors.com",
-        "sec": 0.379,
+        "sec": 0.475,
+        "kept": 14
+      },
+      {
+        "host": "www.cp24.com",
+        "sec": 0.463,
         "kept": 14
       },
       {
         "host": "www.bls.gov",
-        "sec": 0.325,
+        "sec": 0.458,
         "kept": 0
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.153,
+        "sec": 0.276,
         "kept": 14
       },
       {
         "host": "www.nhl.com",
-        "sec": 0.102,
+        "sec": 0.272,
         "kept": 0
       }
     ],
-    "elapsed_sec": 321.18,
+    "elapsed_sec": 345.64,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1073,7 +1067,7 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 25,
+      "ps_fatal_hits": 23,
       "ps_injury_hits": 0,
       "market_btc_hits": 0,
       "market_index_hits": 0,
@@ -1104,7 +1098,7 @@
       "business_am_hits": 0
     },
     "sanity_stats": {
-      "link_verification_fail": 22,
+      "link_verification_fail": 23,
       "soft_404_drops": 88,
       "max_age_drops": 0,
       "min_age_drops": 0,
