@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Kempe lifts Kings to shootout win over Oilers",
-      "display":"Kempe lifts Kings to shootout win over Oilers",
-      "url":"https://globalnews.ca/news/11608168/kempe-lifts-kings-to-shootout-win-over-oilers",
+      "text":"Leafs reaping rewards of returns from injury",
+      "display":"Leafs reaping rewards of returns from injury",
+      "url":"https://globalnews.ca/news/11608230/leafs-reaping-rewards-of-returns-from-injury",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"How Our Presidential Endorsement Tracker Works",
+      "display":"How Our Presidential Endorsement Tracker Works",
+      "url":"https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "display":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "url":"https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Iran protesters defy crackdown as videos show violent clashes",
-      "display":"Iran protesters defy crackdown as videos show violent clashes",
-      "url":"https://www.bbc.com/news/articles/cm2jek15m8no?at_campaign=rss&at_medium=RSS",
+      "text":"Jack Osbourne says Ozzy is visiting family members in identical dreams",
+      "display":"Jack Osbourne says Ozzy is visiting family members in identical dreams",
+      "url":"https://www.nme.com/news/music/jack-osbourne-says-ozzy-is-visiting-family-members-in-identical-dreams-3922433",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-01-11T10:12:50Z"
+  "generated_utc":"2026-01-11T10:36:28Z"
 }
