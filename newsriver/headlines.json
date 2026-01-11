@@ -1,26 +1,77 @@
 {
-  "generated_utc": "2026-01-11T04:34:27.762Z",
-  "itemset_hash": "5025c1e468149f2c",
+  "generated_utc": "2026-01-11T05:07:29.528Z",
+  "itemset_hash": "ecfd54eb2e7c433d",
   "count": 69,
   "items": [
     {
-      "title": "What To Do About A Problem Like Dianne Feinstein?",
-      "url": "https://fivethirtyeight.com/videos/what-to-do-about-a-problem-like-dianne-feinstein",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-11T04:31:40.678Z",
+      "title": "Kings guard Dennis Schroder gets three-game suspension for attempting to hit Lakers player postgame",
+      "url": "https://nypost.com/2026/01/11/sports/kings-guard-dennis-schroder-gets-three-game-suspension-for-attempting-to-hit-lakers-player-postgame",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-01-11T05:04:36.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": false,
-        "reasons": []
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
       },
-      "category": "General",
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "USMNT striker Ricardo Pepi suffers broken arm while playing for Dutch club in major blow",
+      "url": "https://nypost.com/2026/01/10/sports/usmnt-striker-ricardo-pepi-suffers-broken-arm-while-playing-for-dutch-club",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-01-11T04:50:58.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "Grateful Dead founding member Bob Weir dies at 78",
+      "url": "https://www.nme.com/news/music/grateful-dead-founding-member-bob-weir-dies-at-78-3922385",
+      "source": "NME",
+      "published_utc": "2026-01-11T04:48:37.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Culture",
       "region": "World"
     },
     {
-      "title": "Politics Podcast",
-      "url": "https://fivethirtyeight.com/tag/politics-podcast",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-11T04:31:40.679Z",
+      "title": "George Clooney Says “When I Grow Up, I Want to Be Noah Wyle” as Two Stars Unite 30 Years After ‘ER’",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/george-clooney-noah-wyle-unite-30-years-after-er-1236469459",
+      "source": "The Hollywood Reporter",
+      "published_utc": "2026-01-11T04:43:34.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "ANDREW MORAN: Mamdani’s Socialist Child Care Plan And The American Baby Bust",
+      "url": "https://dailycaller.com/2026/01/10/opinion-mamdanis-socialist-child-care-plan-and-the-american-baby-bust-andrew-moran",
+      "source": "The Daily Caller",
+      "published_utc": "2026-01-11T04:37:01.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -34,32 +85,6 @@
       "url": "https://variety.com/2026/awards/news/aarp-movies-for-grownups-winners-2026-1236628100",
       "source": "Variety",
       "published_utc": "2026-01-11T04:28:25.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "How Our Presidential Endorsement Tracker Works",
-      "url": "https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-11T04:31:40.679Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "url": "https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-11T04:31:40.679Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -85,32 +110,6 @@
       "region": "Canada"
     },
     {
-      "title": "Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "url": "https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-11T04:31:40.679Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "What’s Next In The Abortion Drug Case",
-      "url": "https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-11T04:31:40.679Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "John Harbaugh to limit interviews to 3-4 NFL teams",
       "url": "https://nypost.com/2026/01/10/sports/john-harbaugh-to-limit-interviews-to-3-4-nfl-teams",
       "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
@@ -125,32 +124,6 @@
       },
       "category": "Sports",
       "region": "Canada"
-    },
-    {
-      "title": "How Concerned Are Americans About The Pitfalls Of AI?",
-      "url": "https://fivethirtyeight.com/videos/how-concerned-are-americans-about-the-pitfalls-of-ai",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-11T04:31:40.679Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Live From New York: Will AI Replace This Podcast?",
-      "url": "https://fivethirtyeight.com/videos/live-from-new-york-will-ai-replace-this-podcast",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-11T04:31:40.679Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
     },
     {
       "title": "Red Sox lose Alex Bregman to Cubs, who reportedly sign him to $175 million deal",
@@ -185,19 +158,6 @@
       "region": "World"
     },
     {
-      "title": "UCLA men’s basketball cruises past Maryland",
-      "url": "https://www.dailynews.com/2026/01/10/ucla-mens-basketball-cruises-past-maryland",
-      "source": "Daily News",
-      "published_utc": "2026-01-11T04:01:47.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Alex Bregman signs $175 million deal with Cubs to end free agency frenzy",
       "url": "https://nypost.com/2026/01/10/sports/alex-bregman-signs-175-million-deal-with-cubs-to-end-free-agency-frenzy",
       "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
@@ -214,7 +174,7 @@
       "region": "Canada"
     },
     {
-      "title": "‘Hamnet’ Wins AARP’s 2026 Best Movie For Grownups — Full Winners List",
+      "title": "‘Hamnet’ Wins Best Picture At AARP Movies For Grownups Awards",
       "url": "https://deadline.com/2026/01/aarp-2026-best-movie-grownups-full-winners-list-1236678559",
       "source": "Deadline",
       "published_utc": "2026-01-11T03:45:00.000Z",
@@ -262,11 +222,8 @@
       "published_utc": "2026-01-11T03:40:37.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Business",
       "region": "World"
@@ -333,11 +290,8 @@
       "published_utc": "2026-01-11T03:00:10.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "General",
       "region": "World"
@@ -391,19 +345,6 @@
       "region": "Canada"
     },
     {
-      "title": "UCLA gymnastics team places third in elite quad meet",
-      "url": "https://www.dailynews.com/2026/01/10/ucla-gymnastics-team-places-third-in-elite-quad-meet",
-      "source": "Daily News",
-      "published_utc": "2026-01-11T02:44:29.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Last Kurdish-led SDF fighters leave Syria’s Aleppo after days of clashes",
       "url": "https://www.aljazeera.com/news/2026/1/11/kurdish-fighters-leave-syrias-aleppo-after-days-of-clashes?traffic_source=rss",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
@@ -450,19 +391,6 @@
       "url": "https://dailycaller.com/2026/01/10/opinion-new-study-shows-how-gop-can-win-on-affordability-issue-david-blackmon",
       "source": "The Daily Caller",
       "published_utc": "2026-01-11T02:22:39.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "See photos of Ashley Tisdale’s  somber phone conversation as ‘toxic’ mom group drama continues",
-      "url": "https://pagesix.com/2026/01/10/celebrity-news/ashley-tisdale-has-somber-phone-conversation",
-      "source": "New York Post",
-      "published_utc": "2026-01-11T02:16:23.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -650,19 +578,6 @@
       "region": "Canada"
     },
     {
-      "title": "Kylie Jenner Shows Off Cleavage in Tight Leather Top While Promoting New Perfume",
-      "url": "https://www.tmz.com/2026/01/10/kylie-jenner-flaunts-breasts-tight-top-new-perfume",
-      "source": "TMZ.com",
-      "published_utc": "2026-01-11T01:38:35.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Bruins make history as Pavel Zacha, Marat Khusnutdinov both score hat tricks",
       "url": "https://www.boston.com/sports/boston-bruins/2026/01/10/boston-bruins-nhl-hockey-hat-tricks-pavel-zacha-marat-khusnutdinov",
       "source": "Boston Bruins: News, commentary, scores, schedule, and stats",
@@ -833,11 +748,8 @@
       "published_utc": "2026-01-11T00:58:27.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Sports",
       "region": "Canada"
@@ -853,32 +765,6 @@
         "reasons": []
       },
       "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "RIP Legendary Grateful Dead Guitarist Bob Weir, 78, Who Helped Steer Group to Heights, Sang Lead on “Truckin'” And Other Hits",
-      "url": "https://www.showbiz411.com/2026/01/10/rip-legendary-grateful-dead-guitarist-bob-weir-78-who-helped-steer-group-to-heights-sang-lead-on-truckin-and-other-hits",
-      "source": "Showbiz411",
-      "published_utc": "2026-01-11T00:46:48.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Desmond Scott Breaks Silence After Wife Kristy Files For Divorce",
-      "url": "https://www.tmz.com/2026/01/10/desmond-scott-breaks-silence-after-wife-divorce",
-      "source": "TMZ.com",
-      "published_utc": "2026-01-11T00:46:38.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
       "region": "World"
     },
     {
@@ -904,11 +790,8 @@
       "published_utc": "2026-01-11T00:39:55.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Culture",
       "region": "World"
@@ -980,20 +863,148 @@
       },
       "category": "General",
       "region": "World"
+    },
+    {
+      "title": "'The answer cannot be nothing': The battle over Canada's mystery brain disease",
+      "url": "https://www.bbc.com/news/articles/c623r47d67lo?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2026-01-11T00:23:09.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "Myanmar holds 2nd round of elections amid armed conflict",
+      "url": "https://toronto.citynews.ca/2026/01/10/myanmar-holds-2nd-round-of-elections-amid-armed-conflict",
+      "source": "CityNews Toronto",
+      "published_utc": "2026-01-11T00:20:39.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Local",
+      "region": "Canada"
+    },
+    {
+      "title": "Davante Adams says ‘a little bit of everything’ bloodied by violent hit in Rams-Panthers game",
+      "url": "https://nypost.com/2026/01/10/sports/davante-adams-bloodied-by-violent-hit-in-rams-panthers-game",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-01-11T00:18:25.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "Yankees, Cody Bellinger “At An Impasse” In Negotiations",
+      "url": "https://www.mlbtraderumors.com/2026/01/yankees-cody-bellinger-at-an-impasse-in-negotiations.html",
+      "source": "MLB Trade Rumors",
+      "published_utc": "2026-01-11T00:15:54.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Bob Weir, Grateful Dead Guitarist and Co-Founder, Dies at 78",
+      "url": "https://www.thewrap.com/creative-content/music/bob-weir-grateful-dead-guitarist-and-co-founder-dies-at-78",
+      "source": "TheWrap",
+      "published_utc": "2026-01-11T00:05:57.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Bob Weir, Grateful Dead’s Statesman, Passes at 78",
+      "url": "https://consequence.net/2026/01/bob-weir-grateful-deads-statesman-passes-at-78",
+      "source": "Consequence",
+      "published_utc": "2026-01-11T00:05:53.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Today’s Wordle answer and hints for #1667 on January 11",
+      "url": "https://www.nme.com/guides/gaming-guides/heres-the-wordle-answer-for-today-3171240",
+      "source": "NME",
+      "published_utc": "2026-01-11T00:01:34.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "WATCH: Global News Hour at 6 BC: Jan. 10",
+      "url": "https://globalnews.ca/news/1149299/watch-news-hour",
+      "source": "globalnews.ca",
+      "published_utc": "2026-01-11T00:00:41.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "‘Connections’ answers and hints for today, January 11",
+      "url": "https://www.nme.com/guides/gaming-guides/connections-answers-hints-groups-today-3557066",
+      "source": "NME",
+      "published_utc": "2026-01-11T00:00:27.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
     }
   ],
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 792,
-    "dedup_pass1": 766,
+    "collected": 742,
+    "dedup_pass1": 730,
     "dedup_final": 320,
     "slow_domains": [],
     "timeouts": [
-      "japantoday.com",
       "news.communitech.ca",
       "www.cbc.ca",
-      "www.nationalreview.com"
+      "www.mining.com"
     ],
     "errors": [
       "alert.weather.gc.ca",
@@ -1002,7 +1013,6 @@
     "caps_hit": [
       "cultmtl.com",
       "financialpost.com",
-      "nypost.com",
       "toronto.citynews.ca",
       "variety.com",
       "www.boston.com",
@@ -1013,56 +1023,56 @@
     "feed_times_sample": [
       {
         "host": "www.labourstart.org",
-        "sec": 1.29,
+        "sec": 1.515,
         "kept": 0
       },
       {
         "host": "toronto.citynews.ca",
-        "sec": 0.824,
+        "sec": 1.47,
         "kept": 8
       },
       {
         "host": "globalnews.ca",
-        "sec": 0.659,
+        "sec": 0.834,
         "kept": 1
       },
       {
-        "host": "www.blogto.com",
-        "sec": 0.448,
-        "kept": 0
-      },
-      {
-        "host": "www.cp24.com",
-        "sec": 0.416,
-        "kept": 14
-      },
-      {
-        "host": "www.mlbtraderumors.com",
-        "sec": 0.38,
-        "kept": 14
-      },
-      {
-        "host": "www.nhl.com",
-        "sec": 0.167,
-        "kept": 0
-      },
-      {
         "host": "www.mlb.com",
-        "sec": 0.165,
+        "sec": 0.641,
         "kept": 14
       },
       {
         "host": "www.bls.gov",
-        "sec": 0.147,
+        "sec": 0.536,
+        "kept": 0
+      },
+      {
+        "host": "www.blogto.com",
+        "sec": 0.414,
+        "kept": 0
+      },
+      {
+        "host": "www.mlbtraderumors.com",
+        "sec": 0.352,
+        "kept": 14
+      },
+      {
+        "host": "www.cp24.com",
+        "sec": 0.337,
+        "kept": 14
+      },
+      {
+        "host": "www.nhl.com",
+        "sec": 0.208,
         "kept": 0
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.095,
+        "sec": 0.112,
         "kept": 14
       }
     ],
-    "elapsed_sec": 299.46,
+    "elapsed_sec": 307.85,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1088,7 +1098,7 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 37,
+      "ps_fatal_hits": 28,
       "ps_injury_hits": 0,
       "market_btc_hits": 0,
       "market_index_hits": 0,
@@ -1096,12 +1106,12 @@
       "market_single_hits": 0,
       "agg_penalties": 0,
       "press_penalties": 0,
-      "preferred_bonus": 120,
+      "preferred_bonus": 121,
       "substack_tagged": 0,
       "sports_team_hits": 8,
       "sports_player_hits": 1,
-      "sports_result_win_hits": 27,
-      "sports_result_loss_hits": 1,
+      "sports_result_win_hits": 22,
+      "sports_result_loss_hits": 0,
       "sports_evening_hits": 0,
       "sports_playoff_hits": 0,
       "sports_focus_team_hits": 12,
@@ -1114,16 +1124,16 @@
       "hype_sports": 0,
       "hype_ceasefire": 0,
       "reject_hits": 0,
-      "obit_hits": 16,
+      "obit_hits": 12,
       "major_figure_hits": 1,
       "business_am_hits": 0
     },
     "sanity_stats": {
-      "link_verification_fail": 18,
-      "soft_404_drops": 93,
+      "link_verification_fail": 26,
+      "soft_404_drops": 83,
       "max_age_drops": 0,
-      "min_age_drops": 0,
-      "market_sanity_drops": 3,
+      "min_age_drops": 8,
+      "market_sanity_drops": 4,
       "backfill_steps_used": 0
     },
     "require_exact_count": 69,
