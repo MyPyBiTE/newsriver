@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-01-15T05:02:06.784691Z",
+  "generated_utc": "2026-01-15T05:38:26.613844Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401810430",
-          "gameDate": "2026-01-15T02:30Z",
+          "gamePk": "401810432",
+          "gameDate": "2026-01-15T03:30Z",
           "status": {
             "detailedState": "Live",
             "abstractGameState": "Live"
@@ -17,67 +17,15 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "DEN"
-              },
-              "score": 116
-            },
-            "home": {
-              "team": {
-                "abbreviation": "DAL"
-              },
-              "score": 109
-            }
-          }
-        },
-        {
-          "gamePk": "401810431",
-          "gameDate": "2026-01-15T03:00Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "3rd",
-            "currentQuarter": "3rd"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "NYK"
-              },
-              "score": 72
-            },
-            "home": {
-              "team": {
-                "abbreviation": "SAC"
-              },
-              "score": 93
-            }
-          }
-        },
-        {
-          "gamePk": "401810432",
-          "gameDate": "2026-01-15T03:30Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "3rd",
-            "currentQuarter": "3rd"
-          },
-          "teams": {
-            "away": {
-              "team": {
                 "abbreviation": "WSH"
               },
-              "score": 58
+              "score": 93
             },
             "home": {
               "team": {
                 "abbreviation": "LAC"
               },
-              "score": 73
+              "score": 107
             }
           }
         },
@@ -312,6 +260,58 @@
                 "abbreviation": "LAL"
               },
               "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401810431",
+          "gameDate": "2026-01-15T03:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "NYK"
+              },
+              "score": 101
+            },
+            "home": {
+              "team": {
+                "abbreviation": "SAC"
+              },
+              "score": 112
+            }
+          }
+        },
+        {
+          "gamePk": "401810430",
+          "gameDate": "2026-01-15T02:30Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "DEN"
+              },
+              "score": 118
+            },
+            "home": {
+              "team": {
+                "abbreviation": "DAL"
+              },
+              "score": 109
             }
           }
         },
