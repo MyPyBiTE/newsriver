@@ -1,8 +1,34 @@
 {
-  "generated_utc": "2026-01-17T22:43:50.293Z",
-  "itemset_hash": "0a43fcff6be49cc8",
+  "generated_utc": "2026-01-17T22:57:13.094Z",
+  "itemset_hash": "0bac880c8ec22daa",
   "count": 69,
   "items": [
+    {
+      "title": "Karoline Leavitt Reportedly Threatened CBS Anchor Tony Dokoupil to Not Edit Trump Interview: ‘We’ll Sue Your Ass Off’",
+      "url": "https://www.mediaite.com/media/news/karoline-leavitt-reportedly-threatened-cbs-anchor-tony-dokoupil-to-not-edit-trump-interview-well-sue-your-ass-off",
+      "source": "Mediaite",
+      "published_utc": "2026-01-17T22:50:36.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "How to Abolish ICE",
+      "url": "https://reason.com/volokh/2026/01/17/how-to-abolish-ice",
+      "source": "Reason.com",
+      "published_utc": "2026-01-17T22:49:33.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
     {
       "title": "The Cribs share ‘Gordon Raphael Sessions’ EP of ‘Selling A Vibe’ recordings: “It captures these songs in early and pure form”",
       "url": "https://www.nme.com/news/music/the-cribs-share-gordon-raphael-sessions-ep-of-selling-a-vibe-recordings-it-captures-these-songs-in-early-and-pure-form-3923827",
@@ -111,6 +137,22 @@
       },
       "category": "Sports",
       "region": "Canada"
+    },
+    {
+      "title": "US launches new retaliatory strike in Syria, killing leader tied to deadly Islamic State ambush",
+      "url": "https://www.npr.org/2026/01/17/g-s1-106418/us-strike-syria-islamic-state-ambush",
+      "source": "NPR Topics: Home Page Top Stories",
+      "published_utc": "2026-01-17T22:09:12.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "breaker"
+      },
+      "category": "Labour",
+      "region": "World"
     },
     {
       "title": "Coinbase CEO denies White House clash, says negotiations are ongoing",
@@ -957,45 +999,6 @@
       },
       "category": "General",
       "region": "World"
-    },
-    {
-      "title": "Exclusive -- Eric Trump: Crypto Is Growing Faster Than the Internet Was",
-      "url": "https://www.breitbart.com/clips/2026/01/17/exclusive-eric-trump-crypto-is-growing-faster-than-the-internet-was",
-      "source": "Breitbart News",
-      "published_utc": "2026-01-17T19:13:43.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "NASA rolls out Artemis II craft ahead of crewed lunar orbit",
-      "url": "https://www.npr.org/2026/01/17/g-s1-106406/nasa-rolls-out-artemis-ii",
-      "source": "NPR Topics: Home Page Top Stories",
-      "published_utc": "2026-01-17T19:12:56.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Exclusive -- 'This Is Tectonic': Gorka Touts Designating Muslim Brotherhood Chapters Terrorist Organizations",
-      "url": "https://www.breitbart.com/clips/2026/01/17/exclusive-this-is-tectonic-gorka-touts-designating-muslim-brotherhood-chapters-terrorist-organizations",
-      "source": "Breitbart News",
-      "published_utc": "2026-01-17T19:13:39.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
     }
   ],
   "_debug": {
@@ -1004,7 +1007,9 @@
     "collected": 716,
     "dedup_pass1": 709,
     "dedup_final": 320,
-    "slow_domains": [],
+    "slow_domains": [
+      "www150.statcan.gc.ca"
+    ],
     "timeouts": [
       "news.communitech.ca",
       "www.cbc.ca"
@@ -1026,56 +1031,56 @@
     "feed_times_sample": [
       {
         "host": "www.labourstart.org",
-        "sec": 2.671,
+        "sec": 1.18,
         "kept": 0
       },
       {
         "host": "toronto.citynews.ca",
-        "sec": 0.914,
+        "sec": 0.875,
         "kept": 8
       },
       {
+        "host": "www.mlb.com",
+        "sec": 0.715,
+        "kept": 14
+      },
+      {
         "host": "globalnews.ca",
-        "sec": 0.505,
+        "sec": 0.63,
         "kept": 10
       },
       {
-        "host": "www.mlb.com",
-        "sec": 0.452,
+        "host": "www.cp24.com",
+        "sec": 0.621,
         "kept": 14
       },
       {
         "host": "www.blogto.com",
-        "sec": 0.388,
+        "sec": 0.462,
         "kept": 0
       },
       {
         "host": "www.bls.gov",
-        "sec": 0.37,
+        "sec": 0.341,
         "kept": 0
       },
       {
         "host": "www.mlbtraderumors.com",
-        "sec": 0.368,
-        "kept": 14
-      },
-      {
-        "host": "www.cp24.com",
-        "sec": 0.365,
-        "kept": 14
-      },
-      {
-        "host": "www.federalreserve.gov",
-        "sec": 0.178,
+        "sec": 0.292,
         "kept": 14
       },
       {
         "host": "www.nhl.com",
-        "sec": 0.147,
+        "sec": 0.159,
         "kept": 0
+      },
+      {
+        "host": "www.federalreserve.gov",
+        "sec": 0.111,
+        "kept": 14
       }
     ],
-    "elapsed_sec": 280.37,
+    "elapsed_sec": 294.52,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1101,7 +1106,7 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 9,
+      "ps_fatal_hits": 10,
       "ps_injury_hits": 0,
       "market_btc_hits": 0,
       "market_index_hits": 0,
@@ -1132,8 +1137,8 @@
       "business_am_hits": 0
     },
     "sanity_stats": {
-      "link_verification_fail": 32,
-      "soft_404_drops": 37,
+      "link_verification_fail": 33,
+      "soft_404_drops": 36,
       "max_age_drops": 0,
       "min_age_drops": 8,
       "market_sanity_drops": 6,
