@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-01-17T07:39:15.701Z",
+  "generated_utc": "2026-01-17T07:49:15.505Z",
   "itemset_hash": "35c1ac964103eaa2",
   "count": 69,
   "items": [
@@ -65,11 +65,8 @@
       "published_utc": "2026-01-17T06:44:04.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Business",
       "region": "World"
@@ -557,11 +554,8 @@
       "published_utc": "2026-01-17T03:44:20.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Sports",
       "region": "Canada"
@@ -573,11 +567,8 @@
       "published_utc": "2026-01-17T03:39:56.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Sports",
       "region": "Canada"
@@ -602,11 +593,8 @@
       "published_utc": "2026-01-17T03:38:56.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Sports",
       "region": "Canada"
@@ -971,12 +959,10 @@
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 792,
-    "dedup_pass1": 777,
+    "collected": 765,
+    "dedup_pass1": 756,
     "dedup_final": 320,
-    "slow_domains": [
-      "reason.com"
-    ],
+    "slow_domains": [],
     "timeouts": [
       "news.communitech.ca",
       "www.cbc.ca"
@@ -999,56 +985,56 @@
     "feed_times_sample": [
       {
         "host": "www.labourstart.org",
-        "sec": 1.31,
+        "sec": 1.369,
         "kept": 0
       },
       {
         "host": "toronto.citynews.ca",
-        "sec": 0.977,
+        "sec": 1.308,
         "kept": 8
       },
       {
-        "host": "www.blogto.com",
-        "sec": 0.463,
-        "kept": 0
-      },
-      {
-        "host": "globalnews.ca",
-        "sec": 0.426,
-        "kept": 10
-      },
-      {
         "host": "www.mlb.com",
-        "sec": 0.35,
+        "sec": 0.536,
         "kept": 14
       },
       {
+        "host": "globalnews.ca",
+        "sec": 0.472,
+        "kept": 10
+      },
+      {
+        "host": "www.blogto.com",
+        "sec": 0.465,
+        "kept": 0
+      },
+      {
         "host": "www.cp24.com",
-        "sec": 0.285,
+        "sec": 0.343,
         "kept": 14
       },
       {
         "host": "www.mlbtraderumors.com",
-        "sec": 0.27,
+        "sec": 0.328,
         "kept": 14
       },
       {
-        "host": "www.nhl.com",
-        "sec": 0.182,
-        "kept": 0
-      },
-      {
         "host": "www.bls.gov",
-        "sec": 0.146,
+        "sec": 0.131,
         "kept": 0
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.098,
+        "sec": 0.099,
         "kept": 14
+      },
+      {
+        "host": "www.nhl.com",
+        "sec": 0.095,
+        "kept": 0
       }
     ],
-    "elapsed_sec": 307.95,
+    "elapsed_sec": 295.33,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1074,7 +1060,7 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 17,
+      "ps_fatal_hits": 15,
       "ps_injury_hits": 0,
       "market_btc_hits": 0,
       "market_index_hits": 0,
@@ -1099,14 +1085,14 @@
       "hype_jobs": 0,
       "hype_sports": 0,
       "hype_ceasefire": 0,
-      "reject_hits": 1,
-      "obit_hits": 6,
+      "reject_hits": 0,
+      "obit_hits": 5,
       "major_figure_hits": 2,
       "business_am_hits": 0
     },
     "sanity_stats": {
-      "link_verification_fail": 23,
-      "soft_404_drops": 33,
+      "link_verification_fail": 22,
+      "soft_404_drops": 32,
       "max_age_drops": 0,
       "min_age_drops": 8,
       "market_sanity_drops": 4,
