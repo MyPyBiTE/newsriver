@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Harden powers Clippers past Raptors 121-117",
-      "display":"Harden powers Clippers past Raptors 121-117",
-      "url":"https://globalnews.ca/news/11617497/quickley-out-for-raptors-vs-clippers",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"Attorneys for actor Timothy Busfield say an investigation undermines state’s child sex abuse charges",
       "display":"Attorneys for actor Timothy Busfield say an investigation undermines state’s child sex abuse charges",
       "url":"https://toronto.citynews.ca/2026/01/17/attorneys-for-actor-timothy-busfield-say-an-investigation-undermines-states-child-sex-abuse-charges",
@@ -21,9 +11,19 @@
       }
     },
     {
-      "text":"A$AP Rocky seems to address Drake fallout on new song ‘Stole Ya Flow’",
-      "display":"A$AP Rocky seems to address Drake fallout on new song ‘Stole Ya Flow’",
-      "url":"https://www.nme.com/news/music/aap-rocky-seems-to-address-drake-fallout-on-new-song-stole-ya-flow-3923721",
+      "text":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
+      "display":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
+      "url":"https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Police deny claims Uganda opposition leader abducted by helicopter",
+      "display":"Police deny claims Uganda opposition leader abducted by helicopter",
+      "url":"https://www.bbc.com/news/articles/c20z3nx4xwqo?at_campaign=rss&at_medium=RSS",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-01-17T09:12:28Z"
+  "generated_utc":"2026-01-17T09:48:45Z"
 }
