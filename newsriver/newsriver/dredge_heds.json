@@ -1,6 +1,16 @@
 {
   "items":[
     {
+      "text":"The scramble is on to help unscramble the mess that is AI-generated music",
+      "display":"The scramble is on to help unscramble the mess that is AI-generated music",
+      "url":"https://globalnews.ca/news/11614633/fixing-the-mess-of-ai-generated-music",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
       "text":"3 injured, 1 in life-threatening condition, after fire in Toronto apartment: police",
       "display":"3 injured, 1 in life-threatening condition, after fire in Toronto apartment: police",
       "url":"https://toronto.citynews.ca/2026/01/18/queen-sorauren-toronto-fire",
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Caufield scores in OT as Canadiens sink Senators",
-      "display":"Caufield scores in OT as Canadiens sink Senators",
-      "url":"https://globalnews.ca/news/11618326/caufield-scores-in-ot-as-canadiens-sink-senators",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "display":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "url":"https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
+      "text":"How Our Presidential Endorsement Tracker Works",
+      "display":"How Our Presidential Endorsement Tracker Works",
+      "url":"https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-01-18T15:11:59Z"
+  "generated_utc":"2026-01-18T15:31:34Z"
 }
