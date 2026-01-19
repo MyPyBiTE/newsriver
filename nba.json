@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-01-19T19:48:54.682863Z",
+  "generated_utc": "2026-01-19T19:58:00.678669Z",
   "dates": [
     {
       "games": [
@@ -11,21 +11,21 @@
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "3rd",
-            "currentQuarter": "3rd"
+            "currentPeriodOrdinal": "4th",
+            "currentQuarter": "4th"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "MIL"
               },
-              "score": 76
+              "score": 80
             },
             "home": {
               "team": {
                 "abbreviation": "ATL"
               },
-              "score": 64
+              "score": 72
             }
           }
         },
@@ -45,13 +45,13 @@
               "team": {
                 "abbreviation": "OKC"
               },
-              "score": 7
+              "score": 19
             },
             "home": {
               "team": {
                 "abbreviation": "CLE"
               },
-              "score": 8
+              "score": 12
             }
           }
         },
