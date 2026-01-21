@@ -1,8 +1,21 @@
 {
-  "generated_utc": "2026-01-21T05:04:27.116Z",
-  "itemset_hash": "39ddc871e864bcc5",
+  "generated_utc": "2026-01-21T05:37:13.050Z",
+  "itemset_hash": "ae8d70537b4e2a96",
   "count": 69,
   "items": [
+    {
+      "title": "Trump doubles down on Greenland ahead of Davos visit, saying there is 'no going back'",
+      "url": "https://www.bbc.com/news/articles/cvgr19m642zo?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2026-01-21T05:04:48.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
     {
       "title": "Noble blockchain shifts from Cosmos to launch a standalone EVM",
       "url": "https://cointelegraph.com/news/stablecoin-protocol-noble-migrate-off-cosmos-standalone-layer-1",
@@ -36,7 +49,33 @@
       "region": "World"
     },
     {
-      "title": "White Sox To Trade Luis Robert Jr. To Mets",
+      "title": "US Justice Department probes Minnesota officials amid migration raids",
+      "url": "https://www.aljazeera.com/news/2026/1/21/us-justice-department-probes-minnesota-officials-amid-migration-raids?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-01-21T04:43:15.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Ex-Japanese Prime Minister Abe’s killer sentenced to life",
+      "url": "https://www.aljazeera.com/news/2026/1/21/ex-japanese-prime-minister-abes-killer-sentenced-to-life?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-01-21T04:43:03.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "White Sox Trade Luis Robert Jr. To Mets",
       "url": "https://www.mlbtraderumors.com/2026/01/mets-to-acquire-luis-robert.html",
       "source": "MLB Trade Rumors",
       "published_utc": "2026-01-21T04:40:07.000Z",
@@ -58,11 +97,8 @@
       "published_utc": "2026-01-21T04:27:19.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Labour",
       "region": "World"
@@ -142,19 +178,6 @@
       "region": "Canada"
     },
     {
-      "title": "Trump doubles down on Greenland, saying there is 'no going back'",
-      "url": "https://www.bbc.com/news/articles/cvgr19m642zo?at_campaign=rss&at_medium=RSS",
-      "source": "BBC News",
-      "published_utc": "2026-01-21T03:47:52.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Brompton Unveils the 'Electric T Line,' Its Lightest-Ever Folding E-Bike",
       "url": "https://hypebeast.com/2026/1/brompton-unveils-electric-t-line-lightest-ever-folding-e-bike-uk-us-launch-info",
       "source": "Hypebeast",
@@ -202,12 +225,12 @@
       "source": "Oilprice.com",
       "published_utc": "2026-01-21T03:28:35.000Z",
       "effects": {
-        "lightsaber": true,
-        "glitch": false,
+        "lightsaber": false,
+        "glitch": true,
         "reasons": [
-          "score≥2.6"
+          "score≥2.1"
         ],
-        "style": "lightsaber"
+        "style": "glitch"
       },
       "category": "Energy",
       "region": "Canada"
@@ -954,35 +977,6 @@
       },
       "category": "Culture",
       "region": "World"
-    },
-    {
-      "title": "Carlos Beltran, Andruw Jones Elected To Hall Of Fame",
-      "url": "https://www.mlbtraderumors.com/2026/01/carlos-beltran-andruw-jones-elected-to-hall-of-fame.html",
-      "source": "MLB Trade Rumors",
-      "published_utc": "2026-01-20T23:23:52.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "‘Boots’ Most Watched July-Dec ’25 Netflix Series To Get Ax: The Numbers Behind Cancellations Of Military Drama & ‘The Waterfront’",
-      "url": "https://deadline.com/2026/01/boots-the-waterfront-canceled-netflix-why-viewership-1236690705",
-      "source": "Deadline",
-      "published_utc": "2026-01-20T23:21:11.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
     }
   ],
   "_debug": {
@@ -991,9 +985,7 @@
     "collected": 434,
     "dedup_pass1": 430,
     "dedup_final": 320,
-    "slow_domains": [
-      "www.gorillavsbear.net"
-    ],
+    "slow_domains": [],
     "timeouts": [
       "news.communitech.ca",
       "www.cbc.ca",
@@ -1011,56 +1003,56 @@
     "feed_times_sample": [
       {
         "host": "www.labourstart.org",
-        "sec": 1.342,
+        "sec": 1.979,
         "kept": 0
-      },
-      {
-        "host": "globalnews.ca",
-        "sec": 0.847,
-        "kept": 10
       },
       {
         "host": "toronto.citynews.ca",
-        "sec": 0.829,
+        "sec": 1.065,
         "kept": 8
       },
       {
-        "host": "www.blogto.com",
-        "sec": 0.345,
-        "kept": 0
-      },
-      {
         "host": "www.mlb.com",
-        "sec": 0.334,
-        "kept": 14
-      },
-      {
-        "host": "www.mlbtraderumors.com",
-        "sec": 0.322,
+        "sec": 0.616,
         "kept": 14
       },
       {
         "host": "www.cp24.com",
-        "sec": 0.311,
+        "sec": 0.577,
+        "kept": 14
+      },
+      {
+        "host": "globalnews.ca",
+        "sec": 0.569,
+        "kept": 10
+      },
+      {
+        "host": "www.blogto.com",
+        "sec": 0.459,
+        "kept": 0
+      },
+      {
+        "host": "www.mlbtraderumors.com",
+        "sec": 0.357,
         "kept": 14
       },
       {
         "host": "www.bls.gov",
-        "sec": 0.252,
-        "kept": 0
-      },
-      {
-        "host": "www.nhl.com",
-        "sec": 0.15,
+        "sec": 0.341,
         "kept": 0
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.09,
+        "sec": 0.162,
         "kept": 14
+      },
+      {
+        "host": "www.nhl.com",
+        "sec": 0.098,
+        "kept": 0
       }
     ],
-    "elapsed_sec": 329.24,
+    "elapsed_sec": 338.1,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1086,7 +1078,7 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 11,
+      "ps_fatal_hits": 10,
       "ps_injury_hits": 0,
       "market_btc_hits": 0,
       "market_index_hits": 0,
@@ -1098,7 +1090,7 @@
       "substack_tagged": 0,
       "sports_team_hits": 5,
       "sports_player_hits": 1,
-      "sports_result_win_hits": 12,
+      "sports_result_win_hits": 13,
       "sports_result_loss_hits": 1,
       "sports_evening_hits": 0,
       "sports_playoff_hits": 0,
