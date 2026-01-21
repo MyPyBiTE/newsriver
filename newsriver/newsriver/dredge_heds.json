@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Man injured in drive-by shooting outside Vaughan home",
-      "display":"Man injured in drive-by shooting outside Vaughan home",
-      "url":"https://toronto.citynews.ca/2026/01/21/man-injured-in-drive-by-shooting-outside-vaughan-home",
+      "text":"Blue Jays still have offseason work to do",
+      "display":"Blue Jays still have offseason work to do",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-still-have-offseason-work-to-do",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"It’s a new dawn, it’s a new day: Carney turns the page on world order",
+      "display":"It’s a new dawn, it’s a new day: Carney turns the page on world order",
+      "url":"https://toronto.citynews.ca/2026/01/21/carney-davos-speech-world-economic-forum-big-story-podcast",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Quebec’s Charlevoix region left scrambling after labour dispute closes ski resort",
-      "display":"Quebec’s Charlevoix region left scrambling after labour dispute closes ski resort",
-      "url":"https://globalnews.ca/news/11622310/quebec-charlevoix-region-labour-dispute-ski-resort",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "display":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "url":"https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
+      "text":"Toronto-area under a snowfall warning as more snow on the way",
+      "display":"Toronto-area under a snowfall warning as more snow on the way",
+      "url":"https://globalnews.ca/news/11622332/toronto-snowfall-warning-snow-january-21",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-01-21T11:53:46Z"
+  "generated_utc":"2026-01-21T13:26:13Z"
 }
