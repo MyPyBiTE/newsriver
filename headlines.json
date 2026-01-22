@@ -1,13 +1,71 @@
 {
-  "generated_utc": "2026-01-22T00:02:13.877Z",
-  "itemset_hash": "7321ddea896fc69c",
+  "generated_utc": "2026-01-22T01:34:50.243Z",
+  "itemset_hash": "fdc35799c7ef35af",
   "count": 69,
   "items": [
     {
-      "title": "What To Do About A Problem Like Dianne Feinstein?",
-      "url": "https://fivethirtyeight.com/videos/what-to-do-about-a-problem-like-dianne-feinstein",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-21T23:59:22.392Z",
+      "title": "‘Fallout’: Amazon Says Season 2 Is Tracking As One Of Its Top 4 Returning Series, But Won’t Release Viewership Stats, Yet",
+      "url": "https://deadline.com/2026/01/fallout-season-2-viewership-update-explained-amazon-1236692296",
+      "source": "Deadline",
+      "published_utc": "2026-01-22T01:30:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Braves Sign Tayler Scott, Tristin English To Minor League Deals",
+      "url": "https://www.mlbtraderumors.com/2026/01/braves-sign-tayler-scott-tristin-english-to-minor-league-deals.html",
+      "source": "MLB Trade Rumors",
+      "published_utc": "2026-01-22T01:28:58.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Edmonton to begin cul-de-sac snow-clearing operations",
+      "url": "https://globalnews.ca/news/11623720/edmonton-cul-de-sac-snow-clearing",
+      "source": "globalnews.ca",
+      "published_utc": "2026-01-22T01:23:21.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "Sundance Competition Documentary ‘Hanging By A Wire” Tells Incredible Pakistan Cable Car Rescue Attempt With Young Lives In The Balance",
+      "url": "https://deadline.com/2026/01/hanging-by-a-wire-interview-mohammed-ali-naqvi-1236692354",
+      "source": "Deadline",
+      "published_utc": "2026-01-22T01:19:48.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Conservative Lawmaker Blames ‘Hackers’ After His Account Shares Photo of a Shirtless Man: ‘Needless to Say I Was Disgusted’",
+      "url": "https://www.mediaite.com/politics/conservative-lawmaker-blames-hackers-after-his-account-shares-photo-of-a-shirtless-man-needless-to-say-i-was-disgusted",
+      "source": "Mediaite",
+      "published_utc": "2026-01-22T01:19:37.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -17,10 +75,55 @@
       "region": "World"
     },
     {
-      "title": "Politics Podcast",
-      "url": "https://fivethirtyeight.com/tag/politics-podcast",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-21T23:59:22.392Z",
+      "title": "Lime Garden Announce New Album Maybe Not Tonight: Hear “23”",
+      "url": "https://stereogum.com/2486232/lime-garden-announce-new-album-maybe-not-tonight-hear-23/music",
+      "source": "Stereogum",
+      "published_utc": "2026-01-22T01:19:11.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "ETH funding rate turns negative, but will Ether bulls take the bait?",
+      "url": "https://cointelegraph.com/news/eth-funding-rate-turns-negative-but-will-ether-bulls-take-the-bait",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2026-01-22T01:15:08.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Alberta’s 2025 housing starts above national average of 5.6%",
+      "url": "https://globalnews.ca/news/11623111/housing-starts-2025-alberta-canada",
+      "source": "globalnews.ca",
+      "published_utc": "2026-01-22T01:14:43.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "Stunning new details emerge about anti-ICE protest in Minnesota church",
+      "url": "https://www.rawstory.com/ice-protest-2674975200",
+      "source": "Raw Story",
+      "published_utc": "2026-01-22T01:12:57.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -28,77 +131,370 @@
       },
       "category": "General",
       "region": "World"
+    },
+    {
+      "title": "Top 5 Branded Videos of the Week: A full week of Shorts (plus Veritasium)",
+      "url": "https://www.tubefilter.com/2026/01/21/mrbeast-2-veritasium-dude-perfect-rennrat",
+      "source": "Tubefilter",
+      "published_utc": "2026-01-22T01:08:39.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Firestorm ignites as secret ICE memo authorizes agents to storm homes with no warrants",
+      "url": "https://www.rawstory.com/ice-search",
+      "source": "Raw Story",
+      "published_utc": "2026-01-22T01:08:30.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Angels To Re-Sign Yoan Moncada",
+      "url": "https://www.mlbtraderumors.com/2026/01/angels-to-re-sign-yoan-moncada.html",
+      "source": "MLB Trade Rumors",
+      "published_utc": "2026-01-22T01:06:13.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Relax, Microplastics Aren’t Killing You",
+      "url": "https://www.thefp.com/p/relax-microplastics-arent-killing-you",
+      "source": "The Free Press",
+      "published_utc": "2026-01-22T01:03:47.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Trump says 'framework of a future deal' discussed on Greenland as he backs off tariffs threat",
+      "url": "https://www.bbc.com/news/articles/cgezx40r7d7o?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2026-01-22T01:03:26.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Canada Pushes Deeper Into Asian Energy Markets",
+      "url": "https://oilprice.com/Energy/Energy-General/Canada-Pushes-Deeper-Into-Asian-Energy-Markets.html",
+      "source": "Oilprice.com",
+      "published_utc": "2026-01-22T01:00:00.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Energy",
+      "region": "Canada"
+    },
+    {
+      "title": "Russia-Ukraine war: List of key events, day 1,428",
+      "url": "https://www.aljazeera.com/news/2026/1/22/russia-ukraine-war-list-of-key-events-day-1428?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-01-22T00:49:33.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Trump's ICE officers make jaw-dropping assertions about their power in unearthed memo",
+      "url": "https://www.rawstory.com/trump-ice-2674975146",
+      "source": "Raw Story",
+      "published_utc": "2026-01-22T00:48:01.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "UN receives Circle grant to upgrade cross-border refugee aid",
+      "url": "https://cointelegraph.com/news/un-circle-grant-stablecoins-streamline-refugee-aid",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2026-01-22T00:45:48.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "DAVID BLACKMON: Will Texas Grid Survive Looming Winter Storm?",
+      "url": "https://dailycaller.com/2026/01/21/opinion-will-texas-grid-survive-looming-winter-storm-david-blackmon",
+      "source": "The Daily Caller",
+      "published_utc": "2026-01-22T00:44:06.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Report finds Saskatoon is the best city to raise a family — and residents agree",
+      "url": "https://globalnews.ca/news/11623566/report-saskatoon-best-city-to-raise-a-family",
+      "source": "globalnews.ca",
+      "published_utc": "2026-01-22T00:40:26.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "Red state officials looked the other way as state guard officer misused aircraft: report",
+      "url": "https://www.rawstory.com/florida-guard",
+      "source": "Raw Story",
+      "published_utc": "2026-01-22T00:39:45.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "ICE Agents Grab Five-Year-Old Boy and Father After School",
+      "url": "https://www.mediaite.com/media/news/ice-agents-grab-five-year-old-boy-and-father-on-way-home-from-school",
+      "source": "Mediaite",
+      "published_utc": "2026-01-22T00:33:53.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "MAGA melts down over video of postal worker flipping the bird to immigration agents",
+      "url": "https://www.rawstory.com/trump-immigration-2674975103",
+      "source": "Raw Story",
+      "published_utc": "2026-01-22T00:30:45.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "‘I won’t use force’ for Greenland: Key takeaways from Trump’s Davos speech",
+      "url": "https://www.aljazeera.com/news/2026/1/22/i-wont-use-force-for-greenland-key-takeaways-from-trumps-davos-speech?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-01-22T00:26:26.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "New York Judge Signs Off On Democrat Effort To Eliminate GOP House Seat",
+      "url": "https://dailycaller.com/2026/01/21/judge-new-york-nicole-malliotakis-dan-goldman",
+      "source": "The Daily Caller",
+      "published_utc": "2026-01-22T00:23:44.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Trump's FCC plots crackdown on 'The View' and 'Jimmy Kimmel Live!'",
+      "url": "https://www.rawstory.com/trump-fcc-2674965456",
+      "source": "Raw Story",
+      "published_utc": "2026-01-22T00:20:39.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "Experts offer tips for Winnipeg drivers with more severe cold in the forecast",
+      "url": "https://globalnews.ca/news/11623253/tips-for-winnipeg-drivers-severe-cold",
+      "source": "globalnews.ca",
+      "published_utc": "2026-01-22T00:18:37.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "Conservative livid as red states may pay for Trump's behavior: 'He is far from stable'",
+      "url": "https://www.rawstory.com/trump-tariffs-2674975053",
+      "source": "Raw Story",
+      "published_utc": "2026-01-22T00:14:46.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Legion M Launches “Last In, First Out” Film Fund, With Holiday Spoof ‘Fackham Hall’ As Initial Title",
+      "url": "https://deadline.com/2026/01/legion-m-launches-film-fund-fackham-hall-1236692204",
+      "source": "Deadline",
+      "published_utc": "2026-01-22T00:01:42.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Today’s Wordle answer and hints for #1678 on January 22",
+      "url": "https://www.nme.com/guides/gaming-guides/heres-the-wordle-answer-for-today-3171240",
+      "source": "NME",
+      "published_utc": "2026-01-22T00:01:34.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Globle answer today – here’s the answer and hints for January 22",
+      "url": "https://www.nme.com/guides/gaming-guides/globle-hint-answer-today-3213991",
+      "source": "NME",
+      "published_utc": "2026-01-22T00:00:17.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Trump’s Energy Agenda Is Starting to Collide With Itself",
+      "url": "https://oilprice.com/Energy/Crude-Oil/Trumps-Energy-Agenda-Is-Starting-to-Collide-With-Itself.html",
+      "source": "Oilprice.com",
+      "published_utc": "2026-01-22T00:00:00.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Energy",
+      "region": "Canada"
+    },
+    {
+      "title": "Framed answer today – here’s the solution for January 22",
+      "url": "https://www.nme.com/guides/gaming-guides/framed-answer-today-3192186",
+      "source": "NME",
+      "published_utc": "2026-01-22T00:00:09.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Mississauga home targeted in four separate incidents",
+      "url": "https://toronto.citynews.ca/2026/01/21/mississauga-home-targeted-in-four-separate-incidents",
+      "source": "CityNews Toronto",
+      "published_utc": "2026-01-21T23:59:45.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Local",
+      "region": "Canada"
     },
     {
       "title": "Polar Vortex Now Has Millions In Over 35 States Threatened By Potentially Historic, Catastrophic Winter Storm",
       "url": "https://dailycaller.com/2026/01/21/polar-vortex-35-states-millions-winter-storm-ice-snow",
       "source": "The Daily Caller",
       "published_utc": "2026-01-21T23:58:53.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "How Our Presidential Endorsement Tracker Works",
-      "url": "https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-21T23:59:22.392Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "url": "https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-21T23:59:22.393Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Kids’ YouTube star Ms. Rachel apologizes for liking antisemitic comment she ‘was just tapping’ and tried to delete",
-      "url": "https://nypost.com/2026/01/21/media/kids-youtube-star-ms-rachel-apologizes-for-liking-antisemitic-comment-she-was-just-tapping-and-tried-to-delete",
-      "source": "New York Post",
-      "published_utc": "2026-01-21T23:58:34.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "url": "https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-21T23:59:22.393Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "What’s Next In The Abortion Drug Case",
-      "url": "https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-21T23:59:22.393Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -124,32 +520,6 @@
       "region": "Canada"
     },
     {
-      "title": "How Concerned Are Americans About The Pitfalls Of AI?",
-      "url": "https://fivethirtyeight.com/videos/how-concerned-are-americans-about-the-pitfalls-of-ai",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-21T23:59:22.393Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Live From New York: Will AI Replace This Podcast?",
-      "url": "https://fivethirtyeight.com/videos/live-from-new-york-will-ai-replace-this-podcast",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-21T23:59:22.392Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Walter Van Beirendonck FW26 Depicts the Modern Scarecrow",
       "url": "https://hypebeast.com/2026/1/walter-van-beirendonck-fall-winter-2026-paris-fashion-week-runway-collection",
       "source": "Hypebeast",
@@ -166,32 +536,6 @@
       "region": "Canada"
     },
     {
-      "title": "Why Brooklyn Beckham’s break from his family should be a wake-up call for all parents",
-      "url": "https://nypost.com/2026/01/21/opinion/why-brooklyn-beckhams-break-from-his-family-should-be-a-wake-up-call-for-all-parents",
-      "source": "New York Post",
-      "published_utc": "2026-01-21T23:55:17.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Trump says 'framework of a future deal' reached on Greenland as he drops tariffs threat",
-      "url": "https://www.bbc.com/news/articles/cgezx40r7d7o?at_campaign=rss&at_medium=RSS",
-      "source": "BBC News",
-      "published_utc": "2026-01-21T23:54:13.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Major decision just handed lawmakers a path to take down Trump: legal expert",
       "url": "https://www.rawstory.com/trump-epstein-2674971960",
       "source": "Raw Story",
@@ -205,20 +549,17 @@
       "region": "World"
     },
     {
-      "title": "Jasson Dominguez and Spencer Jones left in Yankees limbo with Cody Bellinger’s return",
-      "url": "https://nypost.com/2026/01/21/sports/cody-bellinger-return-leaves-jasson-dominguez-spencer-jones-in-yankees-limbo",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2026-01-21T23:52:29.000Z",
+      "title": "U.S. Officials Estimate 200 Islamic State Fighters Escaped from Syrian Prison",
+      "url": "https://www.breitbart.com/middle-east/2026/01/21/u-s-officials-estimate-200-islamic-state-fighters-escaped-from-syrian-prison",
+      "source": "Breitbart News",
+      "published_utc": "2026-01-21T23:51:59.000Z",
       "effects": {
-        "lightsaber": true,
+        "lightsaber": false,
         "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
+        "reasons": []
       },
-      "category": "Sports",
-      "region": "Canada"
+      "category": "General",
+      "region": "World"
     },
     {
       "title": "Trial for man charged with mother’s murder hears about ‘pact’ he had to kill parents",
@@ -250,22 +591,6 @@
       "region": "World"
     },
     {
-      "title": "Broncos’ Bo Nix addresses ‘devastating’ season-ending ankle injury in emotional message",
-      "url": "https://nypost.com/sports/broncos-bo-nix-addresses-devastating-season-ending-injury",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2026-01-21T23:50:48.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
       "title": "While Threatening Greenland, Trump Also Threatens Iceland",
       "url": "https://theintercept.com/2026/01/21/trump-davos-iceland-greenland",
       "source": "The Intercept",
@@ -276,22 +601,6 @@
         "reasons": []
       },
       "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Elizabeth Banks Heads Back to College to Produce Feature Comedy ‘Betas’ (EXCLUSIVE)",
-      "url": "https://variety.com/2026/film/news/elizabeth-banks-sorority-rush-movie-betas-1236637287",
-      "source": "Film",
-      "published_utc": "2026-01-21T23:47:17.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Labour",
       "region": "World"
     },
     {
@@ -347,35 +656,6 @@
       "region": "World"
     },
     {
-      "title": "Victoria Beckham Upstaged Bride on 'Ugly Betty' Years Before Son's Wedding Dance",
-      "url": "https://www.tmz.com/2026/01/21/victoria-beckham-upstages-wedding-on-ugly-betty",
-      "source": "TMZ.com",
-      "published_utc": "2026-01-21T23:43:40.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "FCC Takes Aim at Political Interviews on Late-Night and Daytime Shows",
-      "url": "https://variety.com/2026/tv/news/fcc-late-night-daytime-equal-time-rule-1236637214",
-      "source": "Variety",
-      "published_utc": "2026-01-21T23:42:32.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "ICE handed big win in legal fight over retaliation against protesters",
       "url": "https://www.rawstory.com/trump-ice-raids-2674974185",
       "source": "Raw Story",
@@ -415,72 +695,14 @@
       "region": "World"
     },
     {
-      "title": "How Taylor Swift went from being Blake Lively’s defensive ‘dragon’ to a ‘distanced’ friendship",
-      "url": "https://pagesix.com/2026/01/21/entertainment/how-taylor-swift-went-from-being-blake-livelys-defensive-dragon-to-a-distanced-friendship",
-      "source": "New York Post",
-      "published_utc": "2026-01-21T23:39:32.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Bills interview Joe Brady as they hunt for Sean McDermott replacement",
-      "url": "https://nypost.com/2026/01/21/sports/bills-interview-joe-brady-in-hunt-for-sean-mcdermott-replacement",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2026-01-21T23:39:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "Sean Hannity Gets Into On-Air Shouting Match After Being Accused of ‘Hanging Out With Pedophiles’ | Video",
-      "url": "https://www.thewrap.com/media-platforms/journalism/sean-hannity-fox-news-guest-shouting-match-video",
-      "source": "TheWrap",
-      "published_utc": "2026-01-21T23:37:18.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Zoe Kravitz thinks Harry Styles is her ‘soulmate’",
-      "url": "https://pagesix.com/2026/01/21/celebrity-news/zoe-kravitz-thinks-harry-styles-is-her-soulmate",
-      "source": "New York Post",
-      "published_utc": "2026-01-21T23:35:58.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Lemaire FW26 Is a Theatrical Metamorphosis of Form",
       "url": "https://hypebeast.com/2026/1/lemaire-fall-winter-2026-paris-fashion-week-runway-collection",
       "source": "Hypebeast",
       "published_utc": "2026-01-21T23:33:44.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Labour",
       "region": "World"
@@ -518,46 +740,11 @@
       "published_utc": "2026-01-21T23:32:42.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Labubu Makers POP MART Hoping Viral Buzz Strikes Twice With Release of ‘Zootopia 2’ Blind Boxes",
-      "url": "https://variety.com/2026/shopping/news/pop-mart-zootopia-2-character-blind-box-keychains-dolls-buy-1236637273",
-      "source": "Variety",
-      "published_utc": "2026-01-21T23:31:51.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Is MLB Parity Possible Without A Salary Cap?",
-      "url": "https://www.mlbtraderumors.com/2026/01/is-mlb-parity-possible-without-a-salary-cap.html",
-      "source": "MLB Trade Rumors",
-      "published_utc": "2026-01-21T23:31:32.000Z",
-      "effects": {
-        "lightsaber": true,
         "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
+        "reasons": []
       },
-      "category": "Sports",
-      "region": "Canada"
+      "category": "Labour",
+      "region": "World"
     },
     {
       "title": "Even Democrats Who Crafted ICE Funding Compromise Are Questioning It",
@@ -584,22 +771,6 @@
       },
       "category": "General",
       "region": "World"
-    },
-    {
-      "title": "Elections Alberta confirms recall petition against Demetrios Nicolaides failed",
-      "url": "https://globalnews.ca/news/11623612/elections-alberta-demetrios-nicolaides-recall-petition-failed",
-      "source": "globalnews.ca",
-      "published_utc": "2026-01-21T23:27:44.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Labour",
-      "region": "Canada"
     },
     {
       "title": "Avalon Emerson & the Charm Announce New Album Written Into Changes",
@@ -641,22 +812,6 @@
       "region": "World"
     },
     {
-      "title": "Bruce Bilson, Emmy-Winning Director on ‘Get Smart’ and ‘Hogan’s Heroes,’ Dies at 97",
-      "url": "https://www.thewrap.com/culture-lifestyle/culture/bruce-bilson-dies-get-smart-director",
-      "source": "TheWrap",
-      "published_utc": "2026-01-21T23:22:30.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "breaker"
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Revealed: Vegas odds that Vances name unborn baby after Trump or Charlie Kirk",
       "url": "https://www.rawstory.com/trump-vance-baby",
       "source": "Raw Story",
@@ -686,52 +841,10 @@
       "region": "Canada"
     },
     {
-      "title": "Sofia Vergara vs. Heidi Klum Who'd You Rather?! Infinite Icons Edition",
-      "url": "https://www.tmz.com/2026/01/21/sofia-vergara-heidi-klum-whod-you-rather",
-      "source": "TMZ.com",
-      "published_utc": "2026-01-21T23:19:40.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Kavanaugh Warns ‘What Goes Around Comes Around’ If Court Lets Trump Have ‘At-Will Removal’ Power",
       "url": "https://www.mediaite.com/politics/kavanaugh-warns-what-goes-around-comes-around-if-court-lets-trump-have-at-will-removal-power",
       "source": "Mediaite",
       "published_utc": "2026-01-21T23:19:07.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "The free agents who could fit John Harbaugh’s first Giants roster — and in-house options that might not",
-      "url": "https://nypost.com/2026/01/21/sports/free-agents-who-could-fit-john-harbaughs-giants-roster-and-who-might-not",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2026-01-21T23:19:05.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "Claudia Jordan, Shanna Moakler Claim Steven Seagal Tried to Give Them Massages",
-      "url": "https://www.tmz.com/2026/01/21/claudia-jordan-shanna-moakler-steven-seagal-back-massages",
-      "source": "TMZ.com",
-      "published_utc": "2026-01-21T23:18:34.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -767,35 +880,6 @@
       "region": "World"
     },
     {
-      "title": "Braden Schneider opens up to The Post about his Rangers struggles as trade deadline looms",
-      "url": "https://nypost.com/2026/01/21/sports/braden-schneider-tells-the-post-about-his-rangers-struggles-as-trade-deadline-looms",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2026-01-21T23:12:42.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "Bo Nix Speaks Out On Ankle Injury, Has Confidence In Jarrett Stidham",
-      "url": "https://www.tmz.com/2026/01/21/bo-nix-breaks-silence-ankle-injury-stidham",
-      "source": "TMZ.com",
-      "published_utc": "2026-01-21T23:12:26.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Shock as leaked doc shows Trump's DHS considers Americans nation's 'main threat'",
       "url": "https://www.rawstory.com/dhs-2674965535",
       "source": "Raw Story",
@@ -822,39 +906,10 @@
       "region": "World"
     },
     {
-      "title": "Bruce Bilson, Director on ‘Get Smart,’ ‘Hogan’s Heroes,’ ‘Barney Miller’ and So Much More, Dies at 97",
-      "url": "https://www.hollywoodreporter.com/tv/tv-news/bruce-bilson-dead-get-smart-hogans-heroes-barney-miller-1236480867",
-      "source": "The Hollywood Reporter",
-      "published_utc": "2026-01-21T23:07:35.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "A massive winter storm will hit large parts of the U.S. through the weekend",
       "url": "https://www.npr.org/2026/01/21/nx-s1-5684342/winter-storm-snow-ice-freezing-temperatures",
       "source": "NPR Topics: Home Page Top Stories",
       "published_utc": "2026-01-21T23:05:52.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "‘Red, White & Royal Wedding’: Uma Thurman, Sarah Shahi Among Returning Cast as Sequel Starts Filming",
-      "url": "https://www.hollywoodreporter.com/movies/movie-news/red-white-and-royal-wedding-sequel-amazon-mgm-1236480484",
-      "source": "The Hollywood Reporter",
-      "published_utc": "2026-01-21T23:05:04.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -904,77 +959,19 @@
       },
       "category": "Labour",
       "region": "World"
-    },
-    {
-      "title": "Trump admin dealt setback in 'outrageous' bid to search Washington Post reporter's devices",
-      "url": "https://www.rawstory.com/hannah-natanson",
-      "source": "Raw Story",
-      "published_utc": "2026-01-21T23:01:24.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Lyme disease patients say care gaps persist in Canada, call for change",
-      "url": "https://globalnews.ca/news/11623135/lyme-disease-patients-care-gaps-canada",
-      "source": "globalnews.ca",
-      "published_utc": "2026-01-21T23:01:17.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "Judge allows Palisades fire debris at Calabasas Landfill",
-      "url": "https://www.dailynews.com/2026/01/21/judge-allows-palisades-fire-debris-at-calabasas-landfill",
-      "source": "Daily News",
-      "published_utc": "2026-01-21T23:00:54.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Kenya Floats Biggest IPO Ever in High-Stakes Bet on Energy Infrastructure",
-      "url": "https://oilprice.com/Energy/Energy-General/Kenya-Floats-Biggest-IPO-Ever-in-High-Stakes-Bet-on-Energy-Infrastructure.html",
-      "source": "Oilprice.com",
-      "published_utc": "2026-01-21T23:00:00.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Energy",
-      "region": "Canada"
     }
   ],
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 814,
-    "dedup_pass1": 797,
+    "collected": 676,
+    "dedup_pass1": 672,
     "dedup_final": 320,
     "slow_domains": [],
     "timeouts": [
-      "japantoday.com",
       "news.communitech.ca",
-      "www.cbc.ca"
+      "www.cbc.ca",
+      "www.gorillavsbear.net"
     ],
     "errors": [
       "alert.weather.gc.ca",
@@ -984,10 +981,7 @@
       "cultmtl.com",
       "financialpost.com",
       "globalnews.ca",
-      "nypost.com",
       "toronto.citynews.ca",
-      "variety.com",
-      "www.boston.com",
       "www.marketwatch.com",
       "www.npr.org",
       "www.wsj.com"
@@ -995,56 +989,56 @@
     "feed_times_sample": [
       {
         "host": "toronto.citynews.ca",
-        "sec": 1.55,
+        "sec": 2.581,
         "kept": 8
       },
       {
         "host": "www.labourstart.org",
-        "sec": 1.405,
-        "kept": 0
-      },
-      {
-        "host": "www.blogto.com",
-        "sec": 0.812,
+        "sec": 1.317,
         "kept": 0
       },
       {
         "host": "globalnews.ca",
-        "sec": 0.438,
+        "sec": 0.534,
         "kept": 10
       },
       {
-        "host": "www.cp24.com",
-        "sec": 0.405,
+        "host": "www.mlb.com",
+        "sec": 0.527,
         "kept": 14
       },
       {
+        "host": "www.cp24.com",
+        "sec": 0.497,
+        "kept": 14
+      },
+      {
+        "host": "www.blogto.com",
+        "sec": 0.411,
+        "kept": 0
+      },
+      {
         "host": "www.mlbtraderumors.com",
-        "sec": 0.369,
+        "sec": 0.321,
         "kept": 14
       },
       {
         "host": "www.bls.gov",
-        "sec": 0.258,
+        "sec": 0.293,
         "kept": 0
       },
       {
-        "host": "www.mlb.com",
-        "sec": 0.252,
-        "kept": 14
-      },
-      {
         "host": "www.federalreserve.gov",
-        "sec": 0.183,
+        "sec": 0.134,
         "kept": 14
       },
       {
         "host": "www.nhl.com",
-        "sec": 0.132,
+        "sec": 0.09,
         "kept": 0
       }
     ],
-    "elapsed_sec": 326.17,
+    "elapsed_sec": 326.75,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1070,7 +1064,7 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 14,
+      "ps_fatal_hits": 7,
       "ps_injury_hits": 0,
       "market_btc_hits": 0,
       "market_index_hits": 0,
@@ -1078,15 +1072,15 @@
       "market_single_hits": 0,
       "agg_penalties": 0,
       "press_penalties": 0,
-      "preferred_bonus": 124,
+      "preferred_bonus": 126,
       "substack_tagged": 0,
       "sports_team_hits": 7,
-      "sports_player_hits": 5,
-      "sports_result_win_hits": 22,
+      "sports_player_hits": 3,
+      "sports_result_win_hits": 20,
       "sports_result_loss_hits": 2,
-      "sports_evening_hits": 20,
+      "sports_evening_hits": 10,
       "sports_playoff_hits": 0,
-      "sports_focus_team_hits": 13,
+      "sports_focus_team_hits": 3,
       "sports_final_hits": 0,
       "sports_final_score_hits": 0,
       "hype_politics": 0,
@@ -1095,17 +1089,17 @@
       "hype_jobs": 0,
       "hype_sports": 0,
       "hype_ceasefire": 0,
-      "reject_hits": 4,
-      "obit_hits": 7,
+      "reject_hits": 1,
+      "obit_hits": 1,
       "major_figure_hits": 4,
       "business_am_hits": 0
     },
     "sanity_stats": {
-      "link_verification_fail": 19,
+      "link_verification_fail": 23,
       "soft_404_drops": 83,
       "max_age_drops": 0,
-      "min_age_drops": 0,
-      "market_sanity_drops": 0,
+      "min_age_drops": 8,
+      "market_sanity_drops": 1,
       "backfill_steps_used": 0
     },
     "require_exact_count": 69,
