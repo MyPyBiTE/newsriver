@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"What’s Next In The Abortion Drug Case",
-      "display":"What’s Next In The Abortion Drug Case",
-      "url":"https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
+      "text":"Red Wings top Maple Leafs in overtime",
+      "display":"Red Wings top Maple Leafs in overtime",
+      "url":"https://globalnews.ca/news/11623966/red-wings-top-maple-leafs-in-overtime",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Marineland now seeking permits to ship remaining belugas to U.S.: sources",
+      "display":"Marineland now seeking permits to ship remaining belugas to U.S.: sources",
+      "url":"https://toronto.citynews.ca/2026/01/21/marineland-now-seeking-permits-to-ship-remaining-belugas-to-u-s-sources",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Martin Short Recounts Almost Ruining Selena Gomez and Benny Blanco’s Wedding",
-      "display":"Martin Short Recounts Almost Ruining Selena Gomez and Benny Blanco’s Wedding",
-      "url":"https://www.rollingstone.com/tv-movies/tv-movie-news/martin-short-selena-gomez-benny-blanco-wedding-kimmel-1235503242",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"TEPCO to shut down just-restarted reactor at Niigata plant after alarm goes off",
-      "display":"TEPCO to shut down just-restarted reactor at Niigata plant after alarm goes off",
-      "url":"https://japantoday.com/category/national/work-suspended-at-just-restarted-nuclear-plant-as-alarm-goes-off",
+      "text":"Wind and Solar Overtake Fossil Fuels in Europe’s Power Mix for the First Time",
+      "display":"Wind and Solar Overtake Fossil Fuels in Europe’s Power Mix for the First Time",
+      "url":"https://oilprice.com/Latest-Energy-News/World-News/Wind-and-Solar-Overtake-Fossil-Fuels-in-Europes-Power-Mix-for-the-First-Time.html",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-01-22T08:20:10Z"
+  "generated_utc":"2026-01-22T08:55:32Z"
 }
