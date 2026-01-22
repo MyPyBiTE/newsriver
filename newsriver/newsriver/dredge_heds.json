@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Red Wings top Maple Leafs in overtime",
-      "display":"Red Wings top Maple Leafs in overtime",
-      "url":"https://globalnews.ca/news/11623966/red-wings-top-maple-leafs-in-overtime",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
       "display":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
       "url":"https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
@@ -21,9 +11,19 @@
       }
     },
     {
-      "text":"Islanders end long road trip with a dud in listless loss to Kraken",
-      "display":"Islanders end long road trip with a dud in listless loss to Kraken",
-      "url":"https://nypost.com/2026/01/22/sports/islanders-end-long-road-trip-with-a-dud-in-listless-loss-to-kraken",
+      "text":"Mexico’s president says it was ‘sovereign decision’ to send cartel members to US",
+      "display":"Mexico’s president says it was ‘sovereign decision’ to send cartel members to US",
+      "url":"https://nypost.com/2026/01/22/world-news/mexico-president-sheinbaum-made-sovereign-decision-to-send-37-cartel-members-to-us-not-trump-pressure",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Can The President Provide Notice on Truth Social?",
+      "display":"Can The President Provide Notice on Truth Social?",
+      "url":"https://reason.com/volokh/2026/01/22/can-the-president-provide-notice-on-truth-social",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-01-22T06:21:38Z"
+  "generated_utc":"2026-01-22T06:57:40Z"
 }
