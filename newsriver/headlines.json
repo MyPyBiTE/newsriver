@@ -1,19 +1,54 @@
 {
-  "generated_utc": "2026-01-23T22:46:26.152Z",
-  "itemset_hash": "5d2a3a8a6741906a",
+  "generated_utc": "2026-01-23T22:59:03.573Z",
+  "itemset_hash": "18b4e1b8f0c29432",
   "count": 69,
   "items": [
     {
-      "title": "What does the US withdrawal from the WHO mean for global health?",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/1/23/what-does-the-us-withdrawal-from-the-who-mean-for-global-health?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-01-23T22:30:28.000Z",
+      "title": "Montreal and Quebec brace for extreme cold over the weekend",
+      "url": "https://globalnews.ca/news/11635831/montreal-quebec-extreme-cold",
+      "source": "globalnews.ca",
+      "published_utc": "2026-01-23T22:51:48.000Z",
       "effects": {
-        "lightsaber": false,
+        "lightsaber": true,
         "glitch": false,
-        "reasons": []
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
       },
       "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "Simon Jolin-Barrette bows out of CAQ leadership race; Christine Fréchette to run",
+      "url": "https://globalnews.ca/news/11635816/jolin-barrette-bows-out-caq-race-frechette",
+      "source": "globalnews.ca",
+      "published_utc": "2026-01-23T22:44:55.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "SEC dismisses civil action against Gemini with prejudice",
+      "url": "https://cointelegraph.com/news/sec-dismisses-civil-action-against-gemini-trust-with-prejudice",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2026-01-23T22:43:18.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Business",
       "region": "World"
     },
     {
@@ -299,12 +334,12 @@
       "source": "MobileSyrup",
       "published_utc": "2026-01-23T21:36:36.000Z",
       "effects": {
-        "lightsaber": true,
-        "glitch": false,
+        "lightsaber": false,
+        "glitch": true,
         "reasons": [
-          "score≥2.6"
+          "score≥2.1"
         ],
-        "style": "lightsaber"
+        "style": "glitch"
       },
       "category": "Tech",
       "region": "Canada"
@@ -339,7 +374,7 @@
       "region": "World"
     },
     {
-      "title": "Trump’s comments ‘false,’ Canadians made ‘great sacrifices’ in Afghanistan: Miller",
+      "title": "Ministers defend ‘great sacrifices’ after Trump downplays NATO role in Afghanistan",
       "url": "https://toronto.citynews.ca/2026/01/23/trumps-comments-false-canadians-made-great-sacrifices-in-afghanistan-miller",
       "source": "CityNews Toronto",
       "published_utc": "2026-01-23T21:33:20.000Z",
@@ -558,22 +593,6 @@
         "style": "glitch"
       },
       "category": "Culture",
-      "region": "Canada"
-    },
-    {
-      "title": "Rower rescued after ‘rogue waves’ capsize boat in middle of Atlantic",
-      "url": "https://globalnews.ca/news/11635053/benoit-bourguet-rower-rescued-worlds-toughest-race-capsize-coast-guard",
-      "source": "globalnews.ca",
-      "published_utc": "2026-01-23T20:44:43.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "General",
       "region": "Canada"
     },
     {
@@ -887,6 +906,32 @@
       "region": "Canada"
     },
     {
+      "title": "Arizona: Venezuelan Migrant Accused of Claiming Maricopa as 'His Territory' and Threatening Neighbors",
+      "url": "https://www.breitbart.com/crime/2026/01/23/arizona-venezuelan-migrant-accused-of-claiming-maricopa-as-his-territory-and-threatening-neighbors",
+      "source": "Breitbart News",
+      "published_utc": "2026-01-23T19:54:55.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Park Service Removes Slavery Exhibit at 'First White House' in Philadelphia",
+      "url": "https://www.breitbart.com/social-justice/2026/01/23/park-service-removes-slavery-exhibit-at-first-white-house-in-philadelphia",
+      "source": "Breitbart News",
+      "published_utc": "2026-01-23T19:51:45.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
       "title": "Creditors sue Telesat claiming satellite operator illegally moved assets beyond their reach",
       "url": "https://betakit.com/creditors-sue-telesat-claiming-satellite-operator-illegally-moved-assets-beyond-their-reach",
       "source": "BetaKit",
@@ -969,62 +1014,24 @@
       },
       "category": "Culture",
       "region": "World"
-    },
-    {
-      "title": "PawPaw Rod – “The Get Back”",
-      "url": "https://stereogum.com/2486483/pawpaw-rod-the-get-back/music",
-      "source": "Stereogum",
-      "published_utc": "2026-01-23T19:34:39.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Venezuela’s Heavy Oil Gets a Lifeline from US Naphtha",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Venezuelas-Heavy-Oil-Gets-a-Lifeline-from-US-Naphtha.html",
-      "source": "Oilprice.com",
-      "published_utc": "2026-01-23T19:30:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Energy",
-      "region": "Canada"
-    },
-    {
-      "title": "Will the AI bubble burst or boom?",
-      "url": "https://www.aljazeera.com/video/the-stream/2026/1/23/will-the-ai-bubble-burst-or-boom?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-01-23T19:30:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
     }
   ],
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 452,
-    "dedup_pass1": 442,
+    "collected": 511,
+    "dedup_pass1": 501,
     "dedup_final": 320,
     "slow_domains": [],
     "timeouts": [
       "news.communitech.ca",
-      "www.cbc.ca"
+      "weather.gc.ca",
+      "www.cbc.ca",
+      "www.publicsafety.gc.ca",
+      "www150.statcan.gc.ca"
     ],
     "errors": [
+      "alert.weather.gc.ca",
       "feeds.reuters.com"
     ],
     "caps_hit": [
@@ -1035,57 +1042,57 @@
     ],
     "feed_times_sample": [
       {
-        "host": "www.cp24.com",
-        "sec": 2.93,
-        "kept": 14
-      },
-      {
         "host": "www.labourstart.org",
-        "sec": 1.814,
+        "sec": 1.338,
         "kept": 0
       },
       {
         "host": "toronto.citynews.ca",
-        "sec": 0.944,
+        "sec": 0.937,
         "kept": 8
       },
       {
-        "host": "www.mlb.com",
-        "sec": 0.813,
-        "kept": 14
-      },
-      {
         "host": "globalnews.ca",
-        "sec": 0.743,
+        "sec": 0.684,
         "kept": 10
       },
       {
-        "host": "www.blogto.com",
-        "sec": 0.66,
-        "kept": 0
+        "host": "www.mlb.com",
+        "sec": 0.464,
+        "kept": 14
+      },
+      {
+        "host": "www.cp24.com",
+        "sec": 0.407,
+        "kept": 14
       },
       {
         "host": "www.bls.gov",
-        "sec": 0.348,
-        "kept": 0
-      },
-      {
-        "host": "www.nhl.com",
-        "sec": 0.321,
+        "sec": 0.399,
         "kept": 0
       },
       {
         "host": "www.mlbtraderumors.com",
-        "sec": 0.288,
+        "sec": 0.344,
         "kept": 14
       },
       {
+        "host": "www.blogto.com",
+        "sec": 0.34,
+        "kept": 0
+      },
+      {
+        "host": "www.nhl.com",
+        "sec": 0.231,
+        "kept": 0
+      },
+      {
         "host": "www.federalreserve.gov",
-        "sec": 0.166,
+        "sec": 0.146,
         "kept": 14
       }
     ],
-    "elapsed_sec": 354.75,
+    "elapsed_sec": 317.31,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1111,7 +1118,7 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 4,
+      "ps_fatal_hits": 6,
       "ps_injury_hits": 0,
       "market_btc_hits": 0,
       "market_index_hits": 0,
@@ -1119,11 +1126,11 @@
       "market_single_hits": 0,
       "agg_penalties": 0,
       "press_penalties": 0,
-      "preferred_bonus": 122,
+      "preferred_bonus": 123,
       "substack_tagged": 0,
       "sports_team_hits": 5,
       "sports_player_hits": 0,
-      "sports_result_win_hits": 12,
+      "sports_result_win_hits": 15,
       "sports_result_loss_hits": 2,
       "sports_evening_hits": 0,
       "sports_playoff_hits": 0,
@@ -1137,16 +1144,16 @@
       "hype_sports": 0,
       "hype_ceasefire": 0,
       "reject_hits": 0,
-      "obit_hits": 3,
+      "obit_hits": 4,
       "major_figure_hits": 0,
       "business_am_hits": 0
     },
     "sanity_stats": {
-      "link_verification_fail": 13,
+      "link_verification_fail": 10,
       "soft_404_drops": 30,
       "max_age_drops": 0,
-      "min_age_drops": 0,
-      "market_sanity_drops": 4,
+      "min_age_drops": 8,
+      "market_sanity_drops": 3,
       "backfill_steps_used": 0
     },
     "require_exact_count": 69,
