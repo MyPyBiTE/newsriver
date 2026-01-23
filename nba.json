@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-01-23T05:00:49.281974Z",
+  "generated_utc": "2026-01-23T05:41:13.680961Z",
   "dates": [
     {
       "games": [
@@ -19,39 +19,13 @@
               "team": {
                 "abbreviation": "LAL"
               },
-              "score": 83
+              "score": 104
             },
             "home": {
               "team": {
                 "abbreviation": "LAC"
               },
-              "score": 93
-            }
-          }
-        },
-        {
-          "gamePk": "401810489",
-          "gameDate": "2026-01-23T03:00Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "MIA"
-              },
-              "score": 95
-            },
-            "home": {
-              "team": {
-                "abbreviation": "POR"
-              },
-              "score": 108
+              "score": 112
             }
           }
         },
@@ -260,6 +234,32 @@
                 "abbreviation": "POR"
               },
               "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401810489",
+          "gameDate": "2026-01-23T03:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "MIA"
+              },
+              "score": 110
+            },
+            "home": {
+              "team": {
+                "abbreviation": "POR"
+              },
+              "score": 127
             }
           }
         },
