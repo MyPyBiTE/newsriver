@@ -1,60 +1,8 @@
 {
-  "generated_utc": "2026-01-23T03:23:08.388623Z",
+  "generated_utc": "2026-01-23T04:28:12.148681Z",
   "dates": [
     {
       "games": [
-        {
-          "gamePk": "401810486",
-          "gameDate": "2026-01-23T01:00Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "CHI"
-              },
-              "score": 116
-            },
-            "home": {
-              "team": {
-                "abbreviation": "MIN"
-              },
-              "score": 115
-            }
-          }
-        },
-        {
-          "gamePk": "401810487",
-          "gameDate": "2026-01-23T02:00Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "2nd",
-            "currentQuarter": "2nd"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "SAS"
-              },
-              "score": 65
-            },
-            "home": {
-              "team": {
-                "abbreviation": "UTAH"
-              },
-              "score": 53
-            }
-          }
-        },
         {
           "gamePk": "401810488",
           "gameDate": "2026-01-23T03:00Z",
@@ -63,21 +11,21 @@
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "1st",
-            "currentQuarter": "1st"
+            "currentPeriodOrdinal": "3rd",
+            "currentQuarter": "3rd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "LAL"
               },
-              "score": 12
+              "score": 47
             },
             "home": {
               "team": {
                 "abbreviation": "LAC"
               },
-              "score": 12
+              "score": 64
             }
           }
         },
@@ -89,21 +37,73 @@
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "1st",
-            "currentQuarter": "1st"
+            "currentPeriodOrdinal": "3rd",
+            "currentQuarter": "3rd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "MIA"
               },
-              "score": 17
+              "score": 70
             },
             "home": {
               "team": {
                 "abbreviation": "POR"
               },
-              "score": 14
+              "score": 75
+            }
+          }
+        },
+        {
+          "gamePk": "401810487",
+          "gameDate": "2026-01-23T02:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "SAS"
+              },
+              "score": 126
+            },
+            "home": {
+              "team": {
+                "abbreviation": "UTAH"
+              },
+              "score": 109
+            }
+          }
+        },
+        {
+          "gamePk": "401810486",
+          "gameDate": "2026-01-23T01:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "CHI"
+              },
+              "score": 120
+            },
+            "home": {
+              "team": {
+                "abbreviation": "MIN"
+              },
+              "score": 115
             }
           }
         },
