@@ -1,8 +1,95 @@
 {
-  "generated_utc": "2026-01-23T19:49:19.287Z",
-  "itemset_hash": "6a27916239628fa2",
+  "generated_utc": "2026-01-23T19:58:07.200Z",
+  "itemset_hash": "2820f8adfa081f38",
   "count": 69,
   "items": [
+    {
+      "title": "The Most Orwellian CEO At Davos Claims His Company Totally Not Orwellian",
+      "url": "https://dailycaller.com/2026/01/23/alex-karp-palantir-ai-davos-interview-civil-liberties-censorship",
+      "source": "The Daily Caller",
+      "published_utc": "2026-01-23T19:50:38.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "ICE agents out themselves on LinkedIn as Kristi Noem threatens prosecutions for doxing",
+      "url": "https://www.rawstory.com/ice-agents-noem",
+      "source": "Raw Story",
+      "published_utc": "2026-01-23T19:50:18.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Mike Johnson Claims He Was Nearly Aborted By Teen Parents While Addressing March For Life Crowd",
+      "url": "https://www.mediaite.com/media/news/mike-johnson-claims-he-was-nearly-aborted-by-teen-parents-while-addressing-march-for-life-crowd",
+      "source": "Mediaite",
+      "published_utc": "2026-01-23T19:50:16.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Creditors sue Telesat claiming satellite operator illegally moved assets beyond their reach",
+      "url": "https://betakit.com/creditors-sue-telesat-claiming-satellite-operator-illegally-moved-assets-beyond-their-reach",
+      "source": "BetaKit",
+      "published_utc": "2026-01-23T19:49:53.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "Canada Computers customers say retailer’s website compromised their credit cards",
+      "url": "https://mobilesyrup.com/2026/01/23/canada-computers-website-malware-credit-cards-stolen-report",
+      "source": "MobileSyrup",
+      "published_utc": "2026-01-23T19:49:33.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Tech",
+      "region": "Canada"
+    },
+    {
+      "title": "European leader hits Trump with biting response over snide remark on troops in Afghanistan",
+      "url": "https://www.rawstory.com/donald-tusk",
+      "source": "Raw Story",
+      "published_utc": "2026-01-23T19:43:43.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
     {
       "title": "‘The Other Place’ Playwright & Director Alexander Zeldin Signs With CAA",
       "url": "https://deadline.com/2026/01/alexander-zeldin-caa-1236694654",
@@ -40,6 +127,19 @@
         "reasons": []
       },
       "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "CNN’s Dana Bash Calls BS on Trump Deportation Forces ‘Gaslighting’ Amid Massive Public Outrage",
+      "url": "https://www.mediaite.com/media/news/cnns-dana-bash-calls-bs-on-trump-deportation-forces-gaslighting-amid-massive-public-outrage",
+      "source": "Mediaite",
+      "published_utc": "2026-01-23T19:32:10.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
       "region": "World"
     },
     {
@@ -108,6 +208,19 @@
       "url": "https://www.bbc.com/news/articles/c78ejd0xmp0o?at_campaign=rss&at_medium=RSS",
       "source": "BBC News",
       "published_utc": "2026-01-23T19:25:27.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "JD Vance warns of 'baby skeletons' in brothels during anti-abortion speech",
+      "url": "https://www.rawstory.com/vance-baby-skeletons-brothels",
+      "source": "Raw Story",
+      "published_utc": "2026-01-23T19:24:08.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -214,6 +327,19 @@
       "region": "World"
     },
     {
+      "title": "Bill O’Reilly Gives Major Health Update From Medical Facility",
+      "url": "https://dailycaller.com/2026/01/23/bill-oreilly-health-update-medical-facility",
+      "source": "The Daily Caller",
+      "published_utc": "2026-01-23T19:20:04.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
       "title": "Deck co-founders call non-compete lawsuit from former employer National Bank “frivolous”",
       "url": "https://betakit.com/deck-co-founders-call-non-compete-lawsuit-from-former-employer-national-bank-frivolous",
       "source": "BetaKit",
@@ -243,6 +369,48 @@
       "region": "World"
     },
     {
+      "title": "Even Democratic Rep. Linda Sanchez Is Frustrated With Obamacare",
+      "url": "https://dailycaller.com/2026/01/23/linda-sanchez-jason-smith-ways-and-means-obamacare-affordable-care-act-gail-boudreaux",
+      "source": "The Daily Caller",
+      "published_utc": "2026-01-23T19:18:30.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Trump hypes 'unforgettable' Melania film by director featured in Epstein files",
+      "url": "https://www.rawstory.com/melania",
+      "source": "Raw Story",
+      "published_utc": "2026-01-23T19:18:13.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "‘Appalling’: UK Prime Minister Keir Starmer Slams Trump’s Claims About NATO Soldiers in Afghanistan",
+      "url": "https://www.mediaite.com/media/news/appalling-uk-prime-minister-keir-starmer-slams-trumps-claims-about-nato-soldiers-in-afghanistan",
+      "source": "Mediaite",
+      "published_utc": "2026-01-23T19:16:52.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
       "title": "Bessent says an independent Alberta would be ‘natural partner’ for U.S.",
       "url": "https://globalnews.ca/news/11634766/alberta-separatist-movement-bessent-trump-us",
       "source": "globalnews.ca",
@@ -257,6 +425,19 @@
       },
       "category": "Labour",
       "region": "Canada"
+    },
+    {
+      "title": "America’s Reading Crisis That No One Wants to Talk About",
+      "url": "https://www.motherjones.com/politics/2026/01/americas-reading-crisis-that-no-one-wants-to-talk-about",
+      "source": "Mother Jones",
+      "published_utc": "2026-01-23T19:14:53.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
     },
     {
       "title": "Minneapolis businesses close doors for economic blackout protesting ICE",
@@ -285,6 +466,19 @@
       "region": "World"
     },
     {
+      "title": "Howard Lutnick Rips Globalist Elites To Their Faces For Pillaging American Dream",
+      "url": "https://dailycaller.com/2026/01/23/howard-lutnick-rips-globalist-elites-to-their-faces-for-pillaging-american-dream",
+      "source": "The Daily Caller",
+      "published_utc": "2026-01-23T19:14:01.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
       "title": "Anonymous Content Taps Darren Walker As President And CEO",
       "url": "https://deadline.com/2026/01/anonymous-content-darren-walker-1236694697",
       "source": "Deadline",
@@ -295,6 +489,19 @@
         "reasons": []
       },
       "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Vermont Town Threatens Farmer With Thousands In Fines Every Day Over Maple Tree Dispute",
+      "url": "https://dailycaller.com/2026/01/23/vermont-calais-threatens-farmer-fines-maple-tree-dispute",
+      "source": "The Daily Caller",
+      "published_utc": "2026-01-23T19:12:13.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
       "region": "World"
     },
     {
@@ -311,6 +518,19 @@
         "style": "glitch"
       },
       "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Gen-Z Trump Voter Focus Group Turns on Vance: ‘Time For Someone New’",
+      "url": "https://www.mediaite.com/media/news/gen-z-trump-voter-focus-group-turns-on-vance-time-for-someone-new",
+      "source": "Mediaite",
+      "published_utc": "2026-01-23T19:11:58.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
       "region": "World"
     },
     {
@@ -337,6 +557,35 @@
         "reasons": []
       },
       "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "'Eleven years of this': Swing-state Republican shrugs off Trump’s Davos 'pandemonium'",
+      "url": "https://www.rawstory.com/raw-investigates/trump-davos-2675009738",
+      "source": "Raw Story",
+      "published_utc": "2026-01-23T19:08:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "JD Vance Addresses ‘Elephant In The Room’ At March For Life",
+      "url": "https://dailycaller.com/2026/01/23/vice-president-jd-vance-addresses-elephant-in-the-room-at-march-for-life",
+      "source": "The Daily Caller",
+      "published_utc": "2026-01-23T19:04:57.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
       "region": "World"
     },
     {
@@ -367,6 +616,19 @@
       },
       "category": "General",
       "region": "Canada"
+    },
+    {
+      "title": "CNN’s Harry Enten Says Even Democrats Hate Their Own Party",
+      "url": "https://dailycaller.com/2026/01/23/cnns-harry-enten-says-even-democrats-hate-their-own-party",
+      "source": "The Daily Caller",
+      "published_utc": "2026-01-23T19:00:47.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
     },
     {
       "title": "Erykah Badu Releases Mama’s Gun 25th Anniversary Reissue",
@@ -404,14 +666,53 @@
       "published_utc": "2026-01-23T19:00:00.000Z",
       "effects": {
         "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Jared Kushner’s Gaza ‘Master Plan’ Widely Mocked Amid Glaring Ethical Concerns",
+      "url": "https://www.mediaite.com/media/news/jared-kushners-gaza-master-plan-widely-mocked-amid-glaring-ethical-concerns",
+      "source": "Mediaite",
+      "published_utc": "2026-01-23T18:59:43.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Arizona Governor Moves to Rein in Groundwater-Guzzling Saudi Megafarms",
+      "url": "https://www.motherjones.com/politics/2026/01/arizona-governor-katie-hobbs-groundwater-saudi-alfalfa-exports-farming-almari-vicksburg-la-paz-county-fondomonte-lawsuit",
+      "source": "Mother Jones",
+      "published_utc": "2026-01-23T18:57:57.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Trump's change in travel plans exposes White House fears he's 'in trouble': report",
+      "url": "https://www.rawstory.com/trump-in-trouble-2675010551",
+      "source": "Raw Story",
+      "published_utc": "2026-01-23T18:57:36.000Z",
+      "effects": {
+        "lightsaber": false,
         "glitch": true,
         "reasons": [
           "score≥2.1"
         ],
         "style": "glitch"
       },
-      "category": "Business",
-      "region": "World"
+      "category": "General",
+      "region": "Canada"
     },
     {
       "title": "The year’s first Nintendo Direct focuses on The Super Mario Galaxy Movie",
@@ -456,6 +757,32 @@
       "region": "World"
     },
     {
+      "title": "Authorities Put CCP-Tied Trailer Park Next To Top Secret US Bomber Base On Notice",
+      "url": "https://dailycaller.com/2026/01/23/missouri-whiteman-afb-knob-noster-trailer-park-on-notice",
+      "source": "The Daily Caller",
+      "published_utc": "2026-01-23T18:56:02.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Ancient Wisdom: Why I’m Dancing at 80",
+      "url": "https://www.thefp.com/p/ancient-wisdom-why-im-dancing-at",
+      "source": "The Free Press",
+      "published_utc": "2026-01-23T18:55:28.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
       "title": "Calgary man, accused associate of alleged Canadian drug lord appears in court",
       "url": "https://globalnews.ca/news/11634866/calgary-man-accused-associate-of-canadian-drug-lord-ryan-wedding-appears-in-court",
       "source": "globalnews.ca",
@@ -491,13 +818,36 @@
       "published_utc": "2026-01-23T18:53:04.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Director Kash Patel Fires FBI Agents Linked to Lawfare Against Trump",
+      "url": "https://www.breitbart.com/politics/2026/01/23/director-kash-patel-fires-fbi-agents-linked-lawfare-against-trump",
+      "source": "Breitbart News",
+      "published_utc": "2026-01-23T18:51:50.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Cop-Assisted Extortion of DWI Arrestees in New Mexico Included Getting Them Drunk",
+      "url": "https://reason.com/2026/01/23/cop-assisted-extortion-of-dwi-arrestees-in-new-mexico-included-getting-them-drunk",
+      "source": "Reason.com",
+      "published_utc": "2026-01-23T18:50:18.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
       "region": "World"
     },
     {
@@ -505,6 +855,32 @@
       "url": "https://www.bbc.com/news/articles/cj0nd8z1z59o?at_campaign=rss&at_medium=RSS",
       "source": "BBC News",
       "published_utc": "2026-01-23T18:49:53.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Rachel Maddow Gloats Jack Smith Hearing Backfired on Trump: ‘I’m Guessing They Did Not Expect’ Flood Of Evidence",
+      "url": "https://www.mediaite.com/media/tv/rachel-maddow-gloats-jack-smith-hearing-backfired-on-trump-im-guessing-they-did-not-expect-flood-of-evidence",
+      "source": "Mediaite",
+      "published_utc": "2026-01-23T18:48:29.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Free Speech at the Higher End of the Org Chart: Thoughts on the Arkansas Dean Controversy",
+      "url": "https://reason.com/volokh/2026/01/23/free-speech-at-the-higher-end-of-the-org-chart-thoughts-on-the-arkansas-dean-controversy",
+      "source": "Reason.com",
+      "published_utc": "2026-01-23T18:45:50.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -524,6 +900,19 @@
         "reasons": []
       },
       "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Harmeet Dhillon Tells Megyn Kelly DOJ Will Pursue Don Lemon Charges To ‘Ends Of The Earth’ After Judge Balks",
+      "url": "https://dailycaller.com/2026/01/23/harmeet-dhillon-megyn-kelly-doj-pursue-don-lemon-charges-ends-earth",
+      "source": "The Daily Caller",
+      "published_utc": "2026-01-23T18:38:21.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
       "region": "World"
     },
     {
@@ -570,504 +959,84 @@
       },
       "category": "General",
       "region": "World"
-    },
-    {
-      "title": "Death Cab for Cutie Announce Tour and Anti- Records Signing",
-      "url": "https://pitchfork.com/news/death-cab-for-cutie-announce-tour-sign-to-anti-records",
-      "source": "RSS: News",
-      "published_utc": "2026-01-23T18:31:45.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Toronto may cancel new community centres, libraries if development funding dries up",
-      "url": "https://globalnews.ca/news/11634767/toronto-development-charges-funding-cancellations",
-      "source": ": Toronto",
-      "published_utc": "2026-01-23T18:31:00.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Local",
-      "region": "Canada"
-    },
-    {
-      "title": "Northwest Europe Doubles Down on Offshore Wind despite Trump’s Jab",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Northwest-Europe-Doubles-Down-on-Offshore-Wind-despite-Trumps-Jab.html",
-      "source": "Oilprice.com",
-      "published_utc": "2026-01-23T18:30:00.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Energy",
-      "region": "Canada"
-    },
-    {
-      "title": "American aquariums say they are working to provide future for Marineland’s belugas",
-      "url": "https://globalnews.ca/news/11634893/marineland-whales-american-aquariums",
-      "source": ": Toronto",
-      "published_utc": "2026-01-23T18:28:43.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Local",
-      "region": "Canada"
-    },
-    {
-      "title": "‘The Fall And Rise Of Reggie Dinkins’ Scores 5.8M Viewers In Special Post-NFL Premiere On NBC",
-      "url": "https://deadline.com/2026/01/the-fall-and-rise-of-reggie-dinkins-premiere-ratings-1236694536",
-      "source": "Deadline",
-      "published_utc": "2026-01-23T18:24:49.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Culture",
-      "region": "Canada"
-    },
-    {
-      "title": "fakemink, Skepta, Pa Salieu and celebrate PUMA’s iconic Suede at PFW",
-      "url": "https://www.dazeddigital.com/fashion/article/69456/1/puma-suede-house-paris-fashion-week-mens-fakemink-skepta",
-      "source": "Dazed",
-      "published_utc": "2026-01-23T18:24:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Junya Watanabe Pulled Stüssy Into a Fin de Siècle Fantasy",
-      "url": "https://www.highsnobiety.com/p/junya-watanabe-stussy-2026",
-      "source": "Highsnobiety",
-      "published_utc": "2026-01-23T18:22:02.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Spanish prosecutors drop sexual assault complaint against Julio Iglesias",
-      "url": "https://www.theguardian.com/world/2026/jan/23/spanish-prosecutors-drop-julio-iglesias-complaint",
-      "source": "World news | The Guardian",
-      "published_utc": "2026-01-23T18:20:46.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Colin Jost Returns To ‘Pop Culture Jeopardy!’ After Shock Move From Amazon To Netflix",
-      "url": "https://deadline.com/2026/01/colin-jost-pop-culture-jeopardy-netflix-1236694644",
-      "source": "Deadline",
-      "published_utc": "2026-01-23T18:19:06.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Jade Hilton shares new single, “Carolina Blue”",
-      "url": "https://canadianbeats.ca/2026/01/23/jade-hilton-shares-new-single-carolina-blue",
-      "source": "Canadian Beats Media",
-      "published_utc": "2026-01-23T18:17:52.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Culture",
-      "region": "Canada"
-    },
-    {
-      "title": "U.S. Oil Drillers Add One Rig as Winter Weather Sets In",
-      "url": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Drillers-Add-One-Rig-as-Winter-Weather-Sets-InR.html",
-      "source": "Oilprice.com",
-      "published_utc": "2026-01-23T18:17:00.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Energy",
-      "region": "Canada"
-    },
-    {
-      "title": "US drillers add oil and gas rigs for first time in three weeks, Baker Hughes says",
-      "url": "https://boereport.com/2026/01/23/us-drillers-add-oil-and-gas-rigs-for-first-time-in-three-weeks-baker-hughes-says-2",
-      "source": "BOE Report",
-      "published_utc": "2026-01-23T18:13:59.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Labour",
-      "region": "Canada"
-    },
-    {
-      "title": "Silver price hits $100 milestone, gold price nears $5,000",
-      "url": "https://www.mining.com/silver-price-hits-100-milestone-gold-price-nears-5000",
-      "source": "MINING.COM",
-      "published_utc": "2026-01-23T18:10:26.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Energy",
-      "region": "Canada"
-    },
-    {
-      "title": "Matt Helders on Arctic Monkeys coming together for ‘Opening Night’: “We had the itch to do something together again”",
-      "url": "https://www.nme.com/news/music/arctic-monkeys-matt-helders-opening-night-interview-comeback-new-music-war-child-3925158",
-      "source": "NME",
-      "published_utc": "2026-01-23T18:07:35.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Moto G Power (2026) Review: Almost perfect for the price",
-      "url": "https://mobilesyrup.com/2026/01/23/moto-g-power-2026-review-almost-perfect-for-the-price",
-      "source": "MobileSyrup",
-      "published_utc": "2026-01-23T18:05:25.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Tech",
-      "region": "Canada"
-    },
-    {
-      "title": "Death Cab For Cutie Return To Indie Roots After 21 Years On Atlantic",
-      "url": "https://stereogum.com/2486412/death-cab-for-cutie-return-to-indie-roots-after-21-years-on-atlantic/news",
-      "source": "Stereogum",
-      "published_utc": "2026-01-23T18:00:44.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Death Cab for Cutie Announce 2026 Summer Tour, Sign with ANTI- Records",
-      "url": "https://consequence.net/2026/01/death-cab-for-cutie-2026-summer-tour",
-      "source": "Consequence",
-      "published_utc": "2026-01-23T18:00:39.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Government to bring forward online harms bill, AI minister says",
-      "url": "https://toronto.citynews.ca/2026/01/23/government-to-bring-forward-online-harms-bill-ai-minister-says",
-      "source": "CityNews Toronto",
-      "published_utc": "2026-01-23T18:00:35.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Local",
-      "region": "Canada"
-    },
-    {
-      "title": "Stream On This Week: A Demented Joker Homage, a Great Sundance Indie, and a Loving Mel Brooks Tribute",
-      "url": "https://consequence.net/2026/01/stream-on-peoples-joker-twinless-mel-brooks",
-      "source": "Consequence",
-      "published_utc": "2026-01-23T18:00:23.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "CBS Reveals ‘America’s Culinary Cup’ Judges",
-      "url": "https://deadline.com/2026/01/cbs-americas-culinary-cup-chef-judges-1236694535",
-      "source": "Deadline",
-      "published_utc": "2026-01-23T18:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Holder – “Inconsolable” & “Ruin The Best Of Me”",
-      "url": "https://stereogum.com/2486478/holder-inconsolable-ruin-the-best-of-me/music",
-      "source": "Stereogum",
-      "published_utc": "2026-01-23T17:58:55.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Julio Iglesias sex assault investigation dropped by Spanish prosecutors",
-      "url": "https://www.bbc.com/news/articles/c9vx0p3gl71o?at_campaign=rss&at_medium=RSS",
-      "source": "BBC News",
-      "published_utc": "2026-01-23T17:53:53.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "EMM GRYNER – “Touch The Sky” (Single Reveiw)",
-      "url": "https://canadianbeats.ca/2026/01/23/emm-gryner-touch-the-sky-single-reveiw",
-      "source": "Canadian Beats Media",
-      "published_utc": "2026-01-23T17:53:09.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Culture",
-      "region": "Canada"
-    },
-    {
-      "title": "One-year-old twin girls missing after migrant crossing to Italy: NGO",
-      "url": "https://www.aljazeera.com/news/2026/1/23/one-year-old-twin-girls-missing-after-migrant-crossing-to-italy-ngo?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-01-23T17:51:32.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Swiss court orders release on bail of bar owner in probe of fatal New Year’s fire",
-      "url": "https://toronto.citynews.ca/2026/01/23/swiss-court-orders-release-on-bail-of-bar-owner-in-probe-of-fatal-new-years-fire",
-      "source": "CityNews Toronto",
-      "published_utc": "2026-01-23T17:50:44.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "breaker"
-      },
-      "category": "Local",
-      "region": "Canada"
-    },
-    {
-      "title": "Former UK local politician pleads guilty to drugging, raping ex-wife",
-      "url": "https://www.aljazeera.com/news/2026/1/23/former-uk-local-politician-pleads-guilty-to-drugging-raping-ex-wife?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-01-23T17:49:46.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Francis Buchholz Dies: The Scorpions’ Longtime Bassist Who Played On Band’s Biggest Hits Was 71",
-      "url": "https://deadline.com/2026/01/francis-buchholz-dead-scorpions-bassist-1236694517",
-      "source": "Deadline",
-      "published_utc": "2026-01-23T17:47:53.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Samad Taylor Elects Free Agency",
-      "url": "https://www.mlbtraderumors.com/2026/01/samad-taylor-elects-free-agency.html",
-      "source": "MLB Trade Rumors",
-      "published_utc": "2026-01-23T17:42:00.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "Projects Aim to Improve Efficiency of Operations at YVR with New Cleantech",
-      "url": "https://techcouver.com/2026/01/23/projects-improve-efficiency-operations-yvr-cleantech",
-      "source": "Techcouver.com",
-      "published_utc": "2026-01-23T17:37:28.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Tech",
-      "region": "Canada"
     }
   ],
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 439,
-    "dedup_pass1": 428,
+    "collected": 687,
+    "dedup_pass1": 674,
     "dedup_final": 320,
     "slow_domains": [],
     "timeouts": [
       "news.communitech.ca",
-      "urbantoronto.ca",
       "www.cbc.ca"
     ],
     "errors": [
+      "alert.weather.gc.ca",
       "feeds.reuters.com"
     ],
     "caps_hit": [
       "cultmtl.com",
       "financialpost.com",
       "globalnews.ca",
-      "toronto.citynews.ca"
+      "toronto.citynews.ca",
+      "www.marketwatch.com",
+      "www.wsj.com"
     ],
     "feed_times_sample": [
       {
-        "host": "www.labourstart.org",
-        "sec": 1.348,
-        "kept": 0
-      },
-      {
         "host": "toronto.citynews.ca",
-        "sec": 1.082,
+        "sec": 2.099,
         "kept": 8
       },
       {
-        "host": "globalnews.ca",
-        "sec": 0.59,
-        "kept": 10
-      },
-      {
-        "host": "www.blogto.com",
-        "sec": 0.555,
+        "host": "www.labourstart.org",
+        "sec": 1.394,
         "kept": 0
       },
       {
+        "host": "globalnews.ca",
+        "sec": 0.6,
+        "kept": 10
+      },
+      {
         "host": "www.mlb.com",
-        "sec": 0.456,
+        "sec": 0.589,
         "kept": 14
       },
       {
         "host": "www.cp24.com",
-        "sec": 0.32,
+        "sec": 0.47,
         "kept": 14
       },
       {
+        "host": "www.blogto.com",
+        "sec": 0.463,
+        "kept": 0
+      },
+      {
         "host": "www.mlbtraderumors.com",
-        "sec": 0.313,
+        "sec": 0.282,
         "kept": 14
       },
       {
         "host": "www.bls.gov",
-        "sec": 0.286,
+        "sec": 0.183,
         "kept": 0
       },
       {
         "host": "www.nhl.com",
-        "sec": 0.173,
+        "sec": 0.152,
         "kept": 0
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.134,
+        "sec": 0.14,
         "kept": 14
       }
     ],
-    "elapsed_sec": 320.14,
+    "elapsed_sec": 300.66,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1093,7 +1062,7 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 8,
+      "ps_fatal_hits": 12,
       "ps_injury_hits": 0,
       "market_btc_hits": 0,
       "market_index_hits": 0,
@@ -1101,11 +1070,11 @@
       "market_single_hits": 0,
       "agg_penalties": 0,
       "press_penalties": 0,
-      "preferred_bonus": 106,
+      "preferred_bonus": 124,
       "substack_tagged": 0,
       "sports_team_hits": 5,
       "sports_player_hits": 0,
-      "sports_result_win_hits": 10,
+      "sports_result_win_hits": 18,
       "sports_result_loss_hits": 1,
       "sports_evening_hits": 0,
       "sports_playoff_hits": 0,
@@ -1119,16 +1088,16 @@
       "hype_sports": 0,
       "hype_ceasefire": 0,
       "reject_hits": 0,
-      "obit_hits": 5,
-      "major_figure_hits": 0,
+      "obit_hits": 7,
+      "major_figure_hits": 2,
       "business_am_hits": 0
     },
     "sanity_stats": {
-      "link_verification_fail": 15,
-      "soft_404_drops": 15,
+      "link_verification_fail": 20,
+      "soft_404_drops": 40,
       "max_age_drops": 0,
-      "min_age_drops": 0,
-      "market_sanity_drops": 6,
+      "min_age_drops": 8,
+      "market_sanity_drops": 3,
       "backfill_steps_used": 0
     },
     "require_exact_count": 69,
