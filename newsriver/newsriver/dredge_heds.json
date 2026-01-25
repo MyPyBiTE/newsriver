@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Major U.S. winter storm leaves at least 1M without power across South",
-      "display":"Major U.S. winter storm leaves at least 1M without power across South",
-      "url":"https://globalnews.ca/news/11637161/us-winter-storm-million-people-without-power",
+      "text":"Nelson pushes Avalanche past Maple Leafs 4-1",
+      "display":"Nelson pushes Avalanche past Maple Leafs 4-1",
+      "url":"https://globalnews.ca/news/11637211/nelson-pushes-avalanche-past-maple-leafs-4-1",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Charli xcx has her movie star moment, and says goodbye to Brat",
+      "display":"Charli xcx has her movie star moment, and says goodbye to Brat",
+      "url":"https://toronto.citynews.ca/2026/01/25/charli-xcx-has-her-movie-star-moment-and-says-goodbye-to-brat",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Politics Podcast",
-      "display":"Politics Podcast",
-      "url":"https://fivethirtyeight.com/tag/politics-podcast",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"FREDDY GRAY: These brutal ICE killings will only serve to validate claims Trump is turning the US into a fascist state",
-      "display":"FREDDY GRAY: These brutal ICE killings will only serve to validate claims Trump is turning the US into a fascist state",
-      "url":"https://www.dailymail.co.uk/debate/article-15496861/FREDDY-GRAY-brutal-ICE-killings-serve-validate-claims-Trump-turning-US-fascist-state.html",
+      "text":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
+      "display":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
+      "url":"https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-01-25T21:11:33Z"
+  "generated_utc":"2026-01-25T21:30:37Z"
 }
