@@ -1,13 +1,13 @@
 {
-  "generated_utc": "2026-01-26T17:54:37.655Z",
-  "itemset_hash": "55c2bb026c160a9c",
+  "generated_utc": "2026-01-26T18:32:40.192Z",
+  "itemset_hash": "8f5b3126fe4ac47b",
   "count": 69,
   "items": [
     {
       "title": "What To Do About A Problem Like Dianne Feinstein?",
       "url": "https://fivethirtyeight.com/videos/what-to-do-about-a-problem-like-dianne-feinstein",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-26T17:51:16.881Z",
+      "published_utc": "2026-01-26T18:29:22.345Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -20,7 +20,7 @@
       "title": "Politics Podcast",
       "url": "https://fivethirtyeight.com/tag/politics-podcast",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-26T17:51:16.881Z",
+      "published_utc": "2026-01-26T18:29:22.345Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -30,23 +30,27 @@
       "region": "World"
     },
     {
-      "title": "‘90s bombshell channels iconic ‘Home Improvement’ role in daisy dukes and plunging tank top",
-      "url": "https://pagesix.com/2026/01/26/celebrity-news/90s-bombshell-channels-iconic-home-improvement-role-in-daisy-dukes-and-plunging-tank-top",
-      "source": "New York Post",
-      "published_utc": "2026-01-26T17:51:09.000Z",
+      "title": "At least 18 dead after ferry carrying over 330 people sinks in Philippines",
+      "url": "https://globalnews.ca/news/11637856/philippines-ferry-capsizes-sinks-death-toll",
+      "source": "globalnews.ca",
+      "published_utc": "2026-01-26T18:26:34.000Z",
       "effects": {
-        "lightsaber": false,
+        "lightsaber": true,
         "glitch": false,
-        "reasons": []
+        "reasons": [
+          "score≥2.6",
+          "body_count≥3"
+        ],
+        "style": "breaker"
       },
       "category": "General",
-      "region": "World"
+      "region": "Canada"
     },
     {
       "title": "How Our Presidential Endorsement Tracker Works",
       "url": "https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-26T17:51:16.881Z",
+      "published_utc": "2026-01-26T18:29:22.345Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -59,7 +63,7 @@
       "title": "Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
       "url": "https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-26T17:51:16.881Z",
+      "published_utc": "2026-01-26T18:29:22.346Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -67,6 +71,629 @@
       },
       "category": "General",
       "region": "World"
+    },
+    {
+      "title": "Cinetic Signs Filmmaker Brydie O’Connor Following Sundance Premiere Of Documentary ‘Barbara Forever’",
+      "url": "https://deadline.com/2026/01/sundance-cinetic-brydie-oconnor-barbara-forever-1236697078",
+      "source": "Deadline",
+      "published_utc": "2026-01-26T18:25:53.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Republicans Amplified Pro-Gun Control Protesters In Tennessee",
+      "url": "https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
+      "source": "FiveThirtyEight — Nate Silver",
+      "published_utc": "2026-01-26T18:29:22.346Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "What’s Next In The Abortion Drug Case",
+      "url": "https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
+      "source": "FiveThirtyEight — Nate Silver",
+      "published_utc": "2026-01-26T18:29:22.346Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Billie Eilish Concert Film ‘Hit Me Hard And Soft: The Tour (Live in 3D)’ Shifts To May Release",
+      "url": "https://deadline.com/2026/01/billie-eilish-concert-film-release-date-shift-1236697088",
+      "source": "Deadline",
+      "published_utc": "2026-01-26T18:25:32.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "How Concerned Are Americans About The Pitfalls Of AI?",
+      "url": "https://fivethirtyeight.com/videos/how-concerned-are-americans-about-the-pitfalls-of-ai",
+      "source": "FiveThirtyEight — Nate Silver",
+      "published_utc": "2026-01-26T18:29:22.346Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Live From New York: Will AI Replace This Podcast?",
+      "url": "https://fivethirtyeight.com/videos/live-from-new-york-will-ai-replace-this-podcast",
+      "source": "FiveThirtyEight — Nate Silver",
+      "published_utc": "2026-01-26T18:29:22.345Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Billie Eilish’s ‘Hit Me Hard and Soft’ Film Release Moved Back to May, James Cameron Announces",
+      "url": "https://www.thewrap.com/creative-content/movies/billie-eilish-concert-film-delayed-james-cameron",
+      "source": "TheWrap",
+      "published_utc": "2026-01-26T18:24:19.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "‘Hacks’ Star Meg Stalter Deletes TikTok After Claiming New U.S. Ownership Is Blocking Videos About ICE; Platform Says Disruption Is Due to Power Outage",
+      "url": "https://variety.com/2026/digital/news/hacks-meg-stalter-deletes-tiktok-claims-censoring-ice-videos-1236641121",
+      "source": "Variety",
+      "published_utc": "2026-01-26T18:22:59.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Sly Dunbar, Reggae and Dancehall’s Rhythm King, Dead at 73",
+      "url": "https://www.rollingstone.com/music/music-news/sly-dunbar-reggae-drummer-dead-obituary-1235504654",
+      "source": "Rolling Stone",
+      "published_utc": "2026-01-26T18:22:49.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Jennifer Aniston's Boyfriend Jim Curtis Reveals Relationship's Origins",
+      "url": "https://www.tmz.com/2026/01/26/jennifer-aniston-boyfriend-jim-curtis-dating-origin-story",
+      "source": "TMZ.com",
+      "published_utc": "2026-01-26T18:22:48.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Cineplex appeals online booking fee case to Canada’s Supreme Court",
+      "url": "https://mobilesyrup.com/2026/01/26/cineplex-online-booking-fee-case-supreme-court",
+      "source": "MobileSyrup",
+      "published_utc": "2026-01-26T18:22:30.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Tech",
+      "region": "Canada"
+    },
+    {
+      "title": "Lionel Richie and Earth, Wind & Fire Announce 2026 North American Tour",
+      "url": "https://consequence.net/2026/01/lionel-richie-earth-wind-fire-2026-tour-dates",
+      "source": "Consequence",
+      "published_utc": "2026-01-26T18:21:59.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "DHS admits officers were wearing body cameras during Alex Pretti's shooting",
+      "url": "https://www.rawstory.com/alex-pretti-dhs-body-cameras",
+      "source": "Raw Story",
+      "published_utc": "2026-01-26T18:20:15.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Giants To Sign Harrison Bader",
+      "url": "https://www.mlbtraderumors.com/2026/01/giants-sign-harrison-bader.html",
+      "source": "MLB Trade Rumors",
+      "published_utc": "2026-01-26T18:18:56.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Hamilton woman accused of embezzling $72K from local charity",
+      "url": "https://toronto.citynews.ca/2026/01/26/hamilton-woman-accused-of-embezzling-72k-from-local-charity",
+      "source": "CityNews Toronto",
+      "published_utc": "2026-01-26T18:18:06.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Local",
+      "region": "Canada"
+    },
+    {
+      "title": "‘Send Help’: Rachel McAdams Shines in Sam Raimi’s Gritty Tale of Survival and Power Dynamics",
+      "url": "https://www.thewrap.com/creative-content/reviews/send-help-review-sam-raimi-rachel-mcadams-dylan-obrien",
+      "source": "TheWrap",
+      "published_utc": "2026-01-26T18:16:41.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "St. John’s, Georgetown have gone in completely opposite directions after marquee hires",
+      "url": "https://nypost.com/2026/01/26/sports/st-johns-georgetown-have-gone-in-completely-opposite-directions",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-01-26T18:16:32.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Fashion Week Finally Moved on From Sneakers",
+      "url": "https://www.highsnobiety.com/p/best-shoes-fashion-week-2026",
+      "source": "Highsnobiety",
+      "published_utc": "2026-01-26T18:15:46.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Tim Walz gives own version of call with Trump: 'The president agreed'",
+      "url": "https://www.rawstory.com/walz-trump-pretti-investigation",
+      "source": "Raw Story",
+      "published_utc": "2026-01-26T18:15:33.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Kodi Smit-McPhee, Sam Rechner, Aden Young Join Alan Ritchson in Amazon MGM’s Navy SEAL Movie (Exclusive)",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/kodi-smit-mcphee-sam-rechner-alan-ritchson-mike-thornton-1236485057",
+      "source": "The Hollywood Reporter",
+      "published_utc": "2026-01-26T18:15:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Sly Dunbar, Half of Sly and Robbie, Legendary Reggae Rhythm Section, Dies at 73",
+      "url": "https://variety.com/2026/music/news/sly-dunbar-dead-sly-and-robbie-reggae-drummer-1236641264",
+      "source": "Variety",
+      "published_utc": "2026-01-26T18:13:51.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Investor Nicole Quinn and Former CAA Executive Michael Blank Partner for Connect Ventures",
+      "url": "https://www.thewrap.com/industry-news/business/nicole-quinn-michael-bank-join-connect-ventures",
+      "source": "TheWrap",
+      "published_utc": "2026-01-26T18:13:50.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "‘Looney Tunes’ Library Finds Ongoing Home at TCM",
+      "url": "https://www.thewrap.com/creative-content/tv-shows/looney-tunes-library-ongoing-home-tcm",
+      "source": "TheWrap",
+      "published_utc": "2026-01-26T18:13:43.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Cardi B laces up in head-to-toe leather to support boyfriend Stefon Diggs at Patriots playoff game",
+      "url": "https://pagesix.com/2026/01/26/style/cardi-b-laces-up-in-head-to-toe-leather-to-support-boyfriend-stefon-diggs-at-patriots-playoff-game",
+      "source": "New York Post",
+      "published_utc": "2026-01-26T18:13:32.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Museum Of The Moving Image Sets ‘The Sopranos’ Exhibition With Series Creator David Chase, Cast Members Steven Van Zandt, Edie Falco & More",
+      "url": "https://deadline.com/2026/01/the-sopranos-museum-of-the-moving-image-exhibit-david-chase-1236697034",
+      "source": "Deadline",
+      "published_utc": "2026-01-26T18:12:50.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Billie Eilish Concert Doc Release Pushed to May; James Cameron Says ‘We’re Dialing in Cool, New 3D Tech’",
+      "url": "https://variety.com/2026/film/news/billie-eilish-james-cameron-concert-doc-release-may-1236641205",
+      "source": "Film",
+      "published_utc": "2026-01-26T18:10:20.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Grant Udinski pulls out of Browns’ coaching search as it takes another sad twist",
+      "url": "https://nypost.com/2026/01/26/sports/grant-udinski-pulls-out-of-browns-coaching-search",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-01-26T18:08:34.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Price predictions 1/26: SPX, DXY, BTC, ETH, XRP, BNB, SOL, DOGE, ADA, BCH",
+      "url": "https://cointelegraph.com/news/price-predictions-1-26-spx-dxy-btc-eth-xrp-bnb-sol-doge-ada-bch",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2026-01-26T18:07:55.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Business",
+      "region": "Canada"
+    },
+    {
+      "title": "‘Gail Daughtry and the Celebrity Sex Pass’ Review: It’s Dumb Fun, and That’s a Compliment",
+      "url": "https://www.thewrap.com/creative-content/movies/gail-daughtry-and-the-celebrity-sex-pass-review-sundance",
+      "source": "TheWrap",
+      "published_utc": "2026-01-26T18:07:06.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "‘You’ve Blamed People Who Have Not Shot People!’ CNBC’s Andrew Ross Sorkin Takes On Sean Duffy Over ICE Tactics",
+      "url": "https://www.mediaite.com/media/news/youve-blamed-people-who-have-not-shot-people-cnbcs-andrew-ross-sorkin-takes-on-sean-duffy-over-ice-tactics",
+      "source": "Mediaite",
+      "published_utc": "2026-01-26T18:05:09.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "Trump promise after ICE killing immediately undercut by own officials: 'Hell no'",
+      "url": "https://www.rawstory.com/trump-2675033326",
+      "source": "Raw Story",
+      "published_utc": "2026-01-26T18:04:53.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "‘Cynical, Sinister, and Un-American’: Bari Weiss’s Free Press Takes Wrecking Ball to ‘Kristi Noem’s Reckless Lies’",
+      "url": "https://www.mediaite.com/media/news/cynical-sinister-and-un-american-bari-weisss-free-press-takes-wrecking-ball-to-kristi-noems-reckless-lies",
+      "source": "Mediaite",
+      "published_utc": "2026-01-26T18:03:51.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Karen Huger gets emotional in ‘RHOP’ return after prison stint",
+      "url": "https://pagesix.com/2026/01/26/celebrity-news/karen-huger-gets-emotional-in-rhop-return-after-prison-stint",
+      "source": "New York Post",
+      "published_utc": "2026-01-26T18:01:48.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Kash Patel squirms under MAGA backlash over Alex Pretti killing",
+      "url": "https://www.rawstory.com/kash-patel-guns-protests",
+      "source": "Raw Story",
+      "published_utc": "2026-01-26T18:00:08.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "The Overlooked Power of Heat Batteries in the Energy Transition",
+      "url": "https://oilprice.com/Energy/Energy-General/The-Overlooked-Power-of-Heat-Batteries-in-the-Energy-Transition.html",
+      "source": "Oilprice.com",
+      "published_utc": "2026-01-26T18:00:00.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Energy",
+      "region": "Canada"
+    },
+    {
+      "title": "David Zayas, Hari Nef, Ivy Wolk, & Run The Jewels Duo Killer Mike And El-P Among New Additions To Indie Thriller ‘Grind’",
+      "url": "https://deadline.com/2026/01/david-zayas-hari-nef-ivy-wolk-killer-mike-join-grind-1236693318",
+      "source": "Deadline",
+      "published_utc": "2026-01-26T18:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Comedian Chris Spencer Sets Hulu Premiere For New Hartbeat Special ‘G.O.A.T. Adjacent’",
+      "url": "https://deadline.com/2026/01/chris-spencer-goat-adjacent-hulu-premiere-date-1236696764",
+      "source": "Deadline",
+      "published_utc": "2026-01-26T18:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "BAFTA and WGA Awards Predictions: Will ‘One Battle After Another’ Have Its Own 16 Nomination Record-Breaking Morning?",
+      "url": "https://variety.com/2026/film/awards/bafta-wga-awards-predictions-2026-1236641136",
+      "source": "Film",
+      "published_utc": "2026-01-26T18:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Tyler Perry’s ‘Sistas’ Season 10 Premiere Collects 1M Viewers In First 3 Days On BET",
+      "url": "https://deadline.com/2026/01/tyler-perry-sistas-season-10-premiere-ratings-1236696998",
+      "source": "Deadline",
+      "published_utc": "2026-01-26T18:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "‘Highguard’: Wildlight Founders on How Their Debut Game Is Not Like ‘Concord’ or ‘Overwatch’",
+      "url": "https://variety.com/2026/gaming/news/highguard-release-details-wildlight-overwatch-concord-1236641015",
+      "source": "Variety",
+      "published_utc": "2026-01-26T18:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Nike's Low-Top AJ1 Extends An \"Olive\" Branch. Literally",
+      "url": "https://www.highsnobiety.com/p/air-jordan-1-low-og",
+      "source": "Highsnobiety",
+      "published_utc": "2026-01-26T17:59:28.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "‘Gail Daughtry and the Celebrity Sex Pass’ Review: David Wain’s Antically Funny Satire of High-Concept Movies",
+      "url": "https://variety.com/2026/film/reviews/gail-daughtry-and-the-celebrity-sex-pass-review-zoey-deutch-1236640546",
+      "source": "Film",
+      "published_utc": "2026-01-26T17:57:22.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "The Most Memorable Venue of Paris Fashion Week? Someone's Apartment",
+      "url": "https://www.highsnobiety.com/p/camiel-fortgens-fw26",
+      "source": "Highsnobiety",
+      "published_utc": "2026-01-26T17:53:18.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Beer Store announces new round of closures as government commitment ends",
+      "url": "https://globalnews.ca/news/11638012/beer-store-2026-closures-announcement",
+      "source": ": Toronto",
+      "published_utc": "2026-01-26T17:52:31.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Local",
+      "region": "Canada"
     },
     {
       "title": "Gunmen Kill 11, Injure 6 At Soccer Field In Mexico",
@@ -82,10 +709,10 @@
       "region": "World"
     },
     {
-      "title": "Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "url": "https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-26T17:51:16.882Z",
+      "title": "25+ Valentine’s Day Gift Ideas for Your Boyfriend or Husband… According to a Hopeless Romantic",
+      "url": "https://www.rollingstone.com/product-recommendations/tech/best-valentines-day-gifts-boyfriends-husbands-2026-ideas-1235503187",
+      "source": "Rolling Stone",
+      "published_utc": "2026-01-26T17:50:00.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -95,62 +722,7 @@
       "region": "World"
     },
     {
-      "title": "What’s Next In The Abortion Drug Case",
-      "url": "https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-26T17:51:16.882Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Alex Honnold Reveals “Embarrassingly Small” Paycheck He Earned From Netflix For Death-Defying Stunt",
-      "url": "https://decider.com/2026/01/26/alex-honnold-small-paycheck-netflix-stunt",
-      "source": "New York Post",
-      "published_utc": "2026-01-26T17:49:45.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "How Concerned Are Americans About The Pitfalls Of AI?",
-      "url": "https://fivethirtyeight.com/videos/how-concerned-are-americans-about-the-pitfalls-of-ai",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-26T17:51:16.882Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Live From New York: Will AI Replace This Podcast?",
-      "url": "https://fivethirtyeight.com/videos/live-from-new-york-will-ai-replace-this-podcast",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-01-26T17:51:16.881Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Woman found dead during wellness check as Quebec cold, snow cut power",
+      "title": "Woman found dead during wellness check as Quebec cold, snow set in",
       "url": "https://globalnews.ca/news/11638125/hudson-avenue-montreal-cold",
       "source": "globalnews.ca",
       "published_utc": "2026-01-26T17:49:14.000Z",
@@ -185,11 +757,8 @@
       "published_utc": "2026-01-26T17:46:51.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Labour",
       "region": "World"
@@ -224,6 +793,22 @@
       "region": "World"
     },
     {
+      "title": "Reggae Legend Lowell 'Sly' Dunbar Dead at 73",
+      "url": "https://www.tmz.com/2026/01/26/lowell-sly-dunbar-dead",
+      "source": "TMZ.com",
+      "published_utc": "2026-01-26T17:43:59.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
       "title": "Everything We Know About ‘The Testaments,’ Sequel Series To ‘The Handmaid’s Tale’ So Far",
       "url": "https://deadline.com/feature/the-testaments-news-updates-handmaids-tale-sequel-1236410051",
       "source": "Deadline",
@@ -243,11 +828,8 @@
       "published_utc": "2026-01-26T17:43:42.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Labour",
       "region": "World"
@@ -263,6 +845,35 @@
         "reasons": []
       },
       "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "UK supermarkets push for Amazon soy safeguards after traders abandon ban",
+      "url": "https://www.theguardian.com/environment/2026/jan/26/uk-supermarkets-push-for-amazon-soy-safeguards-after-brazil-scraps-ban",
+      "source": "World news | The Guardian",
+      "published_utc": "2026-01-26T17:43:03.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Massive search underway for dozens missing in deadly Indonesia landslide",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/1/26/massive-search-underway-for-dozens-missing-in-deadly-indonesia-landslide?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-01-26T17:42:40.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "General",
       "region": "World"
     },
     {
@@ -295,19 +906,6 @@
       "region": "Canada"
     },
     {
-      "title": "Victoria and David Beckham put on united front with kids after son Brooklyn’s brutal attack",
-      "url": "https://pagesix.com/2026/01/26/celebrity-news/victoria-and-david-beckham-put-on-united-front-with-kids-after-son-brooklyns-brutal-attack",
-      "source": "New York Post",
-      "published_utc": "2026-01-26T17:41:10.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Fossil Fuels Fight To Keep America Warm This International Clean Energy Day",
       "url": "https://dailycaller.com/2026/01/26/fossil-fuels-united-nations-winter-storm-fern-international-day-clean-energy",
       "source": "The Daily Caller",
@@ -321,6 +919,22 @@
       "region": "World"
     },
     {
+      "title": "Toronto digs itself out after largest snowfall in city’s history",
+      "url": "https://www.theguardian.com/world/2026/jan/26/toronto-snowstorm-record-snowfall-total",
+      "source": "World news | The Guardian",
+      "published_utc": "2026-01-26T17:40:58.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
       "title": "Wolf Alice announce massive London Finsbury Park homecoming for 2026 – their biggest show yet",
       "url": "https://www.nme.com/news/music/wolf-alice-announce-massive-london-finsbury-park-homecoming-for-2026-their-biggest-show-yet-buy-tickets-3925625",
       "source": "NME",
@@ -331,19 +945,6 @@
         "reasons": []
       },
       "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Amazon MGM Studios’ Laura Lancaster, Nick Pepper Exit as Scripted TV Restructures Into Genre-Based Divisions",
-      "url": "https://variety.com/2026/tv/news/amazon-mgm-studios-tv-restructure-1236641186",
-      "source": "Variety",
-      "published_utc": "2026-01-26T17:40:02.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
       "region": "World"
     },
     {
@@ -371,613 +972,19 @@
       },
       "category": "General",
       "region": "World"
-    },
-    {
-      "title": "This Perfumer Made a Shirt for a Scent That Smells of Shirts",
-      "url": "https://www.highsnobiety.com/p/perfumer-h-studio-nicholson",
-      "source": "Highsnobiety",
-      "published_utc": "2026-01-26T17:37:56.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Police Charge West Virginia Librarian For Allegedly Recruiting People To Assassinate Trump",
-      "url": "https://dailycaller.com/2026/01/26/west-virginia-librarian-charged-with-recruiting-people-to-assassinate-trump",
-      "source": "The Daily Caller",
-      "published_utc": "2026-01-26T17:37:55.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Alex Honnold Was Paid Less Than $1 Million for ‘Skyscraper Live’ — Why So Little?",
-      "url": "https://variety.com/2026/tv/news/alex-honnold-paid-less-than-1-million-skyscraper-live-1236641176",
-      "source": "Variety",
-      "published_utc": "2026-01-26T17:37:12.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "Over Three-Quarters Of Voters Say They’re Worse Off Than The Previous Generation, Poll Shows",
-      "url": "https://dailycaller.com/2026/01/26/middle-class-lifestyle-affordability-poll-new-york-times",
-      "source": "The Daily Caller",
-      "published_utc": "2026-01-26T17:36:57.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Leaked ICE Memo Claims Agents Can Enter Homes Without Judicial Warrants",
-      "url": "https://reason.com/2026/01/26/leaked-ice-memo-claims-agents-can-enter-homes-without-judicial-warrants",
-      "source": "Reason.com",
-      "published_utc": "2026-01-26T17:36:29.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "In photos: Toronto’s snowiest day in recorded history",
-      "url": "https://toronto.citynews.ca/2026/01/26/in-photos-torontos-snowiest-day-in-recorded-history",
-      "source": "CityNews Toronto",
-      "published_utc": "2026-01-26T17:36:05.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Local",
-      "region": "Canada"
-    },
-    {
-      "title": "Whoopi Goldberg Empathizes With ‘Bridgerton’ Star Yerin Ha On ‘The View’: “People Make You Feel Like You Shouldn’t Be in a Romantic Relationship With a White Guy”",
-      "url": "https://decider.com/2026/01/26/whoopi-goldberg-empathizes-bridgerton-yerin-ha-the-view",
-      "source": "New York Post",
-      "published_utc": "2026-01-26T17:35:57.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "‘There Is No Press Pass to Invade a Church’: Attorney for Minnesota Church Rips Don Lemon",
-      "url": "https://www.mediaite.com/politics/there-is-no-press-pass-to-invade-a-church-attorney-for-minnesota-church-rips-don-lemon",
-      "source": "Mediaite",
-      "published_utc": "2026-01-26T17:33:24.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Amazon TV Head Peter Friedlander Sets New Genre-Based Leadership Structure for Scripted Shows",
-      "url": "https://www.thewrap.com/industry-news/business/amazon-mgm-studios-scripted-team-restructuring",
-      "source": "TheWrap",
-      "published_utc": "2026-01-26T17:32:34.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "FX Sets Premiere Date for ‘Love Story: John F. Kennedy Jr. & Carolyn Bessette’ Series",
-      "url": "https://www.thewrap.com/creative-content/tv-shows/love-story-john-f-kennedy-jr-carolyn-bessette-series-premiere-date-fx",
-      "source": "TheWrap",
-      "published_utc": "2026-01-26T17:30:20.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Lukoil Asks Moscow for Aid as Oil Sells at Steep Discounts",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Lukoil-Asks-Moscow-for-Aid-as-Oil-Sells-at-Steep-Discounts.html",
-      "source": "Oilprice.com",
-      "published_utc": "2026-01-26T17:30:00.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Energy",
-      "region": "Canada"
-    },
-    {
-      "title": "Sally Hawkins, David Haig, Victor Garber, Max Casella And Isaac Bae Join Netflix’s ‘Eloise’ Movie",
-      "url": "https://deadline.com/2026/01/sally-hawkins-victor-garber-eloise-1236696558",
-      "source": "Deadline",
-      "published_utc": "2026-01-26T17:30:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "FX’s JFK Jr. and Carolyn Bessette ‘Love Story’ Premiere Timed to Valentine’s Day",
-      "url": "https://www.hollywoodreporter.com/tv/tv-news/fx-jfk-jr-carolyn-bessette-kennedy-love-story-premiere-date-1236485049",
-      "source": "The Hollywood Reporter",
-      "published_utc": "2026-01-26T17:30:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Ryan Murphy’s ‘Love Story: John F. Kennedy Jr. & Carolyn Bessette’ Sets Release Date on FX and Hulu",
-      "url": "https://variety.com/2026/tv/news/love-story-john-f-kennedy-jr-carolyn-bessette-release-date-1236641135",
-      "source": "Variety",
-      "published_utc": "2026-01-26T17:30:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "How to Watch ‘American Idol’ Season 24 Online Without Cable",
-      "url": "https://www.rollingstone.com/product-recommendations/streaming/how-to-watch-american-idol-season-24-online-free-stream-1235504632",
-      "source": "Rolling Stone",
-      "published_utc": "2026-01-26T17:28:11.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Senate Hearing On Netflix-Warner Bros. Transaction Set For Feb. 3; Co-CEO Ted Sarandos To Testify",
-      "url": "https://deadline.com/2026/01/senate-hearing-netflix-ted-sarandos-1236696962",
-      "source": "Deadline",
-      "published_utc": "2026-01-26T17:28:01.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Culture",
-      "region": "Canada"
-    },
-    {
-      "title": "Trey Mancini, Angels Agree To Minor League Deal",
-      "url": "https://www.mlbtraderumors.com/2026/01/trey-mancini-angels-agree-to-minor-league-deal.html",
-      "source": "MLB Trade Rumors",
-      "published_utc": "2026-01-26T17:27:09.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "Photo Of Wolf Paw Print In Bison Blood Goes Viral, And It’s Pure Nightmare Fuel",
-      "url": "https://dailycaller.com/2026/01/26/wolf-paw-print-bison-blood-yellowstone-national-park",
-      "source": "The Daily Caller",
-      "published_utc": "2026-01-26T17:27:05.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "The Chicago Bears Shuffled Their Way to a Super Bowl Win 40 Years Ago Today",
-      "url": "https://www.rollingstone.com/music/music-features/chicago-bears-super-bowl-shuffle-anniversary-1235504623",
-      "source": "Rolling Stone",
-      "published_utc": "2026-01-26T17:25:21.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Trump muses on his own death while watching funeral on TV: 'That'll be me'",
-      "url": "https://www.rawstory.com/trump-funeral",
-      "source": "Raw Story",
-      "published_utc": "2026-01-26T17:24:51.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Dropkick Murphys Singer Joins Boston Unions at Anti-ICE Rally: Workers Should Consider “General Strike”",
-      "url": "https://consequence.net/2026/01/dropkick-murphys-ken-casey-boston-labor-union-anti-ice-rally",
-      "source": "Consequence",
-      "published_utc": "2026-01-26T17:24:39.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Crypto exchange WhiteBIT flagged by Russia as 'undesirable' over support for Ukraine military",
-      "url": "https://www.coindesk.com/policy/2026/01/26/crypto-exchange-whitebit-flagged-by-russia-as-undesirable-over-support-for-ukraine-military",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published_utc": "2026-01-26T17:22:26.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Business",
-      "region": "World"
-    },
-    {
-      "title": "Israel says it has retrieved remains of final Gaza hostage",
-      "url": "https://www.bbc.com/news/articles/c5ydvz7nz4mo?at_campaign=rss&at_medium=RSS",
-      "source": "BBC News",
-      "published_utc": "2026-01-26T17:21:26.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "The Alchemist – “Lord Protect Me” (Feat. Roc Marciano)",
-      "url": "https://stereogum.com/2486628/the-alchemist-lord-protect-me-feat-roc-marciano/music",
-      "source": "Stereogum",
-      "published_utc": "2026-01-26T17:21:05.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Why Rob Lowe Was ‘Smitten With the Audaciousness’ of ‘The Musical’",
-      "url": "https://www.thewrap.com/creative-content/movies/rob-lowe-the-musical-sundance-interviews",
-      "source": "TheWrap",
-      "published_utc": "2026-01-26T17:20:31.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Alexander Skarsgård Makes a Case For the Winter Flip-Flop at Sundance",
-      "url": "https://variety.com/2026/shopping/news/alexander-skarsgard-sundance-flip-flops-buy-online-1236640481",
-      "source": "Variety",
-      "published_utc": "2026-01-26T17:18:15.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "AXL partners with IT firm Compugen to help turn AI ideas into AI applications",
-      "url": "https://betakit.com/axl-partners-with-it-firm-compugen-to-help-turn-ai-ideas-into-ai-applications",
-      "source": "BetaKit",
-      "published_utc": "2026-01-26T17:16:54.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Labour",
-      "region": "Canada"
-    },
-    {
-      "title": "Super Rockers Stevie van Zandt, Lenny Kaye Help  Legendary Singer Dion Celebrate Pre-Broadway Workshop of Musical “The Wanderer”",
-      "url": "https://www.showbiz411.com/2026/01/26/super-rockers-stevie-van-zandt-lenny-kaye-help-legendary-singer-dion-celebrate-pre-broadway-workshop-of-musical-the-wanderer",
-      "source": "Showbiz411",
-      "published_utc": "2026-01-26T17:15:16.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Exposed: Probe finds ICE wrongly detained staggering 2,300 people in just 6 months",
-      "url": "https://www.rawstory.com/exposed-probe-finds",
-      "source": "Raw Story",
-      "published_utc": "2026-01-26T17:14:20.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "EU investigating Musk’s X platform over AI chatbot Grok sexual deepfakes",
-      "url": "https://globalnews.ca/news/11638030/european-union-investigation-musk-grok-deepfakes",
-      "source": "globalnews.ca",
-      "published_utc": "2026-01-26T17:13:59.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "Trump Reveals He Had a ‘Very Good Call’ With Tim Walz: ‘We, Actually, Seemed to Be On a Similar Wavelength’",
-      "url": "https://www.mediaite.com/media/news/trump-reveals-he-had-a-very-good-call-with-tim-walz-we-actually-seemed-to-be-on-a-similar-wavelength",
-      "source": "Mediaite",
-      "published_utc": "2026-01-26T17:13:39.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Amazon MGM Studios TV Chief Peter Friedlander Sets Major Reorganization",
-      "url": "https://www.hollywoodreporter.com/tv/tv-news/amazon-mgm-studios-tv-reorganization-1236485044",
-      "source": "The Hollywood Reporter",
-      "published_utc": "2026-01-26T17:10:54.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "How to Defuse an Angry Partner",
-      "url": "https://www.psychologytoday.com/ca/blog/the-wisdom-of-anger/202601/how-to-defuse-an-angry-partner",
-      "source": "Psychology Today: The Latest",
-      "published_utc": "2026-01-26T17:10:09.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Youth",
-      "region": "World"
-    },
-    {
-      "title": "XRP price ‘liftoff’ to $10 will take time, traders say",
-      "url": "https://cointelegraph.com/news/xrp-price-liftoff-to-10-will-take-time-traders-say",
-      "source": "Cointelegraph.com News",
-      "published_utc": "2026-01-26T17:10:04.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Business",
-      "region": "World"
-    },
-    {
-      "title": "‘What Beautiful Skin You Have’: The 5 Most Over-the-Top Boasts About Trump’s Health From Prez and His Allies in Bizarre NY Mag Feature",
-      "url": "https://www.mediaite.com/media/news/what-beautiful-skin-you-have-the-5-most-over-the-top-boasts-about-trumps-health-from-prez-and-his-allies-in-bizarre-ny-mag-feature",
-      "source": "Mediaite",
-      "published_utc": "2026-01-26T17:09:37.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Wall Street's Jefferies sees market structure bill as tokenization inflection point",
-      "url": "https://www.coindesk.com/policy/2026/01/26/wall-street-s-jefferies-sees-market-structure-bill-as-tokenization-inflection-point",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published_utc": "2026-01-26T17:09:08.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Business",
-      "region": "World"
-    },
-    {
-      "title": "Montreal Restaurant Guide: Bar Minou",
-      "url": "https://cultmtl.com/2026/01/montreal-restaurant-guide-bar-minou-review",
-      "source": "Cult MTL",
-      "published_utc": "2026-01-26T17:08:51.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Culture",
-      "region": "Canada"
-    },
-    {
-      "title": "Mediaite One Sheet: Minneapolis ICE Video, Trump Retreat, and WaPo Implosion",
-      "url": "https://www.mediaite.com/media/news/mediaite-one-sheet-bari-weiss-minneapolis-coverage-davos-and-more-2-2-2",
-      "source": "Mediaite",
-      "published_utc": "2026-01-26T17:07:24.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "CAA’s VC Firm Connect Ventures Bolsters Leadership",
-      "url": "https://www.hollywoodreporter.com/business/business-news/caas-vc-firm-connect-ventures-1236485050",
-      "source": "The Hollywood Reporter",
-      "published_utc": "2026-01-26T17:07:03.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Trump makes major U-turn as he lavishes praise on Tim Walz",
-      "url": "https://www.rawstory.com/trump-2675034016",
-      "source": "Raw Story",
-      "published_utc": "2026-01-26T17:03:43.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Tim Hortons launching ‘Moonbits’ ahead of Jeremy Hansen’s Artemis II mission",
-      "url": "https://globalnews.ca/news/11637952/tim-hortons-moonbits-boxes-jeremy-hansen-london",
-      "source": "globalnews.ca",
-      "published_utc": "2026-01-26T17:03:31.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "Sly & Robbie’s Sly Dunbar Dead At 73",
-      "url": "https://stereogum.com/2486631/sly-robbies-sly-dunbar-dead-at-73/news",
-      "source": "Stereogum",
-      "published_utc": "2026-01-26T17:03:23.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Culture",
-      "region": "World"
     }
   ],
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 897,
-    "dedup_pass1": 874,
+    "collected": 811,
+    "dedup_pass1": 787,
     "dedup_final": 320,
     "slow_domains": [
-      "nypost.com"
+      "theintercept.com",
+      "www.labourstart.org",
+      "www.rawstory.com",
+      "www.stereogum.com"
     ],
     "timeouts": [
       "japantoday.com",
@@ -1002,57 +1009,57 @@
     ],
     "feed_times_sample": [
       {
+        "host": "www.labourstart.org",
+        "sec": 3.697,
+        "kept": 0
+      },
+      {
         "host": "toronto.citynews.ca",
-        "sec": 2.856,
+        "sec": 1.959,
         "kept": 8
       },
       {
-        "host": "www.labourstart.org",
-        "sec": 1.123,
-        "kept": 0
-      },
-      {
         "host": "globalnews.ca",
-        "sec": 0.755,
+        "sec": 0.643,
         "kept": 10
       },
       {
-        "host": "www.blogto.com",
-        "sec": 0.438,
-        "kept": 0
+        "host": "www.mlb.com",
+        "sec": 0.576,
+        "kept": 14
       },
       {
         "host": "www.cp24.com",
-        "sec": 0.399,
+        "sec": 0.483,
         "kept": 14
       },
       {
-        "host": "www.mlbtraderumors.com",
-        "sec": 0.329,
-        "kept": 14
-      },
-      {
-        "host": "www.mlb.com",
-        "sec": 0.318,
-        "kept": 14
-      },
-      {
-        "host": "www.bls.gov",
-        "sec": 0.301,
+        "host": "www.blogto.com",
+        "sec": 0.439,
         "kept": 0
       },
       {
-        "host": "www.nhl.com",
-        "sec": 0.19,
+        "host": "www.bls.gov",
+        "sec": 0.392,
         "kept": 0
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.111,
+        "sec": 0.311,
         "kept": 14
+      },
+      {
+        "host": "www.mlbtraderumors.com",
+        "sec": 0.287,
+        "kept": 14
+      },
+      {
+        "host": "www.nhl.com",
+        "sec": 0.22,
+        "kept": 0
       }
     ],
-    "elapsed_sec": 329.49,
+    "elapsed_sec": 346.82,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1078,7 +1085,7 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 24,
+      "ps_fatal_hits": 25,
       "ps_injury_hits": 1,
       "market_btc_hits": 1,
       "market_index_hits": 0,
@@ -1086,15 +1093,15 @@
       "market_single_hits": 0,
       "agg_penalties": 0,
       "press_penalties": 0,
-      "preferred_bonus": 127,
+      "preferred_bonus": 126,
       "substack_tagged": 0,
       "sports_team_hits": 7,
       "sports_player_hits": 1,
-      "sports_result_win_hits": 27,
+      "sports_result_win_hits": 25,
       "sports_result_loss_hits": 1,
       "sports_evening_hits": 0,
       "sports_playoff_hits": 0,
-      "sports_focus_team_hits": 7,
+      "sports_focus_team_hits": 6,
       "sports_final_hits": 0,
       "sports_final_score_hits": 0,
       "hype_politics": 0,
@@ -1103,14 +1110,14 @@
       "hype_jobs": 0,
       "hype_sports": 0,
       "hype_ceasefire": 0,
-      "reject_hits": 1,
-      "obit_hits": 2,
+      "reject_hits": 0,
+      "obit_hits": 3,
       "major_figure_hits": 2,
       "business_am_hits": 0
     },
     "sanity_stats": {
-      "link_verification_fail": 19,
-      "soft_404_drops": 83,
+      "link_verification_fail": 25,
+      "soft_404_drops": 41,
       "max_age_drops": 0,
       "min_age_drops": 0,
       "market_sanity_drops": 2,
