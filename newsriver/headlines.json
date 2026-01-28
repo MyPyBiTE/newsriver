@@ -1,8 +1,130 @@
 {
-  "generated_utc": "2026-01-28T05:35:49.644Z",
-  "itemset_hash": "3f041d333f6d5113",
+  "generated_utc": "2026-01-28T05:59:17.294Z",
+  "itemset_hash": "bb3aabdec94bdcda",
   "count": 69,
   "items": [
+    {
+      "title": "Dogecoin turns lower after failing to hold $0.124",
+      "url": "https://www.coindesk.com/markets/2026/01/28/dogecoin-turns-lower-after-failing-to-hold-usd0-124",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2026-01-28T05:53:23.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "UFC star Rose Namajunas won’t be able to blow nose, sneeze for three months after gruesome injury",
+      "url": "https://nypost.com/2026/01/28/sports/ufcs-rose-namajunas-wont-be-able-to-blow-nose-sneeze-for-3-months-after-surgery",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-01-28T05:42:43.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "Pegula sets up Australian Open semi against Rybakina as Swiatek crashes out",
+      "url": "https://www.aljazeera.com/sports/2026/1/28/pegula-sets-up-australian-open-semi-against-rybakina-as-swiatek-crashes-out?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-01-28T05:41:02.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Trump says government will 'de-escalate' in Minnesota following Pretti shooting",
+      "url": "https://www.bbc.com/news/articles/c0q425vg4qzo?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2026-01-28T05:38:48.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Australia news live: remains found in search for Belgian missing in Tasmania since 2023; 11,000 homes without power amid Victoria heatwave",
+      "url": "https://www.theguardian.com/australia-news/live/2026/jan/28/australia-news-live-anthony-albanese-timor-leste-heatwave-nsw-bushfires-victoria-weather-liberals-leadership-sussan-ley-andrew-hastie-angus-taylor-ntwnfb",
+      "source": "World news | The Guardian",
+      "published_utc": "2026-01-28T05:37:17.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "UK bans Coinbase ads that ‘trivialized’ crypto risks: Report",
+      "url": "https://cointelegraph.com/news/uk-bans-coinbase-ads-trivialized-crypto-risks-report",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2026-01-28T05:35:28.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Nets waste big Michael Porter Jr. effort, fall to Suns in chippy affair",
+      "url": "https://nypost.com/2026/01/28/sports/nets-blow-late-lead-and-fall-to-suns-in-chippy-affair",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-01-28T05:35:23.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "XRP climbs to $1.90 but struggles to break out of tight range",
+      "url": "https://www.coindesk.com/markets/2026/01/28/xrp-climbs-to-usd1-90-but-struggles-to-break-out-of-tight-range",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2026-01-28T05:31:24.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Business",
+      "region": "World"
+    },
     {
       "title": "Top stablecoins shrink as crypto cash flees, posing risk to bitcoin's bounce",
       "url": "https://www.coindesk.com/markets/2026/01/28/top-stablecoins-tether-and-usd-coin-shrink-as-crypto-cash-flees-pose-risk-to-bitcoin",
@@ -71,11 +193,8 @@
       "published_utc": "2026-01-28T05:13:23.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Labour",
       "region": "World"
@@ -87,33 +206,17 @@
       "published_utc": "2026-01-28T05:12:30.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Labour",
       "region": "World"
     },
     {
-      "title": "J. Cole Confronts His Kendrick Lamar Apology in Surprise Freestyle",
-      "url": "https://www.rollingstone.com/music/music-news/j-cole-kendrick-lamar-apology-birthday-blizzard-26-1235506009",
-      "source": "Rolling Stone",
-      "published_utc": "2026-01-28T05:12:07.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Australia news live: 11,000 homes without power amid Victoria heatwave as six bushfires still burn across state",
-      "url": "https://www.theguardian.com/australia-news/live/2026/jan/28/australia-news-live-anthony-albanese-timor-leste-heatwave-nsw-bushfires-victoria-weather-liberals-leadership-sussan-ley-andrew-hastie-angus-taylor-ntwnfb",
-      "source": "World news | The Guardian",
-      "published_utc": "2026-01-28T05:12:00.000Z",
+      "title": "Is Trump’s ‘Board of Peace’ an effort to curtail Europe’s middle powers?",
+      "url": "https://www.aljazeera.com/news/2026/1/28/trumps-board-of-peace-an-effort-to-curtail-middle-powers-says-expert?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-01-28T05:11:55.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -188,6 +291,19 @@
       "region": "World"
     },
     {
+      "title": "It's the foundation of psychiatric diagnosis. And it's about to get a makeover",
+      "url": "https://www.npr.org/2026/01/28/nx-s1-5684121/dsm-5-american-psychiatric-association-diagnostic-mental-health",
+      "source": "NPR Topics: Home Page Top Stories",
+      "published_utc": "2026-01-28T05:01:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
       "title": "Mohanlal’s ‘Drishyam 3′ Leads Panorama Studios’ Four-Film Global Deal With Phars Film (EXCLUSIVE)",
       "url": "https://variety.com/2026/film/news/mohanlal-drishyam-3-panorama-phars-distribution-deal-1236642189",
       "source": "Film",
@@ -207,11 +323,8 @@
       "published_utc": "2026-01-28T04:51:38.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Business",
       "region": "World"
@@ -246,7 +359,7 @@
       "region": "World"
     },
     {
-      "title": "Olivia Wilde Sex Comedy ‘The Invite’ Lands at A24",
+      "title": "Olivia Wilde Relationship Comedy ‘The Invite’ Lands at A24",
       "url": "https://www.hollywoodreporter.com/movies/movie-news/olivia-wilde-sex-comedy-the-invite-lands-a24-1236485609",
       "source": "The Hollywood Reporter",
       "published_utc": "2026-01-28T04:44:21.000Z",
@@ -858,141 +971,22 @@
       },
       "category": "Business",
       "region": "World"
-    },
-    {
-      "title": "Special teams hurt the Rams, but it’s far from their only problem",
-      "url": "https://nypost.com/2026/01/27/sports/rams-must-address-cb-and-team-speed-in-offseason",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2026-01-28T03:00:34.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "How ‘Wonder Man’ Paid Tribute to the Crew Member Who Died On Set",
-      "url": "https://www.thewrap.com/creative-content/tv-shows/wonder-man-who-is-juan-spike-osorio-in-memoriam-episode-1",
-      "source": "TheWrap",
-      "published_utc": "2026-01-28T03:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "‘The Only Living Pickpocket in New York’ Review: John Turturro Will Steal Your Heart in Noah Segan’s Elegantly Tender Character Study",
-      "url": "https://variety.com/2026/film/reviews/the-only-living-pickpocket-in-new-york-review-1236642486",
-      "source": "Film",
-      "published_utc": "2026-01-28T03:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Jets reached out to Jon Gruden about joining Aaron Glenn’s staff — but he turned them down",
-      "url": "https://nypost.com/2026/01/27/sports/jets-reached-out-to-jon-gruden-about-joining-aaron-glenns-staff",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2026-01-28T02:59:47.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "Egor Demin continues to lead Nets’ youth movement as Jordi Fernandez walks pivotal tightrope",
-      "url": "https://nypost.com/2026/01/27/sports/egor-demin-continues-to-lead-nets-youth-movement",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2026-01-28T02:58:44.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "MAGA suspects Ilhan Omar 'orchestrated' town hall attack: 'Completely staged!'",
-      "url": "https://www.rawstory.com/ilhan-omar-2675052611",
-      "source": "Raw Story",
-      "published_utc": "2026-01-28T02:58:09.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Dahlin leads Sabres over slumping Maple Leafs 7-4",
-      "url": "https://globalnews.ca/news/11640858/dahlin-leads-sabres-over-slumping-maple-leafs-7-4",
-      "source": ": Toronto",
-      "published_utc": "2026-01-28T02:57:46.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Local",
-      "region": "Canada"
-    },
-    {
-      "title": "Rodeo becomes 2nd NFT platform to announce closure this week",
-      "url": "https://cointelegraph.com/news/rodeo-becomes-2nd-nft-platform-announce-closure-this-week",
-      "source": "Cointelegraph.com News",
-      "published_utc": "2026-01-28T02:57:29.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Labour",
-      "region": "World"
     }
   ],
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 761,
-    "dedup_pass1": 749,
+    "collected": 741,
+    "dedup_pass1": 729,
     "dedup_final": 320,
     "slow_domains": [
-      "cointelegraph.com"
+      "www.tubefilter.com",
+      "www150.statcan.gc.ca"
     ],
     "timeouts": [
       "news.communitech.ca",
       "www.cbc.ca",
-      "www.mining.com",
-      "www150.statcan.gc.ca"
+      "www.mining.com"
     ],
     "errors": [
       "alert.weather.gc.ca",
@@ -1011,57 +1005,57 @@
     ],
     "feed_times_sample": [
       {
-        "host": "toronto.citynews.ca",
-        "sec": 2.471,
-        "kept": 8
-      },
-      {
         "host": "www.labourstart.org",
-        "sec": 1.772,
+        "sec": 1.333,
         "kept": 0
       },
       {
+        "host": "toronto.citynews.ca",
+        "sec": 0.972,
+        "kept": 8
+      },
+      {
         "host": "globalnews.ca",
-        "sec": 0.604,
+        "sec": 0.753,
         "kept": 10
       },
       {
         "host": "www.mlb.com",
-        "sec": 0.416,
+        "sec": 0.46,
         "kept": 14
       },
       {
-        "host": "www.mlbtraderumors.com",
-        "sec": 0.405,
+        "host": "www.cp24.com",
+        "sec": 0.364,
         "kept": 14
       },
       {
         "host": "www.blogto.com",
-        "sec": 0.339,
+        "sec": 0.364,
         "kept": 0
       },
       {
-        "host": "www.cp24.com",
-        "sec": 0.269,
+        "host": "www.mlbtraderumors.com",
+        "sec": 0.363,
         "kept": 14
       },
       {
         "host": "www.bls.gov",
-        "sec": 0.242,
+        "sec": 0.236,
+        "kept": 0
+      },
+      {
+        "host": "www.nhl.com",
+        "sec": 0.119,
         "kept": 0
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.131,
+        "sec": 0.09,
         "kept": 14
-      },
-      {
-        "host": "www.nhl.com",
-        "sec": 0.114,
-        "kept": 0
       }
     ],
-    "elapsed_sec": 335.5,
+    "elapsed_sec": 316.23,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1100,7 +1094,7 @@
       "sports_team_hits": 5,
       "sports_player_hits": 3,
       "sports_result_win_hits": 19,
-      "sports_result_loss_hits": 1,
+      "sports_result_loss_hits": 2,
       "sports_evening_hits": 0,
       "sports_playoff_hits": 0,
       "sports_focus_team_hits": 9,
@@ -1118,8 +1112,8 @@
       "business_am_hits": 0
     },
     "sanity_stats": {
-      "link_verification_fail": 27,
-      "soft_404_drops": 32,
+      "link_verification_fail": 29,
+      "soft_404_drops": 30,
       "max_age_drops": 0,
       "min_age_drops": 8,
       "market_sanity_drops": 4,
