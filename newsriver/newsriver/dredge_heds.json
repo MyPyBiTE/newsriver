@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Multiple tenants complain of heat issues at High Park apartment complex",
-      "display":"Multiple tenants complain of heat issues at High Park apartment complex",
-      "url":"https://toronto.citynews.ca/2026/01/27/multiple-tenants-complain-of-heat-issues-at-high-park-apartment-complex",
+      "text":"Dahlin leads Sabres over slumping Maple Leafs 7-4",
+      "display":"Dahlin leads Sabres over slumping Maple Leafs 7-4",
+      "url":"https://globalnews.ca/news/11640858/dahlin-leads-sabres-over-slumping-maple-leafs-7-4",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"3.7 magnitude earthquake recorded near Orillia, no reports of damage",
+      "display":"3.7 magnitude earthquake recorded near Orillia, no reports of damage",
+      "url":"https://toronto.citynews.ca/2026/01/27/3-7-magnitude-earthquake-reported-near-orillia",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"No compensation for Vancouver businesses affected by Broadway Subway Project",
-      "display":"No compensation for Vancouver businesses affected by Broadway Subway Project",
-      "url":"https://globalnews.ca/news/11640640/no-compensation-vancouver-businesses-broadway-subway-construction",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "display":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "url":"https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
+      "text":"Australia news live: 11,000 homes without power amid Victoria heatwave as six bushfires still burning across state",
+      "display":"Australia news live: 11,000 homes without power amid Victoria heatwave as six bushfires still burning across state",
+      "url":"https://www.theguardian.com/australia-news/live/2026/jan/28/australia-news-live-anthony-albanese-timor-leste-heatwave-nsw-bushfires-victoria-weather-liberals-leadership-sussan-ley-andrew-hastie-angus-taylor-ntwnfb",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-01-28T04:55:41Z"
+  "generated_utc":"2026-01-28T05:22:15Z"
 }
