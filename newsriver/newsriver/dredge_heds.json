@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Toronto police arrest man accused of impersonating fellow inmate to escape custody",
-      "display":"Toronto police arrest man accused of impersonating fellow inmate to escape custody",
-      "url":"https://toronto.citynews.ca/2026/01/29/toronto-police-inmate-escape-man-charged",
+      "text":"Ontario city under month-long ‘high alert’ over 300 cm of snowfall",
+      "display":"Ontario city under month-long ‘high alert’ over 300 cm of snowfall",
+      "url":"https://globalnews.ca/news/11643027/ontario-city-snow-removal",
+      "flags":{
+        "is_breaking":true,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Weekend need-to-know: Winterlicious returns, parts of DVP and Gardiner closed",
+      "display":"Weekend need-to-know: Winterlicious returns, parts of DVP and Gardiner closed",
+      "url":"https://toronto.citynews.ca/2026/01/29/weekend-need-to-know-winterlicious-returns-parts-of-dvp-and-gardiner-closed",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Team Canada skeleton actions ruled ‘intentional’ to keep U.S. athlete out of competition",
-      "display":"Team Canada skeleton actions ruled ‘intentional’ to keep U.S. athlete out of competition",
-      "url":"https://globalnews.ca/news/11643065/skeleton-team-canada-intentional-manipulated-katie-uhlaender",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Charli XCX’s Wuthering Heights Has A Sky Ferreira Collab",
-      "display":"Charli XCX’s Wuthering Heights Has A Sky Ferreira Collab",
-      "url":"https://stereogum.com/2487011/charli-xcxs-wuthering-heights-has-a-sky-ferreira-collab/news",
+      "text":"Slash: Next Guns N’ Roses Album to Feature All “New Original Stuff,” No Chinese Democracy Leftovers",
+      "display":"Slash: Next Guns N’ Roses Album to Feature All “New Original Stuff,” No Chinese Democracy Leftovers",
+      "url":"https://consequence.net/2026/01/slash-new-guns-n-roses-album-all-original-stuff",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-01-29T15:51:57Z"
+  "generated_utc":"2026-01-29T16:32:16Z"
 }
