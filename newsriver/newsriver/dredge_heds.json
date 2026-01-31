@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Why Raptors should avoid Giannis Antetokounmpo trade",
-      "display":"Why Raptors should avoid Giannis Antetokounmpo trade",
-      "url":"https://toronto.citynews.ca/2026/01/31/why-raptors-should-avoid-giannis-antetokounmpo-trade",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"Major weather alerts issued for Saskatchewan, Toronto and N.S",
       "display":"Major weather alerts issued for Saskatchewan, Toronto and N.S",
       "url":"https://globalnews.ca/news/11646678/winter-alerts-saskatchewan-ontario-n-s",
@@ -21,9 +11,19 @@
       }
     },
     {
-      "text":"Get Out of Our Cities: Another Nationwide Uprising Against ICE",
-      "display":"Get Out of Our Cities: Another Nationwide Uprising Against ICE",
-      "url":"https://www.motherjones.com/politics/2026/01/get-out-of-our-cities-another-nationwide-uprising-against-ice",
+      "text":"How Our Presidential Endorsement Tracker Works",
+      "display":"How Our Presidential Endorsement Tracker Works",
+      "url":"https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Trump is like this fascist dictator — it isn't Hitler",
+      "display":"Trump is like this fascist dictator — it isn't Hitler",
+      "url":"https://www.rawstory.com/trump-fascist-2675062586",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-01-31T18:54:11Z"
+  "generated_utc":"2026-01-31T19:14:26Z"
 }
