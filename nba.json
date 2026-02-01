@@ -1,34 +1,8 @@
 {
-  "generated_utc": "2026-02-01T22:30:35.390711Z",
+  "generated_utc": "2026-02-01T22:55:47.745820Z",
   "dates": [
     {
       "games": [
-        {
-          "gamePk": "401810557",
-          "gameDate": "2026-02-01T20:30Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "MIL"
-              },
-              "score": 63
-            },
-            "home": {
-              "team": {
-                "abbreviation": "BOS"
-              },
-              "score": 82
-            }
-          }
-        },
         {
           "gamePk": "401810559",
           "gameDate": "2026-02-01T23:00Z",
@@ -260,6 +234,32 @@
                 "abbreviation": "DEN"
               },
               "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401810557",
+          "gameDate": "2026-02-01T20:30Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "MIL"
+              },
+              "score": 79
+            },
+            "home": {
+              "team": {
+                "abbreviation": "BOS"
+              },
+              "score": 107
             }
           }
         }
