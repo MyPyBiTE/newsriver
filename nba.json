@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-02-01T19:56:18.722024Z",
+  "generated_utc": "2026-02-01T20:27:22.993356Z",
   "dates": [
     {
       "games": [
@@ -134,32 +134,6 @@
           }
         },
         {
-          "gamePk": "401810558",
-          "gameDate": "2026-02-02T00:00Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "ORL"
-              },
-              "score": 0
-            },
-            "home": {
-              "team": {
-                "abbreviation": "SAS"
-              },
-              "score": 0
-            }
-          }
-        },
-        {
           "gamePk": "401810563",
           "gameDate": "2026-02-02T00:00Z",
           "status": {
@@ -206,6 +180,32 @@
             "home": {
               "team": {
                 "abbreviation": "PHX"
+              },
+              "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401810558",
+          "gameDate": "2026-02-02T02:00Z",
+          "status": {
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "ORL"
+              },
+              "score": 0
+            },
+            "home": {
+              "team": {
+                "abbreviation": "SAS"
               },
               "score": 0
             }
