@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Prince Rupert man feared a ‘hit’ had been ordered before his family’s death, inquest hears",
-      "display":"Prince Rupert man feared a ‘hit’ had been ordered before his family’s death, inquest hears",
-      "url":"https://globalnews.ca/news/11649411/coroners-inquest-prince-rupert-duong-nguyen-deaths",
+      "text":"Man wanted for allegedly breaking into storage lockers in parking lot of Toronto condo building",
+      "display":"Man wanted for allegedly breaking into storage lockers in parking lot of Toronto condo building",
+      "url":"https://toronto.citynews.ca/2026/02/02/man-wanted-for-allegedly-breaking-into-storage-lockers-in-parking-lot-of-toronto-condo-building",
+      "flags":{
+        "is_breaking":true,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Extra Alberta ER doctor shifts delayed amid talks between government, physicians",
+      "display":"Extra Alberta ER doctor shifts delayed amid talks between government, physicians",
+      "url":"https://globalnews.ca/news/11649830/extra-alberta-er-doctor-shifts-delayed-amid-talks-between-government-physicians",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"GO train derailment coupled with numerous TTC disruptions makes for rough transit day",
-      "display":"GO train derailment coupled with numerous TTC disruptions makes for rough transit day",
-      "url":"https://toronto.citynews.ca/2026/02/02/go-train-derailment-coupled-with-numerous-ttc-disruptions-makes-for-rough-transit-day",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Approval of Pierre Poilievre has reached an all-time low",
-      "display":"Approval of Pierre Poilievre has reached an all-time low",
-      "url":"https://cultmtl.com/2026/02/approval-rating-of-pierre-poilievre-favourability-unfavourability",
+      "text":"Calgary’s housing market cools as inventory builds",
+      "display":"Calgary’s housing market cools as inventory builds",
+      "url":"https://www.canadianmortgagetrends.com/2026/02/calgarys-housing-market-cools-as-inventory-builds",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-02-03T03:44:58Z"
+  "generated_utc":"2026-02-03T05:07:18Z"
 }
