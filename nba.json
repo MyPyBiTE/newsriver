@@ -1,34 +1,8 @@
 {
-  "generated_utc": "2026-02-03T05:30:51.018079Z",
+  "generated_utc": "2026-02-03T06:29:27.183113Z",
   "dates": [
     {
       "games": [
-        {
-          "gamePk": "401810570",
-          "gameDate": "2026-02-03T03:00Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "PHI"
-              },
-              "score": 128
-            },
-            "home": {
-              "team": {
-                "abbreviation": "LAC"
-              },
-              "score": 113
-            }
-          }
-        },
         {
           "gamePk": "401810571",
           "gameDate": "2026-02-04T00:00Z",
@@ -290,6 +264,32 @@
           }
         },
         {
+          "gamePk": "401810570",
+          "gameDate": "2026-02-03T03:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "PHI"
+              },
+              "score": 128
+            },
+            "home": {
+              "team": {
+                "abbreviation": "LAC"
+              },
+              "score": 113
+            }
+          }
+        },
+        {
           "gamePk": "401810569",
           "gameDate": "2026-02-03T00:30Z",
           "status": {
@@ -314,32 +314,6 @@
               "score": 137
             }
           }
-        },
-        {
-          "gamePk": "401810568",
-          "gameDate": "2026-02-03T00:00Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "HOU"
-              },
-              "score": 118
-            },
-            "home": {
-              "team": {
-                "abbreviation": "IND"
-              },
-              "score": 114
-            }
-          }
         }
       ]
     }
@@ -350,7 +324,7 @@
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260202",
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260203"
     ],
-    "games_count": 13,
+    "games_count": 12,
     "http_timeout_sec": 12.0,
     "version": "nba-relay-1.1",
     "preview_hours": 36,
