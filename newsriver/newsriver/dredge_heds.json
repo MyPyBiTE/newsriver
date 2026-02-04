@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Police seek 2 suspects after violent Scarborough home invasion",
-      "display":"Police seek 2 suspects after violent Scarborough home invasion",
-      "url":"https://toronto.citynews.ca/2026/02/04/police-seek-2-suspects-after-violent-scarborough-home-invasion",
+      "text":"Chris Paul traded to Raptors, will not report to Toronto: report",
+      "display":"Chris Paul traded to Raptors, will not report to Toronto: report",
+      "url":"https://toronto.citynews.ca/2026/02/04/chris-paul-traded-to-raptors-will-not-report-to-toronto-report",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Washington Post layoffs include entire Ukraine, Middle East bureaus",
+      "display":"Washington Post layoffs include entire Ukraine, Middle East bureaus",
+      "url":"https://globalnews.ca/news/11652434/washington-post-layoffs-journalism-international",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Former Nova Scotia health care CEO sentenced for defrauding children’s hospital",
-      "display":"Former Nova Scotia health care CEO sentenced for defrauding children’s hospital",
-      "url":"https://globalnews.ca/news/11652562/iwk-tracy-kitch-sentenced-fraud",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Politics Podcast",
-      "display":"Politics Podcast",
-      "url":"https://fivethirtyeight.com/tag/politics-podcast",
+      "text":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
+      "display":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
+      "url":"https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-02-04T22:21:31Z"
+  "generated_utc":"2026-02-04T22:50:06Z"
 }
