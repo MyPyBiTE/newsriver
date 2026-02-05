@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Information allegedly leaked by 7 Toronto police officers to crime groups led to shootings",
-      "display":"Information allegedly leaked by 7 Toronto police officers to crime groups led to shootings",
-      "url":"https://globalnews.ca/news/11653820/toronto-police-officers-charged-corruption-organized-crime",
+      "text":"Blue Jays announce promotions for 50th anniversary season",
+      "display":"Blue Jays announce promotions for 50th anniversary season",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-announce-2026-promotions-schedule",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Toronto police chief rips officers accused of corruption. Here’s what he said",
+      "display":"Toronto police chief rips officers accused of corruption. Here’s what he said",
+      "url":"https://globalnews.ca/news/11654000/myron-demkiw-toronto-police-corruption",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Tulsi Gabbard mistakenly gave up 'biggest smoking gun' against president: ex-Trump staffer",
-      "display":"Tulsi Gabbard mistakenly gave up 'biggest smoking gun' against president: ex-Trump staffer",
-      "url":"https://www.rawstory.com/ex-2675099995",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Trump’s FBI Raid Could Lead to a Takeover of Elections in Georgia’s Largest County",
-      "display":"Trump’s FBI Raid Could Lead to a Takeover of Elections in Georgia’s Largest County",
-      "url":"https://www.motherjones.com/politics/2026/02/trumps-fbi-raid-could-lead-to-a-takeover-of-elections-fulton-county-georgia",
+      "text":"Canada‑wide warrant issued for man accused of sexually assaulting girl under 16",
+      "display":"Canada‑wide warrant issued for man accused of sexually assaulting girl under 16",
+      "url":"https://toronto.citynews.ca/2026/02/05/canada-wide-arrest-warrant-sexual-assault-suspect",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-02-05T17:06:11Z"
+  "generated_utc":"2026-02-05T18:01:37Z"
 }
