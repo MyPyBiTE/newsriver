@@ -1,60 +1,8 @@
 {
-  "generated_utc": "2026-02-05T05:34:17.179431Z",
+  "generated_utc": "2026-02-05T06:34:58.542646Z",
   "dates": [
     {
       "games": [
-        {
-          "gamePk": "401810586",
-          "gameDate": "2026-02-05T03:00Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "MEM"
-              },
-              "score": 126
-            },
-            "home": {
-              "team": {
-                "abbreviation": "SAC"
-              },
-              "score": 122
-            }
-          }
-        },
-        {
-          "gamePk": "401810587",
-          "gameDate": "2026-02-05T03:30Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "CLE"
-              },
-              "score": 117
-            },
-            "home": {
-              "team": {
-                "abbreviation": "LAC"
-              },
-              "score": 83
-            }
-          }
-        },
         {
           "gamePk": "401810588",
           "gameDate": "2026-02-06T00:00Z",
@@ -264,6 +212,58 @@
           }
         },
         {
+          "gamePk": "401810587",
+          "gameDate": "2026-02-05T03:30Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "CLE"
+              },
+              "score": 124
+            },
+            "home": {
+              "team": {
+                "abbreviation": "LAC"
+              },
+              "score": 91
+            }
+          }
+        },
+        {
+          "gamePk": "401810586",
+          "gameDate": "2026-02-05T03:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "MEM"
+              },
+              "score": 129
+            },
+            "home": {
+              "team": {
+                "abbreviation": "SAC"
+              },
+              "score": 125
+            }
+          }
+        },
+        {
           "gamePk": "401810585",
           "gameDate": "2026-02-05T02:30Z",
           "status": {
@@ -340,58 +340,6 @@
               "score": 141
             }
           }
-        },
-        {
-          "gamePk": "401810582",
-          "gameDate": "2026-02-05T00:30Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "MIN"
-              },
-              "score": 128
-            },
-            "home": {
-              "team": {
-                "abbreviation": "TOR"
-              },
-              "score": 126
-            }
-          }
-        },
-        {
-          "gamePk": "401810581",
-          "gameDate": "2026-02-05T00:00Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "DEN"
-              },
-              "score": 127
-            },
-            "home": {
-              "team": {
-                "abbreviation": "NYK"
-              },
-              "score": 134
-            }
-          }
         }
       ]
     }
@@ -402,7 +350,7 @@
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260204",
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260205"
     ],
-    "games_count": 15,
+    "games_count": 13,
     "http_timeout_sec": 12.0,
     "version": "nba-relay-1.1",
     "preview_hours": 36,
