@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-02-07T22:00:50.513644Z",
+  "generated_utc": "2026-02-07T22:43:39.915893Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401810602",
-          "gameDate": "2026-02-07T20:00Z",
+          "gamePk": "401810603",
+          "gameDate": "2026-02-07T20:30Z",
           "status": {
             "detailedState": "Live",
             "abstractGameState": "Live"
@@ -17,41 +17,15 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "WSH"
-              },
-              "score": 88
-            },
-            "home": {
-              "team": {
-                "abbreviation": "BKN"
-              },
-              "score": 108
-            }
-          }
-        },
-        {
-          "gamePk": "401810603",
-          "gameDate": "2026-02-07T20:30Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "3rd",
-            "currentQuarter": "3rd"
-          },
-          "teams": {
-            "away": {
-              "team": {
                 "abbreviation": "HOU"
               },
-              "score": 54
+              "score": 91
             },
             "home": {
               "team": {
                 "abbreviation": "OKC"
               },
-              "score": 54
+              "score": 91
             }
           }
         },
@@ -260,6 +234,32 @@
                 "abbreviation": "SAC"
               },
               "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401810602",
+          "gameDate": "2026-02-07T20:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "WSH"
+              },
+              "score": 113
+            },
+            "home": {
+              "team": {
+                "abbreviation": "BKN"
+              },
+              "score": 127
             }
           }
         }
