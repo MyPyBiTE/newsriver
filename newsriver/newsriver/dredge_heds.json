@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"New year, new questions facing Blue Jays",
-      "display":"New year, new questions facing Blue Jays",
-      "url":"https://www.mlb.com/bluejays/news/questions-for-blue-jays-heading-into-spring-training",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"B.C. needs new mental health hospital, psychiatrist tells inquest into family’s death",
       "display":"B.C. needs new mental health hospital, psychiatrist tells inquest into family’s death",
       "url":"https://globalnews.ca/news/11657605/b-c-mental-health-inquest-deaths",
@@ -21,9 +11,19 @@
       }
     },
     {
-      "text":"Ottawa gives Canada Post a $1.01-billion loan amid ongoing financial struggles",
-      "display":"Ottawa gives Canada Post a $1.01-billion loan amid ongoing financial struggles",
-      "url":"https://toronto.citynews.ca/2026/02/07/ottawa-gives-canada-post-a-1-01-billion-loan-amid-ongoing-financial-struggles",
+      "text":"Gaza’s Rafah border crossing has reopened but few people have crossed",
+      "display":"Gaza’s Rafah border crossing has reopened but few people have crossed",
+      "url":"https://toronto.citynews.ca/2026/02/07/gazas-rafah-border-crossing-has-reopened-but-few-people-have-crossed",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"How Patriots used Bad Bunny to prepare for Super Bowl 2026",
+      "display":"How Patriots used Bad Bunny to prepare for Super Bowl 2026",
+      "url":"https://nypost.com/2026/02/07/sports/how-patriots-used-bad-bunny-to-prepare-for-super-bowl-2026",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-02-07T19:42:40Z"
+  "generated_utc":"2026-02-07T20:16:11Z"
 }
