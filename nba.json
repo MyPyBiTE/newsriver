@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-02-07T19:51:18.039600Z",
+  "generated_utc": "2026-02-07T20:23:39.840197Z",
   "dates": [
     {
       "games": [
@@ -7,25 +7,25 @@
           "gamePk": "401810602",
           "gameDate": "2026-02-07T20:00Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "WSH"
               },
-              "score": 0
+              "score": 13
             },
             "home": {
               "team": {
                 "abbreviation": "BKN"
               },
-              "score": 0
+              "score": 19
             }
           }
         },
