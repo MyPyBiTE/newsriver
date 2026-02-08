@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Barnes leads Raptors in 122-104 rout of Pacers",
-      "display":"Barnes leads Raptors in 122-104 rout of Pacers",
-      "url":"https://globalnews.ca/news/11658449/raptors-quickley-a-game-time-decision-vs-pacers",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"Police identify Chanda Kumar Raja Nandakumar, 37, as victim in Woodbine Mall shooting",
       "display":"Police identify Chanda Kumar Raja Nandakumar, 37, as victim in Woodbine Mall shooting",
       "url":"https://toronto.citynews.ca/2026/02/08/police-identify-chanda-kumar-raja-nandakumar-37-as-victim-in-woodbine-mall-shooting",
@@ -21,9 +11,19 @@
       }
     },
     {
-      "text":"Television Bassist Fred Smith Dies at 77",
-      "display":"Television Bassist Fred Smith Dies at 77",
-      "url":"https://pitchfork.com/news/television-bassist-fred-smith-dies-at-77",
+      "text":"Ville-Marie borough under boil water advisory, City of Montreal says",
+      "display":"Ville-Marie borough under boil water advisory, City of Montreal says",
+      "url":"https://globalnews.ca/news/11658628/montreal-ville-marie-boil-water-advisory",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
+      "display":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
+      "url":"https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-02-08T23:21:20Z"
+  "generated_utc":"2026-02-08T23:51:19Z"
 }
