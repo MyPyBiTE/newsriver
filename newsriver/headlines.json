@@ -1,8 +1,24 @@
 {
-  "generated_utc": "2026-02-08T09:48:05.365Z",
-  "itemset_hash": "abd509875c1643be",
+  "generated_utc": "2026-02-08T10:04:02.946Z",
+  "itemset_hash": "ba9f717d027380f0",
   "count": 69,
   "items": [
+    {
+      "title": "The HYPEBEAST TWENTY T-Shirt Exhibition Lands in Hong Kong",
+      "url": "https://hypebeast.com/2026/2/hypebeast-20th-anniversary-t-shirt-exhibition-hong-kong",
+      "source": "Hypebeast",
+      "published_utc": "2026-02-08T09:59:28.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
     {
       "title": "Teyana Taylor shares advice from Beyoncé on dealing with “isolating” music industry: “Don’t take it personal, invest in yourself”",
       "url": "https://www.nme.com/news/music/teyana-taylor-shares-advice-from-beyonce-on-dealing-with-isolating-music-industry-dont-take-it-personal-invest-in-yourself-3928110",
@@ -959,22 +975,6 @@
       },
       "category": "Labour",
       "region": "Canada"
-    },
-    {
-      "title": "Canadian women top Switzerland 4-0 to open Olympic title defence",
-      "url": "https://toronto.citynews.ca/2026/02/07/canadian-women-top-switzerland-4-0-to-open-olympic-title-defence",
-      "source": "CityNews Toronto",
-      "published_utc": "2026-02-07T22:35:02.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Local",
-      "region": "Canada"
     }
   ],
   "_debug": {
@@ -983,9 +983,7 @@
     "collected": 451,
     "dedup_pass1": 442,
     "dedup_final": 320,
-    "slow_domains": [
-      "www.gorillavsbear.net"
-    ],
+    "slow_domains": [],
     "timeouts": [
       "news.communitech.ca",
       "www.cbc.ca"
@@ -1002,56 +1000,56 @@
     "feed_times_sample": [
       {
         "host": "www.labourstart.org",
-        "sec": 1.395,
+        "sec": 1.4,
         "kept": 0
       },
       {
         "host": "toronto.citynews.ca",
-        "sec": 1.025,
+        "sec": 1.049,
         "kept": 8
       },
       {
         "host": "www.cp24.com",
-        "sec": 0.709,
+        "sec": 0.467,
         "kept": 14
       },
       {
         "host": "www.mlb.com",
-        "sec": 0.574,
+        "sec": 0.449,
         "kept": 14
       },
       {
-        "host": "www.blogto.com",
-        "sec": 0.518,
-        "kept": 0
-      },
-      {
         "host": "globalnews.ca",
-        "sec": 0.363,
+        "sec": 0.412,
         "kept": 10
       },
       {
+        "host": "www.blogto.com",
+        "sec": 0.35,
+        "kept": 0
+      },
+      {
         "host": "www.mlbtraderumors.com",
-        "sec": 0.333,
+        "sec": 0.321,
         "kept": 14
       },
       {
         "host": "www.bls.gov",
-        "sec": 0.316,
+        "sec": 0.224,
         "kept": 0
       },
       {
         "host": "www.nhl.com",
-        "sec": 0.179,
+        "sec": 0.209,
         "kept": 0
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.145,
+        "sec": 0.151,
         "kept": 14
       }
     ],
-    "elapsed_sec": 329.11,
+    "elapsed_sec": 319.76,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
