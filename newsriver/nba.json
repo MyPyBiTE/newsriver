@@ -1,34 +1,8 @@
 {
-  "generated_utc": "2026-02-08T20:51:37.378040Z",
+  "generated_utc": "2026-02-08T21:24:18.771401Z",
   "dates": [
     {
       "games": [
-        {
-          "gamePk": "401810613",
-          "gameDate": "2026-02-08T19:00Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "3rd",
-            "currentQuarter": "3rd"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "MIA"
-              },
-              "score": 107
-            },
-            "home": {
-              "team": {
-                "abbreviation": "WSH"
-              },
-              "score": 75
-            }
-          }
-        },
         {
           "gamePk": "401810614",
           "gameDate": "2026-02-08T20:00Z",
@@ -45,13 +19,13 @@
               "team": {
                 "abbreviation": "IND"
               },
-              "score": 24
+              "score": 48
             },
             "home": {
               "team": {
                 "abbreviation": "TOR"
               },
-              "score": 28
+              "score": 46
             }
           }
         },
@@ -71,13 +45,39 @@
               "team": {
                 "abbreviation": "LAC"
               },
-              "score": 30
+              "score": 54
             },
             "home": {
               "team": {
                 "abbreviation": "MIN"
               },
-              "score": 33
+              "score": 42
+            }
+          }
+        },
+        {
+          "gamePk": "401810613",
+          "gameDate": "2026-02-08T19:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "MIA"
+              },
+              "score": 132
+            },
+            "home": {
+              "team": {
+                "abbreviation": "WSH"
+              },
+              "score": 101
             }
           }
         },
