@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Public hearing set for controversial Kelowna golf course redevelopment",
-      "display":"Public hearing set for controversial Kelowna golf course redevelopment",
-      "url":"https://globalnews.ca/news/11662139/public-hearing-set-kelowna-golf-course-redevelopment",
+      "text":"An early crack at predicting the Blue Jays' Opening Day roster",
+      "display":"An early crack at predicting the Blue Jays' Opening Day roster",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-2026-opening-day-roster",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"B.C. school shooting ‘one of the worst mass shootings’ in Canada, minister says",
+      "display":"B.C. school shooting ‘one of the worst mass shootings’ in Canada, minister says",
+      "url":"https://globalnews.ca/news/11662457/tumbler-ridge-bc-school-shooting-worst-mass-shootings-canada",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "display":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "url":"https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"South African Refugees Are Left to Fend for Themselves",
-      "display":"South African Refugees Are Left to Fend for Themselves",
-      "url":"https://www.thefp.com/p/south-african-refugees-are-left-to",
+      "text":"Toronto city council approves 2026 budget including 2.2 per cent property tax hike",
+      "display":"Toronto city council approves 2026 budget including 2.2 per cent property tax hike",
+      "url":"https://toronto.citynews.ca/2026/02/10/toronto-city-council-approves-2026-budget-including-2-2-per-cent-property-tax-hike",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-02-11T04:39:48Z"
+  "generated_utc":"2026-02-11T05:56:31Z"
 }
