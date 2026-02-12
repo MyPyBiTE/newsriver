@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-02-12T07:30:59.285333Z",
+  "generated_utc": "2026-02-12T08:06:30.410548Z",
   "dates": [
     {
       "games": [
@@ -106,84 +106,6 @@
               "score": 113
             }
           }
-        },
-        {
-          "gamePk": "401810640",
-          "gameDate": "2026-02-12T02:00Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "OKC"
-              },
-              "score": 136
-            },
-            "home": {
-              "team": {
-                "abbreviation": "PHX"
-              },
-              "score": 109
-            }
-          }
-        },
-        {
-          "gamePk": "401810641",
-          "gameDate": "2026-02-12T02:00Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "SAC"
-              },
-              "score": 93
-            },
-            "home": {
-              "team": {
-                "abbreviation": "UTAH"
-              },
-              "score": 121
-            }
-          }
-        },
-        {
-          "gamePk": "401810642",
-          "gameDate": "2026-02-12T02:00Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "MEM"
-              },
-              "score": 116
-            },
-            "home": {
-              "team": {
-                "abbreviation": "DEN"
-              },
-              "score": 122
-            }
-          }
         }
       ]
     }
@@ -194,7 +116,7 @@
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260211",
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260212"
     ],
-    "games_count": 7,
+    "games_count": 4,
     "http_timeout_sec": 12.0,
     "version": "nba-relay-1.1",
     "preview_hours": 36,
