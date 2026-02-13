@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-02-13T07:39:25.438734Z",
+  "generated_utc": "2026-02-13T08:25:40.354592Z",
   "dates": [
     {
       "games": [
@@ -28,32 +28,6 @@
               "score": 124
             }
           }
-        },
-        {
-          "gamePk": "401810645",
-          "gameDate": "2026-02-13T02:00Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "POR"
-              },
-              "score": 135
-            },
-            "home": {
-              "team": {
-                "abbreviation": "UTAH"
-              },
-              "score": 119
-            }
-          }
         }
       ]
     }
@@ -64,7 +38,7 @@
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260212",
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260213"
     ],
-    "games_count": 2,
+    "games_count": 1,
     "http_timeout_sec": 12.0,
     "version": "nba-relay-1.1",
     "preview_hours": 36,
