@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"72-year-old woman dead, another injured in Belleville house fire",
-      "display":"72-year-old woman dead, another injured in Belleville house fire",
-      "url":"https://globalnews.ca/news/11666824/woman-dead-injured-belleville-house-fire",
+      "text":"Blue Jays, Astros swap OFs: Sánchez to Toronto, Loperfido to Houston",
+      "display":"Blue Jays, Astros swap OFs: Sánchez to Toronto, Loperfido to Houston",
+      "url":"https://www.mlb.com/bluejays/news/jesus-sanchez-traded-to-blue-jays-for-joey-loperfido",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Youths face nearly 200 charges in rash of Mississauga break and enters",
+      "display":"Youths face nearly 200 charges in rash of Mississauga break and enters",
+      "url":"https://toronto.citynews.ca/2026/02/13/youths-face-nearly-200-charges-in-rash-of-mississauga-break-and-enters",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Dead-last Oshawa Generals ‘sorry’ after imploring fans to shower before games",
-      "display":"Dead-last Oshawa Generals ‘sorry’ after imploring fans to shower before games",
-      "url":"https://toronto.citynews.ca/2026/02/13/dead-last-oshawa-generals-sorry-after-imploring-fans-to-shower-before-games",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"How Our Presidential Endorsement Tracker Works",
-      "display":"How Our Presidential Endorsement Tracker Works",
-      "url":"https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
+      "text":"B.C. First Nation opposes cull on its territory after footage of ‘Judas’ wolf",
+      "display":"B.C. First Nation opposes cull on its territory after footage of ‘Judas’ wolf",
+      "url":"https://globalnews.ca/news/11666895/first-nation-wolf-cull-territory-judas-wolf",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-02-13T19:29:07Z"
+  "generated_utc":"2026-02-13T19:58:08Z"
 }
