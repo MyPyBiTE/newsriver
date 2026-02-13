@@ -1,18 +1,44 @@
 {
-  "generated_utc": "2026-02-13T04:28:08.914369Z",
+  "generated_utc": "2026-02-13T05:44:16.003029Z",
   "dates": [
     {
       "games": [
         {
+          "gamePk": "401810646",
+          "gameDate": "2026-02-13T03:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "DAL"
+              },
+              "score": 104
+            },
+            "home": {
+              "team": {
+                "abbreviation": "LAL"
+              },
+              "score": 124
+            }
+          }
+        },
+        {
           "gamePk": "401810645",
           "gameDate": "2026-02-13T02:00Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
@@ -25,33 +51,7 @@
               "team": {
                 "abbreviation": "UTAH"
               },
-              "score": 118
-            }
-          }
-        },
-        {
-          "gamePk": "401810646",
-          "gameDate": "2026-02-13T03:00Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "3rd",
-            "currentQuarter": "3rd"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "DAL"
-              },
-              "score": 63
-            },
-            "home": {
-              "team": {
-                "abbreviation": "LAL"
-              },
-              "score": 64
+              "score": 119
             }
           }
         },
@@ -87,8 +87,8 @@
   "_meta": {
     "source": "espn",
     "urls": [
-      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260211",
-      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260212"
+      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260212",
+      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260213"
     ],
     "games_count": 3,
     "http_timeout_sec": 12.0,
