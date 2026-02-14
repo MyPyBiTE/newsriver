@@ -1,29 +1,29 @@
 {
   "items":[
     {
-      "text":"Highway 407 on-ramp closed after serious collision: police",
-      "display":"Highway 407 on-ramp closed after serious collision: police",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Tumbler Ridge students won’t ‘return to current school site’ after mass shooting",
+      "display":"Tumbler Ridge students won’t ‘return to current school site’ after mass shooting",
+      "url":"https://globalnews.ca/news/11668068/tumbler-ridge-school-shooting-site",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"OPP investigate fatal crash on Hwy. 407 at Hwy. 404 in Markham",
+      "display":"OPP investigate fatal crash on Hwy. 407 at Hwy. 404 in Markham",
       "url":"https://toronto.citynews.ca/2026/02/14/on-ramp-of-highway-407-closed-after-serious-collision-police",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Canada-Germany AI declaration signals further drift away from U.S.",
-      "display":"Canada-Germany AI declaration signals further drift away from U.S.",
-      "url":"https://globalnews.ca/news/11668118/canada-signs-ai-declaration-germany",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Why people around NFL believe Matt Nagy could be perfect fit for Jaxon Dart’s Giants development",
-      "display":"Why people around NFL believe Matt Nagy could be perfect fit for Jaxon Dart’s Giants development",
-      "url":"https://nypost.com/2026/02/14/sports/why-nfl-people-believe-matt-nagy-could-be-perfect-fit-for-jaxon-dart",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-02-14T20:47:37Z"
+  "generated_utc":"2026-02-14T21:15:17Z"
 }
