@@ -1,8 +1,69 @@
 {
-  "generated_utc": "2026-02-14T22:26:52.412Z",
-  "itemset_hash": "b370c511f67291a1",
+  "generated_utc": "2026-02-14T22:51:46.718Z",
+  "itemset_hash": "2cc9ccd35a43f9e1",
   "count": 69,
   "items": [
+    {
+      "title": "5 things to know from Saturday at the Winter Games",
+      "url": "https://globalnews.ca/news/11668377/5-things-to-know-from-saturday-at-the-winter-games-2",
+      "source": "globalnews.ca",
+      "published_utc": "2026-02-14T22:44:14.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2026-02-14T22:31:39.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Canada’s Homan blasts officials after controversial call, loss at Olympics",
+      "url": "https://toronto.citynews.ca/2026/02/14/canadas-homan-blasts-officials-after-controversial-call-loss-at-olympics",
+      "source": "CityNews Toronto",
+      "published_utc": "2026-02-14T22:29:45.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "Obama addresses racist video shared by Trump depicting him as an ape",
+      "url": "https://www.bbc.com/news/articles/c74754j7qwgo?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2026-02-14T22:24:14.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
     {
       "title": "Manchester Orchestra drummer Timothy Very dies: “We love you Tim, thank you for loving us”",
       "url": "https://www.nme.com/news/music/manchester-orchestra-drummer-timothy-very-dies-we-love-you-tim-thank-you-for-loving-us-3929489",
@@ -359,22 +420,6 @@
       },
       "category": "Labour",
       "region": "World"
-    },
-    {
-      "title": "Canada-Germany AI declaration signals further drift away from U.S.",
-      "url": "https://globalnews.ca/news/11668118/canada-signs-ai-declaration-germany",
-      "source": "globalnews.ca",
-      "published_utc": "2026-02-14T19:36:05.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "General",
-      "region": "Canada"
     },
     {
       "title": "US, Iran to hold new round of nuclear talks in Geneva this week, Swiss government says",
@@ -913,22 +958,6 @@
       "region": "World"
     },
     {
-      "title": "Cyclist seriously injured after Brampton collision",
-      "url": "https://toronto.citynews.ca/2026/02/14/cyclist-seriously-injured-after-brampton-collision",
-      "source": "CityNews Toronto",
-      "published_utc": "2026-02-14T16:36:07.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Labour",
-      "region": "Canada"
-    },
-    {
       "title": "‘Nightborn’ Filmmakers Jump Into Berlinale Political Debate: “We Have A Responsibility To Speak Up Against Violence And Injustice”",
       "url": "https://deadline.com/2026/02/nightborn-berlinale-politics-violence-injustice-1236724862",
       "source": "Deadline",
@@ -966,35 +995,6 @@
       },
       "category": "Culture",
       "region": "World"
-    },
-    {
-      "title": "Planned US-funded baby vaccine trial in Guinea-Bissau blasted by WHO",
-      "url": "https://www.bbc.com/news/articles/c78j5k2gk02o?at_campaign=rss&at_medium=RSS",
-      "source": "BBC News",
-      "published_utc": "2026-02-14T16:20:33.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Diamondbacks Sign Joe Ross, Oscar Mercado To Minor League Deals",
-      "url": "https://www.mlbtraderumors.com/2026/02/diamondbacks-sign-joe-ross-oscar-mercado-to-minor-league-deals.html",
-      "source": "MLB Trade Rumors",
-      "published_utc": "2026-02-14T16:18:38.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
     }
   ],
   "_debug": {
@@ -1004,7 +1004,8 @@
     "dedup_pass1": 442,
     "dedup_final": 320,
     "slow_domains": [
-      "www.cp24.com"
+      "www.gorillavsbear.net",
+      "www.thefader.com"
     ],
     "timeouts": [
       "news.communitech.ca",
@@ -1021,57 +1022,57 @@
     ],
     "feed_times_sample": [
       {
-        "host": "www.cp24.com",
-        "sec": 4.375,
-        "kept": 14
-      },
-      {
-        "host": "toronto.citynews.ca",
-        "sec": 2.109,
-        "kept": 8
-      },
-      {
         "host": "www.labourstart.org",
-        "sec": 1.771,
+        "sec": 1.242,
         "kept": 0
       },
       {
-        "host": "www.mlb.com",
-        "sec": 0.634,
+        "host": "toronto.citynews.ca",
+        "sec": 1.074,
+        "kept": 8
+      },
+      {
+        "host": "www.cp24.com",
+        "sec": 0.413,
         "kept": 14
       },
       {
         "host": "www.blogto.com",
-        "sec": 0.485,
-        "kept": 0
-      },
-      {
-        "host": "globalnews.ca",
-        "sec": 0.388,
-        "kept": 10
-      },
-      {
-        "host": "www.bls.gov",
-        "sec": 0.336,
+        "sec": 0.386,
         "kept": 0
       },
       {
         "host": "www.mlbtraderumors.com",
-        "sec": 0.326,
+        "sec": 0.295,
         "kept": 14
       },
       {
+        "host": "www.mlb.com",
+        "sec": 0.279,
+        "kept": 14
+      },
+      {
+        "host": "www.bls.gov",
+        "sec": 0.263,
+        "kept": 0
+      },
+      {
+        "host": "globalnews.ca",
+        "sec": 0.25,
+        "kept": 10
+      },
+      {
         "host": "www.nhl.com",
-        "sec": 0.233,
+        "sec": 0.136,
         "kept": 0
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.216,
+        "sec": 0.132,
         "kept": 14
       }
     ],
-    "elapsed_sec": 373.67,
+    "elapsed_sec": 345.87,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1128,7 +1129,7 @@
       "business_am_hits": 0
     },
     "sanity_stats": {
-      "link_verification_fail": 12,
+      "link_verification_fail": 13,
       "soft_404_drops": 18,
       "max_age_drops": 0,
       "min_age_drops": 0,
