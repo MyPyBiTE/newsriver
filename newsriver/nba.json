@@ -1,8 +1,47 @@
 {
-  "generated_utc": "2026-02-14T09:48:24.925907Z",
+  "generated_utc": "2026-02-14T10:01:30.278171Z",
   "dates": [
     {
-      "games": []
+      "games": [
+        {
+          "gamePk": "401838140",
+          "gameDate": "2026-02-15T22:00Z",
+          "status": {
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "WORLD"
+              },
+              "score": 0
+            },
+            "home": {
+              "team": {
+                "abbreviation": "STARS"
+              },
+              "score": 0
+            }
+          }
+        }
+      ]
     }
-  ]
+  ],
+  "_meta": {
+    "source": "espn",
+    "urls": [
+      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260213",
+      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260214"
+    ],
+    "games_count": 1,
+    "http_timeout_sec": 12.0,
+    "version": "nba-relay-1.1",
+    "preview_hours": 36,
+    "final_hours": 6
+  }
 }
