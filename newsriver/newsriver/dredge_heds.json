@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Ponce represents Blue Jays' wild card in heralded MLB return",
-      "display":"Ponce represents Blue Jays' wild card in heralded MLB return",
-      "url":"https://www.mlb.com/bluejays/news/cody-ponce-can-significantly-elevate-blue-jays-rotation",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"Four people killed in 4 separate snowmobile crashes in Quebec",
       "display":"Four people killed in 4 separate snowmobile crashes in Quebec",
       "url":"https://globalnews.ca/news/11669034/quebec-snowmobile-crashes-4-dead",
@@ -21,9 +11,19 @@
       }
     },
     {
-      "text":"Alberta RCMP receive more reports of people with weapons after Tumbler Ridge shooting",
-      "display":"Alberta RCMP receive more reports of people with weapons after Tumbler Ridge shooting",
-      "url":"https://toronto.citynews.ca/2026/02/15/alberta-rcmp-receive-more-reports-of-people-with-weapons-after-tumbler-ridge-shooting",
+      "text":"‘That’s an easy one’: Canada, France react to Tom Wilson’s Olympic fight",
+      "display":"‘That’s an easy one’: Canada, France react to Tom Wilson’s Olympic fight",
+      "url":"https://toronto.citynews.ca/2026/02/15/thats-an-easy-one-canada-france-react-to-tom-wilsons-olympic-fight",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
+      "display":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
+      "url":"https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-02-15T21:57:19Z"
+  "generated_utc":"2026-02-15T22:20:32Z"
 }
