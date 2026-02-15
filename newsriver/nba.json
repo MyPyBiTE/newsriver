@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-02-15T23:29:18.376097Z",
+  "generated_utc": "2026-02-15T23:52:48.663149Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401838141",
-          "gameDate": "2026-02-15T22:55Z",
+          "gamePk": "401838142",
+          "gameDate": "2026-02-15T23:25Z",
           "status": {
             "detailedState": "Live",
             "abstractGameState": "Live"
@@ -17,41 +17,15 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "STARS"
-              },
-              "score": 37
-            },
-            "home": {
-              "team": {
-                "abbreviation": "STRIPES"
-              },
-              "score": 39
-            }
-          }
-        },
-        {
-          "gamePk": "401838142",
-          "gameDate": "2026-02-15T23:25Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
-          },
-          "teams": {
-            "away": {
-              "team": {
                 "abbreviation": "WORLD"
               },
-              "score": 0
+              "score": 27
             },
             "home": {
               "team": {
                 "abbreviation": "STRIPES"
               },
-              "score": 0
+              "score": 20
             }
           }
         },
@@ -78,6 +52,32 @@
                 "abbreviation": "TBD"
               },
               "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401838141",
+          "gameDate": "2026-02-15T22:55Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "STARS"
+              },
+              "score": 40
+            },
+            "home": {
+              "team": {
+                "abbreviation": "STRIPES"
+              },
+              "score": 42
             }
           }
         },
