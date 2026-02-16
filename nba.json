@@ -1,47 +1,8 @@
 {
-  "generated_utc": "2026-02-16T05:50:55.172551Z",
+  "generated_utc": "2026-02-16T06:59:50.911539Z",
   "dates": [
     {
-      "games": [
-        {
-          "gamePk": "401838143",
-          "gameDate": "2026-02-16T00:10Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "STARS"
-              },
-              "score": 47
-            },
-            "home": {
-              "team": {
-                "abbreviation": "STRIPES"
-              },
-              "score": 21
-            }
-          }
-        }
-      ]
+      "games": []
     }
-  ],
-  "_meta": {
-    "source": "espn",
-    "urls": [
-      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260215",
-      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260216"
-    ],
-    "games_count": 1,
-    "http_timeout_sec": 12.0,
-    "version": "nba-relay-1.1",
-    "preview_hours": 36,
-    "final_hours": 6
-  }
+  ]
 }
