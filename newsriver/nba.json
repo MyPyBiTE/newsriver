@@ -1,57 +1,57 @@
 {
-  "generated_utc": "2026-02-15T23:52:48.663149Z",
+  "generated_utc": "2026-02-16T01:57:51.272889Z",
   "dates": [
     {
       "games": [
         {
+          "gamePk": "401838143",
+          "gameDate": "2026-02-16T00:10Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "STARS"
+              },
+              "score": 47
+            },
+            "home": {
+              "team": {
+                "abbreviation": "STRIPES"
+              },
+              "score": 21
+            }
+          }
+        },
+        {
           "gamePk": "401838142",
           "gameDate": "2026-02-15T23:25Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": "1st",
-            "currentQuarter": "1st"
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "WORLD"
               },
-              "score": 27
+              "score": 45
             },
             "home": {
               "team": {
                 "abbreviation": "STRIPES"
               },
-              "score": 20
-            }
-          }
-        },
-        {
-          "gamePk": "401838143",
-          "gameDate": "2026-02-16T00:10Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "TBD"
-              },
-              "score": 0
-            },
-            "home": {
-              "team": {
-                "abbreviation": "TBD"
-              },
-              "score": 0
+              "score": 48
             }
           }
         },
