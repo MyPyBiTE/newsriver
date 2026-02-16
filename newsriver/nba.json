@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-02-16T04:28:43.460647Z",
+  "generated_utc": "2026-02-16T05:50:55.172551Z",
   "dates": [
     {
       "games": [
@@ -28,58 +28,6 @@
               "score": 21
             }
           }
-        },
-        {
-          "gamePk": "401838142",
-          "gameDate": "2026-02-15T23:25Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "WORLD"
-              },
-              "score": 45
-            },
-            "home": {
-              "team": {
-                "abbreviation": "STRIPES"
-              },
-              "score": 48
-            }
-          }
-        },
-        {
-          "gamePk": "401838141",
-          "gameDate": "2026-02-15T22:55Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "STARS"
-              },
-              "score": 40
-            },
-            "home": {
-              "team": {
-                "abbreviation": "STRIPES"
-              },
-              "score": 42
-            }
-          }
         }
       ]
     }
@@ -87,10 +35,10 @@
   "_meta": {
     "source": "espn",
     "urls": [
-      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260214",
-      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260215"
+      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260215",
+      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260216"
     ],
-    "games_count": 3,
+    "games_count": 1,
     "http_timeout_sec": 12.0,
     "version": "nba-relay-1.1",
     "preview_hours": 36,
