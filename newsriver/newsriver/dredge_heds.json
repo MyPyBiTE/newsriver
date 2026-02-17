@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Shooting at Rhode Island ice rink kills 2 during youth hockey game: police",
-      "display":"Shooting at Rhode Island ice rink kills 2 during youth hockey game: police",
-      "url":"https://globalnews.ca/news/11669943/rhode-island-ice-rink-shooting-pawtucket",
+      "text":"One person injured, dog dead after suspected arson at Windsor, Ont., home",
+      "display":"One person injured, dog dead after suspected arson at Windsor, Ont., home",
+      "url":"https://globalnews.ca/news/11669946/windsor-arson-dog",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Shots fired near Queen and Portland, Toronto police say",
+      "display":"Shots fired near Queen and Portland, Toronto police say",
+      "url":"https://toronto.citynews.ca/2026/02/16/shots-fired-near-queen-and-portland-toronto-police-say",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -19,17 +29,7 @@
         "is_landmark":false,
         "has_bitcoin":false
       }
-    },
-    {
-      "text":"CNN Republican skewers Kristi Noem after new remarks to use ICE at elections",
-      "display":"CNN Republican skewers Kristi Noem after new remarks to use ICE at elections",
-      "url":"https://www.rawstory.com/kristi-noem-2675274011",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
     }
   ],
-  "generated_utc":"2026-02-16T23:50:20Z"
+  "generated_utc":"2026-02-17T01:15:51Z"
 }
