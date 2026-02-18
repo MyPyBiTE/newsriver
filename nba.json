@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-02-18T12:58:59.234995Z",
+  "generated_utc": "2026-02-18T14:09:36.078709Z",
   "dates": [
     {
       "games": [
@@ -132,6 +132,58 @@
               "score": 0
             }
           }
+        },
+        {
+          "gamePk": "401810652",
+          "gameDate": "2026-02-20T01:00Z",
+          "status": {
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "TOR"
+              },
+              "score": 0
+            },
+            "home": {
+              "team": {
+                "abbreviation": "CHI"
+              },
+              "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401810653",
+          "gameDate": "2026-02-20T01:30Z",
+          "status": {
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "PHX"
+              },
+              "score": 0
+            },
+            "home": {
+              "team": {
+                "abbreviation": "SAS"
+              },
+              "score": 0
+            }
+          }
         }
       ]
     }
@@ -142,7 +194,7 @@
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260217",
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260218"
     ],
-    "games_count": 5,
+    "games_count": 7,
     "http_timeout_sec": 12.0,
     "version": "nba-relay-1.1",
     "preview_hours": 36,
