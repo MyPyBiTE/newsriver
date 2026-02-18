@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-02-18T14:09:36.078709Z",
+  "generated_utc": "2026-02-18T15:03:21.791480Z",
   "dates": [
     {
       "games": [
@@ -184,6 +184,58 @@
               "score": 0
             }
           }
+        },
+        {
+          "gamePk": "401810654",
+          "gameDate": "2026-02-20T03:00Z",
+          "status": {
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "BOS"
+              },
+              "score": 0
+            },
+            "home": {
+              "team": {
+                "abbreviation": "GSW"
+              },
+              "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401810655",
+          "gameDate": "2026-02-20T03:00Z",
+          "status": {
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "ORL"
+              },
+              "score": 0
+            },
+            "home": {
+              "team": {
+                "abbreviation": "SAC"
+              },
+              "score": 0
+            }
+          }
         }
       ]
     }
@@ -194,7 +246,7 @@
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260217",
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260218"
     ],
-    "games_count": 7,
+    "games_count": 9,
     "http_timeout_sec": 12.0,
     "version": "nba-relay-1.1",
     "preview_hours": 36,
