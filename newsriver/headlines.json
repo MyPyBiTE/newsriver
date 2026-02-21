@@ -1,8 +1,40 @@
 {
-  "generated_utc": "2026-02-21T11:38:41.276Z",
-  "itemset_hash": "41fb40c7a80f1de2",
+  "generated_utc": "2026-02-21T11:53:32.499Z",
+  "itemset_hash": "3e0fff5a412d5546",
   "count": 69,
   "items": [
+    {
+      "title": "Cassie Sharpe won’t ski for a medal in women’s halfpipe final",
+      "url": "https://toronto.citynews.ca/2026/02/21/cassie-sharpe-wont-ski-for-a-medal-in-womens-halfpipe-final",
+      "source": "CityNews Toronto",
+      "published_utc": "2026-02-21T11:38:39.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "Conan O’Brien says he was “in shock” after Rob Reiner was found dead hours after attending his holiday party",
+      "url": "https://www.nme.com/news/tv/conan-obrien-says-he-was-in-shock-after-rob-reiner-was-found-dead-hours-after-attending-his-holiday-party-3930680",
+      "source": "NME",
+      "published_utc": "2026-02-21T11:36:43.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "breaker"
+      },
+      "category": "Culture",
+      "region": "World"
+    },
     {
       "title": "Italian toddler dies after transplant with heart 'burned by frostbite'",
       "url": "https://www.bbc.com/news/articles/ceqvgedennpo?at_campaign=rss&at_medium=RSS",
@@ -377,8 +409,7 @@
       "effects": {
         "lightsaber": false,
         "glitch": false,
-        "reasons": [],
-        "style": "breaker"
+        "reasons": []
       },
       "category": "General",
       "region": "World"
@@ -891,19 +922,6 @@
       "region": "World"
     },
     {
-      "title": "Globle answer today – here’s the answer and hints for February 21",
-      "url": "https://www.nme.com/guides/gaming-guides/globle-hint-answer-today-3213991",
-      "source": "NME",
-      "published_utc": "2026-02-21T00:00:17.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
       "title": "The Quiet Revolution Reshaping America's Energy Future",
       "url": "https://oilprice.com/Energy/Energy-General/The-Quiet-Revolution-Reshaping-Americas-Energy-Future.html",
       "source": "Oilprice.com",
@@ -941,33 +959,19 @@
       },
       "category": "Labour",
       "region": "World"
-    },
-    {
-      "title": "adidas' Washed Denim Running Shoe Is Literally Out of This World",
-      "url": "https://www.highsnobiety.com/p/adidas-galaxy-og-sneaker-denim",
-      "source": "Highsnobiety",
-      "published_utc": "2026-02-20T23:44:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
     }
   ],
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 465,
-    "dedup_pass1": 463,
+    "collected": 455,
+    "dedup_pass1": 453,
     "dedup_final": 320,
     "slow_domains": [],
     "timeouts": [
       "news.communitech.ca",
       "weather.gc.ca",
       "www.cbc.ca",
-      "www.publicsafety.gc.ca",
       "www150.statcan.gc.ca"
     ],
     "errors": [
@@ -982,57 +986,57 @@
     ],
     "feed_times_sample": [
       {
-        "host": "toronto.citynews.ca",
-        "sec": 1.612,
-        "kept": 8
-      },
-      {
         "host": "www.labourstart.org",
-        "sec": 1.465,
+        "sec": 1.517,
         "kept": 0
       },
       {
+        "host": "toronto.citynews.ca",
+        "sec": 0.857,
+        "kept": 8
+      },
+      {
         "host": "www.mlb.com",
-        "sec": 0.558,
+        "sec": 0.462,
         "kept": 14
       },
       {
         "host": "www.cp24.com",
-        "sec": 0.456,
+        "sec": 0.357,
         "kept": 14
       },
       {
         "host": "www.mlbtraderumors.com",
-        "sec": 0.412,
+        "sec": 0.355,
         "kept": 14
       },
       {
-        "host": "globalnews.ca",
-        "sec": 0.41,
-        "kept": 10
-      },
-      {
         "host": "www.blogto.com",
-        "sec": 0.405,
+        "sec": 0.348,
         "kept": 0
       },
       {
+        "host": "globalnews.ca",
+        "sec": 0.292,
+        "kept": 10
+      },
+      {
         "host": "www.bls.gov",
-        "sec": 0.294,
+        "sec": 0.131,
         "kept": 0
       },
       {
         "host": "www.nhl.com",
-        "sec": 0.243,
+        "sec": 0.129,
         "kept": 0
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.173,
+        "sec": 0.072,
         "kept": 14
       }
     ],
-    "elapsed_sec": 338.84,
+    "elapsed_sec": 317.9,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1058,7 +1062,7 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 12,
+      "ps_fatal_hits": 13,
       "ps_injury_hits": 0,
       "market_btc_hits": 0,
       "market_index_hits": 0,
@@ -1089,11 +1093,11 @@
       "business_am_hits": 59
     },
     "sanity_stats": {
-      "link_verification_fail": 16,
+      "link_verification_fail": 15,
       "soft_404_drops": 18,
       "max_age_drops": 0,
       "min_age_drops": 0,
-      "market_sanity_drops": 10,
+      "market_sanity_drops": 11,
       "backfill_steps_used": 0
     },
     "require_exact_count": 69,
