@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Trump says he’s increasing global tariffs to 15%",
-      "display":"Trump says he’s increasing global tariffs to 15%",
-      "url":"https://globalnews.ca/news/11677380/trump-global-tariffs-15-per-cent",
+      "text":"How Blue Jays' 5 biggest bats look this spring",
+      "display":"How Blue Jays' 5 biggest bats look this spring",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-five-most-important-hitters-for-2026-season",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Man, 22, facing sex assault charges involving a minor",
+      "display":"Man, 22, facing sex assault charges involving a minor",
+      "url":"https://toronto.citynews.ca/2026/02/21/man-22-facing-sex-assault-charges-involving-a-minor",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Ex-UK Prime Minister Johnson calls on allies to send noncombat troops to Ukraine ahead of ceasefire",
-      "display":"Ex-UK Prime Minister Johnson calls on allies to send noncombat troops to Ukraine ahead of ceasefire",
-      "url":"https://toronto.citynews.ca/2026/02/21/ex-uk-prime-minister-johnson-calls-on-allies-to-send-noncombat-troops-to-ukraine-ahead-of-ceasefire",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"The Missing Link in America’s Nuclear Space Strategy",
-      "display":"The Missing Link in America’s Nuclear Space Strategy",
-      "url":"https://oilprice.com/Alternative-Energy/Nuclear-Power/The-Missing-Link-in-Americas-Nuclear-Space-Strategy.html",
+      "text":"Heli-skier dies in avalanche near Revelstoke, B.C.",
+      "display":"Heli-skier dies in avalanche near Revelstoke, B.C.",
+      "url":"https://globalnews.ca/news/11677497/avalanche-death-bc",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-02-21T18:21:52Z"
+  "generated_utc":"2026-02-21T18:57:50Z"
 }
