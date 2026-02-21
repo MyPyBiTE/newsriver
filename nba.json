@@ -1,60 +1,8 @@
 {
-  "generated_utc": "2026-02-21T05:13:55.778063Z",
+  "generated_utc": "2026-02-21T05:57:37.501019Z",
   "dates": [
     {
       "games": [
-        {
-          "gamePk": "401810665",
-          "gameDate": "2026-02-21T03:00Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "DEN"
-              },
-              "score": 136
-            },
-            "home": {
-              "team": {
-                "abbreviation": "POR"
-              },
-              "score": 97
-            }
-          }
-        },
-        {
-          "gamePk": "401810664",
-          "gameDate": "2026-02-21T03:15Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "LAC"
-              },
-              "score": 101
-            },
-            "home": {
-              "team": {
-                "abbreviation": "LAL"
-              },
-              "score": 101
-            }
-          }
-        },
         {
           "gamePk": "401810666",
           "gameDate": "2026-02-21T22:00Z",
@@ -208,6 +156,58 @@
                 "abbreviation": "NYK"
               },
               "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401810664",
+          "gameDate": "2026-02-21T03:15Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "LAC"
+              },
+              "score": 122
+            },
+            "home": {
+              "team": {
+                "abbreviation": "LAL"
+              },
+              "score": 125
+            }
+          }
+        },
+        {
+          "gamePk": "401810665",
+          "gameDate": "2026-02-21T03:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "DEN"
+              },
+              "score": 157
+            },
+            "home": {
+              "team": {
+                "abbreviation": "POR"
+              },
+              "score": 103
             }
           }
         },
