@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"3 players targeted with racist abuse online after Premier League games",
-      "display":"3 players targeted with racist abuse online after Premier League games",
-      "url":"https://toronto.citynews.ca/2026/02/22/3-players-targeted-with-racist-abuse-online-after-premier-league-games",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"A powerful magnitude 7.1 earthquake shakes parts of Malaysia, USGS says",
+      "display":"A powerful magnitude 7.1 earthquake shakes parts of Malaysia, USGS says",
+      "url":"https://toronto.citynews.ca/2026/02/22/a-powerful-magnitude-7-1-earthquake-shakes-parts-of-malaysia-usgs-says",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Politics Podcast",
-      "display":"Politics Podcast",
-      "url":"https://fivethirtyeight.com/tag/politics-podcast",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"The 3 Best Movies to Stream on Hulu This Weekend",
-      "display":"The 3 Best Movies to Stream on Hulu This Weekend",
-      "url":"https://www.thewrap.com/creative-content/what-to-watch/3-best-movies-to-stream-hulu-02-20-26",
+      "text":"Man accused of shooting stranger during argument, Winnipeg police say",
+      "display":"Man accused of shooting stranger during argument, Winnipeg police say",
+      "url":"https://globalnews.ca/news/11678395/winnipeg-hotel-shooting-arrest",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-02-22T21:15:32Z"
+  "generated_utc":"2026-02-22T21:44:34Z"
 }
