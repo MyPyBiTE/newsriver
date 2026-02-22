@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-02-22T23:26:16.788489Z",
+  "generated_utc": "2026-02-22T23:49:28.137835Z",
   "dates": [
     {
       "games": [
@@ -19,13 +19,13 @@
               "team": {
                 "abbreviation": "DAL"
               },
-              "score": 73
+              "score": 100
             },
             "home": {
               "team": {
                 "abbreviation": "IND"
               },
-              "score": 72
+              "score": 93
             }
           }
         },
@@ -37,21 +37,21 @@
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "1st",
-            "currentQuarter": "1st"
+            "currentPeriodOrdinal": "2nd",
+            "currentQuarter": "2nd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "CHA"
               },
-              "score": 27
+              "score": 47
             },
             "home": {
               "team": {
                 "abbreviation": "WSH"
               },
-              "score": 19
+              "score": 39
             }
           }
         },
@@ -59,25 +59,25 @@
           "gamePk": "401810678",
           "gameDate": "2026-02-22T23:30Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "BOS"
               },
-              "score": 0
+              "score": 19
             },
             "home": {
               "team": {
                 "abbreviation": "LAL"
               },
-              "score": 0
+              "score": 19
             }
           }
         },
