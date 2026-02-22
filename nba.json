@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-02-22T20:50:00.764686Z",
+  "generated_utc": "2026-02-22T21:11:44.618738Z",
   "dates": [
     {
       "games": [
@@ -11,21 +11,21 @@
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "1st",
-            "currentQuarter": "1st"
+            "currentPeriodOrdinal": "2nd",
+            "currentQuarter": "2nd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "BKN"
               },
-              "score": 8
+              "score": 33
             },
             "home": {
               "team": {
                 "abbreviation": "ATL"
               },
-              "score": 13
+              "score": 36
             }
           }
         },
@@ -37,21 +37,21 @@
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "1st",
-            "currentQuarter": "1st"
+            "currentPeriodOrdinal": "2nd",
+            "currentQuarter": "2nd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "TOR"
               },
-              "score": 10
+              "score": 25
             },
             "home": {
               "team": {
                 "abbreviation": "MIL"
               },
-              "score": 11
+              "score": 29
             }
           }
         },
@@ -71,13 +71,13 @@
               "team": {
                 "abbreviation": "DEN"
               },
-              "score": 10
+              "score": 23
             },
             "home": {
               "team": {
                 "abbreviation": "GSW"
               },
-              "score": 14
+              "score": 34
             }
           }
         },
