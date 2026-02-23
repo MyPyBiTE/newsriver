@@ -1,13 +1,77 @@
 {
-  "generated_utc": "2026-02-23T12:07:33.413Z",
-  "itemset_hash": "298dc3783d3cc44c",
+  "generated_utc": "2026-02-23T13:45:18.779Z",
+  "itemset_hash": "ea4f1270bf73b64b",
   "count": 69,
   "items": [
     {
-      "title": "BBC Removes BAFTA Film Awards From iPlayer After Leaving N-Word Outburst in Tape-Delayed Broadcast",
-      "url": "https://variety.com/2026/tv/news/bbc-removes-baftas-iplayer-n-word-broadcast-1236670091",
-      "source": "Variety",
-      "published_utc": "2026-02-23T12:04:37.000Z",
+      "title": "U.S. Treasury may boost T-Bill issuance as stablecoins eye $2 trillion market cap: StanChart",
+      "url": "https://www.coindesk.com/business/2026/02/23/u-s-treasury-may-boost-t-bill-issuance-as-stablecoins-eye-usd2-trillion-market-cap-stanchart",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2026-02-23T13:40:09.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Pantera leads $11.5M round in Based, a Hyperliquid-powered crypto app",
+      "url": "https://www.coindesk.com/business/2026/02/20/pantera-leads-usd11-5m-round-in-based-a-hyperliquid-powered-crypto-app",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2026-02-23T13:38:32.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Blizzard slams into northeastern U.S., with intense snow and travel bans",
+      "url": "https://globalnews.ca/news/11679065/united-states-blizzard-travel-ban-february",
+      "source": "globalnews.ca",
+      "published_utc": "2026-02-23T13:36:16.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "Mexican billionaire Ricardo Salinas remains bullish on bitcoin after plunge",
+      "url": "https://www.coindesk.com/markets/2026/02/23/mexican-billionaire-ricardo-salinas-remains-bullish-on-bitcoin-after-plunge",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2026-02-23T13:37:10.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Armed man killed after entering secure perimeter of Trump's residence, Secret Service says",
+      "url": "https://www.bbc.com/news/articles/cp32l9w9pgyo?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2026-02-23T13:32:01.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": true,
@@ -17,117 +81,206 @@
         "style": "glitch"
       },
       "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "How SocialFi, memecoins and AI pushed Base to the top of the L2 ladder",
+      "url": "https://cointelegraph.com/news/socialfi-memecoins-ai-pushed-base-l2-ladder",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2026-02-23T13:26:49.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Snap Exec Says Male Content Creators Are Chasing UFC Careers",
+      "url": "https://deadline.com/2026/02/snap-exec-male-content-creators-chasing-ufc-careers-1236732995",
+      "source": "Deadline",
+      "published_utc": "2026-02-23T13:25:24.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Strategy logs 100th bitcoin purchase announcement, adding 592 coins last week for $39.8 million",
+      "url": "https://www.coindesk.com/markets/2026/02/23/strategy-logs-100th-bitcoin-purchase-announcement-adding-592-coins-last-week-for-usd39-8-million",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2026-02-23T13:22:14.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Black Hollywood Figures Condemn BAFTAs’ Handling of Racial Slur from Tourette’s Activist",
+      "url": "https://consequence.net/2026/02/baftas-handling-racial-slur-john-davidson",
+      "source": "Consequence",
+      "published_utc": "2026-02-23T13:20:27.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Daft Punk mark five years since split with retro-futuristic new video for ‘Human After All’",
+      "url": "https://www.nme.com/news/music/daft-punk-mark-five-years-since-split-with-retro-futuristic-new-video-for-human-after-all-3930988",
+      "source": "NME",
+      "published_utc": "2026-02-23T13:20:07.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Nova Scotia budget set to be delivered, with spending cuts expected",
+      "url": "https://globalnews.ca/news/11679040/nova-scotia-budget-day",
+      "source": "globalnews.ca",
+      "published_utc": "2026-02-23T13:18:42.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "General",
       "region": "Canada"
     },
     {
-      "title": "What To Do About A Problem Like Dianne Feinstein?",
-      "url": "https://fivethirtyeight.com/videos/what-to-do-about-a-problem-like-dianne-feinstein",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-02-23T12:04:24.299Z",
+      "title": "GLJ Ltd. and Techno Canada Inc. Launch Joint Venture to Strengthen Energy Certification and Consulting Services",
+      "url": "https://boereport.com/2026/02/23/glj-ltd-and-techno-canada-inc-launch-joint-venture-to-strengthen-energy-certification-and-consulting-services",
+      "source": "BOE Report",
+      "published_utc": "2026-02-23T13:16:45.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Energy",
+      "region": "Canada"
+    },
+    {
+      "title": "Winona Ryder Joins ‘Wednesday’ Season 3, Reuniting With Tim Burton & Jenna Ortega",
+      "url": "https://deadline.com/2026/02/winona-ryder-wednesday-season-3-tim-burton-jenna-ortega-1236731389",
+      "source": "Deadline",
+      "published_utc": "2026-02-23T13:15:00.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
         "reasons": []
       },
-      "category": "General",
+      "category": "Culture",
       "region": "World"
     },
     {
-      "title": "Politics Podcast",
-      "url": "https://fivethirtyeight.com/tag/politics-podcast",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-02-23T12:04:24.300Z",
+      "title": "‘Wednesday’ Series Regular Leaving, Joanna Lumley Promoted Ahead Of Season 3",
+      "url": "https://deadline.com/2026/02/wednesday-noah-taylor-leaving-bruno-joanna-lumley-grandmama-1236731373",
+      "source": "Deadline",
+      "published_utc": "2026-02-23T13:14:00.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
         "reasons": []
       },
-      "category": "General",
+      "category": "Culture",
       "region": "World"
     },
     {
-      "title": "The Supreme Court Didn't Fully End the Trade War, but It Reinforced Limits on the Presidency",
-      "url": "https://reason.com/2026/02/23/the-supreme-court-didnt-fully-end-the-trade-war-but-it-reinforced-limits-on-the-presidency",
-      "source": "Reason.com",
-      "published_utc": "2026-02-23T12:00:49.000Z",
+      "title": "Canada’s tumble in Olympic medal table could be sign of things to come",
+      "url": "https://toronto.citynews.ca/2026/02/23/canada-winter-olympics-2026-milan-analysis-medals",
+      "source": "CityNews Toronto",
+      "published_utc": "2026-02-23T13:12:55.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Local",
+      "region": "Canada"
+    },
+    {
+      "title": "Rush announce 2027 tour of UK, Europe and South America",
+      "url": "https://www.nme.com/news/music/rush-announce-2027-tour-of-uk-europe-and-south-america-buy-tickets-3930996",
+      "source": "NME",
+      "published_utc": "2026-02-23T13:10:23.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
         "reasons": []
       },
-      "category": "General",
+      "category": "Culture",
       "region": "World"
     },
     {
-      "title": "How Our Presidential Endorsement Tracker Works",
-      "url": "https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-02-23T12:04:24.300Z",
+      "title": "Bitmine paper loss nears $8.8B as Ether slump tests cyclical thesis",
+      "url": "https://cointelegraph.com/news/bitmine-shareholders-8-8b-paper-loss-downturn-ether",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2026-02-23T13:10:08.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": false,
-        "reasons": []
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
       },
-      "category": "General",
+      "category": "Business",
       "region": "World"
     },
     {
-      "title": "Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "url": "https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-02-23T12:04:24.300Z",
+      "title": "Parti Québécois aims for 4th consecutive byelection win in Quebec",
+      "url": "https://globalnews.ca/news/11679039/quebec-byelection-chicoutimi-parti-quebecois-caq",
+      "source": "globalnews.ca",
+      "published_utc": "2026-02-23T13:05:49.000Z",
       "effects": {
-        "lightsaber": false,
+        "lightsaber": true,
         "glitch": false,
-        "reasons": []
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
       },
       "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Today in Supreme Court History: February 23, 1905",
-      "url": "https://reason.com/volokh/2026/02/23/today-in-supreme-court-history-february-23-1905-7",
-      "source": "Reason.com",
-      "published_utc": "2026-02-23T12:00:33.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "url": "https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-02-23T12:04:24.300Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "What’s Next In The Abortion Drug Case",
-      "url": "https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-02-23T12:04:24.301Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
+      "region": "Canada"
     },
     {
       "title": "Briton among 19 killed in Nepal bus crash",
       "url": "https://www.bbc.com/news/articles/c39wz97y90no?at_campaign=rss&at_medium=RSS",
       "source": "BBC News",
-      "published_utc": "2026-02-23T12:00:23.000Z",
+      "published_utc": "2026-02-23T13:05:23.000Z",
       "effects": {
         "lightsaber": true,
         "glitch": false,
@@ -141,10 +294,23 @@
       "region": "World"
     },
     {
-      "title": "How Concerned Are Americans About The Pitfalls Of AI?",
-      "url": "https://fivethirtyeight.com/videos/how-concerned-are-americans-about-the-pitfalls-of-ai",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-02-23T12:04:24.300Z",
+      "title": "‘Pillion’ director Harry Lighton says Groundskeeper Willie was his gay awakening",
+      "url": "https://www.nme.com/news/film/pillion-director-harry-lighton-says-groundskeeper-willie-was-his-gay-awakening-3930981",
+      "source": "NME",
+      "published_utc": "2026-02-23T13:03:42.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Video: Protests as ICC hearings start for ex-Philippine leader Duterte",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/2/23/video-protests-as-icc-hearings-start-for-ex-philippine-leader-duterte?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-02-23T13:03:04.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -154,10 +320,42 @@
       "region": "World"
     },
     {
-      "title": "Live From New York: Will AI Replace This Podcast?",
-      "url": "https://fivethirtyeight.com/videos/live-from-new-york-will-ai-replace-this-podcast",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-02-23T12:04:24.300Z",
+      "title": "Maritimes braces for latest winter wallop of snow, strong winds",
+      "url": "https://globalnews.ca/news/11679041/maritimes-snow-winter-storm-high-winds-feb-23",
+      "source": "globalnews.ca",
+      "published_utc": "2026-02-23T13:02:25.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "Province Invests in Quantum Tech to Support Local Research",
+      "url": "https://techcouver.com/2026/02/23/province-invests-quantum-tech-local-research",
+      "source": "Techcouver.com",
+      "published_utc": "2026-02-23T13:01:58.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Tech",
+      "region": "Canada"
+    },
+    {
+      "title": "Killing of Mexican drug cartel boss ‘El Mencho’ triggers wave of violence",
+      "url": "https://www.theguardian.com/world/2026/feb/23/el-mencho-mexican-drug-cartel-boss-killing-violence",
+      "source": "World news | The Guardian",
+      "published_utc": "2026-02-23T13:00:35.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -165,6 +363,357 @@
       },
       "category": "General",
       "region": "World"
+    },
+    {
+      "title": "Startup Takes on Google Docs with Simple, Sovereign Solution",
+      "url": "https://techcouver.com/2026/02/23/startup-big-tech-app-simple-sovereign-solution",
+      "source": "Techcouver.com",
+      "published_utc": "2026-02-23T13:00:32.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Tech",
+      "region": "Canada"
+    },
+    {
+      "title": "Sluggish growth, lost value: what decades of data reveal about Canada’s early-stage funding gap",
+      "url": "https://betakit.com/sluggish-growth-lost-value-what-decades-of-data-reveal-about-canadas-early-stage-funding-gap",
+      "source": "BetaKit",
+      "published_utc": "2026-02-23T13:00:00.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "Spartan Delta Corp. announces year-end 2025 results, filing of its 2025 AIF, and operations update",
+      "url": "https://boereport.com/2026/02/23/spartan-delta-corp-announces-year-end-2025-results-filing-of-its-2025-aif-and-operations-update",
+      "source": "BOE Report",
+      "published_utc": "2026-02-23T13:00:00.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Energy",
+      "region": "Canada"
+    },
+    {
+      "title": "Cardinal Energy Ltd. Announces 2025 Year-End Reserves",
+      "url": "https://boereport.com/2026/02/23/cardinal-energy-ltd-announces-2025-year-end-reserves",
+      "source": "BOE Report",
+      "published_utc": "2026-02-23T13:00:00.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Energy",
+      "region": "Canada"
+    },
+    {
+      "title": "Chevron Moves to Acquire Lukoil's Major West Qurna 2 Oilfield in Iraq",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Chevron-Moves-to-Acquire-Lukoils-Major-West-Qurna-2-Oilfield-in-Iraq.html",
+      "source": "Oilprice.com",
+      "published_utc": "2026-02-23T13:00:00.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Energy",
+      "region": "Canada"
+    },
+    {
+      "title": "BBC Studios Eyeing “Inorganic” Streaming Growth, Microdramas & More ‘Bluey’-Style Deals",
+      "url": "https://deadline.com/2026/02/bbc-studios-bosses-on-bluey-microdrama-streaming-1236732960",
+      "source": "Deadline",
+      "published_utc": "2026-02-23T12:57:43.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Culture",
+      "region": "Canada"
+    },
+    {
+      "title": "Cubs To Sign Michael Conforto",
+      "url": "https://www.mlbtraderumors.com/2026/02/cubs-to-sign-michael-conforto.html",
+      "source": "MLB Trade Rumors",
+      "published_utc": "2026-02-23T12:55:50.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Violence erupts in Mexico after killing of drug lord ‘El Mencho’",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/2/23/violence-erupts-in-mexico-after-killing-of-drug-lord-el?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-02-23T12:54:44.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Rob Jetten becomes Netherlands' youngest ever PM",
+      "url": "https://www.bbc.com/news/articles/clygj3421pqo?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2026-02-23T12:49:27.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "What to do today in Montreal",
+      "url": "https://cultmtl.com/2026/02/what-to-do-today-in-montreal-mtl-to-do-list",
+      "source": "Cult MTL",
+      "published_utc": "2026-02-23T12:46:00.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Culture",
+      "region": "Canada"
+    },
+    {
+      "title": "Indian protesters want Modi’s Israel visit to be called off",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/2/23/indian-protesters-want-modis-israel-visit-to-be-called-off?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-02-23T12:41:23.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "What we know about the killing of Mexico’s ‘El Mencho’",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/2/23/what-we-know-about-the-killing-of-mexicos-el?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-02-23T12:31:31.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "‘Take off, eh!’: ‘SCTV’ to stream in its entirety for the first time on Prime Video",
+      "url": "https://toronto.citynews.ca/2026/02/23/take-off-eh-sctv-to-stream-in-its-entirety-for-the-first-time-on-prime-video",
+      "source": "CityNews Toronto",
+      "published_utc": "2026-02-23T12:30:10.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Local",
+      "region": "Canada"
+    },
+    {
+      "title": "Why are israel and india getting closer?",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/2/23/why-are-israel-and-india-getting-closer?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-02-23T12:28:33.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Gulf countries back Kuwait’s sovereignty after Iraq draws new boundaries",
+      "url": "https://www.aljazeera.com/news/2026/2/23/gcc-states-back-kuwait-maritime-sovereignty-after-iraq-draws-new-boundaries?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-02-23T12:25:42.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Robert Mugabe's son charged with attempted murder in South Africa",
+      "url": "https://www.bbc.com/news/articles/cz9qk9y4d32o?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2026-02-23T12:21:05.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Turnstile announce exclusive UK headline show for summer 2026",
+      "url": "https://www.nme.com/news/music/turnstile-announce-exclusive-uk-headline-show-for-summer-2026-buy-tickets-3930979",
+      "source": "NME",
+      "published_utc": "2026-02-23T12:17:56.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Tariff travails resurface, bitcoin holders prepare for declines",
+      "url": "https://www.coindesk.com/daybook-us/2026/02/23/tariff-travails-resurface-bitcoin-holders-prepare-for-declines",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2026-02-23T12:15:00.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Activists hang Andrew arrest photo at Louvre Museum",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/2/23/activists-hang-andrew-arrest-photo-at-louvre-museum?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-02-23T12:13:30.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "‘You either fight or die’: Kenyans tricked into joining Russia-Ukraine war",
+      "url": "https://www.aljazeera.com/features/2026/2/23/you-either-fight-or-die-kenyans-tricked-into-joining-russia-ukraine-war?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-02-23T12:09:01.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "‘Tracking a Killer: The Cold Case Files:’ Elizabeth Bain",
+      "url": "https://toronto.citynews.ca/2026/02/23/tracking-a-killer-the-cold-case-files-elizabeth-bain",
+      "source": "CityNews Toronto",
+      "published_utc": "2026-02-23T12:08:12.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Local",
+      "region": "Canada"
+    },
+    {
+      "title": "US military begins withdrawing from key base in northeastern Syria",
+      "url": "https://www.aljazeera.com/news/2026/2/23/us-military-begins-withdrawing-from-key-base-in-northeastern-syria?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-02-23T12:05:53.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Akinola Davies Jr on his BAFTA-winning debut, My Father’s Shadow",
+      "url": "https://www.dazeddigital.com/film-tv/article/69567/1/akinola-davies-jr-on-his-bafta-winning-debut-my-fathers-shadow",
+      "source": "Dazed",
+      "published_utc": "2026-02-23T12:05:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Parex Resources Announces Proposal to Acquire Frontera Energy’s Colombian E&P Assets",
+      "url": "https://boereport.com/2026/02/23/parex-resources-announces-proposal-to-acquire-frontera-energys-colombian-ep-assets",
+      "source": "BOE Report",
+      "published_utc": "2026-02-23T12:00:00.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Energy",
+      "region": "Canada"
     },
     {
       "title": "Actors Union Boycotts BBC Charter Renewal Survey Over AI & “Airbrushing Workforce” Concerns",
@@ -180,38 +729,6 @@
         "style": "glitch"
       },
       "category": "Culture",
-      "region": "Canada"
-    },
-    {
-      "title": "Florida’s late rise to among nation’s elite shouldn’t be overlooked",
-      "url": "https://nypost.com/2026/02/23/sports/floridas-late-rise-shouldnt-be-overlooked-ahead-of-march-madness",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2026-02-23T12:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "Trump shares bizarre AI video of himself besting Canada's hockey team after Team USA win",
-      "url": "https://www.rawstory.com/trump-calls-usa-hockey-team",
-      "source": "Raw Story",
-      "published_utc": "2026-02-23T11:59:59.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "General",
       "region": "Canada"
     },
     {
@@ -231,10 +748,10 @@
       "region": "Canada"
     },
     {
-      "title": "'We're worried': Experts fear Supreme Court will follow tariff case with huge Trump gift",
-      "url": "https://www.rawstory.com/raw-investigates/supreme-court-2675289905",
-      "source": "Raw Story",
-      "published_utc": "2026-02-23T11:55:04.000Z",
+      "title": "Crypto funds lose $288M as ETPs extend outflow run to five weeks",
+      "url": "https://cointelegraph.com/news/crypto-etp-five-week-exit-fresh-288-million-outflows",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2026-02-23T11:54:56.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": true,
@@ -242,22 +759,6 @@
           "score≥2.1"
         ],
         "style": "glitch"
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Crypto funds lose $288M as ETPs extend outflow run to five weeks",
-      "url": "https://cointelegraph.com/news/crypto-etp-five-week-exit-fresh-288-million-outflows",
-      "source": "Cointelegraph.com News",
-      "published_utc": "2026-02-23T11:54:56.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
       },
       "category": "Business",
       "region": "World"
@@ -273,51 +774,6 @@
         "reasons": []
       },
       "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "US Citizens in Mexico Warned to ‘Shelter in Place’ After Cartel Leader Killed",
-      "url": "https://www.mediaite.com/media/news/us-citizens-in-mexico-warned-to-shelter-in-place-after-cartel-leader-killed",
-      "source": "Mediaite",
-      "published_utc": "2026-02-23T11:47:46.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "K-Drama Boom in Europe Moves Into Adaptation Phase, Mip London Panel Says",
-      "url": "https://variety.com/2026/tv/markets-festivals/kdrama-boom-europe-adaptation-phase-mip-london-1236670163",
-      "source": "Variety",
-      "published_utc": "2026-02-23T11:43:35.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Trump reins in RFK Jr as new law cripples health secretary's core vow: report",
-      "url": "https://www.rawstory.com/rfk-jr-health-2675293090",
-      "source": "Raw Story",
-      "published_utc": "2026-02-23T11:42:10.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Labour",
       "region": "World"
     },
     {
@@ -347,22 +803,6 @@
       "region": "World"
     },
     {
-      "title": "BBC Studios Chiefs on Mega-Mergers, Own M&A, Trump Tariffs, U.S. Streaming Growth, and the ‘Bluey’ Movie",
-      "url": "https://www.hollywoodreporter.com/tv/tv-news/bbc-studios-netflix-wbd-deals-bluey-movie-us-streaming-1236512227",
-      "source": "The Hollywood Reporter",
-      "published_utc": "2026-02-23T11:37:21.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
       "title": "Human rights outmuscled by ‘rule of force’ globally, UN chief warns",
       "url": "https://www.aljazeera.com/news/2026/2/23/human-rights-outmuscled-by-rule-of-force-globally-un-chief-warns?traffic_source=rss",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
@@ -374,22 +814,6 @@
       },
       "category": "General",
       "region": "World"
-    },
-    {
-      "title": "‘Free Palestine’ Cut From BBC Broadcast of ‘My Father’s Shadow’ Director Akinola Davies Jr.’s BAFTAs Speech",
-      "url": "https://variety.com/2026/film/awards/bbc-cuts-free-palestine-akinola-davies-jr-baftas-speech-1236670099",
-      "source": "Film",
-      "published_utc": "2026-02-23T11:33:02.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "General",
-      "region": "Canada"
     },
     {
       "title": "Spiritbox announce 2026 ‘Tsunami Sea’ UK arena tour",
@@ -408,17 +832,17 @@
       "region": "Canada"
     },
     {
-      "title": "Overnight crypto rout reverses, bitcoin rebounds to $66,300",
+      "title": "Bitcoin stabilizes after overnight crypto rout, bouncing to $66,000",
       "url": "https://www.coindesk.com/markets/2026/02/23/overnight-crypto-rout-reverses-bitcoin-rebounds-to-usd66-300",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published_utc": "2026-02-23T11:30:00.000Z",
       "effects": {
-        "lightsaber": true,
-        "glitch": false,
+        "lightsaber": false,
+        "glitch": true,
         "reasons": [
-          "score≥2.6"
+          "score≥2.1"
         ],
-        "style": "lightsaber"
+        "style": "glitch"
       },
       "category": "Business",
       "region": "World"
@@ -474,12 +898,12 @@
       "source": "Oilprice.com",
       "published_utc": "2026-02-23T11:26:39.000Z",
       "effects": {
-        "lightsaber": true,
-        "glitch": false,
+        "lightsaber": false,
+        "glitch": true,
         "reasons": [
-          "score≥2.6"
+          "score≥2.1"
         ],
-        "style": "lightsaber"
+        "style": "glitch"
       },
       "category": "Energy",
       "region": "Canada"
@@ -495,19 +919,6 @@
         "reasons": []
       },
       "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "‘Sinners’ Production Designer Hannah Beachler Says Alan Cumming’s ‘Throw-Away Apology’ Over N-Word Slur During BAFTAs ‘Made It Worse’",
-      "url": "https://variety.com/2026/film/global/sinners-hannah-beachler-n-word-slur-baftas-apology-1236670089",
-      "source": "Film",
-      "published_utc": "2026-02-23T11:25:55.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
       "region": "World"
     },
     {
@@ -527,19 +938,6 @@
       "region": "Canada"
     },
     {
-      "title": "Gavin Newsom hits Trump with schoolyard taunts in new Kennedy Center scrap",
-      "url": "https://www.rawstory.com/gavin-newsom-2675293187",
-      "source": "Raw Story",
-      "published_utc": "2026-02-23T11:23:48.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
       "title": "Who are Mexico’s top cartel bosses killed or arrested in recent years?",
       "url": "https://www.aljazeera.com/news/2026/2/23/who-are-mexicos-top-cartel-bosses-killed-or-arrested-in-recent-years?traffic_source=rss",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
@@ -556,30 +954,14 @@
       "region": "World"
     },
     {
-      "title": "The Ends and Means of Tucker Carlson. Plus. . .",
-      "url": "https://www.thefp.com/p/the-ends-and-means-of-tucker-carlson-8d7",
-      "source": "The Free Press",
-      "published_utc": "2026-02-23T11:20:20.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Gaza child dies after Israel blocks medical evacuation",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/2/23/gaza-child-dies-after-israel-blocks-medical-evacuation?traffic_source=rss",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
       "published_utc": "2026-02-23T11:14:42.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "General",
       "region": "World"
@@ -602,19 +984,6 @@
       "url": "https://www.aljazeera.com/news/2026/2/23/el-mencho-killing-sparks-overwhelming-fear-as-violence-erupts-in-mexico?traffic_source=rss",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
       "published_utc": "2026-02-23T11:10:55.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Kristi Noem Repeatedly Claimed ICE Deported a Cannibal. It Was “Completely Made Up.”",
-      "url": "https://theintercept.com/2026/02/23/kristi-noem-ice-cannibal",
-      "source": "The Intercept",
-      "published_utc": "2026-02-23T11:07:00.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -648,362 +1017,16 @@
       },
       "category": "Labour",
       "region": "World"
-    },
-    {
-      "title": "Ethan Hawke visibly emotional during surprise winner Robert Aramayo’s BAFTAs speech",
-      "url": "https://www.nme.com/news/film/ethan-hawke-visibly-emotional-during-surprise-winner-robert-aramayos-baftas-speech-3930929",
-      "source": "NME",
-      "published_utc": "2026-02-23T11:05:17.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "What’s a Canadian firm under defence industrial strategy? It’s complicated",
-      "url": "https://globalnews.ca/news/11673397/defence-industrial-strategy-canadian-firm-us-sovereignty",
-      "source": "globalnews.ca",
-      "published_utc": "2026-02-23T11:00:58.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "What I learned from trying to buy only Canadian tech",
-      "url": "https://betakit.com/what-i-learned-from-trying-to-buy-only-canadian-tech",
-      "source": "BetaKit",
-      "published_utc": "2026-02-23T11:00:00.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Labour",
-      "region": "Canada"
-    },
-    {
-      "title": "‘Final Fantasy 14’ metal band The Primals lead Download Festival 2026 additions",
-      "url": "https://www.nme.com/news/gaming-news/download-festival-lineup-primals-day-to-remember-day-splits-tickets-3930944",
-      "source": "NME",
-      "published_utc": "2026-02-23T10:57:48.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "BRIT Awards 2026: how to watch full show as major streaming change announced",
-      "url": "https://www.nme.com/news/music/brit-awards-2026-how-to-watch-full-show-as-major-streaming-change-announced-3930951",
-      "source": "NME",
-      "published_utc": "2026-02-23T10:55:55.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Korea Box Office: ‘The King’s Warden’ Maintains Lead",
-      "url": "https://variety.com/2026/film/box-office/korea-box-office-the-kings-warden-sentimental-value-jumbo-1236670048",
-      "source": "Film",
-      "published_utc": "2026-02-23T10:53:09.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Pre-market trading stabilizes as bitcoin reclaims $66,000, Saylor eyes 100th BTC purchase",
-      "url": "https://www.coindesk.com/markets/2026/02/23/pre-market-trading-stabilizes-as-bitcoin-reclaims-usd66-000-saylor-eyes-100th-btc-purchase",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published_utc": "2026-02-23T10:52:15.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Business",
-      "region": "World"
-    },
-    {
-      "title": "Gaza child dies waiting for Israeli permission to leave for treatment",
-      "url": "https://www.aljazeera.com/news/2026/2/23/gaza-child-dies-waiting-for-israeli-permission-to-leave-for-treatment?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-02-23T10:47:14.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Jack Whitehall says Jared Leto once tried to change his BRIT Awards autocue as “he didn’t like his intro”",
-      "url": "https://www.nme.com/news/music/jack-whitehall-says-jared-leto-once-tried-to-change-his-brit-awards-autocue-as-he-didnt-like-his-intro-3930926",
-      "source": "NME",
-      "published_utc": "2026-02-23T10:45:57.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "New Balance’s ABZORB 1890 Silhouette Debuts in “Faded Black/Utility Green”",
-      "url": "https://hypebeast.com/2026/2/new-balance-abzorb-1890-faded-black-utility-green-u189071h-release-info",
-      "source": "Hypebeast",
-      "published_utc": "2026-02-23T10:45:32.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "ASICS Dresses the Hypersync Silhouette in “Piedmont Grey”",
-      "url": "https://hypebeast.com/2026/2/asics-hypersync-piedmont-grey-pure-siver-1203a879-020-release-info",
-      "source": "Hypebeast",
-      "published_utc": "2026-02-23T10:45:16.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "BAFTA and BBC Let the N-Word Air on Tape Delay — Michael B. Jordan, Delroy Lindo, the Tourette’s Community and Viewers Deserve an Apology",
-      "url": "https://variety.com/2026/film/awards/bafta-aired-n-word-michael-b-jordan-delroy-lindo-owed-apology-1236669999",
-      "source": "Film",
-      "published_utc": "2026-02-23T10:43:19.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "Gaudí Confirmed as Architect of Xalet del Catllaràs",
-      "url": "https://hypebeast.com/2026/2/antoni-gaudi-xalet-del-catllaras-la-pobla-de-lillet-catalonia",
-      "source": "Hypebeast",
-      "published_utc": "2026-02-23T10:44:59.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Ramadan in Gaza: Cost of iftar doubles as genocidal war devastates economy",
-      "url": "https://www.aljazeera.com/features/2026/2/23/ramadan-in-gaza-cost-of-iftar-doubles-as-genocidal-war-devastates-economy?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-02-23T10:37:21.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Bank of Korea renews call for bank-led won stablecoins as bill stalls",
-      "url": "https://cointelegraph.com/news/south-korea-central-bank-renews-bank-led-won-stablecoin-push",
-      "source": "Cointelegraph.com News",
-      "published_utc": "2026-02-23T10:36:50.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "BBC Greenlights Three New Dramas, Including Tudor-Set ‘1536,’ ‘Shy & Lola’ With Hayley Squires, Bel Powley",
-      "url": "https://www.hollywoodreporter.com/tv/tv-news/bbc-new-dramas-shy-lola-1536-series-london-mip-d-notice-1236512309",
-      "source": "The Hollywood Reporter",
-      "published_utc": "2026-02-23T10:31:48.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "norda’s SS26 “KALEIDOSCOPIC” Drop Highlights Cosmic Gradients and Celestial Accents",
-      "url": "https://hypebeast.com/2026/2/norda-ss26-collection-kaleidoscopic-campaign",
-      "source": "Hypebeast",
-      "published_utc": "2026-02-23T10:31:10.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Quickley drops game-high 32 points as Raptors beat Bucks for 2nd-straight win",
-      "url": "https://toronto.citynews.ca/2026/02/23/toronto-raptors-nba-milwaukee-bucks-recap-immanuel-quickley",
-      "source": "CityNews Toronto",
-      "published_utc": "2026-02-23T10:30:48.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Local",
-      "region": "Canada"
-    },
-    {
-      "title": "This weekend of lunacy was just another shining example of Trump's unfitness for office",
-      "url": "https://www.rawstory.com/raw-investigates/donald-trump-2675292634",
-      "source": "Raw Story",
-      "published_utc": "2026-02-23T10:30:01.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Goldman Sachs Hikes Year-End Oil Price Forecast by $6 Per Barrel",
-      "url": "https://oilprice.com/Energy/Energy-General/Goldman-Sachs-Hikes-Year-End-Oil-Price-Forecast-by-6-Per-Barrel.html",
-      "source": "Oilprice.com",
-      "published_utc": "2026-02-23T10:30:00.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Energy",
-      "region": "Canada"
-    },
-    {
-      "title": "Brandi Carlile says Trump voters got “fucking scammed”: “We got duped by a con artist. Get mad enough to change your mind”",
-      "url": "https://www.nme.com/news/music/brandi-carlile-says-trump-voters-got-fucking-scammed-we-got-duped-by-a-con-artist-3930936",
-      "source": "NME",
-      "published_utc": "2026-02-23T10:26:39.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Kucoin told to halt new EU business due to compliance staffing shortfalls",
-      "url": "https://www.coindesk.com/policy/2026/02/23/kucoin-banned-in-europe-over-anti-money-laundering-and-compliance-staff-shortfall",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published_utc": "2026-02-23T10:24:42.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Business",
-      "region": "World"
-    },
-    {
-      "title": "Bitcoin balances on Binance hit highest since November 2024: here's what it means",
-      "url": "https://www.coindesk.com/markets/2026/02/23/bitcoin-balances-on-binance-hit-highest-since-november-2024-here-s-what-it-means",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published_utc": "2026-02-23T10:21:12.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Business",
-      "region": "World"
-    },
-    {
-      "title": "Russia kills four Ukrainians on eve of fourth war anniversary",
-      "url": "https://www.aljazeera.com/news/2026/2/23/four-killed-in-russian-attacks-in-ukraine-ahead-of-eu-ministers-meeting?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-02-23T10:19:13.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
     }
   ],
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 874,
-    "dedup_pass1": 856,
+    "collected": 506,
+    "dedup_pass1": 503,
     "dedup_final": 320,
-    "slow_domains": [
-      "nautil.us",
-      "www.fyimusicnews.ca"
-    ],
+    "slow_domains": [],
     "timeouts": [
-      "japantoday.com",
       "news.communitech.ca",
       "www.cbc.ca"
     ],
@@ -1015,67 +1038,61 @@
       "cultmtl.com",
       "financialpost.com",
       "globalnews.ca",
-      "nypost.com",
-      "toronto.citynews.ca",
-      "variety.com",
-      "www.boston.com",
-      "www.marketwatch.com",
-      "www.npr.org",
-      "www.wsj.com"
+      "toronto.citynews.ca"
     ],
     "feed_times_sample": [
       {
         "host": "toronto.citynews.ca",
-        "sec": 1.47,
+        "sec": 1.845,
         "kept": 8
       },
       {
         "host": "www.labourstart.org",
-        "sec": 1.34,
+        "sec": 1.636,
         "kept": 0
       },
       {
-        "host": "www.blogto.com",
-        "sec": 0.546,
-        "kept": 0
-      },
-      {
-        "host": "www.cp24.com",
-        "sec": 0.464,
-        "kept": 14
-      },
-      {
-        "host": "www.mlbtraderumors.com",
-        "sec": 0.346,
+        "host": "www.mlb.com",
+        "sec": 0.639,
         "kept": 14
       },
       {
         "host": "www.bls.gov",
-        "sec": 0.326,
+        "sec": 0.627,
+        "kept": 0
+      },
+      {
+        "host": "www.blogto.com",
+        "sec": 0.495,
         "kept": 0
       },
       {
         "host": "globalnews.ca",
-        "sec": 0.323,
+        "sec": 0.432,
         "kept": 10
       },
       {
-        "host": "www.mlb.com",
-        "sec": 0.256,
+        "host": "www.cp24.com",
+        "sec": 0.381,
+        "kept": 14
+      },
+      {
+        "host": "www.mlbtraderumors.com",
+        "sec": 0.292,
         "kept": 14
       },
       {
         "host": "www.nhl.com",
-        "sec": 0.156,
+        "sec": 0.256,
         "kept": 0
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.108,
+        "sec": 0.163,
         "kept": 14
       }
     ],
-    "elapsed_sec": 325.31,
+    "elapsed_sec": 324.06,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1101,23 +1118,23 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 29,
+      "ps_fatal_hits": 15,
       "ps_injury_hits": 0,
-      "market_btc_hits": 2,
+      "market_btc_hits": 1,
       "market_index_hits": 1,
       "market_nikkei_hits": 0,
       "market_single_hits": 0,
       "agg_penalties": 0,
       "press_penalties": 0,
-      "preferred_bonus": 126,
+      "preferred_bonus": 123,
       "substack_tagged": 0,
       "sports_team_hits": 9,
       "sports_player_hits": 1,
-      "sports_result_win_hits": 19,
+      "sports_result_win_hits": 15,
       "sports_result_loss_hits": 0,
       "sports_evening_hits": 0,
       "sports_playoff_hits": 0,
-      "sports_focus_team_hits": 15,
+      "sports_focus_team_hits": 3,
       "sports_final_hits": 0,
       "sports_final_score_hits": 0,
       "hype_politics": 0,
@@ -1127,15 +1144,15 @@
       "hype_sports": 0,
       "hype_ceasefire": 0,
       "reject_hits": 0,
-      "obit_hits": 7,
-      "major_figure_hits": 6,
-      "business_am_hits": 64
+      "obit_hits": 5,
+      "major_figure_hits": 1,
+      "business_am_hits": 62
     },
     "sanity_stats": {
-      "link_verification_fail": 24,
-      "soft_404_drops": 68,
-      "max_age_drops": 0,
-      "min_age_drops": 0,
+      "link_verification_fail": 10,
+      "soft_404_drops": 15,
+      "max_age_drops": 18,
+      "min_age_drops": 8,
       "market_sanity_drops": 5,
       "backfill_steps_used": 0
     },
