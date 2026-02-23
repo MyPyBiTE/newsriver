@@ -1,211 +1,42 @@
 {
-  "generated_utc": "2026-02-22T23:43:53.297Z",
-  "itemset_hash": "22b01351f7d93f30",
+  "generated_utc": "2026-02-23T00:04:01.572Z",
+  "itemset_hash": "78698baf182db315",
   "count": 69,
   "items": [
     {
-      "title": "What To Do About A Problem Like Dianne Feinstein?",
-      "url": "https://fivethirtyeight.com/videos/what-to-do-about-a-problem-like-dianne-feinstein",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-02-22T23:40:15.107Z",
+      "title": "Oil Traders May Be Pricing Iran Risk Too Lightly",
+      "url": "https://oilprice.com/Energy/Crude-Oil/Oil-Traders-May-Be-Pricing-Iran-Risk-Too-Lightly.html",
+      "source": "Oilprice.com",
+      "published_utc": "2026-02-23T00:00:00.000Z",
       "effects": {
-        "lightsaber": false,
+        "lightsaber": true,
         "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Politics Podcast",
-      "url": "https://fivethirtyeight.com/tag/politics-podcast",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-02-22T23:40:15.107Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Nets blow double-digit lead as offense goes cold late in brutal loss to Hawks",
-      "url": "https://nypost.com/2026/02/22/sports/nets-blow-double-digit-lead-as-offense-goes-cold-late-in-loss-to-hawks",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2026-02-22T23:39:57.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
         "reasons": [
-          "score≥2.1"
+          "score≥2.6"
         ],
-        "style": "glitch"
+        "style": "lightsaber"
       },
-      "category": "Sports",
+      "category": "Energy",
       "region": "Canada"
     },
     {
-      "title": "How Our Presidential Endorsement Tracker Works",
-      "url": "https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-02-22T23:40:15.108Z",
+      "title": "Fashion East AW26 took us on a treasure hunt to south London",
+      "url": "https://www.dazeddigital.com/fashion/article/69711/1/fashion-east-aw26-fw26-london-fashion-week-lfw",
+      "source": "Dazed",
+      "published_utc": "2026-02-22T23:42:00.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
         "reasons": []
       },
-      "category": "General",
+      "category": "Culture",
       "region": "World"
     },
     {
-      "title": "Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "url": "https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-02-22T23:40:15.108Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Timothee Chalamet spends the BAFTAs texting on his phone as he is sent a meme of himself after host Alan Cumming instructed the audience to 'turn off all electronic devices'",
-      "url": "https://www.dailymail.co.uk/tvshowbiz/article-15582835/Timothee-Chalamet-spends-BAFTAs-texting-phone-sent-meme-host-Alan-Cumming-instructed-audience-turn-electronic-devices.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-02-22T23:38:25.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "url": "https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-02-22T23:40:15.108Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "What’s Next In The Abortion Drug Case",
-      "url": "https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-02-22T23:40:15.108Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Blizzard snarls air travel along U.S. East Coast as airlines cancel thousands of flights",
-      "url": "https://www.cnbc.com/2026/02/21/blizzard-prompts-airlines-waive-flight-change-fees.html",
-      "source": "US Top News and Analysis",
-      "published_utc": "2026-02-22T23:38:07.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "How Concerned Are Americans About The Pitfalls Of AI?",
-      "url": "https://fivethirtyeight.com/videos/how-concerned-are-americans-about-the-pitfalls-of-ai",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-02-22T23:40:15.108Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Live From New York: Will AI Replace This Podcast?",
-      "url": "https://fivethirtyeight.com/videos/live-from-new-york-will-ai-replace-this-podcast",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-02-22T23:40:15.108Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Tourette Syndrome Activist Shouts N-Word at Michael B. Jordan, Delroy Lindo at BAFTAs",
-      "url": "https://www.tmz.com/2026/02/22/tourette-syndrome-activist-shouts-n-word-at-michael-b-jordan-delroy-lindo-at-baftas",
-      "source": "TMZ.com",
-      "published_utc": "2026-02-22T23:34:12.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "'RHOC' Star Vicki Gunvalson Safe Amid Puerto Vallarta Violence",
-      "url": "https://www.tmz.com/2026/02/22/rhoc-vicki-gunvalson-safe-amid-puerto-vallarta-violence",
-      "source": "TMZ.com",
-      "published_utc": "2026-02-22T23:33:59.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Corner shop is shut down after hygiene inspectors uncover 'worst mice infestation ever seen'",
-      "url": "https://www.dailymail.co.uk/news/article-15582213/Corner-shop-shut-worst-mice-infestation-ever.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-02-22T23:33:36.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Jermain Defoe makes Tottenham prediction as relegation fears grow with Arsenal defeat",
-      "url": "https://metro.co.uk/2026/02/22/jermain-defoe-makes-tottenham-prediction-relegation-fears-grow-arsenal-defeat-27053483",
-      "source": "Metro",
-      "published_utc": "2026-02-22T23:31:11.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Bruins react to McAvoy, Swayman’s gold-medal win over Canada",
-      "url": "https://www.boston.com/sports/boston-bruins/2026/02/22/boston-bruins-olympics-team-usa-charlie-mcavoy-jeremy-swayman-nhl-hockey",
-      "source": "Boston Bruins: News, commentary, scores, schedule, and stats",
-      "published_utc": "2026-02-22T23:29:43.000Z",
+      "title": "Katherine Heigl Pays Tribute To Eric Dane: “Here’s To Your Next Great Adventure”",
+      "url": "https://deadline.com/2026/02/katherine-heigl-pays-tribute-eric-dane-1236732751",
+      "source": "Deadline",
+      "published_utc": "2026-02-22T23:41:36.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": true,
@@ -214,14 +45,14 @@
         ],
         "style": "glitch"
       },
-      "category": "Sports",
+      "category": "Culture",
       "region": "Canada"
     },
     {
-      "title": "CNN’s Fareed Zakaria Goes Off on ‘Blue Cities’ Like LA and New York for Being ‘Out of Control’",
-      "url": "https://www.mediaite.com/media/cnns-fareed-zakaria-goes-off-on-blue-cities-like-la-and-new-york-for-being-out-of-control",
-      "source": "Mediaite",
-      "published_utc": "2026-02-22T23:29:41.000Z",
+      "title": "North Korea’s Kim Jong Un re-elected as chief of Workers’ Party",
+      "url": "https://www.aljazeera.com/news/2026/2/22/north-koreas-kim-jong-un-re-elected-as-chief-of-workers?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-02-22T23:31:58.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -231,49 +62,10 @@
       "region": "World"
     },
     {
-      "title": "Selena Gomez and Nina Dobrev Turn Up The Heat On Cabo Yacht Getaway",
-      "url": "https://www.tmz.com/2026/02/22/selena-gomez-and-nina-dobrev-turn-up-the-heat-on-cabo-yacht-getaway",
-      "source": "TMZ.com",
-      "published_utc": "2026-02-22T23:29:22.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "London church fire LIVE as 70 firefighters battle huge blaze at chapel",
-      "url": "https://www.mirror.co.uk/news/uk-news/london-church-fire-live-70-36764511",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-02-22T23:29:09.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "TUDOR DIXON: Historic Drug Price Relief For American Families",
-      "url": "https://dailycaller.com/2026/02/22/opinion-trump-delivers-historic-drug-price-relief-for-american-families-tudor-dixon",
-      "source": "The Daily Caller",
-      "published_utc": "2026-02-22T23:25:40.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "How Shohei Ohtani will keep building up his arm while away at WBC",
-      "url": "https://nypost.com/2026/02/22/sports/dodgers-shohei-ohtani-to-keep-building-up-arm-while-at-wbc",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2026-02-22T23:25:11.000Z",
+      "title": "White House post after US hockey win over Canada stirs controversy",
+      "url": "https://www.aljazeera.com/news/2026/2/22/white-house-post-after-us-hockey-win-over-canada-stirs-controversy?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-02-22T23:31:08.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": true,
@@ -282,63 +74,8 @@
         ],
         "style": "glitch"
       },
-      "category": "Sports",
+      "category": "General",
       "region": "Canada"
-    },
-    {
-      "title": "The Trump Administration Is Ending Humanitarian Aid to Seven African Countries",
-      "url": "https://www.theatlantic.com/health/2026/02/trump-state-department-ending-aid-seven-african-countries/686106",
-      "source": "Health | The Atlantic",
-      "published_utc": "2026-02-22T23:24:53.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Youth",
-      "region": "World"
-    },
-    {
-      "title": "DHS abruptly reverses suspension of TSA PreCheck",
-      "url": "https://www.cnbc.com/2026/02/22/tsa-airlines-weather-shutdown-blizzard-dhs.html",
-      "source": "US Top News and Analysis",
-      "published_utc": "2026-02-22T23:23:18.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Who is Austin Tucker Martin? The 21-year-old killed after entering Mar-a-Lago with a shotgun and gas can",
-      "url": "https://www.dailymail.co.uk/news/article-15582599/austin-tucker-martin-man-killed-mar-lago-shotgun.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-02-22T23:23:07.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "BAFTAs 2026 winners: One Battle After Another dominates with six gongs as Jessie Buckley is awarded Best Actress - but Timothee Chalamet is SNUBBED",
-      "url": "https://www.dailymail.co.uk/tvshowbiz/article-15582785/BAFTAs-awards-2026-winners.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-02-22T23:20:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
     },
     {
       "title": "Mexico's most wanted drug lord 'El Mencho' killed in military operation",
@@ -357,48 +94,6 @@
       "region": "World"
     },
     {
-      "title": "Giants play through ‘bizarre’ alarm, turn wild triple play after Cubs rookie’s ‘boneheaded’ error",
-      "url": "https://nypost.com/2026/02/22/sports/giants-play-through-alarm-turn-wild-triple-play-after-cubs-rookies-boneheaded-error",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2026-02-22T23:18:21.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "BAFTA viewers left furious as Eric Dane and James Van Der Beek are snubbed from the ceremony's emotional In Memoriam segment",
-      "url": "https://www.dailymail.co.uk/tvshowbiz/article-15583039/BAFTAs-2026-Jessie-Ware-Memoriam-segment.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-02-22T23:15:28.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "UPDATING BAFTA AWARDS: “One Battle” Wins Best Picture, Sean Penn Surprise Best Supporting Actor, But No Timothee Chalamet",
-      "url": "https://www.showbiz411.com/2026/02/22/updating-bafta-awards-one-battle-wins-best-picture-director-screenplay-sean-penn-acting-plus-surprise-best-actor",
-      "source": "Showbiz411",
-      "published_utc": "2026-02-22T23:14:30.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Chinese New Year’s ‘Blades Of The Guardians’ Draws Crossover Audience; Kingly Opening For ‘Elvis Presley’ — Specialty Box Office",
       "url": "https://deadline.com/2026/02/indie-film-box-office-blades-of-the-guardians-elvis-presley-1236732697",
       "source": "Deadline",
@@ -412,77 +107,6 @@
       "region": "World"
     },
     {
-      "title": "King Charles tries to put on a brave face as he is pictured leaving church today amid Andrew scandal",
-      "url": "https://www.dailymail.co.uk/news/royals/article-15582821/King-Charles-grimacing-Andrew.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-02-22T23:08:45.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Trump insiders quietly creating 'off-ramp' after latest strike threat: report",
-      "url": "https://www.rawstory.com/trump-iran-2675292582",
-      "source": "Raw Story",
-      "published_utc": "2026-02-22T23:08:44.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Labour",
-      "region": "Canada"
-    },
-    {
-      "title": "England star, 30, is rushed to hospital with gruesome head injury - and could be out for 'months' after heavy blow",
-      "url": "https://www.dailymail.co.uk/sport/football/article-15583107/England-hospital-head-injury.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-02-22T23:08:21.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "BAFTA host Alan Cumming thanks audience for Tourette's understanding as I Swear's John Davidson lets out involuntary shouts during ceremony",
-      "url": "https://www.dailymail.co.uk/tvshowbiz/article-15582883/BAFTA-Alan-Cumming-thanks-audience-Tourettes-Swear-John-Davidson-shouts-ceremony.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-02-22T23:06:47.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Trump considers 'targeted strike' on Iran and possible 'much larger' follow-up attack",
-      "url": "https://www.mirror.co.uk/news/world-news/trump-considers-targeted-strike-iran-36764504",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-02-22T23:06:28.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
       "title": "Brazil does not want ‘a new Cold War’, says President Lula",
       "url": "https://www.aljazeera.com/news/2026/2/22/brazil-does-not-want-a-new-cold-war-says-lula?traffic_source=rss",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
@@ -493,148 +117,6 @@
         "reasons": []
       },
       "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "The First Task of Estrangement: Stabilize",
-      "url": "https://www.psychologytoday.com/ca/blog/the-rules-of-estrangement/202602/the-first-task-of-estrangement-stabilize",
-      "source": "Psychology Today: The Latest",
-      "published_utc": "2026-02-22T23:02:33.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Youth",
-      "region": "World"
-    },
-    {
-      "title": "‘Night Agent’ Boss Shawn Ryan Explains Season 3 Deaths, Shares Who May Return and His Hopes for Netflix Show’s Future After Finale",
-      "url": "https://www.hollywoodreporter.com/tv/tv-features/night-agent-season-3-finale-deaths-future-shawn-ryan-1236511798",
-      "source": "The Hollywood Reporter",
-      "published_utc": "2026-02-22T23:00:00.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "body_count≥3"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Mom who went missing without a trace 24 years ago is found ALIVE living double life in North Carolina",
-      "url": "https://www.dailymail.co.uk/news/article-15582971/mom-missing-alive-double-life-north-carolina.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-02-22T22:57:58.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Rangers’ Mike Sullivan capitalizes on once-uncertain Olympic chance with legacy-cementing win",
-      "url": "https://nypost.com/2026/02/22/sports/rangers-mike-sullivan-capitalizes-on-olympic-chance-with-legacy-cementing-win",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2026-02-22T22:56:44.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "Furious Canada hockey star goes viral for awkward moment he's given a stuffed toy after losing gold to USA",
-      "url": "https://www.dailymail.co.uk/sport/winterolympics/article-15583015/canada-nathan-mackinnon-hockey-loss-usa.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-02-22T22:55:08.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "Kate Middleton makes strong statement with 'symbolic return to spotlight'",
-      "url": "https://www.mirror.co.uk/3am/celebrity-news/kate-middleton-makes-strong-statement-36764412",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-02-22T22:55:03.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "BAFTAs Host Thanks Crowd for  ‘Understanding’ After Tourette’s Syndrome Activist Yells N-Word at Michael B. Jordan",
-      "url": "https://www.thewrap.com/industry-news/awards/baftas-host-thanks-crowd-for-understanding-after-tourettes-syndrome-activist-yells-n-word-at-michael-b-jordan",
-      "source": "TheWrap",
-      "published_utc": "2026-02-22T22:53:57.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "How Arsenal thrashed Tottenham - with help from five-goal Eberechi Eze and inspired Viktor Gyokeres: All the goals, big moments and talking points",
-      "url": "https://www.dailymail.co.uk/sport/football/article-15582627/arsenal-tottenham-eberechi-eze-viktor-gyokeres.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-02-22T22:53:10.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "White House trolls Canada, Justin Trudeau with savage post after USA hockey takes Olympic gold",
-      "url": "https://nypost.com/2026/02/22/sports/white-house-trolls-canada-with-savage-post-after-usa-hockey-takes-olympic-gold",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2026-02-22T22:52:24.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "Could AI Hijack the Human Psyche?",
-      "url": "https://www.psychologytoday.com/ca/blog/experimentations/202602/could-ai-hijack-the-human-psyche",
-      "source": "Psychology Today: The Latest",
-      "published_utc": "2026-02-22T22:50:48.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Youth",
       "region": "World"
     },
     {
@@ -654,36 +136,10 @@
       "region": "Canada"
     },
     {
-      "title": "Jessie Buckley wins Leading Actress BAFTA and recalls her journey from a Judi Dench wannabe with a 'nuclear bad fake tan' to 'the best role of my life, being a mum' in tearful speech",
-      "url": "https://www.dailymail.co.uk/tvshowbiz/article-15583055/Jessie-Buckley-wins-Leading-Actress-BAFTA-Hamnet-emotional-speech.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-02-22T22:49:23.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "The Whitaker Group's Artful adidas Sneaker Is an Elegant Everyday Flex",
       "url": "https://www.highsnobiety.com/p/whitaker-group-adidas-gazelle-sneakers",
       "source": "Highsnobiety",
       "published_utc": "2026-02-22T22:47:46.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Aimee Lou Wood is the epitome of elegance in a stunning pink gown as she make a rare red carpet appearance with boyfriend Adam Long at the star-studded BAFTAs",
-      "url": "https://www.dailymail.co.uk/tvshowbiz/article-15582669/Aimee-Lou-Wood-boyfriend-Adam-Long-BAFTAs.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-02-22T22:46:25.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -725,19 +181,6 @@
       "region": "Canada"
     },
     {
-      "title": "US Mulling an ‘Off Ramp’ On Iran As Top General Advises Trump Iran Attack Would Be ‘Far More Difficult’ Than Venezuela: NYT",
-      "url": "https://www.mediaite.com/politics/us-mulling-an-off-ramp-on-iran-as-top-general-advises-trump-iran-attack-would-be-far-more-difficult-than-venezuela-nyt",
-      "source": "Mediaite",
-      "published_utc": "2026-02-22T22:39:45.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "This Might Be Vans’ Craziest Checkerboard Skate Shoe Yet",
       "url": "https://www.highsnobiety.com/p/vans-authentic-shell-knit",
       "source": "Highsnobiety",
@@ -751,36 +194,10 @@
       "region": "World"
     },
     {
-      "title": "U.S. importers still paying Trump's illegal tariffs even after Supreme Court ruling",
-      "url": "https://www.cnbc.com/2026/02/22/trump-tariffs-ieepa-supreme-court.html",
-      "source": "US Top News and Analysis",
-      "published_utc": "2026-02-22T22:38:39.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Mexico announces killing of drug cartel kingpin ‘El Mencho’",
       "url": "https://www.aljazeera.com/news/2026/2/22/mexico-announces-killing-of-drug-cartel-kingpin-el-mencho?traffic_source=rss",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
       "published_utc": "2026-02-22T22:38:23.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Gary Neville makes 'wild prediction' as he picks between Arsenal and Man City",
-      "url": "https://www.mirror.co.uk/sport/football/news/neville-premier-league-title-prediction-36764457",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-02-22T22:38:21.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -816,32 +233,6 @@
       "region": "World"
     },
     {
-      "title": "C-SPAN Denies Trump Used Pseudonym to Call in and Complain About Supreme Court",
-      "url": "https://www.thewrap.com/media-platforms/politics/c-span-denies-trump-pseudonym-john-barron-supreme-court",
-      "source": "TheWrap",
-      "published_utc": "2026-02-22T22:34:28.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Northeast readies for a major winter storm, with blizzard warnings in effect",
-      "url": "https://www.npr.org/2026/02/22/nx-s1-5722878/northeast-blizzard-snowstorm-new-york-jersey",
-      "source": "NPR Topics: Home Page Top Stories",
-      "published_utc": "2026-02-22T22:33:48.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "The Infrared-Hot Return of an Original Nike Air Max Sneaker",
       "url": "https://www.highsnobiety.com/p/nike-air-max-90-infrared-2026",
       "source": "Highsnobiety",
@@ -852,45 +243,6 @@
         "reasons": []
       },
       "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Bonnie Blue Says She's Pregnant After Having Unprotected Sex With 400 Men",
-      "url": "https://www.tmz.com/2026/02/22/bonnie-blue-reveals-pregnancy-after-having-sex-with-hundreds-of-men",
-      "source": "TMZ.com",
-      "published_utc": "2026-02-22T22:32:39.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Nike’s Seriously Suave Sneaker Is More Ready for the Streets Than the Pitch",
-      "url": "https://www.highsnobiety.com/p/nike-tiempo-streetgato-sneakers",
-      "source": "Highsnobiety",
-      "published_utc": "2026-02-22T22:31:51.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "‘Use him more’ – Freddie Ljungberg sends message to Mikel Arteta over Arsenal star after Tottenham win",
-      "url": "https://metro.co.uk/2026/02/22/use-more-freddie-ljungberg-sends-message-mikel-arteta-arsenal-star-tottenham-win-27052833",
-      "source": "Metro",
-      "published_utc": "2026-02-22T22:31:51.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
       "region": "World"
     },
     {
@@ -910,10 +262,52 @@
       "region": "Canada"
     },
     {
-      "title": "An Olympic Final Worthy of a Rivalry",
-      "url": "https://www.newyorker.com/sports/sporting-scene/an-olympic-final-worthy-of-a-rivalry",
-      "source": "News, Politics, Opinion, Commentary, and Analysis",
-      "published_utc": "2026-02-22T22:31:01.000Z",
+      "title": "Nike’s Seriously Suave Sneaker Is More Ready for the Streets Than the Pitch",
+      "url": "https://www.highsnobiety.com/p/nike-tiempo-streetgato-sneakers",
+      "source": "Highsnobiety",
+      "published_utc": "2026-02-22T22:31:51.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Armed man killed after entering secure perimeter of Trump's residence, Secret Service says",
+      "url": "https://www.bbc.com/news/articles/cp32l9w9pgyo?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2026-02-22T22:08:03.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "BAFTA Confirms ‘One Battle’s Dominance; Throws Supporting Races Into More Disarray; And Jumpstarts Robert Aramayo’s Oscar Campaign For Next Year -Hammond Analysis",
+      "url": "https://deadline.com/2026/02/bafta-confirms-one-battles-dominance-has-upsets-for-oscar-1236732628",
+      "source": "Deadline",
+      "published_utc": "2026-02-22T22:04:01.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Zelensky tells BBC Putin has started WW3 and must be stopped",
+      "url": "https://www.bbc.com/news/articles/cvgj9p15y87o?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2026-02-22T22:00:47.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": true,
@@ -926,10 +320,39 @@
       "region": "Canada"
     },
     {
-      "title": "'I'm an MP and SEND parent - I'm hopeful we don't have to fight for our child's basic rights'",
-      "url": "https://www.mirror.co.uk/news/politics/im-mp-send-parent-im-36763460",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-02-22T22:30:00.000Z",
+      "title": "EU Names Azerbaijan a Cornerstone of Europe’s Post-Russia Energy Map",
+      "url": "https://oilprice.com/Energy/Energy-General/EU-Names-Azerbaijan-a-Cornerstone-of-Europes-Post-Russia-Energy-Map.html",
+      "source": "Oilprice.com",
+      "published_utc": "2026-02-22T22:00:00.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "In pictures: Behind the scenes at Masha Popova’s LFW comeback",
+      "url": "https://www.dazeddigital.com/fashion/gallery/36725/0/masha-popova-aw26",
+      "source": "Dazed",
+      "published_utc": "2026-02-22T21:46:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "What will Trump’s latest sweeping tariffs mean for the world?",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/2/22/what-will-trumps-latest-sweeping-tariffs-mean-for-the-world?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-02-22T21:45:56.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -939,10 +362,608 @@
       "region": "World"
     },
     {
-      "title": "Immigration debate 'fact-free zone' as Reform UK warns of 'invasion'",
-      "url": "https://www.mirror.co.uk/news/politics/immigration-debate-fact-free-zone-36762641",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-02-22T22:30:00.000Z",
+      "title": "BAFTAs Apologize for “Strong Language” from Nominee with Tourette’s Syndrome",
+      "url": "https://consequence.net/2026/02/bafta-tourette-outburts-apologies",
+      "source": "Consequence",
+      "published_utc": "2026-02-22T21:45:45.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "SEC allows broker-dealers to take 2% 'haircut' on stablecoins",
+      "url": "https://cointelegraph.com/news/sec-broker-dealer-2-haircut-stablecoins",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2026-02-22T21:42:54.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Truck drives into ditch after striking utility pole on Bayview Avenue, police say",
+      "url": "https://toronto.citynews.ca/2026/02/22/truck-drives-into-ditch-after-striking-utility-pole-on-bayview-avenue-police-say",
+      "source": "CityNews Toronto",
+      "published_utc": "2026-02-22T21:35:29.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Local",
+      "region": "Canada"
+    },
+    {
+      "title": "On A Night Of BAFTA Surprises, Was ‘Boong’ The Biggest?",
+      "url": "https://deadline.com/2026/02/boong-bafta-surprise-winner-beats-disney-hits-1236732649",
+      "source": "Deadline",
+      "published_utc": "2026-02-22T21:35:09.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Tame Impala’s Kevin Parker Slept Through His 2026 Grammy Win",
+      "url": "https://pitchfork.com/news/tame-impalas-kevin-parker-slept-through-his-2026-grammy-win",
+      "source": "RSS: News",
+      "published_utc": "2026-02-22T21:33:28.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "RCMP can’t corroborate ‘veracity’ of multiple threats in Tumbler Ridge, B.C.",
+      "url": "https://toronto.citynews.ca/2026/02/22/rcmp-cant-corroborate-veracity-of-multiple-threats-in-tumbler-ridge-b-c",
+      "source": "CityNews Toronto",
+      "published_utc": "2026-02-22T21:15:07.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Local",
+      "region": "Canada"
+    },
+    {
+      "title": "‘Operation Mincemeat’ Departing Original Cast To Perform Livestream Concert This Evening As Final Stage Performance Gets Blizzard-Canceled",
+      "url": "https://deadline.com/2026/02/broadway-cancellations-blizzard-1236732413",
+      "source": "Deadline",
+      "published_utc": "2026-02-22T20:53:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Watch ‘KPop Demon Hunters’ stars perform ‘Golden’ at the BAFTAs",
+      "url": "https://www.nme.com/news/music/watch-kpop-demon-hunters-stars-perform-golden-at-the-baftas-3930854",
+      "source": "NME",
+      "published_utc": "2026-02-22T20:52:11.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Violence erupts after Mexican security forces kill drug cartel boss ‘El Mencho’",
+      "url": "https://www.theguardian.com/world/2026/feb/22/mexican-security-forces-reportedly-kill-drug-cartel-boss-el-mencho",
+      "source": "World news | The Guardian",
+      "published_utc": "2026-02-22T20:43:09.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Red Sox Interested In Left-Handed Bullpen Depth",
+      "url": "https://www.mlbtraderumors.com/2026/02/red-sox-interested-in-left-handed-bullpen-depth.html",
+      "source": "MLB Trade Rumors",
+      "published_utc": "2026-02-22T20:41:21.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Robert Aramayo Makes Some History & Stuns BAFTA Film Awards With Best Actor Win",
+      "url": "https://deadline.com/2026/02/robert-aramayo-stuns-bafta-film-awards-history-best-actor-1236732592",
+      "source": "Deadline",
+      "published_utc": "2026-02-22T20:38:52.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Crypto infrastructure company BitGo named issuer for FYUSD stablecoin",
+      "url": "https://cointelegraph.com/news/bitgo-issuer-fyusd-stablecoin",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2026-02-22T20:38:32.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "NFL Wide Receiver Rondale Moore Dies At 25",
+      "url": "https://deadline.com/2026/02/nfl-rondale-moore-dies-25-1236732609",
+      "source": "Deadline",
+      "published_utc": "2026-02-22T20:38:22.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "breaker"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "‘Marty Supreme’ Shut Out At BAFTA Film Awards After Clocking 11 Nominations",
+      "url": "https://deadline.com/2026/02/marty-supreme-bafta-film-shut-out-1236732632",
+      "source": "Deadline",
+      "published_utc": "2026-02-22T20:35:23.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Syria moves out last residents of ISIL-linked desert camp",
+      "url": "https://www.aljazeera.com/news/2026/2/22/syria-moves-out-last-residents-of-isil-linked-desert-camp?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-02-22T20:31:10.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "‘One Battle After Another’ dominates 2026 BAFTAs, while ‘I Swear’ star Robert Aramayo causes major upset to win Best Actor",
+      "url": "https://www.nme.com/news/film/here-are-all-the-winners-from-the-baftas-2026-3930811",
+      "source": "NME",
+      "published_utc": "2026-02-22T20:12:36.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "‘Sinners’ Makes BAFTA History, Becoming Most Decorated Movie By Black Director At Film Awards",
+      "url": "https://deadline.com/2026/02/sinners-bafta-history-most-decorated-black-ryan-coogler-1236729394",
+      "source": "Deadline",
+      "published_utc": "2026-02-22T20:10:57.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "The Carlson-Huckabee interview may be the wake-up call Americans needed",
+      "url": "https://www.aljazeera.com/opinions/2026/2/22/the-carlson-huckabee-interview-may-be-the-wake-up-call-americans-needed?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-02-22T20:09:34.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "The AI alarm cycle: Lots of talk, little action",
+      "url": "https://www.aljazeera.com/video/the-listening-post/2026/2/22/the-ai-alarm-cycle-lots-of-talk-little-action?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-02-22T20:08:45.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Thevxlley smashes its London Fashion Week debut (literally)",
+      "url": "https://www.dazeddigital.com/fashion/article/69710/1/thevxlley-aw26-fw26-london-fashion-week-lfw-daniel-del-valle-debut",
+      "source": "Dazed",
+      "published_utc": "2026-02-22T20:08:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "America’s Nuclear Comeback Is Gaining Momentum",
+      "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Americas-Nuclear-Comeback-Is-Gaining-Momentum.html",
+      "source": "Oilprice.com",
+      "published_utc": "2026-02-22T20:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Energy",
+      "region": "Canada"
+    },
+    {
+      "title": "BAFTA Film Awards: ‘One Battle After Another’ Takes Best Film — Full Winners List",
+      "url": "https://deadline.com/2026/02/2026-bafta-film-awards-winners-1236728271",
+      "source": "Deadline",
+      "published_utc": "2026-02-22T19:53:36.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Donna Langley Honored At BAFTA Film Awards, Tells Audience: “We Are Facing Moments Of Change & Disruption”",
+      "url": "https://deadline.com/2026/02/donna-langley-fellowship-bafta-film-awards-1236729159",
+      "source": "Deadline",
+      "published_utc": "2026-02-22T19:49:46.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "Canada"
+    },
+    {
+      "title": "4 players targeted with racist abuse online after Premier League games",
+      "url": "https://toronto.citynews.ca/2026/02/22/3-players-targeted-with-racist-abuse-online-after-premier-league-games",
+      "source": "CityNews Toronto",
+      "published_utc": "2026-02-22T19:47:14.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "BAFTA Film Awards Host Alan Cumming Apologizes For “Strong Language” From Nominee With Tourette’s Syndrome",
+      "url": "https://deadline.com/2026/02/alan-cumming-bafta-film-awards-i-swear-tourettes-1236732568",
+      "source": "Deadline",
+      "published_utc": "2026-02-22T19:42:59.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Alysa Liu Skates to PinkPantheress at Olympic Gala",
+      "url": "https://pitchfork.com/news/alysa-liu-skates-to-pinkpantheress-at-olympic-gala",
+      "source": "RSS: News",
+      "published_utc": "2026-02-22T19:25:34.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Watch Cillian Murphy and Fontaines D.C.’s Grian Chatten talk about creating ‘Puppet’ for ‘Peaky Blinders: The Immortal Man’",
+      "url": "https://www.nme.com/news/music/watch-cillian-murphy-and-fontaines-d-c-s-grian-chatten-talk-about-creating-puppet-for-peaky-blinders-the-immortal-man-3930840",
+      "source": "NME",
+      "published_utc": "2026-02-22T19:23:45.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Eze hurts Tottenham again to reignite Arsenal’s title hopes with 4-1 win",
+      "url": "https://www.aljazeera.com/sports/2026/2/22/eze-hurts-tottenham-again-to-reignite-arsenals-title-hopes-with-4-1-win?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-02-22T19:06:04.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Curve Finance founder says disagreement within a DAO is a healthy sign",
+      "url": "https://cointelegraph.com/news/disagreement-healthy-sign-dao-curve",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2026-02-22T19:01:22.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "The Curator: Handy Amazon home gadgets that *really* work",
+      "url": "https://globalnews.ca/the-curator/11174750/home-gadgets-that-really-work",
+      "source": "globalnews.ca",
+      "published_utc": "2026-02-22T19:00:41.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "Latest Blue Jays injuries & transactions",
+      "url": "https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "source": "Blue Jays News",
+      "published_utc": "2026-02-22T18:57:00.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Burnt vehicles line highway near Mexican World Cup stadium",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/2/22/burnt-vehicles-line-highway-near-mexican-world-cup-stadium?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-02-22T18:50:11.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "AL East Notes: Westburg, Yankees, Rays",
+      "url": "https://www.mlbtraderumors.com/2026/02/al-east-notes-westburg-yankees-rays.html",
+      "source": "MLB Trade Rumors",
+      "published_utc": "2026-02-22T18:37:12.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "BAFTAs 2026: All the best looks from British film’s biggest night",
+      "url": "https://www.dazeddigital.com/fashion/article/69708/1/baftas-2026-best-fashion-looks-chase-infiniti-gracie-abrams-timothee-red-carpet",
+      "source": "Dazed",
+      "published_utc": "2026-02-22T18:33:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Man wanted in indecent act investigation in Mississauga",
+      "url": "https://toronto.citynews.ca/2026/02/22/man-wanted-in-indecent-act-investigation-in-mississauga",
+      "source": "CityNews Toronto",
+      "published_utc": "2026-02-22T18:23:38.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Local",
+      "region": "Canada"
+    },
+    {
+      "title": "Netanyahu says Israel will forge regional alliance to rival ‘radical axes’",
+      "url": "https://www.aljazeera.com/news/2026/2/22/netanyahu-says-israel-will-forge-regional-alliance-to-rival-radical-axis?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-02-22T18:20:41.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Trump curious why Iran has not 'capitulated', US envoy Witkoff says",
+      "url": "https://www.bbc.com/news/articles/cn5gk15rr70o?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2026-02-22T18:18:41.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "SZA Releases New Song “Save the Day”: Stream",
+      "url": "https://consequence.net/2026/02/sza-new-song-save-the-day",
+      "source": "Consequence",
+      "published_utc": "2026-02-22T18:18:32.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "A powerful magnitude 7.1 earthquake shakes parts of Malaysia, USGS says",
+      "url": "https://toronto.citynews.ca/2026/02/22/a-powerful-magnitude-7-1-earthquake-shakes-parts-of-malaysia-usgs-says",
+      "source": "CityNews Toronto",
+      "published_utc": "2026-02-22T18:17:16.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Local",
+      "region": "Canada"
+    },
+    {
+      "title": "Michael Imperioli thinks ‘The Sopranos’ characters would now “probably be Trump supporters”",
+      "url": "https://www.nme.com/news/tv/michael-imperioli-thinks-the-sopranos-characters-would-now-probably-be-trump-supporters-3930826",
+      "source": "NME",
+      "published_utc": "2026-02-22T18:08:57.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "USA's hockey gold medal had some Blue Jays thrilled. Others not so much",
+      "url": "https://www.mlb.com/bluejays/news/blue-jays-react-to-team-usa-winning-gold-medal-hockey",
+      "source": "Blue Jays News",
+      "published_utc": "2026-02-22T18:07:53.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Greenland rejects Trump’s offer to send US hospital ship to Arctic island",
+      "url": "https://www.aljazeera.com/news/2026/2/22/greenland-reiterates-its-public-healthcare-amid-us-hospital-ship-proposal?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-02-22T18:06:59.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "The Dear Hunter Announce New Album Sunya, Share First Single “The Glass Desert I – Giants”: Stream",
+      "url": "https://consequence.net/2026/02/the-dear-hunter-sunya-the-glass-desert-i-giants",
+      "source": "Consequence",
+      "published_utc": "2026-02-22T18:04:43.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Oman confirms US-Iran talks will take place in Geneva on Thursday",
+      "url": "https://www.aljazeera.com/news/2026/2/22/oman-confirms-us-iran-talks-will-take-place-in-geneva-on-thursday?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-02-22T18:01:54.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -955,8 +976,8 @@
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 1029,
-    "dedup_pass1": 1011,
+    "collected": 475,
+    "dedup_pass1": 471,
     "dedup_final": 320,
     "slow_domains": [],
     "timeouts": [
@@ -971,67 +992,61 @@
       "cultmtl.com",
       "financialpost.com",
       "globalnews.ca",
-      "nypost.com",
-      "toronto.citynews.ca",
-      "variety.com",
-      "www.boston.com",
-      "www.marketwatch.com",
-      "www.npr.org",
-      "www.wsj.com"
+      "toronto.citynews.ca"
     ],
     "feed_times_sample": [
       {
         "host": "www.labourstart.org",
-        "sec": 1.246,
+        "sec": 1.24,
         "kept": 0
       },
       {
         "host": "toronto.citynews.ca",
-        "sec": 0.885,
+        "sec": 1.069,
         "kept": 8
       },
       {
-        "host": "globalnews.ca",
-        "sec": 0.443,
-        "kept": 10
-      },
-      {
         "host": "www.blogto.com",
-        "sec": 0.35,
+        "sec": 0.518,
         "kept": 0
-      },
-      {
-        "host": "www.mlbtraderumors.com",
-        "sec": 0.344,
-        "kept": 14
-      },
-      {
-        "host": "www.mlb.com",
-        "sec": 0.286,
-        "kept": 14
       },
       {
         "host": "www.cp24.com",
-        "sec": 0.231,
+        "sec": 0.393,
         "kept": 14
       },
       {
+        "host": "globalnews.ca",
+        "sec": 0.35,
+        "kept": 10
+      },
+      {
         "host": "www.bls.gov",
-        "sec": 0.231,
+        "sec": 0.276,
         "kept": 0
       },
       {
+        "host": "www.mlb.com",
+        "sec": 0.248,
+        "kept": 14
+      },
+      {
+        "host": "www.mlbtraderumors.com",
+        "sec": 0.247,
+        "kept": 14
+      },
+      {
         "host": "www.nhl.com",
-        "sec": 0.151,
+        "sec": 0.141,
         "kept": 0
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.1,
+        "sec": 0.135,
         "kept": 14
       }
     ],
-    "elapsed_sec": 348.95,
+    "elapsed_sec": 303.49,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1057,7 +1072,7 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 35,
+      "ps_fatal_hits": 18,
       "ps_injury_hits": 0,
       "market_btc_hits": 1,
       "market_index_hits": 0,
@@ -1065,15 +1080,15 @@
       "market_single_hits": 0,
       "agg_penalties": 0,
       "press_penalties": 0,
-      "preferred_bonus": 125,
+      "preferred_bonus": 122,
       "substack_tagged": 0,
       "sports_team_hits": 9,
       "sports_player_hits": 1,
-      "sports_result_win_hits": 24,
+      "sports_result_win_hits": 11,
       "sports_result_loss_hits": 1,
-      "sports_evening_hits": 26,
+      "sports_evening_hits": 13,
       "sports_playoff_hits": 0,
-      "sports_focus_team_hits": 17,
+      "sports_focus_team_hits": 4,
       "sports_final_hits": 0,
       "sports_final_score_hits": 0,
       "hype_politics": 0,
@@ -1083,16 +1098,16 @@
       "hype_sports": 0,
       "hype_ceasefire": 0,
       "reject_hits": 0,
-      "obit_hits": 11,
-      "major_figure_hits": 5,
+      "obit_hits": 8,
+      "major_figure_hits": 1,
       "business_am_hits": 0
     },
     "sanity_stats": {
-      "link_verification_fail": 24,
-      "soft_404_drops": 70,
-      "max_age_drops": 0,
+      "link_verification_fail": 14,
+      "soft_404_drops": 14,
+      "max_age_drops": 24,
       "min_age_drops": 0,
-      "market_sanity_drops": 0,
+      "market_sanity_drops": 12,
       "backfill_steps_used": 0
     },
     "require_exact_count": 69,
