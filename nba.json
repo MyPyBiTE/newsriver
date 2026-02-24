@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-02-24T01:55:10.784270Z",
+  "generated_utc": "2026-02-24T04:17:04.998433Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401810683",
-          "gameDate": "2026-02-24T00:00Z",
+          "gamePk": "401810685",
+          "gameDate": "2026-02-24T02:30Z",
           "status": {
             "detailedState": "Live",
             "abstractGameState": "Live"
@@ -17,15 +17,15 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "SAS"
+                "abbreviation": "UTAH"
               },
-              "score": 81
+              "score": 63
             },
             "home": {
               "team": {
-                "abbreviation": "DET"
+                "abbreviation": "HOU"
               },
-              "score": 72
+              "score": 93
             }
           }
         },
@@ -33,51 +33,51 @@
           "gamePk": "401810684",
           "gameDate": "2026-02-24T01:00Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": "2nd",
-            "currentQuarter": "2nd"
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "SAC"
               },
-              "score": 55
+              "score": 123
             },
             "home": {
               "team": {
                 "abbreviation": "MEM"
               },
-              "score": 50
+              "score": 114
             }
           }
         },
         {
-          "gamePk": "401810685",
-          "gameDate": "2026-02-24T02:30Z",
+          "gamePk": "401810683",
+          "gameDate": "2026-02-24T00:00Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "UTAH"
+                "abbreviation": "SAS"
               },
-              "score": 0
+              "score": 114
             },
             "home": {
               "team": {
-                "abbreviation": "HOU"
+                "abbreviation": "DET"
               },
-              "score": 0
+              "score": 103
             }
           }
         }
