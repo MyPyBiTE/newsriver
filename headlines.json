@@ -1,13 +1,58 @@
 {
-  "generated_utc": "2026-02-24T05:44:13.633Z",
-  "itemset_hash": "265a85d545e7a557",
+  "generated_utc": "2026-02-24T06:46:39.169Z",
+  "itemset_hash": "cd6a587e4b4595b9",
   "count": 69,
   "items": [
     {
-      "title": "Jane Street faces claims of insider trading that sped up Terraform's 2022 collapse",
-      "url": "https://www.coindesk.com/markets/2026/02/24/jane-street-faces-claims-of-insider-trading-that-sped-up-terraform-s-2022-collapse-ft",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published_utc": "2026-02-24T05:32:35.000Z",
+      "title": "Diamondback Says Oil Glut Fears Are Fading as Demand Holds Strong",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Diamondback-Says-Oil-Glut-Fears-Are-Fading-as-Demand-Holds-Strong.html",
+      "source": "Oilprice.com",
+      "published_utc": "2026-02-24T06:39:29.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Energy",
+      "region": "Canada"
+    },
+    {
+      "title": "France moves to bar US Ambassador Charles Kushner from direct government access",
+      "url": "https://www.npr.org/2026/02/24/g-s1-111302/france-moves-to-bar-us-ambassador-charles-kushner-from-direct-government-access",
+      "source": "NPR Topics: Home Page Top Stories",
+      "published_utc": "2026-02-24T06:29:28.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Wrist Check: 14 Best Watches at the 2026 BAFTA Awards",
+      "url": "https://hypebeast.com/2026/2/wrist-check-14-best-watches-2026-bafta-rolex-cartier-vacheron-constantin-audemars-piguet",
+      "source": "Hypebeast",
+      "published_utc": "2026-02-24T06:23:26.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Crypto VC Framework Ventures to help Better with $500M DeFi play",
+      "url": "https://cointelegraph.com/news/crypto-vc-framework-ventures-help-better-with-500m-defi-play",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2026-02-24T06:22:01.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": true,
@@ -20,10 +65,74 @@
       "region": "World"
     },
     {
-      "title": "Jon Stewart Calls FBI Director Kash Patel a ‘Make-a-Wish Man’ for Celebrating Gold Medal Win With USA Hockey Team",
-      "url": "https://variety.com/2026/tv/news/jon-stewart-kash-patel-usa-hockey-the-daily-show-1236670966",
-      "source": "Variety",
-      "published_utc": "2026-02-24T05:27:26.000Z",
+      "title": "Cybersecurity stocks tank after Anthropic unveils Claude Code Security",
+      "url": "https://cointelegraph.com/news/cybersecurity-stocks-tank-following-launch-claude-code-security",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2026-02-24T06:21:01.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "A New ‘Neon Genesis Evangelion’ Series Is in Development",
+      "url": "https://hypebeast.com/2026/2/new-neon-genesis-evangelion-series-announcement-studio-khara-cloverworks",
+      "source": "Hypebeast",
+      "published_utc": "2026-02-24T06:17:41.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "TRM Labs, Finray Technologies partner for crypto and fiat monitoring",
+      "url": "https://cointelegraph.com/news/trm-labs-finray-crypto-fiat-monitoring-mica-compliance",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2026-02-24T06:08:46.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Cubs All-Star Pete Crow-Armstrong takes shot at Dodgers fans from the city that raised him",
+      "url": "https://nypost.com/2026/02/24/sports/cubs-all-star-pete-crow-armstrong-takes-shot-at-dodgers-fans",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-02-24T06:02:25.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Russian soldiers tell BBC they saw fellow troops executed on commanders' orders",
+      "url": "https://www.bbc.com/news/articles/cz7gw3l395ro?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2026-02-24T06:02:13.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": true,
@@ -34,6 +143,51 @@
       },
       "category": "General",
       "region": "Canada"
+    },
+    {
+      "title": "Cubs To Sign Michael Conforto",
+      "url": "https://www.mlbtraderumors.com/2026/02/cubs-to-sign-michael-conforto.html",
+      "source": "MLB Trade Rumors",
+      "published_utc": "2026-02-24T05:59:50.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Jets catch brutal stray from Saints’ defensive star as he praises team’s outlook",
+      "url": "https://nypost.com/2026/02/24/sports/jets-catch-stray-from-saints-cam-jordan-as-he-praises-teams-young-qb",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-02-24T05:57:23.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Jane Street faces claims of insider trading that sped up Terraform's 2022 collapse",
+      "url": "https://www.coindesk.com/markets/2026/02/24/jane-street-faces-claims-of-insider-trading-that-sped-up-terraform-s-2022-collapse-ft",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2026-02-24T05:32:35.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Business",
+      "region": "World"
     },
     {
       "title": "NFL could be headed for expanded relationship with YouTube for game broadcasts",
@@ -58,11 +212,8 @@
       "published_utc": "2026-02-24T05:22:56.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Labour",
       "region": "World"
@@ -74,17 +225,14 @@
       "published_utc": "2026-02-24T05:18:00.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Business",
       "region": "World"
     },
     {
-      "title": "‘Lizzie McGuire’ Cast Remembers Robert Carradine’s “Fatherly Support” After His Death: “My Heart Hurts”",
+      "title": "Hilary Duff & ‘Lizzie McGuire’ Cast Remember Robert Carradine’s “Fatherly Support”: “This One Hurts”",
       "url": "https://deadline.com/2026/02/lizzie-mcguire-stars-remember-robert-carradine-1236734096",
       "source": "Deadline",
       "published_utc": "2026-02-24T05:16:32.000Z",
@@ -94,6 +242,19 @@
         "reasons": []
       },
       "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "U.S. Military Aircraft Land in Israel as Netanyahu Warns Iran of ‘Force They Cannot Even Imagine’",
+      "url": "https://www.breitbart.com/politics/2026/02/23/u-s-military-aircraft-land-israel-netanyahu-warns-iran-force-cannot-imagine",
+      "source": "Breitbart News",
+      "published_utc": "2026-02-24T05:16:30.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Labour",
       "region": "World"
     },
     {
@@ -137,22 +298,6 @@
       },
       "category": "General",
       "region": "World"
-    },
-    {
-      "title": "U.S. Olympic Hockey Heroics Spurring Tickets Sales for NHL Games Online",
-      "url": "https://variety.com/2026/shopping/athletes/buy-nhl-hockey-game-tickets-online-best-prices-cheap-seats-1236670926",
-      "source": "Variety",
-      "published_utc": "2026-02-24T05:07:45.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "Canada"
     },
     {
       "title": "Texas County Drops Proposal to Rename Highway for Charlie Kirk After More Than 100 People Show Up to Commission Meeting",
@@ -203,43 +348,21 @@
       "published_utc": "2026-02-24T04:52:22.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Business",
       "region": "World"
     },
     {
-      "title": "Robert Carradine, ‘Revenge of the Nerds’ and ‘Lizzie McGuire’ Star, Dies at 71",
-      "url": "https://www.thewrap.com/culture-lifestyle/culture/robert-carradine-dies-revenge-of-the-nerds-lizzie-mcguire-star",
-      "source": "TheWrap",
-      "published_utc": "2026-02-24T04:49:49.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "breaker"
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Citrini’s AI doom report sees software, payment stocks tumble",
+      "title": "Citrini’s AI doom report prompts software, payment stocks tumble",
       "url": "https://cointelegraph.com/news/citrini-fearful-ai-agent-report-scares-investors",
       "source": "Cointelegraph.com News",
       "published_utc": "2026-02-24T04:48:42.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Business",
       "region": "World"
@@ -255,19 +378,6 @@
         "reasons": []
       },
       "category": "Business",
-      "region": "World"
-    },
-    {
-      "title": "Wrist Check: 14 Best Watches at the 2026 BAFTA Awards",
-      "url": "https://hypebeast.com/2026/2/wrist-check-14-best-watches-2026-bafta-rolex-cartier-vacheron-constantin-audemars-piguet",
-      "source": "Hypebeast",
-      "published_utc": "2026-02-24T04:42:51.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
       "region": "World"
     },
     {
@@ -464,12 +574,12 @@
       "source": "Hypebeast",
       "published_utc": "2026-02-24T04:18:15.000Z",
       "effects": {
-        "lightsaber": true,
-        "glitch": false,
+        "lightsaber": false,
+        "glitch": true,
         "reasons": [
-          "score≥2.6"
+          "score≥2.1"
         ],
-        "style": "lightsaber"
+        "style": "glitch"
       },
       "category": "Labour",
       "region": "World"
@@ -481,11 +591,8 @@
       "published_utc": "2026-02-24T04:16:14.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "General",
       "region": "Canada"
@@ -565,11 +672,9 @@
       "published_utc": "2026-02-24T04:06:11.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": [],
+        "style": "breaker"
       },
       "category": "General",
       "region": "World"
@@ -602,19 +707,6 @@
       },
       "category": "General",
       "region": "Canada"
-    },
-    {
-      "title": "Adam Pally to Star as ‘Eccentric American Billionaire’ in New Zealand-Based Comedy Series ‘The Sanctuary’",
-      "url": "https://variety.com/2026/tv/news/adam-pally-star-new-zealand-comedy-the-sanctuary-1236670746",
-      "source": "Variety",
-      "published_utc": "2026-02-24T04:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
     },
     {
       "title": "Mariners Were Reluctant To Discuss Cole Young In Ketel Marte Talks",
@@ -752,10 +844,10 @@
       "region": "Canada"
     },
     {
-      "title": "Nancy Guthrie Case: Sheriff Pushes Back on ‘Speculative’ Doorbell Footage Claims",
-      "url": "https://www.thewrap.com/industry-news/public-policy-legal/nancy-guthrie-case-sheriff-responds-doorbell-footage-claims",
-      "source": "TheWrap",
-      "published_utc": "2026-02-24T03:42:55.000Z",
+      "title": "Probe under way after illness kills 72 tigers in Thai tourist park",
+      "url": "https://www.bbc.com/news/articles/cly833zjp4po?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2026-02-24T03:45:47.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -833,19 +925,6 @@
       "region": "Canada"
     },
     {
-      "title": "Massive Blizzard Halts Boston Globe Print Production for First Time in Paper’s History",
-      "url": "https://www.thewrap.com/media-platforms/journalism/blizzard-pauses-boston-globe-print-production",
-      "source": "TheWrap",
-      "published_utc": "2026-02-24T03:13:31.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Topshelf Records Drops Ekko Astral",
       "url": "https://pitchfork.com/news/topshelf-records-drops-ekko-astral",
       "source": "RSS: News",
@@ -899,99 +978,17 @@
       },
       "category": "General",
       "region": "World"
-    },
-    {
-      "title": "Philip Rivers’ quarterback son decides on college football future",
-      "url": "https://nypost.com/2026/02/23/sports/phillip-rivers-son-gunner-who-plays-qb-commits-to-nc-state",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2026-02-24T03:03:54.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "‘One Battle After Another’ Named Best Film of 2025 by Vancouver Film Critics Circle",
-      "url": "https://www.hollywoodreporter.com/movies/movie-news/one-battle-after-another-best-film-vancouver-film-critics-1236512861",
-      "source": "The Hollywood Reporter",
-      "published_utc": "2026-02-24T03:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "To trade or not to trade? Bruins must make their call with Viktor Arvidsson.",
-      "url": "https://www.boston.com/sports/boston-bruins/2026/02/23/boston-bruins-viktor-arvidsson-nhl-hockey-trade-rumors-deadline-marco-sturm",
-      "source": "Boston Bruins: News, commentary, scores, schedule, and stats",
-      "published_utc": "2026-02-24T02:58:44.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "Expert reveals how foreign leaders exploit Trump for their own gain: 'He knows this'",
-      "url": "https://www.rawstory.com/trump-2675303528",
-      "source": "Raw Story",
-      "published_utc": "2026-02-24T02:58:19.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "'Hot mess!' Rachel Maddow laughs at Trump's choices for designated survivor",
-      "url": "https://www.rawstory.com/rachel-maddow-2675303516",
-      "source": "Raw Story",
-      "published_utc": "2026-02-24T02:54:24.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Isaac Hayes’ Estate Reaches Settlement with Trump Over Use Of “Hold On, I’m Coming”",
-      "url": "https://consequence.net/2026/02/isaac-hayes-trump-settlement",
-      "source": "Consequence",
-      "published_utc": "2026-02-24T02:53:51.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
     }
   ],
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 724,
-    "dedup_pass1": 720,
+    "collected": 710,
+    "dedup_pass1": 707,
     "dedup_final": 320,
-    "slow_domains": [],
+    "slow_domains": [
+      "www.boston.com"
+    ],
     "timeouts": [
       "news.communitech.ca",
       "www.cbc.ca",
@@ -1006,7 +1003,6 @@
       "financialpost.com",
       "globalnews.ca",
       "toronto.citynews.ca",
-      "variety.com",
       "www.boston.com",
       "www.marketwatch.com",
       "www.npr.org",
@@ -1014,57 +1010,57 @@
     ],
     "feed_times_sample": [
       {
-        "host": "www.labourstart.org",
-        "sec": 1.831,
-        "kept": 0
-      },
-      {
         "host": "toronto.citynews.ca",
-        "sec": 1.132,
+        "sec": 2.615,
         "kept": 8
       },
       {
-        "host": "www.bls.gov",
-        "sec": 0.743,
+        "host": "www.blogto.com",
+        "sec": 2.024,
+        "kept": 0
+      },
+      {
+        "host": "www.labourstart.org",
+        "sec": 1.907,
         "kept": 0
       },
       {
         "host": "www.mlb.com",
-        "sec": 0.55,
+        "sec": 0.728,
         "kept": 14
       },
       {
         "host": "www.cp24.com",
-        "sec": 0.492,
+        "sec": 0.675,
         "kept": 14
       },
       {
-        "host": "www.blogto.com",
-        "sec": 0.472,
-        "kept": 0
-      },
-      {
         "host": "globalnews.ca",
-        "sec": 0.45,
+        "sec": 0.361,
         "kept": 10
       },
       {
         "host": "www.mlbtraderumors.com",
-        "sec": 0.307,
+        "sec": 0.311,
         "kept": 14
       },
       {
+        "host": "www.bls.gov",
+        "sec": 0.263,
+        "kept": 0
+      },
+      {
         "host": "www.nhl.com",
-        "sec": 0.102,
+        "sec": 0.191,
         "kept": 0
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.056,
+        "sec": 0.067,
         "kept": 14
       }
     ],
-    "elapsed_sec": 356.52,
+    "elapsed_sec": 360.92,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1090,7 +1086,7 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 19,
+      "ps_fatal_hits": 17,
       "ps_injury_hits": 1,
       "market_btc_hits": 0,
       "market_index_hits": 0,
@@ -1106,7 +1102,7 @@
       "sports_result_loss_hits": 0,
       "sports_evening_hits": 0,
       "sports_playoff_hits": 0,
-      "sports_focus_team_hits": 13,
+      "sports_focus_team_hits": 14,
       "sports_final_hits": 0,
       "sports_final_score_hits": 0,
       "hype_politics": 0,
@@ -1116,7 +1112,7 @@
       "hype_sports": 0,
       "hype_ceasefire": 0,
       "reject_hits": 1,
-      "obit_hits": 6,
+      "obit_hits": 5,
       "major_figure_hits": 2,
       "business_am_hits": 0
     },
@@ -1125,7 +1121,7 @@
       "soft_404_drops": 66,
       "max_age_drops": 0,
       "min_age_drops": 8,
-      "market_sanity_drops": 5,
+      "market_sanity_drops": 4,
       "backfill_steps_used": 0
     },
     "require_exact_count": 69,
