@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"2 men arrested after kidnapping and extortion in Ajax",
-      "display":"2 men arrested after kidnapping and extortion in Ajax",
-      "url":"https://toronto.citynews.ca/2026/02/24/2-men-arrested-after-kidnapping-and-extortion-in-ajax",
+      "text":"With stars away at Classic, these Blue Jays can prove themselves",
+      "display":"With stars away at Classic, these Blue Jays can prove themselves",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-to-watch-with-stars-at-world-baseball-classic",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Transit signal priority slowly starts rolling out on TTC Line 6 Finch West",
+      "display":"Transit signal priority slowly starts rolling out on TTC Line 6 Finch West",
+      "url":"https://toronto.citynews.ca/2026/02/24/ttc-line-6-finch-west-transit-signal-priority-installation",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Former MP Jenica Atwin joins race to become Fredericton’s next mayor",
-      "display":"Former MP Jenica Atwin joins race to become Fredericton’s next mayor",
-      "url":"https://globalnews.ca/news/11687396/fredericton-mayor-race-jenica-atwin",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"How Dare You: ‘America’s Next Top Model’ Docuseries Is A Runway Hit For Netflix",
-      "display":"How Dare You: ‘America’s Next Top Model’ Docuseries Is A Runway Hit For Netflix",
-      "url":"https://deadline.com/2026/02/americas-next-top-model-docuseries-netflix-ratings-1236734860",
+      "text":"Canada announces new Russia sanctions as invasion of Ukraine hits 4 years",
+      "display":"Canada announces new Russia sanctions as invasion of Ukraine hits 4 years",
+      "url":"https://globalnews.ca/news/11689390/canada-new-sanctions-russia-ukraine-four-years",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-02-24T21:25:41Z"
+  "generated_utc":"2026-02-24T21:56:21Z"
 }
