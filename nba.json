@@ -1,60 +1,8 @@
 {
-  "generated_utc": "2026-02-25T05:15:31.062996Z",
+  "generated_utc": "2026-02-25T06:17:54.800012Z",
   "dates": [
     {
       "games": [
-        {
-          "gamePk": "401810696",
-          "gameDate": "2026-02-25T03:00Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "MIN"
-              },
-              "score": 109
-            },
-            "home": {
-              "team": {
-                "abbreviation": "POR"
-              },
-              "score": 102
-            }
-          }
-        },
-        {
-          "gamePk": "401810695",
-          "gameDate": "2026-02-25T03:30Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "3rd",
-            "currentQuarter": "3rd"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "ORL"
-              },
-              "score": 70
-            },
-            "home": {
-              "team": {
-                "abbreviation": "LAL"
-              },
-              "score": 76
-            }
-          }
-        },
         {
           "gamePk": "401810697",
           "gameDate": "2026-02-26T00:30Z",
@@ -208,6 +156,58 @@
                 "abbreviation": "DEN"
               },
               "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401810695",
+          "gameDate": "2026-02-25T03:30Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "ORL"
+              },
+              "score": 110
+            },
+            "home": {
+              "team": {
+                "abbreviation": "LAL"
+              },
+              "score": 109
+            }
+          }
+        },
+        {
+          "gamePk": "401810696",
+          "gameDate": "2026-02-25T03:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "MIN"
+              },
+              "score": 124
+            },
+            "home": {
+              "team": {
+                "abbreviation": "POR"
+              },
+              "score": 121
             }
           }
         },
@@ -418,32 +418,6 @@
               "score": 109
             }
           }
-        },
-        {
-          "gamePk": "401810686",
-          "gameDate": "2026-02-25T00:00Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "PHI"
-              },
-              "score": 135
-            },
-            "home": {
-              "team": {
-                "abbreviation": "IND"
-              },
-              "score": 114
-            }
-          }
         }
       ]
     }
@@ -454,7 +428,7 @@
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260224",
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260225"
     ],
-    "games_count": 17,
+    "games_count": 16,
     "http_timeout_sec": 12.0,
     "version": "nba-relay-1.1",
     "preview_hours": 36,
