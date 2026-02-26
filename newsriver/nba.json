@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-02-26T01:52:50.949853Z",
+  "generated_utc": "2026-02-26T04:15:03.806774Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401810697",
-          "gameDate": "2026-02-26T00:30Z",
+          "gamePk": "401810702",
+          "gameDate": "2026-02-26T03:00Z",
           "status": {
             "detailedState": "Live",
             "abstractGameState": "Live"
@@ -17,67 +17,15 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "OKC"
+                "abbreviation": "BOS"
               },
-              "score": 52
+              "score": 48
             },
             "home": {
               "team": {
-                "abbreviation": "DET"
+                "abbreviation": "DEN"
               },
-              "score": 58
-            }
-          }
-        },
-        {
-          "gamePk": "401810698",
-          "gameDate": "2026-02-26T00:30Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "2nd",
-            "currentQuarter": "2nd"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "SAS"
-              },
-              "score": 57
-            },
-            "home": {
-              "team": {
-                "abbreviation": "TOR"
-              },
-              "score": 59
-            }
-          }
-        },
-        {
-          "gamePk": "401810699",
-          "gameDate": "2026-02-26T00:30Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "3rd",
-            "currentQuarter": "3rd"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "GSW"
-              },
-              "score": 74
-            },
-            "home": {
-              "team": {
-                "abbreviation": "MEM"
-              },
-              "score": 56
+              "score": 47
             }
           }
         },
@@ -85,25 +33,25 @@
           "gamePk": "401810700",
           "gameDate": "2026-02-26T01:00Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": "2nd",
-            "currentQuarter": "2nd"
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "SAC"
               },
-              "score": 32
+              "score": 97
             },
             "home": {
               "team": {
                 "abbreviation": "HOU"
               },
-              "score": 51
+              "score": 128
             }
           }
         },
@@ -111,51 +59,103 @@
           "gamePk": "401810701",
           "gameDate": "2026-02-26T01:00Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": "2nd",
-            "currentQuarter": "2nd"
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "CLE"
               },
-              "score": 51
+              "score": 116
             },
             "home": {
               "team": {
                 "abbreviation": "MIL"
               },
-              "score": 53
+              "score": 118
             }
           }
         },
         {
-          "gamePk": "401810702",
-          "gameDate": "2026-02-26T03:00Z",
+          "gamePk": "401810697",
+          "gameDate": "2026-02-26T00:30Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "BOS"
+                "abbreviation": "OKC"
               },
-              "score": 0
+              "score": 116
             },
             "home": {
               "team": {
-                "abbreviation": "DEN"
+                "abbreviation": "DET"
               },
-              "score": 0
+              "score": 124
+            }
+          }
+        },
+        {
+          "gamePk": "401810698",
+          "gameDate": "2026-02-26T00:30Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "SAS"
+              },
+              "score": 110
+            },
+            "home": {
+              "team": {
+                "abbreviation": "TOR"
+              },
+              "score": 107
+            }
+          }
+        },
+        {
+          "gamePk": "401810699",
+          "gameDate": "2026-02-26T00:30Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "GSW"
+              },
+              "score": 133
+            },
+            "home": {
+              "team": {
+                "abbreviation": "MEM"
+              },
+              "score": 112
             }
           }
         }
