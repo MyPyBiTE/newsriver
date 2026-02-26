@@ -1,6 +1,16 @@
 {
   "items":[
     {
+      "text":"Scherzer reaches agreement on deal to return to Blue Jays (source)",
+      "display":"Scherzer reaches agreement on deal to return to Blue Jays (source)",
+      "url":"https://www.mlb.com/bluejays/news/max-scherzer-blue-jays-2026-contract",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
       "text":"Source: Max Scherzer set to rejoin Blue Jays on $3M deal with $10M in incentives",
       "display":"Source: Max Scherzer set to rejoin Blue Jays on $3M deal with $10M in incentives",
       "url":"https://toronto.citynews.ca/2026/02/26/max-scherzer-toronto-blue-jays-return-mlb",
@@ -19,17 +29,7 @@
         "is_landmark":true,
         "has_bitcoin":false
       }
-    },
-    {
-      "text":"How Our Presidential Endorsement Tracker Works",
-      "display":"How Our Presidential Endorsement Tracker Works",
-      "url":"https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
     }
   ],
-  "generated_utc":"2026-02-26T11:12:11Z"
+  "generated_utc":"2026-02-26T11:54:28Z"
 }
