@@ -1,6 +1,16 @@
 {
   "items":[
     {
+      "text":"With elite D, Blue Jays can unlock Cy-caliber version of Cease",
+      "display":"With elite D, Blue Jays can unlock Cy-caliber version of Cease",
+      "url":"https://www.mlb.com/bluejays/news/dylan-cease-makes-blue-jays-2026-spring-training-debut",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
       "text":"Toronto man charged with 15 counts of break and enter",
       "display":"Toronto man charged with 15 counts of break and enter",
       "url":"https://toronto.citynews.ca/2026/02/28/toronto-man-charged-with-15-counts-of-break-and-enter",
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Oil prices set for swings next week after U.S., Israel strikes on Iran",
-      "display":"Oil prices set for swings next week after U.S., Israel strikes on Iran",
-      "url":"https://globalnews.ca/news/11711403/oil-prices-us-israel-iran",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"How Our Presidential Endorsement Tracker Works",
-      "display":"How Our Presidential Endorsement Tracker Works",
-      "url":"https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
+      "text":"Politics Podcast",
+      "display":"Politics Podcast",
+      "url":"https://fivethirtyeight.com/tag/politics-podcast",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-02-28T19:14:11Z"
+  "generated_utc":"2026-02-28T19:32:00Z"
 }
