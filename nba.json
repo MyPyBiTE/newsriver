@@ -1,63 +1,11 @@
 {
-  "generated_utc": "2026-02-28T02:33:15.291237Z",
+  "generated_utc": "2026-02-28T04:07:42.053018Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401810713",
-          "gameDate": "2026-02-28T00:00Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "CLE"
-              },
-              "score": 98
-            },
-            "home": {
-              "team": {
-                "abbreviation": "DET"
-              },
-              "score": 91
-            }
-          }
-        },
-        {
-          "gamePk": "401810714",
-          "gameDate": "2026-02-28T00:30Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "BKN"
-              },
-              "score": 86
-            },
-            "home": {
-              "team": {
-                "abbreviation": "BOS"
-              },
-              "score": 117
-            }
-          }
-        },
-        {
-          "gamePk": "401810715",
-          "gameDate": "2026-02-28T01:00Z",
+          "gamePk": "401810717",
+          "gameDate": "2026-02-28T02:47Z",
           "status": {
             "detailedState": "Live",
             "abstractGameState": "Live"
@@ -69,15 +17,15 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "NYK"
+                "abbreviation": "DEN"
               },
-              "score": 88
+              "score": 62
             },
             "home": {
               "team": {
-                "abbreviation": "MIL"
+                "abbreviation": "OKC"
               },
-              "score": 70
+              "score": 57
             }
           }
         },
@@ -85,51 +33,103 @@
           "gamePk": "401810716",
           "gameDate": "2026-02-28T01:30Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": "2nd",
-            "currentQuarter": "2nd"
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "MEM"
               },
-              "score": 56
+              "score": 124
             },
             "home": {
               "team": {
                 "abbreviation": "DAL"
               },
-              "score": 40
+              "score": 105
             }
           }
         },
         {
-          "gamePk": "401810717",
-          "gameDate": "2026-02-28T02:30Z",
+          "gamePk": "401810715",
+          "gameDate": "2026-02-28T01:00Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "DEN"
+                "abbreviation": "NYK"
               },
-              "score": 0
+              "score": 127
             },
             "home": {
               "team": {
-                "abbreviation": "OKC"
+                "abbreviation": "MIL"
               },
-              "score": 0
+              "score": 98
+            }
+          }
+        },
+        {
+          "gamePk": "401810714",
+          "gameDate": "2026-02-28T00:30Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "BKN"
+              },
+              "score": 111
+            },
+            "home": {
+              "team": {
+                "abbreviation": "BOS"
+              },
+              "score": 148
+            }
+          }
+        },
+        {
+          "gamePk": "401810713",
+          "gameDate": "2026-02-28T00:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "CLE"
+              },
+              "score": 119
+            },
+            "home": {
+              "team": {
+                "abbreviation": "DET"
+              },
+              "score": 122
             }
           }
         }
