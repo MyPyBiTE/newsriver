@@ -1,34 +1,8 @@
 {
-  "generated_utc": "2026-02-28T22:58:41.397341Z",
+  "generated_utc": "2026-02-28T23:29:20.336041Z",
   "dates": [
     {
       "games": [
-        {
-          "gamePk": "401810719",
-          "gameDate": "2026-02-28T20:30Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "HOU"
-              },
-              "score": 101
-            },
-            "home": {
-              "team": {
-                "abbreviation": "MIA"
-              },
-              "score": 106
-            }
-          }
-        },
         {
           "gamePk": "401810720",
           "gameDate": "2026-03-01T00:00Z",
@@ -104,6 +78,32 @@
                 "abbreviation": "UTAH"
               },
               "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401810719",
+          "gameDate": "2026-02-28T20:30Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "HOU"
+              },
+              "score": 105
+            },
+            "home": {
+              "team": {
+                "abbreviation": "MIA"
+              },
+              "score": 115
             }
           }
         },
