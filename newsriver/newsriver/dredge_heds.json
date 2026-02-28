@@ -1,12 +1,22 @@
 {
   "items":[
     {
-      "text":"Latest Blue Jays injuries & transactions",
-      "display":"Latest Blue Jays injuries & transactions",
-      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "text":"Cease lights up radar gun (98 mph!) in debut with Jays",
+      "display":"Cease lights up radar gun (98 mph!) in debut with Jays",
+      "url":"https://www.mlb.com/bluejays/news/dylan-cease-makes-blue-jays-2026-spring-training-debut",
       "flags":{
         "is_breaking":false,
         "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Netanyahu says there are ‘signs’ Iran’s supreme leader was killed",
+      "display":"Netanyahu says there are ‘signs’ Iran’s supreme leader was killed",
+      "url":"https://globalnews.ca/news/11711455/iran-strikes-benjamin-netanyahu-ayatollah-ali-khamenei",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
         "has_bitcoin":false
       }
     },
@@ -19,17 +29,7 @@
         "is_landmark":false,
         "has_bitcoin":false
       }
-    },
-    {
-      "text":"Oil prices set for swings next week after U.S., Israel strikes on Iran",
-      "display":"Oil prices set for swings next week after U.S., Israel strikes on Iran",
-      "url":"https://globalnews.ca/news/11711403/oil-prices-us-israel-iran",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
     }
   ],
-  "generated_utc":"2026-02-28T19:49:33Z"
+  "generated_utc":"2026-02-28T20:15:57Z"
 }
