@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-02-28T08:36:38.086692Z",
+  "generated_utc": "2026-02-28T08:57:37.725862Z",
   "dates": [
     {
       "games": [
@@ -132,32 +132,6 @@
               "score": 0
             }
           }
-        },
-        {
-          "gamePk": "401810717",
-          "gameDate": "2026-02-28T02:47Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "DEN"
-              },
-              "score": 121
-            },
-            "home": {
-              "team": {
-                "abbreviation": "OKC"
-              },
-              "score": 127
-            }
-          }
         }
       ]
     }
@@ -168,7 +142,7 @@
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260227",
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260228"
     ],
-    "games_count": 6,
+    "games_count": 5,
     "http_timeout_sec": 12.0,
     "version": "nba-relay-1.1",
     "preview_hours": 36,
