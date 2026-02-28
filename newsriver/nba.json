@@ -1,57 +1,31 @@
 {
-  "generated_utc": "2026-02-28T20:22:47.950828Z",
+  "generated_utc": "2026-02-28T20:46:40.462860Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401810718",
-          "gameDate": "2026-02-28T18:00Z",
+          "gamePk": "401810719",
+          "gameDate": "2026-02-28T20:30Z",
           "status": {
             "detailedState": "Live",
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "POR"
-              },
-              "score": 89
-            },
-            "home": {
-              "team": {
-                "abbreviation": "CHA"
-              },
-              "score": 104
-            }
-          }
-        },
-        {
-          "gamePk": "401810719",
-          "gameDate": "2026-02-28T20:30Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "HOU"
               },
-              "score": 0
+              "score": 9
             },
             "home": {
               "team": {
                 "abbreviation": "MIA"
               },
-              "score": 0
+              "score": 2
             }
           }
         },
@@ -130,6 +104,32 @@
                 "abbreviation": "UTAH"
               },
               "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401810718",
+          "gameDate": "2026-02-28T18:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "POR"
+              },
+              "score": 93
+            },
+            "home": {
+              "team": {
+                "abbreviation": "CHA"
+              },
+              "score": 109
             }
           }
         }
