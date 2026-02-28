@@ -1,34 +1,8 @@
 {
-  "generated_utc": "2026-02-28T05:01:40.322573Z",
+  "generated_utc": "2026-02-28T05:46:31.106303Z",
   "dates": [
     {
       "games": [
-        {
-          "gamePk": "401810717",
-          "gameDate": "2026-02-28T02:47Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "DEN"
-              },
-              "score": 100
-            },
-            "home": {
-              "team": {
-                "abbreviation": "OKC"
-              },
-              "score": 99
-            }
-          }
-        },
         {
           "gamePk": "401810718",
           "gameDate": "2026-02-28T18:00Z",
@@ -156,6 +130,32 @@
                 "abbreviation": "UTAH"
               },
               "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401810717",
+          "gameDate": "2026-02-28T02:47Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "DEN"
+              },
+              "score": 121
+            },
+            "home": {
+              "team": {
+                "abbreviation": "OKC"
+              },
+              "score": 127
             }
           }
         },
