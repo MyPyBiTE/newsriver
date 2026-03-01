@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Iran begins search for new leader; U.S. military says 3 service members killed",
-      "display":"Iran begins search for new leader; U.S. military says 3 service members killed",
-      "url":"https://globalnews.ca/news/11711968/iran-new-supreme-leader-selection-us-forces-killed",
+      "text":"Leafs ’embarrassed’ by 5-2 loss to Senators",
+      "display":"Leafs ’embarrassed’ by 5-2 loss to Senators",
+      "url":"https://globalnews.ca/news/11711928/leafs-embarrassed-by-5-2-loss-to-senators",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"U.S. military says 3 service members have been killed and 5 seriously wounded in the Iran operation",
+      "display":"U.S. military says 3 service members have been killed and 5 seriously wounded in the Iran operation",
+      "url":"https://toronto.citynews.ca/2026/03/01/u-s-military-says-3-service-members-have-been-killed-and-5-seriously-wounded-in-the-iran-operation",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"How Our Presidential Endorsement Tracker Works",
-      "display":"How Our Presidential Endorsement Tracker Works",
-      "url":"https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"This Trump goon's bizarre threat sounds like it came from a drunk guy on a barstool",
-      "display":"This Trump goon's bizarre threat sounds like it came from a drunk guy on a barstool",
-      "url":"https://www.rawstory.com/raw-investigates/pete-hegseth-2675363683",
+      "text":"OPEC+ Approves Modest Output Hike as Iran War Jolts Oil Markets",
+      "display":"OPEC+ Approves Modest Output Hike as Iran War Jolts Oil Markets",
+      "url":"https://oilprice.com/Latest-Energy-News/World-News/OPEC-Approves-Modest-Output-Hike-as-Iran-War-Jolts-Oil-Markets.html",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-03-01T17:14:35Z"
+  "generated_utc":"2026-03-01T17:37:41Z"
 }
