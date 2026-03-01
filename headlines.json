@@ -1,8 +1,69 @@
 {
-  "generated_utc": "2026-03-01T14:02:19.168Z",
-  "itemset_hash": "2b77ca1f22730c7c",
+  "generated_utc": "2026-03-01T14:27:47.051Z",
+  "itemset_hash": "f9df8f36ce8751da",
   "count": 69,
   "items": [
+    {
+      "title": "Trump hit with stern demand to refund $130B for illegal tariffs",
+      "url": "https://www.rawstory.com/trump-tariffs-2675361267",
+      "source": "Raw Story",
+      "published_utc": "2026-03-01T14:23:13.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "The 50-Year War",
+      "url": "https://www.thefp.com/p/the-50-year-war",
+      "source": "The Free Press",
+      "published_utc": "2026-03-01T14:19:54.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Cardinals Extend Oli Marmol",
+      "url": "https://www.mlbtraderumors.com/2026/03/cardinals-extend-oli-marmol.html",
+      "source": "MLB Trade Rumors",
+      "published_utc": "2026-03-01T14:05:38.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Knicks vs. Spurs prediction: NBA Sunday picks, odds, bets",
+      "url": "https://nypost.com/2026/03/01/betting/knicks-vs-spurs-prediction-nba-sunday-picks-odds-bets",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-03-01T14:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
     {
       "title": "‘Happy World War III to All Who Celebrate!’ Trump and Hegseth Pilloried Over Iran Strike in SNL Cold Open",
       "url": "https://www.mediaite.com/media/entertainment/happy-world-war-iii-to-all-who-celebrate-trump-and-hegseth-pilloried-over-iran-strike-in-snl-cold-open",
@@ -36,25 +97,24 @@
       "region": "World"
     },
     {
-      "title": "At least nine killed after Iranian strike on Israel’s Beit Shemesh",
-      "url": "https://www.aljazeera.com/news/2026/3/1/at-least-nine-killed-after-iranian-strike-on-israels-beit-shemesh?traffic_source=rss",
+      "title": "Who was Iran’s supreme leader, Ayatollah Ali Khamenei?",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/3/1/who-was-irans-supreme-leader-ayatollah-ali-khamenei",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-03-01T13:45:48.000Z",
+      "published_utc": "2026-03-01T13:50:15.000Z",
       "effects": {
-        "lightsaber": true,
-        "glitch": false,
+        "lightsaber": false,
+        "glitch": true,
         "reasons": [
-          "score≥2.6",
-          "body_count≥3"
+          "score≥2.1"
         ],
-        "style": "breaker"
+        "style": "glitch"
       },
       "category": "Labour",
       "region": "World"
     },
     {
       "title": "Has Trump misunderstood Iran’s IRGC and the Basij forces?",
-      "url": "https://www.aljazeera.com/features/2026/3/1/has-trump-misunderstood-irans-irgc-and-the-basij-forces?traffic_source=rss",
+      "url": "https://www.aljazeera.com/features/2026/3/1/has-trump-misunderstood-irans-irgc-and-the-basij-forces",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
       "published_utc": "2026-03-01T13:43:44.000Z",
       "effects": {
@@ -72,11 +132,8 @@
       "published_utc": "2026-03-01T13:39:06.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Labour",
       "region": "World"
@@ -140,8 +197,8 @@
       "region": "World"
     },
     {
-      "title": "T20 World Cup: South Africa beat Zimbabwe; set up New Zealand semifinal",
-      "url": "https://www.aljazeera.com/sports/2026/3/1/t20-world-cup-south-africa-beat-zimbabwe-set-up-new-zealand-semifinal?traffic_source=rss",
+      "title": "T20 World Cup: South Africa beat Zimbabwe, set up New Zealand semifinal",
+      "url": "https://www.aljazeera.com/sports/2026/3/1/t20-world-cup-south-africa-beat-zimbabwe-set-up-new-zealand-semifinal",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
       "published_utc": "2026-03-01T13:34:28.000Z",
       "effects": {
@@ -159,11 +216,8 @@
       "published_utc": "2026-03-01T13:30:17.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Labour",
       "region": "World"
@@ -212,7 +266,7 @@
     },
     {
       "title": "Smoke rises above Qatar capital Doha after Iranian missiles shot down",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/3/1/smoke-rises-above-qatar-capital-doha-after-iranian-missiles-shot-down?traffic_source=rss",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/3/1/smoke-rises-above-qatar-capital-doha-after-iranian-missiles-shot-down",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
       "published_utc": "2026-03-01T13:03:36.000Z",
       "effects": {
@@ -241,7 +295,7 @@
     },
     {
       "title": "World reacts to killing of Iran’s Khamenei by US, Israel forces",
-      "url": "https://www.aljazeera.com/news/2026/3/1/world-reacts-to-killing-of-irans-khamenei-by-us-israel-forces?traffic_source=rss",
+      "url": "https://www.aljazeera.com/news/2026/3/1/world-reacts-to-killing-of-irans-khamenei-by-us-israel-forces",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
       "published_utc": "2026-03-01T13:01:13.000Z",
       "effects": {
@@ -349,6 +403,22 @@
       "region": "Canada"
     },
     {
+      "title": "Hundreds of ships drop anchor in Middle East Gulf, data shows",
+      "url": "https://boereport.com/2026/03/01/hundreds-of-ships-drop-anchor-in-middle-east-gulf-data-shows",
+      "source": "BOE Report",
+      "published_utc": "2026-03-01T12:58:45.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
       "title": "Anaïs and Gene Gallagher on the ‘Live ‘25’ tour and chances of more Oasis shows: “I would love for Oasis to live forever”",
       "url": "https://www.nme.com/news/music/anais-gene-gallagher-brits-oasis-interview-villanelle-3932139",
       "source": "NME",
@@ -362,20 +432,23 @@
       "region": "World"
     },
     {
-      "title": "Family Drama ‘Sundays’ Beats ‘Sirāt’ at Spain’s Goya Awards",
-      "url": "https://www.hollywoodreporter.com/movies/movie-news/family-drama-sundays-beats-sirat-at-goya-awards-spain-1236518567",
-      "source": "The Hollywood Reporter",
-      "published_utc": "2026-03-01T12:41:35.000Z",
+      "title": "Oil jumps 10% on Iran conflict and could spike to $100 a barrel, analysts say",
+      "url": "https://boereport.com/2026/03/01/oil-jumps-10-on-iran-conflict-and-could-spike-to-100-a-barrel-analysts-say",
+      "source": "BOE Report",
+      "published_utc": "2026-03-01T12:40:13.000Z",
       "effects": {
-        "lightsaber": false,
+        "lightsaber": true,
         "glitch": false,
-        "reasons": []
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
       },
       "category": "Labour",
-      "region": "World"
+      "region": "Canada"
     },
     {
-      "title": "3 dead, 14 injured after shooting at a bar in Austin, Texas",
+      "title": "Bar shooting in Austin leaves 3 dead, including the suspect, and 14 injured",
       "url": "https://toronto.citynews.ca/2026/03/01/3-dead-14-injured-after-shooting-at-a-bar-in-austin-texas",
       "source": "CityNews Toronto",
       "published_utc": "2026-03-01T12:38:49.000Z",
@@ -435,7 +508,7 @@
     },
     {
       "title": "Who could succeed Ayatollah Ali Khamenei to lead Iran?",
-      "url": "https://www.aljazeera.com/news/2026/3/1/who-could-succeed-ayatollah-ali-khamenei-to-lead-iran?traffic_source=rss",
+      "url": "https://www.aljazeera.com/news/2026/3/1/who-could-succeed-ayatollah-ali-khamenei-to-lead-iran",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
       "published_utc": "2026-03-01T12:11:24.000Z",
       "effects": {
@@ -493,7 +566,7 @@
     },
     {
       "title": "Video: Smoke rises above Tehran after latest US-Israeli attacks",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/3/1/video-smoke-rises-above-tehran-after-latest-us-israeli-attacks?traffic_source=rss",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/3/1/video-smoke-rises-above-tehran-after-latest-us-israeli-attacks",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
       "published_utc": "2026-03-01T11:56:34.000Z",
       "effects": {
@@ -506,7 +579,7 @@
     },
     {
       "title": "How US-Israel attacks on Iran threaten the Strait of Hormuz, oil markets",
-      "url": "https://www.aljazeera.com/news/2026/3/1/how-us-israel-attacks-on-iran-threaten-the-strait-of-hormuz-oil-markets?traffic_source=rss",
+      "url": "https://www.aljazeera.com/news/2026/3/1/how-us-israel-attacks-on-iran-threaten-the-strait-of-hormuz-oil-markets",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
       "published_utc": "2026-03-01T11:56:22.000Z",
       "effects": {
@@ -542,7 +615,7 @@
           "score≥2.6",
           "body_count≥3"
         ],
-        "style": "lightsaber"
+        "style": "breaker"
       },
       "category": "Labour",
       "region": "World"
@@ -575,7 +648,7 @@
     },
     {
       "title": "The US-Israeli war on Iran could rewrite Gulf security calculations",
-      "url": "https://www.aljazeera.com/opinions/2026/3/1/the-us-israeli-war-on-iran-could-rewrite-gulf-security-calculations?traffic_source=rss",
+      "url": "https://www.aljazeera.com/opinions/2026/3/1/the-us-israeli-war-on-iran-could-rewrite-gulf-security-calculations",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
       "published_utc": "2026-03-01T11:36:04.000Z",
       "effects": {
@@ -627,7 +700,7 @@
     },
     {
       "title": "Under the shadow of the Iran war, Israel finds another way to punish Gaza",
-      "url": "https://www.aljazeera.com/opinions/2026/3/1/under-the-shadow-of-the-iran-war-israel-finds-another-way-to-punish-gaza?traffic_source=rss",
+      "url": "https://www.aljazeera.com/opinions/2026/3/1/under-the-shadow-of-the-iran-war-israel-finds-another-way-to-punish-gaza",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
       "published_utc": "2026-03-01T11:22:00.000Z",
       "effects": {
@@ -720,19 +793,6 @@
       "region": "World"
     },
     {
-      "title": "Iranian Independent Filmmakers Association Supports U.S. and Israeli Attacks in Iran That Have Killed Supreme Leader Ali Khamenei",
-      "url": "https://variety.com/2026/film/global/iranian-independent-filmmakers-u-s-attacks-iran-khamenei-1236675792",
-      "source": "Film",
-      "published_utc": "2026-03-01T10:49:50.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Tim Burgess pays tribute to “phenomenal” Mani at BRITs 2026: “He changed music and inspired generations ahead of him”",
       "url": "https://www.nme.com/news/music/tim-burgess-pays-tribute-to-phenomenal-mani-at-brits-2026-he-changed-music-and-inspired-generations-ahead-of-him-3932111",
       "source": "NME",
@@ -747,7 +807,7 @@
     },
     {
       "title": "Man accuses Israel of war crimes as he holds remains of girl killed in Iran",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/3/1/man-accuses-israel-of-war-crimes-as-he-holds-remains-of-girl-killed-in-iran?traffic_source=rss",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/3/1/man-accuses-israel-of-war-crimes-as-he-holds-remains-of-girl-killed-in-iran",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
       "published_utc": "2026-03-01T10:43:41.000Z",
       "effects": {
@@ -760,7 +820,7 @@
     },
     {
       "title": "‘US and Israel’s war on Iran is based on a flawed strategy’",
-      "url": "https://www.aljazeera.com/video/quotable/2026/3/1/us-and-israels-war-on-iran-is-based-on-a-flawed-strategy?traffic_source=rss",
+      "url": "https://www.aljazeera.com/video/quotable/2026/3/1/us-and-israels-war-on-iran-is-based-on-a-flawed-strategy",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
       "published_utc": "2026-03-01T10:41:06.000Z",
       "effects": {
@@ -931,73 +991,21 @@
       },
       "category": "Culture",
       "region": "World"
-    },
-    {
-      "title": "Watch Dua Lipa and Ghostface Killah join Mark Ronson for career-spanning medley at BRITs 2026",
-      "url": "https://www.nme.com/news/music/watch-dua-lipa-and-ghostface-killah-join-mark-ronson-for-career-spanning-medley-at-brits-2026-3932084",
-      "source": "NME",
-      "published_utc": "2026-03-01T08:59:53.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Tobias Myers keeps thriving in starting and relieving roles for Mets",
-      "url": "https://nypost.com/2026/03/01/sports/tobias-myers-keeps-thriving-in-starting-and-relieving-roles-for-mets",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2026-03-01T08:21:01.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Labour",
-      "region": "Canada"
-    },
-    {
-      "title": "Braves Teammates Ozzie Albies, Ronald Acuña Jr Hilariously Trash Talk Each Other Prior To World Baseball Classic",
-      "url": "https://dailycaller.com/2026/03/01/atlanta-braves-ozzie-albies-ronald-acuna-jr-world-baseball-classic",
-      "source": "The Daily Caller",
-      "published_utc": "2026-03-01T08:11:56.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "US women’s hockey star Hilary Knight delivers joke on ‘SNL’ over Trump’s White House visit quip",
-      "url": "https://nypost.com/2026/03/01/sports/us-womens-hockey-star-hilary-knight-delivers-joke-on-snl-over-trumps-white-house-visit-quip",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2026-03-01T08:07:35.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Sports",
-      "region": "Canada"
     }
   ],
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 713,
-    "dedup_pass1": 707,
+    "collected": 675,
+    "dedup_pass1": 671,
     "dedup_final": 320,
     "slow_domains": [],
     "timeouts": [
       "news.communitech.ca",
-      "www.cbc.ca"
+      "weather.gc.ca",
+      "www.cbc.ca",
+      "www.publicsafety.gc.ca",
+      "www150.statcan.gc.ca"
     ],
     "errors": [
       "alert.weather.gc.ca",
@@ -1008,65 +1016,63 @@
       "financialpost.com",
       "globalnews.ca",
       "toronto.citynews.ca",
-      "variety.com",
-      "www.boston.com",
       "www.marketwatch.com",
       "www.npr.org",
       "www.wsj.com"
     ],
     "feed_times_sample": [
       {
+        "host": "www.labourstart.org",
+        "sec": 1.405,
+        "kept": 0
+      },
+      {
         "host": "toronto.citynews.ca",
-        "sec": 1.483,
+        "sec": 1.037,
         "kept": 8
       },
       {
-        "host": "www.labourstart.org",
-        "sec": 1.245,
-        "kept": 0
-      },
-      {
         "host": "www.mlb.com",
-        "sec": 0.51,
+        "sec": 0.37,
         "kept": 14
-      },
-      {
-        "host": "www.blogto.com",
-        "sec": 0.494,
-        "kept": 0
       },
       {
         "host": "globalnews.ca",
-        "sec": 0.404,
+        "sec": 0.365,
         "kept": 10
       },
       {
-        "host": "www.mlbtraderumors.com",
-        "sec": 0.297,
-        "kept": 14
+        "host": "www.blogto.com",
+        "sec": 0.354,
+        "kept": 0
       },
       {
-        "host": "www.cp24.com",
-        "sec": 0.265,
+        "host": "www.mlbtraderumors.com",
+        "sec": 0.346,
         "kept": 14
       },
       {
         "host": "www.bls.gov",
-        "sec": 0.238,
+        "sec": 0.322,
         "kept": 0
       },
       {
+        "host": "www.cp24.com",
+        "sec": 0.297,
+        "kept": 14
+      },
+      {
         "host": "www.nhl.com",
-        "sec": 0.119,
+        "sec": 0.225,
         "kept": 0
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.084,
+        "sec": 0.094,
         "kept": 14
       }
     ],
-    "elapsed_sec": 290.24,
+    "elapsed_sec": 290.96,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1092,7 +1098,7 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 28,
+      "ps_fatal_hits": 26,
       "ps_injury_hits": 2,
       "market_btc_hits": 1,
       "market_index_hits": 0,
@@ -1104,11 +1110,11 @@
       "substack_tagged": 0,
       "sports_team_hits": 10,
       "sports_player_hits": 2,
-      "sports_result_win_hits": 32,
+      "sports_result_win_hits": 27,
       "sports_result_loss_hits": 0,
       "sports_evening_hits": 0,
       "sports_playoff_hits": 0,
-      "sports_focus_team_hits": 14,
+      "sports_focus_team_hits": 6,
       "sports_final_hits": 0,
       "sports_final_score_hits": 0,
       "hype_politics": 0,
@@ -1120,14 +1126,14 @@
       "reject_hits": 1,
       "obit_hits": 1,
       "major_figure_hits": 2,
-      "business_am_hits": 52
+      "business_am_hits": 54
     },
     "sanity_stats": {
-      "link_verification_fail": 35,
+      "link_verification_fail": 39,
       "soft_404_drops": 17,
       "max_age_drops": 0,
       "min_age_drops": 8,
-      "market_sanity_drops": 5,
+      "market_sanity_drops": 7,
       "backfill_steps_used": 0
     },
     "require_exact_count": 69,
