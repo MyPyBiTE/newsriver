@@ -1,13 +1,13 @@
 {
-  "generated_utc": "2026-03-01T21:04:28.110Z",
-  "itemset_hash": "22b531b70cfc3aa3",
+  "generated_utc": "2026-03-01T21:31:37.199Z",
+  "itemset_hash": "e048900e94ac3633",
   "count": 69,
   "items": [
     {
       "title": "What To Do About A Problem Like Dianne Feinstein?",
       "url": "https://fivethirtyeight.com/videos/what-to-do-about-a-problem-like-dianne-feinstein",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-03-01T21:01:16.150Z",
+      "published_utc": "2026-03-01T21:29:06.552Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -20,7 +20,7 @@
       "title": "Politics Podcast",
       "url": "https://fivethirtyeight.com/tag/politics-podcast",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-03-01T21:01:16.150Z",
+      "published_utc": "2026-03-01T21:29:06.552Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -30,23 +30,26 @@
       "region": "World"
     },
     {
-      "title": "Texas GOP Rep. Tony Gonzales close to losing seat over alleged affair with aide who fatally lit herself on fire",
-      "url": "https://nypost.com/2026/03/01/us-news/texas-rep-tony-gonzales-close-to-losing-seat-over-alleged-affair-with-aide-who-fatally-lit-herself-on-fire",
-      "source": "New York Post",
-      "published_utc": "2026-03-01T21:00:37.000Z",
+      "title": "Cold warnings across southern Ontario as temperatures feel like -30 to start March",
+      "url": "https://toronto.citynews.ca/2026/03/01/cold-warnings-across-southern-ontario-as-temperatures-feel-like-30-to-start-march",
+      "source": "CityNews Toronto",
+      "published_utc": "2026-03-01T21:26:28.000Z",
       "effects": {
-        "lightsaber": false,
+        "lightsaber": true,
         "glitch": false,
-        "reasons": []
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
       },
-      "category": "General",
-      "region": "World"
+      "category": "Labour",
+      "region": "Canada"
     },
     {
       "title": "How Our Presidential Endorsement Tracker Works",
       "url": "https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-03-01T21:01:16.150Z",
+      "published_utc": "2026-03-01T21:29:06.552Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -59,13 +62,210 @@
       "title": "Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
       "url": "https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-03-01T21:01:16.151Z",
+      "published_utc": "2026-03-01T21:29:06.552Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
         "reasons": []
       },
       "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Vikings to cut Aaron Jones, Javon Hargrave in cap purge",
+      "url": "https://nypost.com/2026/03/01/sports/vikings-to-cut-aaron-jones-javon-hargrave-in-cap-purge",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-03-01T21:23:51.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Republicans Amplified Pro-Gun Control Protesters In Tennessee",
+      "url": "https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
+      "source": "FiveThirtyEight — Nate Silver",
+      "published_utc": "2026-03-01T21:29:06.553Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "What’s Next In The Abortion Drug Case",
+      "url": "https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
+      "source": "FiveThirtyEight — Nate Silver",
+      "published_utc": "2026-03-01T21:29:06.553Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Ted Cruz Says ‘No Indication’  Iran Was ‘Anywhere Close to Getting Nuclear Weapons’ | Video",
+      "url": "https://www.thewrap.com/media-platforms/tv/ted-cruz-no-indication-iran-close-to-nuclear-weapons-video",
+      "source": "TheWrap",
+      "published_utc": "2026-03-01T21:22:22.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "How Concerned Are Americans About The Pitfalls Of AI?",
+      "url": "https://fivethirtyeight.com/videos/how-concerned-are-americans-about-the-pitfalls-of-ai",
+      "source": "FiveThirtyEight — Nate Silver",
+      "published_utc": "2026-03-01T21:29:06.552Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Live From New York: Will AI Replace This Podcast?",
+      "url": "https://fivethirtyeight.com/videos/live-from-new-york-will-ai-replace-this-podcast",
+      "source": "FiveThirtyEight — Nate Silver",
+      "published_utc": "2026-03-01T21:29:06.552Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Mauricio Umansky has mystery woman riding shotgun as they leave Hollywood hotspot with PK Kemsley",
+      "url": "https://pagesix.com/2026/03/01/celebrity-news/mauricio-umansky-has-mystery-woman-riding-shotgun-as-they-leave-hollywood-hotspot-with-pk-kemsley",
+      "source": "New York Post",
+      "published_utc": "2026-03-01T21:18:31.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Kalshi founder provides update on Iran's Khamenei market carveout",
+      "url": "https://cointelegraph.com/news/kalshi-founder-khamenei-market-carveout",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2026-03-01T21:17:03.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "The Perfectionist's Quest for a Love Without Limits",
+      "url": "https://www.psychologytoday.com/ca/blog/perfectionism/202603/the-perfectionists-quest-for-a-love-without-limits",
+      "source": "Psychology Today: The Latest",
+      "published_utc": "2026-03-01T21:14:29.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Youth",
+      "region": "World"
+    },
+    {
+      "title": "Padres Sign Alex Verdugo To Minor League Deal",
+      "url": "https://www.mlbtraderumors.com/2026/03/padres-sign-alex-verdugo-to-minor-league-deal.html",
+      "source": "MLB Trade Rumors",
+      "published_utc": "2026-03-01T21:12:37.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "At least 2 dead, 14 injured in Texas bar shooting",
+      "url": "https://globalnews.ca/news/11712113/austin-texas-bar-shooting",
+      "source": "globalnews.ca",
+      "published_utc": "2026-03-01T21:10:18.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "breaker"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "Jeffrey Epstein Withheld Medical Treatments, Used Loyal Doctors to Manipulate Women",
+      "url": "https://www.tmz.com/2026/03/01/jeffrey-epstein-recruited-doctors-to-manipulate-women",
+      "source": "TMZ.com",
+      "published_utc": "2026-03-01T21:08:56.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Ted Sarandos Says Netflix Lost Warner Bros. Bid to ‘Irrational’ Paramount Offer: ‘Maybe It’s to Our Advantage",
+      "url": "https://www.thewrap.com/industry-news/deals-ma/ted-sarandos-netflix-warner-bros-bid-irrational-paramount",
+      "source": "TheWrap",
+      "published_utc": "2026-03-01T21:08:14.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Writers Guild Awards Los Angeles Ceremony Canceled Amid Internal Labor Strike",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/writers-guild-awards-los-angeles-ceremony-canceled-strike-1236517543",
+      "source": "The Hollywood Reporter",
+      "published_utc": "2026-03-01T21:05:11.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
       "region": "World"
     },
     {
@@ -85,32 +285,6 @@
       "region": "Canada"
     },
     {
-      "title": "Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "url": "https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-03-01T21:01:16.151Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "What’s Next In The Abortion Drug Case",
-      "url": "https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-03-01T21:01:16.151Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Chalkboard promo code NYPOST: Get a 100% deposit match up to $100 + free pick for Thunder vs. Mavericks",
       "url": "https://nypost.com/2026/03/01/betting/chalkboard-promo-code-nypost-get-a-100-deposit-match-up-to-100-free-pick-for-thunder-vs-mavericks",
       "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
@@ -125,32 +299,6 @@
       },
       "category": "Sports",
       "region": "Canada"
-    },
-    {
-      "title": "How Concerned Are Americans About The Pitfalls Of AI?",
-      "url": "https://fivethirtyeight.com/videos/how-concerned-are-americans-about-the-pitfalls-of-ai",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-03-01T21:01:16.151Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Live From New York: Will AI Replace This Podcast?",
-      "url": "https://fivethirtyeight.com/videos/live-from-new-york-will-ai-replace-this-podcast",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-03-01T21:01:16.150Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
     },
     {
       "title": "Underdog promo code NYPOST: Play $5, get $75 in fantasy bonus entries for 76ers vs. Celtics",
@@ -182,17 +330,20 @@
       "region": "World"
     },
     {
-      "title": "How to watch new Taylor Sheridan ‘Yellowstone’ spin-off ‘Marshals’ premiere for free",
-      "url": "https://pagesix.com/2026/03/01/entertainment/how-to-watch-yellowstone-spin-off-marshals-premiere-for-free",
-      "source": "New York Post",
-      "published_utc": "2026-03-01T21:00:00.000Z",
+      "title": "B.C. Conservative MPs Zimmer, Caputo ask for public inquiry into Tumbler Ridge deaths",
+      "url": "https://toronto.citynews.ca/2026/03/01/b-c-conservative-mps-zimmer-caputo-ask-for-public-inquiry-into-tumbler-ridge-deaths",
+      "source": "CityNews Toronto",
+      "published_utc": "2026-03-01T20:58:12.000Z",
       "effects": {
-        "lightsaber": false,
+        "lightsaber": true,
         "glitch": false,
-        "reasons": []
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
       },
-      "category": "General",
-      "region": "World"
+      "category": "Local",
+      "region": "Canada"
     },
     {
       "title": "Blackwater Founder Fumes to Steve Bannon About Iran Strikes: ‘I Don’t Think This Was in America’s Interests’",
@@ -237,17 +388,30 @@
       "region": "World"
     },
     {
+      "title": "Iranian‑Canadians reflect on freedom, change, and the fight for women’s rights",
+      "url": "https://toronto.citynews.ca/2026/03/01/iranian%E2%80%91canadians-reflect-on-freedom-change-and-the-fight-for-womens-rights",
+      "source": "CityNews Toronto",
+      "published_utc": "2026-03-01T20:47:51.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Local",
+      "region": "Canada"
+    },
+    {
       "title": "Trump shares stark message after 3 US troops die in Iran: 'Could happen again'",
       "url": "https://www.rawstory.com/trump-2675515509",
       "source": "Raw Story",
       "published_utc": "2026-03-01T20:47:34.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Labour",
       "region": "World"
@@ -321,11 +485,8 @@
       "published_utc": "2026-03-01T20:42:54.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Labour",
       "region": "World"
@@ -819,165 +980,7 @@
         "reasons": [
           "score≥2.6"
         ],
-        "style": "breaker"
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "How college softball team won despite getting no-hit",
-      "url": "https://nypost.com/2026/03/01/sports/how-northwestern-state-softball-won-despite-getting-no-hit",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2026-03-01T19:47:56.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "War photographer Paul Conroy dies as tributes paid",
-      "url": "https://www.bbc.com/news/articles/c5y6jvlv83ro?at_campaign=rss&at_medium=RSS",
-      "source": "BBC News",
-      "published_utc": "2026-03-01T19:47:03.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "LAPD investigating 12-year-old girl’s death after bully-related attack at Reseda school",
-      "url": "https://www.dailynews.com/2026/03/01/lapd-investigating-12-year-old-girls-death-after-bully-related-attack-at-reseda-school",
-      "source": "Daily News",
-      "published_utc": "2026-03-01T19:45:46.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "The Prodigy pay tribute to their first manager Ziggy Chowdry, who has died: “He was a force of nature”",
-      "url": "https://www.nme.com/news/music/the-prodigy-pay-tribute-to-their-first-manager-ziggy-chowdry-who-has-died-he-was-a-force-of-nature-3932176",
-      "source": "NME",
-      "published_utc": "2026-03-01T19:36:00.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
         "style": "lightsaber"
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Giving Away Our Mental Health",
-      "url": "https://www.psychologytoday.com/ca/blog/child-development-central/202602/giving-away-our-mental-health",
-      "source": "Psychology Today: The Latest",
-      "published_utc": "2026-03-01T19:34:46.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Youth",
-      "region": "World"
-    },
-    {
-      "title": "Nike’s Tastefully Tonal Air Max Is a \"Butter Yellow\" Gem",
-      "url": "https://www.highsnobiety.com/p/nike-air-max-95-soft-yellow-sneakers",
-      "source": "Highsnobiety",
-      "published_utc": "2026-03-01T19:34:28.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "US confirms three soldiers killed in Iran attacks",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/3/1/us-confirms-three-soldiers-killed-in-iran-attacks?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-03-01T19:30:38.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "‘Bridgerton’ Star Ruth Gemmell Breaks Down Season 4 Finale Breakup: ‘She’s Quite Shocked’",
-      "url": "https://www.thewrap.com/creative-content/tv-shows/bridgerton-season-4-finale-ruth-gemmell-interview",
-      "source": "TheWrap",
-      "published_utc": "2026-03-01T19:30:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Rashida Tlaib Draws Heat for Seemingly Referring to the US As ‘They’ in Post Condemning Attack On Iran",
-      "url": "https://www.mediaite.com/politics/rashida-tlaib-draws-heat-for-seemingly-referring-to-the-us-as-they-in-post-condemning-attack-on-iran",
-      "source": "Mediaite",
-      "published_utc": "2026-03-01T19:29:59.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Trump reacts to dead service members by boasting he got a 'great deal' for their lives",
-      "url": "https://www.rawstory.com/trump-us-deaths-great-deal",
-      "source": "Raw Story",
-      "published_utc": "2026-03-01T19:24:10.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "Austin Mass Shooter Identified as Senegal National Who Naturalized 10 Years Ago",
-      "url": "https://www.breitbart.com/border/2026/03/01/austin-mass-shooter-identified-as-senegal-nation-who-naturalized-10-years-ago",
-      "source": "Breitbart News",
-      "published_utc": "2026-03-01T19:21:24.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
       },
       "category": "Labour",
       "region": "World"
@@ -986,8 +989,8 @@
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 859,
-    "dedup_pass1": 839,
+    "collected": 835,
+    "dedup_pass1": 816,
     "dedup_final": 320,
     "slow_domains": [],
     "timeouts": [
@@ -1015,56 +1018,56 @@
     "feed_times_sample": [
       {
         "host": "www.labourstart.org",
-        "sec": 1.324,
+        "sec": 1.338,
         "kept": 0
       },
       {
         "host": "toronto.citynews.ca",
-        "sec": 0.869,
+        "sec": 0.743,
         "kept": 8
       },
       {
         "host": "www.blogto.com",
-        "sec": 0.454,
+        "sec": 0.424,
         "kept": 0
       },
       {
         "host": "www.cp24.com",
-        "sec": 0.417,
-        "kept": 14
-      },
-      {
-        "host": "globalnews.ca",
-        "sec": 0.403,
-        "kept": 10
-      },
-      {
-        "host": "www.mlb.com",
-        "sec": 0.348,
+        "sec": 0.383,
         "kept": 14
       },
       {
         "host": "www.mlbtraderumors.com",
-        "sec": 0.326,
+        "sec": 0.346,
         "kept": 14
       },
       {
-        "host": "www.nhl.com",
-        "sec": 0.2,
-        "kept": 0
+        "host": "globalnews.ca",
+        "sec": 0.312,
+        "kept": 10
+      },
+      {
+        "host": "www.mlb.com",
+        "sec": 0.239,
+        "kept": 14
       },
       {
         "host": "www.bls.gov",
-        "sec": 0.2,
+        "sec": 0.215,
+        "kept": 0
+      },
+      {
+        "host": "www.nhl.com",
+        "sec": 0.168,
         "kept": 0
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.097,
+        "sec": 0.089,
         "kept": 14
       }
     ],
-    "elapsed_sec": 333.72,
+    "elapsed_sec": 296.76,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1090,20 +1093,20 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 41,
-      "ps_injury_hits": 0,
+      "ps_fatal_hits": 42,
+      "ps_injury_hits": 1,
       "market_btc_hits": 2,
       "market_index_hits": 0,
       "market_nikkei_hits": 0,
       "market_single_hits": 0,
       "agg_penalties": 0,
       "press_penalties": 0,
-      "preferred_bonus": 125,
+      "preferred_bonus": 126,
       "substack_tagged": 0,
       "sports_team_hits": 10,
       "sports_player_hits": 3,
       "sports_result_win_hits": 36,
-      "sports_result_loss_hits": 0,
+      "sports_result_loss_hits": 1,
       "sports_evening_hits": 0,
       "sports_playoff_hits": 0,
       "sports_focus_team_hits": 12,
@@ -1115,16 +1118,16 @@
       "hype_jobs": 0,
       "hype_sports": 0,
       "hype_ceasefire": 0,
-      "reject_hits": 5,
+      "reject_hits": 2,
       "obit_hits": 4,
       "major_figure_hits": 2,
       "business_am_hits": 0
     },
     "sanity_stats": {
       "link_verification_fail": 29,
-      "soft_404_drops": 68,
+      "soft_404_drops": 67,
       "max_age_drops": 0,
-      "min_age_drops": 0,
+      "min_age_drops": 1,
       "market_sanity_drops": 2,
       "backfill_steps_used": 0
     },
