@@ -1,57 +1,31 @@
 {
-  "generated_utc": "2026-03-01T20:34:10.155250Z",
+  "generated_utc": "2026-03-01T20:54:42.225928Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401810723",
-          "gameDate": "2026-03-01T18:00Z",
+          "gamePk": "401810724",
+          "gameDate": "2026-03-01T20:30Z",
           "status": {
             "detailedState": "Live",
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "SAS"
-              },
-              "score": 87
-            },
-            "home": {
-              "team": {
-                "abbreviation": "NYK"
-              },
-              "score": 111
-            }
-          }
-        },
-        {
-          "gamePk": "401810724",
-          "gameDate": "2026-03-01T20:30Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "CLE"
               },
-              "score": 0
+              "score": 16
             },
             "home": {
               "team": {
                 "abbreviation": "BKN"
               },
-              "score": 0
+              "score": 5
             }
           }
         },
@@ -59,25 +33,25 @@
           "gamePk": "401810725",
           "gameDate": "2026-03-01T20:30Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "MIL"
               },
-              "score": 0
+              "score": 22
             },
             "home": {
               "team": {
                 "abbreviation": "CHI"
               },
-              "score": 0
+              "score": 19
             }
           }
         },
@@ -85,25 +59,25 @@
           "gamePk": "401810726",
           "gameDate": "2026-03-01T20:30Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "MIN"
               },
-              "score": 0
+              "score": 7
             },
             "home": {
               "team": {
                 "abbreviation": "DEN"
               },
-              "score": 0
+              "score": 11
             }
           }
         },
@@ -286,6 +260,32 @@
                 "abbreviation": "LAL"
               },
               "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401810723",
+          "gameDate": "2026-03-01T18:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "SAS"
+              },
+              "score": 89
+            },
+            "home": {
+              "team": {
+                "abbreviation": "NYK"
+              },
+              "score": 114
             }
           }
         }
