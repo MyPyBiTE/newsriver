@@ -1,57 +1,57 @@
 {
-  "generated_utc": "2026-03-01T02:36:49.743651Z",
+  "generated_utc": "2026-03-01T04:34:55.262318Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401810721",
-          "gameDate": "2026-03-01T01:30Z",
+          "gamePk": "401810722",
+          "gameDate": "2026-03-01T02:30Z",
           "status": {
             "detailedState": "Live",
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "2nd",
-            "currentQuarter": "2nd"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "LAL"
-              },
-              "score": 65
-            },
-            "home": {
-              "team": {
-                "abbreviation": "GSW"
-              },
-              "score": 47
-            }
-          }
-        },
-        {
-          "gamePk": "401810722",
-          "gameDate": "2026-03-01T02:30Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "4th",
+            "currentQuarter": "4th"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "NOP"
               },
-              "score": 0
+              "score": 89
             },
             "home": {
               "team": {
                 "abbreviation": "UTAH"
               },
-              "score": 0
+              "score": 79
+            }
+          }
+        },
+        {
+          "gamePk": "401810721",
+          "gameDate": "2026-03-01T01:30Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "LAL"
+              },
+              "score": 129
+            },
+            "home": {
+              "team": {
+                "abbreviation": "GSW"
+              },
+              "score": 101
             }
           }
         },
