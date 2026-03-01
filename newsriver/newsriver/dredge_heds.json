@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Leafs ’embarrassed’ by 5-2 loss to Senators",
-      "display":"Leafs ’embarrassed’ by 5-2 loss to Senators",
-      "url":"https://globalnews.ca/news/11711928/leafs-embarrassed-by-5-2-loss-to-senators",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"Iran’s president says new leadership council ‘has begun its work’ after killing of supreme leader",
       "display":"Iran’s president says new leadership council ‘has begun its work’ after killing of supreme leader",
       "url":"https://toronto.citynews.ca/2026/03/01/irans-president-says-new-leadership-council-has-begun-its-work-after-killing-of-supreme-leader",
@@ -21,9 +11,19 @@
       }
     },
     {
-      "text":"Trump hit with stern demand to refund $130B for illegal tariffs",
-      "display":"Trump hit with stern demand to refund $130B for illegal tariffs",
-      "url":"https://www.rawstory.com/trump-tariffs-2675361267",
+      "text":"Canadiens encouraged with rebound win over Caps",
+      "display":"Canadiens encouraged with rebound win over Caps",
+      "url":"https://globalnews.ca/news/11711932/canadiens-encouraged-with-rebound-win-over-caps",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
+      "display":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
+      "url":"https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-03-01T14:46:23Z"
+  "generated_utc":"2026-03-01T15:14:34Z"
 }
