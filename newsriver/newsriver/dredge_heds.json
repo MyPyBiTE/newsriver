@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"City of Calgary to provide update on water restrictions, feeder main repairs",
-      "display":"City of Calgary to provide update on water restrictions, feeder main repairs",
-      "url":"https://globalnews.ca/news/11712903/city-of-calgary-update-water-restrictions-feeder-main-repairs",
+      "text":"Mad Max is back at Blue Jays camp: 'Good catching up with gramps'",
+      "display":"Mad Max is back at Blue Jays camp: 'Good catching up with gramps'",
+      "url":"https://www.mlb.com/bluejays/news/max-scherzer-arrives-at-blue-jays-spring-training-2026",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"South Bow plan to revive parts of Keystone XL faces significant hurdles",
+      "display":"South Bow plan to revive parts of Keystone XL faces significant hurdles",
+      "url":"https://globalnews.ca/news/11713035/south-bow-keystone-xl-faces-hurdles",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Ford teases new 2-million square foot Toronto convention centre that will ‘awe’ public",
-      "display":"Ford teases new 2-million square foot Toronto convention centre that will ‘awe’ public",
-      "url":"https://toronto.citynews.ca/2026/03/02/ford-teases-new-2-million-square-foot-toronto-convention-centre-that-will-awe-public",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"How Our Presidential Endorsement Tracker Works",
-      "display":"How Our Presidential Endorsement Tracker Works",
-      "url":"https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
+      "text":"Politics Podcast",
+      "display":"Politics Podcast",
+      "url":"https://fivethirtyeight.com/tag/politics-podcast",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-03-02T18:43:17Z"
+  "generated_utc":"2026-03-02T19:25:08Z"
 }
