@@ -1,11 +1,21 @@
 {
   "items":[
     {
-      "text":"Patsy or paranoic: Court hears conflicting theories in Winnipeg multiple-murder trial",
-      "display":"Patsy or paranoic: Court hears conflicting theories in Winnipeg multiple-murder trial",
-      "url":"https://globalnews.ca/news/11713957/patsy-or-paranoic-court-hears-conflicting-theories-in-winnipeg-multiple-murder-trial",
+      "text":"Flyers trip struggling Maple Leafs 3-2 in shootout",
+      "display":"Flyers trip struggling Maple Leafs 3-2 in shootout",
+      "url":"https://globalnews.ca/news/11713991/flyers-trip-struggling-maple-leafs-3-2-in-shootout",
       "flags":{
         "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Durham police issues community safety alert for convicted murderer living in Oshawa",
+      "display":"Durham police issues community safety alert for convicted murderer living in Oshawa",
+      "url":"https://toronto.citynews.ca/2026/03/02/durham-police-issues-community-safety-alert-for-convicted-murderer-living-in-oshawa",
+      "flags":{
+        "is_breaking":true,
         "is_landmark":false,
         "has_bitcoin":false
       }
@@ -19,17 +29,7 @@
         "is_landmark":false,
         "has_bitcoin":false
       }
-    },
-    {
-      "text":"Apple Officially Unveils the iPhone 17e",
-      "display":"Apple Officially Unveils the iPhone 17e",
-      "url":"https://hypebeast.com/2026/3/apple-iphone-17e-announcement-details-specs-features-release-info",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
     }
   ],
-  "generated_utc":"2026-03-03T03:44:02Z"
+  "generated_utc":"2026-03-03T05:06:10Z"
 }
