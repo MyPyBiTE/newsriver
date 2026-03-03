@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"2 people dead in Calgary from possible CO poisoning",
-      "display":"2 people dead in Calgary from possible CO poisoning",
-      "url":"https://globalnews.ca/news/11714630/two-people-dead-co-poisoning-calgary",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Police investigate ‘alarming’ shooting at Toronto synagogue",
+      "display":"Police investigate ‘alarming’ shooting at Toronto synagogue",
+      "url":"https://globalnews.ca/news/11714718/police-investigate-alarming-shooting-toronto-synagogue",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "display":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "url":"https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Art Sorority Teams With Snow Ellet On New EP Critical Distance",
-      "display":"Art Sorority Teams With Snow Ellet On New EP Critical Distance",
-      "url":"https://stereogum.com/2491041/art-sorority-teams-with-snow-ellet-on-new-ep-critical-distance/news",
+      "text":"Durham police looking for suspects after replica handgun found at high school basketball game",
+      "display":"Durham police looking for suspects after replica handgun found at high school basketball game",
+      "url":"https://toronto.citynews.ca/2026/03/03/durham-police-looking-for-suspects-after-replica-handgun-found-at-high-school-basketball-game",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-03-03T20:54:46Z"
+  "generated_utc":"2026-03-03T21:25:14Z"
 }
