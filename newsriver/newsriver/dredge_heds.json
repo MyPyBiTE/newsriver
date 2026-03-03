@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Toronto man facing 22 charges after police find guns, ammo, marijuana and cash at Sheppard and Weston address",
-      "display":"Toronto man facing 22 charges after police find guns, ammo, marijuana and cash at Sheppard and Weston address",
-      "url":"https://toronto.citynews.ca/2026/03/03/toronto-man-facing-22-charges-after-police-find-guns-ammo-marijuana-and-cash-at-sheppard-and-weston-address",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Iran war oil price spike could cushion Alberta, Saskatchewan budgets",
+      "display":"Iran war oil price spike could cushion Alberta, Saskatchewan budgets",
+      "url":"https://globalnews.ca/news/11714626/oil-price-increase-boost-alberta-saskatchewan-budgets",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Gearing up for the FIFA World Cup — 100 days to go",
-      "display":"Gearing up for the FIFA World Cup — 100 days to go",
-      "url":"https://globalnews.ca/news/11714919/fifa-world-cup-100-days-to-go",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "display":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "url":"https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
+      "text":"Illegal dumping tip off leads to insane $4m meth bust in California: ‘Operation Trash Panda’",
+      "display":"Illegal dumping tip off leads to insane $4m meth bust in California: ‘Operation Trash Panda’",
+      "url":"https://nypost.com/2026/03/03/us-news/record-california-meth-bust-made-after-illegal-dumping-tip-off",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-03-03T22:50:49Z"
+  "generated_utc":"2026-03-03T23:17:36Z"
 }
