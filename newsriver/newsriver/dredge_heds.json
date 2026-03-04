@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Tensions grow between N.S., First Nations as police announce new cannabis raids",
-      "display":"Tensions grow between N.S., First Nations as police announce new cannabis raids",
-      "url":"https://globalnews.ca/news/11715914/nova-scotia-cannabis-first-nation-seizures",
+      "text":"Maple Leafs’ Chris Tanev to miss rest of season after undergoing surgery",
+      "display":"Maple Leafs’ Chris Tanev to miss rest of season after undergoing surgery",
+      "url":"https://toronto.citynews.ca/2026/03/04/chris-tanev-toronto-maple-leafs-surgery-out-for-season",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Toronto police chief launches anti-corruption plan in wake of officer arrests",
+      "display":"Toronto police chief launches anti-corruption plan in wake of officer arrests",
+      "url":"https://globalnews.ca/news/11715982/toronto-police-project-south-response",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "display":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "url":"https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Husband of Labour MP Joani Reid among three arrested over 'spying for China'... amid fresh calls for 'super-embassy' to be blocked",
-      "display":"Husband of Labour MP Joani Reid among three arrested over 'spying for China'... amid fresh calls for 'super-embassy' to be blocked",
-      "url":"https://www.dailymail.co.uk/news/article-15613557/Three-arrested-spying-China-counter-terror-police.html",
+      "text":"Eight lies Trump told to take America to war",
+      "display":"Eight lies Trump told to take America to war",
+      "url":"https://www.rawstory.com/raw-investigates/trump-iran-2675550244",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-03-04T17:05:32Z"
+  "generated_utc":"2026-03-04T17:55:51Z"
 }
