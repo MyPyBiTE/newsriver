@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-03-05T07:52:10.515101Z",
+  "generated_utc": "2026-03-05T08:37:26.744422Z",
   "dates": [
     {
       "games": [
@@ -262,32 +262,6 @@
               "score": 130
             }
           }
-        },
-        {
-          "gamePk": "401810752",
-          "gameDate": "2026-03-05T02:30Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "ATL"
-              },
-              "score": 131
-            },
-            "home": {
-              "team": {
-                "abbreviation": "MIL"
-              },
-              "score": 113
-            }
-          }
         }
       ]
     }
@@ -298,7 +272,7 @@
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260304",
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260305"
     ],
-    "games_count": 11,
+    "games_count": 10,
     "http_timeout_sec": 12.0,
     "version": "nba-relay-1.1",
     "preview_hours": 36,
