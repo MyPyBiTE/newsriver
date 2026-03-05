@@ -3,28 +3,54 @@
     {
       "games": [
         {
-          "gamePk": "401838750",
-          "gameDate": "2026-03-05T03:00Z",
+          "gamePk": "401838751",
+          "gameDate": "2026-03-05T10:00Z",
           "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
+            "currentPeriodOrdinal": "OT",
+            "currentQuarter": "OT"
           },
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "TPO"
+                "abbreviation": "CZE"
+              },
+              "score": 3
+            },
+            "home": {
+              "team": {
+                "abbreviation": "KOR"
+              },
+              "score": 6
+            }
+          }
+        },
+        {
+          "gamePk": "401838776",
+          "gameDate": "2026-03-06T03:00Z",
+          "status": {
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "AUS"
               },
               "score": 0
             },
             "home": {
               "team": {
-                "abbreviation": "AUS"
+                "abbreviation": "CZE"
               },
-              "score": 3
+              "score": 0
             }
           }
         }
