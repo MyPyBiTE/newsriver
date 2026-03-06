@@ -32,19 +32,19 @@
           "gamePk": "401838752",
           "gameDate": "2026-03-06T16:00Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "OT",
+            "currentQuarter": "OT"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "CUB"
               },
-              "score": 0
+              "score": 3
             },
             "home": {
               "team": {
