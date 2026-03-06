@@ -32,19 +32,19 @@
           "gamePk": "401838776",
           "gameDate": "2026-03-06T03:00Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": "OT",
-            "currentQuarter": "OT"
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "AUS"
               },
-              "score": 3
+              "score": 5
             },
             "home": {
               "team": {
