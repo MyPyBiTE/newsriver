@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Hotel tower proposed near Stanley Park faces pushback from residents",
-      "display":"Hotel tower proposed near Stanley Park faces pushback from residents",
-      "url":"https://globalnews.ca/news/11718435/hotel-tower-proposed-stanley-park-vancouver-pushback",
+      "text":"Blue Jays move up in farm system rankings",
+      "display":"Blue Jays move up in farm system rankings",
+      "url":"https://www.mlb.com/bluejays/news/farm-system-rankings-2026-preseason",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Composting project in Cowessess First Nation promotes sustainability",
+      "display":"Composting project in Cowessess First Nation promotes sustainability",
+      "url":"https://globalnews.ca/news/11718476/composting-project-cowessess-first-nation-sustainability",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Canada’s defence chief says allies may help Gulf states bombed by Iran",
-      "display":"Canada’s defence chief says allies may help Gulf states bombed by Iran",
-      "url":"https://toronto.citynews.ca/2026/03/05/canadas-defence-chief-says-allies-may-help-gulf-states-bombed-by-iran",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "display":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "url":"https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
+      "text":"Third suspect of Jahkai Jack murder arrested in Calgary",
+      "display":"Third suspect of Jahkai Jack murder arrested in Calgary",
+      "url":"https://toronto.citynews.ca/2026/03/05/third-suspect-of-jahkai-jack-murder-arrested-in-calgary",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-03-06T00:07:31Z"
+  "generated_utc":"2026-03-06T04:26:31Z"
 }
