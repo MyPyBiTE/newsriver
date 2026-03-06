@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"SIU investigating as man killed after shot by Barrie police stun gun",
-      "display":"SIU investigating as man killed after shot by Barrie police stun gun",
-      "url":"https://toronto.citynews.ca/2026/03/06/siu-investigating-as-man-killed-after-shot-by-barrie-police-stun-gun",
+      "text":"Maple Leafs trade Bobby McMann to Kraken for 2 draft picks",
+      "display":"Maple Leafs trade Bobby McMann to Kraken for 2 draft picks",
+      "url":"https://toronto.citynews.ca/2026/03/06/maple-leafs-trade-bobby-mcmann-to-kraken-for-2-draft-picks",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Russia gave Iran information that can help strike US military: sources",
+      "display":"Russia gave Iran information that can help strike US military: sources",
+      "url":"https://globalnews.ca/news/11719601/iran-russia-us",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"B.C. government to make announcement about expanding police academies",
-      "display":"B.C. government to make announcement about expanding police academies",
-      "url":"https://globalnews.ca/news/11719492/bc-expanding-police-academies-training",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Los Angeles Marathon: Here’s the route map for Sunday’s race",
-      "display":"Los Angeles Marathon: Here’s the route map for Sunday’s race",
-      "url":"https://www.dailynews.com/2026/03/06/los-angeles-marathon-heres-the-route-map-for-sundays-race-2",
+      "text":"How Our Presidential Endorsement Tracker Works",
+      "display":"How Our Presidential Endorsement Tracker Works",
+      "url":"https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-03-06T20:21:40Z"
+  "generated_utc":"2026-03-06T20:53:26Z"
 }
