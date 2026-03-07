@@ -110,19 +110,19 @@
           "gamePk": "401838753",
           "gameDate": "2026-03-06T23:00Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": "2nd",
-            "currentQuarter": "2nd"
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "PUR"
               },
-              "score": 0
+              "score": 5
             },
             "home": {
               "team": {
@@ -136,25 +136,25 @@
           "gamePk": "401838779",
           "gameDate": "2026-03-07T00:00Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "OT",
+            "currentQuarter": "OT"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "NCA"
               },
-              "score": 0
+              "score": 3
             },
             "home": {
               "team": {
                 "abbreviation": "DOM"
               },
-              "score": 0
+              "score": 5
             }
           }
         },
@@ -162,25 +162,25 @@
           "gamePk": "401838775",
           "gameDate": "2026-03-07T01:00Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "OT",
+            "currentQuarter": "OT"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "USA"
               },
-              "score": 0
+              "score": 3
             },
             "home": {
               "team": {
                 "abbreviation": "BRA"
               },
-              "score": 0
+              "score": 1
             }
           }
         },
