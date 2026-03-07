@@ -162,19 +162,19 @@
           "gamePk": "401838775",
           "gameDate": "2026-03-07T01:00Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": "OT",
-            "currentQuarter": "OT"
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "USA"
               },
-              "score": 9
+              "score": 15
             },
             "home": {
               "team": {
@@ -200,7 +200,7 @@
               "team": {
                 "abbreviation": "TPO"
               },
-              "score": 6
+              "score": 14
             },
             "home": {
               "team": {
