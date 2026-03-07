@@ -84,12 +84,12 @@
           "gamePk": "401838782",
           "gameDate": "2026-03-07T18:00Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": "OT",
-            "currentQuarter": "OT"
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
@@ -102,7 +102,7 @@
               "team": {
                 "abbreviation": "ITA"
               },
-              "score": 6
+              "score": 8
             }
           }
         },
