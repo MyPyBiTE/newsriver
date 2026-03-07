@@ -3,208 +3,208 @@
     {
       "games": [
         {
-          "gamePk": "401838777",
-          "gameDate": "2026-03-06T10:00Z",
+          "gamePk": "401838785",
+          "gameDate": "2026-03-07T10:00Z",
           "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
+            "currentPeriodOrdinal": "OT",
+            "currentQuarter": "OT"
           },
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "JPN"
-              },
-              "score": 13
-            },
-            "home": {
-              "team": {
-                "abbreviation": "TPO"
-              },
-              "score": 0
-            }
-          }
-        },
-        {
-          "gamePk": "401838752",
-          "gameDate": "2026-03-06T16:00Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "CUB"
-              },
-              "score": 3
-            },
-            "home": {
-              "team": {
-                "abbreviation": "PAN"
-              },
-              "score": 1
-            }
-          }
-        },
-        {
-          "gamePk": "401838778",
-          "gameDate": "2026-03-06T17:00Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "NED"
-              },
-              "score": 2
-            },
-            "home": {
-              "team": {
-                "abbreviation": "VEN"
-              },
-              "score": 6
-            }
-          }
-        },
-        {
-          "gamePk": "401838754",
-          "gameDate": "2026-03-06T18:00Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "MEX"
-              },
-              "score": 8
-            },
-            "home": {
-              "team": {
-                "abbreviation": "GBR"
-              },
-              "score": 2
-            }
-          }
-        },
-        {
-          "gamePk": "401838753",
-          "gameDate": "2026-03-06T23:00Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "PUR"
+                "abbreviation": "KOR"
               },
               "score": 5
             },
             "home": {
               "team": {
+                "abbreviation": "JPN"
+              },
+              "score": 5
+            }
+          }
+        },
+        {
+          "gamePk": "401838780",
+          "gameDate": "2026-03-07T16:00Z",
+          "status": {
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
+          },
+          "teams": {
+            "away": {
+              "team": {
                 "abbreviation": "COL"
+              },
+              "score": 0
+            },
+            "home": {
+              "team": {
+                "abbreviation": "CAN"
               },
               "score": 0
             }
           }
         },
         {
-          "gamePk": "401838779",
-          "gameDate": "2026-03-07T00:00Z",
+          "gamePk": "401838786",
+          "gameDate": "2026-03-07T17:00Z",
           "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
           },
           "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "NCA"
               },
-              "score": 3
+              "score": 0
             },
             "home": {
               "team": {
-                "abbreviation": "DOM"
+                "abbreviation": "NED"
               },
-              "score": 12
+              "score": 0
             }
           }
         },
         {
-          "gamePk": "401838775",
-          "gameDate": "2026-03-07T01:00Z",
+          "gamePk": "401838782",
+          "gameDate": "2026-03-07T18:00Z",
           "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
           },
           "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
           },
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "USA"
+                "abbreviation": "BRA"
               },
-              "score": 15
+              "score": 0
             },
             "home": {
               "team": {
-                "abbreviation": "BRA"
+                "abbreviation": "ITA"
               },
-              "score": 5
+              "score": 0
             }
           }
         },
         {
-          "gamePk": "401838784",
-          "gameDate": "2026-03-07T03:00Z",
+          "gamePk": "401838781",
+          "gameDate": "2026-03-07T23:00Z",
           "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
           },
           "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "PAN"
+              },
+              "score": 0
+            },
+            "home": {
+              "team": {
+                "abbreviation": "PUR"
+              },
+              "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401838787",
+          "gameDate": "2026-03-08T00:00Z",
+          "status": {
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "ISR"
+              },
+              "score": 0
+            },
+            "home": {
+              "team": {
+                "abbreviation": "VEN"
+              },
+              "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401838783",
+          "gameDate": "2026-03-08T01:00Z",
+          "status": {
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "GBR"
+              },
+              "score": 0
+            },
+            "home": {
+              "team": {
+                "abbreviation": "USA"
+              },
+              "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401838792",
+          "gameDate": "2026-03-08T03:00Z",
+          "status": {
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "TPO"
               },
-              "score": 14
+              "score": 0
             },
             "home": {
               "team": {
-                "abbreviation": "CZE"
+                "abbreviation": "KOR"
               },
               "score": 0
             }
