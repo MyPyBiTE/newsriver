@@ -44,13 +44,13 @@
               "team": {
                 "abbreviation": "COL"
               },
-              "score": 1
+              "score": 4
             },
             "home": {
               "team": {
                 "abbreviation": "CUB"
               },
-              "score": 4
+              "score": 7
             }
           }
         },
@@ -58,12 +58,12 @@
           "gamePk": "401838794",
           "gameDate": "2026-03-08T16:00Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": "OT",
-            "currentQuarter": "OT"
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
@@ -76,7 +76,7 @@
               "team": {
                 "abbreviation": "DOM"
               },
-              "score": 4
+              "score": 12
             }
           }
         },
@@ -88,8 +88,8 @@
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "1st",
-            "currentQuarter": "1st"
+            "currentPeriodOrdinal": "OT",
+            "currentQuarter": "OT"
           },
           "teams": {
             "away": {
@@ -102,7 +102,7 @@
               "team": {
                 "abbreviation": "ITA"
               },
-              "score": 0
+              "score": 5
             }
           }
         },
