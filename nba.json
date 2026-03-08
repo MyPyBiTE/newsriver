@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-03-08T22:20:37.852859Z",
+  "generated_utc": "2026-03-08T22:48:23.005225Z",
   "dates": [
     {
       "games": [
@@ -11,21 +11,21 @@
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "1st",
-            "currentQuarter": "1st"
+            "currentPeriodOrdinal": "2nd",
+            "currentQuarter": "2nd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "DET"
               },
-              "score": 2
+              "score": 26
             },
             "home": {
               "team": {
                 "abbreviation": "MIA"
               },
-              "score": 10
+              "score": 42
             }
           }
         },
@@ -37,21 +37,21 @@
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "1st",
-            "currentQuarter": "1st"
+            "currentPeriodOrdinal": "2nd",
+            "currentQuarter": "2nd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "DAL"
               },
-              "score": 13
+              "score": 32
             },
             "home": {
               "team": {
                 "abbreviation": "TOR"
               },
-              "score": 15
+              "score": 41
             }
           }
         },
