@@ -84,19 +84,19 @@
           "gamePk": "401838790",
           "gameDate": "2026-03-08T17:00Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": "OT",
-            "currentQuarter": "OT"
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "GBR"
               },
-              "score": 3
+              "score": 4
             },
             "home": {
               "team": {
