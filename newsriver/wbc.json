@@ -6,25 +6,25 @@
           "gamePk": "401838793",
           "gameDate": "2026-03-08T10:00Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": "OT",
-            "currentQuarter": "OT"
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "AUS"
               },
-              "score": 1
+              "score": 3
             },
             "home": {
               "team": {
                 "abbreviation": "JPN"
               },
-              "score": 0
+              "score": 4
             }
           }
         },
