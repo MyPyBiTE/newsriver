@@ -50,7 +50,7 @@
               "team": {
                 "abbreviation": "PAN"
               },
-              "score": 1
+              "score": 3
             }
           }
         },
@@ -58,19 +58,19 @@
           "gamePk": "401838801",
           "gameDate": "2026-03-09T16:00Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": "OT",
-            "currentQuarter": "OT"
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "DOM"
               },
-              "score": 8
+              "score": 10
             },
             "home": {
               "team": {
@@ -96,13 +96,13 @@
               "team": {
                 "abbreviation": "BRA"
               },
-              "score": 0
+              "score": 1
             },
             "home": {
               "team": {
                 "abbreviation": "GBR"
               },
-              "score": 0
+              "score": 4
             }
           }
         },
