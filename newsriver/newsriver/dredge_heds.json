@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "display":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "url":"https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
+      "text":"Maple Leafs’ losing streak extends to eight games",
+      "display":"Maple Leafs’ losing streak extends to eight games",
+      "url":"https://globalnews.ca/news/11725360/maple-leafs-losing-streak-extends-to-eight-games",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"What’s Next In The Abortion Drug Case",
+      "display":"What’s Next In The Abortion Drug Case",
+      "url":"https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Examining best — and worst — moments of Geno Smith’s first Jets stint",
-      "display":"Examining best — and worst — moments of Geno Smith’s first Jets stint",
-      "url":"https://nypost.com/2026/03/11/sports/examining-best-and-worst-moments-of-geno-smiths-first-jets-stint",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"First Look At ‘Cruyff’ Docuseries Unveiling The Life & Legacy Of A Soccer Legend",
-      "display":"First Look At ‘Cruyff’ Docuseries Unveiling The Life & Legacy Of A Soccer Legend",
-      "url":"https://deadline.com/2026/03/johan-cruyff-docuseries-soccer-icon-barcelona-ajax-guardiola-1236748936",
+      "text":"Niall Ferguson vs. Richard Haass: Is Regime Change in Iran Possible?",
+      "display":"Niall Ferguson vs. Richard Haass: Is Regime Change in Iran Possible?",
+      "url":"https://www.thefp.com/p/niall-ferguson-vs-richard-haass-iran-debate",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-03-11T09:07:46Z"
+  "generated_utc":"2026-03-11T09:59:16Z"
 }
