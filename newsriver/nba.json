@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-03-11T07:27:28.627067Z",
+  "generated_utc": "2026-03-11T08:00:54.681728Z",
   "dates": [
     {
       "games": [
@@ -184,84 +184,6 @@
               "score": 120
             }
           }
-        },
-        {
-          "gamePk": "401810798",
-          "gameDate": "2026-03-11T02:00Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "CHI"
-              },
-              "score": 130
-            },
-            "home": {
-              "team": {
-                "abbreviation": "GSW"
-              },
-              "score": 124
-            }
-          }
-        },
-        {
-          "gamePk": "401810799",
-          "gameDate": "2026-03-11T02:00Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "CHA"
-              },
-              "score": 103
-            },
-            "home": {
-              "team": {
-                "abbreviation": "POR"
-              },
-              "score": 101
-            }
-          }
-        },
-        {
-          "gamePk": "401810800",
-          "gameDate": "2026-03-11T02:00Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "IND"
-              },
-              "score": 109
-            },
-            "home": {
-              "team": {
-                "abbreviation": "SAC"
-              },
-              "score": 114
-            }
-          }
         }
       ]
     }
@@ -272,7 +194,7 @@
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260310",
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260311"
     ],
-    "games_count": 10,
+    "games_count": 7,
     "http_timeout_sec": 12.0,
     "version": "nba-relay-1.1",
     "preview_hours": 36,
