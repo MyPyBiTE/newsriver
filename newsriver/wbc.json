@@ -58,12 +58,12 @@
           "gamePk": "401838803",
           "gameDate": "2026-03-10T23:00Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": "OT",
-            "currentQuarter": "OT"
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
@@ -84,25 +84,25 @@
           "gamePk": "401838804",
           "gameDate": "2026-03-11T01:00Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": "OT",
-            "currentQuarter": "OT"
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "ITA"
               },
-              "score": 5
+              "score": 8
             },
             "home": {
               "team": {
                 "abbreviation": "USA"
               },
-              "score": 0
+              "score": 6
             }
           }
         }
