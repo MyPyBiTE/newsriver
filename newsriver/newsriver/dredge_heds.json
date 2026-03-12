@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"More than 15,000 Peel students face possible suspension over missing vaccination records, public health warns",
-      "display":"More than 15,000 Peel students face possible suspension over missing vaccination records, public health warns",
-      "url":"https://toronto.citynews.ca/2026/03/12/peel-public-health-student-vaccinations-records-suspensions-school",
+      "text":"Answering your Blue Jays questions as Opening Day nears",
+      "display":"Answering your Blue Jays questions as Opening Day nears",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-spring-training-mailbag",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Oil spill in Ontario river ‘contained,’ cleanup ongoing: Suncor",
+      "display":"Oil spill in Ontario river ‘contained,’ cleanup ongoing: Suncor",
+      "url":"https://globalnews.ca/news/11727468/oil-spill-sarnia-river-suncor-energy",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Kingston goes back to the drawing board on Block 4 conference centre",
-      "display":"Kingston goes back to the drawing board on Block 4 conference centre",
-      "url":"https://globalnews.ca/news/11727291/kingston-back-to-drawing-board-block-4-conference-centre",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"How Our Presidential Endorsement Tracker Works",
-      "display":"How Our Presidential Endorsement Tracker Works",
-      "url":"https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
+      "text":"What comes next to address trip times on TTC Line 5 Eglinton and Line 6 Finch West?",
+      "display":"What comes next to address trip times on TTC Line 5 Eglinton and Line 6 Finch West?",
+      "url":"https://toronto.citynews.ca/2026/03/12/ttc-trip-times-transit-signal-priority-line-5-eglinton-line-6-finch-west-lrt",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-03-12T14:43:22Z"
+  "generated_utc":"2026-03-12T15:40:15Z"
 }
