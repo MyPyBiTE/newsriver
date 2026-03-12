@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Blue Jays runner was out by feet in Dodgers’  controversial World Series Game 7 play at plate",
-      "display":"Blue Jays runner was out by feet in Dodgers’  controversial World Series Game 7 play at plate",
-      "url":"https://nypost.com/2026/03/11/sports/isiah-kiner-falefa-was-out-by-feet-in-dodgers-controversial-world-series-game-7-play",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"Niagara Region chair Bob Gale resigns over allegations he owns signed Adolf Hitler book",
       "display":"Niagara Region chair Bob Gale resigns over allegations he owns signed Adolf Hitler book",
       "url":"https://toronto.citynews.ca/2026/03/12/niagara-region-chair-bob-gale-resigns-over-allegations-he-owns-signed-adolf-hitler-book",
@@ -29,7 +19,17 @@
         "is_landmark":false,
         "has_bitcoin":false
       }
+    },
+    {
+      "text":"Vladdy of course wasn't going to miss the D.R. home run party",
+      "display":"Vladdy of course wasn't going to miss the D.R. home run party",
+      "url":"https://www.mlb.com/bluejays/news/dominican-republic-home-runs-against-venezuela-in-world-baseball-classic",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
     }
   ],
-  "generated_utc":"2026-03-12T06:04:42Z"
+  "generated_utc":"2026-03-12T07:11:40Z"
 }
