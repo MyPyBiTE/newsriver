@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Is Canada missing the mark on alcohol awareness?",
-      "display":"Is Canada missing the mark on alcohol awareness?",
-      "url":"https://toronto.citynews.ca/2026/03/13/alcohol-consumption-health-impacts-big-story-podcast",
+      "text":"Maple Leafs’ Auston Matthews injured on ‘dirty play’ by controversial Olympian",
+      "display":"Maple Leafs’ Auston Matthews injured on ‘dirty play’ by controversial Olympian",
+      "url":"https://nypost.com/2026/03/13/sports/maple-leafs-auston-matthews-injured-on-dirty-play-by-controversial-olympian",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"4 dead as U.S. military refuelling plane crashes in Iraq",
+      "display":"4 dead as U.S. military refuelling plane crashes in Iraq",
+      "url":"https://globalnews.ca/news/11729226/us-military-refuelling-plane-crash-iraq",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"The Curator: Best pillows in Canada for side, back & stomach sleepers",
-      "display":"The Curator: Best pillows in Canada for side, back & stomach sleepers",
-      "url":"https://globalnews.ca/the-curator/11679236/best-pillows-2026",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "display":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "url":"https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
+      "text":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
+      "display":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
+      "url":"https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-03-13T11:44:24Z"
+  "generated_utc":"2026-03-13T13:33:14Z"
 }
