@@ -6,12 +6,12 @@
           "gamePk": "401845795",
           "gameDate": "2026-03-13T22:30Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "OT",
+            "currentQuarter": "OT"
           },
           "teams": {
             "away": {
@@ -24,7 +24,7 @@
               "team": {
                 "abbreviation": "DOM"
               },
-              "score": 0
+              "score": 4
             }
           }
         },
