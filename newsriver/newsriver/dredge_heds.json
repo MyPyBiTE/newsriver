@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Man charged with first-degree murder in killing of Montreal convenience store owner",
-      "display":"Man charged with first-degree murder in killing of Montreal convenience store owner",
-      "url":"https://globalnews.ca/news/11729762/mtl-stabbing",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Should you cancel March break travel amid Iran war? Ask these questions",
+      "display":"Should you cancel March break travel amid Iran war? Ask these questions",
+      "url":"https://globalnews.ca/news/11729637/iran-war-march-break-air-travel",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Toronto man charged after allegedly playing Hitler speech outside victim’s home in hate crime: police",
-      "display":"Toronto man charged after allegedly playing Hitler speech outside victim’s home in hate crime: police",
-      "url":"https://toronto.citynews.ca/2026/03/13/toronto-man-charged-hitler-speech-hate-crime-anti-semitic-police",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"UK artists invited to apply for “seriously game-changing” £125k fund to beat “the cost of touring crisis”",
-      "display":"UK artists invited to apply for “seriously game-changing” £125k fund to beat “the cost of touring crisis”",
-      "url":"https://www.nme.com/news/music/uk-artists-invited-to-apply-game-changing-125k-fund-to-beat-cost-of-touring-crisis-3934434",
+      "text":"Ontario to give retailers the option of opening on Family Day and Victoria Day",
+      "display":"Ontario to give retailers the option of opening on Family Day and Victoria Day",
+      "url":"https://toronto.citynews.ca/2026/03/13/ontario-to-give-retailers-the-option-of-opening-on-family-day-and-victoria-day",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-03-13T17:56:24Z"
+  "generated_utc":"2026-03-13T18:32:57Z"
 }
