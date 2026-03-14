@@ -1,86 +1,8 @@
 {
-  "generated_utc": "2026-03-14T04:19:41.769922Z",
+  "generated_utc": "2026-03-14T05:27:17.462670Z",
   "dates": [
     {
       "games": [
-        {
-          "gamePk": "401810821",
-          "gameDate": "2026-03-14T02:00Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "MIN"
-              },
-              "score": 120
-            },
-            "home": {
-              "team": {
-                "abbreviation": "GSW"
-              },
-              "score": 108
-            }
-          }
-        },
-        {
-          "gamePk": "401810822",
-          "gameDate": "2026-03-14T02:00Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "UTAH"
-              },
-              "score": 111
-            },
-            "home": {
-              "team": {
-                "abbreviation": "POR"
-              },
-              "score": 124
-            }
-          }
-        },
-        {
-          "gamePk": "401810823",
-          "gameDate": "2026-03-14T02:30Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "CHI"
-              },
-              "score": 85
-            },
-            "home": {
-              "team": {
-                "abbreviation": "LAC"
-              },
-              "score": 97
-            }
-          }
-        },
         {
           "gamePk": "401810824",
           "gameDate": "2026-03-14T17:00Z",
@@ -260,6 +182,84 @@
                 "abbreviation": "LAC"
               },
               "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401810823",
+          "gameDate": "2026-03-14T02:30Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "CHI"
+              },
+              "score": 108
+            },
+            "home": {
+              "team": {
+                "abbreviation": "LAC"
+              },
+              "score": 119
+            }
+          }
+        },
+        {
+          "gamePk": "401810821",
+          "gameDate": "2026-03-14T02:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "MIN"
+              },
+              "score": 127
+            },
+            "home": {
+              "team": {
+                "abbreviation": "GSW"
+              },
+              "score": 117
+            }
+          }
+        },
+        {
+          "gamePk": "401810822",
+          "gameDate": "2026-03-14T02:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "UTAH"
+              },
+              "score": 114
+            },
+            "home": {
+              "team": {
+                "abbreviation": "POR"
+              },
+              "score": 124
             }
           }
         },
