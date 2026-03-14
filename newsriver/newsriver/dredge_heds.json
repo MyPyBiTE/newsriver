@@ -1,22 +1,12 @@
 {
   "items":[
     {
-      "text":"Postseason Vladdy in March? Jays love to see their star thrive in Classic",
-      "display":"Postseason Vladdy in March? Jays love to see their star thrive in Classic",
-      "url":"https://www.mlb.com/bluejays/news/vladimir-guerrero-jr-shines-in-intense-world-baseball-classic",
+      "text":"Charges laid in Toronto-area zipline accident that sent child to hospital",
+      "display":"Charges laid in Toronto-area zipline accident that sent child to hospital",
+      "url":"https://globalnews.ca/news/11730907/child-injured-trampoline-park",
       "flags":{
         "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Raptors get big 122-115 win over Suns",
-      "display":"Raptors get big 122-115 win over Suns",
-      "url":"https://globalnews.ca/news/11730846/raptors-get-big-122-115-win-over-suns",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
+        "is_landmark":false,
         "has_bitcoin":false
       }
     },
@@ -29,7 +19,17 @@
         "is_landmark":false,
         "has_bitcoin":false
       }
+    },
+    {
+      "text":"Kennedy Center Must Allow Ex Officio Board Member To Voice Her Dissent In Meeting On Trump’s Plans For Closure And Renovation, Judge Rules",
+      "display":"Kennedy Center Must Allow Ex Officio Board Member To Voice Her Dissent In Meeting On Trump’s Plans For Closure And Renovation, Judge Rules",
+      "url":"https://deadline.com/2026/03/kennedy-center-board-member-trump-closure-plans-1236753585",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
     }
   ],
-  "generated_utc":"2026-03-14T15:47:22Z"
+  "generated_utc":"2026-03-14T16:19:25Z"
 }
