@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Team USA bolsters relief, adds Blue Jays closer Hoffman",
-      "display":"Team USA bolsters relief, adds Blue Jays closer Hoffman",
-      "url":"https://www.mlb.com/bluejays/news/jeff-hoffman-on-team-usa-roster-for-world-baseball-classic",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"Man, teen killed in fatal shooting in Winnipeg",
       "display":"Man, teen killed in fatal shooting in Winnipeg",
       "url":"https://globalnews.ca/news/11731058/double-homicide-shooting-winnipeg",
@@ -21,9 +11,19 @@
       }
     },
     {
-      "text":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "display":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "url":"https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
+      "text":"Wilkie, Ideson named Canada’s flag bearers for Paralympics closing ceremony",
+      "display":"Wilkie, Ideson named Canada’s flag bearers for Paralympics closing ceremony",
+      "url":"https://toronto.citynews.ca/2026/03/14/wilkie-ideson-named-canadas-flag-bearers-for-paralympics-closing-ceremony",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Ed Miliband vows to 'fight' to keep energy bills down",
+      "display":"Ed Miliband vows to 'fight' to keep energy bills down",
+      "url":"https://www.mirror.co.uk/news/politics/ed-miliband-vows-fight-keep-36868160",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-03-14T19:54:22Z"
+  "generated_utc":"2026-03-14T20:17:30Z"
 }
