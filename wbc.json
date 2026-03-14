@@ -3,54 +3,54 @@
     {
       "games": [
         {
-          "gamePk": "401845795",
-          "gameDate": "2026-03-13T22:30Z",
+          "gamePk": "401845797",
+          "gameDate": "2026-03-14T19:00Z",
           "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
           },
           "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
           },
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "KOR"
+                "abbreviation": "PUR"
               },
               "score": 0
             },
             "home": {
               "team": {
-                "abbreviation": "DOM"
+                "abbreviation": "ITA"
               },
-              "score": 10
+              "score": 0
             }
           }
         },
         {
-          "gamePk": "401845796",
-          "gameDate": "2026-03-14T00:00Z",
+          "gamePk": "401845798",
+          "gameDate": "2026-03-15T01:00Z",
           "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
           },
           "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
           },
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "USA"
+                "abbreviation": "VEN"
               },
-              "score": 5
+              "score": 0
             },
             "home": {
               "team": {
-                "abbreviation": "CAN"
+                "abbreviation": "JPN"
               },
-              "score": 3
+              "score": 0
             }
           }
         }
