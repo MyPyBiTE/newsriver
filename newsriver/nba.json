@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-03-14T19:37:00.234994Z",
+  "generated_utc": "2026-03-14T19:53:15.754469Z",
   "dates": [
     {
       "games": [
@@ -11,21 +11,21 @@
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "1st",
-            "currentQuarter": "1st"
+            "currentPeriodOrdinal": "2nd",
+            "currentQuarter": "2nd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "MIL"
               },
-              "score": 28
+              "score": 39
             },
             "home": {
               "team": {
                 "abbreviation": "ATL"
               },
-              "score": 30
+              "score": 45
             }
           }
         },
@@ -33,25 +33,25 @@
           "gamePk": "401810828",
           "gameDate": "2026-03-14T19:30Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "CHA"
               },
-              "score": 0
+              "score": 13
             },
             "home": {
               "team": {
                 "abbreviation": "SAS"
               },
-              "score": 0
+              "score": 18
             }
           }
         },
