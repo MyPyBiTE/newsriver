@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-03-14T16:50:24.901577Z",
+  "generated_utc": "2026-03-14T17:24:18.377638Z",
   "dates": [
     {
       "games": [
@@ -7,25 +7,25 @@
           "gamePk": "401810824",
           "gameDate": "2026-03-14T17:00Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "BKN"
               },
-              "score": 0
+              "score": 9
             },
             "home": {
               "team": {
                 "abbreviation": "PHI"
               },
-              "score": 0
+              "score": 20
             }
           }
         },
