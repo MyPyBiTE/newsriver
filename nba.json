@@ -1,57 +1,31 @@
 {
-  "generated_utc": "2026-03-14T19:05:29.336590Z",
+  "generated_utc": "2026-03-14T19:37:00.234994Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401810824",
-          "gameDate": "2026-03-14T17:00Z",
+          "gamePk": "401810825",
+          "gameDate": "2026-03-14T19:00Z",
           "status": {
             "detailedState": "Live",
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "BKN"
-              },
-              "score": 77
-            },
-            "home": {
-              "team": {
-                "abbreviation": "PHI"
-              },
-              "score": 84
-            }
-          }
-        },
-        {
-          "gamePk": "401810825",
-          "gameDate": "2026-03-14T19:00Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "MIL"
               },
-              "score": 0
+              "score": 28
             },
             "home": {
               "team": {
                 "abbreviation": "ATL"
               },
-              "score": 0
+              "score": 30
             }
           }
         },
@@ -182,6 +156,32 @@
                 "abbreviation": "LAC"
               },
               "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401810824",
+          "gameDate": "2026-03-14T17:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "BKN"
+              },
+              "score": 97
+            },
+            "home": {
+              "team": {
+                "abbreviation": "PHI"
+              },
+              "score": 104
             }
           }
         }
