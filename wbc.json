@@ -10,21 +10,21 @@
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "1st",
-            "currentQuarter": "1st"
+            "currentPeriodOrdinal": "OT",
+            "currentQuarter": "OT"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "PUR"
               },
-              "score": 1
+              "score": 2
             },
             "home": {
               "team": {
                 "abbreviation": "ITA"
               },
-              "score": 3
+              "score": 4
             }
           }
         },
