@@ -1,57 +1,31 @@
 {
-  "generated_utc": "2026-03-15T19:18:16.534101Z",
+  "generated_utc": "2026-03-15T19:45:19.512969Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401810831",
-          "gameDate": "2026-03-15T17:00Z",
+          "gamePk": "401810832",
+          "gameDate": "2026-03-15T19:30Z",
           "status": {
             "detailedState": "Live",
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "MIN"
-              },
-              "score": 96
-            },
-            "home": {
-              "team": {
-                "abbreviation": "OKC"
-              },
-              "score": 108
-            }
-          }
-        },
-        {
-          "gamePk": "401810832",
-          "gameDate": "2026-03-15T19:30Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "DAL"
               },
-              "score": 0
+              "score": 11
             },
             "home": {
               "team": {
                 "abbreviation": "CLE"
               },
-              "score": 0
+              "score": 7
             }
           }
         },
@@ -59,25 +33,25 @@
           "gamePk": "401810833",
           "gameDate": "2026-03-15T19:30Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "DET"
               },
-              "score": 0
+              "score": 3
             },
             "home": {
               "team": {
                 "abbreviation": "TOR"
               },
-              "score": 0
+              "score": 6
             }
           }
         },
@@ -85,25 +59,25 @@
           "gamePk": "401810834",
           "gameDate": "2026-03-15T19:30Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "IND"
               },
-              "score": 0
+              "score": 9
             },
             "home": {
               "team": {
                 "abbreviation": "MIL"
               },
-              "score": 0
+              "score": 6
             }
           }
         },
@@ -182,6 +156,32 @@
                 "abbreviation": "SAC"
               },
               "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401810831",
+          "gameDate": "2026-03-15T17:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "MIN"
+              },
+              "score": 103
+            },
+            "home": {
+              "team": {
+                "abbreviation": "OKC"
+              },
+              "score": 116
             }
           }
         }
