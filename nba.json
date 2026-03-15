@@ -1,34 +1,8 @@
 {
-  "generated_utc": "2026-03-15T21:36:09.938004Z",
+  "generated_utc": "2026-03-15T21:55:57.599296Z",
   "dates": [
     {
       "games": [
-        {
-          "gamePk": "401810832",
-          "gameDate": "2026-03-15T19:30Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "DAL"
-              },
-              "score": 111
-            },
-            "home": {
-              "team": {
-                "abbreviation": "CLE"
-              },
-              "score": 96
-            }
-          }
-        },
         {
           "gamePk": "401810833",
           "gameDate": "2026-03-15T19:30Z",
@@ -45,39 +19,13 @@
               "team": {
                 "abbreviation": "DET"
               },
-              "score": 84
+              "score": 101
             },
             "home": {
               "team": {
                 "abbreviation": "TOR"
               },
-              "score": 98
-            }
-          }
-        },
-        {
-          "gamePk": "401810834",
-          "gameDate": "2026-03-15T19:30Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "IND"
-              },
-              "score": 103
-            },
-            "home": {
-              "team": {
-                "abbreviation": "MIL"
-              },
-              "score": 119
+              "score": 107
             }
           }
         },
@@ -156,6 +104,58 @@
                 "abbreviation": "SAC"
               },
               "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401810832",
+          "gameDate": "2026-03-15T19:30Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "DAL"
+              },
+              "score": 130
+            },
+            "home": {
+              "team": {
+                "abbreviation": "CLE"
+              },
+              "score": 120
+            }
+          }
+        },
+        {
+          "gamePk": "401810834",
+          "gameDate": "2026-03-15T19:30Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "IND"
+              },
+              "score": 123
+            },
+            "home": {
+              "team": {
+                "abbreviation": "MIL"
+              },
+              "score": 134
             }
           }
         },
