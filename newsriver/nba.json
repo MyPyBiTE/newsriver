@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-03-14T23:57:41.095761Z",
+  "generated_utc": "2026-03-15T02:46:52.643781Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401810826",
-          "gameDate": "2026-03-14T22:00Z",
+          "gamePk": "401810829",
+          "gameDate": "2026-03-15T00:30Z",
           "status": {
             "detailedState": "Live",
             "abstractGameState": "Live"
@@ -17,67 +17,15 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "WSH"
-              },
-              "score": 82
-            },
-            "home": {
-              "team": {
-                "abbreviation": "BOS"
-              },
-              "score": 100
-            }
-          }
-        },
-        {
-          "gamePk": "401810827",
-          "gameDate": "2026-03-15T00:00Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "ORL"
-              },
-              "score": 0
-            },
-            "home": {
-              "team": {
-                "abbreviation": "MIA"
-              },
-              "score": 0
-            }
-          }
-        },
-        {
-          "gamePk": "401810829",
-          "gameDate": "2026-03-15T00:30Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
-          },
-          "teams": {
-            "away": {
-              "team": {
                 "abbreviation": "DEN"
               },
-              "score": 0
+              "score": 106
             },
             "home": {
               "team": {
                 "abbreviation": "LAL"
               },
-              "score": 0
+              "score": 101
             }
           }
         },
@@ -108,8 +56,8 @@
           }
         },
         {
-          "gamePk": "401810828",
-          "gameDate": "2026-03-14T19:30Z",
+          "gamePk": "401810827",
+          "gameDate": "2026-03-15T00:00Z",
           "status": {
             "detailedState": "Final",
             "abstractGameState": "Final"
@@ -121,21 +69,21 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "CHA"
+                "abbreviation": "ORL"
               },
-              "score": 102
+              "score": 121
             },
             "home": {
               "team": {
-                "abbreviation": "SAS"
+                "abbreviation": "MIA"
               },
-              "score": 115
+              "score": 117
             }
           }
         },
         {
-          "gamePk": "401810825",
-          "gameDate": "2026-03-14T19:00Z",
+          "gamePk": "401810826",
+          "gameDate": "2026-03-14T22:00Z",
           "status": {
             "detailedState": "Final",
             "abstractGameState": "Final"
@@ -147,15 +95,15 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "MIL"
+                "abbreviation": "WSH"
               },
-              "score": 99
+              "score": 100
             },
             "home": {
               "team": {
-                "abbreviation": "ATL"
+                "abbreviation": "BOS"
               },
-              "score": 122
+              "score": 111
             }
           }
         }
@@ -168,7 +116,7 @@
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260313",
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260314"
     ],
-    "games_count": 6,
+    "games_count": 4,
     "http_timeout_sec": 12.0,
     "version": "nba-relay-1.1",
     "preview_hours": 36,
