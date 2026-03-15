@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"McMann scores two, Kraken thump Canucks 5-2",
-      "display":"McMann scores two, Kraken thump Canucks 5-2",
-      "url":"https://globalnews.ca/news/11731628/mcmann-scores-two-kraken-thump-canucks-5-2",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
       "display":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
       "url":"https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
@@ -21,9 +11,19 @@
       }
     },
     {
-      "text":"Tomatoes will taste better if placed next to easy-growing plant in garden",
-      "display":"Tomatoes will taste better if placed next to easy-growing plant in garden",
-      "url":"https://www.mirror.co.uk/lifestyle/gardening/best-way-grow-tomatoes-companion-36838551",
+      "text":"Everton ace claims 'own fans attacked his friends at Arsenal' as police launch investigation",
+      "display":"Everton ace claims 'own fans attacked his friends at Arsenal' as police launch investigation",
+      "url":"https://www.mirror.co.uk/sport/football/news/everton-barry-fans-arsenal-police-36869142",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Florence Pugh leaves boutique gym in west London dressed all in brown with her beloved Staffordshire terrier Billie",
+      "display":"Florence Pugh leaves boutique gym in west London dressed all in brown with her beloved Staffordshire terrier Billie",
+      "url":"https://www.dailymail.co.uk/tvshowbiz/article-15646535/florence-pugh-leaves-gym-London-dressed-brown-terrier.html",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-03-15T07:31:21Z"
+  "generated_utc":"2026-03-15T08:03:23Z"
 }
