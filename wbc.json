@@ -6,19 +6,19 @@
           "gamePk": "401845801",
           "gameDate": "2026-03-18T00:00Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": "OT",
-            "currentQuarter": "OT"
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "VEN"
               },
-              "score": 2
+              "score": 3
             },
             "home": {
               "team": {
