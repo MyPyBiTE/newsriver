@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-03-19T04:29:51.276147Z",
+  "generated_utc": "2026-03-19T05:43:03.099549Z",
   "dates": [
     {
       "games": [
@@ -366,84 +366,6 @@
               "score": 124
             }
           }
-        },
-        {
-          "gamePk": "401810855",
-          "gameDate": "2026-03-18T23:30Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "OKC"
-              },
-              "score": 121
-            },
-            "home": {
-              "team": {
-                "abbreviation": "BKN"
-              },
-              "score": 92
-            }
-          }
-        },
-        {
-          "gamePk": "401810856",
-          "gameDate": "2026-03-18T23:30Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "POR"
-              },
-              "score": 127
-            },
-            "home": {
-              "team": {
-                "abbreviation": "IND"
-              },
-              "score": 119
-            }
-          }
-        },
-        {
-          "gamePk": "401810854",
-          "gameDate": "2026-03-18T23:00Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "GSW"
-              },
-              "score": 99
-            },
-            "home": {
-              "team": {
-                "abbreviation": "BOS"
-              },
-              "score": 120
-            }
-          }
         }
       ]
     }
@@ -454,7 +376,7 @@
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260318",
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260319"
     ],
-    "games_count": 17,
+    "games_count": 14,
     "http_timeout_sec": 12.0,
     "version": "nba-relay-1.1",
     "preview_hours": 36,
