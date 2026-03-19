@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Montreal specialized camp cancellation leaves families scrambling",
-      "display":"Montreal specialized camp cancellation leaves families scrambling",
-      "url":"https://globalnews.ca/news/11738228/montreal-specialized-camp-cancellation-families",
+      "text":"Leafs captain Matthews undergoes knee surgery",
+      "display":"Leafs captain Matthews undergoes knee surgery",
+      "url":"https://globalnews.ca/news/11738520/leafs-captain-matthews-undergoes-knee-surgery",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Rideshare driver arrested for alleged sexual assault in Toronto",
+      "display":"Rideshare driver arrested for alleged sexual assault in Toronto",
+      "url":"https://toronto.citynews.ca/2026/03/19/rideshare-driver-arrested-for-alleged-sexual-assault-in-toronto",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"New York Islanders planning to move AHL affiliate to Hamilton",
-      "display":"New York Islanders planning to move AHL affiliate to Hamilton",
-      "url":"https://toronto.citynews.ca/2026/03/19/new-york-islanders-planning-to-move-ahl-affiliate-to-hamilton",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"GOP senators set to confirm Trump's DHS pick despite privately acknowledging concerns",
-      "display":"GOP senators set to confirm Trump's DHS pick despite privately acknowledging concerns",
-      "url":"https://www.rawstory.com/markwayne-mullin-2676367770",
+      "text":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
+      "display":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
+      "url":"https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-03-19T21:52:49Z"
+  "generated_utc":"2026-03-19T22:18:26Z"
 }
