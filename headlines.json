@@ -1,8 +1,105 @@
 {
-  "generated_utc": "2026-03-19T07:17:55.218Z",
-  "itemset_hash": "2e0881efc56601b6",
+  "generated_utc": "2026-03-19T08:04:34.512Z",
+  "itemset_hash": "24eb175a6d964aa1",
   "count": 69,
   "items": [
+    {
+      "title": "Brickbat: It's Not Adding Up",
+      "url": "https://reason.com/2026/03/19/brickbat-its-not-adding-up",
+      "source": "Reason.com",
+      "published_utc": "2026-03-19T08:00:12.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Lyas: ‘I’m really bad at keeping my mouth shut’",
+      "url": "https://www.dazeddigital.com/fashion/article/69931/1/lyas-la-watchparty-instagram-fashion-spring-2026-issue-interview",
+      "source": "Dazed",
+      "published_utc": "2026-03-19T08:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Lisa Kudrow Is Finally Watching ‘Friends’ Because She ‘Ran Out’ of Sitcoms",
+      "url": "https://www.rollingstone.com/tv-movies/tv-movie-news/lisa-kudrow-watching-friends-kimmel-interview-1235533631",
+      "source": "Rolling Stone",
+      "published_utc": "2026-03-19T07:45:05.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "JAY-Z Is Celebrating the Anniversaries of ‘Reasonable Doubt’ and ‘The Blueprint’ at Yankee Stadium This Summer",
+      "url": "https://hypebeast.com/2026/3/jay-z-reasonable-doubt-30th-anniversary-the-blueprint-25th-anniversary-yankee-stadium-shows-announcement",
+      "source": "Hypebeast",
+      "published_utc": "2026-03-19T07:30:46.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "‘Unpleasant surprises’: Will key French cities elect far-right mayors?",
+      "url": "https://www.aljazeera.com/news/2026/3/19/unpleasant-surprises-will-key-french-cities-elect-far-right-mayors?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-03-19T07:21:06.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Baking in rubble: Gaza woman keeps Eid traditions alive despite shortages",
+      "url": "https://www.aljazeera.com/features/2026/3/19/baking-rubble-gaza-woman-keeps-eid-traditions-alive-despite-shortages?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-03-19T07:19:59.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Bitcoin OGs dump over $100 million in BTC after hawkish Fed dents rate cut hopes",
+      "url": "https://www.coindesk.com/markets/2026/03/19/bitcoin-ogs-dump-over-usd100-million-in-btc-after-hawkish-fed-dents-rate-cut-hopes",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2026-03-19T07:19:10.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Business",
+      "region": "World"
+    },
     {
       "title": "LIV Golf South Africa 2026: Where to Watch the Golf Tournament Live Online",
       "url": "https://variety.com/2026/shopping/news/how-to-watch-liv-golf-south-africa-2026-live-online-free-1236692309",
@@ -23,13 +120,39 @@
       "published_utc": "2026-03-19T07:11:37.000Z",
       "effects": {
         "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Trump attempts to distance US from Israeli strikes on key Iranian gasfield",
+      "url": "https://www.aljazeera.com/news/2026/3/19/trump-attempts-to-distance-us-from-israeli-strikes-on-key-iranian-gasfield?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-03-19T07:09:34.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Israeli air raids devastate southern Lebanon, dozens killed in two days",
+      "url": "https://www.aljazeera.com/news/2026/3/19/israeli-air-raids-devastate-southern-lebanon-dozens-killed-in-two-days?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-03-19T07:05:08.000Z",
+      "effects": {
+        "lightsaber": false,
         "glitch": true,
         "reasons": [
           "score≥2.1"
         ],
-        "style": "glitch"
+        "style": "breaker"
       },
-      "category": "Labour",
+      "category": "General",
       "region": "World"
     },
     {
@@ -52,11 +175,8 @@
       "published_utc": "2026-03-19T06:59:39.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Labour",
       "region": "World"
@@ -68,11 +188,8 @@
       "published_utc": "2026-03-19T06:57:14.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Labour",
       "region": "World"
@@ -104,7 +221,7 @@
       "region": "World"
     },
     {
-      "title": "Afroman Triumphs in Wild ‘Lemond Pound Cake’ Trial Filed by Cops",
+      "title": "Afroman Triumphs in Wild ‘Lemon Pound Cake’ Lawsuit Filed by Cops",
       "url": "https://www.rollingstone.com/music/music-news/afroman-trial-lemon-pound-cake-video-1235533623",
       "source": "Rolling Stone",
       "published_utc": "2026-03-19T06:47:27.000Z",
@@ -139,11 +256,8 @@
       "published_utc": "2026-03-19T06:27:45.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Business",
       "region": "World"
@@ -165,17 +279,14 @@
       "region": "Canada"
     },
     {
-      "title": "Visa and Stripe-backed Tempo launch tools for AI agents on same day",
+      "title": "Visa and Stripe-backed Tempo unveil AI agent payment tools on same day",
       "url": "https://cointelegraph.com/news/visa-tempo-both-launch-tools-ai-agents",
       "source": "Cointelegraph.com News",
       "published_utc": "2026-03-19T06:21:23.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Business",
       "region": "World"
@@ -515,19 +626,6 @@
       "region": "World"
     },
     {
-      "title": "Could oil hit $200 a barrel? Analysts no longer think it is far-fetched",
-      "url": "https://www.aljazeera.com/news/2026/3/19/could-oil-hit-200-a-barrel-analysts-no-longer-think-its-far-fetched?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-03-19T04:43:12.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Democratic Senator Hits Back at ADL’s Jonathan Greenblatt: ‘He’s Losing’",
       "url": "https://www.mediaite.com/media/news/democratic-senator-hits-back-at-adls-jonathan-greenblatt-hes-losing",
       "source": "Mediaite",
@@ -567,19 +665,6 @@
         "reasons": []
       },
       "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Lionel Messi scores 900th goal as Nashville oust Miami in Champions Cup",
-      "url": "https://www.aljazeera.com/sports/2026/3/19/lionel-messi-scores-900th-goal-as-nashville-oust-miami-in-champions-cup?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-03-19T04:25:07.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
       "region": "World"
     },
     {
@@ -638,33 +723,6 @@
         "reasons": []
       },
       "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Democrats walk out of heated Epstein files briefing",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/3/19/democrats-walk-out-of-heated-epstein-files-briefing?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-03-19T04:00:14.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Three Palestinian women killed during Iranian missile attack in West Bank",
-      "url": "https://www.aljazeera.com/news/2026/3/19/three-palestinian-women-killed-during-iranian-missile-attack-in-west-bank?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-03-19T03:58:49.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": [],
-        "style": "breaker"
-      },
-      "category": "General",
       "region": "World"
     },
     {
@@ -729,11 +787,8 @@
       "published_utc": "2026-03-19T03:40:06.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Sports",
       "region": "Canada"
@@ -883,90 +938,19 @@
       },
       "category": "General",
       "region": "World"
-    },
-    {
-      "title": "Inpatient Vs Outpatient Rehab: Which Is Right For You?",
-      "url": "https://dailycaller.com/2026/03/18/inpatient-vs-outpatient-rehab-which-is-right-for-you",
-      "source": "The Daily Caller",
-      "published_utc": "2026-03-19T02:56:05.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Sarah Michelle Gellar Hopes ‘Buffy’ Fans Don’t Seek Out Leaked Reboot Script or Pilot: ‘It Wasn’t Done’ | Video",
-      "url": "https://www.thewrap.com/creative-content/tv-shows/sarah-michelle-gellar-responds-buffy-reboot-leaked-script-pilot",
-      "source": "TheWrap",
-      "published_utc": "2026-03-19T02:56:01.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "‘Shut the F*ck Up!’ Cenk Uygur Has Nuclear Meltdown on Piers Morgan’s Show",
-      "url": "https://www.mediaite.com/media/tv/shut-the-fck-up-cenk-uygur-has-nuclear-meltdown-on-piers-morgans-show",
-      "source": "Mediaite",
-      "published_utc": "2026-03-19T02:55:56.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Afroman Prevails in Civil Lawsuit by Ohio Sheriff’s Deputies Who Raided His House",
-      "url": "https://consequence.net/2026/03/afroman-wins-lawsuit-sheriffs-deputies",
-      "source": "Consequence",
-      "published_utc": "2026-03-19T02:53:52.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Red Sox re-negotiated contract with new reliever Danny Coulombe over concerns with physical",
-      "url": "https://nypost.com/2026/03/18/sports/red-sox-re-negotiated-contract-with-new-reliever-danny-coulombe",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2026-03-19T02:53:11.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
     }
   ],
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 722,
-    "dedup_pass1": 719,
+    "collected": 726,
+    "dedup_pass1": 723,
     "dedup_final": 320,
-    "slow_domains": [
-      "www.gorillavsbear.net"
-    ],
+    "slow_domains": [],
     "timeouts": [
       "financialpost.com",
       "news.communitech.ca",
-      "www.cbc.ca",
-      "www.mining.com"
+      "www.cbc.ca"
     ],
     "errors": [
       "alert.weather.gc.ca",
@@ -985,56 +969,56 @@
     "feed_times_sample": [
       {
         "host": "globalnews.ca",
-        "sec": 1.878,
+        "sec": 1.912,
         "kept": 10
       },
       {
-        "host": "toronto.citynews.ca",
-        "sec": 1.421,
-        "kept": 8
-      },
-      {
         "host": "www.labourstart.org",
-        "sec": 1.328,
+        "sec": 1.789,
         "kept": 0
       },
       {
-        "host": "www.cp24.com",
-        "sec": 0.371,
-        "kept": 14
+        "host": "toronto.citynews.ca",
+        "sec": 0.992,
+        "kept": 8
       },
       {
         "host": "www.blogto.com",
-        "sec": 0.322,
+        "sec": 0.459,
         "kept": 0
       },
       {
         "host": "www.mlbtraderumors.com",
-        "sec": 0.291,
+        "sec": 0.318,
+        "kept": 14
+      },
+      {
+        "host": "www.mlb.com",
+        "sec": 0.241,
         "kept": 14
       },
       {
         "host": "www.bls.gov",
-        "sec": 0.252,
+        "sec": 0.218,
         "kept": 0
+      },
+      {
+        "host": "www.cp24.com",
+        "sec": 0.184,
+        "kept": 14
       },
       {
         "host": "www.nhl.com",
-        "sec": 0.189,
+        "sec": 0.111,
         "kept": 0
       },
       {
-        "host": "www.mlb.com",
-        "sec": 0.119,
-        "kept": 14
-      },
-      {
         "host": "www.federalreserve.gov",
-        "sec": 0.106,
+        "sec": 0.062,
         "kept": 14
       }
     ],
-    "elapsed_sec": 299.01,
+    "elapsed_sec": 325.04,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1072,8 +1056,8 @@
       "substack_tagged": 0,
       "sports_team_hits": 7,
       "sports_player_hits": 3,
-      "sports_result_win_hits": 15,
-      "sports_result_loss_hits": 1,
+      "sports_result_win_hits": 14,
+      "sports_result_loss_hits": 2,
       "sports_evening_hits": 0,
       "sports_playoff_hits": 0,
       "sports_focus_team_hits": 10,
