@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Blue Jays' Heineman, A's Kurtz talk Opening Day trade ... of 1-of-1 Kurtz Topps card",
-      "display":"Blue Jays' Heineman, A's Kurtz talk Opening Day trade ... of 1-of-1 Kurtz Topps card",
-      "url":"https://www.mlb.com/bluejays/news/tyler-heineman-pulls-1-of-1-nick-kurtz-topps-card",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"ASIRT not recommending charges against police in death of drug user’s baby",
       "display":"ASIRT not recommending charges against police in death of drug user’s baby",
       "url":"https://globalnews.ca/news/11738948/asirt-not-recommending-charges-against-police-in-death-of-drug-users-baby",
@@ -29,7 +19,17 @@
         "is_landmark":false,
         "has_bitcoin":false
       }
+    },
+    {
+      "text":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
+      "display":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
+      "url":"https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
     }
   ],
-  "generated_utc":"2026-03-20T05:06:19Z"
+  "generated_utc":"2026-03-20T06:05:18Z"
 }
