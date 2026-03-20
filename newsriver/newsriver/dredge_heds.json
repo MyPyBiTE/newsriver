@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Edmonton students submit designs for standalone Stollery Children’s Hospital",
-      "display":"Edmonton students submit designs for standalone Stollery Children’s Hospital",
-      "url":"https://globalnews.ca/news/11738537/edmonton-students-designs-standalone-stollery-childrens-hospital",
+      "text":"Blue Jays' Heineman, A's Kurtz talk Opening Day trade ... of 1-of-1 Kurtz Topps card",
+      "display":"Blue Jays' Heineman, A's Kurtz talk Opening Day trade ... of 1-of-1 Kurtz Topps card",
+      "url":"https://www.mlb.com/bluejays/news/tyler-heineman-pulls-1-of-1-nick-kurtz-topps-card",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"York Regional Police probing shooting at commercial building in Aurora",
+      "display":"York Regional Police probing shooting at commercial building in Aurora",
+      "url":"https://toronto.citynews.ca/2026/03/19/york-regional-police-probing-shooting-at-commercial-building-in-aurora",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"What’s Next In The Abortion Drug Case",
-      "display":"What’s Next In The Abortion Drug Case",
-      "url":"https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Trump ignores wishes of fallen soldiers' families and shares photos of dignified transfer",
-      "display":"Trump ignores wishes of fallen soldiers' families and shares photos of dignified transfer",
-      "url":"https://www.rawstory.com/msn/trump-2676398069",
+      "text":"Warm weather brings melting snow, potholes to Saskatchewan roads",
+      "display":"Warm weather brings melting snow, potholes to Saskatchewan roads",
+      "url":"https://globalnews.ca/news/11738661/warm-weather-melting-snow-potholes-saskatchewan",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-03-20T01:15:06Z"
+  "generated_utc":"2026-03-20T03:38:51Z"
 }
