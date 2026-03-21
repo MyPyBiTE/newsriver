@@ -1,26 +1,13 @@
 {
-  "generated_utc": "2026-03-21T10:38:22.492Z",
-  "itemset_hash": "c257cb8f7ca918cf",
+  "generated_utc": "2026-03-21T11:00:10.345Z",
+  "itemset_hash": "7c0c1520df273426",
   "count": 69,
   "items": [
-    {
-      "title": "Karen Hauer breaks down in tears as she confirms she has quit Strictly following axed rumours - after 14 years as the show's longest female professional dancer",
-      "url": "https://www.dailymail.co.uk/tvshowbiz/article-15666905/Karen-Hauer-breaks-tears-confirms-quit-Strictly-following-axed-rumours-14-years-shows-longest-professional-dancer.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-03-21T10:35:29.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
     {
       "title": "What To Do About A Problem Like Dianne Feinstein?",
       "url": "https://fivethirtyeight.com/videos/what-to-do-about-a-problem-like-dianne-feinstein",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-03-21T10:34:50.952Z",
+      "published_utc": "2026-03-21T10:57:52.243Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -33,7 +20,7 @@
       "title": "Politics Podcast",
       "url": "https://fivethirtyeight.com/tag/politics-podcast",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-03-21T10:34:50.952Z",
+      "published_utc": "2026-03-21T10:57:52.243Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -43,14 +30,18 @@
       "region": "World"
     },
     {
-      "title": "Iran fires ballistic missiles at joint UK-US base on Diego Garcia while Israel launches attacks in Beirut: Live updates",
-      "url": "https://www.dailymail.co.uk/news/article-15663741/Yemens-Houthi-rebels-join-war-Irans-vow-attack-US-ships-Strait-Hormuz-Gulf-battered-Iranian-drones-live-updates.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-03-21T10:34:37.000Z",
+      "title": "At least 14 people killed in fire at South Korean car parts factory",
+      "url": "https://www.theguardian.com/world/2026/mar/21/south-korea-fire-daejeon-car-parts-factory",
+      "source": "World news | The Guardian",
+      "published_utc": "2026-03-21T10:44:53.000Z",
       "effects": {
-        "lightsaber": false,
+        "lightsaber": true,
         "glitch": false,
-        "reasons": []
+        "reasons": [
+          "score≥2.6",
+          "body_count≥3"
+        ],
+        "style": "breaker"
       },
       "category": "General",
       "region": "World"
@@ -59,7 +50,7 @@
       "title": "How Our Presidential Endorsement Tracker Works",
       "url": "https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-03-21T10:34:50.952Z",
+      "published_utc": "2026-03-21T10:57:52.243Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -72,7 +63,7 @@
       "title": "Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
       "url": "https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-03-21T10:34:50.952Z",
+      "published_utc": "2026-03-21T10:57:52.243Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -82,23 +73,23 @@
       "region": "World"
     },
     {
-      "title": "The hidden reason you're always tired, struggling with brain fog and lack of motivation… and how to beat it, by GP and emergency medicine expert DR JOSE CRESPO",
-      "url": "https://www.dailymail.co.uk/health/article-15598757/The-hidden-reason-youre-tired-struggling-brain-fog-lack-motivation-beat-GP-emergency-medicine-expert-DR-JOSE-CRESPO.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-03-21T10:32:37.000Z",
+      "title": "The Pussycat Dolls say not inviting former members on reunion tour was to “protect our peace”",
+      "url": "https://www.nme.com/news/music/the-pussycat-dolls-say-not-inviting-former-members-on-reunion-tour-was-to-protect-our-peace-3935843",
+      "source": "NME",
+      "published_utc": "2026-03-21T10:37:00.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
         "reasons": []
       },
-      "category": "General",
+      "category": "Culture",
       "region": "World"
     },
     {
       "title": "Republicans Amplified Pro-Gun Control Protesters In Tennessee",
       "url": "https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-03-21T10:34:50.953Z",
+      "published_utc": "2026-03-21T10:57:52.244Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -111,7 +102,46 @@
       "title": "What’s Next In The Abortion Drug Case",
       "url": "https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-03-21T10:34:50.953Z",
+      "published_utc": "2026-03-21T10:57:52.244Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Russian drone attack kills two in Ukraine ahead of talks in US, officials say",
+      "url": "https://www.bbc.com/news/articles/crl18nwjzzzo?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2026-03-21T10:34:53.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "How Concerned Are Americans About The Pitfalls Of AI?",
+      "url": "https://fivethirtyeight.com/videos/how-concerned-are-americans-about-the-pitfalls-of-ai",
+      "source": "FiveThirtyEight — Nate Silver",
+      "published_utc": "2026-03-21T10:57:52.244Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Live From New York: Will AI Replace This Podcast?",
+      "url": "https://fivethirtyeight.com/videos/live-from-new-york-will-ai-replace-this-podcast",
+      "source": "FiveThirtyEight — Nate Silver",
+      "published_utc": "2026-03-21T10:57:52.243Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -135,304 +165,6 @@
       },
       "category": "Sports",
       "region": "Canada"
-    },
-    {
-      "title": "How Concerned Are Americans About The Pitfalls Of AI?",
-      "url": "https://fivethirtyeight.com/videos/how-concerned-are-americans-about-the-pitfalls-of-ai",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-03-21T10:34:50.953Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Live From New York: Will AI Replace This Podcast?",
-      "url": "https://fivethirtyeight.com/videos/live-from-new-york-will-ai-replace-this-podcast",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-03-21T10:34:50.952Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Cyberattack on a Car Breathalyzer Firm Leaves Drivers Stuck",
-      "url": "https://www.wired.com/story/security-news-this-week-cyberattack-on-a-car-breathalyzer-firm-leaves-drivers-stuck",
-      "source": "WIRED",
-      "published_utc": "2026-03-21T10:30:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "'I left Sunderland for Newcastle – the dressing rooms difference explained why we'd win'",
-      "url": "https://www.mirror.co.uk/sport/football/news/newcastle-sunderland-premier-league-derby-36894495",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-03-21T10:30:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Iran war triggering British staycation boom as bookings 'up 235%'",
-      "url": "https://www.mirror.co.uk/news/uk-news/iran-war-triggering-british-staycation-36891968",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-03-21T10:30:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "The Metro daily cartoon by Guy Venables",
-      "url": "https://metro.co.uk/2026/03/21/metro-daily-cartoon-guy-venables-208-27572035",
-      "source": "Metro",
-      "published_utc": "2026-03-21T10:30:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Cardiologist smashes five common myths about cholesterol - and why you might be at risk of a heart attack... even if you're slim",
-      "url": "https://www.dailymail.co.uk/health/article-15610615/Cardiologist-smashes-five-common-myths-cholesterol-you-risk-heart-attack-youre-slim.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-03-21T10:29:46.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Meningitis victim is so happy to be alive after nightclub infection left her unable to see or talk - as number of cases rises again",
-      "url": "https://www.dailymail.co.uk/news/article-15666907/Meningitis-victim-happy-alive-nightclub-infection-left-unable-talk-number-cases-rises-again.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-03-21T10:29:26.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Greg James issues health update live from his bath after Comic Relief challenge",
-      "url": "https://www.mirror.co.uk/tv/tv-news/greg-james-issues-health-update-36902906",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-03-21T10:28:26.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "CBB's Lauren Harries reveals secret 'feud' with Vanessa Feltz - claiming she was left 'uneasy' during 'painful' interview with TV host after being pictured with her ex partner on a night out",
-      "url": "https://www.dailymail.co.uk/tv/article-15660819/CBBs-Lauren-Harries-secret-feud-Vanessa-Feltz.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-03-21T10:28:51.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Lily Allen, 40, wows in pink fur lined Chanel coat as she cosies up to her new boyfriend Jonah Freud, 28, after performing her show West End Girl at The London Palladium",
-      "url": "https://www.dailymail.co.uk/tvshowbiz/article-15666871/Lily-Allen-40-Chanel-coat-cosies-new-boyfriend-Jonah-Freud-London-Palladium.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-03-21T10:29:16.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Iran's major nuclear facility hit by missile as conflict rages on",
-      "url": "https://www.mirror.co.uk/news/world-news/breaking-irans-major-nuclear-facility-36902856",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-03-21T10:20:30.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "I was caught in the crossfire of Come Dine With Me's most infamous clash - here's what happened when the cameras stopped rolling after the iconic 'sad little life Jane' speech",
-      "url": "https://www.dailymail.co.uk/tv/article-15657317/come-dine-infamous-episode-happened-camera.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-03-21T10:27:28.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "25 things you didn't know about Moulin Rouge! as iconic Baz Luhrmann musical marks 25th anniversary",
-      "url": "https://www.dailymail.co.uk/tvshowbiz/article-15658339/25-things-you-didnt-know-Moulin-Rouge.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-03-21T10:24:45.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Jim Cramer says to prepare for further stock declines but be open to opportunities",
-      "url": "https://www.cnbc.com/2026/03/20/jim-cramer-says-to-prepare-for-further-stock-declines-but-be-open-to-opportunities.html",
-      "source": "US Top News and Analysis",
-      "published_utc": "2026-03-21T10:19:26.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "Who'll keep the oil flowing? It's the only hope of staving off global economic meltdown. MARK ALMOND reveals who is coming to Trump's aid and who is ignoring his pleas for help",
-      "url": "https://www.dailymail.co.uk/news/article-15666077/oil-global-economic-meltdown-MARK-ALMOND-Trump-aid.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-03-21T10:23:44.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Conquering two Scandi cities in one weekend - including an afternoon in an anarchist commune and swerving 'the world's most disgusting food'",
-      "url": "https://www.dailymail.co.uk/travel/article-15654445/extreme-weekend-trip-Scandinavian-countries-malmo-copenhagen.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-03-21T10:23:13.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Freddy Brazier welcomes baby girl and reveals sweet name tribute to late mum Jade Goody",
-      "url": "https://metro.co.uk/2026/03/21/freddy-brazier-welcomes-baby-girl-reveals-sweet-name-tribute-late-mum-jade-goody-27570740",
-      "source": "Metro",
-      "published_utc": "2026-03-21T10:16:41.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Prince Edward and Sophie make up to £130,000 a year sub-letting stable block on £30million estate where they pay only peppercorn rent",
-      "url": "https://www.dailymail.co.uk/news/article-15666879/Prince-Edward-Sophie-stable-block-Surrey-estate.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-03-21T10:27:54.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Iran targets British territory: Tehran fires ballistic missiles at Diego Garcia military base and warns Starmer is 'putting British lives in danger' after he allows US to expand bombing missions",
-      "url": "https://www.dailymail.co.uk/news/article-15666511/iran-ballistic-missiles-diego-garcia-military-base.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-03-21T10:24:28.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Meningitis cases rise to 34 while queues for vaccinations build up",
-      "url": "https://metro.co.uk/2026/03/21/meningitis-cases-rise-34-queues-vaccinations-build-27571778",
-      "source": "Metro",
-      "published_utc": "2026-03-21T10:14:03.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "'Ageist' nursery rhymes should be confined to HISTORY lessons, woke expert says - as study claims traditional tales like 'Old Mother Hubbard' spread negative views of old people",
-      "url": "https://www.dailymail.co.uk/sciencetech/article-15658039/woke-scientists-cancel-nursery-rhymes-Traditional.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-03-21T10:22:09.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
     },
     {
       "title": "Hegseth Makes Troops Prove “Sincerely Held” Faith in Latest Beard Crackdown",
@@ -461,23 +193,6 @@
       "region": "World"
     },
     {
-      "title": "At least 11 people killed in fire at South Korean car parts factory",
-      "url": "https://www.theguardian.com/world/2026/mar/21/south-korea-fire-daejeon-car-parts-factory",
-      "source": "World news | The Guardian",
-      "published_utc": "2026-03-21T10:03:04.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6",
-          "body_count≥3"
-        ],
-        "style": "breaker"
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Woll looking to finish strong with Maple Leafs",
       "url": "https://globalnews.ca/news/11740454/woll-looking-to-finish-strong-with-maple-leafs",
       "source": ": Toronto",
@@ -494,52 +209,10 @@
       "region": "Canada"
     },
     {
-      "title": "BA passengers fly for 13 hours with a dead body on board",
-      "url": "https://metro.co.uk/2026/03/21/ba-passengers-fly-13-hours-a-dead-body-board-27571704",
-      "source": "Metro",
-      "published_utc": "2026-03-21T10:02:51.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "The Weekend Press: Bad Therapy, Coming to a Screen Near You",
       "url": "https://www.thefp.com/p/the-weekend-press-bad-therapy-coming",
       "source": "The Free Press",
       "published_utc": "2026-03-21T10:02:28.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Martin Lewis says 'demon appliance' is 'really expensive' and bad for energy bills",
-      "url": "https://www.mirror.co.uk/money/martin-lewis-says-demon-appliance-36902699",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-03-21T10:02:14.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "TOWIE's Jordan Brook reveals meningitis diagnosis as he shares update from hospital",
-      "url": "https://www.mirror.co.uk/3am/celebrity-news/breaking-towies-jordan-brook-reveals-36902836",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-03-21T10:01:15.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -607,149 +280,6 @@
       "region": "World"
     },
     {
-      "title": "The First Casualty of Trump’s War in Iran Was the Truth",
-      "url": "https://www.newyorker.com/magazine/2026/03/30/the-first-casualty-of-trumps-war-in-iran-was-the-truth",
-      "source": "News, Politics, Opinion, Commentary, and Analysis",
-      "published_utc": "2026-03-21T10:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "'Jury Duty Presents: Company Retreat' Almost Makes Corporate Culture Seem Fun",
-      "url": "https://www.wired.com/story/jury-duty-presents-company-retreat-almost-makes-corporate-culture-seem-fun",
-      "source": "WIRED",
-      "published_utc": "2026-03-21T10:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "The 19 Best EVs Coming in 2026",
-      "url": "https://www.wired.com/story/the-16-best-evs-coming-in-2026",
-      "source": "WIRED",
-      "published_utc": "2026-03-21T10:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Strictly Come Dancing's Nitro hints at Claudia Winkleman replacement with huge honour",
-      "url": "https://www.mirror.co.uk/3am/celebrity-news/strictly-come-dancings-nitro-hints-36874714",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-03-21T10:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Helen Mirren, 80, popped Champagne after going topless for movie role",
-      "url": "https://www.mirror.co.uk/3am/celebrity-news/helen-mirren-mobland-starstruck-late-36884178",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-03-21T10:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "All the Emmerdale cast returns, exits and new arrivals in 2026",
-      "url": "https://metro.co.uk/2026/03/21/emmerdale-cast-returns-exits-new-arrivals-2026-3-27553493",
-      "source": "Metro",
-      "published_utc": "2026-03-21T10:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Even progression changes can't stop Nintendo Switch 2 from being my preferred way to play WWE 2K26",
-      "url": "https://www.mirror.co.uk/gaming/wwe-2k26-nintendo-switch-2-36899937",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-03-21T10:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "'Underrated' film proves Ryan Gosling is 'greatest actor of this generation'",
-      "url": "https://www.mirror.co.uk/film/underrated-film-proves-ryan-gosling-36888748",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-03-21T10:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "I tested more than 50 functional drinks to see if any of them actually taste nice",
-      "url": "https://metro.co.uk/2026/03/21/tested-50-functional-drinks-ones-buy-avoid-27366775",
-      "source": "Metro",
-      "published_utc": "2026-03-21T10:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Grand National latest odds and potential runners ahead of major announcement",
-      "url": "https://www.mirror.co.uk/sport/horse-racing/grand-national-2026-odds-aintree-36899812",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-03-21T10:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Andoni Iraola clarifies Bournemouth future as he's backed for Man Utd job",
-      "url": "https://www.mirror.co.uk/sport/football/news/andoni-iraola-bournemouth-man-utd-36902749",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-03-21T09:48:12.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Police body cam footage of Justin Timberlake’s DWI arrest released",
       "url": "https://www.nme.com/news/music/police-body-cam-footage-of-justin-timberlakes-dwi-arrest-released-3935817",
       "source": "NME",
@@ -773,32 +303,6 @@
         "reasons": []
       },
       "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Inside Espanyol's La Liga resurgence with new owners as club fight for European places",
-      "url": "https://www.mirror.co.uk/sport/football/news/espanyol-la-liga-europe-qualification-36889475",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-03-21T09:45:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Channel 4's Celebs Go Dating introducing 'biggest shake up' to show ever",
-      "url": "https://www.mirror.co.uk/tv/tv-news/channel-4s-celebs-go-dating-36902806",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-03-21T09:44:31.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
       "region": "World"
     },
     {
@@ -841,16 +345,16 @@
       "region": "World"
     },
     {
-      "title": "Iran fires missiles at UK-US base Diego Garcia after warning ‘British lives are in danger’",
-      "url": "https://metro.co.uk/2026/03/21/iran-fires-missiles-uk-us-base-diego-garcia-warning-british-lives-danger-27571483",
-      "source": "Metro",
-      "published_utc": "2026-03-21T09:30:21.000Z",
+      "title": "MAGA's finally mad that this monster's name is plastered across America. Trump take note",
+      "url": "https://www.rawstory.com/raw-investigates/trump-name",
+      "source": "Raw Story",
+      "published_utc": "2026-03-21T09:30:04.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
         "reasons": []
       },
-      "category": "General",
+      "category": "Labour",
       "region": "World"
     },
     {
@@ -867,10 +371,97 @@
       "region": "World"
     },
     {
-      "title": "MAGA's finally mad that this monster's name is plastered across America. Trump take note",
-      "url": "https://www.rawstory.com/raw-investigates/trump-name",
-      "source": "Raw Story",
-      "published_utc": "2026-03-21T09:30:04.000Z",
+      "title": "Early Ethereum whale rebuilding stack with $19.5M in ETH buys",
+      "url": "https://cointelegraph.com/news/ethereum-whale-thomasg-eth-buys-19-5m",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2026-03-21T09:22:44.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Iran war: What’s happening on day 22 of US-Israel attacks?",
+      "url": "https://www.aljazeera.com/news/2026/3/21/iran-war-what-is-happening-on-day-22-of-us-israel-attacks?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-03-21T09:07:01.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Robert Fox Dies: ‘The Crown’ EP, Judi Dench & Maggie Smith’s Go-To Broadway & West End Producer, Member Of A Stage & Screen Dynasty Was 73",
+      "url": "https://deadline.com/2026/03/robert-fox-dies-the-crown-ep-judi-dench-maggie-smiths-go-to-broadway-west-end-producer-member-of-a-stage-screen-dynasty-was-73-1236762085",
+      "source": "Deadline",
+      "published_utc": "2026-03-21T09:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Hagai Levi On His “Contemporary” Holocaust Series ‘Etty’ & Why The International Boycott Of The Israeli Industry Should Be “Much More Selective”",
+      "url": "https://deadline.com/2026/03/hagai-levi-on-holocaust-series-etty-boycott-israel-october-7-1236761360",
+      "source": "Deadline",
+      "published_utc": "2026-03-21T09:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Arco, a striking, soul-stirring sci-fi about lonely kids in 2075",
+      "url": "https://www.dazeddigital.com/film-tv/article/69952/1/arco-a-visually-striking-soul-stirring-science-fantasy-ugo-bienvenu-interview",
+      "source": "Dazed",
+      "published_utc": "2026-03-21T09:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Tributes pour out after ‘Buffy the Vampire Slayer’ actor Nicholas Brendon dies at 54",
+      "url": "https://www.nme.com/news/tv/tributes-pour-out-after-buffy-the-vampire-slayer-actor-nicholas-brendon-dies-at-54-3935813",
+      "source": "NME",
+      "published_utc": "2026-03-21T08:59:58.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "How Point Five Creations’ Award-Winning Feature ‘Another World’ Is Pushing Hong Kong Animation Into New Realms",
+      "url": "https://deadline.com/2026/03/another-world-gkids-goodfellas-hong-kong-animation-filmart-1236760089",
+      "source": "Deadline",
+      "published_utc": "2026-03-21T08:51:46.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -880,10 +471,10 @@
       "region": "World"
     },
     {
-      "title": "How BYD Got EV Chargers to Work Almost as Fast as Gas Pumps",
-      "url": "https://www.wired.com/story/how-byds-ev-charger-got-even-faster-and-it-might-not-matter-as-much-as-you-think",
-      "source": "WIRED",
-      "published_utc": "2026-03-21T09:30:00.000Z",
+      "title": "Iran says it will allow Japanese ships to transit the Strait of Hormuz",
+      "url": "https://www.aljazeera.com/news/2026/3/21/iran-says-it-will-allow-japanese-ships-to-transit-the-strait-of-hormuz?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-03-21T08:21:20.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -893,10 +484,10 @@
       "region": "World"
     },
     {
-      "title": "This Is How Often Your Brain Opens to Distractions (It’s More Than You Think)",
-      "url": "https://www.vice.com/en/article/this-is-how-often-your-brain-opens-to-distractions-its-more-than-you-think",
-      "source": "English - VICE",
-      "published_utc": "2026-03-21T09:30:00.000Z",
+      "title": "Trump hints at ‘winding down’ Iran war as US deploys more troops to region",
+      "url": "https://www.aljazeera.com/news/2026/3/21/trump-hints-at-winding-down-iran-war-as-us-deploys-more-troops-to-region?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-03-21T08:01:15.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -906,10 +497,10 @@
       "region": "World"
     },
     {
-      "title": "Outrage after Prince Edward sublets stables ‘for £130,000 a year’",
-      "url": "https://metro.co.uk/2026/03/21/outrage-prince-edward-sublets-stables-for-130-000-a-year-27570775",
-      "source": "Metro",
-      "published_utc": "2026-03-21T09:27:41.000Z",
+      "title": "Tini Stoessel's Not So 'Tini' Hot Shots To Celebrate Her 29th Birthday!",
+      "url": "https://www.tmz.com/2026/03/21/tini-stoessel-birthday-hot-shots",
+      "source": "TMZ.com",
+      "published_utc": "2026-03-21T08:00:35.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -919,10 +510,437 @@
       "region": "World"
     },
     {
-      "title": "Justin Timberlake’s 2024 drink-driving arrest footage released by police",
-      "url": "https://metro.co.uk/2026/03/21/justin-timberlakes-2024-drink-driving-arrest-footage-released-police-27570450",
-      "source": "Metro",
-      "published_utc": "2026-03-21T09:24:37.000Z",
+      "title": "Michael Jackson’s Estate Fires Back at Paris Jackson After She Slams Biopic",
+      "url": "https://www.tmz.com/2026/03/21/michael-jackson-estate-slams-paris-after-biopic-complaints",
+      "source": "TMZ.com",
+      "published_utc": "2026-03-21T08:00:03.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Chase Infiniti, Ann Dowd Talk ‘The Testaments’ as the Show About ‘Awakening and Rebellion Amongst Younger Women in Gilead’ Opens Series Mania",
+      "url": "https://variety.com/2026/tv/global/chase-infiniti-ann-dowd-the-testaments-series-mania-1236695725",
+      "source": "Variety",
+      "published_utc": "2026-03-21T07:35:26.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "'Real Housewives of Orange County' Cast Hot Shots Guess Who!",
+      "url": "https://www.tmz.com/2026/03/21/real-housewives-orange-county-guess-who",
+      "source": "TMZ.com",
+      "published_utc": "2026-03-21T07:45:11.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Chuck Norris' Legendary Jiu-Jitsu Coach Rigan Machado, Rickson Gracie Talk Legacy",
+      "url": "https://www.tmz.com/2026/03/21/chuck-norris-jiu-jitsu-professor-on-his-legacy",
+      "source": "TMZ.com",
+      "published_utc": "2026-03-21T07:30:45.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Karl-Anthony Towns listens to recovering father’s advice and suits up for win",
+      "url": "https://nypost.com/2026/03/21/sports/karl-anthony-towns-listens-to-fathers-advice-and-suits-up-for-win",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-03-21T07:27:05.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Stars and Scars -- You Be the Judge",
+      "url": "https://www.tmz.com/2026/03/21/polls-you-be-the-judge",
+      "source": "TMZ.com",
+      "published_utc": "2026-03-21T07:25:53.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Ultimate Real Housewives of Orange County Shopping Guide for 20th Anniversary",
+      "url": "https://www.tmz.com/2026/03/21/real-housewives-of-orange-county-20th-anniversary-shopping-guide",
+      "source": "TMZ.com",
+      "published_utc": "2026-03-21T07:05:29.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "A New Year, a New War",
+      "url": "https://www.motherjones.com/politics/2026/03/iran-war-trump-nowruz-christian-zionists-lebanon",
+      "source": "Mother Jones",
+      "published_utc": "2026-03-21T07:01:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Zendaya What's The Big Frigin' Difference?!",
+      "url": "https://www.tmz.com/2026/03/21/zendaya-whats-the-big-frigin-difference",
+      "source": "TMZ.com",
+      "published_utc": "2026-03-21T07:01:31.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Open Thread",
+      "url": "https://reason.com/volokh/2026/03/21/open-thread-146",
+      "source": "Reason.com",
+      "published_utc": "2026-03-21T07:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "BTS comeback concert: Seoul gets ready to host 260,000 fans",
+      "url": "https://www.bbc.com/news/articles/cge0dyjwezgo?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2026-03-21T06:59:23.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Nets left frustrated after failing again to end long skid vs. Knicks: ‘wanted that s–t so f–king bad’",
+      "url": "https://nypost.com/2026/03/21/sports/nets-left-frustrated-after-failing-again-to-end-long-skid-vs-knicks",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-03-21T06:20:23.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Hong Kong FilMart 2026: Six Takeaways From Asia’s Buzzy Film and Entertainment Content Marketplace",
+      "url": "https://variety.com/2026/film/markets-festivals/hong-kong-filmart-2026-takeaways-1236695795",
+      "source": "Film",
+      "published_utc": "2026-03-21T06:02:02.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Watch: Thick smoke billows from South Korea car parts plant in deadly fire",
+      "url": "https://www.bbc.com/news/videos/c87wg74wlgyo?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2026-03-21T05:49:15.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Xavier Booker gives UCLA basketball big lift with Tyler Bilodeau out",
+      "url": "https://nypost.com/2026/03/21/sports/ucla-basketballs-xavier-booker-comes-up-big-as-injury-replacement",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-03-21T05:09:26.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Journalist alarmed by ominous Trump remark hidden by Pearl Harbor joke",
+      "url": "https://www.rawstory.com/iran-2676465593",
+      "source": "Raw Story",
+      "published_utc": "2026-03-21T05:00:02.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Padres To Select Walker Buehler",
+      "url": "https://www.mlbtraderumors.com/2026/03/padres-to-select-walker-buehler.html",
+      "source": "MLB Trade Rumors",
+      "published_utc": "2026-03-21T04:58:03.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "St. John’s gets hot from 3-point land in positive March Madness sign",
+      "url": "https://nypost.com/2026/03/21/sports/st-johns-gets-hot-from-3-point-land-in-positive-march-madness-sign",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-03-21T04:50:27.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Buffy the Vampire Slayer actor Nicholas Brendon dies aged 54",
+      "url": "https://www.bbc.com/news/articles/ckg9wgj9y5no?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2026-03-21T04:42:46.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "breaker"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Michael Kay calls out Yankees fans criticizing Aaron Judge’s WBC showing: ‘Those are the people I don’t get’",
+      "url": "https://nypost.com/2026/03/21/sports/michael-kay-calls-out-yankees-fans-criticizing-aaron-judges-wbc-showing",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-03-21T04:41:52.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Hofstra fans take pride in team’s hard-fought March Madness effort: ‘They left it all out there’",
+      "url": "https://nypost.com/2026/03/21/sports/hofstra-fans-take-pride-in-teams-hard-fought-march-madness-effort",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-03-21T04:35:18.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "300 million people celebrate Nowruz under a cloud of war",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/3/21/300-million-people-celebrate-nowruz-under-a-cloud-of-war?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-03-21T03:58:08.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "St. John’s starts March Madness on a picture perfect note by keeping to a tenacious identity",
+      "url": "https://nypost.com/2026/03/21/sports/st-johns-starts-march-madness-on-a-picture-perfect-note",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-03-21T04:02:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "James Hagens watch begins as Bruins brace for top prospect’s potential arrival",
+      "url": "https://www.boston.com/sports/boston-bruins/2026/03/20/james-hagens-bruins-nhl-hockey-prospects-hockey-east-college",
+      "source": "Boston Bruins: News, commentary, scores, schedule, and stats",
+      "published_utc": "2026-03-21T03:46:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Latest On A’s Extension Talks With Nick Kurtz",
+      "url": "https://www.mlbtraderumors.com/2026/03/latest-on-as-extension-talks-with-nick-kurtz.html",
+      "source": "MLB Trade Rumors",
+      "published_utc": "2026-03-21T03:38:59.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Dodgers preview opening day lineup, mull final roster spot",
+      "url": "https://nypost.com/2026/03/20/sports/dodgers-yoshinobu-yamamoto-looks-in-midseason-form-in-opening-day-tune-up",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-03-21T03:38:54.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "JAMES CARTER: Railway Safety Act Betrays America First Agenda",
+      "url": "https://dailycaller.com/2026/03/20/opinion-railway-safety-act-betrays-america-first-agenda-james-carter",
+      "source": "The Daily Caller",
+      "published_utc": "2026-03-21T03:38:10.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "St. John’s new habit is coming at perfect time of year — and it’s right way to live in March Madness",
+      "url": "https://nypost.com/2026/03/20/sports/st-johns-new-habit-is-coming-at-the-perfect-time-of-year",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-03-21T03:37:47.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Aid flotilla for Cuba sets sail from Mexico",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/3/21/aid-flotilla-for-cuba-sets-sail-from-mexico?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-03-21T03:31:10.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Dems quietly weighing move to oust Schumer as frustrations boil: report",
+      "url": "https://www.rawstory.com/chuck-schumer-2676486920",
+      "source": "Raw Story",
+      "published_utc": "2026-03-21T03:28:42.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Warriors lose Kristaps Porzingis, commit 26 TOs in blowout loss to Pistons",
+      "url": "https://nypost.com/2026/03/20/sports/warriors-lose-kristaps-porzingis-commit-26-tos-vs-pistons-in-blowout-loss",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-03-21T03:19:33.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "New York Waiter Asks Trump’s U.N. Ambassador, ‘How Is a War… Helping Me in Any Way?’",
+      "url": "https://www.mediaite.com/media/tv/new-york-waiter-asks-trumps-u-n-ambassador-how-is-a-war-helping-me-in-any-way",
+      "source": "Mediaite",
+      "published_utc": "2026-03-21T03:10:28.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -935,15 +953,16 @@
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 987,
-    "dedup_pass1": 973,
+    "collected": 760,
+    "dedup_pass1": 749,
     "dedup_final": 320,
-    "slow_domains": [],
+    "slow_domains": [
+      "www.labourstart.org"
+    ],
     "timeouts": [
       "japantoday.com",
       "news.communitech.ca",
-      "www.cbc.ca",
-      "www.showbiz411.com"
+      "www.cbc.ca"
     ],
     "errors": [
       "alert.weather.gc.ca",
@@ -963,57 +982,57 @@
     ],
     "feed_times_sample": [
       {
-        "host": "toronto.citynews.ca",
-        "sec": 1.599,
-        "kept": 8
-      },
-      {
-        "host": "globalnews.ca",
-        "sec": 1.295,
-        "kept": 10
-      },
-      {
         "host": "www.labourstart.org",
-        "sec": 1.259,
+        "sec": 5.098,
         "kept": 0
       },
       {
+        "host": "globalnews.ca",
+        "sec": 1.133,
+        "kept": 10
+      },
+      {
+        "host": "toronto.citynews.ca",
+        "sec": 0.96,
+        "kept": 8
+      },
+      {
         "host": "www.blogto.com",
-        "sec": 0.438,
+        "sec": 0.386,
         "kept": 0
       },
       {
         "host": "www.mlbtraderumors.com",
-        "sec": 0.343,
+        "sec": 0.331,
         "kept": 14
       },
       {
         "host": "www.bls.gov",
-        "sec": 0.217,
+        "sec": 0.291,
         "kept": 0
       },
       {
         "host": "www.cp24.com",
-        "sec": 0.151,
+        "sec": 0.167,
         "kept": 14
       },
       {
         "host": "www.nhl.com",
-        "sec": 0.107,
+        "sec": 0.129,
         "kept": 0
       },
       {
-        "host": "www.federalreserve.gov",
-        "sec": 0.072,
+        "host": "www.mlb.com",
+        "sec": 0.121,
         "kept": 14
       },
       {
-        "host": "www.mlb.com",
-        "sec": 0.058,
+        "host": "www.federalreserve.gov",
+        "sec": 0.065,
         "kept": 14
       }
     ],
-    "elapsed_sec": 318.67,
+    "elapsed_sec": 291.83,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1039,7 +1058,7 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 26,
+      "ps_fatal_hits": 23,
       "ps_injury_hits": 0,
       "market_btc_hits": 0,
       "market_index_hits": 0,
@@ -1051,8 +1070,8 @@
       "substack_tagged": 0,
       "sports_team_hits": 8,
       "sports_player_hits": 4,
-      "sports_result_win_hits": 29,
-      "sports_result_loss_hits": 1,
+      "sports_result_win_hits": 24,
+      "sports_result_loss_hits": 2,
       "sports_evening_hits": 0,
       "sports_playoff_hits": 0,
       "sports_focus_team_hits": 11,
@@ -1066,12 +1085,12 @@
       "hype_ceasefire": 0,
       "reject_hits": 0,
       "obit_hits": 9,
-      "major_figure_hits": 1,
-      "business_am_hits": 58
+      "major_figure_hits": 0,
+      "business_am_hits": 54
     },
     "sanity_stats": {
-      "link_verification_fail": 16,
-      "soft_404_drops": 63,
+      "link_verification_fail": 25,
+      "soft_404_drops": 21,
       "max_age_drops": 0,
       "min_age_drops": 0,
       "market_sanity_drops": 2,
