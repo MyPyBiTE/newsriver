@@ -1,6 +1,16 @@
 {
   "items":[
     {
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
       "text":"Blue Jays Release Connor Seabold, Option Lazaro Estrada",
       "display":"Blue Jays Release Connor Seabold, Option Lazaro Estrada",
       "url":"https://www.mlbtraderumors.com/2026/03/blue-jays-release-connor-seabold-option-lazaro-estrada.html",
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Jets lose to Crosby and the Penguins 5-4 in shootout",
-      "display":"Jets lose to Crosby and the Penguins 5-4 in shootout",
-      "url":"https://globalnews.ca/news/11740888/penguins-beat-jets-in-shootout",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Man stabbed near Rexdale area: Toronto police",
-      "display":"Man stabbed near Rexdale area: Toronto police",
-      "url":"https://toronto.citynews.ca/2026/03/21/man-stabbed-near-rexdale-area-toronto-police",
+      "text":"Canadians’ Easter meal to cost more this year as beef prices keep climbing",
+      "display":"Canadians’ Easter meal to cost more this year as beef prices keep climbing",
+      "url":"https://globalnews.ca/news/11740791/easter-beef-food-prices",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-03-21T21:16:06Z"
+  "generated_utc":"2026-03-21T21:44:26Z"
 }
