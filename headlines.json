@@ -1,13 +1,13 @@
 {
-  "generated_utc": "2026-03-21T22:51:45.324Z",
-  "itemset_hash": "c20fddb69821ed80",
+  "generated_utc": "2026-03-21T23:07:02.953Z",
+  "itemset_hash": "8f4c8c323e48be31",
   "count": 69,
   "items": [
     {
       "title": "What To Do About A Problem Like Dianne Feinstein?",
       "url": "https://fivethirtyeight.com/videos/what-to-do-about-a-problem-like-dianne-feinstein",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-03-21T22:48:25.240Z",
+      "published_utc": "2026-03-21T23:03:28.980Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -20,7 +20,7 @@
       "title": "Politics Podcast",
       "url": "https://fivethirtyeight.com/tag/politics-podcast",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-03-21T22:48:25.240Z",
+      "published_utc": "2026-03-21T23:03:28.980Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -30,23 +30,26 @@
       "region": "World"
     },
     {
-      "title": "Home Office 'try to block new security for Prince Harry and Meghan because they fear taxpayer reaction to footing the bill'",
-      "url": "https://www.dailymail.co.uk/news/article-15667313/Home-Office-security-Prince-Harry-Meghan-taxpayer-reaction.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-03-21T22:47:51.000Z",
+      "title": "Yankees are not only misspending money, but wasting talent with outfield decisions",
+      "url": "https://nypost.com/2026/03/21/sports/yankees-misspending-money-and-wasting-talent-with-outfield-decisions",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-03-21T23:02:52.000Z",
       "effects": {
-        "lightsaber": false,
+        "lightsaber": true,
         "glitch": false,
-        "reasons": []
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
       },
-      "category": "General",
-      "region": "World"
+      "category": "Sports",
+      "region": "Canada"
     },
     {
       "title": "How Our Presidential Endorsement Tracker Works",
       "url": "https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-03-21T22:48:25.241Z",
+      "published_utc": "2026-03-21T23:03:28.981Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -59,7 +62,7 @@
       "title": "Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
       "url": "https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-03-21T22:48:25.241Z",
+      "published_utc": "2026-03-21T23:03:28.981Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -69,27 +72,26 @@
       "region": "World"
     },
     {
-      "title": "Ukraine-Russia war latest: Four killed in Russian drone attacks as thousands left without power",
-      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-putin-casualties-strikes-today-b2943068.html",
-      "source": "The Independent News",
-      "published_utc": "2026-03-21T22:46:14.000Z",
+      "title": "Nuclear in the Spotlight amid Oil, Gas Crunch",
+      "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Nuclear-in-the-Spotlight-amid-Oil-Gas-Crunch.html",
+      "source": "Oilprice.com",
+      "published_utc": "2026-03-21T23:00:00.000Z",
       "effects": {
         "lightsaber": true,
         "glitch": false,
         "reasons": [
-          "score≥2.6",
-          "body_count≥3"
+          "score≥2.6"
         ],
-        "style": "breaker"
+        "style": "lightsaber"
       },
-      "category": "General",
-      "region": "World"
+      "category": "Energy",
+      "region": "Canada"
     },
     {
       "title": "Republicans Amplified Pro-Gun Control Protesters In Tennessee",
       "url": "https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-03-21T22:48:25.241Z",
+      "published_utc": "2026-03-21T23:03:28.981Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -102,7 +104,7 @@
       "title": "What’s Next In The Abortion Drug Case",
       "url": "https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-03-21T22:48:25.241Z",
+      "published_utc": "2026-03-21T23:03:28.981Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -110,6 +112,119 @@
       },
       "category": "General",
       "region": "World"
+    },
+    {
+      "title": "Fréchette and Drainville face off in first CAQ leadership debate",
+      "url": "https://globalnews.ca/news/11740923/caq-leadership-debate",
+      "source": "globalnews.ca",
+      "published_utc": "2026-03-21T22:57:22.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "How Concerned Are Americans About The Pitfalls Of AI?",
+      "url": "https://fivethirtyeight.com/videos/how-concerned-are-americans-about-the-pitfalls-of-ai",
+      "source": "FiveThirtyEight — Nate Silver",
+      "published_utc": "2026-03-21T23:03:28.981Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Live From New York: Will AI Replace This Podcast?",
+      "url": "https://fivethirtyeight.com/videos/live-from-new-york-will-ai-replace-this-podcast",
+      "source": "FiveThirtyEight — Nate Silver",
+      "published_utc": "2026-03-21T23:03:28.981Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "DAVID BLACKMON: Don’t Let Newsom’s Butterfly Bridge To Nowhere Kill Effective Animal Conservation",
+      "url": "https://dailycaller.com/2026/03/21/opinion-dont-let-newsoms-butterfly-bridge-to-nowhere-kill-effective-animal-conservation-david-blackmon",
+      "source": "The Daily Caller",
+      "published_utc": "2026-03-21T22:56:01.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Sister pleads for answers more than 2 years after Toronto man’s disappearance",
+      "url": "https://globalnews.ca/news/11740878/sister-answers-toronto-man-disappearance",
+      "source": ": Toronto",
+      "published_utc": "2026-03-21T22:52:44.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Local",
+      "region": "Canada"
+    },
+    {
+      "title": "Barry Keoghan Says the Online ‘Abuse of How I Look’ Is So Bad He No Longer Wants to ‘Go Outside’: ‘It’s Becoming a Problem’",
+      "url": "https://variety.com/2026/film/news/barry-keoghan-online-hate-appearance-anxiety-1236696134",
+      "source": "Film",
+      "published_utc": "2026-03-21T22:51:19.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Italian Football Star Jorginho Frello Calls Out Chappell Roan for Allegedly Leaving His Daughter in Tears",
+      "url": "https://consequence.net/2026/03/chappell-roan-jorginho-daughter",
+      "source": "Consequence",
+      "published_utc": "2026-03-21T22:50:40.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Elon Musk Found Liable for Misleading Twitter Shareholders With Tweet During $44 Billion Acquisition",
+      "url": "https://www.thewrap.com/media-platforms/politics/elon-musk-liable-misleading-twitter-shareholders-tweet",
+      "source": "TheWrap",
+      "published_utc": "2026-03-21T22:49:05.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "General",
+      "region": "Canada"
     },
     {
       "title": "Trump Threatens to Send ICE to Airports to Ease TSA Security Delays",
@@ -125,32 +240,6 @@
         "style": "glitch"
       },
       "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "How Concerned Are Americans About The Pitfalls Of AI?",
-      "url": "https://fivethirtyeight.com/videos/how-concerned-are-americans-about-the-pitfalls-of-ai",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-03-21T22:48:25.241Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Live From New York: Will AI Replace This Podcast?",
-      "url": "https://fivethirtyeight.com/videos/live-from-new-york-will-ai-replace-this-podcast",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-03-21T22:48:25.240Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
       "region": "World"
     },
     {
@@ -218,32 +307,6 @@
       "region": "World"
     },
     {
-      "title": "Nigel Farage blasts council that offered staff counselling over his visit to their city: 'These are pathetic, weak people who don't understand democracy. They should all be sacked'",
-      "url": "https://www.dailymail.co.uk/news/article-15667963/Nigel-Farage-blasts-council-staff-counselling-pathetic-weak-people-democracy-sacked.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-03-21T22:39:29.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Hundreds of dogs and cats rescued in massive LA County animal welfare operation",
-      "url": "https://www.independent.co.uk/news/world/americas/california-dog-cat-rescue-welfare-los-angeles-county-b2943006.html",
-      "source": "The Independent News",
-      "published_utc": "2026-03-21T22:39:13.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "3 roster questions still facing Dodgers after ‘boring’ spring camp",
       "url": "https://nypost.com/2026/03/21/sports/dodgers-face-3-questions-ahead-of-mlb-opening-day",
       "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
@@ -290,19 +353,6 @@
       },
       "category": "Sports",
       "region": "Canada"
-    },
-    {
-      "title": "G7 demands Iran halts all attacks after Tehran launches missile barrages at Israeli nuclear site and Diego Garcia - while energy crisis deepens: Live updates",
-      "url": "https://www.dailymail.co.uk/news/article-15663741/Yemens-Houthi-rebels-join-war-Irans-vow-attack-US-ships-Strait-Hormuz-Gulf-battered-Iranian-drones-live-updates.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-03-21T22:35:54.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
     },
     {
       "title": "Olivia Rodrigo says “experimental” new album is full of “sad love songs”",
@@ -376,19 +426,6 @@
       "region": "World"
     },
     {
-      "title": "High streets set for £319 million investment and boost to playgrounds",
-      "url": "https://www.mirror.co.uk/news/politics/high-streets-set-319-million-36903179",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-03-21T22:30:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Warriors’ Steph Curry will return to practice in ‘coming days’",
       "url": "https://nypost.com/2026/03/21/sports/injured-steph-curry-will-return-to-practice-in-coming-days-continues-to-make-good-progress",
       "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
@@ -437,64 +474,6 @@
       "region": "World"
     },
     {
-      "title": "Iran-US war latest: Missiles fired at UK’s Diego Garcia base as Tehran warns new tactics will leave US ‘dumbfounded’",
-      "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-diego-garcia-trump-oil-strait-of-hormuz-b2943101.html",
-      "source": "The Independent News",
-      "published_utc": "2026-03-21T22:21:01.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Zendaya wears gold ring as she and Tom Holland look loved up on first sighting together since wedding rumors",
-      "url": "https://www.dailymail.co.uk/tvshowbiz/article-15667511/Zendaya-Tom-Holland-spotted-wedding-rumors.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-03-21T22:20:35.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "BBC Gladiators halted as Bradley Walsh ambushed by Fury live on air",
-      "url": "https://www.mirror.co.uk/tv/tv-news/bbc-gladiators-halted-bradley-walsh-36904568",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-03-21T22:20:23.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "SNL UK viewers spot same issue minutes into broadcast and fans are divided",
-      "url": "https://www.mirror.co.uk/tv/tv-news/snl-uk-viewers-say-same-36904455",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-03-21T22:20:06.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
       "title": "‘Harry Potter’ Series Star Paapa Essiedu Says He’s Faced Death Threats Over Casting As Snape",
       "url": "https://deadline.com/2026/03/harry-potter-paapa-essiedu-hbo-casting-backlash-1236762381",
       "source": "Deadline",
@@ -508,58 +487,16 @@
       "region": "World"
     },
     {
-      "title": "Arsenal goalkeeper for Carabao Cup final revealed after David Raya theory",
-      "url": "https://www.mirror.co.uk/sport/football/news/arsenal-man-city-kepa-raya-36904569",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-03-21T22:18:47.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Minecraft World Headed To London’s Chessington World In 2027",
       "url": "https://deadline.com/2026/03/minecraft-world-london-chessington-world-2027-1236762382",
       "source": "Deadline",
       "published_utc": "2026-03-21T22:18:38.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "HSTikkyTokky's secret family EXPOSED: Privately educated. High-achieving and charitable. And with brilliant futures ahead. As we expose lies and humiliation, the savage truth that explains SO much. Read special investigation only here",
-      "url": "https://www.dailymail.co.uk/news/article-15665951/HSTikkyTokkys-secret-family-EXPOSED-Privately-educated-High-achieving-charitable-brilliant-futures-ahead-expose-lies-humiliation-savage-truth-explains-Read-special-investigation-here.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-03-21T22:15:54.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Brooks Nader ready to make a splash as new Pamela Anderson in upcoming Baywatch remake - the only catch is... she can't swim",
-      "url": "https://www.dailymail.co.uk/tvshowbiz/article-15667865/Brooks-Nader-Pamela-Anderson-upcoming-Baywatch.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-03-21T22:15:28.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
       "region": "World"
     },
     {
@@ -576,62 +513,10 @@
       "region": "World"
     },
     {
-      "title": "The Imperial 'Woke' Museum didn't want to display my war medal collection - at least there's still one place that values duty, bravery and sacrifice: LORD ASHCROFT",
-      "url": "https://www.dailymail.co.uk/debate/article-15667747/Imperial-Woke-Museum-display-war-medal-collection-place-values-duty-bravery-sacrifice-LORD-ASHCROFT.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-03-21T22:14:41.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Sleeping pill prescriptions for children hit record high as more than a million under-18s given chemical help to get through the night",
-      "url": "https://www.dailymail.co.uk/news/article-15667853/Sleeping-pill-prescriptions-children-hit-record-high.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-03-21T22:14:48.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Trump administration at crossroads in US-Israel war with Iran",
       "url": "https://www.bbc.com/news/articles/clyxv87zwwpo?at_campaign=rss&at_medium=RSS",
       "source": "BBC News",
       "published_utc": "2026-03-21T22:12:04.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Fergie's plot to clone the Queen's corgis for reality TV: Just when you thought ex-Duchess couldn't sink any lower, we reveal the extraordinary plan to sell genetic replicas of the monarch's beloved pets",
-      "url": "https://www.dailymail.co.uk/news/article-15667943/Fergies-plot-clone-Queens-corgis-reality-TV-Just-you-thought-ex-Duchess-sink-lower-reveal-extraordinary-plan-sell-genetic-replicas-monarchs-beloved-pets.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-03-21T22:12:33.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "No10 told to hand over private messages on WhatsApp groups as investigation into Mandelson's appointment as US ambassador deepens",
-      "url": "https://www.dailymail.co.uk/news/article-15667933/No10-told-hand-private-messages-WhatsApp-groups-investigation-Mandelsons-appointment-US-ambassador-deepens.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-03-21T22:10:15.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -683,35 +568,6 @@
       "region": "Canada"
     },
     {
-      "title": "Starmer is so in hock to his loony Left MPs that their new idol Zack Polanski is effectively running the country: ROBERT JENRICK",
-      "url": "https://www.dailymail.co.uk/debate/article-15667811/Starmer-Left-MPs-new-idol-Zack-Polanski-running-country-ROBERT-JENRICK.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-03-21T22:07:16.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Robert Mueller dies aged 81: Donald Trump fumes 'I'm glad he's dead' as he launches scathing attack on former FBI director",
-      "url": "https://www.dailymail.co.uk/news/article-15667571/robert-mueller-dead-fbi-director.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-03-21T22:04:35.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "breaker"
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "State of emergency declared as Iranian missile hits Arad in southern Israel",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/3/21/state-of-emergency-declared-as-iranian-missile-hits-arad-in-southern-israel?traffic_source=rss",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
@@ -722,19 +578,6 @@
         "reasons": []
       },
       "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Meningitis B vaccine should be given to all teenagers, infectious diseases expert claims",
-      "url": "https://www.dailymail.co.uk/health/article-15668077/Meningitis-B-vaccine-teenagers-infectious-diseases-expert.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-03-21T22:01:58.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
       "region": "World"
     },
     {
@@ -780,32 +623,6 @@
       "region": "World"
     },
     {
-      "title": "When is Ronnie O'Sullivan playing in World Open snooker final? First and second session times",
-      "url": "https://www.mirror.co.uk/sport/other-sports/snooker/ronnie-osullivan-world-open-final-36903098",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-03-21T22:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Horror as 'mass casualties' reported at wedding venue after 'floor collapses'",
-      "url": "https://www.mirror.co.uk/news/us-news/mass-casualty-incident-declared-after-36904565",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-03-21T21:58:17.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Knicks’ wins against bottom-feeders shouldn’t mask growing concerns",
       "url": "https://nypost.com/2026/03/21/sports/knicks-wins-against-bottom-feeders-shouldnt-mask-growing-concerns",
       "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
@@ -820,19 +637,6 @@
       },
       "category": "Sports",
       "region": "Canada"
-    },
-    {
-      "title": "Detained immigrant children still face concerning conditions at Texas facility, lawyers say",
-      "url": "https://www.independent.co.uk/news/children-texas-trump-minnesota-flores-b2943262.html",
-      "source": "The Independent News",
-      "published_utc": "2026-03-21T21:53:51.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
     },
     {
       "title": "Chappell Roan Accused of Making Soccer Star Jorginho's Daughter Cry",
@@ -877,22 +681,6 @@
       "region": "World"
     },
     {
-      "title": "‘Harry Potter’ Series Star Paapa Essiedu Says He’s Received Death Threats Over Snape Casting: ‘I’ve Been Told, “Quit or I’ll Murder You”’",
-      "url": "https://variety.com/2026/tv/global/harry-potter-snape-paapa-essiedu-death-threats-1236696077",
-      "source": "Variety",
-      "published_utc": "2026-03-21T21:47:54.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "‘The Oligarch And The Art Dealer’ Director On Billion Dollar Story Of Intrigue, With Trump-Epstein Subplot – CPH:DOX",
       "url": "https://deadline.com/2026/03/the-oligarch-and-the-art-dealer-interview-andreas-dalsgaard-1236762362",
       "source": "Deadline",
@@ -903,19 +691,6 @@
         "reasons": []
       },
       "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Trump’s White House ballroom architect has ‘totally baffled’ colleagues by taking on the project, report says",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-white-house-ballroom-architect-b2943201.html",
-      "source": "The Independent News",
-      "published_utc": "2026-03-21T21:45:16.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
       "region": "World"
     },
     {
@@ -967,10 +742,42 @@
       "region": "Canada"
     },
     {
-      "title": "Six reasons why Liam Rosenior is under pressure at Chelsea",
-      "url": "https://www.telegraph.co.uk/football/2026/03/21/everton-vs-chelsea-live-score-latest-premier-league-updates",
-      "source": "www.telegraph.co.uk for the latest news from the UK and around the world.",
-      "published_utc": "2026-03-21T21:40:22.000Z",
+      "title": "Jamie Blanks, Director of ‘Urban Legend’ and ‘Valentine’ Slashers, Dies at 54",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/jamie-blanks-dead-urban-legend-valentine-director-1236543639",
+      "source": "The Hollywood Reporter",
+      "published_utc": "2026-03-21T21:40:01.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "breaker"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Target these bounce-back candidates for your fantasy baseball outfield",
+      "url": "https://nypost.com/2026/03/21/sports/target-bounce-back-candidates-for-your-fantasy-baseball-outfield",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-03-21T21:39:23.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "US says it has crippled Iranian threat in Strait of Hormuz",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/3/21/us-says-it-has-crippled-iranian-threat-in-strait-of-hormuz?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-03-21T21:37:48.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -978,13 +785,223 @@
       },
       "category": "General",
       "region": "World"
+    },
+    {
+      "title": "Olivia Ponton cheers on Joe Burrow at Fanatics Flag Football Classic",
+      "url": "https://nypost.com/2026/03/21/sports/olivia-ponton-cheers-on-joe-burrow-at-fanatics-flag-football-classic",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-03-21T21:35:11.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "Attorney Who Helped Trump Navigate the Mueller Investigation Blasts President as a ‘Demented Narcissist’",
+      "url": "https://www.mediaite.com/media/news/attorney-who-helped-trump-navigate-the-mueller-investigation-blasts-president-as-a-demented-narcissist",
+      "source": "Mediaite",
+      "published_utc": "2026-03-21T21:35:11.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Canadians’ Easter meal to cost more this year as beef prices keep climbing",
+      "url": "https://globalnews.ca/news/11740791/easter-beef-food-prices",
+      "source": "globalnews.ca",
+      "published_utc": "2026-03-21T21:34:14.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "Conservative analyst floored as Trump unleashes his 'most grotesque' outburst yet",
+      "url": "https://www.rawstory.com/bill-kristol-2676531940",
+      "source": "Raw Story",
+      "published_utc": "2026-03-21T21:30:14.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "High Point vs. Arkansas prediction: March Madness 2026 Round of 32 pick, odds, best bet Saturday",
+      "url": "https://nypost.com/2026/03/21/betting/high-point-vs-arkansas-prediction-march-madness-2026-round-of-32-pick-odds-best-bet-saturday",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-03-21T21:30:00.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "Ryan Gosling Recalls Missing “Incredible” Moment Tom Cruise Crashed Set Of ‘Star Wars: Starfighter’ In A Helicopter: “It’s The One Day I’m Not There”",
+      "url": "https://deadline.com/2026/03/ryan-gosling-tom-cruise-star-wars-starfighter-shawn-levy-1236762364",
+      "source": "Deadline",
+      "published_utc": "2026-03-21T21:27:40.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Surprise, embarrassment, unease in Japan over Trump's Pearl Harbor comments",
+      "url": "https://japantoday.com/category/politics/Surprise-embarrassment-unease-in-Japan-over-Trump%27s-Pearl-Harbor-comments",
+      "source": "Japan Today",
+      "published_utc": "2026-03-21T21:24:10.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "CNN’s Michael Smerconish Hits Democrats For TSA Fiasco: ‘I Think It’s Horrible’",
+      "url": "https://www.mediaite.com/media/cnns-michael-smerconish-hits-democrats-for-tsa-fiasco-i-think-its-horrible",
+      "source": "Mediaite",
+      "published_utc": "2026-03-21T21:23:15.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Japan ruling party exec urges PM to hold top-level dialogue with Iran",
+      "url": "https://japantoday.com/category/politics/japan-ruling-party-exec-urges-pm-to-hold-top-level-dialogue-with-iran",
+      "source": "Japan Today",
+      "published_utc": "2026-03-21T21:21:27.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Bloodied and battered Pogacar fights back from a crash to finally conquer Milan-San Remo",
+      "url": "https://japantoday.com/category/sports/bloodied-and-battered-pogacar-fights-back-from-a-crash-to-finally-conquer-milan-san-remo",
+      "source": "Japan Today",
+      "published_utc": "2026-03-21T21:16:44.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "How European Documentary Filmmakers Battled to Give Their Protagonists a Voice: ‘There Has Been a Lot of Repression’",
+      "url": "https://variety.com/2026/film/global/cphdox-the-cord-europe-docs-online-showcase-1236696003",
+      "source": "Film",
+      "published_utc": "2026-03-21T21:09:51.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Liverpool and Chelsea slump to bruising Premier League defeats as Champions League concerns mount",
+      "url": "https://japantoday.com/category/sports/liverpool-loses-2-1-at-brighton-to-continue-downward-spiral-in-premier-league",
+      "source": "Japan Today",
+      "published_utc": "2026-03-21T21:16:30.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "South Tyrol avalanche kills 2 skiers, trapping 25 near the Austria border",
+      "url": "https://japantoday.com/category/world/a-deadly-south-tyrol-avalanche-kills-2-skiers-trapping-25-near-the-austria-border",
+      "source": "Japan Today",
+      "published_utc": "2026-03-21T21:16:18.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Kyle Stowers, Esteury Ruiz Undergoing Testing For Injuries",
+      "url": "https://www.mlbtraderumors.com/2026/03/kyle-stowers-esteury-ruiz-undergoing-testing-for-injuries.html",
+      "source": "MLB Trade Rumors",
+      "published_utc": "2026-03-21T21:09:45.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Tens of thousands of protesters rally in Prague against new government of Czech prime minister Babiš",
+      "url": "https://japantoday.com/category/world/tens-of-thousands-of-protesters-rally-in-prague-against-new-government-of-czech-prime-minister-babis",
+      "source": "Japan Today",
+      "published_utc": "2026-03-21T21:15:58.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Labour",
+      "region": "World"
     }
   ],
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 1028,
-    "dedup_pass1": 1010,
+    "collected": 930,
+    "dedup_pass1": 910,
     "dedup_final": 320,
     "slow_domains": [],
     "timeouts": [
@@ -1009,57 +1026,57 @@
     ],
     "feed_times_sample": [
       {
-        "host": "www.labourstart.org",
-        "sec": 1.402,
-        "kept": 0
-      },
-      {
         "host": "globalnews.ca",
-        "sec": 1.383,
+        "sec": 1.66,
         "kept": 10
       },
       {
+        "host": "www.labourstart.org",
+        "sec": 1.658,
+        "kept": 0
+      },
+      {
         "host": "toronto.citynews.ca",
-        "sec": 0.781,
+        "sec": 1.263,
         "kept": 8
       },
       {
-        "host": "www.cp24.com",
-        "sec": 0.43,
-        "kept": 14
+        "host": "www.bls.gov",
+        "sec": 0.627,
+        "kept": 0
       },
       {
         "host": "www.blogto.com",
-        "sec": 0.35,
+        "sec": 0.439,
         "kept": 0
       },
       {
-        "host": "www.mlbtraderumors.com",
-        "sec": 0.32,
+        "host": "www.cp24.com",
+        "sec": 0.403,
         "kept": 14
       },
       {
-        "host": "www.bls.gov",
-        "sec": 0.17,
-        "kept": 0
+        "host": "www.mlbtraderumors.com",
+        "sec": 0.368,
+        "kept": 14
       },
       {
         "host": "www.nhl.com",
-        "sec": 0.161,
+        "sec": 0.212,
         "kept": 0
       },
       {
         "host": "www.mlb.com",
-        "sec": 0.097,
+        "sec": 0.208,
         "kept": 14
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.063,
+        "sec": 0.176,
         "kept": 14
       }
     ],
-    "elapsed_sec": 317.89,
+    "elapsed_sec": 350.26,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1085,7 +1102,7 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 39,
+      "ps_fatal_hits": 30,
       "ps_injury_hits": 0,
       "market_btc_hits": 1,
       "market_index_hits": 0,
@@ -1093,15 +1110,15 @@
       "market_single_hits": 0,
       "agg_penalties": 0,
       "press_penalties": 0,
-      "preferred_bonus": 124,
+      "preferred_bonus": 123,
       "substack_tagged": 0,
       "sports_team_hits": 9,
       "sports_player_hits": 4,
-      "sports_result_win_hits": 23,
-      "sports_result_loss_hits": 1,
-      "sports_evening_hits": 19,
+      "sports_result_win_hits": 21,
+      "sports_result_loss_hits": 0,
+      "sports_evening_hits": 20,
       "sports_playoff_hits": 0,
-      "sports_focus_team_hits": 10,
+      "sports_focus_team_hits": 11,
       "sports_final_hits": 0,
       "sports_final_score_hits": 0,
       "hype_politics": 0,
@@ -1111,16 +1128,16 @@
       "hype_sports": 0,
       "hype_ceasefire": 0,
       "reject_hits": 0,
-      "obit_hits": 16,
-      "major_figure_hits": 9,
+      "obit_hits": 12,
+      "major_figure_hits": 8,
       "business_am_hits": 0
     },
     "sanity_stats": {
-      "link_verification_fail": 14,
-      "soft_404_drops": 68,
+      "link_verification_fail": 17,
+      "soft_404_drops": 67,
       "max_age_drops": 0,
       "min_age_drops": 0,
-      "market_sanity_drops": 2,
+      "market_sanity_drops": 3,
       "backfill_steps_used": 0
     },
     "require_exact_count": 69,
