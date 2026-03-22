@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-03-22T23:40:05.737624Z",
+  "generated_utc": "2026-03-22T23:59:36.784256Z",
   "dates": [
     {
       "games": [
@@ -11,21 +11,21 @@
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "3rd",
-            "currentQuarter": "3rd"
+            "currentPeriodOrdinal": "4th",
+            "currentQuarter": "4th"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "BKN"
               },
-              "score": 78
+              "score": 87
             },
             "home": {
               "team": {
                 "abbreviation": "SAC"
               },
-              "score": 75
+              "score": 90
             }
           }
         },
@@ -33,25 +33,25 @@
           "gamePk": "401810889",
           "gameDate": "2026-03-22T23:30Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "WSH"
               },
-              "score": 0
+              "score": 14
             },
             "home": {
               "team": {
                 "abbreviation": "NYK"
               },
-              "score": 0
+              "score": 24
             }
           }
         },
