@@ -1,6 +1,16 @@
 {
   "items":[
     {
+      "text":"Along with Atkins, Schneider agrees to extension with Blue Jays",
+      "display":"Along with Atkins, Schneider agrees to extension with Blue Jays",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-ross-atkins-john-schneider-contract-extensions",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
       "text":"Toronto Blue Jays extend general manager Ross Atkins, manager John Schneider",
       "display":"Toronto Blue Jays extend general manager Ross Atkins, manager John Schneider",
       "url":"https://globalnews.ca/news/11741878/ross-atkins-john-schneider-blue-jays",
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"BBC doctor gives 'cortisol face or belly' claims warning",
-      "display":"BBC doctor gives 'cortisol face or belly' claims warning",
-      "url":"https://www.mirror.co.uk/lifestyle/health/bbc-doctor-gives-cortisol-face-36909983",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"What’s Next In The Abortion Drug Case",
-      "display":"What’s Next In The Abortion Drug Case",
-      "url":"https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
+      "text":"Male youth rushed to trauma centre after being struck by vehicle in Mississauga",
+      "display":"Male youth rushed to trauma centre after being struck by vehicle in Mississauga",
+      "url":"https://toronto.citynews.ca/2026/03/23/mississauga-male-youth-pedestrian-struck",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-03-23T14:00:57Z"
+  "generated_utc":"2026-03-23T15:13:13Z"
 }
