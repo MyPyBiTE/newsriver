@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"2 Air Canada pilots dead after flight from Montreal crashes at LaGuardia Airport",
-      "display":"2 Air Canada pilots dead after flight from Montreal crashes at LaGuardia Airport",
-      "url":"https://globalnews.ca/news/11741825/air-canada-crash-laguardia-new-york-montreal",
+      "text":"Toronto Blue Jays extend general manager Ross Atkins, manager John Schneider",
+      "display":"Toronto Blue Jays extend general manager Ross Atkins, manager John Schneider",
+      "url":"https://globalnews.ca/news/11741878/ross-atkins-john-schneider-blue-jays",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"BBC doctor gives 'cortisol face or belly' claims warning",
+      "display":"BBC doctor gives 'cortisol face or belly' claims warning",
+      "url":"https://www.mirror.co.uk/lifestyle/health/bbc-doctor-gives-cortisol-face-36909983",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"GTA 10-year old dreams of pinstripes and the big leagues.",
-      "display":"GTA 10-year old dreams of pinstripes and the big leagues.",
-      "url":"https://toronto.citynews.ca/2026/03/23/gta-10-year-old-dreams-of-pinstripes-and-the-big-leagues",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"How Jessica Biel feels about release of husband Justin Timberlake’s DWI arrest video",
-      "display":"How Jessica Biel feels about release of husband Justin Timberlake’s DWI arrest video",
-      "url":"https://pagesix.com/2026/03/23/celebrity-news/how-jessica-biel-feels-about-release-of-husband-justin-timberlakes-dwi-arrest-video",
+      "text":"What’s Next In The Abortion Drug Case",
+      "display":"What’s Next In The Abortion Drug Case",
+      "url":"https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-03-23T12:43:05Z"
+  "generated_utc":"2026-03-23T14:00:57Z"
 }
