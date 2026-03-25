@@ -1,37 +1,11 @@
 {
-  "generated_utc": "2026-03-25T00:00:27.986081Z",
+  "generated_utc": "2026-03-25T03:15:54.907450Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401810902",
-          "gameDate": "2026-03-24T23:00Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "2nd",
-            "currentQuarter": "2nd"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "SAC"
-              },
-              "score": 47
-            },
-            "home": {
-              "team": {
-                "abbreviation": "CHA"
-              },
-              "score": 65
-            }
-          }
-        },
-        {
-          "gamePk": "401810903",
-          "gameDate": "2026-03-24T23:30Z",
+          "gamePk": "401810905",
+          "gameDate": "2026-03-25T03:00Z",
           "status": {
             "detailedState": "Live",
             "abstractGameState": "Live"
@@ -43,15 +17,15 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "NOP"
+                "abbreviation": "DEN"
               },
-              "score": 23
+              "score": 4
             },
             "home": {
               "team": {
-                "abbreviation": "NYK"
+                "abbreviation": "PHX"
               },
-              "score": 24
+              "score": 7
             }
           }
         },
@@ -59,51 +33,77 @@
           "gamePk": "401810904",
           "gameDate": "2026-03-25T00:00Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "ORL"
               },
-              "score": 0
+              "score": 131
             },
             "home": {
               "team": {
                 "abbreviation": "CLE"
               },
-              "score": 0
+              "score": 136
             }
           }
         },
         {
-          "gamePk": "401810905",
-          "gameDate": "2026-03-25T03:00Z",
+          "gamePk": "401810903",
+          "gameDate": "2026-03-24T23:30Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "DEN"
+                "abbreviation": "NOP"
               },
-              "score": 0
+              "score": 116
             },
             "home": {
               "team": {
-                "abbreviation": "PHX"
+                "abbreviation": "NYK"
               },
-              "score": 0
+              "score": 121
+            }
+          }
+        },
+        {
+          "gamePk": "401810902",
+          "gameDate": "2026-03-24T23:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "SAC"
+              },
+              "score": 90
+            },
+            "home": {
+              "team": {
+                "abbreviation": "CHA"
+              },
+              "score": 134
             }
           }
         }
