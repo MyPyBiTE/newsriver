@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Kingston’s Adelaide Street Shelter to close as province cuts CTS funding",
-      "display":"Kingston’s Adelaide Street Shelter to close as province cuts CTS funding",
-      "url":"https://globalnews.ca/news/11745398/kingston-adelaide-street-shelter-close-province-cuts-cts-funding",
+      "text":"Blue Jays' WS trophies highlight new 100-Level additions to honor club history",
+      "display":"Blue Jays' WS trophies highlight new 100-Level additions to honor club history",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-unveil-100-level-additions-world-series-trophies",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Inmate killed at the Donnacona Institution following an attack",
+      "display":"Inmate killed at the Donnacona Institution following an attack",
+      "url":"https://globalnews.ca/news/11745537/donnacona-institution-attack",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Air Canada crash probe being done in ‘full co-operation’ with U.S.: Carney",
-      "display":"Air Canada crash probe being done in ‘full co-operation’ with U.S.: Carney",
-      "url":"https://toronto.citynews.ca/2026/03/25/air-canada-crash-probe-being-done-in-full-co-operation-with-u-s-carney",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "display":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "url":"https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
+      "text":"How Our Presidential Endorsement Tracker Works",
+      "display":"How Our Presidential Endorsement Tracker Works",
+      "url":"https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-03-25T15:19:26Z"
+  "generated_utc":"2026-03-25T16:39:56Z"
 }
