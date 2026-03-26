@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Prime minister commits more than $3B for defence projects in the Maritimes",
-      "display":"Prime minister commits more than $3B for defence projects in the Maritimes",
-      "url":"https://globalnews.ca/news/11748030/carney-3-billion-defence-projects",
+      "text":"Blue Jays report progress on injury front, discuss roster choices ahead of opener",
+      "display":"Blue Jays report progress on injury front, discuss roster choices ahead of opener",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-update-injuries-more-ahead-of-2026-opening-day",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Legal battle ensues over West Vancouver mansion ordered demolished in 2021",
+      "display":"Legal battle ensues over West Vancouver mansion ordered demolished in 2021",
+      "url":"https://globalnews.ca/news/11748015/legal-battle-west-vancouver-mansion-ordered-demolished-2021",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "display":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "url":"https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Justin Baldoni's Defamation Battle Alive, Judge Sides with His Production Co.",
-      "display":"Justin Baldoni's Defamation Battle Alive, Judge Sides with His Production Co.",
-      "url":"https://www.tmz.com/2026/03/26/justin-baldoni-defamation-battle-moving-forward",
+      "text":"How Our Presidential Endorsement Tracker Works",
+      "display":"How Our Presidential Endorsement Tracker Works",
+      "url":"https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-03-26T23:22:05Z"
+  "generated_utc":"2026-03-26T23:54:22Z"
 }
