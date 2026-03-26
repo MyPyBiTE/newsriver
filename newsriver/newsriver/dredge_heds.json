@@ -1,26 +1,6 @@
 {
   "items":[
     {
-      "text":"Maple Leafs victory eliminates Rangers from playoff contention",
-      "display":"Maple Leafs victory eliminates Rangers from playoff contention",
-      "url":"https://toronto.citynews.ca/2026/03/25/maple-leafs-victory-eliminates-rangers-from-playoff-contention",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Toronto Maple Leafs down New York Rangers 4-3",
-      "display":"Toronto Maple Leafs down New York Rangers 4-3",
-      "url":"https://globalnews.ca/news/11746726/toronto-maple-leafs-down-new-york-rangers-4-3",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
       "display":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
       "url":"https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
@@ -29,7 +9,27 @@
         "is_landmark":false,
         "has_bitcoin":false
       }
+    },
+    {
+      "text":"Oil prices rise 2% as Iran rejects direct U.S. talks despite proposal review",
+      "display":"Oil prices rise 2% as Iran rejects direct U.S. talks despite proposal review",
+      "url":"https://www.cnbc.com/2026/03/26/oil-price-wti-brent-crude-iran-rejects-direct-us-trump-talks-hormuz.html",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Iran-US war latest: Oil prices rise as strikes continue and Trump says Tehran ‘afraid’ to admit to talks",
+      "display":"Iran-US war latest: Oil prices rise as strikes continue and Trump says Tehran ‘afraid’ to admit to talks",
+      "url":"https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-oil-trump-israel-strait-of-hormuz-peace-talks-b2945090.html",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
     }
   ],
-  "generated_utc":"2026-03-26T04:08:49Z"
+  "generated_utc":"2026-03-26T05:48:29Z"
 }
