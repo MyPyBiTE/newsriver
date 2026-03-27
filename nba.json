@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-03-27T22:54:28.034643Z",
+  "generated_utc": "2026-03-27T23:29:49.853097Z",
   "dates": [
     {
       "games": [
@@ -7,25 +7,25 @@
           "gamePk": "401810921",
           "gameDate": "2026-03-27T23:00Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "LAC"
               },
-              "score": 0
+              "score": 14
             },
             "home": {
               "team": {
                 "abbreviation": "IND"
               },
-              "score": 0
+              "score": 29
             }
           }
         },
