@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"French police thwart a suspected bombing outside a Bank of America building in Paris",
-      "display":"French police thwart a suspected bombing outside a Bank of America building in Paris",
-      "url":"https://toronto.citynews.ca/2026/03/28/french-police-thwart-a-suspected-bombing-outside-a-bank-of-america-building-in-paris",
+      "text":"'I want to be boring,' says reliable Rogers -- and that's just fine with Blue Jays",
+      "display":"'I want to be boring,' says reliable Rogers -- and that's just fine with Blue Jays",
+      "url":"https://www.mlb.com/bluejays/news/tyler-rogers-key-piece-of-blue-jays-bullpen",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"China denies forced labour allegations amid fallout from Michael Ma’s comments",
+      "display":"China denies forced labour allegations amid fallout from Michael Ma’s comments",
+      "url":"https://toronto.citynews.ca/2026/03/28/china-denies-forced-labour-allegations-amid-fallout-from-michael-mas-comments",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Family fighting to bring B.C. senior home after she fell into a coma in China",
-      "display":"Family fighting to bring B.C. senior home after she fell into a coma in China",
-      "url":"https://globalnews.ca/news/11750157/family-fighting-coma-china",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Jessie Ware, Katy B and Billy Bragg among performers at huge anti-far right protest in London",
-      "display":"Jessie Ware, Katy B and Billy Bragg among performers at huge anti-far right protest in London",
-      "url":"https://www.nme.com/news/music/jessie-ware-katy-b-and-billy-bragg-among-performers-at-huge-anti-far-right-protest-in-london-3937222",
+      "text":"Tragedy as young woman who 'ignored cancer symptoms until it was too late' dies",
+      "display":"Tragedy as young woman who 'ignored cancer symptoms until it was too late' dies",
+      "url":"https://www.mirror.co.uk/news/world-news/tragedy-young-woman-who-ignored-36938259",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-03-28T17:52:41Z"
+  "generated_utc":"2026-03-28T18:27:26Z"
 }
