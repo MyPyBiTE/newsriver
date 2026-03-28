@@ -1,57 +1,31 @@
 {
-  "generated_utc": "2026-03-28T21:15:36.200990Z",
+  "generated_utc": "2026-03-28T21:46:23.048073Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401810931",
-          "gameDate": "2026-03-28T19:00Z",
+          "gamePk": "401810935",
+          "gameDate": "2026-03-28T21:30Z",
           "status": {
             "detailedState": "Live",
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "SAS"
-              },
-              "score": 123
-            },
-            "home": {
-              "team": {
-                "abbreviation": "MIL"
-              },
-              "score": 91
-            }
-          }
-        },
-        {
-          "gamePk": "401810935",
-          "gameDate": "2026-03-28T21:30Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "DET"
               },
-              "score": 0
+              "score": 6
             },
             "home": {
               "team": {
                 "abbreviation": "MIN"
               },
-              "score": 0
+              "score": 9
             }
           }
         },
@@ -156,6 +130,32 @@
                 "abbreviation": "PHX"
               },
               "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401810931",
+          "gameDate": "2026-03-28T19:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "SAS"
+              },
+              "score": 127
+            },
+            "home": {
+              "team": {
+                "abbreviation": "MIL"
+              },
+              "score": 95
             }
           }
         }
