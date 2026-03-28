@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"'I want to be boring,' says reliable Rogers -- and that's just fine with Blue Jays",
-      "display":"'I want to be boring,' says reliable Rogers -- and that's just fine with Blue Jays",
-      "url":"https://www.mlb.com/bluejays/news/tyler-rogers-key-piece-of-blue-jays-bullpen",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"Pillar of Canadian broadcasting, Rose Kingdon of The Canadian Press, dead at 65",
       "display":"Pillar of Canadian broadcasting, Rose Kingdon of The Canadian Press, dead at 65",
       "url":"https://toronto.citynews.ca/2026/03/28/pillar-of-canadian-broadcasting-rose-kingdon-of-the-canadian-press-dead-at-65",
@@ -21,9 +11,19 @@
       }
     },
     {
-      "text":"Canada battles back to tie Iceland 2-2",
-      "display":"Canada battles back to tie Iceland 2-2",
-      "url":"https://globalnews.ca/news/11750317/canada-battles-back-to-tie-iceland-2-2",
+      "text":"McDavid’s three points lead Oilers over Ducks",
+      "display":"McDavid’s three points lead Oilers over Ducks",
+      "url":"https://globalnews.ca/news/11750337/mcdavids-three-points-lead-oilers-over-ducks",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"How Our Presidential Endorsement Tracker Works",
+      "display":"How Our Presidential Endorsement Tracker Works",
+      "url":"https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-03-28T22:19:01Z"
+  "generated_utc":"2026-03-28T22:53:29Z"
 }
