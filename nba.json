@@ -1,34 +1,8 @@
 {
-  "generated_utc": "2026-03-29T21:38:42.215664Z",
+  "generated_utc": "2026-03-29T21:59:32.167177Z",
   "dates": [
     {
       "games": [
-        {
-          "gamePk": "401810937",
-          "gameDate": "2026-03-29T19:30Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "LAC"
-              },
-              "score": 108
-            },
-            "home": {
-              "team": {
-                "abbreviation": "MIL"
-              },
-              "score": 90
-            }
-          }
-        },
         {
           "gamePk": "401810938",
           "gameDate": "2026-03-29T21:00Z",
@@ -37,21 +11,21 @@
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "1st",
-            "currentQuarter": "1st"
+            "currentPeriodOrdinal": "2nd",
+            "currentQuarter": "2nd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "MIA"
               },
-              "score": 36
+              "score": 57
             },
             "home": {
               "team": {
                 "abbreviation": "IND"
               },
-              "score": 34
+              "score": 59
             }
           }
         },
@@ -234,6 +208,32 @@
                 "abbreviation": "DEN"
               },
               "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401810937",
+          "gameDate": "2026-03-29T19:30Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "LAC"
+              },
+              "score": 127
+            },
+            "home": {
+              "team": {
+                "abbreviation": "MIL"
+              },
+              "score": 113
             }
           }
         }
