@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-03-29T20:58:35.122216Z",
+  "generated_utc": "2026-03-29T21:38:42.215664Z",
   "dates": [
     {
       "games": [
@@ -11,21 +11,21 @@
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "3rd",
-            "currentQuarter": "3rd"
+            "currentPeriodOrdinal": "4th",
+            "currentQuarter": "4th"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "LAC"
               },
-              "score": 68
+              "score": 108
             },
             "home": {
               "team": {
                 "abbreviation": "MIL"
               },
-              "score": 51
+              "score": 90
             }
           }
         },
@@ -33,25 +33,25 @@
           "gamePk": "401810938",
           "gameDate": "2026-03-29T21:00Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "MIA"
               },
-              "score": 0
+              "score": 36
             },
             "home": {
               "team": {
                 "abbreviation": "IND"
               },
-              "score": 0
+              "score": 34
             }
           }
         },
