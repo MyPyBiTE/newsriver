@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-03-29T22:40:40.106291Z",
+  "generated_utc": "2026-03-29T23:16:46.662231Z",
   "dates": [
     {
       "games": [
@@ -11,21 +11,21 @@
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "3rd",
-            "currentQuarter": "3rd"
+            "currentPeriodOrdinal": "4th",
+            "currentQuarter": "4th"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "MIA"
               },
-              "score": 94
+              "score": 117
             },
             "home": {
               "team": {
                 "abbreviation": "IND"
               },
-              "score": 94
+              "score": 133
             }
           }
         },
@@ -45,13 +45,13 @@
               "team": {
                 "abbreviation": "SAC"
               },
-              "score": 20
+              "score": 45
             },
             "home": {
               "team": {
                 "abbreviation": "BKN"
               },
-              "score": 40
+              "score": 68
             }
           }
         },
@@ -71,13 +71,13 @@
               "team": {
                 "abbreviation": "BOS"
               },
-              "score": 33
+              "score": 63
             },
             "home": {
               "team": {
                 "abbreviation": "CHA"
               },
-              "score": 21
+              "score": 49
             }
           }
         },
@@ -89,21 +89,21 @@
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "1st",
-            "currentQuarter": "1st"
+            "currentPeriodOrdinal": "2nd",
+            "currentQuarter": "2nd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "ORL"
               },
-              "score": 20
+              "score": 43
             },
             "home": {
               "team": {
                 "abbreviation": "TOR"
               },
-              "score": 38
+              "score": 70
             }
           }
         },
@@ -123,13 +123,13 @@
               "team": {
                 "abbreviation": "WSH"
               },
-              "score": 16
+              "score": 47
             },
             "home": {
               "team": {
                 "abbreviation": "POR"
               },
-              "score": 24
+              "score": 58
             }
           }
         },
@@ -137,25 +137,25 @@
           "gamePk": "401810943",
           "gameDate": "2026-03-29T23:00Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "HOU"
               },
-              "score": 0
+              "score": 14
             },
             "home": {
               "team": {
                 "abbreviation": "NOP"
               },
-              "score": 0
+              "score": 8
             }
           }
         },
