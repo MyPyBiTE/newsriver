@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"2 Lethbridge men charged with first-degree murder following fatal assault",
-      "display":"2 Lethbridge men charged with first-degree murder following fatal assault",
-      "url":"https://globalnews.ca/news/11751572/2-lethbridge-men-charged-with-murder",
+      "text":"It's early, but is Blue Jays' bullpen stock on rise?",
+      "display":"It's early, but is Blue Jays' bullpen stock on rise?",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-bullpen-stock-watch-2026",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Surrey shooting leaves 27-year-old man with drug trade connections dead",
+      "display":"Surrey shooting leaves 27-year-old man with drug trade connections dead",
+      "url":"https://globalnews.ca/news/11751826/27-year-old-drug-trade-shot-killed-surrey-crime",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Thieves tracked homeowners’ routines with hidden cameras before break-ins: York police",
-      "display":"Thieves tracked homeowners’ routines with hidden cameras before break-ins: York police",
-      "url":"https://toronto.citynews.ca/2026/03/30/hidden-cameras-break-and-enter-investigation-vaughan",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "display":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "url":"https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
+      "text":"CN Rail investigating train derailment in St. Catharines, Ont.; no injuries reported",
+      "display":"CN Rail investigating train derailment in St. Catharines, Ont.; no injuries reported",
+      "url":"https://toronto.citynews.ca/2026/03/30/cn-rail-investigating-train-derailment-in-st-catharines-ont-no-injuries-reported",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-03-30T18:38:41Z"
+  "generated_utc":"2026-03-30T20:24:14Z"
 }
