@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Canadian food banks reduce services amid ‘unprecedented’ demand",
-      "display":"Canadian food banks reduce services amid ‘unprecedented’ demand",
-      "url":"https://globalnews.ca/news/11751792/canada-food-banks-service-changes",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Edmonton space enthusiast at historic Artemis II launch: ‘Truly incredible’",
+      "display":"Edmonton space enthusiast at historic Artemis II launch: ‘Truly incredible’",
+      "url":"https://globalnews.ca/news/11751963/edmonton-zachary-aubert-artemis-ii-launch",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Artemis 2 countdown begins as major update issued ahead of NASA moon mission",
-      "display":"Artemis 2 countdown begins as major update issued ahead of NASA moon mission",
-      "url":"https://www.mirror.co.uk/news/world-news/artemis-2-countdown-begins-major-36946321",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"‘Project Hail Mary’ Author Apologizes to Alex Kurtzman for ‘Star Trek’ Dig: ‘I’m a Blunt Person’",
-      "display":"‘Project Hail Mary’ Author Apologizes to Alex Kurtzman for ‘Star Trek’ Dig: ‘I’m a Blunt Person’",
-      "url":"https://www.thewrap.com/creative-content/movies/project-hail-mary-author-apologizes-alex-kurtzman-star-trek",
+      "text":"Stream It Or Skip It: ‘Color Theories By Julio Torres’ On HBO Max, The Comedian Explains Life By Giving Shade (Complimentary)",
+      "display":"Stream It Or Skip It: ‘Color Theories By Julio Torres’ On HBO Max, The Comedian Explains Life By Giving Shade (Complimentary)",
+      "url":"https://decider.com/2026/03/30/color-theories-by-julio-torres-hbo-max-review",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-03-30T22:26:38Z"
+  "generated_utc":"2026-03-30T23:02:24Z"
 }
