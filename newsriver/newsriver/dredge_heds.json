@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Health-care advocates call for ban on paid plasma donations after Winnipeg deaths",
-      "display":"Health-care advocates call for ban on paid plasma donations after Winnipeg deaths",
-      "url":"https://globalnews.ca/news/11753786/health-care-advocates-call-for-ban-on-paid-plasma-donations-after-winnipeg-deaths",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Two people dead after crash near Lac du Bonnet",
+      "display":"Two people dead after crash near Lac du Bonnet",
+      "url":"https://globalnews.ca/news/11753973/two-people-dead-after-crash-near-lac-du-bonnet",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -19,17 +29,7 @@
         "is_landmark":false,
         "has_bitcoin":false
       }
-    },
-    {
-      "text":"MAGA commentator gets testy on CNN over White House ballroom: 'Are you really that mad?'",
-      "display":"MAGA commentator gets testy on CNN over White House ballroom: 'Are you really that mad?'",
-      "url":"https://www.rawstory.com/scott-jennings-white-house-ballroom",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
     }
   ],
-  "generated_utc":"2026-03-31T22:25:09Z"
+  "generated_utc":"2026-03-31T22:56:02Z"
 }
