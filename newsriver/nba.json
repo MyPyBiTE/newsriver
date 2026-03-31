@@ -1,60 +1,8 @@
 {
-  "generated_utc": "2026-03-31T04:05:51.634893Z",
+  "generated_utc": "2026-03-31T05:50:49.617815Z",
   "dates": [
     {
       "games": [
-        {
-          "gamePk": "401810952",
-          "gameDate": "2026-03-31T01:30Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "DET"
-              },
-              "score": 99
-            },
-            "home": {
-              "team": {
-                "abbreviation": "OKC"
-              },
-              "score": 99
-            }
-          }
-        },
-        {
-          "gamePk": "401810953",
-          "gameDate": "2026-03-31T02:00Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "WSH"
-              },
-              "score": 83
-            },
-            "home": {
-              "team": {
-                "abbreviation": "LAL"
-              },
-              "score": 109
-            }
-          }
-        },
         {
           "gamePk": "401810954",
           "gameDate": "2026-03-31T23:00Z",
@@ -238,6 +186,58 @@
           }
         },
         {
+          "gamePk": "401810953",
+          "gameDate": "2026-03-31T02:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "WSH"
+              },
+              "score": 101
+            },
+            "home": {
+              "team": {
+                "abbreviation": "LAL"
+              },
+              "score": 120
+            }
+          }
+        },
+        {
+          "gamePk": "401810952",
+          "gameDate": "2026-03-31T01:30Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "DET"
+              },
+              "score": 110
+            },
+            "home": {
+              "team": {
+                "abbreviation": "OKC"
+              },
+              "score": 114
+            }
+          }
+        },
+        {
           "gamePk": "401810951",
           "gameDate": "2026-03-31T01:00Z",
           "status": {
@@ -340,58 +340,6 @@
               "score": 129
             }
           }
-        },
-        {
-          "gamePk": "401810947",
-          "gameDate": "2026-03-30T23:30Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "BOS"
-              },
-              "score": 102
-            },
-            "home": {
-              "team": {
-                "abbreviation": "ATL"
-              },
-              "score": 112
-            }
-          }
-        },
-        {
-          "gamePk": "401810946",
-          "gameDate": "2026-03-30T23:00Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "PHI"
-              },
-              "score": 109
-            },
-            "home": {
-              "team": {
-                "abbreviation": "MIA"
-              },
-              "score": 119
-            }
-          }
         }
       ]
     }
@@ -402,7 +350,7 @@
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260330",
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260331"
     ],
-    "games_count": 15,
+    "games_count": 13,
     "http_timeout_sec": 12.0,
     "version": "nba-relay-1.1",
     "preview_hours": 36,
