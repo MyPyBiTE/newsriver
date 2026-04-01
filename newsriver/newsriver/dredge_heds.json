@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Snow in the forecast for Calgary, Edmonton areas ahead of the long weekend",
-      "display":"Snow in the forecast for Calgary, Edmonton areas ahead of the long weekend",
-      "url":"https://globalnews.ca/news/11755257/snow-forecast-calgary-edmonton-long-weekend",
+      "text":"Blue Jays-White Sox game Thursday postponed; rescheduled for Friday",
+      "display":"Blue Jays-White Sox game Thursday postponed; rescheduled for Friday",
+      "url":"https://www.mlb.com/bluejays/news/white-sox-2026-home-opener-rescheduled",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Rourke, Philpot twins eye Olympic flag football",
+      "display":"Rourke, Philpot twins eye Olympic flag football",
+      "url":"https://globalnews.ca/news/11755848/rourke-philpot-twins-eye-olympic-flag-football",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"TTC launches Aqua Bus, Drake buys Casa Loma, and other April Fools pranks that made you look",
-      "display":"TTC launches Aqua Bus, Drake buys Casa Loma, and other April Fools pranks that made you look",
-      "url":"https://toronto.citynews.ca/2026/04/01/april-fools-social-media-toronto-pranks-roundup",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"How Systemic Therapists Can Improve Sleep",
-      "display":"How Systemic Therapists Can Improve Sleep",
-      "url":"https://www.psychologytoday.com/ca/blog/systemic-insights/202604/how-systemic-therapists-can-improve-sleep",
+      "text":"Police search for 3 women in alleged drugging, robbery investigation",
+      "display":"Police search for 3 women in alleged drugging, robbery investigation",
+      "url":"https://toronto.citynews.ca/2026/04/01/police-search-for-3-women-in-alleged-drugging-robbery-investigation",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-04-01T21:05:34Z"
+  "generated_utc":"2026-04-01T21:55:51Z"
 }
