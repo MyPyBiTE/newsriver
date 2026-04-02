@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"As more copper wire thefts knock out service, some point fingers at scrap yards",
-      "display":"As more copper wire thefts knock out service, some point fingers at scrap yards",
-      "url":"https://globalnews.ca/news/11756709/copper-wire-thefts-new-brunswick",
+      "text":"Report: William Nylander plans to stay with Maple Leafs — barring a rebuild",
+      "display":"Report: William Nylander plans to stay with Maple Leafs — barring a rebuild",
+      "url":"https://toronto.citynews.ca/2026/04/02/william-nylander-toronto-maple-leafs-nhl-rebuild",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"‘Bob’s Burgers’ voice actor hospitalized after fiery car crash in New Hampshire",
+      "display":"‘Bob’s Burgers’ voice actor hospitalized after fiery car crash in New Hampshire",
+      "url":"https://globalnews.ca/news/11756756/bobs-burgers-eugene-mirman-car-crash",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Does Canada need to rethink its Emergencies Act?",
-      "display":"Does Canada need to rethink its Emergencies Act?",
-      "url":"https://toronto.citynews.ca/2026/04/02/emergencies-act-revamp-debate-big-story-podcast",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "display":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "url":"https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
+      "text":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
+      "display":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
+      "url":"https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-04-02T12:54:14Z"
+  "generated_utc":"2026-04-02T14:17:02Z"
 }
