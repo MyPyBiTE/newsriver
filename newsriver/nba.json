@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-04-02T06:01:30.133432Z",
+  "generated_utc": "2026-04-02T07:39:10.829556Z",
   "dates": [
     {
       "games": [
@@ -184,32 +184,6 @@
               "score": 113
             }
           }
-        },
-        {
-          "gamePk": "401810967",
-          "gameDate": "2026-04-02T01:00Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "DEN"
-              },
-              "score": 130
-            },
-            "home": {
-              "team": {
-                "abbreviation": "UTAH"
-              },
-              "score": 117
-            }
-          }
         }
       ]
     }
@@ -220,7 +194,7 @@
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260401",
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260402"
     ],
-    "games_count": 8,
+    "games_count": 7,
     "http_timeout_sec": 12.0,
     "version": "nba-relay-1.1",
     "preview_hours": 36,
