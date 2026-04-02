@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Achiuwa, DeRozan lead Kings past Raptors 123-115",
-      "display":"Achiuwa, DeRozan lead Kings past Raptors 123-115",
-      "url":"https://globalnews.ca/news/11756482/achiuwa-derozan-lead-kings-past-raptors-123-115",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
       "display":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
       "url":"https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
@@ -21,9 +11,19 @@
       }
     },
     {
-      "text":"Trump’s Renewed Iran Threats Drive Oil Higher",
-      "display":"Trump’s Renewed Iran Threats Drive Oil Higher",
-      "url":"https://oilprice.com/Latest-Energy-News/World-News/Trumps-Renewed-Iran-Threats-Drive-Oil-Higher.html",
+      "text":"Iran threatens US with 'crushing' attacks and launches strikes across the Middle East - hours after Trump vowed to send country to 'back to Stone Age' - live updates",
+      "display":"Iran threatens US with 'crushing' attacks and launches strikes across the Middle East - hours after Trump vowed to send country to 'back to Stone Age' - live updates",
+      "url":"https://www.dailymail.co.uk/news/article-15700371/us-israel-iran-war-trump-uae-saudi-arabia-gulf-live-updates-oil-hormuz.html",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Scott Mills’ podcast with pal Rylan Clark axed in latest BBC blow",
+      "display":"Scott Mills’ podcast with pal Rylan Clark axed in latest BBC blow",
+      "url":"https://www.mirror.co.uk/3am/celebrity-news/scott-mills-sacked-rylan-clark-36957971",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-04-02T07:00:39Z"
+  "generated_utc":"2026-04-02T08:13:17Z"
 }
