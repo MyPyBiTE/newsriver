@@ -1,6 +1,16 @@
 {
   "items":[
     {
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
       "text":"Florida vice mayor found dead in her home, husband faces murder charge",
       "display":"Florida vice mayor found dead in her home, husband faces murder charge",
       "url":"https://globalnews.ca/news/11758308/florida-vice-mayor-found-dead-husband-suspected-of-murder",
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Eglinton Line 5 hours of operation expanding as of Sunday",
-      "display":"Eglinton Line 5 hours of operation expanding as of Sunday",
-      "url":"https://toronto.citynews.ca/2026/04/03/eglinton-line-5-hours-of-operation-expanding-as-of-sunday",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Dumbledore Actor John Lithgow Says ‘Much’ of J.K. Rowling’s Views Have Been ‘Twisted and Misrepresented,’ but She’s ‘Doubled Down at Her Own Cost’",
-      "display":"Dumbledore Actor John Lithgow Says ‘Much’ of J.K. Rowling’s Views Have Been ‘Twisted and Misrepresented,’ but She’s ‘Doubled Down at Her Own Cost’",
-      "url":"https://variety.com/2026/film/news/john-lithgow-jk-rowling-views-misrepresented-dumbledore-1236706217",
+      "text":"Early voting begins for Scarborough-southwest, University-Rosedale byelection",
+      "display":"Early voting begins for Scarborough-southwest, University-Rosedale byelection",
+      "url":"https://toronto.citynews.ca/2026/04/03/early-voting-begins-for-scarborough-southwest-university-rosedale-byelection",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-04-03T17:07:21Z"
+  "generated_utc":"2026-04-03T17:51:39Z"
 }
