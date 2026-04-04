@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-04-03T23:30:53.439631Z",
+  "generated_utc": "2026-04-04T00:00:33.965716Z",
   "dates": [
     {
       "games": [
@@ -11,21 +11,21 @@
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "1st",
-            "currentQuarter": "1st"
+            "currentPeriodOrdinal": "2nd",
+            "currentQuarter": "2nd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "IND"
               },
-              "score": 16
+              "score": 46
             },
             "home": {
               "team": {
                 "abbreviation": "CHA"
               },
-              "score": 31
+              "score": 58
             }
           }
         },
@@ -37,21 +37,21 @@
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "1st",
-            "currentQuarter": "1st"
+            "currentPeriodOrdinal": "2nd",
+            "currentQuarter": "2nd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "MIN"
               },
-              "score": 12
+              "score": 44
             },
             "home": {
               "team": {
                 "abbreviation": "PHI"
               },
-              "score": 16
+              "score": 39
             }
           }
         },
@@ -59,25 +59,25 @@
           "gamePk": "401810977",
           "gameDate": "2026-04-03T23:30Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "ATL"
               },
-              "score": 0
+              "score": 28
             },
             "home": {
               "team": {
                 "abbreviation": "BKN"
               },
-              "score": 0
+              "score": 13
             }
           }
         },
@@ -85,25 +85,25 @@
           "gamePk": "401810978",
           "gameDate": "2026-04-03T23:30Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "CHI"
               },
-              "score": 0
+              "score": 9
             },
             "home": {
               "team": {
                 "abbreviation": "NYK"
               },
-              "score": 0
+              "score": 27
             }
           }
         },
