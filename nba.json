@@ -1,10 +1,10 @@
 {
-  "generated_utc": "2026-04-04T20:57:54.432738Z",
+  "generated_utc": "2026-04-04T21:36:32.951697Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401810984",
+          "gamePk": "401810985",
           "gameDate": "2026-04-04T19:00Z",
           "status": {
             "detailedState": "Live",
@@ -17,41 +17,15 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "WSH"
-              },
-              "score": 96
-            },
-            "home": {
-              "team": {
-                "abbreviation": "MIA"
-              },
-              "score": 122
-            }
-          }
-        },
-        {
-          "gamePk": "401810985",
-          "gameDate": "2026-04-04T19:00Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "3rd",
-            "currentQuarter": "3rd"
-          },
-          "teams": {
-            "away": {
-              "team": {
                 "abbreviation": "SAS"
               },
-              "score": 92
+              "score": 120
             },
             "home": {
               "team": {
                 "abbreviation": "DEN"
               },
-              "score": 84
+              "score": 116
             }
           }
         },
@@ -78,6 +52,32 @@
                 "abbreviation": "PHI"
               },
               "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401810984",
+          "gameDate": "2026-04-04T19:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "WSH"
+              },
+              "score": 136
+            },
+            "home": {
+              "team": {
+                "abbreviation": "MIA"
+              },
+              "score": 152
             }
           }
         }
