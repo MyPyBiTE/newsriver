@@ -1,10 +1,36 @@
 {
-  "generated_utc": "2026-04-04T20:27:33.142136Z",
+  "generated_utc": "2026-04-04T20:57:54.432738Z",
   "dates": [
     {
       "games": [
         {
           "gamePk": "401810984",
+          "gameDate": "2026-04-04T19:00Z",
+          "status": {
+            "detailedState": "Live",
+            "abstractGameState": "Live"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "4th",
+            "currentQuarter": "4th"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "WSH"
+              },
+              "score": 96
+            },
+            "home": {
+              "team": {
+                "abbreviation": "MIA"
+              },
+              "score": 122
+            }
+          }
+        },
+        {
+          "gamePk": "401810985",
           "gameDate": "2026-04-04T19:00Z",
           "status": {
             "detailedState": "Live",
@@ -17,41 +43,15 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "WSH"
-              },
-              "score": 62
-            },
-            "home": {
-              "team": {
-                "abbreviation": "MIA"
-              },
-              "score": 80
-            }
-          }
-        },
-        {
-          "gamePk": "401810985",
-          "gameDate": "2026-04-04T19:00Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "2nd",
-            "currentQuarter": "2nd"
-          },
-          "teams": {
-            "away": {
-              "team": {
                 "abbreviation": "SAS"
               },
-              "score": 72
+              "score": 92
             },
             "home": {
               "team": {
                 "abbreviation": "DEN"
               },
-              "score": 65
+              "score": 84
             }
           }
         },
