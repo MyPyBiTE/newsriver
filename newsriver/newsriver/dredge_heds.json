@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"From ‘bird leg syndrome’ to solar storms: Roberta Bondar breaks down Artemis II mission",
-      "display":"From ‘bird leg syndrome’ to solar storms: Roberta Bondar breaks down Artemis II mission",
-      "url":"https://globalnews.ca/news/11759457/canada-astronauts-artemis",
+      "text":"Vladdy's first homer encouraging, but Little's struggles hinder Blue Jays",
+      "display":"Vladdy's first homer encouraging, but Little's struggles hinder Blue Jays",
+      "url":"https://www.mlb.com/bluejays/news/vladimir-guerrero-jr-hits-first-homer-blue-jays-fall-to-white-sox",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Patient stabbed in Edmonton ER waiting room as dozens witness attack",
+      "display":"Patient stabbed in Edmonton ER waiting room as dozens witness attack",
+      "url":"https://globalnews.ca/news/11759513/patient-stabbed-edmonton-er",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"2 men arrested for assault during protest near U.S. embassy in Toronto",
-      "display":"2 men arrested for assault during protest near U.S. embassy in Toronto",
-      "url":"https://toronto.citynews.ca/2026/04/04/2-men-arrested-for-assault-during-protest-near-u-s-embassy-in-toronto",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "display":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "url":"https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
+      "text":"Pope Leo XIV celebrates first Easter vigil, calls for harmony and peace in a world torn by war",
+      "display":"Pope Leo XIV celebrates first Easter vigil, calls for harmony and peace in a world torn by war",
+      "url":"https://toronto.citynews.ca/2026/04/04/pope-leo-xiv-celebrates-first-easter-vigil-calls-for-harmony-and-peace-in-a-world-torn-by-war",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-04-04T22:00:28Z"
+  "generated_utc":"2026-04-04T23:21:54Z"
 }
