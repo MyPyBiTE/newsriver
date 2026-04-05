@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-04-05T23:19:44.582400Z",
+  "generated_utc": "2026-04-05T23:53:16.152152Z",
   "dates": [
     {
       "games": [
@@ -11,21 +11,21 @@
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "2nd",
-            "currentQuarter": "2nd"
+            "currentPeriodOrdinal": "3rd",
+            "currentQuarter": "3rd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "IND"
               },
-              "score": 58
+              "score": 91
             },
             "home": {
               "team": {
                 "abbreviation": "CLE"
               },
-              "score": 55
+              "score": 90
             }
           }
         },
@@ -37,21 +37,21 @@
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "1st",
-            "currentQuarter": "1st"
+            "currentPeriodOrdinal": "2nd",
+            "currentQuarter": "2nd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "CHA"
               },
-              "score": 15
+              "score": 41
             },
             "home": {
               "team": {
                 "abbreviation": "MIN"
               },
-              "score": 15
+              "score": 43
             }
           }
         },
@@ -63,21 +63,21 @@
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "1st",
-            "currentQuarter": "1st"
+            "currentPeriodOrdinal": "2nd",
+            "currentQuarter": "2nd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "ORL"
               },
-              "score": 13
+              "score": 43
             },
             "home": {
               "team": {
                 "abbreviation": "NOP"
               },
-              "score": 10
+              "score": 38
             }
           }
         },
@@ -89,21 +89,21 @@
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "1st",
-            "currentQuarter": "1st"
+            "currentPeriodOrdinal": "2nd",
+            "currentQuarter": "2nd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "UTAH"
               },
-              "score": 10
+              "score": 39
             },
             "home": {
               "team": {
                 "abbreviation": "OKC"
               },
-              "score": 16
+              "score": 59
             }
           }
         },
@@ -111,25 +111,25 @@
           "gamePk": "401810995",
           "gameDate": "2026-04-05T23:30Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "LAL"
               },
-              "score": 0
+              "score": 13
             },
             "home": {
               "team": {
                 "abbreviation": "DAL"
               },
-              "score": 0
+              "score": 17
             }
           }
         },
