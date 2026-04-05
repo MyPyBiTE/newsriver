@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Blue Jays option Little to Triple-A, shuffling up bullpen",
-      "display":"Blue Jays option Little to Triple-A, shuffling up bullpen",
-      "url":"https://www.mlb.com/bluejays/news/brendon-little-optioned-to-triple-a-by-blue-jays",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"Artemis astronauts take more final frontier questions from Canadian kids",
       "display":"Artemis astronauts take more final frontier questions from Canadian kids",
       "url":"https://globalnews.ca/news/11760232/jeremy-hansen-artemis-ii-kids-question-answer",
@@ -21,9 +11,19 @@
       }
     },
     {
-      "text":"Kanye West’s ‘Bully’ Debuts at No. 2 on Albums Chart as BTS Holds Top Spot With ‘Arirang’",
-      "display":"Kanye West’s ‘Bully’ Debuts at No. 2 on Albums Chart as BTS Holds Top Spot With ‘Arirang’",
-      "url":"https://variety.com/2026/music/news/kanye-wests-bully-debuts-at-no-2-albums-chart-bts-arirang-1236708933",
+      "text":"How Our Presidential Endorsement Tracker Works",
+      "display":"How Our Presidential Endorsement Tracker Works",
+      "url":"https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"UFC legend Jon Jones in heated road rage confrontation caught on video",
+      "display":"UFC legend Jon Jones in heated road rage confrontation caught on video",
+      "url":"https://nypost.com/2026/04/05/sports/video-ufc-legend-jon-jones-in-heated-road-rage-confrontation",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-04-05T20:22:21Z"
+  "generated_utc":"2026-04-05T20:55:26Z"
 }
