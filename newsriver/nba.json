@@ -1,57 +1,31 @@
 {
-  "generated_utc": "2026-04-05T22:02:48.373283Z",
+  "generated_utc": "2026-04-05T22:49:13.648077Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401810988",
-          "gameDate": "2026-04-05T19:30Z",
+          "gamePk": "401810991",
+          "gameDate": "2026-04-05T22:00Z",
           "status": {
             "detailedState": "Live",
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "WSH"
-              },
-              "score": 111
-            },
-            "home": {
-              "team": {
-                "abbreviation": "BKN"
-              },
-              "score": 117
-            }
-          }
-        },
-        {
-          "gamePk": "401810991",
-          "gameDate": "2026-04-05T22:00Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "2nd",
+            "currentQuarter": "2nd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "IND"
               },
-              "score": 0
+              "score": 47
             },
             "home": {
               "team": {
                 "abbreviation": "CLE"
               },
-              "score": 0
+              "score": 39
             }
           }
         },
@@ -234,6 +208,32 @@
                 "abbreviation": "BOS"
               },
               "score": 115
+            }
+          }
+        },
+        {
+          "gamePk": "401810988",
+          "gameDate": "2026-04-05T19:30Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "WSH"
+              },
+              "score": 115
+            },
+            "home": {
+              "team": {
+                "abbreviation": "BKN"
+              },
+              "score": 121
             }
           }
         },
