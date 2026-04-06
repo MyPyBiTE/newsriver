@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"'Feels like we’re getting ready for Game 8': Blue Jays to host Dodgers in World Series rematch",
-      "display":"'Feels like we’re getting ready for Game 8': Blue Jays to host Dodgers in World Series rematch",
-      "url":"https://www.mlb.com/bluejays/news/blue-jays-host-dodgers-in-world-series-rematch",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"Government won’t say how much it is spending on its ‘Protect Ontario’ commercials",
       "display":"Government won’t say how much it is spending on its ‘Protect Ontario’ commercials",
       "url":"https://globalnews.ca/news/11757739/protect-ontario-commercial-campaign-cost",
@@ -21,9 +11,19 @@
       }
     },
     {
-      "text":"Four Texas teens arrested for allegedly kidnapping former high school classmate, torturing him over girlfriend dispute: ‘Everyone’s pretty spooked’",
-      "display":"Four Texas teens arrested for allegedly kidnapping former high school classmate, torturing him over girlfriend dispute: ‘Everyone’s pretty spooked’",
-      "url":"https://nypost.com/2026/04/06/us-news/four-texas-teens-arrested-for-allegedly-kidnapping-former-del-valle-high-school-classmate-torturing-him-over-girlfriend-dispute",
+      "text":"Artemis on track to break record set by Apollo 13 during lunar flyby",
+      "display":"Artemis on track to break record set by Apollo 13 during lunar flyby",
+      "url":"https://toronto.citynews.ca/2026/04/06/artemis-on-track-to-break-record-set-by-apollo-13-during-lunar-flyby",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Trump Tells SCOTUS to ‘Study’ Mark Levin Show on ‘Money-Making’ Birthright ‘HOAX’",
+      "display":"Trump Tells SCOTUS to ‘Study’ Mark Levin Show on ‘Money-Making’ Birthright ‘HOAX’",
+      "url":"https://www.mediaite.com/media/tv/trump-tells-scotus-to-study-mark-levin-show-on-money-making-birthright-hoax",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-04-06T09:40:05Z"
+  "generated_utc":"2026-04-06T10:40:28Z"
 }
