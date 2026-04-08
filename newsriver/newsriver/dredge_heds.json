@@ -1,6 +1,16 @@
 {
   "items":[
     {
+      "text":"Blue Jays sell over 100,000 hot dogs during 77-cent promotion night",
+      "display":"Blue Jays sell over 100,000 hot dogs during 77-cent promotion night",
+      "url":"https://nypost.com/2026/04/08/sports/blue-jays-sell-over-100000-hot-dogs-during-77-cent-promotion-night",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
       "text":"Schneider's fiery ejection unable to spark Blue Jays' quiet bats",
       "display":"Schneider's fiery ejection unable to spark Blue Jays' quiet bats",
       "url":"https://www.mlb.com/bluejays/news/john-schneider-ejected-in-blue-jays-loss-to-dodgers",
@@ -11,25 +21,15 @@
       }
     },
     {
-      "text":"Yoshinobu Yamamoto, Dodgers bullpen hold off Blue Jays for fifth-straight win",
-      "display":"Yoshinobu Yamamoto, Dodgers bullpen hold off Blue Jays for fifth-straight win",
-      "url":"https://nypost.com/2026/04/07/sports/yamamoto-dodgers-bullpen-hold-off-blue-jays-in-4-1-win",
+      "text":"How Our Presidential Endorsement Tracker Works",
+      "display":"How Our Presidential Endorsement Tracker Works",
+      "url":"https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
       "flags":{
         "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Barnes powers Raptors past Heat 121-95",
-      "display":"Barnes powers Raptors past Heat 121-95",
-      "url":"https://globalnews.ca/news/11768821/barnes-powers-raptors-past-heat-121-95",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
+        "is_landmark":false,
         "has_bitcoin":false
       }
     }
   ],
-  "generated_utc":"2026-04-08T04:58:54Z"
+  "generated_utc":"2026-04-08T06:20:48Z"
 }
