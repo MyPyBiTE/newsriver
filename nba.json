@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-04-08T08:11:27.372746Z",
+  "generated_utc": "2026-04-08T09:36:08.289370Z",
   "dates": [
     {
       "games": [
@@ -184,84 +184,6 @@
               "score": 0
             }
           }
-        },
-        {
-          "gamePk": "401811012",
-          "gameDate": "2026-04-08T03:00Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "HOU"
-              },
-              "score": 119
-            },
-            "home": {
-              "team": {
-                "abbreviation": "PHX"
-              },
-              "score": 105
-            }
-          }
-        },
-        {
-          "gamePk": "401811010",
-          "gameDate": "2026-04-08T02:30Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "OKC"
-              },
-              "score": 123
-            },
-            "home": {
-              "team": {
-                "abbreviation": "LAL"
-              },
-              "score": 87
-            }
-          }
-        },
-        {
-          "gamePk": "401811011",
-          "gameDate": "2026-04-08T02:30Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "DAL"
-              },
-              "score": 103
-            },
-            "home": {
-              "team": {
-                "abbreviation": "LAC"
-              },
-              "score": 116
-            }
-          }
         }
       ]
     }
@@ -272,7 +194,7 @@
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260407",
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260408"
     ],
-    "games_count": 10,
+    "games_count": 7,
     "http_timeout_sec": 12.0,
     "version": "nba-relay-1.1",
     "preview_hours": 36,
