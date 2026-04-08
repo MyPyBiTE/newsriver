@@ -1,26 +1,13 @@
 {
-  "generated_utc": "2026-04-07T23:38:39.759Z",
-  "itemset_hash": "4415a1ef951183ae",
+  "generated_utc": "2026-04-08T00:10:49.475Z",
+  "itemset_hash": "3a5498d85019f581",
   "count": 69,
   "items": [
-    {
-      "title": "U.S. oil price plunges nearly 19% to below $100 after Trump agrees to two-week ceasefire with Iran",
-      "url": "https://www.cnbc.com/2026/04/07/oil-prices-iran-war-trump-deadline-strait-hormuz.html",
-      "source": "US Top News and Analysis",
-      "published_utc": "2026-04-07T23:35:20.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
     {
       "title": "What To Do About A Problem Like Dianne Feinstein?",
       "url": "https://fivethirtyeight.com/videos/what-to-do-about-a-problem-like-dianne-feinstein",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-04-07T23:34:52.110Z",
+      "published_utc": "2026-04-08T00:07:29.509Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -33,7 +20,7 @@
       "title": "Politics Podcast",
       "url": "https://fivethirtyeight.com/tag/politics-podcast",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-04-07T23:34:52.110Z",
+      "published_utc": "2026-04-08T00:07:29.509Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -43,23 +30,26 @@
       "region": "World"
     },
     {
-      "title": "Elon Musk seeks ouster of OpenAI CEO Sam Altman as part of lawsuit",
-      "url": "https://www.cnbc.com/2026/04/07/elon-musk-seeks-ouster-of-openai-ceo-sam-altman-as-part-of-lawsuit.html",
-      "source": "US Top News and Analysis",
-      "published_utc": "2026-04-07T23:34:15.000Z",
+      "title": "MAX Power discoveries could position Saskatchewan as natural hydrogen hub",
+      "url": "https://www.mining.com/max-power-discoveries-could-position-saskatchewan-as-natural-hydrogen-hub",
+      "source": "MINING.COM",
+      "published_utc": "2026-04-08T00:01:40.000Z",
       "effects": {
-        "lightsaber": false,
+        "lightsaber": true,
         "glitch": false,
-        "reasons": []
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
       },
-      "category": "General",
-      "region": "World"
+      "category": "Labour",
+      "region": "Canada"
     },
     {
       "title": "How Our Presidential Endorsement Tracker Works",
       "url": "https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-04-07T23:34:52.111Z",
+      "published_utc": "2026-04-08T00:07:29.510Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -72,7 +62,7 @@
       "title": "Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
       "url": "https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-04-07T23:34:52.111Z",
+      "published_utc": "2026-04-08T00:07:29.510Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -82,23 +72,26 @@
       "region": "World"
     },
     {
-      "title": "Trump declares two-week ceasefire with Iran and claims Strait of Hormuz will re-open as Tehran submits 10-point peace plan to end the war",
-      "url": "https://www.dailymail.co.uk/news/article-15713177/Trump-declares-two-week-ceasefire-Iran-claims-Strait-Hormuz-open-Tehran-submits-10-point-peace-plan-end-war.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-04-07T23:33:37.000Z",
+      "title": "The Pentagon Has 268 Days to Replace America’s Most Critical Supply Chain",
+      "url": "https://oilprice.com/Energy/Energy-General/The-Pentagon-Has-268-Days-to-Replace-Americas-Most-Critical-Supply-Chain.html",
+      "source": "Oilprice.com",
+      "published_utc": "2026-04-08T00:00:00.000Z",
       "effects": {
-        "lightsaber": false,
+        "lightsaber": true,
         "glitch": false,
-        "reasons": []
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
       },
-      "category": "General",
-      "region": "World"
+      "category": "Labour",
+      "region": "Canada"
     },
     {
       "title": "Republicans Amplified Pro-Gun Control Protesters In Tennessee",
       "url": "https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-04-07T23:34:52.111Z",
+      "published_utc": "2026-04-08T00:07:29.510Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -111,13 +104,297 @@
       "title": "What’s Next In The Abortion Drug Case",
       "url": "https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
       "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-04-07T23:34:52.111Z",
+      "published_utc": "2026-04-08T00:07:29.510Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
         "reasons": []
       },
       "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Will There Be a ‘High Potential’ Season 3 on ABC?",
+      "url": "https://decider.com/2026/04/07/high-potential-season-3-abc-hulu-renewed-canceled",
+      "source": "New York Post",
+      "published_utc": "2026-04-08T00:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "How Concerned Are Americans About The Pitfalls Of AI?",
+      "url": "https://fivethirtyeight.com/videos/how-concerned-are-americans-about-the-pitfalls-of-ai",
+      "source": "FiveThirtyEight — Nate Silver",
+      "published_utc": "2026-04-08T00:07:29.510Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Live From New York: Will AI Replace This Podcast?",
+      "url": "https://fivethirtyeight.com/videos/live-from-new-york-will-ai-replace-this-podcast",
+      "source": "FiveThirtyEight — Nate Silver",
+      "published_utc": "2026-04-08T00:07:29.510Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "CZ says SBF asked for billions 'like a Bologna sandwich' as FTX collapsed",
+      "url": "https://www.coindesk.com/business/2026/04/07/cz-says-sbf-asked-for-billions-like-a-bologna-sandwich-as-ftx-collapsed",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2026-04-08T00:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "What to Expect from Karol G’s Headlining Coachella Set",
+      "url": "https://www.rollingstone.com/music/music-latin/karol-g-coachella-set-what-to-expect-1235543249",
+      "source": "Rolling Stone",
+      "published_utc": "2026-04-08T00:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "‘X-Men’ Reboot Director Jake Schreier Says ‘Beef’ Creator & ‘The Bear’ Showrunner Are Writing Script For Marvel Film",
+      "url": "https://deadline.com/2026/04/xmen-reboot-director-jake-schreier-beef-the-bear-marvel-1236784131",
+      "source": "Deadline",
+      "published_utc": "2026-04-07T23:56:50.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "A Tale of Two Ceasefires: MS NOW Declares Trump ‘Caved’ and CNN Says He’s ‘Backing Down’ — While Fox News Insists ‘Iran Blinked’",
+      "url": "https://www.mediaite.com/media/news/a-tale-of-two-ceasefires-ms-now-declares-trump-caved-and-cnn-says-hes-backing-down-while-fox-news-insists-iran-blinked",
+      "source": "Mediaite",
+      "published_utc": "2026-04-07T23:56:40.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Pakistan PM’s X Post Laying Groundwork for Ceasefire Shows Extremely Odd Edit Suggesting It Was Written For Him",
+      "url": "https://www.mediaite.com/media/news/pakistan-pms-x-post-laying-groundwork-for-ceasefire-shows-extremely-odd-edit-suggesting-it-was-written-for-him",
+      "source": "Mediaite",
+      "published_utc": "2026-04-07T23:55:54.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Bitcoin vaults past $72,000 as U.S. stock futures surge on a two‑week U.S.–Iran ceasefire",
+      "url": "https://www.coindesk.com/markets/2026/04/08/bitcoin-u-s-stock-futures-surge-on-a-two-week-u-s-iran-ceasefire",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2026-04-07T23:53:16.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Laws/Rules Made Up to Apply to Israel",
+      "url": "https://reason.com/volokh/2026/04/07/laws-rules-made-up-to-apply-to-israel",
+      "source": "Reason.com",
+      "published_utc": "2026-04-07T23:50:24.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Dawn Staley asks for fans to do one thing after speaking to Geno Auriemma following flap",
+      "url": "https://nypost.com/2026/04/07/sports/dawn-staley-asks-for-fans-to-turn-the-page-after-speaking-to-geno-auriemma",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-04-07T23:49:54.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Latest Cook Political Report Says Republicans Need to Win 76% of Toss-Up House Seats to Keep Majority",
+      "url": "https://www.mediaite.com/politics/latest-cook-political-report-says-republicans-need-to-win-76-of-toss-up-house-seats-to-keep-majority",
+      "source": "Mediaite",
+      "published_utc": "2026-04-07T23:49:40.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "UCLA’s Skyy Clark enters transfer portal, opening spot in backcourt",
+      "url": "https://nypost.com/2026/04/07/sports/veteran-ucla-guard-skyy-clark-enters-ncaa-transfer-portal",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-04-07T23:49:23.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Pope Leo's searing criticism of Trump's 'vile' war threats raises eyebrows",
+      "url": "https://www.rawstory.com/trump-2676677340",
+      "source": "Raw Story",
+      "published_utc": "2026-04-07T23:49:08.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Trump and Tucker Carlson Break Up For Good as President Slams “Low-IQ” Host Amid Iran Clash",
+      "url": "https://www.hollywoodreporter.com/news/general-news/trump-tucker-carlson-low-iq-iran-clash-1236558357",
+      "source": "The Hollywood Reporter",
+      "published_utc": "2026-04-07T23:46:38.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "David Geffen Says He Settled Nasty Divorce With David Armstrong",
+      "url": "https://www.tmz.com/2026/04/07/david-geffen-david-armstrong-divorce-update",
+      "source": "TMZ.com",
+      "published_utc": "2026-04-07T23:45:25.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Kanye’s “Bully” Album Dropping 50% in Sales Second Week to 70K, Mostly from Streaming as Music Fans Wake Up",
+      "url": "https://www.showbiz411.com/2026/04/07/kanyes-bully-album-dropping-50-in-sales-second-week-to-70k-mostly-from-streaming-as-music-fans-wake-up",
+      "source": "Showbiz411",
+      "published_utc": "2026-04-07T23:45:06.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "'Wow': Analysts taken aback by initial details of Trump's ceasefire with Iran",
+      "url": "https://www.rawstory.com/trump-iran-2676677401",
+      "source": "Raw Story",
+      "published_utc": "2026-04-07T23:41:06.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Adrian Grenier Cashes In on ‘The Devil Wears Prada 2’ Snub With Cheeky Starbucks Ad: ‘Let’s Leave Nate in 2006’ | Video",
+      "url": "https://www.thewrap.com/culture-lifestyle/culture/adrian-grenier-comments-devil-wears-prada-2-snub-starbucks-ad-video",
+      "source": "TheWrap",
+      "published_utc": "2026-04-07T23:37:41.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "For the first time, Twitch opens sponsored campaigns (and their revenue) to Affiliates",
+      "url": "https://www.tubefilter.com/2026/04/07/twitch-minecraft-tiny-takeover-affiliate-sponsored-campaign",
+      "source": "Tubefilter",
+      "published_utc": "2026-04-07T23:37:30.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
       "region": "World"
     },
     {
@@ -135,45 +412,6 @@
       },
       "category": "Sports",
       "region": "Canada"
-    },
-    {
-      "title": "How Concerned Are Americans About The Pitfalls Of AI?",
-      "url": "https://fivethirtyeight.com/videos/how-concerned-are-americans-about-the-pitfalls-of-ai",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-04-07T23:34:52.111Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Live From New York: Will AI Replace This Podcast?",
-      "url": "https://fivethirtyeight.com/videos/live-from-new-york-will-ai-replace-this-podcast",
-      "source": "FiveThirtyEight — Nate Silver",
-      "published_utc": "2026-04-07T23:34:52.110Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Trump agrees to two-week ceasefire at the 11th hour ahead of his own 'civilisation killing' attacks deadline: LIVE UPDATES",
-      "url": "https://www.dailymail.co.uk/news/article-15711899/Israel-Iran-US-live-updates.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-04-07T23:30:53.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
     },
     {
       "title": "Paris Jackson Accuses MJ's Estate Executors of Using Dad's Fortune to Bully Her",
@@ -205,19 +443,6 @@
       "region": "Canada"
     },
     {
-      "title": "What to Do When You're Feeling Stuck",
-      "url": "https://www.psychologytoday.com/ca/blog/the-universe-within/202604/what-to-do-when-youre-feeling-stuck",
-      "source": "Psychology Today: The Latest",
-      "published_utc": "2026-04-07T23:27:44.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Youth",
-      "region": "World"
-    },
-    {
       "title": "Yankees have already run out of viral ‘chicken’ ice cream bucket",
       "url": "https://nypost.com/2026/04/07/sports/yankees-already-out-of-viral-fried-chicken-ice-cream-bucket",
       "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
@@ -234,10 +459,10 @@
       "region": "Canada"
     },
     {
-      "title": "Trump just handed Iran a massive 'strategic victory' after retreating from threat: expert",
-      "url": "https://www.rawstory.com/trump-iran-2676677358",
-      "source": "Raw Story",
-      "published_utc": "2026-04-07T23:24:59.000Z",
+      "title": "Trump agrees to pause attacks on Iran if Strait of Hormuz opens",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/4/7/trump-agrees-to-pause-attacks-on-iran-if-strait-of-hormuz-opens?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-04-07T23:25:46.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -247,10 +472,10 @@
       "region": "World"
     },
     {
-      "title": "Star Fox Switch 2 Could Be Announced This Week According to Leak",
-      "url": "https://www.vice.com/en/article/star-fox-switch-2-could-be-announced-this-week-according-to-leak",
-      "source": "English - VICE",
-      "published_utc": "2026-04-07T23:23:05.000Z",
+      "title": "Trump just handed Iran a massive 'strategic victory' after retreating from threat: expert",
+      "url": "https://www.rawstory.com/trump-iran-2676677358",
+      "source": "Raw Story",
+      "published_utc": "2026-04-07T23:24:59.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -274,19 +499,6 @@
       },
       "category": "General",
       "region": "Canada"
-    },
-    {
-      "title": "Somalian runner 'sexually assaulted girl, 18, after waiting for her friends to leave her alone at bus stop', court hears",
-      "url": "https://www.dailymail.co.uk/news/article-15713117/Somalian-runner-sexually-assaulted-girl-18.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-04-07T23:21:15.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
     },
     {
       "title": "Woman on trial for manslaughter of mother in suspected elder abuse case testifies",
@@ -353,11 +565,8 @@
       "published_utc": "2026-04-07T23:15:00.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Labour",
       "region": "World"
@@ -376,7 +585,7 @@
       "region": "World"
     },
     {
-      "title": "Producers Guild Announces Show Dates For 2027 & 2028 Awards",
+      "title": "Producers Guild Sets Show Dates For 2027 & 2028 Awards",
       "url": "https://deadline.com/2026/04/producers-guild-announces-show-dates-2027-2028-awards-1236784093",
       "source": "Deadline",
       "published_utc": "2026-04-07T23:14:52.000Z",
@@ -408,87 +617,16 @@
       "region": "Canada"
     },
     {
-      "title": "Trump suspends Iran attack for two weeks, subject to Hormuz Strait opening",
-      "url": "https://www.cnbc.com/2026/04/07/trump-iran-ceasefire-hormuz-strait.html",
-      "source": "US Top News and Analysis",
-      "published_utc": "2026-04-07T23:13:39.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "‘Saturday Night Live UK’ Mocks Kanye West After Britain Denies Entry | Video",
       "url": "https://www.thewrap.com/culture-lifestyle/culture/snl-uk-mocks-kanye-west-blocked-uk-entry",
       "source": "TheWrap",
       "published_utc": "2026-04-07T23:13:36.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Trump faces calls for removal over threats to wipe out 'whole civilization' in Iran",
-      "url": "https://www.cnbc.com/2026/04/07/25th-amendment-trump-removal-iran-war.html",
-      "source": "US Top News and Analysis",
-      "published_utc": "2026-04-07T23:13:19.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Iran's humiliating 10 demands for Trump include £1 million-a-ship fee for Hormuz Strait",
-      "url": "https://www.mirror.co.uk/news/world-news/irans-humiliating-10-demands-trump-36981998",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-04-07T23:12:27.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "I'm A Celebrity viewers praise Ashley Roberts, 44, for refreshing conversation about children as Scarlett Moffatt reveals fertility struggles",
-      "url": "https://www.dailymail.co.uk/tv/article-15713861/Im-Celebrity-viewers-praise-Ashley-Roberts-refreshing-conversation-children-Scarlett-Moffatt-reveals-fertility-struggles.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-04-07T23:12:12.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "British building tycoon's teenage daughter, 19, is killed in Vietnam gap year motorbike tragedy",
-      "url": "https://www.dailymail.co.uk/news/article-15712579/British-building-tycoons-teenage-daughter-19-killed-Vietnam-gap-year-motorbike-tragedy.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-04-07T23:11:56.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "breaker"
-      },
-      "category": "General",
       "region": "World"
     },
     {
@@ -537,36 +675,10 @@
       "region": "World"
     },
     {
-      "title": "This Record-Breaking Octopus Fossil Isn’t an Octopus After All",
-      "url": "https://nautil.us/this-record-breaking-octopus-fossil-isnt-an-octopus-after-all-1279608",
-      "source": "Nautilus",
-      "published_utc": "2026-04-07T23:06:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Youth",
-      "region": "World"
-    },
-    {
       "title": "MAGA freaks out as Trump announces ceasefire with Iran: 'You will learn eventually'",
       "url": "https://www.rawstory.com/trump-maga-2676677285",
       "source": "Raw Story",
       "published_utc": "2026-04-07T23:03:50.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Queen Elizabeth had final wish for great-grandkids — including Prince Archie and Princess Lilibet — before her death",
-      "url": "https://pagesix.com/2026/04/07/royal-family/queen-elizabeths-final-wish-for-great-grandkids-before-her-death",
-      "source": "New York Post",
-      "published_utc": "2026-04-07T23:03:36.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -593,45 +705,6 @@
       "url": "https://www.thewrap.com/media-platforms/politics/trump-iran-war-ceasefire",
       "source": "TheWrap",
       "published_utc": "2026-04-07T23:01:04.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Remove black mould from washing machine seal in 15 minutes without bleach or scrubbing",
-      "url": "https://www.mirror.co.uk/money/household-bills/remove-mould-washing-machine-seal-36968719",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-04-07T23:01:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Tesco giving away free food and drink - but only in very specific part of store",
-      "url": "https://www.mirror.co.uk/money/tesco-giving-away-free-food-36980708",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-04-07T23:01:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Daily horoscope April 8, 2026: Today’s predictions for your star sign",
-      "url": "https://metro.co.uk/2026/04/08/daily-horoscope-april-8-2026-todays-predictions-star-sign-27872190",
-      "source": "Metro",
-      "published_utc": "2026-04-07T23:01:00.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -707,19 +780,6 @@
       },
       "category": "Energy",
       "region": "Canada"
-    },
-    {
-      "title": "Pregnant Nicola Roberts shows off her bump as she reunites with Girls Aloud bandmate Kimberley Walsh to celebrate her impending arrival with a Bridgerton-themed baby shower",
-      "url": "https://www.dailymail.co.uk/tvshowbiz/article-15712911/Pregnant-Nicola-Roberts-reunites-Girls-Aloud-Kimberley-Walsh-lavish-afternoon-tea.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-04-07T22:59:56.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
     },
     {
       "title": "‘Double Sided CEASEFIRE’: Trump Suspends Plans To Attack Iran",
@@ -874,23 +934,10 @@
       "region": "World"
     },
     {
-      "title": "Trump suspends Iran bombing for two weeks following dire threats",
+      "title": "Trump announces two-week ceasefire as Iran agrees to reopen Hormuz Strait",
       "url": "https://www.aljazeera.com/news/2026/4/7/trump-suspends-iran-bombing-for-two-weeks-following-dire-threats?traffic_source=rss",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
       "published_utc": "2026-04-07T22:48:53.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Rory McIlroy gesture sees Masters fans gasp during practice round at Augusta",
-      "url": "https://www.mirror.co.uk/sport/golf/rory-mcilroy-the-masters-augusta-36981976",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-04-07T22:48:07.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -927,44 +974,19 @@
       },
       "category": "Sports",
       "region": "Canada"
-    },
-    {
-      "title": "St. John’s finishes season at No. 10 in AP poll for highest ranking in almost 30 years",
-      "url": "https://nypost.com/2026/04/07/sports/st-johns-finishes-at-no-10-in-ap-poll-for-highest-final-ranking-in-almost-30-years",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2026-04-07T22:47:19.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "Trump retreats from his threat of civilizational destruction amid ceasefire with Iran",
-      "url": "https://www.rawstory.com/trump-iran-2676677197",
-      "source": "Raw Story",
-      "published_utc": "2026-04-07T22:46:41.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
     }
   ],
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 1008,
-    "dedup_pass1": 995,
+    "collected": 772,
+    "dedup_pass1": 761,
     "dedup_final": 320,
-    "slow_domains": [],
+    "slow_domains": [
+      "financialpost.com",
+      "www.gorillavsbear.net",
+      "www150.statcan.gc.ca"
+    ],
     "timeouts": [
       "japantoday.com",
       "news.communitech.ca",
@@ -989,56 +1011,56 @@
     "feed_times_sample": [
       {
         "host": "globalnews.ca",
-        "sec": 1.52,
+        "sec": 2.154,
         "kept": 10
       },
       {
         "host": "www.labourstart.org",
-        "sec": 1.452,
+        "sec": 1.549,
         "kept": 0
       },
       {
         "host": "toronto.citynews.ca",
-        "sec": 1.135,
+        "sec": 1.189,
         "kept": 8
       },
       {
         "host": "www.blogto.com",
-        "sec": 0.403,
+        "sec": 0.474,
         "kept": 0
-      },
-      {
-        "host": "www.cp24.com",
-        "sec": 0.347,
-        "kept": 14
-      },
-      {
-        "host": "www.mlbtraderumors.com",
-        "sec": 0.278,
-        "kept": 14
       },
       {
         "host": "www.bls.gov",
-        "sec": 0.203,
+        "sec": 0.374,
         "kept": 0
+      },
+      {
+        "host": "www.mlbtraderumors.com",
+        "sec": 0.353,
+        "kept": 14
+      },
+      {
+        "host": "www.cp24.com",
+        "sec": 0.339,
+        "kept": 14
       },
       {
         "host": "www.nhl.com",
-        "sec": 0.167,
+        "sec": 0.229,
         "kept": 0
       },
       {
-        "host": "www.federalreserve.gov",
-        "sec": 0.079,
+        "host": "www.mlb.com",
+        "sec": 0.218,
         "kept": 14
       },
       {
-        "host": "www.mlb.com",
-        "sec": 0.073,
+        "host": "www.federalreserve.gov",
+        "sec": 0.198,
         "kept": 14
       }
     ],
-    "elapsed_sec": 335.12,
+    "elapsed_sec": 351.4,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1064,7 +1086,7 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 13,
+      "ps_fatal_hits": 9,
       "ps_injury_hits": 1,
       "market_btc_hits": 0,
       "market_index_hits": 0,
@@ -1076,7 +1098,7 @@
       "substack_tagged": 0,
       "sports_team_hits": 15,
       "sports_player_hits": 5,
-      "sports_result_win_hits": 27,
+      "sports_result_win_hits": 26,
       "sports_result_loss_hits": 0,
       "sports_evening_hits": 25,
       "sports_playoff_hits": 0,
@@ -1089,17 +1111,17 @@
       "hype_jobs": 0,
       "hype_sports": 0,
       "hype_ceasefire": 0,
-      "reject_hits": 3,
+      "reject_hits": 2,
       "obit_hits": 3,
-      "major_figure_hits": 4,
+      "major_figure_hits": 0,
       "business_am_hits": 0
     },
     "sanity_stats": {
-      "link_verification_fail": 26,
-      "soft_404_drops": 59,
+      "link_verification_fail": 31,
+      "soft_404_drops": 63,
       "max_age_drops": 0,
-      "min_age_drops": 0,
-      "market_sanity_drops": 1,
+      "min_age_drops": 1,
+      "market_sanity_drops": 5,
       "backfill_steps_used": 0
     },
     "require_exact_count": 69,
