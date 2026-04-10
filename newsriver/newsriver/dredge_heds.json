@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Politics Podcast",
-      "display":"Politics Podcast",
-      "url":"https://fivethirtyeight.com/tag/politics-podcast",
+      "text":"Ingram, Raptors focused on clinching playoff spot",
+      "display":"Ingram, Raptors focused on clinching playoff spot",
+      "url":"https://globalnews.ca/news/11772926/ingram-raptors-focused-on-clinching-playoff-spot",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"What’s Next In The Abortion Drug Case",
+      "display":"What’s Next In The Abortion Drug Case",
+      "url":"https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"‘Malcolm In The Middle’ reboot loved by fans: “Sitcoms are back”",
-      "display":"‘Malcolm In The Middle’ reboot loved by fans: “Sitcoms are back”",
-      "url":"https://www.nme.com/news/tv/malcolm-in-the-middle-reboot-loved-by-fans-sitcoms-are-back-3939430",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Newly appointed Arkansas police chief resigns after slapping man in wheelchair in viral video",
-      "display":"Newly appointed Arkansas police chief resigns after slapping man in wheelchair in viral video",
-      "url":"https://nypost.com/2026/04/10/us-news/newly-appointed-arkansas-police-chief-robert-ephlin-resigns-after-viral-video-caught-him-slapping-man-in-wheelchair-putting-him-in-headlock",
+      "text":"EU's new digital border is officially rolled out today - but British tourists face 'hours and hours' in queues because airports are still 'not ready'",
+      "display":"EU's new digital border is officially rolled out today - but British tourists face 'hours and hours' in queues because airports are still 'not ready'",
+      "url":"https://www.dailymail.co.uk/travel/article-15721459/EUs-new-digital-border-EES-airport-queues.html",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-04-10T09:43:33Z"
+  "generated_utc":"2026-04-10T10:38:01Z"
 }
