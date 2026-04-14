@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Polls to close soon in 3 byelections in Ontario, Quebec",
-      "display":"Polls to close soon in 3 byelections in Ontario, Quebec",
-      "url":"https://toronto.citynews.ca/2026/04/13/byelections-results-april-2026-ontario-quebec",
+      "text":"Five Thingsto Know: Raptors vs. Cavaliers",
+      "display":"Five Thingsto Know: Raptors vs. Cavaliers",
+      "url":"https://globalnews.ca/news/11799705/five-thingsto-know-raptors-vs-cavaliers",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Toronto Tempo select Kiki Rice sixth overall in 2026 WNBA Draft",
+      "display":"Toronto Tempo select Kiki Rice sixth overall in 2026 WNBA Draft",
+      "url":"https://toronto.citynews.ca/2026/04/13/toronto-tempo-select-kiki-rice-sixth-overall-in-2026-wnba-draft",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Attempted murder charge laid in attack on OpenAI CEO Sam Altman’s home",
-      "display":"Attempted murder charge laid in attack on OpenAI CEO Sam Altman’s home",
-      "url":"https://globalnews.ca/news/11799876/sam-altman-openai-molotov-cocktail-charge",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"What’s Next In The Abortion Drug Case",
-      "display":"What’s Next In The Abortion Drug Case",
-      "url":"https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
+      "text":"Iron Maiden Among 2026 Rock & Roll Hall of Fame Inductees, But Will They Show Up?",
+      "display":"Iron Maiden Among 2026 Rock & Roll Hall of Fame Inductees, But Will They Show Up?",
+      "url":"https://consequence.net/2026/04/iron-maiden-2026-rock-roll-hall-of-fame-inductees",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-04-14T02:07:08Z"
+  "generated_utc":"2026-04-14T04:52:06Z"
 }
