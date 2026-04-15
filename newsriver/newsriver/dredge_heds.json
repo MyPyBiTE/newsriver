@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Calgary police seek public’s help in identifying Bridlewood arson suspect",
-      "display":"Calgary police seek public’s help in identifying Bridlewood arson suspect",
-      "url":"https://globalnews.ca/news/11803233/calgary-police-bridlewood-arson-suspect",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Winnipeg Football Club posts operating profit over $12 million",
+      "display":"Winnipeg Football Club posts operating profit over $12 million",
+      "url":"https://globalnews.ca/news/11803357/winnipeg-football-club-operating-profit-12-million",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"What’s Next In The Abortion Drug Case",
-      "display":"What’s Next In The Abortion Drug Case",
-      "url":"https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"The Genetic Roots of Extreme Morning Sickness",
-      "display":"The Genetic Roots of Extreme Morning Sickness",
-      "url":"https://nautil.us/the-genetic-roots-of-extreme-morning-sickness-1279900",
+      "text":"How Our Presidential Endorsement Tracker Works",
+      "display":"How Our Presidential Endorsement Tracker Works",
+      "url":"https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-04-15T22:59:57Z"
+  "generated_utc":"2026-04-15T23:47:40Z"
 }
