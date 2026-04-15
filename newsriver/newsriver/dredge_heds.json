@@ -1,19 +1,9 @@
 {
   "items":[
     {
-      "text":"Blue Jays No. 2 prospect Parker's first pro HR clears a building",
-      "display":"Blue Jays No. 2 prospect Parker's first pro HR clears a building",
-      "url":"https://www.mlb.com/bluejays/news/blue-jays-no-2-prospect-jojo-parker-first-professional-home-run",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Taylor Frankie Paul cleared of new domestic violence charges",
-      "display":"Taylor Frankie Paul cleared of new domestic violence charges",
-      "url":"https://globalnews.ca/news/11802227/taylor-frankie-paul-cleared-new-domestic-violence-charges",
+      "text":"Male suspect sought in alleged indecent act, sexual assault at Pickering mall clothing store",
+      "display":"Male suspect sought in alleged indecent act, sexual assault at Pickering mall clothing store",
+      "url":"https://toronto.citynews.ca/2026/04/15/pickering-mall-sexual-assault-suspect-indecent-act-wanted",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -21,9 +11,19 @@
       }
     },
     {
-      "text":"Shots fired in residential area near Islington and Bloor",
-      "display":"Shots fired in residential area near Islington and Bloor",
-      "url":"https://toronto.citynews.ca/2026/04/15/toronto-shooting-bloor-islington",
+      "text":"‘A clear setback’: More drivers speeding in Ottawa with photo radar gone, city says",
+      "display":"‘A clear setback’: More drivers speeding in Ottawa with photo radar gone, city says",
+      "url":"https://globalnews.ca/news/11802290/ottawa-automated-speed-enforcement",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Off-hand comment by Trump that White House tried to hide derailed GOP plans: report",
+      "display":"Off-hand comment by Trump that White House tried to hide derailed GOP plans: report",
+      "url":"https://www.rawstory.com/trump-child-care-2676722523",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-04-15T14:49:27Z"
+  "generated_utc":"2026-04-15T15:58:57Z"
 }
