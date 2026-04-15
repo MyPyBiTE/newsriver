@@ -1,57 +1,57 @@
 {
-  "generated_utc": "2026-04-15T00:01:29.839106Z",
+  "generated_utc": "2026-04-15T03:36:10.968492Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401866755",
-          "gameDate": "2026-04-14T23:30Z",
+          "gamePk": "401866754",
+          "gameDate": "2026-04-15T02:00Z",
           "status": {
             "detailedState": "Live",
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "1st",
-            "currentQuarter": "1st"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "MIA"
-              },
-              "score": 18
-            },
-            "home": {
-              "team": {
-                "abbreviation": "CHA"
-              },
-              "score": 22
-            }
-          }
-        },
-        {
-          "gamePk": "401866754",
-          "gameDate": "2026-04-15T02:00Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "3rd",
+            "currentQuarter": "3rd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "POR"
               },
-              "score": 0
+              "score": 66
             },
             "home": {
               "team": {
                 "abbreviation": "PHX"
               },
-              "score": 0
+              "score": 62
+            }
+          }
+        },
+        {
+          "gamePk": "401866755",
+          "gameDate": "2026-04-14T23:30Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "MIA"
+              },
+              "score": 126
+            },
+            "home": {
+              "team": {
+                "abbreviation": "CHA"
+              },
+              "score": 127
             }
           }
         }
