@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"What To Do About A Problem Like Dianne Feinstein?",
-      "display":"What To Do About A Problem Like Dianne Feinstein?",
-      "url":"https://fivethirtyeight.com/videos/what-to-do-about-a-problem-like-dianne-feinstein",
+      "text":"Blue Jays No. 2 prospect Parker's first pro HR clears a building",
+      "display":"Blue Jays No. 2 prospect Parker's first pro HR clears a building",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-no-2-prospect-jojo-parker-first-professional-home-run",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Taylor Frankie Paul cleared of new domestic violence charges",
+      "display":"Taylor Frankie Paul cleared of new domestic violence charges",
+      "url":"https://globalnews.ca/news/11802227/taylor-frankie-paul-cleared-new-domestic-violence-charges",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"The government has turned its back on pandemic prevention",
-      "display":"The government has turned its back on pandemic prevention",
-      "url":"https://www.independent.co.uk/news/health/uk-pandemic-aid-cuts-funding-b2958118.html",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"What no one dares to admit about being thin - and the effect it has on men: I've been everything 7st 8lb to 16st. You might not like it, but this is the no-nonsense truth...",
-      "display":"What no one dares to admit about being thin - and the effect it has on men: I've been everything 7st 8lb to 16st. You might not like it, but this is the no-nonsense truth...",
-      "url":"https://www.dailymail.co.uk/lifestyle/fitness-wellbeing/article-15733269/devastating-fat-jab-yo-yo-obese-URSULA-HIRSCHKORN.html",
+      "text":"Shots fired in residential area near Islington and Bloor",
+      "display":"Shots fired in residential area near Islington and Bloor",
+      "url":"https://toronto.citynews.ca/2026/04/15/toronto-shooting-bloor-islington",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-04-15T13:01:33Z"
+  "generated_utc":"2026-04-15T14:49:27Z"
 }
