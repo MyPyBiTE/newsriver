@@ -1,37 +1,11 @@
 {
-  "generated_utc": "2026-04-16T04:25:16.040957Z",
+  "generated_utc": "2026-04-16T06:18:19.048138Z",
   "dates": [
     {
       "games": [
         {
           "gamePk": "401866756",
           "gameDate": "2026-04-16T02:00Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "GSW"
-              },
-              "score": 99
-            },
-            "home": {
-              "team": {
-                "abbreviation": "LAC"
-              },
-              "score": 108
-            }
-          }
-        },
-        {
-          "gamePk": "401866757",
-          "gameDate": "2026-04-15T23:30Z",
           "status": {
             "detailedState": "Final",
             "abstractGameState": "Final"
@@ -43,15 +17,15 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "ORL"
+                "abbreviation": "GSW"
               },
-              "score": 97
+              "score": 126
             },
             "home": {
               "team": {
-                "abbreviation": "PHI"
+                "abbreviation": "LAC"
               },
-              "score": 109
+              "score": 121
             }
           }
         }
@@ -64,7 +38,7 @@
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260415",
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260416"
     ],
-    "games_count": 2,
+    "games_count": 1,
     "http_timeout_sec": 12.0,
     "version": "nba-relay-1.1",
     "preview_hours": 36,
