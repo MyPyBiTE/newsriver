@@ -1,57 +1,31 @@
 {
-  "generated_utc": "2026-04-18T19:06:58.918802Z",
+  "generated_utc": "2026-04-18T19:50:29.246055Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401869187",
-          "gameDate": "2026-04-18T17:00Z",
+          "gamePk": "401869188",
+          "gameDate": "2026-04-18T19:30Z",
           "status": {
             "detailedState": "Live",
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "3rd",
-            "currentQuarter": "3rd"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "TOR"
-              },
-              "score": 76
-            },
-            "home": {
-              "team": {
-                "abbreviation": "CLE"
-              },
-              "score": 97
-            }
-          }
-        },
-        {
-          "gamePk": "401869188",
-          "gameDate": "2026-04-18T19:30Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "MIN"
               },
-              "score": 0
+              "score": 10
             },
             "home": {
               "team": {
                 "abbreviation": "DEN"
               },
-              "score": 0
+              "score": 7
             }
           }
         },
@@ -104,6 +78,32 @@
                 "abbreviation": "LAL"
               },
               "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401869187",
+          "gameDate": "2026-04-18T17:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "TOR"
+              },
+              "score": 113
+            },
+            "home": {
+              "team": {
+                "abbreviation": "CLE"
+              },
+              "score": 126
             }
           }
         }
