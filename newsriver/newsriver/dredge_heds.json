@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Nova Scotians mourn those killed in mass shooting",
-      "display":"Nova Scotians mourn those killed in mass shooting",
-      "url":"https://globalnews.ca/news/11807259/nova-scotia-mourn-mass-shooting",
+      "text":"Fans travel to support Raptors in Cleveland",
+      "display":"Fans travel to support Raptors in Cleveland",
+      "url":"https://globalnews.ca/news/11807351/fans-travel-to-support-raptors-in-cleveland",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Life jacket worn by a passenger who survived the Titanic auctioned off for over $900,000",
+      "display":"Life jacket worn by a passenger who survived the Titanic auctioned off for over $900,000",
+      "url":"https://toronto.citynews.ca/2026/04/18/life-jacket-worn-by-a-passenger-who-survived-the-titanic-auctioned-off-for-over-900000",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"FIFA releases thousands of Toronto hotel rooms ahead of World Cup",
-      "display":"FIFA releases thousands of Toronto hotel rooms ahead of World Cup",
-      "url":"https://toronto.citynews.ca/2026/04/18/fifa-releases-thousands-of-toronto-hotel-rooms-ahead-of-world-cup",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"What’s Next In The Abortion Drug Case",
-      "display":"What’s Next In The Abortion Drug Case",
-      "url":"https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
+      "text":"What To Do About A Problem Like Dianne Feinstein?",
+      "display":"What To Do About A Problem Like Dianne Feinstein?",
+      "url":"https://fivethirtyeight.com/videos/what-to-do-about-a-problem-like-dianne-feinstein",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-04-18T18:34:25Z"
+  "generated_utc":"2026-04-18T19:27:57Z"
 }
