@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Canadian citizenship ceremony held in Halifax museum an emotional celebration",
-      "display":"Canadian citizenship ceremony held in Halifax museum an emotional celebration",
-      "url":"https://globalnews.ca/news/11807319/canadian-citizenship-halifax",
+      "text":"Cavaliers surge in second half to dominate Raptors in Game 1",
+      "display":"Cavaliers surge in second half to dominate Raptors in Game 1",
+      "url":"https://toronto.citynews.ca/2026/04/18/cavaliers-surge-in-second-half-to-dominate-raptors-in-game-1",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"NHL Stanley Cup playoffs begin with 3 Canadian teams in contention",
+      "display":"NHL Stanley Cup playoffs begin with 3 Canadian teams in contention",
+      "url":"https://globalnews.ca/news/11807382/nhl-stanley-cup-playoffs-begin",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Chelsea vs Manchester United - Premier League LIVE: Latest score and updates as fourth and sixth place meet in race for Champions League qualification",
-      "display":"Chelsea vs Manchester United - Premier League LIVE: Latest score and updates as fourth and sixth place meet in race for Champions League qualification",
-      "url":"https://www.dailymail.co.uk/sport/football/article-15742097/Chelsea-vs-Manchester-United-2025-26-Premier-League-LIVE-result.html",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "display":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "url":"https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
+      "text":"What’s Next In The Abortion Drug Case",
+      "display":"What’s Next In The Abortion Drug Case",
+      "url":"https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-04-18T19:58:15Z"
+  "generated_utc":"2026-04-18T20:35:39Z"
 }
