@@ -1,34 +1,8 @@
 {
-  "generated_utc": "2026-04-18T21:48:36.448479Z",
+  "generated_utc": "2026-04-18T22:18:09.949778Z",
   "dates": [
     {
       "games": [
-        {
-          "gamePk": "401869188",
-          "gameDate": "2026-04-18T19:30Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "MIN"
-              },
-              "score": 89
-            },
-            "home": {
-              "team": {
-                "abbreviation": "DEN"
-              },
-              "score": 95
-            }
-          }
-        },
         {
           "gamePk": "401869189",
           "gameDate": "2026-04-18T22:00Z",
@@ -78,6 +52,32 @@
                 "abbreviation": "LAL"
               },
               "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401869188",
+          "gameDate": "2026-04-18T19:30Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "MIN"
+              },
+              "score": 105
+            },
+            "home": {
+              "team": {
+                "abbreviation": "DEN"
+              },
+              "score": 116
             }
           }
         },
