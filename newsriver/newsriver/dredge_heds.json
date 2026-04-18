@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"SAIT layoffs highlight funding challenges at Alberta post-secondary schools",
-      "display":"SAIT layoffs highlight funding challenges at Alberta post-secondary schools",
-      "url":"https://globalnews.ca/news/11806280/sait-layoffs-international-students-tuition-funding-tools",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"City confirms explosion at Downsview Park was part of Drake video shoot, councillor calls it ‘alarming’",
+      "display":"City confirms explosion at Downsview Park was part of Drake video shoot, councillor calls it ‘alarming’",
+      "url":"https://toronto.citynews.ca/2026/04/17/city-confirms-explosion-at-downsview-park-was-part-of-drake-video-shoot-councillor-calls-it-alarming",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "display":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "url":"https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Kash Patel 'freaked out' fearing his firing — and officials say he was 'rightly paranoid'",
-      "display":"Kash Patel 'freaked out' fearing his firing — and officials say he was 'rightly paranoid'",
-      "url":"https://www.rawstory.com/kash-patel-2676760473",
+      "text":"Hellebuyck, Jets left to deal with rapid fall from grace this season",
+      "display":"Hellebuyck, Jets left to deal with rapid fall from grace this season",
+      "url":"https://globalnews.ca/news/11807031/hellebuyck-jets-left-to-deal-with-rapid-fall-from-grace-this-season",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-04-18T03:28:27Z"
+  "generated_utc":"2026-04-18T05:21:29Z"
 }
