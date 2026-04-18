@@ -1,34 +1,8 @@
 {
-  "generated_utc": "2026-04-18T04:40:14.538148Z",
+  "generated_utc": "2026-04-18T06:02:32.143265Z",
   "dates": [
     {
       "games": [
-        {
-          "gamePk": "401866759",
-          "gameDate": "2026-04-18T02:00Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "GSW"
-              },
-              "score": 90
-            },
-            "home": {
-              "team": {
-                "abbreviation": "PHX"
-              },
-              "score": 105
-            }
-          }
-        },
         {
           "gamePk": "401869187",
           "gameDate": "2026-04-18T17:00Z",
@@ -134,8 +108,8 @@
           }
         },
         {
-          "gamePk": "401866758",
-          "gameDate": "2026-04-17T23:30Z",
+          "gamePk": "401866759",
+          "gameDate": "2026-04-18T02:00Z",
           "status": {
             "detailedState": "Final",
             "abstractGameState": "Final"
@@ -147,15 +121,15 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "CHA"
+                "abbreviation": "GSW"
               },
-              "score": 90
+              "score": 96
             },
             "home": {
               "team": {
-                "abbreviation": "ORL"
+                "abbreviation": "PHX"
               },
-              "score": 121
+              "score": 111
             }
           }
         }
@@ -168,7 +142,7 @@
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260417",
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260418"
     ],
-    "games_count": 6,
+    "games_count": 5,
     "http_timeout_sec": 12.0,
     "version": "nba-relay-1.1",
     "preview_hours": 36,
