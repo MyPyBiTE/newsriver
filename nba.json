@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-04-19T22:59:42.404418Z",
+  "generated_utc": "2026-04-19T23:48:35.548792Z",
   "dates": [
     {
       "games": [
@@ -11,21 +11,21 @@
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "1st",
-            "currentQuarter": "1st"
+            "currentPeriodOrdinal": "2nd",
+            "currentQuarter": "2nd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "ORL"
               },
-              "score": 27
+              "score": 55
             },
             "home": {
               "team": {
                 "abbreviation": "DET"
               },
-              "score": 20
+              "score": 51
             }
           }
         },
@@ -80,32 +80,6 @@
               "score": 119
             }
           }
-        },
-        {
-          "gamePk": "401869191",
-          "gameDate": "2026-04-19T17:00Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "PHI"
-              },
-              "score": 91
-            },
-            "home": {
-              "team": {
-                "abbreviation": "BOS"
-              },
-              "score": 123
-            }
-          }
         }
       ]
     }
@@ -116,7 +90,7 @@
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260418",
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260419"
     ],
-    "games_count": 4,
+    "games_count": 3,
     "http_timeout_sec": 12.0,
     "version": "nba-relay-1.1",
     "preview_hours": 36,
