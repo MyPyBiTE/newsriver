@@ -1,6 +1,16 @@
 {
   "items":[
     {
+      "text":"Hit, hit, hit, hit, hit, hit, hit, BB ... Blue Jays' first 8 batters reach in 8-run 1st!",
+      "display":"Hit, hit, hit, hit, hit, hit, hit, BB ... Blue Jays' first 8 batters reach in 8-run 1st!",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-first-eight-batters-reach-safely-in-eight-run-first-inning",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
       "text":"Oil prices rise as U.S.-Iran standoff continues in Strait of Hormuz",
       "display":"Oil prices rise as U.S.-Iran standoff continues in Strait of Hormuz",
       "url":"https://globalnews.ca/news/11808120/iran-oil-prices-strait-of-hormuz-standoff",
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Politics Podcast",
-      "display":"Politics Podcast",
-      "url":"https://fivethirtyeight.com/tag/politics-podcast",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Liberty coach Chris DeMarco not running away from title expectations: ‘Really prepared’",
-      "display":"Liberty coach Chris DeMarco not running away from title expectations: ‘Really prepared’",
-      "url":"https://nypost.com/2026/04/19/sports/liberty-coach-chris-demarco-not-running-away-from-title-expectations",
+      "text":"Oil prices rise anew after a U.S.-Iran standoff in the Strait of Hormuz strands tankers",
+      "display":"Oil prices rise anew after a U.S.-Iran standoff in the Strait of Hormuz strands tankers",
+      "url":"https://toronto.citynews.ca/2026/04/19/oil-prices-rise-anew-after-a-u-s-iran-standoff-in-the-strait-of-hormuz-strands-tankers",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-04-19T23:03:43Z"
+  "generated_utc":"2026-04-19T23:51:32Z"
 }
