@@ -1,63 +1,11 @@
 {
-  "generated_utc": "2026-04-19T00:05:02.461893Z",
+  "generated_utc": "2026-04-19T03:47:12.766883Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401869189",
-          "gameDate": "2026-04-18T22:00Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "3rd",
-            "currentQuarter": "3rd"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "ATL"
-              },
-              "score": 71
-            },
-            "home": {
-              "team": {
-                "abbreviation": "NYK"
-              },
-              "score": 77
-            }
-          }
-        },
-        {
           "gamePk": "401869190",
           "gameDate": "2026-04-19T00:30Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "HOU"
-              },
-              "score": 0
-            },
-            "home": {
-              "team": {
-                "abbreviation": "LAL"
-              },
-              "score": 0
-            }
-          }
-        },
-        {
-          "gamePk": "401869188",
-          "gameDate": "2026-04-18T19:30Z",
           "status": {
             "detailedState": "Final",
             "abstractGameState": "Final"
@@ -69,15 +17,41 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "MIN"
+                "abbreviation": "HOU"
               },
-              "score": 105
+              "score": 98
             },
             "home": {
               "team": {
-                "abbreviation": "DEN"
+                "abbreviation": "LAL"
               },
-              "score": 116
+              "score": 107
+            }
+          }
+        },
+        {
+          "gamePk": "401869189",
+          "gameDate": "2026-04-18T22:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "ATL"
+              },
+              "score": 102
+            },
+            "home": {
+              "team": {
+                "abbreviation": "NYK"
+              },
+              "score": 113
             }
           }
         }
@@ -90,7 +64,7 @@
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260417",
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260418"
     ],
-    "games_count": 3,
+    "games_count": 2,
     "http_timeout_sec": 12.0,
     "version": "nba-relay-1.1",
     "preview_hours": 36,
