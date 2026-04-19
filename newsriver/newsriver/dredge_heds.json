@@ -1,6 +1,16 @@
 {
   "items":[
     {
+      "text":"Hit, hit, hit, hit, hit, hit, hit, BB ... Blue Jays' first 8 batters reach in 8-run 1st!",
+      "display":"Hit, hit, hit, hit, hit, hit, hit, BB ... Blue Jays' first 8 batters reach in 8-run 1st!",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-first-eight-batters-reach-safely-in-eight-run-first-inning",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
       "text":"Film School: Raptors do deep dive on Game 1 loss",
       "display":"Film School: Raptors do deep dive on Game 1 loss",
       "url":"https://globalnews.ca/news/11808028/film-school-raptors-do-deep-dive-on-game-1-loss",
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"How Our Presidential Endorsement Tracker Works",
-      "display":"How Our Presidential Endorsement Tracker Works",
-      "url":"https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Trump says U.S. struck and seized Iranian-flagged cargo ship in Gulf of Oman",
-      "display":"Trump says U.S. struck and seized Iranian-flagged cargo ship in Gulf of Oman",
-      "url":"https://www.cnbc.com/2026/04/19/trump-navy-iran-ship-gulf-of-oman.html",
+      "text":"Police chase ends with car crash in Kawartha Lakes, 2 people seriously injured",
+      "display":"Police chase ends with car crash in Kawartha Lakes, 2 people seriously injured",
+      "url":"https://toronto.citynews.ca/2026/04/19/police-chase-ends-with-car-crash-in-kawartha-lakes-2-people-seriously-injured",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-04-19T21:26:25Z"
+  "generated_utc":"2026-04-19T21:56:27Z"
 }
