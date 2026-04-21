@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-04-21T02:28:28.236851Z",
+  "generated_utc": "2026-04-21T05:14:07.511522Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401869387",
-          "gameDate": "2026-04-21T00:00Z",
+          "gamePk": "401869395",
+          "gameDate": "2026-04-21T02:30Z",
           "status": {
             "detailedState": "Live",
             "abstractGameState": "Live"
@@ -17,21 +17,21 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "ATL"
+                "abbreviation": "MIN"
               },
-              "score": 92
+              "score": 110
             },
             "home": {
               "team": {
-                "abbreviation": "NYK"
+                "abbreviation": "DEN"
               },
-              "score": 100
+              "score": 107
             }
           }
         },
         {
-          "gamePk": "401869395",
-          "gameDate": "2026-04-21T02:30Z",
+          "gamePk": "401869396",
+          "gameDate": "2026-04-21T23:00Z",
           "status": {
             "detailedState": "Preview",
             "abstractGameState": "Preview"
@@ -43,21 +43,73 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "MIN"
+                "abbreviation": "PHI"
               },
               "score": 0
             },
             "home": {
               "team": {
-                "abbreviation": "DEN"
+                "abbreviation": "BOS"
               },
               "score": 0
             }
           }
         },
         {
-          "gamePk": "401869369",
-          "gameDate": "2026-04-20T23:00Z",
+          "gamePk": "401869378",
+          "gameDate": "2026-04-22T00:00Z",
+          "status": {
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "POR"
+              },
+              "score": 0
+            },
+            "home": {
+              "team": {
+                "abbreviation": "SAS"
+              },
+              "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401869397",
+          "gameDate": "2026-04-22T02:30Z",
+          "status": {
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "HOU"
+              },
+              "score": 0
+            },
+            "home": {
+              "team": {
+                "abbreviation": "LAL"
+              },
+              "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401869387",
+          "gameDate": "2026-04-21T00:00Z",
           "status": {
             "detailedState": "Final",
             "abstractGameState": "Final"
@@ -69,15 +121,15 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "TOR"
+                "abbreviation": "ATL"
               },
-              "score": 105
+              "score": 107
             },
             "home": {
               "team": {
-                "abbreviation": "CLE"
+                "abbreviation": "NYK"
               },
-              "score": 115
+              "score": 106
             }
           }
         }
@@ -87,10 +139,10 @@
   "_meta": {
     "source": "espn",
     "urls": [
-      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260419",
-      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260420"
+      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260420",
+      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260421"
     ],
-    "games_count": 3,
+    "games_count": 5,
     "http_timeout_sec": 12.0,
     "version": "nba-relay-1.1",
     "preview_hours": 36,
