@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Etobicoke residents accuse developer of ‘gaming the system’ in fight over controversial eightplex",
-      "display":"Etobicoke residents accuse developer of ‘gaming the system’ in fight over controversial eightplex",
-      "url":"https://toronto.citynews.ca/2026/04/22/etobicoke-eightplex-site-mimico-residents-developer-toronto",
+      "text":"Varland halts Angels rally as Blue Jays hold on for 4-2 win",
+      "display":"Varland halts Angels rally as Blue Jays hold on for 4-2 win",
+      "url":"https://toronto.citynews.ca/2026/04/22/toronto-blue-jays-angels-jeff-hoffman-louis-varland",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Toronto fire to mitigate safety risks as crowds look to melt Drake’s ice sculpture",
+      "display":"Toronto fire to mitigate safety risks as crowds look to melt Drake’s ice sculpture",
+      "url":"https://globalnews.ca/news/11811905/drake-ice-sculpture-toronto",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Brand loved by Princess Kate has HUGE discounts on blouses, dresses and shoes after it enters administration - here are the best bargains to snap up",
-      "display":"Brand loved by Princess Kate has HUGE discounts on blouses, dresses and shoes after it enters administration - here are the best bargains to snap up",
-      "url":"https://www.dailymail.com/lifestyle/fashion/article-15754581/Brand-loved-Princess-Kate-HUGE-discounts-blouses-dresses-shoes-enters-administration-best-bargains-snap-up.html",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Major EU airline axes 20,000 summer flights due to Iran war - with more feared",
-      "display":"Major EU airline axes 20,000 summer flights due to Iran war - with more feared",
-      "url":"https://www.mirror.co.uk/money/major-eu-airline-axes-20000-37053153",
+      "text":"Trump Extends Iran Ceasefire While Maintaining Naval Blockade",
+      "display":"Trump Extends Iran Ceasefire While Maintaining Naval Blockade",
+      "url":"https://oilprice.com/Geopolitics/Middle-East/Trump-Extends-Iran-Ceasefire-While-Maintaining-Naval-Blockade.html",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-04-22T11:20:49Z"
+  "generated_utc":"2026-04-22T12:12:19Z"
 }
