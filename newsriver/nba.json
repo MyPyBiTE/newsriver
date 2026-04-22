@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-04-22T00:05:58.344480Z",
+  "generated_utc": "2026-04-22T03:37:35.360565Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401869396",
-          "gameDate": "2026-04-21T23:00Z",
+          "gamePk": "401869397",
+          "gameDate": "2026-04-22T02:30Z",
           "status": {
             "detailedState": "Live",
             "abstractGameState": "Live"
@@ -17,15 +17,15 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "PHI"
+                "abbreviation": "HOU"
               },
-              "score": 50
+              "score": 38
             },
             "home": {
               "team": {
-                "abbreviation": "BOS"
+                "abbreviation": "LAL"
               },
-              "score": 48
+              "score": 49
             }
           }
         },
@@ -33,51 +33,51 @@
           "gamePk": "401869378",
           "gameDate": "2026-04-22T00:00Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "POR"
               },
-              "score": 0
+              "score": 106
             },
             "home": {
               "team": {
                 "abbreviation": "SAS"
               },
-              "score": 0
+              "score": 103
             }
           }
         },
         {
-          "gamePk": "401869397",
-          "gameDate": "2026-04-22T02:30Z",
+          "gamePk": "401869396",
+          "gameDate": "2026-04-21T23:00Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "HOU"
+                "abbreviation": "PHI"
               },
-              "score": 0
+              "score": 111
             },
             "home": {
               "team": {
-                "abbreviation": "LAL"
+                "abbreviation": "BOS"
               },
-              "score": 0
+              "score": 97
             }
           }
         }
