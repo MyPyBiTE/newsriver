@@ -1,37 +1,89 @@
 {
-  "generated_utc": "2026-04-23T03:48:57.088549Z",
+  "generated_utc": "2026-04-23T05:56:13.526960Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401869368",
-          "gameDate": "2026-04-23T01:30Z",
+          "gamePk": "401869389",
+          "gameDate": "2026-04-23T23:00Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
           },
           "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
           },
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "PHX"
+                "abbreviation": "NYK"
               },
-              "score": 80
+              "score": 0
             },
             "home": {
               "team": {
-                "abbreviation": "OKC"
+                "abbreviation": "ATL"
               },
-              "score": 106
+              "score": 0
             }
           }
         },
         {
-          "gamePk": "401869411",
-          "gameDate": "2026-04-22T23:00Z",
+          "gamePk": "401869375",
+          "gameDate": "2026-04-24T00:00Z",
+          "status": {
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "CLE"
+              },
+              "score": 0
+            },
+            "home": {
+              "team": {
+                "abbreviation": "TOR"
+              },
+              "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401869398",
+          "gameDate": "2026-04-24T01:30Z",
+          "status": {
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "DEN"
+              },
+              "score": 0
+            },
+            "home": {
+              "team": {
+                "abbreviation": "MIN"
+              },
+              "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401869368",
+          "gameDate": "2026-04-23T01:30Z",
           "status": {
             "detailedState": "Final",
             "abstractGameState": "Final"
@@ -43,15 +95,15 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "ORL"
+                "abbreviation": "PHX"
               },
-              "score": 83
+              "score": 107
             },
             "home": {
               "team": {
-                "abbreviation": "DET"
+                "abbreviation": "OKC"
               },
-              "score": 98
+              "score": 120
             }
           }
         }
@@ -61,10 +113,10 @@
   "_meta": {
     "source": "espn",
     "urls": [
-      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260421",
-      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260422"
+      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260422",
+      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260423"
     ],
-    "games_count": 2,
+    "games_count": 4,
     "http_timeout_sec": 12.0,
     "version": "nba-relay-1.1",
     "preview_hours": 36,
