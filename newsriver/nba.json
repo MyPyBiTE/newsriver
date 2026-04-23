@@ -1,57 +1,57 @@
 {
-  "generated_utc": "2026-04-23T00:11:15.311977Z",
+  "generated_utc": "2026-04-23T03:48:57.088549Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401869411",
-          "gameDate": "2026-04-22T23:00Z",
+          "gamePk": "401869368",
+          "gameDate": "2026-04-23T01:30Z",
           "status": {
             "detailedState": "Live",
             "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": "2nd",
-            "currentQuarter": "2nd"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "ORL"
-              },
-              "score": 37
-            },
-            "home": {
-              "team": {
-                "abbreviation": "DET"
-              },
-              "score": 37
-            }
-          }
-        },
-        {
-          "gamePk": "401869368",
-          "gameDate": "2026-04-23T01:30Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "4th",
+            "currentQuarter": "4th"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "PHX"
               },
-              "score": 0
+              "score": 80
             },
             "home": {
               "team": {
                 "abbreviation": "OKC"
               },
-              "score": 0
+              "score": 106
+            }
+          }
+        },
+        {
+          "gamePk": "401869411",
+          "gameDate": "2026-04-22T23:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "ORL"
+              },
+              "score": 83
+            },
+            "home": {
+              "team": {
+                "abbreviation": "DET"
+              },
+              "score": 98
             }
           }
         }
