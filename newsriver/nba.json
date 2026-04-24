@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-04-24T22:48:06.350505Z",
+  "generated_utc": "2026-04-24T23:27:52.424733Z",
   "dates": [
     {
       "games": [
@@ -7,25 +7,25 @@
           "gamePk": "401869404",
           "gameDate": "2026-04-24T23:00Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "BOS"
               },
-              "score": 0
+              "score": 12
             },
             "home": {
               "team": {
                 "abbreviation": "PHI"
               },
-              "score": 0
+              "score": 14
             }
           }
         },
