@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-04-25T22:04:50.897227Z",
+  "generated_utc": "2026-04-25T22:53:32.207633Z",
   "dates": [
     {
       "games": [
@@ -7,25 +7,25 @@
           "gamePk": "401869391",
           "gameDate": "2026-04-25T22:00Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "2nd",
+            "currentQuarter": "2nd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "NYK"
               },
-              "score": 0
+              "score": 34
             },
             "home": {
               "team": {
                 "abbreviation": "ATL"
               },
-              "score": 0
+              "score": 24
             }
           }
         },
