@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-04-25T22:53:32.207633Z",
+  "generated_utc": "2026-04-25T23:35:09.063134Z",
   "dates": [
     {
       "games": [
@@ -19,13 +19,13 @@
               "team": {
                 "abbreviation": "NYK"
               },
-              "score": 34
+              "score": 58
             },
             "home": {
               "team": {
                 "abbreviation": "ATL"
               },
-              "score": 24
+              "score": 44
             }
           }
         },
@@ -80,32 +80,6 @@
               "score": 109
             }
           }
-        },
-        {
-          "gamePk": "401869414",
-          "gameDate": "2026-04-25T17:00Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "DET"
-              },
-              "score": 105
-            },
-            "home": {
-              "team": {
-                "abbreviation": "ORL"
-              },
-              "score": 113
-            }
-          }
         }
       ]
     }
@@ -116,7 +90,7 @@
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260424",
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260425"
     ],
-    "games_count": 4,
+    "games_count": 3,
     "http_timeout_sec": 12.0,
     "version": "nba-relay-1.1",
     "preview_hours": 36,
