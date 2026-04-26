@@ -1,8 +1,525 @@
 {
-  "generated_utc": "2026-04-26T15:06:50.960Z",
-  "itemset_hash": "20f617f30c1fdb41",
+  "generated_utc": "2026-04-26T16:00:51.690Z",
+  "itemset_hash": "8bdd3e2b743e448a",
   "count": 69,
   "items": [
+    {
+      "title": "What To Do About A Problem Like Dianne Feinstein?",
+      "url": "https://fivethirtyeight.com/videos/what-to-do-about-a-problem-like-dianne-feinstein",
+      "source": "FiveThirtyEight — Nate Silver",
+      "published_utc": "2026-04-26T15:57:54.497Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Politics Podcast",
+      "url": "https://fivethirtyeight.com/tag/politics-podcast",
+      "source": "FiveThirtyEight — Nate Silver",
+      "published_utc": "2026-04-26T15:57:54.497Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "John Harbaugh responds to Malik Nabers questioning Giants’ draft decision",
+      "url": "https://nypost.com/2026/04/26/sports/john-harbaugh-responds-to-malik-nabers-questioning-giants-draft-decision",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-04-26T15:54:56.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "How Our Presidential Endorsement Tracker Works",
+      "url": "https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
+      "source": "FiveThirtyEight — Nate Silver",
+      "published_utc": "2026-04-26T15:57:54.497Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
+      "url": "https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
+      "source": "FiveThirtyEight — Nate Silver",
+      "published_utc": "2026-04-26T15:57:54.497Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Raptors Lawson available to play vs. Cavaliers",
+      "url": "https://globalnews.ca/news/11817866/raptors-lawson-available-to-play-vs-cavaliers",
+      "source": ": Toronto",
+      "published_utc": "2026-04-26T15:52:21.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Local",
+      "region": "Canada"
+    },
+    {
+      "title": "Republicans Amplified Pro-Gun Control Protesters In Tennessee",
+      "url": "https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
+      "source": "FiveThirtyEight — Nate Silver",
+      "published_utc": "2026-04-26T15:57:54.497Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "What’s Next In The Abortion Drug Case",
+      "url": "https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
+      "source": "FiveThirtyEight — Nate Silver",
+      "published_utc": "2026-04-26T15:57:54.497Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "JD Vance 'sold his soul' – and voters are abandoning him for Trump favorite: analyst",
+      "url": "https://www.rawstory.com/vance-rubio-2676815710",
+      "source": "Raw Story",
+      "published_utc": "2026-04-26T15:50:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "How Concerned Are Americans About The Pitfalls Of AI?",
+      "url": "https://fivethirtyeight.com/videos/how-concerned-are-americans-about-the-pitfalls-of-ai",
+      "source": "FiveThirtyEight — Nate Silver",
+      "published_utc": "2026-04-26T15:57:54.497Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Live From New York: Will AI Replace This Podcast?",
+      "url": "https://fivethirtyeight.com/videos/live-from-new-york-will-ai-replace-this-podcast",
+      "source": "FiveThirtyEight — Nate Silver",
+      "published_utc": "2026-04-26T15:57:54.497Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "‘Kevin’ Cast and Character Guide: Who’s Voicing the Animals?",
+      "url": "https://www.thewrap.com/creative-content/tv-shows/kevin-show-cast-characters-voice-guide-amazon",
+      "source": "TheWrap",
+      "published_utc": "2026-04-26T15:49:15.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Donnie Wahlberg Offered Half His ‘Boston Blue’ Paycheck to Shoot in Boston: ‘It’s So Expensive’",
+      "url": "https://www.thewrap.com/creative-content/tv-shows/donnie-wahlberg-boston-blue-paycheck-half",
+      "source": "TheWrap",
+      "published_utc": "2026-04-26T15:47:25.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "‘This Was a Failure’: Fox’s Lawrence Jones Torches Secret Service Over Shooting",
+      "url": "https://www.mediaite.com/media/tv/this-was-a-failure-foxs-lawrence-jones-torches-secret-service-over-shooting",
+      "source": "Mediaite",
+      "published_utc": "2026-04-26T15:47:22.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Madonna debuts new music with Addison Rae at secret ‘Confessions Club’ event in LA",
+      "url": "https://www.nme.com/news/music/madonna-debuts-new-music-with-addison-rae-at-secret-confessions-club-event-in-la-3942628",
+      "source": "NME",
+      "published_utc": "2026-04-26T15:40:03.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "White House Correspondents’ Dinner Suspect Not Cooperating with Authorities, Acting AG Says",
+      "url": "https://www.tmz.com/2026/04/26/whcd-shooting-suspect-cole-allen-not-cooperating",
+      "source": "TMZ.com",
+      "published_utc": "2026-04-26T15:38:33.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Recipe: Apple and pecan stuffed French Toast with cream cheese filling",
+      "url": "https://globalnews.ca/news/11817855/recipe-apple-pecan-stuffed-french-toast-cream-cheese-filling",
+      "source": "globalnews.ca",
+      "published_utc": "2026-04-26T15:34:29.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "Trump's mental collapse will make somebody very rich",
+      "url": "https://www.rawstory.com/raw-investigates/trump-sleeping",
+      "source": "Raw Story",
+      "published_utc": "2026-04-26T15:33:10.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "‘State of war’: Why Israel has escalated attacks in Gaza",
+      "url": "https://www.aljazeera.com/news/2026/4/26/state-of-war-why-israel-has-escalated-attacks-in-gaza?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-04-26T15:32:20.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "CNN’s Wolf Blitzer Recounts “Frightening Experience” After White House Correspondents’ Dinner Shooting",
+      "url": "https://www.hollywoodreporter.com/news/general-news/cnn-wolf-blitzer-frightening-experience-whcd-shooting-1236577462",
+      "source": "The Hollywood Reporter",
+      "published_utc": "2026-04-26T15:31:52.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "‘Just wreckage’: Vancouver police, witnesses recall Lapu Lapu tragedy on 1st anniversary",
+      "url": "https://globalnews.ca/news/11816509/lapu-lapu-day-hit-and-run-vancouver-1st-anniversary",
+      "source": "globalnews.ca",
+      "published_utc": "2026-04-26T15:30:43.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "The controversial play that enraged Nikola Jokic and sparked Nuggets-Timberwolves scuffle",
+      "url": "https://nypost.com/2026/04/26/sports/the-controversial-play-that-enraged-nikola-jokic-in-nuggets-timberwolves-scuffle",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-04-26T15:30:27.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Megan Thee Stallion breaks down in tears during ‘Moulin Rouge’ Broadway performance after Klay Thompson split",
+      "url": "https://pagesix.com/2026/04/26/celebrity-news/megan-thee-stallion-breaks-down-in-tears-during-moulin-rouge-performance-after-klay-thompson-split",
+      "source": "New York Post",
+      "published_utc": "2026-04-26T15:26:30.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Trump suffers major blow after Iran claims victory over 'piracy by US terrorist forces'",
+      "url": "https://www.rawstory.com/iran-war-2676815957",
+      "source": "Raw Story",
+      "published_utc": "2026-04-26T15:21:43.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Details emerge of alleged shooter at White House correspondents' dinner",
+      "url": "https://www.npr.org/2026/04/26/g-s1-118807/trump-white-house-correspondents-dinner",
+      "source": "NPR Topics: Home Page Top Stories",
+      "published_utc": "2026-04-26T15:20:28.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Michael Keaton Returns to Hometown Pittsburgh to Announce Steelers’ NFL Draft Pick",
+      "url": "https://variety.com/2026/sports/news/michael-keaton-nfl-draft-pittsburgh-steelers-1236730668",
+      "source": "Variety",
+      "published_utc": "2026-04-26T15:20:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Will Yamal, Salah and Ekitike miss the World Cup 2026 due to injury?",
+      "url": "https://www.aljazeera.com/sports/2026/4/26/will-yamal-salah-and-ekitike-miss-the-world-cup-2026-due-to-injury?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-04-26T15:19:35.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Correspondents’ Dinner Shooter Used ‘Anti-Trump and Anti-Trump Rhetoric’: Report",
+      "url": "https://www.mediaite.com/media/news/correspondents-dinner-shooter-used-anti-trump-and-anti-trump-rhetoric-report",
+      "source": "Mediaite",
+      "published_utc": "2026-04-26T15:16:28.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Albert Suarez Designated For Assignment",
+      "url": "https://www.mlbtraderumors.com/2026/04/albert-suarez-designated-for-assignment.html",
+      "source": "MLB Trade Rumors",
+      "published_utc": "2026-04-26T15:15:47.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "1 person dead after boat overturns in the St. Lawrence River: police",
+      "url": "https://toronto.citynews.ca/2026/04/26/1-person-dead-after-boat-overturns-in-the-st-lawrence-river-police",
+      "source": "CityNews Toronto",
+      "published_utc": "2026-04-26T15:15:04.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "breaker"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "Athletics Designate Andy Ibanez For Assignment, Reinstate Brent Rooker",
+      "url": "https://www.mlbtraderumors.com/2026/04/athletics-designate-andy-ibanez-for-assignment-reinstate-brent-rooker.html",
+      "source": "MLB Trade Rumors",
+      "published_utc": "2026-04-26T15:13:39.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "'Shady salesman' Lutnick under fire for inflating Trump Gold Card numbers: insider",
+      "url": "https://www.rawstory.com/howard-lutnick-2676815888",
+      "source": "Raw Story",
+      "published_utc": "2026-04-26T15:11:18.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "David Lee Roth Shows Up at Stagecoach: ‘Classic Van Halen Is Probably 30 Percent Cowboy Hat’",
+      "url": "https://www.rollingstone.com/music/music-country/teddy-swims-david-lee-roth-stagecoach-2026-1235553772",
+      "source": "Rolling Stone",
+      "published_utc": "2026-04-26T15:11:03.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "White House Correspondents’ Dinner Host Oz Pearlman Thought They Were Going to Die",
+      "url": "https://www.tmz.com/2026/04/26/mentalist-oz-pearlman-feared-for-life-at-whcd-shooting",
+      "source": "TMZ.com",
+      "published_utc": "2026-04-26T15:08:27.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "War, the Gulf & Rethinking Money in Sport",
+      "url": "https://www.aljazeera.com/video/game-theory/2026/4/26/aje-onl-gulf-sport_v3-260426?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-04-26T15:06:12.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Observations from Montreal",
+      "url": "https://cultmtl.com/2026/04/observations-from-montreal-canada",
+      "source": "Cult MTL",
+      "published_utc": "2026-04-26T15:04:00.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Culture",
+      "region": "Canada"
+    },
+    {
+      "title": "‘Michael’ Moonwalks Tall With Biopic Record $217 Global Box Office Opening",
+      "url": "https://www.thewrap.com/creative-content/movies/michael-box-office-biopic-record",
+      "source": "TheWrap",
+      "published_utc": "2026-04-26T15:00:12.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
     {
       "title": "The Green Hydrogen Dream Is Slipping Further Out of Reach",
       "url": "https://oilprice.com/Energy/Energy-General/The-Green-Hydrogen-Dream-Is-Slipping-Further-Out-of-Reach.html",
@@ -20,9 +537,9 @@
       "region": "Canada"
     },
     {
-      "title": "SAG-AFTRA Resumes Talks With AMPTP: AI & Pension Funding Details Need Work As Parties Seek To Close Deal Before DGA Negotiations",
-      "url": "https://deadline.com/2026/04/sag-aftra-amptp-resume-negotiations-ahead-of-dga-1236871347",
-      "source": "Deadline",
+      "title": "Runner Mary Cain’s memoir delves into the the toxic, abusive world of youth sports — but there are exhilerating highs as well",
+      "url": "https://nypost.com/2026/04/26/sports/mary-cains-memoir-delves-into-the-the-toxicity-of-youth-sports",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
       "published_utc": "2026-04-26T15:00:00.000Z",
       "effects": {
         "lightsaber": false,
@@ -32,7 +549,33 @@
         ],
         "style": "glitch"
       },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "SAG-AFTRA Resumes Talks With AMPTP: AI & Pension Funding Details Need Work As Parties Seek To Close Deal Before DGA Negotiations",
+      "url": "https://deadline.com/2026/04/sag-aftra-amptp-resume-negotiations-ahead-of-dga-1236871347",
+      "source": "Deadline",
+      "published_utc": "2026-04-26T15:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
       "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Stream It Or Skip It: ‘Lainey Wilson: Keepin’ Country Cool’ on Netflix, Where The Singer-Songwriter Looks At Her Journey While Making A New Map",
+      "url": "https://decider.com/2026/04/26/lainey-wilson-keepin-country-cool-netflix-review",
+      "source": "New York Post",
+      "published_utc": "2026-04-26T15:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
       "region": "World"
     },
     {
@@ -55,13 +598,49 @@
       "published_utc": "2026-04-26T14:56:00.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
-      "category": "Labour",
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "See BTS Kick Off North American Leg of Arirang World Tour in Tampa",
+      "url": "https://www.rollingstone.com/music/music-news/bts-north-american-leg-arirang-world-tour-tampa-1235553802",
+      "source": "Rolling Stone",
+      "published_utc": "2026-04-26T14:55:59.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Acting Attorney General Says Suspect That Allegedly Targeted Trump Admin Is Not ‘Cooperating’",
+      "url": "https://dailycaller.com/2026/04/26/todd-blanche-suspect-targeted-trump-admin-not-cooperating",
+      "source": "The Daily Caller",
+      "published_utc": "2026-04-26T14:55:24.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "‘Michael’ Rocks Box Office With Record-Setting $97 Million Debut",
+      "url": "https://variety.com/2026/film/box-office/michael-box-office-opening-weekend-record-1236730805",
+      "source": "Film",
+      "published_utc": "2026-04-26T14:54:51.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
       "region": "World"
     },
     {
@@ -81,10 +660,42 @@
       "region": "Canada"
     },
     {
-      "title": "Albert Suarez Designated For Assignment",
-      "url": "https://www.mlbtraderumors.com/2026/04/albert-suarez-designated-for-assignment.html",
-      "source": "MLB Trade Rumors",
-      "published_utc": "2026-04-26T14:33:47.000Z",
+      "title": "Trump and Friends Use Dinner Shooting to Boost Ballroom",
+      "url": "https://www.motherjones.com/politics/2026/04/trump-shooting-whcd-shooting-ballroom",
+      "source": "Mother Jones",
+      "published_utc": "2026-04-26T14:48:07.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "'Layers of failure' to lax security after Correspondents Dinner shooting: journalist",
+      "url": "https://www.rawstory.com/white-house-correspondents-2676815808",
+      "source": "Raw Story",
+      "published_utc": "2026-04-26T14:42:43.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Anthony Edwards out ‘weeks’ with knee injury in brutal Timberwolves playoff blow",
+      "url": "https://nypost.com/2026/04/26/sports/anthony-edwards-out-weeks-with-knee-injury-in-timberwolves-playoff-blow",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-04-26T14:41:15.000Z",
       "effects": {
         "lightsaber": true,
         "glitch": false,
@@ -95,6 +706,87 @@
       },
       "category": "Labour",
       "region": "Canada"
+    },
+    {
+      "title": "Raskin: WHCD Shooting Could Be 'Moment of Unity' for Universal Background Checks",
+      "url": "https://www.breitbart.com/clips/2026/04/26/raskin-whcd-shooting-could-be-moment-of-unity-for-universal-background-checks",
+      "source": "Breitbart News",
+      "published_utc": "2026-04-26T14:37:56.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Ballroom Blitz: Trump Turns Shooter Incident into Campaign for $400 Million Bunker Even Though Dinner Would Never Be Held There",
+      "url": "https://www.showbiz411.com/2026/04/26/ballroom-blitz-trump-turns-shooter-incident-into-campaign-for-400-million-bunker-even-though-dinner-would-never-be-held-there",
+      "source": "Showbiz411",
+      "published_utc": "2026-04-26T14:37:14.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Dodgers’ Roki Sasaki has abandoned search for his old self",
+      "url": "https://nypost.com/2026/04/26/sports/dodgers-roki-sasaki-has-abandoned-search-for-his-old-self",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-04-26T14:34:16.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "The American Way Is Under Fire",
+      "url": "https://www.thefp.com/p/the-american-way-is-under-fire",
+      "source": "The Free Press",
+      "published_utc": "2026-04-26T14:31:47.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Fox News’s Jacqui Heinrich Describes Experiencing Chaos On Stage During Trump Assassination Attempt",
+      "url": "https://dailycaller.com/2026/04/26/fox-news-jacqui-heinrich-describes-chaos-donald-trump-assassination-attempt",
+      "source": "The Daily Caller",
+      "published_utc": "2026-04-26T14:30:25.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Trump Promotes ‘Large, Safe, and Secure’ Ballroom After Shooting",
+      "url": "https://www.mediaite.com/media/news/trump-promotes-large-safe-and-secure-ballroom-after-shooting",
+      "source": "Mediaite",
+      "published_utc": "2026-04-26T14:29:13.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
     },
     {
       "title": "BTS Kick Off “ARIRANG” US Tour: See the 23-Song Setlist",
@@ -126,16 +818,84 @@
       "region": "Canada"
     },
     {
-      "title": "New Arrivals From HBX: C.P. Company",
-      "url": "https://hypebeast.com/2026/4/new-arrivals-from-hbx-c-p-company",
-      "source": "Hypebeast",
-      "published_utc": "2026-04-26T14:15:55.000Z",
+      "title": "Erika Kirk Evacuating White House Correspondents' Dinner in Tears",
+      "url": "https://www.tmz.com/2026/04/26/erika-kirk-crying-while-leaving-white-house-correspondents-dinner",
+      "source": "TMZ.com",
+      "published_utc": "2026-04-26T14:24:25.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
         "reasons": []
       },
-      "category": "Culture",
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "FACT CHECK: An X Account in 2023 Tweeted Name of Alleged WHCA Dinner Shooter in Only Post to Platform",
+      "url": "https://www.breitbart.com/tech/2026/04/26/fact-check-an-x-account-in-2023-tweeted-name-of-alleged-whca-dinner-shooter-in-only-post-to-platform",
+      "source": "Breitbart News",
+      "published_utc": "2026-04-26T14:21:38.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "This hell was part of the chaotic tragedy Trump has wrought",
+      "url": "https://www.rawstory.com/trump-2676815766",
+      "source": "Raw Story",
+      "published_utc": "2026-04-26T14:19:50.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Despite 12-run outburst, Dodgers still waiting on Shohei Ohtani, other stars to get hot",
+      "url": "https://nypost.com/2026/04/26/sports/dodgers-still-waiting-on-ohtani-freeman-tucker-to-get-hot",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-04-26T14:18:10.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Blanche: We Believe the Suspect Was Targeting Members of the Administration",
+      "url": "https://www.breitbart.com/clips/2026/04/26/blanche-we-believe-the-suspect-was-targeting-members-of-the-administration",
+      "source": "Breitbart News",
+      "published_utc": "2026-04-26T14:16:22.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Michael Jackson Movie Biggest Biopic Opening Ever, Studio Says Opening Weekend Receipts Estimated at $217.4 Mil, Reviews Be Damned",
+      "url": "https://www.showbiz411.com/2026/04/26/michael-jackson-movie-biggest-biopic-opening-ever-studio-says-opening-weekend-receipts-estimated-at-200-mil-reviews-be-damned",
+      "source": "Showbiz411",
+      "published_utc": "2026-04-26T14:13:45.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
       "region": "World"
     },
     {
@@ -144,12 +904,12 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published_utc": "2026-04-26T14:13:42.000Z",
       "effects": {
-        "lightsaber": true,
-        "glitch": false,
+        "lightsaber": false,
+        "glitch": true,
         "reasons": [
-          "score≥2.6"
+          "score≥2.1"
         ],
-        "style": "lightsaber"
+        "style": "glitch"
       },
       "category": "Business",
       "region": "World"
@@ -171,19 +931,19 @@
       "region": "Canada"
     },
     {
-      "title": "Montreal airport sets up memorial for Air Canada pilots killed in LaGuardia crash",
-      "url": "https://globalnews.ca/news/11817837/montreal-airport-memorial-air-canada-pilots",
-      "source": "globalnews.ca",
-      "published_utc": "2026-04-26T14:07:12.000Z",
+      "title": "Giants add Michigan kicker Dominic Zvada as part of slew of undrafted free agent signings",
+      "url": "https://nypost.com/2026/04/26/sports/giants-undrafted-free-agent-signings-2026-dominic-zvada-leads-list",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-04-26T14:09:22.000Z",
       "effects": {
-        "lightsaber": true,
-        "glitch": false,
+        "lightsaber": false,
+        "glitch": true,
         "reasons": [
-          "score≥2.6"
+          "score≥2.1"
         ],
-        "style": "breaker"
+        "style": "glitch"
       },
-      "category": "General",
+      "category": "Sports",
       "region": "Canada"
     },
     {
@@ -200,789 +960,10 @@
       "region": "World"
     },
     {
-      "title": "AI-generated music is flooding the internet — and it’s bad for everyone",
-      "url": "https://globalnews.ca/news/11813886/internet-flooded-by-tsunami-of-ai-generated-music",
-      "source": "globalnews.ca",
-      "published_utc": "2026-04-26T14:00:46.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "Freezing 5.6 million dormant bitcoin could trigger ‘worst’ single-day repricing",
-      "url": "https://www.coindesk.com/business/2026/04/26/freezing-5-6-million-dormant-bitcoin-could-trigger-worst-single-day-repricing",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published_utc": "2026-04-26T14:00:00.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Business",
-      "region": "World"
-    },
-    {
-      "title": "Carney faces pressure to show results in spring fiscal update: former PBO",
-      "url": "https://globalnews.ca/news/11817830/carney-spring-economic-update-pressure",
-      "source": "globalnews.ca",
-      "published_utc": "2026-04-26T13:58:46.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "Here’s what happened in crypto today",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today",
-      "source": "Cointelegraph.com News",
-      "published_utc": "2026-04-26T13:55:39.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Business",
-      "region": "World"
-    },
-    {
-      "title": "Market conditions force 1 in 3 crypto traders to cut everyday spending: Survey",
-      "url": "https://cointelegraph.com/news/market-conditions-force-1-in-3-crypto-traders-to-cut-everyday-spending-survey",
-      "source": "Cointelegraph.com News",
-      "published_utc": "2026-04-26T13:48:35.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Business",
-      "region": "World"
-    },
-    {
-      "title": "Only 3% of traders drive prediction markets' accuracy, not the crowd, study finds",
-      "url": "https://www.coindesk.com/markets/2026/04/26/only-3-of-traders-drive-prediction-markets-accuracy-not-the-crowd-study-finds",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published_utc": "2026-04-26T13:47:50.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Business",
-      "region": "World"
-    },
-    {
-      "title": "Mali rattled by ongoing armed attacks: What to know",
-      "url": "https://www.aljazeera.com/news/2026/4/26/mali-rattled-by-ongoing-armed-attacks-what-to-know?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-04-26T13:46:40.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "40 years since the world’s worst nuclear disaster in Ukraine",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/4/26/40-years-since-the-worlds-worst-nuclear-disaster-in-ukraine?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-04-26T13:45:49.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Foo Fighters Rip Through “Caught in the Echo” and “Child Actor” on SNL UK: Watch",
-      "url": "https://consequence.net/2026/04/foo-fighters-snk-uk-performances",
-      "source": "Consequence",
-      "published_utc": "2026-04-26T13:45:37.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Israel feared Amal Khalil, just as it did Shireen Abu Akleh",
-      "url": "https://www.aljazeera.com/opinions/2026/4/26/israel-feared-amal-khalil-just-as-it-did-shireen-abu-akleh?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-04-26T13:45:14.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Mali defence minister killed after coordinated attacks",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/4/26/mali-defence-minister-killed-after-coordinated-attacks?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-04-26T13:42:28.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Austin Slater Clears Waivers, Elects Free Agency",
-      "url": "https://www.mlbtraderumors.com/2026/04/marlins-to-designate-austin-slater-for-assignment.html",
-      "source": "MLB Trade Rumors",
-      "published_utc": "2026-04-26T13:40:44.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "Buying a home is a process. Make sure you have the right real estate agent",
-      "url": "https://www.canadianmortgagetrends.com/2026/04/buying-a-home-is-a-process-make-sure-you-have-the-right-real-estate-agent",
-      "source": "CMT News",
-      "published_utc": "2026-04-26T13:30:41.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Real Estate",
-      "region": "Canada"
-    },
-    {
-      "title": "Sam Huff Clears Waivers, Elects Free Agency",
-      "url": "https://www.mlbtraderumors.com/2026/04/orioles-designate-sam-huff-for-assignment.html",
-      "source": "MLB Trade Rumors",
-      "published_utc": "2026-04-26T13:20:56.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "What lies ahead for Gaza after ceasefires in Iran and Lebanon?",
-      "url": "https://www.aljazeera.com/news/2026/4/26/what-lies-ahead-for-gaza-after-ceasefires-in-iran-and-lebanon?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-04-26T13:20:08.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "1 person dead after car crash on Hwy. 401 in Pickering",
-      "url": "https://toronto.citynews.ca/2026/04/26/1-person-dead-after-car-crash-on-hwy-401-in-pickering",
-      "source": "CityNews Toronto",
-      "published_utc": "2026-04-26T13:20:02.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "breaker"
-      },
-      "category": "Local",
-      "region": "Canada"
-    },
-    {
-      "title": "Leaving Neverland Director Calls Michael Jackson “Worse than Jeffrey Epstein”",
-      "url": "https://consequence.net/2026/04/reed-on-michael-jackson",
-      "source": "Consequence",
-      "published_utc": "2026-04-26T13:15:01.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Fed set to lead uneasy G-7 with rates kept on hold this week",
-      "url": "https://www.canadianmortgagetrends.com/2026/04/fed-set-to-lead-uneasy-g-7-with-rates-kept-on-hold-this-week",
-      "source": "CMT News",
-      "published_utc": "2026-04-26T13:00:00.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Real Estate",
-      "region": "Canada"
-    },
-    {
-      "title": "MiCA's not enough: Bybit CEO says firms need other licenses to turn a profit in Europe",
-      "url": "https://www.coindesk.com/policy/2026/04/26/mica-s-not-enough-bybit-ceo-says-firms-need-other-licenses-to-turn-a-profit-in-europe",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published_utc": "2026-04-26T13:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Business",
-      "region": "World"
-    },
-    {
-      "title": "Syria puts first Assad-era official on trial in Damascus",
-      "url": "https://www.aljazeera.com/news/2026/4/26/syria-puts-al-assad-era-officials-on?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-04-26T12:31:50.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Accused gunman was likely targeting Trump and top officials at correspondents’ dinner: AG",
-      "url": "https://toronto.citynews.ca/2026/04/26/accused-gunman-at-correspondents-dinner-was-believed-to-be-targeting-top-officials-blanche-says",
-      "source": "CityNews Toronto",
-      "published_utc": "2026-04-26T12:04:15.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Local",
-      "region": "Canada"
-    },
-    {
-      "title": "ASICS' Freaky Dad Shoe-Sandal Has Mad Elderly Aura",
-      "url": "https://www.highsnobiety.com/p/asics-gel-filimy-glacier-sandal",
-      "source": "Highsnobiety",
-      "published_utc": "2026-04-26T12:01:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Coinbase's John D’Agostino says crypto platform stands alone as industry's full-service prime broker",
-      "url": "https://www.coindesk.com/business/2026/04/21/coinbase-s-john-d-agostino-says-exchange-stands-alone-as-crypto-s-full-service-prime-broker",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published_utc": "2026-04-26T12:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Business",
-      "region": "World"
-    },
-    {
-      "title": "At least 16 dead in strikes as Chernobyl anniversary highlights nuclear risks of Russia-Ukraine war",
-      "url": "https://toronto.citynews.ca/2026/04/26/at-least-16-dead-in-strikes-as-chernobyl-anniversary-highlights-nuclear-risks-of-russia-ukraine-war",
-      "source": "CityNews Toronto",
-      "published_utc": "2026-04-26T11:55:35.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6",
-          "body_count≥3"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Labour",
-      "region": "Canada"
-    },
-    {
-      "title": "Ethereum Foundation unstakes 17K ETH after nearing 70K staked ETH milestone",
-      "url": "https://cointelegraph.com/news/ethereum-foundation-unstakes-17k-eth-after-nearing-70k-staked-eth-milestone",
-      "source": "Cointelegraph.com News",
-      "published_utc": "2026-04-26T11:55:32.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Business",
-      "region": "World"
-    },
-    {
-      "title": "Timeline: Trump assassination attempts and security incidents",
-      "url": "https://www.aljazeera.com/news/2026/4/26/timeline-trump-assassination-attempts-and-security-incidents?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-04-26T11:24:37.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Iran’s foreign minister returns to Pakistan as Islamabad races to save negotiations with US",
-      "url": "https://toronto.citynews.ca/2026/04/26/pakistan-races-to-save-negotiations-between-us-and-iran-after-trump-keeps-envoys-home",
-      "source": "CityNews Toronto",
-      "published_utc": "2026-04-26T11:10:20.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Labour",
-      "region": "Canada"
-    },
-    {
-      "title": "Sabastian Sawe breaks fabled 2-hour barrier in the marathon to shatter world record by 65 seconds",
-      "url": "https://toronto.citynews.ca/2026/04/26/sabastian-sawe-of-kenya-becomes-first-person-to-run-a-sub-2-hour-marathon-to-win-in-london",
-      "source": "CityNews Toronto",
-      "published_utc": "2026-04-26T10:51:49.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Local",
-      "region": "Canada"
-    },
-    {
-      "title": "Mali’s Defence Minister Sadio Camara killed during coordinated attacks",
-      "url": "https://www.aljazeera.com/news/2026/4/26/malis-defence-minister-sadio-camara-killed-amid-coordinated-attacks?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-04-26T10:50:12.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "What we know about the suspected ‘assassination attempt’ on Donald Trump",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/4/26/what-we-know-about-the-suspected-assassination-attempt-on-donald-trump?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-04-26T10:50:04.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Michael Stipe says Billie Eilish could play a younger version of him in an R.E.M. biopic",
-      "url": "https://www.nme.com/news/music/michael-stipe-says-billie-eilish-could-play-a-younger-version-of-him-in-an-r-e-m-biopic-3942615",
-      "source": "NME",
-      "published_utc": "2026-04-26T10:36:53.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Cyndi Lauper calls out heckler at Vegas residency kick-off show: “If you’re trying to shade me, bitch, I’m gonna come for you”",
-      "url": "https://www.nme.com/news/music/cyndi-lauper-calls-out-heckler-at-vegas-residency-kick-off-show-if-youre-trying-to-shade-me-bitch-im-gonna-come-for-you-3942616",
-      "source": "NME",
-      "published_utc": "2026-04-26T10:35:34.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "At least four people killed in Israeli attacks in Gaza despite ‘ceasefire’",
-      "url": "https://www.aljazeera.com/news/2026/4/26/israeli-attacks-kill-at-least-four-palestinians-in-gaza?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-04-26T10:20:31.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "body_count≥3"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Israel destroys solar panels in south Lebanon",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/4/26/israel-destroys-solar-panels-in-south-lebanon?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-04-26T10:17:53.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Liberals must show results in spring economic update: former PBO",
-      "url": "https://toronto.citynews.ca/2026/04/26/liberals-must-show-results-in-spring-economic-update-former-pbo",
-      "source": "CityNews Toronto",
-      "published_utc": "2026-04-26T10:00:15.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Local",
-      "region": "Canada"
-    },
-    {
-      "title": "Copycats are frustrating but hard to stop in fashion business: experts",
-      "url": "https://toronto.citynews.ca/2026/04/26/copycats-are-frustrating-but-hard-to-stop-in-fashion-business-experts",
-      "source": "CityNews Toronto",
-      "published_utc": "2026-04-26T10:00:10.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Local",
-      "region": "Canada"
-    },
-    {
-      "title": "Watch Foo Fighters play ‘Child Actor’ and ‘Caught in the Echo’ on ‘SNL UK’",
-      "url": "https://www.nme.com/news/tv/watch-foo-fighters-play-child-actor-and-caught-in-the-echo-on-snl-uk-3942596",
-      "source": "NME",
-      "published_utc": "2026-04-26T09:52:45.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Listen to Kacey Musgraves’ country cover of SZA’s ‘Kill Bill’",
-      "url": "https://www.nme.com/news/music/listen-to-kacey-musgraves-country-cover-of-szas-kill-bill-3942598",
-      "source": "NME",
-      "published_utc": "2026-04-26T09:51:26.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Yemen’s landmine crisis endures despite truce and de-mining efforts",
-      "url": "https://www.aljazeera.com/features/2026/4/26/yemens-landmine-crisis-endures-despite-truce-and-de-mining-efforts?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-04-26T09:43:42.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Olivia Rodrigo debuts new “heartbreaking ballad” featuring Weyes Blood at secret LA show",
-      "url": "https://www.nme.com/news/music/olivia-rodrigo-debuts-new-heartbreaking-ballad-featuring-weyes-blood-at-secret-la-show-3942578",
-      "source": "NME",
-      "published_utc": "2026-04-26T09:06:27.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Armed groups launch coordinated attacks across Mali",
-      "url": "https://www.bbc.com/news/articles/clyx7nnrkqdo?at_campaign=rss&at_medium=RSS",
-      "source": "BBC News",
-      "published_utc": "2026-04-26T08:56:02.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "High winds prompt temporary evacuation at Stagecoach Festival",
-      "url": "https://www.nme.com/news/music/high-winds-prompt-temporary-evacuation-at-stagecoach-festival-3942573",
-      "source": "NME",
-      "published_utc": "2026-04-26T08:44:49.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Litecoin hit by denial-of-service attack, rewrites 13 blocks to reverse effect",
-      "url": "https://www.coindesk.com/markets/2026/04/26/litecoin-says-its-13-block-reorg-was-not-a-zero-day-but-github-commit-history-shows-otherwise",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published_utc": "2026-04-26T08:34:37.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Business",
-      "region": "World"
-    },
-    {
-      "title": "New Balance’s Most Advanced Dad Shoe Is For Dads of the Future",
-      "url": "https://www.highsnobiety.com/p/new-balance-1890-dark-silver-metallic",
-      "source": "Highsnobiety",
-      "published_utc": "2026-04-26T08:20:02.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "‘Leaving Neverland’ accuser shares statement of support to child sex abuse survivors amid ‘Michael’ release",
-      "url": "https://www.nme.com/news/film/leaving-neverland-accuser-shares-statement-of-support-to-child-sex-abuse-survivors-amid-michael-release-3942557",
-      "source": "NME",
-      "published_utc": "2026-04-26T08:16:38.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Carlos Alcaraz Has Officially Withdrawn From the 2026 French Open",
-      "url": "https://hypebeast.com/2026/4/carlos-alcaraz-withdraws-from-2026-french-open",
-      "source": "Hypebeast",
-      "published_utc": "2026-04-26T07:54:34.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Trump unhurt after shooting at White House Correspondents Dinner, “lone wolf” suspect in custody",
-      "url": "https://www.nme.com/politics/trump-unhurt-after-shooting-at-white-house-correspondents-dinner-lone-wolf-suspect-in-custody-3942555",
-      "source": "NME",
-      "published_utc": "2026-04-26T07:44:26.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Every song on the ‘Half Man’ soundtrack",
-      "url": "https://www.nme.com/news/tv/every-song-on-the-half-man-soundtrack-3942566",
-      "source": "NME",
-      "published_utc": "2026-04-26T07:42:49.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "The Turkish Grand Prix Is Officially Returning Starting 2027",
-      "url": "https://hypebeast.com/2026/4/formula-1-confirms-turkish-grand-prix-return-from-2027",
-      "source": "Hypebeast",
-      "published_utc": "2026-04-26T07:40:40.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "There’s a Snake in My Crocs: Disney x Pixar x Crocs Debut Structural ‘Toy Story 5’ Collab",
-      "url": "https://hypebeast.com/2026/4/disney-pixar-crocs-toy-story-5-jessie-boot-classic-clog-toy-story-alien-213009-90h-213010-90h-release-info",
-      "source": "Hypebeast",
-      "published_utc": "2026-04-26T07:31:54.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "‘Stranger Things: Tales From ‘85’ ending explained: where did the Hawkins infestation come from?",
-      "url": "https://www.nme.com/news/tv/stranger-things-tales-from-85-ending-explained-where-did-the-hawkins-infestation-come-from-3942558",
-      "source": "NME",
-      "published_utc": "2026-04-26T07:21:47.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "The Live-Action 'Spider-Noir' Trailer Drops Nicolas Cage Into a Gritty '30s Underworld",
-      "url": "https://hypebeast.com/2026/4/nicolas-cage-prime-video-amazon-mgm-studios-spider-noir-series-new-trailer-stream",
-      "source": "Hypebeast",
-      "published_utc": "2026-04-26T07:08:25.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Audi's 2026 Q3 Enlists Morgan Freeman and Chase Infiniti to Deliver a Cinematic Cosign",
-      "url": "https://hypebeast.com/2026/4/chase-infiniti-morgan-freeman-audi-q3-campaign",
-      "source": "Hypebeast",
-      "published_utc": "2026-04-26T06:42:54.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Inside The Ballroom As Gunfire Was Heard, President Trump Was Rushed Away And Journalists Scrambled To Report The Story",
-      "url": "https://deadline.com/2026/04/trump-white-house-correspondents-dinner-shooting-1236872432",
-      "source": "Deadline",
-      "published_utc": "2026-04-26T06:42:53.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "The Coca-Cola x G-SHOCK Collaboration Channels the Classic Contour Bottle",
-      "url": "https://hypebeast.com/2026/4/coca-cola-g-shock-ga-2100cc-3a-release-info",
-      "source": "Hypebeast",
-      "published_utc": "2026-04-26T06:33:51.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "The tortoise and the hare: will China beat the US in the race back to the moon?",
-      "url": "https://www.theguardian.com/science/2026/apr/26/china-us-space-race-moon",
-      "source": "World news | The Guardian",
-      "published_utc": "2026-04-26T06:00:07.000Z",
+      "title": "Suspected White House Correspondents' Dinner Shooter Donated to Democrat Fundraising Machine ActBlue",
+      "url": "https://www.breitbart.com/politics/2026/04/26/suspected-whcd-shooter-donated-to-democrat-fundraising-machine-actblue",
+      "source": "Breitbart News",
+      "published_utc": "2026-04-26T14:01:03.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -995,16 +976,16 @@
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 461,
-    "dedup_pass1": 460,
+    "collected": 760,
+    "dedup_pass1": 742,
     "dedup_final": 320,
-    "slow_domains": [],
+    "slow_domains": [
+      "theintercept.com"
+    ],
     "timeouts": [
+      "japantoday.com",
       "news.communitech.ca",
-      "weather.gc.ca",
-      "www.cbc.ca",
-      "www.publicsafety.gc.ca",
-      "www150.statcan.gc.ca"
+      "www.cbc.ca"
     ],
     "errors": [
       "alert.weather.gc.ca",
@@ -1014,61 +995,67 @@
       "cultmtl.com",
       "financialpost.com",
       "globalnews.ca",
-      "toronto.citynews.ca"
+      "nypost.com",
+      "toronto.citynews.ca",
+      "variety.com",
+      "www.boston.com",
+      "www.marketwatch.com",
+      "www.npr.org",
+      "www.wsj.com"
     ],
     "feed_times_sample": [
       {
-        "host": "www.labourstart.org",
-        "sec": 1.884,
-        "kept": 0
-      },
-      {
         "host": "globalnews.ca",
-        "sec": 1.638,
+        "sec": 1.865,
         "kept": 10
       },
       {
+        "host": "www.labourstart.org",
+        "sec": 1.469,
+        "kept": 0
+      },
+      {
         "host": "toronto.citynews.ca",
-        "sec": 0.929,
+        "sec": 1.091,
         "kept": 8
       },
       {
         "host": "www.cp24.com",
-        "sec": 0.649,
+        "sec": 0.325,
         "kept": 14
-      },
-      {
-        "host": "www.mlb.com",
-        "sec": 0.595,
-        "kept": 14
-      },
-      {
-        "host": "www.bls.gov",
-        "sec": 0.409,
-        "kept": 0
       },
       {
         "host": "www.blogto.com",
-        "sec": 0.339,
+        "sec": 0.279,
         "kept": 0
       },
       {
         "host": "www.mlbtraderumors.com",
-        "sec": 0.272,
+        "sec": 0.228,
         "kept": 14
       },
       {
         "host": "www.nhl.com",
-        "sec": 0.198,
+        "sec": 0.189,
+        "kept": 0
+      },
+      {
+        "host": "www.bls.gov",
+        "sec": 0.185,
         "kept": 0
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.189,
+        "sec": 0.148,
+        "kept": 14
+      },
+      {
+        "host": "www.mlb.com",
+        "sec": 0.146,
         "kept": 14
       }
     ],
-    "elapsed_sec": 352.8,
+    "elapsed_sec": 331.9,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1094,7 +1081,7 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 19,
+      "ps_fatal_hits": 25,
       "ps_injury_hits": 1,
       "market_btc_hits": 0,
       "market_index_hits": 0,
@@ -1102,17 +1089,17 @@
       "market_single_hits": 0,
       "agg_penalties": 0,
       "press_penalties": 0,
-      "preferred_bonus": 123,
+      "preferred_bonus": 126,
       "substack_tagged": 0,
-      "sports_team_hits": 12,
-      "sports_player_hits": 5,
-      "sports_result_win_hits": 7,
+      "sports_team_hits": 11,
+      "sports_player_hits": 8,
+      "sports_result_win_hits": 14,
       "sports_result_loss_hits": 0,
       "sports_evening_hits": 0,
       "sports_playoff_hits": 0,
-      "sports_focus_team_hits": 2,
-      "sports_final_hits": 0,
-      "sports_final_score_hits": 0,
+      "sports_focus_team_hits": 13,
+      "sports_final_hits": 1,
+      "sports_final_score_hits": 1,
       "hype_politics": 0,
       "hype_conflict": 0,
       "hype_markets": 0,
@@ -1120,16 +1107,16 @@
       "hype_sports": 0,
       "hype_ceasefire": 0,
       "reject_hits": 0,
-      "obit_hits": 3,
-      "major_figure_hits": 1,
-      "business_am_hits": 59
+      "obit_hits": 6,
+      "major_figure_hits": 2,
+      "business_am_hits": 70
     },
     "sanity_stats": {
-      "link_verification_fail": 13,
-      "soft_404_drops": 20,
+      "link_verification_fail": 35,
+      "soft_404_drops": 17,
       "max_age_drops": 0,
       "min_age_drops": 0,
-      "market_sanity_drops": 6,
+      "market_sanity_drops": 3,
       "backfill_steps_used": 0
     },
     "require_exact_count": 69,
