@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Fire kills 3 in Lower Sackville, N.S. as community faces tragedy again",
-      "display":"Fire kills 3 in Lower Sackville, N.S. as community faces tragedy again",
-      "url":"https://globalnews.ca/news/11818988/lower-sackville-fire-deaths",
+      "text":"Fans in line 7 hours early for what may be perfect Blue Jays giveaway",
+      "display":"Fans in line 7 hours early for what may be perfect Blue Jays giveaway",
+      "url":"https://www.mlb.com/bluejays/news/fans-pack-rogers-centre-for-ernie-clement-hockey-jersey-giveaway",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"3rd suspect arrested in connection to fatal 2025 King West shooting, 1 still at large",
+      "display":"3rd suspect arrested in connection to fatal 2025 King West shooting, 1 still at large",
+      "url":"https://toronto.citynews.ca/2026/04/27/3rd-suspect-arrested-in-connection-to-fatal-2025-king-west-shooting-1-still-at-large",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Lithium-ion batteries involved in high-rise fire at Wellesley and Parliament",
-      "display":"Lithium-ion batteries involved in high-rise fire at Wellesley and Parliament",
-      "url":"https://toronto.citynews.ca/2026/04/27/lithium-ion-batteries-involved-in-high-rise-fire-at-wellesley-and-parliament",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"How Our Presidential Endorsement Tracker Works",
-      "display":"How Our Presidential Endorsement Tracker Works",
-      "url":"https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
+      "text":"Rogers offering employees ‘voluntary’ departure, retirement packages",
+      "display":"Rogers offering employees ‘voluntary’ departure, retirement packages",
+      "url":"https://globalnews.ca/news/11819272/rogers-employee-departure-packages",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-04-27T21:45:52Z"
+  "generated_utc":"2026-04-27T22:40:26Z"
 }
