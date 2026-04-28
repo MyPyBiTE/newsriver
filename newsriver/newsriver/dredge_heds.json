@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"After weakest Winter Olympic medal count in years, Ottawa ups sport funding",
-      "display":"After weakest Winter Olympic medal count in years, Ottawa ups sport funding",
-      "url":"https://globalnews.ca/news/11821216/spring-economic-statement-sport-funding",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Man charged with second-degree murder in death of Calgary woman: RCMP",
+      "display":"Man charged with second-degree murder in death of Calgary woman: RCMP",
+      "url":"https://globalnews.ca/news/11821200/mini-thni-first-nation-murder",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "display":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "url":"https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Contractor reveals disturbing details about Jeffrey Epstein's New York City home",
-      "display":"Contractor reveals disturbing details about Jeffrey Epstein's New York City home",
-      "url":"https://www.rawstory.com/chilling-details-of-epstein-s-home",
+      "text":"Richmond Hill GO experiencing delays due to police investigations",
+      "display":"Richmond Hill GO experiencing delays due to police investigations",
+      "url":"https://toronto.citynews.ca/2026/04/28/richmond-hill-go-experiencing-delays-due-to-police-investigations",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-04-28T21:34:36Z"
+  "generated_utc":"2026-04-28T22:36:59Z"
 }
