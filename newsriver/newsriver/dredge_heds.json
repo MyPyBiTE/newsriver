@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Suárez fires 8 dominant innings as Red Sox blank Blue Jays 5-0 for first 3-game winning streak",
-      "display":"Suárez fires 8 dominant innings as Red Sox blank Blue Jays 5-0 for first 3-game winning streak",
-      "url":"https://www.boston.com/sports/boston-red-sox/2026/04/27/suarez-fires-8-dominant-innings-as-red-sox-blank-blue-jays-5-0-for-first-3-game-winning-streak",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"Man injured in North York shooting",
       "display":"Man injured in North York shooting",
       "url":"https://toronto.citynews.ca/2026/04/27/shooting-north-york-grandravine-keele",
@@ -29,7 +19,17 @@
         "is_landmark":false,
         "has_bitcoin":false
       }
+    },
+    {
+      "text":"LIV Golf Reportedly Postpones New Orleans Tournament After CEO Declared Season Would Continue ‘Full Throttle’",
+      "display":"LIV Golf Reportedly Postpones New Orleans Tournament After CEO Declared Season Would Continue ‘Full Throttle’",
+      "url":"https://dailycaller.com/2026/04/28/liv-golf-new-orleans-tournament-postponed",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
     }
   ],
-  "generated_utc":"2026-04-28T04:50:14Z"
+  "generated_utc":"2026-04-28T07:26:36Z"
 }
