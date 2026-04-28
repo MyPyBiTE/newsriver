@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"2 people found dead in Langley, homicide team called in",
-      "display":"2 people found dead in Langley, homicide team called in",
-      "url":"https://globalnews.ca/news/11819674/2-people-dead-langley-homicide-team",
+      "text":"Suárez fires 8 dominant innings as Red Sox blank Blue Jays 5-0 for first 3-game winning streak",
+      "display":"Suárez fires 8 dominant innings as Red Sox blank Blue Jays 5-0 for first 3-game winning streak",
+      "url":"https://www.boston.com/sports/boston-red-sox/2026/04/27/suarez-fires-8-dominant-innings-as-red-sox-blank-blue-jays-5-0-for-first-3-game-winning-streak",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Man injured in North York shooting",
+      "display":"Man injured in North York shooting",
+      "url":"https://toronto.citynews.ca/2026/04/27/shooting-north-york-grandravine-keele",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"What To Do About A Problem Like Dianne Feinstein?",
-      "display":"What To Do About A Problem Like Dianne Feinstein?",
-      "url":"https://fivethirtyeight.com/videos/what-to-do-about-a-problem-like-dianne-feinstein",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Karen Bass Trails LA Mayoral Competitors in 2026 Campaign Fundraising",
-      "display":"Karen Bass Trails LA Mayoral Competitors in 2026 Campaign Fundraising",
-      "url":"https://www.thewrap.com/media-platforms/politics/karen-bass-mayoral-election-campaign-2026-funding",
+      "text":"‘Hearts are broken’: OPP officer killed in line of duty in Cobourg crash",
+      "display":"‘Hearts are broken’: OPP officer killed in line of duty in Cobourg crash",
+      "url":"https://globalnews.ca/news/11819870/opp-officer-killed-cobourg-crash",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-04-28T01:21:02Z"
+  "generated_utc":"2026-04-28T04:50:14Z"
 }
