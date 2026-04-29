@@ -1,63 +1,11 @@
 {
-  "generated_utc": "2026-04-29T01:20:51.216595Z",
+  "generated_utc": "2026-04-29T04:49:43.701228Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401869408",
-          "gameDate": "2026-04-28T23:00Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "PHI"
-              },
-              "score": 104
-            },
-            "home": {
-              "team": {
-                "abbreviation": "BOS"
-              },
-              "score": 94
-            }
-          }
-        },
-        {
-          "gamePk": "401869392",
-          "gameDate": "2026-04-29T00:00Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "2nd",
-            "currentQuarter": "2nd"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "ATL"
-              },
-              "score": 47
-            },
-            "home": {
-              "team": {
-                "abbreviation": "NYK"
-              },
-              "score": 62
-            }
-          }
-        },
-        {
-          "gamePk": "401869386",
-          "gameDate": "2026-04-29T01:30Z",
+          "gamePk": "401869416",
+          "gameDate": "2026-04-29T23:00Z",
           "status": {
             "detailedState": "Preview",
             "abstractGameState": "Preview"
@@ -69,15 +17,145 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "POR"
+                "abbreviation": "ORL"
               },
               "score": 0
             },
             "home": {
               "team": {
-                "abbreviation": "SAS"
+                "abbreviation": "DET"
               },
               "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401869380",
+          "gameDate": "2026-04-29T23:30Z",
+          "status": {
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "TOR"
+              },
+              "score": 0
+            },
+            "home": {
+              "team": {
+                "abbreviation": "CLE"
+              },
+              "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401869407",
+          "gameDate": "2026-04-30T02:00Z",
+          "status": {
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "HOU"
+              },
+              "score": 0
+            },
+            "home": {
+              "team": {
+                "abbreviation": "LAL"
+              },
+              "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401869386",
+          "gameDate": "2026-04-29T01:30Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "POR"
+              },
+              "score": 95
+            },
+            "home": {
+              "team": {
+                "abbreviation": "SAS"
+              },
+              "score": 114
+            }
+          }
+        },
+        {
+          "gamePk": "401869392",
+          "gameDate": "2026-04-29T00:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "ATL"
+              },
+              "score": 97
+            },
+            "home": {
+              "team": {
+                "abbreviation": "NYK"
+              },
+              "score": 126
+            }
+          }
+        },
+        {
+          "gamePk": "401869408",
+          "gameDate": "2026-04-28T23:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "PHI"
+              },
+              "score": 113
+            },
+            "home": {
+              "team": {
+                "abbreviation": "BOS"
+              },
+              "score": 97
             }
           }
         }
@@ -87,10 +165,10 @@
   "_meta": {
     "source": "espn",
     "urls": [
-      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260427",
-      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260428"
+      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260428",
+      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260429"
     ],
-    "games_count": 3,
+    "games_count": 6,
     "http_timeout_sec": 12.0,
     "version": "nba-relay-1.1",
     "preview_hours": 36,
