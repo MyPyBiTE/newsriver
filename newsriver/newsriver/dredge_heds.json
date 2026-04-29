@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Irving Oil facing charges after diesel leaked from service station in December 2024",
-      "display":"Irving Oil facing charges after diesel leaked from service station in December 2024",
-      "url":"https://globalnews.ca/news/11823002/irving-oil-charge-diesel-leak",
+      "text":"Blue Jays activate Springer off IL, boosting ailing lineup",
+      "display":"Blue Jays activate Springer off IL, boosting ailing lineup",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-activate-george-springer-from-injured-list",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Drug exposure deaths in Saskatchewan children under five prompt warning",
+      "display":"Drug exposure deaths in Saskatchewan children under five prompt warning",
+      "url":"https://globalnews.ca/news/11823067/drug-exposure-deaths-saskatchewan-children-under-five",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Critics call out Ottawa for not contesting Iran joining UN nuclear weapons conference",
-      "display":"Critics call out Ottawa for not contesting Iran joining UN nuclear weapons conference",
-      "url":"https://toronto.citynews.ca/2026/04/29/critics-call-out-ottawa-for-not-contesting-iran-joining-un-nuclear-weapons-conference",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"How Our Presidential Endorsement Tracker Works",
-      "display":"How Our Presidential Endorsement Tracker Works",
-      "url":"https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
+      "text":"Black clouds of midges swarming Toronto’s waterways",
+      "display":"Black clouds of midges swarming Toronto’s waterways",
+      "url":"https://toronto.citynews.ca/2026/04/29/black-clouds-of-midges-swarming-torontos-waterways",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-04-29T20:52:59Z"
+  "generated_utc":"2026-04-29T21:52:31Z"
 }
