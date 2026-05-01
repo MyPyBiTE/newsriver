@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Man on trial for dangerous driving causing death claims he was acting in self-defence",
-      "display":"Man on trial for dangerous driving causing death claims he was acting in self-defence",
-      "url":"https://globalnews.ca/news/11824975/man-on-trial-dangerous-driving-causing-death-claims-self-defence",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Man charged with manslaughter in EPS officers’ deaths being used a scapegoat: defence",
+      "display":"Man charged with manslaughter in EPS officers’ deaths being used a scapegoat: defence",
+      "url":"https://globalnews.ca/news/11825202/edmonton-police-2023-shooting-trial-april-30",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"TTC granted no-board report, could result in union lockout ahead of World Cup matches",
-      "display":"TTC granted no-board report, could result in union lockout ahead of World Cup matches",
-      "url":"https://toronto.citynews.ca/2026/04/30/ttc-no-board-union-lockout-world-cup-matches",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"What’s Next In The Abortion Drug Case",
-      "display":"What’s Next In The Abortion Drug Case",
-      "url":"https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
+      "text":"Massive explosion at NYC home sends police officers flying",
+      "display":"Massive explosion at NYC home sends police officers flying",
+      "url":"https://toronto.citynews.ca/2026/04/30/massive-explosion-at-nyc-home-sends-police-officers-flying",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-04-30T23:35:12Z"
+  "generated_utc":"2026-05-01T01:25:48Z"
 }
