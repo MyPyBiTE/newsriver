@@ -1,12 +1,22 @@
 {
   "items":[
     {
-      "text":"Raptors look to stay alive with win over Cavs",
-      "display":"Raptors look to stay alive with win over Cavs",
-      "url":"https://globalnews.ca/news/11825534/raptors-look-to-stay-alive-with-win-over-cavs",
+      "text":"‘Who we are’: Albertans remember Fort McMurray wildfire 10 years later",
+      "display":"‘Who we are’: Albertans remember Fort McMurray wildfire 10 years later",
+      "url":"https://globalnews.ca/news/11825626/fort-mcmurray-fire-decade-anniversary",
       "flags":{
         "is_breaking":false,
-        "is_landmark":true,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"One year later and two Nova Scotian kids are still missing",
+      "display":"One year later and two Nova Scotian kids are still missing",
+      "url":"https://toronto.citynews.ca/2026/05/01/missing-kids-nova-scotia-one-year-later",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
         "has_bitcoin":false
       }
     },
@@ -19,17 +29,7 @@
         "is_landmark":false,
         "has_bitcoin":false
       }
-    },
-    {
-      "text":"Marvel star Evangeline Lilly attacks Disney for firing MCU artists who designed original films",
-      "display":"Marvel star Evangeline Lilly attacks Disney for firing MCU artists who designed original films",
-      "url":"https://www.nme.com/news/film/marvel-star-evangeline-lilly-attacks-disney-for-firing-mcu-artists-who-designed-original-films-3943477",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
     }
   ],
-  "generated_utc":"2026-05-01T10:50:20Z"
+  "generated_utc":"2026-05-01T12:56:45Z"
 }
