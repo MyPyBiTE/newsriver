@@ -1,19 +1,9 @@
 {
   "items":[
     {
-      "text":"Latest Blue Jays injuries & transactions",
-      "display":"Latest Blue Jays injuries & transactions",
-      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Man charged with manslaughter in EPS officers’ deaths being used a scapegoat: defence",
-      "display":"Man charged with manslaughter in EPS officers’ deaths being used a scapegoat: defence",
-      "url":"https://globalnews.ca/news/11825202/edmonton-police-2023-shooting-trial-april-30",
+      "text":"1 person killed in downtown Hamilton shooting: police",
+      "display":"1 person killed in downtown Hamilton shooting: police",
+      "url":"https://toronto.citynews.ca/2026/04/30/1-person-dead-in-downtown-hamilton-shooting",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -21,9 +11,19 @@
       }
     },
     {
-      "text":"Massive explosion at NYC home sends police officers flying",
-      "display":"Massive explosion at NYC home sends police officers flying",
-      "url":"https://toronto.citynews.ca/2026/04/30/massive-explosion-at-nyc-home-sends-police-officers-flying",
+      "text":"Family of Saskatoon homicide victim calls for more cultural supports",
+      "display":"Family of Saskatoon homicide victim calls for more cultural supports",
+      "url":"https://globalnews.ca/news/11825269/family-saskatoon-homicide-victim-more-cultural-supports",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
+      "display":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
+      "url":"https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-05-01T01:25:48Z"
+  "generated_utc":"2026-05-01T05:01:57Z"
 }
