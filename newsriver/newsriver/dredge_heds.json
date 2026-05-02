@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Hometown Saskatchewan Roughriders players officially retire from football",
-      "display":"Hometown Saskatchewan Roughriders players officially retire from football",
-      "url":"https://globalnews.ca/news/11826842/hometown-saskatchewan-roughriders-players-officially-retire-from-football",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"B.C. government wants feds to take lead on youth social media ban",
+      "display":"B.C. government wants feds to take lead on youth social media ban",
+      "url":"https://globalnews.ca/news/11826879/bc-government-feds-lead-youth-social-media-ban",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Minister says Liberals want to keep committees ‘transparent’ and ‘open’",
-      "display":"Minister says Liberals want to keep committees ‘transparent’ and ‘open’",
-      "url":"https://toronto.citynews.ca/2026/05/01/minister-says-liberals-want-to-keep-committees-transparent-and-open",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"What’s Next In The Abortion Drug Case",
-      "display":"What’s Next In The Abortion Drug Case",
-      "url":"https://fivethirtyeight.com/videos/whats-next-in-the-abortion-drug-case",
+      "text":"Two Canadians on Gaza flotilla intercepted by Israel have been released: organizer",
+      "display":"Two Canadians on Gaza flotilla intercepted by Israel have been released: organizer",
+      "url":"https://toronto.citynews.ca/2026/05/01/two-canadians-on-gaza-flotilla-intercepted-by-israel-have-been-released-organizer",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-05-01T23:35:15Z"
+  "generated_utc":"2026-05-02T01:17:00Z"
 }
