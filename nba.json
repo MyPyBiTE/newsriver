@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-02T04:29:05.662040Z",
+  "generated_utc": "2026-05-02T06:26:16.069623Z",
   "dates": [
     {
       "games": [
@@ -54,58 +54,6 @@
               "score": 78
             }
           }
-        },
-        {
-          "gamePk": "401869381",
-          "gameDate": "2026-05-01T23:30Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "CLE"
-              },
-              "score": 110
-            },
-            "home": {
-              "team": {
-                "abbreviation": "TOR"
-              },
-              "score": 112
-            }
-          }
-        },
-        {
-          "gamePk": "401869417",
-          "gameDate": "2026-05-01T23:00Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "DET"
-              },
-              "score": 93
-            },
-            "home": {
-              "team": {
-                "abbreviation": "ORL"
-              },
-              "score": 79
-            }
-          }
         }
       ]
     }
@@ -116,7 +64,7 @@
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260501",
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260502"
     ],
-    "games_count": 4,
+    "games_count": 2,
     "http_timeout_sec": 12.0,
     "version": "nba-relay-1.1",
     "preview_hours": 36,
