@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Toronto teen arrested and charged with robbery",
-      "display":"Toronto teen arrested and charged with robbery",
-      "url":"https://toronto.citynews.ca/2026/05/03/toronto-teen-arrested-and-charged-with-robbery",
+      "text":"Raptors’ Ingram ruled out for Game 7",
+      "display":"Raptors’ Ingram ruled out for Game 7",
+      "url":"https://globalnews.ca/news/11828332/raptors-ingram-ruled-out-for-game-7",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"1,500 beagles will get new lives, warm laps after release from research facility",
+      "display":"1,500 beagles will get new lives, warm laps after release from research facility",
+      "url":"https://toronto.citynews.ca/2026/05/03/1500-beagles-will-get-new-lives-warm-laps-after-release-from-research-facility",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Families participate in Saskatoon’s first Autism Aviation Day",
-      "display":"Families participate in Saskatoon’s first Autism Aviation Day",
-      "url":"https://globalnews.ca/news/11828087/families-participate-in-saskatoons-first-autism-aviation-day",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"How Our Presidential Endorsement Tracker Works",
-      "display":"How Our Presidential Endorsement Tracker Works",
-      "url":"https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
+      "text":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
+      "display":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
+      "url":"https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-05-03T22:38:35Z"
+  "generated_utc":"2026-05-04T00:09:02Z"
 }
