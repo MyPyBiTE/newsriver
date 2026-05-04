@@ -1,37 +1,63 @@
 {
-  "generated_utc": "2026-05-04T00:10:17.776416Z",
+  "generated_utc": "2026-05-04T04:08:19.291053Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401869384",
-          "gameDate": "2026-05-03T23:30Z",
+          "gamePk": "401871159",
+          "gameDate": "2026-05-05T00:00Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
           },
           "linescore": {
-            "currentPeriodOrdinal": "1st",
-            "currentQuarter": "1st"
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
           },
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "TOR"
+                "abbreviation": "PHI"
               },
-              "score": 26
+              "score": 0
             },
             "home": {
               "team": {
-                "abbreviation": "CLE"
+                "abbreviation": "NYK"
               },
-              "score": 22
+              "score": 0
             }
           }
         },
         {
-          "gamePk": "401869418",
-          "gameDate": "2026-05-03T19:30Z",
+          "gamePk": "401871152",
+          "gameDate": "2026-05-05T01:30Z",
+          "status": {
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "MIN"
+              },
+              "score": 0
+            },
+            "home": {
+              "team": {
+                "abbreviation": "SAS"
+              },
+              "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401869384",
+          "gameDate": "2026-05-03T23:30Z",
           "status": {
             "detailedState": "Final",
             "abstractGameState": "Final"
@@ -43,15 +69,15 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "ORL"
+                "abbreviation": "TOR"
               },
-              "score": 94
+              "score": 102
             },
             "home": {
               "team": {
-                "abbreviation": "DET"
+                "abbreviation": "CLE"
               },
-              "score": 116
+              "score": 114
             }
           }
         }
@@ -61,10 +87,10 @@
   "_meta": {
     "source": "espn",
     "urls": [
-      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260502",
-      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260503"
+      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260503",
+      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260504"
     ],
-    "games_count": 2,
+    "games_count": 3,
     "http_timeout_sec": 12.0,
     "version": "nba-relay-1.1",
     "preview_hours": 36,
