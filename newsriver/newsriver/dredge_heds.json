@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Toronto woman asks court for emergency relief to receive medical assisted death",
-      "display":"Toronto woman asks court for emergency relief to receive medical assisted death",
-      "url":"https://toronto.citynews.ca/2026/05/04/toronto-woman-asks-court-for-emergency-relief-to-receive-medical-assisted-death",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Prime Minister Carney set to announce new governor general: sources",
+      "display":"Prime Minister Carney set to announce new governor general: sources",
+      "url":"https://globalnews.ca/news/11830042/pm-carney-announce-new-governor-general",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Spring floods shut down stretches of Saskatchewan highways",
-      "display":"Spring floods shut down stretches of Saskatchewan highways",
-      "url":"https://globalnews.ca/news/11829738/floods-shut-down-saskatchewan-highways",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Politics Podcast",
-      "display":"Politics Podcast",
-      "url":"https://fivethirtyeight.com/tag/politics-podcast",
+      "text":"PM Carney expected to name the next governor general on Tuesday",
+      "display":"PM Carney expected to name the next governor general on Tuesday",
+      "url":"https://toronto.citynews.ca/2026/05/04/pm-carney-expected-to-name-the-next-governor-general-on-tuesday",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-05-04T22:30:28Z"
+  "generated_utc":"2026-05-04T23:31:42Z"
 }
