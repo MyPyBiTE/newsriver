@@ -1,19 +1,9 @@
 {
   "items":[
     {
-      "text":"Latest Blue Jays injuries & transactions",
-      "display":"Latest Blue Jays injuries & transactions",
-      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Toronto woman asks court for emergency relief to receive medical assisted death",
-      "display":"Toronto woman asks court for emergency relief to receive medical assisted death",
-      "url":"https://toronto.citynews.ca/2026/05/04/toronto-woman-asks-court-for-emergency-relief-to-receive-medical-assisted-death",
+      "text":"Man shot and killed inside Surrey office building",
+      "display":"Man shot and killed inside Surrey office building",
+      "url":"https://globalnews.ca/news/11830328/person-shot-killed-surrey-office-building",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -21,9 +11,19 @@
       }
     },
     {
-      "text":"Lions add American offensive lineman Coker",
-      "display":"Lions add American offensive lineman Coker",
-      "url":"https://globalnews.ca/news/11830212/lions-add-american-offensive-lineman-coker",
+      "text":"Man seriously injured after being struck by vehicle in Mississauga",
+      "display":"Man seriously injured after being struck by vehicle in Mississauga",
+      "url":"https://toronto.citynews.ca/2026/05/04/man-seriously-injured-after-being-struck-by-vehicle-in-mississauga",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"How Our Presidential Endorsement Tracker Works",
+      "display":"How Our Presidential Endorsement Tracker Works",
+      "url":"https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-05-05T01:16:45Z"
+  "generated_utc":"2026-05-05T04:34:15Z"
 }
