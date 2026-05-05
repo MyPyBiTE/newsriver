@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Canada has a new searchable flood risk tool. You just can’t search it yet.",
-      "display":"Canada has a new searchable flood risk tool. You just can’t search it yet.",
-      "url":"https://globalnews.ca/news/11831719/canada-searchable-flood-risk-tool",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Roadside shooting victim testifies at Rocky View murder trial: ‘Thought I was going to die’",
+      "display":"Roadside shooting victim testifies at Rocky View murder trial: ‘Thought I was going to die’",
+      "url":"https://globalnews.ca/news/11831867/calgary-rocky-view-county-murder-trial-survivor-testimony",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Motorcyclist dies in crash with vehicle in Roncesvalles",
-      "display":"Motorcyclist dies in crash with vehicle in Roncesvalles",
-      "url":"https://toronto.citynews.ca/2026/05/05/motorcyclist-dies-in-crash-with-vehicle-in-roncesvalles",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Stream It Or Skip It: ‘Son-in-Law’ on Netflix, a Convoluted Saga About An Upwardly Falling Mexican Politician",
-      "display":"Stream It Or Skip It: ‘Son-in-Law’ on Netflix, a Convoluted Saga About An Upwardly Falling Mexican Politician",
-      "url":"https://decider.com/2026/05/05/son-in-law-netflix-review",
+      "text":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
+      "display":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
+      "url":"https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-05-05T21:06:40Z"
+  "generated_utc":"2026-05-05T23:09:56Z"
 }
