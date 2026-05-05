@@ -1,22 +1,12 @@
 {
   "items":[
     {
-      "text":"Man shot and killed inside Surrey office building",
-      "display":"Man shot and killed inside Surrey office building",
-      "url":"https://globalnews.ca/news/11830328/person-shot-killed-surrey-office-building",
+      "text":"Blue Jays vow 'it's not the building' after another loss at Tropicana Field",
+      "display":"Blue Jays vow 'it's not the building' after another loss at Tropicana Field",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-lose-to-rays-at-tropicana-field",
       "flags":{
         "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Man seriously injured after being struck by vehicle in Mississauga",
-      "display":"Man seriously injured after being struck by vehicle in Mississauga",
-      "url":"https://toronto.citynews.ca/2026/05/04/man-seriously-injured-after-being-struck-by-vehicle-in-mississauga",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
+        "is_landmark":true,
         "has_bitcoin":false
       }
     },
@@ -29,7 +19,17 @@
         "is_landmark":false,
         "has_bitcoin":false
       }
+    },
+    {
+      "text":"Fit Check: SZA Shines at the 2026 Met Gala in a Custom Gown Crafted Entirely From Vintage eBay Finds",
+      "display":"Fit Check: SZA Shines at the 2026 Met Gala in a Custom Gown Crafted Entirely From Vintage eBay Finds",
+      "url":"https://hypebeast.com/2026/5/fit-check-sza-2026-met-gala-custom-gown-vintage-ebay-finds-bode",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
     }
   ],
-  "generated_utc":"2026-05-05T04:34:15Z"
+  "generated_utc":"2026-05-05T07:02:52Z"
 }
