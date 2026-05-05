@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"It’s time for Canada’s architecture to better reflect our values",
-      "display":"It’s time for Canada’s architecture to better reflect our values",
-      "url":"https://toronto.citynews.ca/2026/05/05/canadian-architecture-culture-diversity-big-story-podcast",
+      "text":"Reporter tears into Maple Leafs’ new ‘con artist’ GM John Chayka in stunning press conference scene",
+      "display":"Reporter tears into Maple Leafs’ new ‘con artist’ GM John Chayka in stunning press conference scene",
+      "url":"https://nypost.com/2026/05/05/sports/reporter-rips-maple-leafs-new-con-artist-gm-john-chayka-at-press-conference",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"A list of governors general of Canada since Confederation",
+      "display":"A list of governors general of Canada since Confederation",
+      "url":"https://toronto.citynews.ca/2026/05/05/a-list-of-governors-general-of-canada-since-confederation",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"The Curator: 10 spring-to-summer fashion must-haves under $100",
-      "display":"The Curator: 10 spring-to-summer fashion must-haves under $100",
-      "url":"https://globalnews.ca/the-curator/11830540/spring-to-summer-fashion-must-haves-under-100",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "display":"Do You Buy That … Last Week’s Election In Wisconsin Was The Most Important Election Of 2023?",
-      "url":"https://fivethirtyeight.com/videos/do-you-buy-that-last-weeks-election-in-wisconsin-was-the-most-important-election-of-2023",
+      "text":"Louise Arbour will be Canada’s new governor general, replacing Mary Simon",
+      "display":"Louise Arbour will be Canada’s new governor general, replacing Mary Simon",
+      "url":"https://globalnews.ca/news/11830877/louise-arbour-governor-general",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-05-05T13:53:49Z"
+  "generated_utc":"2026-05-05T15:29:26Z"
 }
