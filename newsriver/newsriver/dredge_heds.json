@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Calgary-based South Bow says demand strong for oil shipments to U.S. Gulf Coast",
-      "display":"Calgary-based South Bow says demand strong for oil shipments to U.S. Gulf Coast",
-      "url":"https://globalnews.ca/news/11841312/south-bow-pipeline-oil-demand-strong",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Toronto Tempo set for historic first regular-season WNBA game",
+      "display":"Toronto Tempo set for historic first regular-season WNBA game",
+      "url":"https://globalnews.ca/news/11841441/toronto-tempo-set-for-historic-first-regular-season-wnba-game",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "display":"Republicans Amplified Pro-Gun Control Protesters In Tennessee",
-      "url":"https://fivethirtyeight.com/videos/republicans-amplified-pro-gun-control-protesters-in-tennessee",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"UK local election results: Reform gain more than 1,400 English Council seats as Labour suffer Wales and Birmingham losses - live updates",
-      "display":"UK local election results: Reform gain more than 1,400 English Council seats as Labour suffer Wales and Birmingham losses - live updates",
-      "url":"https://www.dailymail.com/news/article-15797643/uk-local-elections-results-labour-green-reform-conservatives-live-updates.html",
+      "text":"Chinatown businesses calling for changes after the loss of parking on Dundas Street",
+      "display":"Chinatown businesses calling for changes after the loss of parking on Dundas Street",
+      "url":"https://toronto.citynews.ca/2026/05/08/chinatown-businesses-parking-changes-on-dundas-street",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-05-08T22:45:15Z"
+  "generated_utc":"2026-05-08T23:39:54Z"
 }
