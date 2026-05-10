@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"1st plane carrying hantavirus-hit cruise ship passengers leaves for Madrid",
-      "display":"1st plane carrying hantavirus-hit cruise ship passengers leaves for Madrid",
-      "url":"https://globalnews.ca/news/11842460/hantavirus-cruise-ship-evacuation-uk-delivery",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Elderly man killed in QEW collision near Stoney Creek",
+      "display":"Elderly man killed in QEW collision near Stoney Creek",
+      "url":"https://toronto.citynews.ca/2026/05/10/elderly-man-killed-in-qew-collision-near-stoney-creek",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"What To Do About A Problem Like Dianne Feinstein?",
-      "display":"What To Do About A Problem Like Dianne Feinstein?",
-      "url":"https://fivethirtyeight.com/videos/what-to-do-about-a-problem-like-dianne-feinstein",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Unions pile in on Starmer as they accuse Labour of being 'disconnected from working-class people' following election catastrophe: Live updates",
-      "display":"Unions pile in on Starmer as they accuse Labour of being 'disconnected from working-class people' following election catastrophe: Live updates",
-      "url":"https://www.dailymail.com/news/article-15805275/wolves-circle-Starmer-Labour-election-disaster-live.html",
+      "text":"2 suspects in Ontario murder investigation may be hiding in B.C., police say",
+      "display":"2 suspects in Ontario murder investigation may be hiding in B.C., police say",
+      "url":"https://globalnews.ca/news/11842509/ontario-murder-suspects-possibly-hiding-bc-police",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-05-10T15:11:46Z"
+  "generated_utc":"2026-05-10T18:03:33Z"
 }
