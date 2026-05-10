@@ -1,34 +1,8 @@
 {
-  "generated_utc": "2026-05-10T21:59:47.205831Z",
+  "generated_utc": "2026-05-10T22:57:12.052193Z",
   "dates": [
     {
       "games": [
-        {
-          "gamePk": "401871162",
-          "gameDate": "2026-05-10T19:30Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "NYK"
-              },
-              "score": 136
-            },
-            "home": {
-              "team": {
-                "abbreviation": "PHI"
-              },
-              "score": 101
-            }
-          }
-        },
         {
           "gamePk": "401871155",
           "gameDate": "2026-05-10T23:30Z",
@@ -52,6 +26,32 @@
                 "abbreviation": "MIN"
               },
               "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401871162",
+          "gameDate": "2026-05-10T19:30Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "NYK"
+              },
+              "score": 144
+            },
+            "home": {
+              "team": {
+                "abbreviation": "PHI"
+              },
+              "score": 114
             }
           }
         }
