@@ -1,34 +1,8 @@
 {
-  "generated_utc": "2026-05-12T04:59:23.462806Z",
+  "generated_utc": "2026-05-12T07:48:39.663426Z",
   "dates": [
     {
       "games": [
-        {
-          "gamePk": "401871329",
-          "gameDate": "2026-05-12T02:30Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "4th",
-            "currentQuarter": "4th"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "OKC"
-              },
-              "score": 92
-            },
-            "home": {
-              "team": {
-                "abbreviation": "LAL"
-              },
-              "score": 92
-            }
-          }
-        },
         {
           "gamePk": "401871156",
           "gameDate": "2026-05-13T00:00Z",
@@ -56,8 +30,8 @@
           }
         },
         {
-          "gamePk": "401871336",
-          "gameDate": "2026-05-12T00:00Z",
+          "gamePk": "401871329",
+          "gameDate": "2026-05-12T02:30Z",
           "status": {
             "detailedState": "Final",
             "abstractGameState": "Final"
@@ -69,15 +43,15 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "DET"
+                "abbreviation": "OKC"
               },
-              "score": 103
+              "score": 115
             },
             "home": {
               "team": {
-                "abbreviation": "CLE"
+                "abbreviation": "LAL"
               },
-              "score": 112
+              "score": 110
             }
           }
         }
@@ -90,7 +64,7 @@
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260511",
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260512"
     ],
-    "games_count": 3,
+    "games_count": 2,
     "http_timeout_sec": 12.0,
     "version": "nba-relay-1.1",
     "preview_hours": 36,
