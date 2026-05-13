@@ -1,31 +1,57 @@
 {
-  "generated_utc": "2026-05-13T00:15:21.700070Z",
+  "generated_utc": "2026-05-13T04:15:06.958865Z",
   "dates": [
     {
       "games": [
         {
+          "gamePk": "401871337",
+          "gameDate": "2026-05-14T00:00Z",
+          "status": {
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "CLE"
+              },
+              "score": 0
+            },
+            "home": {
+              "team": {
+                "abbreviation": "DET"
+              },
+              "score": 0
+            }
+          }
+        },
+        {
           "gamePk": "401871156",
           "gameDate": "2026-05-13T00:00Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": "1st",
-            "currentQuarter": "1st"
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "MIN"
               },
-              "score": 0
+              "score": 97
             },
             "home": {
               "team": {
                 "abbreviation": "SAS"
               },
-              "score": 3
+              "score": 126
             }
           }
         }
@@ -35,10 +61,10 @@
   "_meta": {
     "source": "espn",
     "urls": [
-      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260511",
-      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260512"
+      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260512",
+      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260513"
     ],
-    "games_count": 1,
+    "games_count": 2,
     "http_timeout_sec": 12.0,
     "version": "nba-relay-1.1",
     "preview_hours": 36,
