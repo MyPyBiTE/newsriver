@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-12T23:17:34.474152Z",
+  "generated_utc": "2026-05-13T00:15:21.700070Z",
   "dates": [
     {
       "games": [
@@ -7,12 +7,12 @@
           "gamePk": "401871156",
           "gameDate": "2026-05-13T00:00Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
@@ -25,7 +25,7 @@
               "team": {
                 "abbreviation": "SAS"
               },
-              "score": 0
+              "score": 3
             }
           }
         }
