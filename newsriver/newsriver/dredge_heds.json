@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Video of execution-style shooting shown at trial for teen charged with 1st-degree murder",
-      "display":"Video of execution-style shooting shown at trial for teen charged with 1st-degree murder",
-      "url":"https://globalnews.ca/news/11846102/video-execution-style-shooting-shown-trial-teen",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Saskatchewan paramedic recruitment still lags behind, Saskatoon conference flags",
+      "display":"Saskatchewan paramedic recruitment still lags behind, Saskatoon conference flags",
+      "url":"https://globalnews.ca/news/11846429/paramedic-recruitment-still-behind-saskatchewan-conference",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"White House scrambles to save Trump's $1B pet project as GOP revolts: 'Not happening'",
-      "display":"White House scrambles to save Trump's $1B pet project as GOP revolts: 'Not happening'",
-      "url":"https://www.rawstory.com/trump-ballroom-2676886296",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Fox’s Larry Kudlow Tells Trump Official Inflation Numbers Are ‘Lousy’",
-      "display":"Fox’s Larry Kudlow Tells Trump Official Inflation Numbers Are ‘Lousy’",
-      "url":"https://www.mediaite.com/media/tv/foxs-larry-kudlow-tells-trump-official-inflation-numbers-are-lousy",
+      "text":"Trump set to meet with Xi in Beijing as war and inflation weigh on his presidency",
+      "display":"Trump set to meet with Xi in Beijing as war and inflation weigh on his presidency",
+      "url":"https://toronto.citynews.ca/2026/05/12/trump-set-to-meet-with-xi-in-beijing-as-war-and-inflation-weigh-on-his-presidency",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-05-13T01:21:50Z"
+  "generated_utc":"2026-05-13T05:02:21Z"
 }
