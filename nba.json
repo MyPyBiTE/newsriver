@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-15T22:13:03.064639Z",
+  "generated_utc": "2026-05-15T23:13:38.087831Z",
   "dates": [
     {
       "games": [
@@ -7,12 +7,12 @@
           "gamePk": "401871338",
           "gameDate": "2026-05-15T23:00Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
@@ -25,7 +25,7 @@
               "team": {
                 "abbreviation": "CLE"
               },
-              "score": 0
+              "score": 2
             }
           }
         },
