@@ -1,6 +1,16 @@
 {
   "items":[
     {
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
       "text":"Blue Jays pitcher Jose Berrios to undergo elbow surgery",
       "display":"Blue Jays pitcher Jose Berrios to undergo elbow surgery",
       "url":"https://toronto.citynews.ca/2026/05/16/blue-jays-pitcher-jose-berrios-to-undergo-elbow-surgery",
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Sask. campers hitting the trails despite wet, cool forecasts for long weekend",
-      "display":"Sask. campers hitting the trails despite wet, cool forecasts for long weekend",
-      "url":"https://globalnews.ca/news/11852404/may-long-weekend-camping-saskatchewan",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Hollywood Shunned Cannes in 2026: What Will It Take for Studio Blockbusters and Netflix to Return?",
-      "display":"Hollywood Shunned Cannes in 2026: What Will It Take for Studio Blockbusters and Netflix to Return?",
-      "url":"https://variety.com/2026/film/news/hollywood-shuns-cannes-2026-will-blockbusters-netflix-return-1236750716",
+      "text":"B.C. health officials update public on rare hantavirus exposure cases",
+      "display":"B.C. health officials update public on rare hantavirus exposure cases",
+      "url":"https://globalnews.ca/news/11852858/bc-hantavirus-cases-update",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-05-16T17:12:47Z"
+  "generated_utc":"2026-05-16T18:05:32Z"
 }
