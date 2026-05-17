@@ -1,8 +1,47 @@
 {
-  "generated_utc": "2026-05-17T00:03:22.795941Z",
+  "generated_utc": "2026-05-17T04:16:45.134635Z",
   "dates": [
     {
-      "games": []
+      "games": [
+        {
+          "gamePk": "401871339",
+          "gameDate": "2026-05-18T00:00Z",
+          "status": {
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "CLE"
+              },
+              "score": 0
+            },
+            "home": {
+              "team": {
+                "abbreviation": "DET"
+              },
+              "score": 0
+            }
+          }
+        }
+      ]
     }
-  ]
+  ],
+  "_meta": {
+    "source": "espn",
+    "urls": [
+      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260516",
+      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260517"
+    ],
+    "games_count": 1,
+    "http_timeout_sec": 12.0,
+    "version": "nba-relay-1.1",
+    "preview_hours": 36,
+    "final_hours": 6
+  }
 }
