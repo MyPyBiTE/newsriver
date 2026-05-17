@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Lab tests confirm first case of hantavirus in Canada",
-      "display":"Lab tests confirm first case of hantavirus in Canada",
-      "url":"https://toronto.citynews.ca/2026/05/17/lab-tests-confirm-first-case-of-hantavirus-in-canada",
+      "text":"Blue Jays promote No. 21 prospect Macko as Nance (forearm) hits IL",
+      "display":"Blue Jays promote No. 21 prospect Macko as Nance (forearm) hits IL",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-recall-adam-macko-place-tommy-nance-on-injured-list",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"First Canadian hantavirus case confirmed in B.C. patient",
+      "display":"First Canadian hantavirus case confirmed in B.C. patient",
+      "url":"https://globalnews.ca/news/11853495/hantavirus-confirmed-case-canada",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"57 kittens rescued, Mississauga man arrested in police animal cruelty probe",
-      "display":"57 kittens rescued, Mississauga man arrested in police animal cruelty probe",
-      "url":"https://globalnews.ca/news/11853474/peel-animal-cruelty-investigation-kittens-cats-rescued",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Cheryl lost three stone by using a vibration plate and it even got rid of her joint pain. Now, our experts reveal exactly how it really does help you burn fat and strengthen bones... and the side-effect you must avoid",
-      "display":"Cheryl lost three stone by using a vibration plate and it even got rid of her joint pain. Now, our experts reveal exactly how it really does help you burn fat and strengthen bones... and the side-effect you must avoid",
-      "url":"https://www.dailymail.com/health/article-15825069/Cheryl-lost-three-stone-using-vibration-plate-got-rid-joint-pain-experts-reveal-exactly-really-does-help-you-burn-fat-strengthen-bones-effect-you-avoid.html",
+      "text":"Newcastle vs West Ham - Premier League LIVE: Latest score and updates as Hammers seek crucial points in survival fight",
+      "display":"Newcastle vs West Ham - Premier League LIVE: Latest score and updates as Hammers seek crucial points in survival fight",
+      "url":"https://www.dailymail.com/sport/football/article-15820575/Newcastle-vs-West-Ham-2025-26-Premier-League-LIVE-Result.html",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-05-17T16:37:05Z"
+  "generated_utc":"2026-05-17T17:39:13Z"
 }
