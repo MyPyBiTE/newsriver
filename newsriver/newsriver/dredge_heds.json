@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Penticton encampment fire sparks renewed safety concerns",
-      "display":"Penticton encampment fire sparks renewed safety concerns",
-      "url":"https://globalnews.ca/news/11856281/penticton-encampment-fire-renewed-safety-concerns",
+      "text":"Blue Jays can't quite get peak performances synched up",
+      "display":"Blue Jays can't quite get peak performances synched up",
+      "url":"https://www.mlb.com/bluejays/news/dylan-cease-fans-9-blue-jays-searching-for-more-offense",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Saskatoon production aims to preserve the Nakoda language through a puppet show",
+      "display":"Saskatoon production aims to preserve the Nakoda language through a puppet show",
+      "url":"https://globalnews.ca/news/11856357/preserving-nakoda-language-puppet-show",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Details from Epstein's ranch suggest connections to CIA: journalist",
-      "display":"Details from Epstein's ranch suggest connections to CIA: journalist",
-      "url":"https://www.rawstory.com/little-known-detail-at-epstein-s-zorro-ranch",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Ben Stiller and Timothee Chalamet lead star-studded Celebrity Row for Knicks' huge game against the Cavaliers... but there's no sign of Kylie Jenner",
-      "display":"Ben Stiller and Timothee Chalamet lead star-studded Celebrity Row for Knicks' huge game against the Cavaliers... but there's no sign of Kylie Jenner",
-      "url":"https://www.dailymail.com/sport/nba/article-15832735/ben-stiller-timothee-chalamet-knicks-celebrity-row.html",
+      "text":"Eros Innovation Founder Kishore Lulla On Need For ‘Sovereign’ & Culturally Specific AI",
+      "display":"Eros Innovation Founder Kishore Lulla On Need For ‘Sovereign’ & Culturally Specific AI",
+      "url":"https://deadline.com/2026/05/ai-eros-innovation-kishore-lulla-sovereign-cultural-ai-1236913594",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-05-20T05:50:20Z"
+  "generated_utc":"2026-05-20T08:53:18Z"
 }
