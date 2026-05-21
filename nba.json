@@ -1,31 +1,31 @@
 {
-  "generated_utc": "2026-05-21T03:38:02.541733Z",
+  "generated_utc": "2026-05-21T07:07:17.405370Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401873198",
-          "gameDate": "2026-05-21T00:30Z",
+          "gamePk": "401873342",
+          "gameDate": "2026-05-22T00:00Z",
           "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
           },
           "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
           },
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "SAS"
+                "abbreviation": "CLE"
               },
-              "score": 113
+              "score": 0
             },
             "home": {
               "team": {
-                "abbreviation": "OKC"
+                "abbreviation": "NYK"
               },
-              "score": 122
+              "score": 0
             }
           }
         }
@@ -35,8 +35,8 @@
   "_meta": {
     "source": "espn",
     "urls": [
-      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260519",
-      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260520"
+      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260520",
+      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260521"
     ],
     "games_count": 1,
     "http_timeout_sec": 12.0,
