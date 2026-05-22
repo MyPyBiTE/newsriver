@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Remains of missing B.C. actor found in his hometown of Lions Bay",
-      "display":"Remains of missing B.C. actor found in his hometown of Lions Bay",
-      "url":"https://globalnews.ca/news/11861039/remains-missing-bc-actor-found-hometown-lions-bay",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Ontario school board launches safety review after student death, charges",
+      "display":"Ontario school board launches safety review after student death, charges",
+      "url":"https://globalnews.ca/news/11860713/kingston-school-student-death",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Health officials warn of possible measles exposure at York Region hospital",
-      "display":"Health officials warn of possible measles exposure at York Region hospital",
-      "url":"https://toronto.citynews.ca/2026/05/22/health-officials-warn-of-possible-measles-exposure-at-york-region-hospital",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Tulsi Gabbard resigning as Trump's intelligence chief",
-      "display":"Tulsi Gabbard resigning as Trump's intelligence chief",
-      "url":"https://www.cnbc.com/2026/05/22/tulsi-gabbard-resigns-intelligence-trump-husband.html",
+      "text":"Anthony Volpe To Start Taking Second Base Drills",
+      "display":"Anthony Volpe To Start Taking Second Base Drills",
+      "url":"https://www.mlbtraderumors.com/2026/05/anthony-volpe-to-start-taking-second-base-drills.html",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-05-22T22:32:20Z"
+  "generated_utc":"2026-05-22T23:44:25Z"
 }
