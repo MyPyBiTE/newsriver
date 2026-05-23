@@ -1,6 +1,16 @@
 {
   "items":[
     {
+      "text":"Key takeaways: Blue Jays 5, Pirates 2",
+      "display":"Key takeaways: Blue Jays 5, Pirates 2",
+      "url":"https://www.mlb.com/bluejays/news/patrick-corbin-outduels-paul-skenes-in-blue-jays-win-over-pirates",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
       "text":"Suspect and victim identified in fatal Mississauga stabbing",
       "display":"Suspect and victim identified in fatal Mississauga stabbing",
       "url":"https://toronto.citynews.ca/2026/05/23/suspect-and-victim-identified-in-fatal-mississauga-stabbing",
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Quebec Premier Fréchette won’t rule out exceeding $250M spending pot",
-      "display":"Quebec Premier Fréchette won’t rule out exceeding $250M spending pot",
-      "url":"https://globalnews.ca/news/11861881/quebec-premier-frechette",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Tom Steyer proves things can get worse than Gavin Newsom in California",
-      "display":"Tom Steyer proves things can get worse than Gavin Newsom in California",
-      "url":"https://nypost.com/2026/05/23/opinion/worse-than-gavin-newsom-that-would-be-tom-steyer",
+      "text":"Police urgently searching for missing newborn baby in Halifax",
+      "display":"Police urgently searching for missing newborn baby in Halifax",
+      "url":"https://globalnews.ca/news/11861933/missing-newborn-halifax",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-05-23T22:05:55Z"
+  "generated_utc":"2026-05-23T23:08:51Z"
 }
