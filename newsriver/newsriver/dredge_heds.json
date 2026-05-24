@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"LIVE: Pirates, Blue Jays clash on Peacock",
-      "display":"LIVE: Pirates, Blue Jays clash on Peacock",
-      "url":"https://www.mlb.com/bluejays/news/mlb-sunday-leadoff-on-nbc-peacock-for-2026-season",
+      "text":"Blue Jays’ Guerrero Jr. exits vs. Pirates after being hit by pitch",
+      "display":"Blue Jays’ Guerrero Jr. exits vs. Pirates after being hit by pitch",
+      "url":"https://toronto.citynews.ca/2026/05/24/blue-jays-guerrero-jr-exits-vs-pirates-after-being-hit-by-pitch",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Cease (hamstring), Vlad Jr. (elbow contusion) both exit in rough inning for Blue Jays",
+      "display":"Cease (hamstring), Vlad Jr. (elbow contusion) both exit in rough inning for Blue Jays",
+      "url":"https://www.mlb.com/bluejays/news/dylan-cease-vladimir-guerrero-jr-exit-with-injury-vs-pirates",
       "flags":{
         "is_breaking":false,
         "is_landmark":true,
@@ -19,17 +29,7 @@
         "is_landmark":false,
         "has_bitcoin":false
       }
-    },
-    {
-      "text":"Toronto Fire Services responded to nearly 700 emergency calls during heavy storm",
-      "display":"Toronto Fire Services responded to nearly 700 emergency calls during heavy storm",
-      "url":"https://toronto.citynews.ca/2026/05/24/toronto-fire-services-responded-to-nearly-700-emergency-calls-during-heavy-storm",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
     }
   ],
-  "generated_utc":"2026-05-24T18:11:07Z"
+  "generated_utc":"2026-05-24T19:38:17Z"
 }
