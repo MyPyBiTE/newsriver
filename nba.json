@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-24T05:44:21.796498Z",
+  "generated_utc": "2026-05-24T08:08:14.750791Z",
   "dates": [
     {
       "games": [
@@ -28,32 +28,6 @@
               "score": 0
             }
           }
-        },
-        {
-          "gamePk": "401873343",
-          "gameDate": "2026-05-24T00:00Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "NYK"
-              },
-              "score": 121
-            },
-            "home": {
-              "team": {
-                "abbreviation": "CLE"
-              },
-              "score": 108
-            }
-          }
         }
       ]
     }
@@ -64,7 +38,7 @@
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260523",
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260524"
     ],
-    "games_count": 2,
+    "games_count": 1,
     "http_timeout_sec": 12.0,
     "version": "nba-relay-1.1",
     "preview_hours": 36,
