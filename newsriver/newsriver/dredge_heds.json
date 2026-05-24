@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Latest Blue Jays injuries & transactions",
-      "display":"Latest Blue Jays injuries & transactions",
-      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"Halifax police say missing newborn found dead, 2 people charged",
       "display":"Halifax police say missing newborn found dead, 2 people charged",
       "url":"https://globalnews.ca/news/11862448/halifax-missing-newborn-baby-found-dead",
@@ -21,9 +11,19 @@
       }
     },
     {
-      "text":"Bystander in serious condition after fatal shooting near White House checkpoint",
-      "display":"Bystander in serious condition after fatal shooting near White House checkpoint",
-      "url":"https://toronto.citynews.ca/2026/05/24/bystander-in-serious-condition-after-fatal-shooting-near-white-house-checkpoint",
+      "text":"Hamilton police lay numerous charges against east end bar after ongoing community concerns",
+      "display":"Hamilton police lay numerous charges against east end bar after ongoing community concerns",
+      "url":"https://toronto.citynews.ca/2026/05/24/numerous-charges-wallys-world-bar-grill-hamilton",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"‘Outlander’ Video Taken Down for Misquoting Star Caitríona Balfe Calling Scotland Town ‘An Armpit’",
+      "display":"‘Outlander’ Video Taken Down for Misquoting Star Caitríona Balfe Calling Scotland Town ‘An Armpit’",
+      "url":"https://www.thewrap.com/creative-content/tv-shows/outlander-video-taken-down-for-misquoting-star-caitriona-balfe-calling-scotland-town-an-armpit",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-05-24T22:38:56Z"
+  "generated_utc":"2026-05-24T23:41:19Z"
 }
