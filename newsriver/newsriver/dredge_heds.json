@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Ontario town selected as host for Team Panama during FIFA World Cup",
-      "display":"Ontario town selected as host for Team Panama during FIFA World Cup",
-      "url":"https://globalnews.ca/news/11864970/ontario-team-panama-fifa-world-cup",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Ontario civil servants can work some FIFA World Cup game days remotely: government",
+      "display":"Ontario civil servants can work some FIFA World Cup game days remotely: government",
+      "url":"https://globalnews.ca/news/11866740/ontario-civil-servants-can-work-some-fifa-world-cup-game-days-remotely-government",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Travellers coming from Ebola-affected regions will have to isolate for 21 days",
-      "display":"Travellers coming from Ebola-affected regions will have to isolate for 21 days",
-      "url":"https://toronto.citynews.ca/2026/05/26/travellers-coming-from-ebola-affected-regions-will-have-to-isolate-for-21-days",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Cavaliers make Kenny Atkinson decision after getting swept by Knicks",
-      "display":"Cavaliers make Kenny Atkinson decision after getting swept by Knicks",
-      "url":"https://nypost.com/2026/05/26/sports/cavaliers-make-kenny-atkinson-decision-after-getting-swept-by-knicks",
+      "text":"GTA police services warn of rise in bear spray use amongst youth",
+      "display":"GTA police services warn of rise in bear spray use amongst youth",
+      "url":"https://toronto.citynews.ca/2026/05/26/gta-police-services-warn-of-rise-in-bear-spray-use-amongst-youth",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-05-26T21:38:19Z"
+  "generated_utc":"2026-05-26T22:52:37Z"
 }
