@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-27T01:50:00.588629Z",
+  "generated_utc": "2026-05-27T06:04:03.000926Z",
   "dates": [
     {
       "games": [
@@ -7,25 +7,25 @@
           "gamePk": "401873201",
           "gameDate": "2026-05-27T00:30Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": "2nd",
-            "currentQuarter": "2nd"
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "SAS"
               },
-              "score": 58
+              "score": 114
             },
             "home": {
               "team": {
                 "abbreviation": "OKC"
               },
-              "score": 69
+              "score": 127
             }
           }
         }
@@ -35,8 +35,8 @@
   "_meta": {
     "source": "espn",
     "urls": [
-      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260525",
-      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260526"
+      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260526",
+      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260527"
     ],
     "games_count": 1,
     "http_timeout_sec": 12.0,
