@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"1 person rescued, 1 missing after boat capsizes off Cherry beach",
-      "display":"1 person rescued, 1 missing after boat capsizes off Cherry beach",
-      "url":"https://toronto.citynews.ca/2026/05/27/cherry-beach-boat-capsizes",
+      "text":"Key takeaways: Blue Jays 2, Marlins 1",
+      "display":"Key takeaways: Blue Jays 2, Marlins 1",
+      "url":"https://www.mlb.com/bluejays/news/key-takeaways-from-blue-jays-2-1-win-over-marlins",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Florida teen charged in stepsister’s cruise death to stay out of jail for now",
+      "display":"Florida teen charged in stepsister’s cruise death to stay out of jail for now",
+      "url":"https://globalnews.ca/news/11870281/florida-teen-remains-free-cruise-ship-death-anna-kepner-timothy-hudson",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Thousands of Calgary families facing a big jump in school bus fees next year",
-      "display":"Thousands of Calgary families facing a big jump in school bus fees next year",
-      "url":"https://globalnews.ca/news/11870145/calgary-bus-fees-jump",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Belle Burden’s Fans Don’t Care If She Lied",
-      "display":"Belle Burden’s Fans Don’t Care If She Lied",
-      "url":"https://www.thefp.com/p/belle-burdens-fans-dont-care-if-she-lied",
+      "text":"OPP say school bus driver charged with stunt driving after speeding with kids on board",
+      "display":"OPP say school bus driver charged with stunt driving after speeding with kids on board",
+      "url":"https://toronto.citynews.ca/2026/05/27/opp-say-school-bus-driver-charged-with-stunt-driving-after-speeding-with-kids-on-board",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-05-27T19:47:23Z"
+  "generated_utc":"2026-05-27T21:46:00Z"
 }
