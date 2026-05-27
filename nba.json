@@ -1,47 +1,8 @@
 {
-  "generated_utc": "2026-05-27T06:04:03.000926Z",
+  "generated_utc": "2026-05-27T10:16:30.588858Z",
   "dates": [
     {
-      "games": [
-        {
-          "gamePk": "401873201",
-          "gameDate": "2026-05-27T00:30Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "SAS"
-              },
-              "score": 114
-            },
-            "home": {
-              "team": {
-                "abbreviation": "OKC"
-              },
-              "score": 127
-            }
-          }
-        }
-      ]
+      "games": []
     }
-  ],
-  "_meta": {
-    "source": "espn",
-    "urls": [
-      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260526",
-      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260527"
-    ],
-    "games_count": 1,
-    "http_timeout_sec": 12.0,
-    "version": "nba-relay-1.1",
-    "preview_hours": 36,
-    "final_hours": 6
-  }
+  ]
 }
