@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-05-26T23:38:42.392361Z",
+  "generated_utc": "2026-05-27T01:50:00.588629Z",
   "dates": [
     {
       "games": [
@@ -7,25 +7,25 @@
           "gamePk": "401873201",
           "gameDate": "2026-05-27T00:30Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "2nd",
+            "currentQuarter": "2nd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "SAS"
               },
-              "score": 0
+              "score": 58
             },
             "home": {
               "team": {
                 "abbreviation": "OKC"
               },
-              "score": 0
+              "score": 69
             }
           }
         }
