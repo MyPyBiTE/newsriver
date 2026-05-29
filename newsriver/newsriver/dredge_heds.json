@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"‘A web of deceipt’: Closing arguments heard at Toronto BBQ smoke murder trial",
-      "display":"‘A web of deceipt’: Closing arguments heard at Toronto BBQ smoke murder trial",
-      "url":"https://globalnews.ca/news/11872597/closing-arguments-toronto-bbq",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Flood watch, high streamflow advisories issued in Banff National Park",
+      "display":"Flood watch, high streamflow advisories issued in Banff National Park",
+      "url":"https://globalnews.ca/news/11872825/flood-watch-banff-national-park",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -19,17 +29,7 @@
         "is_landmark":false,
         "has_bitcoin":false
       }
-    },
-    {
-      "text":"How Prison Quietly Reshapes Human Identity",
-      "display":"How Prison Quietly Reshapes Human Identity",
-      "url":"https://www.psychologytoday.com/ca/blog/emotional-origins-of-violence/202605/how-prison-quietly-reshapes-human-identity",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
     }
   ],
-  "generated_utc":"2026-05-28T23:47:08Z"
+  "generated_utc":"2026-05-29T02:12:36Z"
 }
