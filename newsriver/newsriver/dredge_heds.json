@@ -1,6 +1,16 @@
 {
   "items":[
     {
+      "text":"McAdoo (HR for 1st hit), Vladdy help Blue Jays get back to .500",
+      "display":"McAdoo (HR for 1st hit), Vladdy help Blue Jays get back to .500",
+      "url":"https://www.mlb.com/bluejays/news/charles-mcadoo-homers-for-first-hit-as-blue-jays-reach-500",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
       "text":"Family of man killed by Calgary police officer calls for threat assessment change",
       "display":"Family of man killed by Calgary police officer calls for threat assessment change",
       "url":"https://globalnews.ca/news/11874219/family-man-killed-calgary-police-officer-threat-assessment-change",
@@ -19,17 +29,7 @@
         "is_landmark":false,
         "has_bitcoin":false
       }
-    },
-    {
-      "text":"Paul McCartney Looks Back at How His Family Grounded Him During Beatlemania",
-      "display":"Paul McCartney Looks Back at How His Family Grounded Him During Beatlemania",
-      "url":"https://www.rollingstone.com/music/music-news/paul-mccartney-the-beatles-fame-beatlemania-1235570322",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
     }
   ],
-  "generated_utc":"2026-05-30T07:19:49Z"
+  "generated_utc":"2026-05-30T09:28:07Z"
 }
