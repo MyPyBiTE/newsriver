@@ -1,6 +1,16 @@
 {
   "items":[
     {
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
       "text":"Man, 20, charged with attempted murder in Brampton shooting",
       "display":"Man, 20, charged with attempted murder in Brampton shooting",
       "url":"https://toronto.citynews.ca/2026/05/30/man-20-charged-with-attempted-murder-in-brampton-shooting",
@@ -19,17 +29,7 @@
         "is_landmark":false,
         "has_bitcoin":false
       }
-    },
-    {
-      "text":"PSG defeats Arsenal in epic shootout victory to seal second straight Champions League title",
-      "display":"PSG defeats Arsenal in epic shootout victory to seal second straight Champions League title",
-      "url":"https://nypost.com/2026/05/30/sports/psg-defeats-arsenal-in-shootout-to-seal-second-straight-champions-league-title",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
     }
   ],
-  "generated_utc":"2026-05-30T21:13:10Z"
+  "generated_utc":"2026-05-30T22:12:26Z"
 }
