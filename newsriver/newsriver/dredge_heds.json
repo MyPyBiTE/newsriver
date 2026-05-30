@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Mama black bear killed in Golden Ears park for aggressive behaviour, conservation says",
-      "display":"Mama black bear killed in Golden Ears park for aggressive behaviour, conservation says",
-      "url":"https://globalnews.ca/news/11874585/mama-black-bear-killed-golden-ears-park-aggressive-behaviour-conservation",
+      "text":"Lightning sparks out-of-control Saskatchewan wildfire, community on evacuation alert",
+      "display":"Lightning sparks out-of-control Saskatchewan wildfire, community on evacuation alert",
+      "url":"https://globalnews.ca/news/11874573/lightning-sparks-saskatchewan-wildfire-community-alert",
+      "flags":{
+        "is_breaking":true,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Major power outage hits cottage country",
+      "display":"Major power outage hits cottage country",
+      "url":"https://toronto.citynews.ca/2026/05/29/nearly-90k-left-in-the-dark-as-power-outages-sweep-cottage-country",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Major UK airports record 19 flight disruptions to tourist hotspots - full list",
-      "display":"Major UK airports record 19 flight disruptions to tourist hotspots - full list",
-      "url":"https://www.mirror.co.uk/news/world-news/19-flight-disruptions-uk-airports-37224793",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"49ers star Nick Bosa reveals return target date from torn ACL: ‘I’m pretty far along’",
-      "display":"49ers star Nick Bosa reveals return target date from torn ACL: ‘I’m pretty far along’",
-      "url":"https://nypost.com/2026/05/29/sports/49ers-star-nick-bosa-reveals-return-target-date-from-torn-acl",
+      "text":"Red Sox star Roman Anthony hits another setback in injury rehab",
+      "display":"Red Sox star Roman Anthony hits another setback in injury rehab",
+      "url":"https://nypost.com/2026/05/29/sports/red-sox-star-roman-anthony-hits-another-setback-in-injury-rehab",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-05-30T00:10:02Z"
+  "generated_utc":"2026-05-30T04:15:12Z"
 }
