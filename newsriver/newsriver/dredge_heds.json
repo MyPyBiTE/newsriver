@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Latest Blue Jays injuries & transactions",
-      "display":"Latest Blue Jays injuries & transactions",
-      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"Ontario man dead after canoe capsizes, 2 B.C. people missing after falling off paddle boards",
       "display":"Ontario man dead after canoe capsizes, 2 B.C. people missing after falling off paddle boards",
       "url":"https://globalnews.ca/news/11875668/bc-ontario-deaths-water-safety",
@@ -29,7 +19,17 @@
         "is_landmark":false,
         "has_bitcoin":false
       }
+    },
+    {
+      "text":"Knicks bettor closing in on potential near $1 million payday entering NBA Finals",
+      "display":"Knicks bettor closing in on potential near $1 million payday entering NBA Finals",
+      "url":"https://nypost.com/2026/05/31/betting/knicks-bettor-closing-in-on-potential-near-1-million-payday-entering-nba-finals",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
     }
   ],
-  "generated_utc":"2026-05-31T21:50:21Z"
+  "generated_utc":"2026-05-31T22:50:42Z"
 }
