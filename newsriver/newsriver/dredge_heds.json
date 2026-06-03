@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Shia LaBeouf pleads guilty to battery charge in Mardi Gras bar incident",
-      "display":"Shia LaBeouf pleads guilty to battery charge in Mardi Gras bar incident",
-      "url":"https://globalnews.ca/news/11889431/shia-lebeouf-battery-charge-pleads-guilty-mardi-gras",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Parents of girl killed by cardiac arrest get defibrillator installed in rural Alberta town",
+      "display":"Parents of girl killed by cardiac arrest get defibrillator installed in rural Alberta town",
+      "url":"https://globalnews.ca/news/11889322/alberta-school-defibrillator-cardiac-arrest",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Cyclist struck by vehicle near Little Italy",
-      "display":"Cyclist struck by vehicle near Little Italy",
-      "url":"https://toronto.citynews.ca/2026/06/03/cyclist-struck-by-vehicle-near-little-italy",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Japan's Edgy Workwear Artisan Got Grungier",
-      "display":"Japan's Edgy Workwear Artisan Got Grungier",
-      "url":"https://www.highsnobiety.com/p/apresse-fall-winter-2026",
+      "text":"Emergency closure of some eastbound Gardiner Expressway lanes near Humber River ordered",
+      "display":"Emergency closure of some eastbound Gardiner Expressway lanes near Humber River ordered",
+      "url":"https://toronto.citynews.ca/2026/06/03/gardiner-expressway-emergency-repairs-city-of-toronto",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-06-03T21:45:13Z"
+  "generated_utc":"2026-06-03T23:23:20Z"
 }
