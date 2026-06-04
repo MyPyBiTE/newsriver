@@ -1,8 +1,18 @@
 {
   "items":[
     {
-      "text":"Blue Jays To Acquire Simeon Woods Richardson From Twins",
-      "display":"Blue Jays To Acquire Simeon Woods Richardson From Twins",
+      "text":"Blue Jays acquire Woods Richardson amid banged-up rotation's rough patch",
+      "display":"Blue Jays acquire Woods Richardson amid banged-up rotation's rough patch",
+      "url":"https://www.mlb.com/bluejays/news/simeon-woods-richardson-traded-to-blue-jays",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Blue Jays Acquire Simeon Woods Richardson From Twins",
+      "display":"Blue Jays Acquire Simeon Woods Richardson From Twins",
       "url":"https://www.mlbtraderumors.com/2026/06/twins-to-trade-simeon-woods-richardson-to-blue-jays.html",
       "flags":{
         "is_breaking":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Latest Blue Jays injuries & transactions",
-      "display":"Latest Blue Jays injuries & transactions",
-      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Red Earth, Shoal Lake Cree Nation evacuees home as wildfire situation improves",
-      "display":"Red Earth, Shoal Lake Cree Nation evacuees home as wildfire situation improves",
-      "url":"https://globalnews.ca/news/11889784/red-earth-shoal-lake-cree-nation-evacuees-home-as-wildfire-situation-improves",
+      "text":"Montreal-area pair accused of robbing funeral niches of jewelry",
+      "display":"Montreal-area pair accused of robbing funeral niches of jewelry",
+      "url":"https://globalnews.ca/news/11890073/montreal-robbing-funeral-niches-jewelry",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-06-04T02:02:30Z"
+  "generated_utc":"2026-06-04T06:54:19Z"
 }
