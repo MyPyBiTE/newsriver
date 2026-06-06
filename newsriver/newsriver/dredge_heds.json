@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"London, Ont., community members mark five years since deadly attack on Muslim family",
-      "display":"London, Ont., community members mark five years since deadly attack on Muslim family",
-      "url":"https://toronto.citynews.ca/2026/06/06/london-ont-community-members-mark-five-years-since-deadly-attack-on-muslim-family",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"A new exchange of fire with Iran in the Gulf tests the fragile ceasefire",
+      "display":"A new exchange of fire with Iran in the Gulf tests the fragile ceasefire",
+      "url":"https://globalnews.ca/news/11893265/us-iran-us",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Box Office: ‘Scary Movie’ Starts Strong With $24.7 Million on Friday; ‘Masters of the Universe’ Takes Second With $11.7 Million",
-      "display":"Box Office: ‘Scary Movie’ Starts Strong With $24.7 Million on Friday; ‘Masters of the Universe’ Takes Second With $11.7 Million",
-      "url":"https://variety.com/2026/film/box-office/box-office-scary-movie-masters-of-the-universe-backrooms-1236768580",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"See Bruce Springsteen Play With Jon Bon Jovi, Public Enemy at Night Two of ‘Music America’",
-      "display":"See Bruce Springsteen Play With Jon Bon Jovi, Public Enemy at Night Two of ‘Music America’",
-      "url":"https://www.rollingstone.com/music/music-news/bruce-springsteen-jon-bon-jovi-public-enemy-1235573414",
+      "text":"Senior British royals gather as King Charles’ nephew marries nurse Harriet Sperling",
+      "display":"Senior British royals gather as King Charles’ nephew marries nurse Harriet Sperling",
+      "url":"https://toronto.citynews.ca/2026/06/06/senior-british-royals-gather-as-king-charles-nephew-marries-nurse-harriet-sperling",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-06-06T16:45:18Z"
+  "generated_utc":"2026-06-06T17:59:41Z"
 }
