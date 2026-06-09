@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"7 more suspects identified in shooting death of Anthony Taylor at Rexdale TCH building",
-      "display":"7 more suspects identified in shooting death of Anthony Taylor at Rexdale TCH building",
-      "url":"https://toronto.citynews.ca/2026/06/09/7-more-suspects-identified-in-shooting-death-of-anthony-taylor-at-rexdale-tch-building",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"OPP officer killed in the line of duty in northern Ontario",
+      "display":"OPP officer killed in the line of duty in northern Ontario",
+      "url":"https://toronto.citynews.ca/2026/06/09/opp-officer-killed-in-the-line-of-duty-in-northern-ontario",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Breakfast brewskies: Alberta bars, restaurants now allowed to serve alcohol at 6 a.m.",
-      "display":"Breakfast brewskies: Alberta bars, restaurants now allowed to serve alcohol at 6 a.m.",
-      "url":"https://globalnews.ca/news/11896487/aglc-morning-alcohol-serving-rule-change",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Your Summer Plans, Sorted: 16 Best Pool Floats for a Hollywood-Worthy Pool Day",
-      "display":"Your Summer Plans, Sorted: 16 Best Pool Floats for a Hollywood-Worthy Pool Day",
-      "url":"https://www.hollywoodreporter.com/lifestyle/shopping/best-pool-floats-1234975373",
+      "text":"Liberals open to shorter metadata rules but splitting bill ‘not an option’",
+      "display":"Liberals open to shorter metadata rules but splitting bill ‘not an option’",
+      "url":"https://globalnews.ca/news/11896929/lawful-access-metadata-period-liberals-minister",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-06-09T20:23:28Z"
+  "generated_utc":"2026-06-09T22:02:18Z"
 }
