@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"No whey? Why there is a looming shortage of the protein in Canada",
-      "display":"No whey? Why there is a looming shortage of the protein in Canada",
-      "url":"https://globalnews.ca/news/11898401/whey-protein-shortage",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Senate committee report calls for better co-ordination of wildfire response",
+      "display":"Senate committee report calls for better co-ordination of wildfire response",
+      "url":"https://globalnews.ca/news/11898812/senate-committee-report-on-wildfire-response",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"FIFA’s Infantino defends World Cup ticket prices, says fans ‘should chill’ about ref denied US entry",
-      "display":"FIFA’s Infantino defends World Cup ticket prices, says fans ‘should chill’ about ref denied US entry",
-      "url":"https://toronto.citynews.ca/2026/06/10/fifas-infantino-defends-world-cup-ticket-prices-says-fans-should-chill-about-ref-denied-us-entry",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Abby Lee Miller shows off ‘amazing’ $1K ear rejuvenation surgery results",
-      "display":"Abby Lee Miller shows off ‘amazing’ $1K ear rejuvenation surgery results",
-      "url":"https://pagesix.com/2026/06/10/celebrity-news/abby-lee-miller-shows-off-amazing-1k-ear-rejuvenation-surgery-results",
+      "text":"Giants’ Willy Adames misses series finale: ‘Fighting through some pain’",
+      "display":"Giants’ Willy Adames misses series finale: ‘Fighting through some pain’",
+      "url":"https://nypost.com/2026/06/10/sports/giants-willy-adames-misses-series-finale-against-nationals",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-06-10T19:51:02Z"
+  "generated_utc":"2026-06-10T21:50:57Z"
 }
