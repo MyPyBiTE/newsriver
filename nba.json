@@ -1,47 +1,8 @@
 {
-  "generated_utc": "2026-06-11T02:03:08.557996Z",
+  "generated_utc": "2026-06-11T07:01:03.195864Z",
   "dates": [
     {
-      "games": [
-        {
-          "gamePk": "401859966",
-          "gameDate": "2026-06-11T00:30Z",
-          "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "2nd",
-            "currentQuarter": "2nd"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "SAS"
-              },
-              "score": 76
-            },
-            "home": {
-              "team": {
-                "abbreviation": "NYK"
-              },
-              "score": 49
-            }
-          }
-        }
-      ]
+      "games": []
     }
-  ],
-  "_meta": {
-    "source": "espn",
-    "urls": [
-      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260609",
-      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260610"
-    ],
-    "games_count": 1,
-    "http_timeout_sec": 12.0,
-    "version": "nba-relay-1.1",
-    "preview_hours": 36,
-    "final_hours": 6
-  }
+  ]
 }
