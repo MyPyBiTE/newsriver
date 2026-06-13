@@ -1,6 +1,16 @@
 {
   "items":[
     {
+      "text":"Kirk boosts Blue Jays' offense with 3 hits in return from IL",
+      "display":"Kirk boosts Blue Jays' offense with 3 hits in return from IL",
+      "url":"https://www.mlb.com/bluejays/news/alejandro-kirk-reinstated-davis-schneider-recalled-daulton-varsho-on-il",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
       "text":"Moment of silence held for 2 fallen officers at Friday’s Toronto Blue Jays game",
       "display":"Moment of silence held for 2 fallen officers at Friday’s Toronto Blue Jays game",
       "url":"https://toronto.citynews.ca/2026/06/12/moment-of-silence-held-for-2-fallen-officers-at-fridays-toronto-blue-jays-game",
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Toronto police charge teen in connection with U.S. consulate shooting",
-      "display":"Toronto police charge teen in connection with U.S. consulate shooting",
-      "url":"https://globalnews.ca/news/11902545/toronto-police-charge-teen-us-consulate-shooting",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Longtime Eyewitness News Anchor Bill Ritter Steps Down, Shares Alzheimer’s Diagnosis | Video",
-      "display":"Longtime Eyewitness News Anchor Bill Ritter Steps Down, Shares Alzheimer’s Diagnosis | Video",
-      "url":"https://www.thewrap.com/media-platforms/journalism/bill-ritter-steps-down-eyewitness-news-anchor-alzheimers-diagnosis",
+      "text":"No jail time for man charged in fatal Surrey bus stop crash",
+      "display":"No jail time for man charged in fatal Surrey bus stop crash",
+      "url":"https://globalnews.ca/news/11902845/no-jail-time-man-charged-fatal-surrey-bus-stop-crash",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-06-13T04:50:27Z"
+  "generated_utc":"2026-06-13T08:15:58Z"
 }
