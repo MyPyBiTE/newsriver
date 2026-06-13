@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-06-13T01:36:51.867477Z",
+  "generated_utc": "2026-06-13T06:00:58.159539Z",
   "dates": [
     {
       "games": [
@@ -35,8 +35,8 @@
   "_meta": {
     "source": "espn",
     "urls": [
-      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260611",
-      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260612"
+      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260612",
+      "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260613"
     ],
     "games_count": 1,
     "http_timeout_sec": 12.0,
