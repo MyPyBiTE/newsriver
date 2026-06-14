@@ -3,8 +3,8 @@
     {
       "games": [
         {
-          "gamePk": null,
-          "gameDate": null,
+          "gamePk": "761656",
+          "gameDate": "2026-05-24T21:00Z",
           "status": {
             "detailedState": "Preview",
             "abstractGameState": "Preview"
@@ -16,21 +16,21 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "TEAM"
+                "abbreviation": "ATL"
               },
-              "score": null
+              "score": 0
             },
             "home": {
               "team": {
-                "abbreviation": "TEAM"
+                "abbreviation": "CLB"
               },
-              "score": null
+              "score": 2
             }
           }
         },
         {
-          "gamePk": null,
-          "gameDate": null,
+          "gamePk": "761657",
+          "gameDate": "2026-05-24T23:00Z",
           "status": {
             "detailedState": "Preview",
             "abstractGameState": "Preview"
@@ -42,21 +42,21 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "TEAM"
+                "abbreviation": "PHI"
               },
-              "score": null
+              "score": 4
             },
             "home": {
               "team": {
-                "abbreviation": "TEAM"
+                "abbreviation": "MIA"
               },
-              "score": null
+              "score": 6
             }
           }
         },
         {
-          "gamePk": null,
-          "gameDate": null,
+          "gamePk": "761658",
+          "gameDate": "2026-05-25T01:15Z",
           "status": {
             "detailedState": "Preview",
             "abstractGameState": "Preview"
@@ -68,15 +68,15 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "TEAM"
+                "abbreviation": "SEA"
               },
-              "score": null
+              "score": 0
             },
             "home": {
               "team": {
-                "abbreviation": "TEAM"
+                "abbreviation": "LAFC"
               },
-              "score": null
+              "score": 1
             }
           }
         }
