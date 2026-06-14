@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Man, woman critically injured in early morning Brampton shooting",
-      "display":"Man, woman critically injured in early morning Brampton shooting",
-      "url":"https://toronto.citynews.ca/2026/06/14/man-woman-critically-injured-in-early-morning-brampton-shooting",
+      "text":"Blue Jays' 2025 first-rounder tallies first four-hit game as a pro",
+      "display":"Blue Jays' 2025 first-rounder tallies first four-hit game as a pro",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-prospect-jojo-parker-career-high-four-hit-game",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"1 person dead in hit-and-run after large fight in North York",
+      "display":"1 person dead in hit-and-run after large fight in North York",
+      "url":"https://toronto.citynews.ca/2026/06/14/1-person-injured-in-hit-and-run-after-large-fight-in-north-york",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Ex-prosecutor flags potential legal reckoning for Trump 'enablers': 'I think you indict'",
-      "display":"Ex-prosecutor flags potential legal reckoning for Trump 'enablers': 'I think you indict'",
-      "url":"https://www.rawstory.com/trump-2677037776",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Dramatic moment heavily-armed Royal Marines board Russian 'shadow fleet' tanker in Channel... as Starmer talks up defence amid funding shambles",
-      "display":"Dramatic moment heavily-armed Royal Marines board Russian 'shadow fleet' tanker in Channel... as Starmer talks up defence amid funding shambles",
-      "url":"https://www.dailymail.com/news/article-15898531/Starmer-Britains-Armed-Forces-Russian-shadow-fleet-oil-tanker.html",
+      "text":"Israel strikes Beirut as possible U.S.-Iran deal looms",
+      "display":"Israel strikes Beirut as possible U.S.-Iran deal looms",
+      "url":"https://globalnews.ca/news/11903831/israel-strikes-beirut-possible-iran-us-deal",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-06-14T12:27:36Z"
+  "generated_utc":"2026-06-14T14:39:01Z"
 }
