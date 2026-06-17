@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Adam Drake murder conviction in Tyler Keizer death overturned, new trial ordered",
-      "display":"Adam Drake murder conviction in Tyler Keizer death overturned, new trial ordered",
-      "url":"https://globalnews.ca/news/11910265/adam-drake-tyler-keizer-conviction-overturned",
+      "text":"With Bieber nearly ready to return, Blue Jays face a decision",
+      "display":"With Bieber nearly ready to return, Blue Jays face a decision",
+      "url":"https://www.mlb.com/bluejays/news/shane-bieber-return-blue-jays-rotation-impact",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Ontario man accused of speeding 2.5x over limit with no headlights while impaired",
+      "display":"Ontario man accused of speeding 2.5x over limit with no headlights while impaired",
+      "url":"https://globalnews.ca/news/11910785/ontario-driver-double-speed-limit",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Child, 3, seriously injured after vehicle strikes multiple pedestrians: Toronto police",
-      "display":"Child, 3, seriously injured after vehicle strikes multiple pedestrians: Toronto police",
-      "url":"https://toronto.citynews.ca/2026/06/17/child-3-seriously-injured-after-vehicle-strikes-multiple-pedestrians-toronto-police",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Robert Downey Jr. Says ‘Avengers: Doomsday’ Figured Out How to Make Marvel Movies ‘Not Be a Letdown’ After ‘Infinity War’ and ‘Endgame’",
-      "display":"Robert Downey Jr. Says ‘Avengers: Doomsday’ Figured Out How to Make Marvel Movies ‘Not Be a Letdown’ After ‘Infinity War’ and ‘Endgame’",
-      "url":"https://variety.com/2026/film/news/robert-downey-jr-avengers-doomsday-wont-let-down-marvel-fans-1236784201",
+      "text":"Will ‘Austin Powers 4’ Ever Happen? Franchise Mainstays Reveal What They Know",
+      "display":"Will ‘Austin Powers 4’ Ever Happen? Franchise Mainstays Reveal What They Know",
+      "url":"https://www.hollywoodreporter.com/movies/movie-news/austin-powers-4-franchise-mike-myers-dr-evil-verizon-1236624536",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-06-17T21:53:36Z"
+  "generated_utc":"2026-06-17T23:16:15Z"
 }
