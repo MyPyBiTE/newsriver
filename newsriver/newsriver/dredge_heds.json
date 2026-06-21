@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Sunday's Blue Jays-Cubs game postponed due to forecast of inclement weather",
-      "display":"Sunday's Blue Jays-Cubs game postponed due to forecast of inclement weather",
-      "url":"https://www.mlb.com/bluejays/news/blue-jays-vs-cubs-june-21-2026-game-postponed",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"Calgary police investigating suspicious death at Tomkins Park",
       "display":"Calgary police investigating suspicious death at Tomkins Park",
       "url":"https://globalnews.ca/news/11915073/calgary-police-suspicious-death-investigation-2",
@@ -21,9 +11,19 @@
       }
     },
     {
-      "text":"Man accused of shooting at Peel police officer is arrested",
-      "display":"Man accused of shooting at Peel police officer is arrested",
-      "url":"https://toronto.citynews.ca/2026/06/21/man-accused-of-shooting-at-peel-police-officer-is-arrested",
+      "text":"AI safety advocates say bill a good ‘first step’ on regulation, but more needed",
+      "display":"AI safety advocates say bill a good ‘first step’ on regulation, but more needed",
+      "url":"https://toronto.citynews.ca/2026/06/21/ai-safety-advocates-say-bill-a-good-first-step-on-regulation-but-more-needed",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Wyndham Clark’s girlfriend Emily Tanner has 1-word reaction to US Open final round",
+      "display":"Wyndham Clark’s girlfriend Emily Tanner has 1-word reaction to US Open final round",
+      "url":"https://nypost.com/2026/06/21/sports/wyndham-clarks-girlfriend-emily-tanner-us-open-final-round-reaction",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-06-21T18:00:55Z"
+  "generated_utc":"2026-06-21T19:59:46Z"
 }
