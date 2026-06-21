@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Blue Jays pull off spirited comeback at Wrigley with 8 unanswered runs",
-      "display":"Blue Jays pull off spirited comeback at Wrigley with 8 unanswered runs",
-      "url":"https://www.mlb.com/bluejays/news/kazuma-okamoto-daulton-varsho-homer-blue-jays-comeback-win",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"Roughriders down Stampeders 40-37 in overtime",
       "display":"Roughriders down Stampeders 40-37 in overtime",
       "url":"https://globalnews.ca/news/11914932/roughriders-down-stampeders-40-37-in-overtime",
@@ -21,9 +11,19 @@
       }
     },
     {
-      "text":"Frustration, confusion as Toronto FIFA Fan Fest fails to show World Cup match",
-      "display":"Frustration, confusion as Toronto FIFA Fan Fest fails to show World Cup match",
-      "url":"https://toronto.citynews.ca/2026/06/20/frustration-confusion-as-toronto-fifa-fan-fest-fails-to-show-world-cup-match",
+      "text":"Watch Blossoms perform surprise pop-up gig in Manchester from inside a van",
+      "display":"Watch Blossoms perform surprise pop-up gig in Manchester from inside a van",
+      "url":"https://www.nme.com/news/music/watch-blossoms-perform-surprise-pop-up-gig-in-manchester-from-inside-a-van-3952127",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Viu CEO Says Nearly 20% of Long-Form Users Now Watch Microdrama as Streamer Expands Branded Content and Co-Production Push",
+      "display":"Viu CEO Says Nearly 20% of Long-Form Users Now Watch Microdrama as Streamer Expands Branded Content and Co-Production Push",
+      "url":"https://variety.com/2026/tv/news/viu-microdrama-users-branded-content-kocca-apos-2026-1236786528",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-06-21T07:04:52Z"
+  "generated_utc":"2026-06-21T10:44:13Z"
 }
