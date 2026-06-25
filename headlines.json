@@ -1,10 +1,823 @@
 {
-  "generated_utc": "2026-06-25T04:26:07.975Z",
-  "itemset_hash": "e49eab9f5e34d9db",
+  "generated_utc": "2026-06-25T08:02:56.911Z",
+  "itemset_hash": "6d2db849999afaae",
   "count": 69,
   "items": [
     {
-      "title": "Mexico win 3–0 to eliminate Czechia and win all three World Cup matches",
+      "title": "Gary Oldman to Receive Edinburgh TV Fest’s Golden Icon Award (Exclusive)",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/gary-oldman-slow-horses-edinburgh-tv-fest-golden-icon-1236628414",
+      "source": "The Hollywood Reporter",
+      "published_utc": "2026-06-25T08:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Venezuela earthquakes leave at least 32 dead, 700 injured and dozens of buildings collapsed – latest updates",
+      "url": "https://www.theguardian.com/world/live/2026/jun/25/venezuela-earthquake-live-updates-quake-aftershocks-terremoto-caracas-latest",
+      "source": "World news | The Guardian",
+      "published_utc": "2026-06-25T07:49:43.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6",
+          "body_count≥3"
+        ],
+        "style": "breaker"
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Lionel Richie Cuts Minnesota Set Short After Falling Ill On Stage",
+      "url": "https://www.rollingstone.com/music/music-news/lionel-richie-minnesota-show-ill-on-stage-1235583728",
+      "source": "Rolling Stone",
+      "published_utc": "2026-06-25T07:49:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Cheek of the Week -- Guess The Sexy Singer Soaking Up Spain",
+      "url": "https://www.tmz.com/2026/06/25/hot-booty-pics-of-bebe-rexha",
+      "source": "TMZ.com",
+      "published_utc": "2026-06-25T07:45:08.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Rescuers pull survivors from rubble after Venezuela earthquakes",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/25/rescuers-pull-survivors-from-rubble-after-venezuela-earthquakes?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-06-25T07:32:59.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Carlos Boozer Gives Son Cameron Advice After Being Picked 3rd Overall By Grizzlies",
+      "url": "https://www.tmz.com/2026/06/25/carlos-boozer-gives-son-cameron-advice-after-nba-draft",
+      "source": "TMZ.com",
+      "published_utc": "2026-06-25T07:30:11.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Qatar Signs Crude Deal With Taiwan as Gulf Oil Trade Recovers",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Qatar-Signs-Crude-Deal-With-Taiwan-as-Gulf-Oil-Trade-Recovers.html",
+      "source": "Oilprice.com",
+      "published_utc": "2026-06-25T07:30:00.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Energy",
+      "region": "Canada"
+    },
+    {
+      "title": "ACM Honors Event Sets Kacey Musgraves, Ella Langley, Leslie Fram and Other Country Heavyweights for Special Awards",
+      "url": "https://variety.com/2026/music/news/acm-honors-kacey-musgraves-ella-langley-leslie-fram-1236790083",
+      "source": "Variety",
+      "published_utc": "2026-06-25T07:25:20.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Forget max pain theory. Bitcoin is well below the $72,000 magnet going into $10 billion options expiry",
+      "url": "https://www.coindesk.com/markets/2026/06/25/forget-max-pain-bitcoin-is-well-below-the-usd72-000-magnet-ahead-of-usd10-billion-options-expiry",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2026-06-25T07:24:59.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Lionel Richie Falls Ill On Stage, Cutting Short First Night Of New Tour",
+      "url": "https://deadline.com/2026/06/lionel-richie-falls-ill-cuts-short-tour-first-night-1236967125",
+      "source": "Deadline",
+      "published_utc": "2026-06-25T07:24:54.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "’Baahubali’ Animated Feature Director, Producer on Taking Indian Cinema Global and Bringing Indian Audiences to Animation",
+      "url": "https://variety.com/2026/film/global/annecy-baahubali-ishan-shukla-shobu-yarlagadda-1236790105",
+      "source": "Film",
+      "published_utc": "2026-06-25T07:09:07.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Morrissey shares lengthy attack on Johnny Marr, accusing him “dividing” The Smiths audience into “factions”",
+      "url": "https://www.nme.com/news/music/morrissey-shares-lengthy-attack-on-johnny-marr-accusing-him-dividing-the-smiths-audience-into-factions-3953075",
+      "source": "NME",
+      "published_utc": "2026-06-25T07:08:31.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Amazon's Best Deals on Water Bottles & Tumblers",
+      "url": "https://www.tmz.com/2026/06/25/prime-day-sale-on-water-bottles",
+      "source": "TMZ.com",
+      "published_utc": "2026-06-25T07:05:38.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "'River' Singer Bishop Briggs 'Memba Her?!",
+      "url": "https://www.tmz.com/2026/06/25/bishop-briggs-then-and-now",
+      "source": "TMZ.com",
+      "published_utc": "2026-06-25T07:01:34.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Mia McKenna-Bruce & Alex Hassell To Voice Rosie Day’s Audible Original Thriller ‘The Tutor’",
+      "url": "https://deadline.com/2026/06/mia-mckenna-bruce-alex-hassell-rosie-day-audible-tutor-1236966150",
+      "source": "Deadline",
+      "published_utc": "2026-06-25T07:01:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Fab Morvan Never Reconciled with Clive Davis Before His Death",
+      "url": "https://www.tmz.com/2026/06/25/fab-morvan-and-clive-davis-never-repaired-relationship",
+      "source": "TMZ.com",
+      "published_utc": "2026-06-25T07:00:24.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Muse – ‘The Wow! Signal’ review: space rock icons’ best album in 20 years",
+      "url": "https://www.nme.com/reviews/album/muse-the-wow-signal-album-review-3952795",
+      "source": "NME",
+      "published_utc": "2026-06-25T07:00:15.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Gerran Howell’s rise on ‘The Pitt’ is just what the doctor ordered",
+      "url": "https://www.nme.com/features/tv-interviews/gerran-howell-interview-the-pitt-season-2-whats-next-3952979",
+      "source": "NME",
+      "published_utc": "2026-06-25T07:00:02.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Shon Faye: ‘I worry about the threat of far-right politics in the UK’",
+      "url": "https://www.dazeddigital.com/life-culture/article/70521/1/shon-faye-the-transgender-issue-fifth-anniversary-interview-2026",
+      "source": "Dazed",
+      "published_utc": "2026-06-25T07:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Power, Discrimination, Difference, Motherhood and Rural Diaspora Brought Into Focus at Women in Animation from Spain",
+      "url": "https://variety.com/2026/film/global/lucija-stojevic-susana-casares-romina-marti-otoole-1236790080",
+      "source": "Film",
+      "published_utc": "2026-06-25T06:49:27.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Kenya passes controversial bill two years after deadly Gen Z protests",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/25/kenya-passes-controversial-bill-two-years-after-deadly-gen-z-protests?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-06-25T06:35:23.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "breaker"
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Lionel Richie Cuts Set Short After Falling Ill During Opening Night of Tour in Minnesota",
+      "url": "https://variety.com/2026/music/news/lionel-richie-cuts-set-short-falling-ill-minnesota-1236790082",
+      "source": "Variety",
+      "published_utc": "2026-06-25T06:30:05.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Marek Eben Hosts KVIFF Ceremonies With Hollywood Stars and the Czech ‘Dancing With the Stars.’ Which One Is More Stressful?",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/kviff-marek-eben-opening-ceremony-czech-tv-hollywood-stars-1236615618",
+      "source": "The Hollywood Reporter",
+      "published_utc": "2026-06-25T06:30:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Ethiopia is not being ‘dragged into war’",
+      "url": "https://www.aljazeera.com/opinions/2026/6/25/ethiopia-is-not-being-dragged-into-war?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-06-25T06:29:17.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "US arbitration giant rolls out ‘legal layer’ for agentic commerce",
+      "url": "https://cointelegraph.com/news/ai-is-getting-a-legal-layer-as-agentic-commerce-accelerates",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2026-06-25T06:26:29.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Breaking down winners and losers of first round of 2026 NBA Draft",
+      "url": "https://nypost.com/2026/06/25/sports/breaking-down-winners-and-losers-of-first-round-of-2026-nba-draft",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-06-25T06:20:33.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Lionel Richie Cuts Concert Short After Falling Ill Mid-Performance",
+      "url": "https://www.thewrap.com/creative-content/music/lionel-richie-cuts-concert-short-falls-ill-mid-performance",
+      "source": "TheWrap",
+      "published_utc": "2026-06-25T06:02:54.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Live markets: Bitcoin, ether lead $1 billion liquidation losses as AI trade keeps going",
+      "url": "https://www.coindesk.com/tech/2026/06/25/live-markets-bitcoin-ether-lead-usd1-billion-liquidation-losses-as-ai-trade-keeps-going",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2026-06-25T06:01:07.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Anshuman Jha’s First Ray Films Boards Animated Feature ‘Error#404,’ Selected for MIFA at Annecy (EXCLUSIVE)",
+      "url": "https://variety.com/2026/film/markets-festivals/anshuman-jha-first-ray-films-error-404-animated-feature-annecy-mifa-1236789036",
+      "source": "Film",
+      "published_utc": "2026-06-25T06:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Eagles’ Jalen Hurts, DeVonta Smith Share Their Country Roots At Wedding In Viral Line Dance Video",
+      "url": "https://dailycaller.com/2026/06/25/philadelphia-eagles-jalen-hurts-devonta-smith-line-dance-video",
+      "source": "The Daily Caller",
+      "published_utc": "2026-06-25T05:53:04.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "House Democrats seek SEC answers on AI investment advisers",
+      "url": "https://cointelegraph.com/news/dems-want-secs-answers-on-ai-investment-advisors",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2026-06-25T05:47:21.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Blue Jays' No. 1 prospect Parker finding a groove with 4th HR in 6 games at Single-A",
+      "url": "https://www.mlb.com/bluejays/news/blue-jays-jojo-parker-homer-binge-at-single-a",
+      "source": "Blue Jays News",
+      "published_utc": "2026-06-25T05:39:29.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "MemeCore's M token suddenly crashes 80% with no clear trigger",
+      "url": "https://www.coindesk.com/markets/2026/06/25/memecore-s-m-token-suddenly-crashes-80-with-no-clear-trigger",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2026-06-25T05:35:43.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "St. John’s star frontcourt gets ‘picture-perfect ending’ with historic NBA draft",
+      "url": "https://nypost.com/2026/06/25/sports/st-johns-star-front-court-get-picture-perfect-ending-with-historic-nba-draft",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-06-25T05:27:15.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Venezuela rocked by 7.5, 7.2 earthquakes: What happened and what we know",
+      "url": "https://www.aljazeera.com/news/2026/6/25/venezuela-rocked-by-7-5-7-2-earthquakes-what-happened-and-what-we-know?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-06-25T05:27:10.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "‘Who’s the Boss?’ star Danny Pintauro works 5 jobs to make ends meet — as he defends Amazon delivery gig",
+      "url": "https://pagesix.com/2026/06/25/celebrity-news/whos-the-boss-star-danny-pintauro-works-5-jobs-to-survive",
+      "source": "New York Post",
+      "published_utc": "2026-06-25T05:26:29.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Natural Gas Prices Set to Ease as Qatar Restores LNG Output",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Natural-Gas-Prices-Set-to-Ease-as-Qatar-Restores-LNG-Output.html",
+      "source": "Oilprice.com",
+      "published_utc": "2026-06-25T05:26:20.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "In pictures: Venezuela hit by twin earthquakes",
+      "url": "https://www.aljazeera.com/gallery/2026/6/25/venezuela-grapples-with-deadly-twin-quakes-over-700-injured-so-far?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-06-25T05:23:27.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2026-06-25T05:16:56.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Tucker Carlson Says Trump Has Realized That ‘The Biggest Threat To His Administration Is Israel’",
+      "url": "https://www.mediaite.com/politics/tucker-carlson-says-trump-has-realized-that-the-biggest-threat-to-his-administration-is-israel",
+      "source": "Mediaite",
+      "published_utc": "2026-06-25T05:16:05.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Lions’ Terrion Arnold arrested, faces possibility of life in prison in armed robbery case",
+      "url": "https://nypost.com/2026/06/25/sports/lions-terrion-arnold-faces-possibility-of-life-in-prison",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-06-25T05:11:06.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Three sisters with combined age of 316 discuss the secrets to life",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/25/three-sisters-with-combined-age-of-316-discuss-the-secrets-to-life?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-06-25T05:08:17.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Sean Hannity Responds to Concern Over Swollen Appearance, Reveals Cause for ‘Puffiness’",
+      "url": "https://www.thewrap.com/culture-lifestyle/culture/sean-hannity-responds-swollen-appearance-concern-shares-diagnosis",
+      "source": "TheWrap",
+      "published_utc": "2026-06-25T05:04:22.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Trump says UK’s likely next leader Andy Burnham is ‘extremely liberal’",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/25/trump-says-uks-likely-next-leader-andy-burnham-is-extremely?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-06-25T05:03:49.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Ripple's RLUSD stablecoin goes live in Japan after regulatory approval",
+      "url": "https://www.coindesk.com/markets/2026/06/25/ripple-s-rlusd-stablecoin-goes-live-in-japan-after-regulatory-approval",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2026-06-25T05:02:34.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Andy and Jamie Murray to Launch Tennis YouTube Channel ‘The Set’",
+      "url": "https://www.hollywoodreporter.com/business/digital/andy-jamie-murray-tennis-youtube-1236625167",
+      "source": "The Hollywood Reporter",
+      "published_utc": "2026-06-25T05:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Bitcoin has a new line in the sand. Thursday’s core PCE could stress test it.",
+      "url": "https://www.coindesk.com/markets/2026/06/25/bitcoin-has-a-new-line-in-the-sand-thursday-s-core-pce-could-stress-test-it",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2026-06-25T04:53:31.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Grand Theft Auto 6 Pre-Orders Are Live for PS5 and Xbox",
+      "url": "https://consequence.net/2026/06/grand-theft-auto-6-pre-order-price-editions-bonuses",
+      "source": "Consequence",
+      "published_utc": "2026-06-25T04:53:03.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Mets To Trade David Peterson To Cubs",
+      "url": "https://www.mlbtraderumors.com/2026/06/mets-to-trade-david-peterson-to-cubs.html",
+      "source": "MLB Trade Rumors",
+      "published_utc": "2026-06-25T04:52:41.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Tyler Mahle shines, Giants walk off A’s with two homers in ninth",
+      "url": "https://nypost.com/2026/06/25/sports/tyler-mahle-shines-giants-walk-off-as-with-two-homers-in-ninth",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-06-25T04:41:05.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "New York’s New Squad",
+      "url": "https://www.thefp.com/p/new-york-new-squad-primary-winners",
+      "source": "The Free Press",
+      "published_utc": "2026-06-25T04:33:36.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "XRP slides 2.8% as weak bounce keeps $1 support in focus",
+      "url": "https://www.coindesk.com/markets/2026/06/25/xrp-slides-2-8-as-weak-bounce-keeps-usd1-support-in-focus",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2026-06-25T04:32:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Bitcoin back above $60,000, ETH, SOL recoup losses as AI stocks stage rebound",
+      "url": "https://www.coindesk.com/markets/2026/06/25/bitcoin-back-above-usd60-000-eth-sol-recoup-losses-as-ai-stocks-stage-rebound",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2026-06-25T04:29:03.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Fox News Star Sean Hannity Addresses Health Diagnosis After Viewer Concerns Over “Raspy Voice And A Puffy Face”",
+      "url": "https://deadline.com/2026/06/fox-news-sean-hannity-health-diagnosis-raspy-voice-puffy-face-1236967094",
+      "source": "Deadline",
+      "published_utc": "2026-06-25T04:23:05.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Dodgers’ Shohei Ohtani reveals gender of recently-born second child",
+      "url": "https://nypost.com/2026/06/25/sports/dodgers-shohei-ohtani-reveals-gender-of-recently-born-second-child",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-06-25T04:19:08.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Trump DOJ's defiance backfires as judges move to revive contempt case: legal expert",
+      "url": "https://www.rawstory.com/trump-doj-contempt-case",
+      "source": "Raw Story",
+      "published_utc": "2026-06-25T04:17:13.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Thousands feared dead as twin earthquakes cause devastation across Venezuel",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/25/thousands-feared-dead-as-twin-earthquakes-cause-devastation-across-venezuel?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-06-25T04:16:01.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Charges Dropped Against Bailey Zimmerman After He Allegedly Trashed Hotel Room",
+      "url": "https://www.rollingstone.com/music/music-country/bailey-zimmerman-charges-dropped-trashed-hotel-room-1235583719",
+      "source": "Rolling Stone",
+      "published_utc": "2026-06-25T04:15:44.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "State Of Emergency Declared, Casualties Confirmed After Double Earthquake Devastates Venezuela",
+      "url": "https://dailycaller.com/2026/06/25/venezuela-double-earthquake-disaster-state-of-emergency-casualties-rescue-efforts",
+      "source": "The Daily Caller",
+      "published_utc": "2026-06-25T04:14:53.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Mexico triumph 3-0 to eliminate Czechia and win all three World Cup matches",
       "url": "https://www.aljazeera.com/sports/2026/6/25/mexico-win-3-0-to-eliminate-czechia-and-win-all-three-world-cup?traffic_source=rss",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
       "published_utc": "2026-06-25T04:13:33.000Z",
@@ -17,10 +830,10 @@
       "region": "World"
     },
     {
-      "title": "Venezuela earthquake live: state of emergency declared after officials warn of widespread damage and high casualties",
-      "url": "https://www.theguardian.com/world/live/2026/jun/25/venezuela-earthquake-live-updates-quake-aftershocks-terremoto-caracas-latest",
-      "source": "World news | The Guardian",
-      "published_utc": "2026-06-25T04:00:23.000Z",
+      "title": "Chris Hayes Says Trump Derailed Housing Bill to Chase ‘Dictator’ Power | Video",
+      "url": "https://www.thewrap.com/media-platforms/politics/chris-hayes-reacts-trump-derailing-housing-bill",
+      "source": "TheWrap",
+      "published_utc": "2026-06-25T04:12:52.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -28,6 +841,71 @@
       },
       "category": "General",
       "region": "World"
+    },
+    {
+      "title": "Trump: America's 250th Anniversary Is a 'Time to Be Proud of Our Past'",
+      "url": "https://www.breitbart.com/america250/2026/06/24/3311348",
+      "source": "Breitbart News",
+      "published_utc": "2026-06-25T04:02:49.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Michael Jackson Died 17 Years Ago Today: He’s On Track to Sell 5 Million Albums This Year and There’s No End in Sight",
+      "url": "https://www.showbiz411.com/2026/06/25/michael-jackson-died-17-years-ago-today-hes-on-track-to-sell-5-million-albums-this-year-and-theres-no-end-in-sight",
+      "source": "Showbiz411",
+      "published_utc": "2026-06-25T04:02:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "‘Survivor 50’ Publicity Team Takes Home Top Honor at 2026 TPEC Awards",
+      "url": "https://www.thewrap.com/creative-content/tv-shows/2026-tpec-awards-winners-list-survivor-50-the-pitt",
+      "source": "TheWrap",
+      "published_utc": "2026-06-25T04:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "With a Round of 32 spot already clinched, the U.S. takes on Turkey in the World Cup",
+      "url": "https://www.npr.org/2026/06/25/nx-s1-5869807/2026-world-cup-fifa-usmnt-turkey",
+      "source": "NPR Topics: Home Page Top Stories",
+      "published_utc": "2026-06-25T04:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Mets trade David Peterson to Cubs as they dump struggling lefty",
+      "url": "https://nypost.com/2026/06/24/sports/mets-trade-david-peterson-to-cubs-as-they-dump-struggling-lefty",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-06-25T03:55:35.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Sports",
+      "region": "Canada"
     },
     {
       "title": "Iranians mark first Ashura since Khamenei’s killing in the US-Iran war",
@@ -43,23 +921,7 @@
       "region": "World"
     },
     {
-      "title": "Mets To Trade David Peterson To Cubs",
-      "url": "https://www.mlbtraderumors.com/2026/06/mets-to-trade-david-peterson-to-cubs.html",
-      "source": "MLB Trade Rumors",
-      "published_utc": "2026-06-25T03:54:41.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "Papua New Guinea faces severe food shortages as El Niño brings frost and drought",
+      "title": "Papua New Guinea at risk of food shortages as El Niño brings frost and drought",
       "url": "https://www.theguardian.com/world/2026/jun/25/el-nino-pacific-papua-new-guinea-png-food-shortages",
       "source": "World news | The Guardian",
       "published_utc": "2026-06-25T03:54:03.000Z",
@@ -78,932 +940,26 @@
       "published_utc": "2026-06-25T03:50:26.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Millie Bobby Brown On Duffer Brothers Pact About What Really Happened To Eleven On ‘Stranger Things’",
-      "url": "https://deadline.com/2026/06/millie-bobby-brown-duffer-brothers-pact-stranger-things-1236967083",
-      "source": "Deadline",
-      "published_utc": "2026-06-25T03:47:50.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Watch the Nostalgic, High-Fidelity First Teaser Trailer for ‘THE ONE PIECE’ Remake Anime",
-      "url": "https://hypebeast.com/2026/6/netflix-the-one-piece-anime-remake-teaser-trailer-release-info",
-      "source": "Hypebeast",
-      "published_utc": "2026-06-25T03:47:42.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "South Africa stun South Korea to reach World Cup knockouts for the first time",
-      "url": "https://www.aljazeera.com/sports/2026/6/25/south-africa-stun-south-korea-to-reach-world-cup-knockouts-for-the-first-time?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-06-25T03:30:45.000Z",
-      "effects": {
-        "lightsaber": false,
         "glitch": false,
         "reasons": []
       },
       "category": "General",
       "region": "World"
-    },
-    {
-      "title": "Abracadabra takes emergency action as MIM stablecoin depeg worsens",
-      "url": "https://cointelegraph.com/news/abracadabra-takes-emergency-measures-as-magic-internet-money-depeg-worsens",
-      "source": "Cointelegraph.com News",
-      "published_utc": "2026-06-25T03:22:05.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Business",
-      "region": "World"
-    },
-    {
-      "title": "Canada to face South Africa in World Cup knockout match",
-      "url": "https://toronto.citynews.ca/2026/06/24/canada-to-face-south-africa-in-world-cup-knockout-match",
-      "source": "CityNews Toronto",
-      "published_utc": "2026-06-25T03:10:00.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Local",
-      "region": "Canada"
-    },
-    {
-      "title": "Chris Paddack Elects Free Agency",
-      "url": "https://www.mlbtraderumors.com/2026/06/chris-paddack-elects-free-agency.html",
-      "source": "MLB Trade Rumors",
-      "published_utc": "2026-06-25T03:02:28.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "Red Deer high school students come together to help classmate fighting cancer",
-      "url": "https://globalnews.ca/news/11937330/red-deer-high-school-students-help-classmate-fight-cancer",
-      "source": "globalnews.ca",
-      "published_utc": "2026-06-25T02:55:46.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "Braves Considering Moving Reynaldo López Back To Rotation",
-      "url": "https://www.mlbtraderumors.com/2026/06/braves-considering-moving-reynaldo-lopez-back-to-rotation.html",
-      "source": "MLB Trade Rumors",
-      "published_utc": "2026-06-25T02:46:18.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "Pair of tough late plays sink Blue Jays against Astros",
-      "url": "https://www.mlb.com/bluejays/news/blue-jays-undone-by-mistakes-in-loss-to-astros",
-      "source": "Blue Jays News",
-      "published_utc": "2026-06-25T02:35:00.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "Rangers Release Blaine Crim To Pursue Opportunity In Asia",
-      "url": "https://www.mlbtraderumors.com/2026/06/rangers-release-blaine-crim-to-pursue-opportunity-in-asia.html",
-      "source": "MLB Trade Rumors",
-      "published_utc": "2026-06-25T02:33:47.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "Netflix Moves Adult Animation Back Under Head Of Comedy Tracey Pakosta",
-      "url": "https://deadline.com/2026/06/netflix-adult-animation-restructuring-tracey-pakosta-comedy-1236966707",
-      "source": "Deadline",
-      "published_utc": "2026-06-25T02:30:29.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Beats Studio Pro Slashed to All-Time Lowest Price",
-      "url": "https://consequence.net/2026/06/beats-studio-pro-prime-day-2026-deal",
-      "source": "Consequence",
-      "published_utc": "2026-06-25T02:27:01.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Kalshi seeks funding at $40B valuation, nearly doubling last raise: FT",
-      "url": "https://cointelegraph.com/news/kalshi-seeks-funding-at-40b-valuation-nearly-doubling-last-raise-ft",
-      "source": "Cointelegraph.com News",
-      "published_utc": "2026-06-25T02:23:39.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Business",
-      "region": "World"
-    },
-    {
-      "title": "Rutte attempts to ease Trump-NATO rift over Iran ahead of annual summit",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/25/rutte-attempts-to-ease-trump-nato-rift-over-iran-ahead-of-annual-summit?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-06-25T02:22:08.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Raptors draft Jaden Bradley 50th overall",
-      "url": "https://globalnews.ca/news/11937703/raptors-draft-jaden-bradley-50th-overall",
-      "source": ": Toronto",
-      "published_utc": "2026-06-25T01:59:50.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Local",
-      "region": "Canada"
-    },
-    {
-      "title": "Back-to-back powerful earthquakes slam Venezuela, collapsing buildings",
-      "url": "https://globalnews.ca/news/11937689/earthquakes-caracas-venezuela",
-      "source": "globalnews.ca",
-      "published_utc": "2026-06-25T01:56:14.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "Fox Sports Renews Concacaf Gold Cup Rights & Becomes English-Language Home Of Nations League",
-      "url": "https://deadline.com/2026/06/fox-sports-concacaf-gold-cup-rights-nations-league-1236967047",
-      "source": "Deadline",
-      "published_utc": "2026-06-25T01:41:15.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "‘She deserved better’: Owner mourns dog taken by coyote in Vancouver park",
-      "url": "https://globalnews.ca/news/11937410/chihuahua-taken-coyote-vancouver-park",
-      "source": "globalnews.ca",
-      "published_utc": "2026-06-25T01:42:13.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "Russian opposition leader jailed over anti-war social media posts",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/25/russian-opposition-leader-jailed-over-anti-war-social-media-posts?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-06-25T01:34:19.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Alex Cooper On Unwell’s Toxic Work Environment Claims: “Being A Woman In This Industry Is Extremely Difficult, You’re Held To A Different Standard”",
-      "url": "https://deadline.com/2026/06/alex-cooper-unwell-toxic-work-environment-claims-1236967041",
-      "source": "Deadline",
-      "published_utc": "2026-06-25T01:11:31.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Duck off: World Cup hero Merlín barred from Mexico game due to Fifa’s animal ban",
-      "url": "https://www.theguardian.com/football/2026/jun/24/merlin-duck-mexico-world-cup",
-      "source": "World news | The Guardian",
-      "published_utc": "2026-06-25T01:08:05.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Starbucks and its barista-creators are piloting TikTok’s new custom ad networks",
-      "url": "https://www.tubefilter.com/2026/06/24/starbucks-custom-creator-network-tiktok-barista-content",
-      "source": "Tubefilter",
-      "published_utc": "2026-06-25T01:05:24.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Mick Abel To Undergo Arthroscopic Elbow Surgery",
-      "url": "https://www.mlbtraderumors.com/2026/06/mick-abel-to-undergo-arthroscopic-elbow-surgery.html",
-      "source": "MLB Trade Rumors",
-      "published_utc": "2026-06-25T00:54:02.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "Morocco come back after historic Haiti goals to reach World Cup last 32",
-      "url": "https://www.aljazeera.com/sports/2026/6/25/morocco-come-back-against-historic-haiti-goals-to-reach-world-cup-last-32?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-06-25T00:53:21.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Lily Tomlin And Jane Wagner Board ‘Acting Like Women’ As E.P.s; Watch Trailer For Documentary On Rise Of Female Performance Artists",
-      "url": "https://deadline.com/2026/06/acting-like-women-trailer-lily-tomlin-and-jane-wagner-exec-producers-1236967013",
-      "source": "Deadline",
-      "published_utc": "2026-06-25T00:33:23.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Leonard Cohen’s Estate Issues A Pre-Event Objection To Use Of ‘Hallelujah’ At Trump’s Freedom 250 Kickoff",
-      "url": "https://deadline.com/2026/06/trump-leonard-cohen-hallelujah-1236966988",
-      "source": "Deadline",
-      "published_utc": "2026-06-25T00:23:38.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Lemaire SS27 Explores Relaxed Idealism and Artistic Layering in Paris",
-      "url": "https://hypebeast.com/2026/6/lemaire-ss27-explores-relaxed-idealism-and-artistic-layering-in-paris",
-      "source": "Hypebeast",
-      "published_utc": "2026-06-25T00:19:03.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Buildings collapse in Venezuelan capital after powerful earthquakes hit",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/25/buildings-collapse-in-venezuelan-capital-after-powerful-earthquakes-hit?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-06-25T00:18:28.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Vinicius nets twice and Neymar returns as Brazil ease by Scotland",
-      "url": "https://www.aljazeera.com/sports/2026/6/25/vinicius-nets-twice-and-neymar-returns-as-brazil-ease-by-scotland?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-06-25T00:15:05.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "US DOE funds MIT drill core tech to speed up critical minerals discovery",
-      "url": "https://www.mining.com/us-doe-funds-mit-drill-core-tech-to-speed-up-critical-minerals-discovery",
-      "source": "MINING.COM",
-      "published_utc": "2026-06-25T00:09:18.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Energy",
-      "region": "Canada"
-    },
-    {
-      "title": "Two years on, Kenyan families still seek justice after Gen Z protests",
-      "url": "https://www.aljazeera.com/news/2026/6/25/two-years-on-kenyan-families-still-seek-justice-after-gen-z-protests?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-06-25T00:11:16.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Dredging of Vancouver’s Burrard approved to make room for big oil tankers",
-      "url": "https://boereport.com/2026/06/24/dredging-of-vancouvers-burrard-approved-to-make-room-for-big-oil-tankers",
-      "source": "BOE Report",
-      "published_utc": "2026-06-25T00:07:46.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Energy",
-      "region": "Canada"
-    },
-    {
-      "title": "Venezuela struck by back-to-back earthquakes, many casualties feared",
-      "url": "https://www.aljazeera.com/news/2026/6/25/venezuela-struck-by-back-to-back-earthquakes-high-casualties-feared?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-06-25T00:07:32.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "From content localization to global multiplatform distribution and monetization: How Linguana is connecting creators and brands",
-      "url": "https://www.tubefilter.com/2026/06/24/linguana-content-localization-distribution-monetization-in-2026",
-      "source": "Tubefilter",
-      "published_utc": "2026-06-25T00:05:32.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Jeff Olson Dies: VFX Producer On ‘Star Wars: Phantom Menace,’ ‘Roger Rabbit,’ ‘Star Trek’ Pics & More Was 77",
-      "url": "https://deadline.com/2026/06/jeff-olson-dead-star-wars-star-trek-visual-effects-1236966864",
-      "source": "Deadline",
-      "published_utc": "2026-06-25T00:00:39.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": [],
-        "style": "breaker"
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Why the AI Boom Could Trigger the Biggest Energy Trade in Decades",
-      "url": "https://oilprice.com/Energy/Energy-General/Why-the-AI-Boom-Could-Trigger-the-Biggest-Energy-Trade-in-Decades.html",
-      "source": "Oilprice.com",
-      "published_utc": "2026-06-25T00:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Energy",
-      "region": "Canada"
-    },
-    {
-      "title": "Venezuela earthquake: powerful back-to-back quakes collapse buildings in capital Caracas",
-      "url": "https://www.theguardian.com/world/2026/jun/25/earthquake-venezuela-caracas-tremors-aftershocks",
-      "source": "World news | The Guardian",
-      "published_utc": "2026-06-24T23:50:05.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Trump slams NATO over lax participation in Iran war in talk with Mark Rutte",
-      "url": "https://www.aljazeera.com/news/2026/6/24/trump-slams-nato-over-lax-participation-in-iran-war-in-talk-with-mark-rutte?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-06-24T23:47:48.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Restaurants call on courts to force XTM to repay missing funds",
-      "url": "https://betakit.com/restaurants-call-on-courts-to-force-xtm-to-repay-missing-funds",
-      "source": "BetaKit",
-      "published_utc": "2026-06-24T23:40:43.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Labour",
-      "region": "Canada"
-    },
-    {
-      "title": "Here are the hottest pitching prospects right now -- one for each club",
-      "url": "https://www.mlb.com/bluejays/news/each-club-s-hottest-pitching-prospect-june-2026",
-      "source": "Blue Jays News",
-      "published_utc": "2026-06-24T23:38:00.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "Woman rushed to hospital after 3-vehicle crash in Mississauga",
-      "url": "https://toronto.citynews.ca/2026/06/24/woman-rushed-to-hospital-after-3-vehicle-crash-in-mississauga",
-      "source": "CityNews Toronto",
-      "published_utc": "2026-06-24T23:23:46.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Local",
-      "region": "Canada"
-    },
-    {
-      "title": "Guillermo Andrade Delivers a Deeply Personal 424 SS27 Collection",
-      "url": "https://hypebeast.com/2026/6/guillermo-andrade-delivers-a-deeply-personal-424-ss27-collection",
-      "source": "Hypebeast",
-      "published_utc": "2026-06-24T23:10:40.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Miss Americana Getting Hitched At MSG? Taylor Swift & Travis Kelce Wedding Looks Set For Next Month, Or Not",
-      "url": "https://deadline.com/2026/06/taylor-swift-wedding-madison-square-garden-1236966796",
-      "source": "Deadline",
-      "published_utc": "2026-06-24T23:07:43.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Today’s Wordle answer and hints for #1832 on June 25",
-      "url": "https://www.nme.com/guides/gaming-guides/heres-the-wordle-answer-for-today-3171240",
-      "source": "NME",
-      "published_utc": "2026-06-24T23:01:34.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "IDA Announces Getting Real ’26 Lineup, Including “Conversations Usually Too Risky Or Raw To Have Anywhere Else”",
-      "url": "https://deadline.com/2026/06/ida-getting-real-26-conference-lineup-1236966814",
-      "source": "Deadline",
-      "published_utc": "2026-06-24T23:01:12.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "‘Connections’ answers and hints for today, June 25",
-      "url": "https://www.nme.com/guides/gaming-guides/connections-answers-hints-groups-today-3557066",
-      "source": "NME",
-      "published_utc": "2026-06-24T23:00:27.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Globle answer today – here’s the answer and hints for June 25",
-      "url": "https://www.nme.com/guides/gaming-guides/globle-hint-answer-today-3213991",
-      "source": "NME",
-      "published_utc": "2026-06-24T23:00:17.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Qatar and the U.S. Warn EU of Gas Crunch Over Methane Regulation",
-      "url": "https://oilprice.com/Energy/Natural-Gas/Qatar-and-the-US-Warn-EU-of-Gas-Crunch-Over-Methane-Regulation.html",
-      "source": "Oilprice.com",
-      "published_utc": "2026-06-24T23:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Energy",
-      "region": "Canada"
-    },
-    {
-      "title": "Framed answer today – here’s the solution for June 25",
-      "url": "https://www.nme.com/guides/gaming-guides/framed-answer-today-3192186",
-      "source": "NME",
-      "published_utc": "2026-06-24T23:00:09.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Beatles Series ‘Hamburg Days’ Adds Asa Butterfield, Jonny Lee Miller & Christine Tremarco",
-      "url": "https://deadline.com/2026/06/beatles-hamburg-days-asa-butterfield-jonny-lee-miller-1236966007",
-      "source": "Deadline",
-      "published_utc": "2026-06-24T23:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Powerful 7.2-magnitude earthquake strikes off northern Japan. No tsunami warning",
-      "url": "https://toronto.citynews.ca/2026/06/24/powerful-6-9-magnitude-earthquake-strikes-off-northern-japan-no-tsunami-warning",
-      "source": "CityNews Toronto",
-      "published_utc": "2026-06-24T22:55:44.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "breaker"
-      },
-      "category": "Labour",
-      "region": "Canada"
-    },
-    {
-      "title": "Blue Jays GM: Starting Pitching Likely A Deadline Priority",
-      "url": "https://www.mlbtraderumors.com/2026/06/blue-jays-gm-starting-pitching-likely-a-deadline-priority.html",
-      "source": "MLB Trade Rumors",
-      "published_utc": "2026-06-24T22:48:09.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "Captain’s ‘medical issue’ on Air Canada flight forces diversion of Halifax flight",
-      "url": "https://toronto.citynews.ca/2026/06/24/captains-medical-issue-on-air-canada-flight-forces-diversion-of-halifax-flight",
-      "source": "CityNews Toronto",
-      "published_utc": "2026-06-24T22:45:14.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Local",
-      "region": "Canada"
-    },
-    {
-      "title": "Facebook has a new Creator Studio (with AI included, of course)",
-      "url": "https://www.tubefilter.com/2026/06/24/facebook-launch-new-creator-studio-ai-assistant",
-      "source": "Tubefilter",
-      "published_utc": "2026-06-24T22:43:35.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Back-to-back powerful earthquakes slam Venezuela, collapsing buildings in the capital of Caracas",
-      "url": "https://toronto.citynews.ca/2026/06/24/magnitude-7-1-earthquake-reported-in-venezuela",
-      "source": "CityNews Toronto",
-      "published_utc": "2026-06-24T22:40:53.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Local",
-      "region": "Canada"
-    },
-    {
-      "title": "Sesame Street Gives Chappell Roan, Taylor Swift, Bruno Mars, and KPop Demon Hunters the “Weird Al” Treatment",
-      "url": "https://consequence.net/2026/06/sesame-street-parody-party-chappell-roan",
-      "source": "Consequence",
-      "published_utc": "2026-06-24T22:26:35.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Toronto massage therapist charged with sexual assault, police seek victims",
-      "url": "https://globalnews.ca/news/11937026/toronto-massage-therapist-assault",
-      "source": ": Toronto",
-      "published_utc": "2026-06-24T22:25:20.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Local",
-      "region": "Canada"
-    },
-    {
-      "title": "World’s largest EV battery repurposing megafactory opens in British Columbia",
-      "url": "https://www.mining.com/worlds-largest-ev-battery-repurposing-megafactory-opens-in-british-columbia",
-      "source": "MINING.COM",
-      "published_utc": "2026-06-24T22:22:32.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Energy",
-      "region": "Canada"
-    },
-    {
-      "title": "Alexis Guerreros Dives Right Into the Beautiful Chaos of the FIFA Fan Festival Crowd in NYC",
-      "url": "https://hypebeast.com/2026/6/doordash-alexis-guererros-fan-festival-nyc",
-      "source": "Hypebeast",
-      "published_utc": "2026-06-24T22:15:06.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "He has 20 HRs and he's at Triple-A. Could Blue Jays call up Keys?",
-      "url": "https://www.mlb.com/bluejays/news/sean-keys-blue-jays-prospect-pushing-for-promotion",
-      "source": "Blue Jays News",
-      "published_utc": "2026-06-24T22:13:01.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "Man rushed to hospital after being stabbed near Kennedy Station: Toronto police",
-      "url": "https://toronto.citynews.ca/2026/06/24/stabbing-kennedy-eglinton-toronto",
-      "source": "CityNews Toronto",
-      "published_utc": "2026-06-24T22:05:31.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Local",
-      "region": "Canada"
-    },
-    {
-      "title": "Latest Blue Jays injuries & transactions",
-      "url": "https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
-      "source": "Blue Jays News",
-      "published_utc": "2026-06-24T22:03:00.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "Global Battery Storage Boom Is A Boon for Tesla",
-      "url": "https://oilprice.com/Energy/Energy-General/Global-Battery-Storage-Boom-Is-A-Boon-for-Tesla.html",
-      "source": "Oilprice.com",
-      "published_utc": "2026-06-24T22:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Energy",
-      "region": "Canada"
     }
   ],
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 476,
-    "dedup_pass1": 474,
+    "collected": 844,
+    "dedup_pass1": 831,
     "dedup_final": 320,
     "slow_domains": [
       "www.gorillavsbear.net"
     ],
     "timeouts": [
       "news.communitech.ca",
-      "weather.gc.ca",
-      "www.cbc.ca",
-      "www.publicsafety.gc.ca",
-      "www150.statcan.gc.ca"
+      "reason.com",
+      "www.cbc.ca"
     ],
     "errors": [
       "alert.weather.gc.ca",
@@ -1013,61 +969,67 @@
       "cultmtl.com",
       "financialpost.com",
       "globalnews.ca",
-      "toronto.citynews.ca"
+      "nypost.com",
+      "toronto.citynews.ca",
+      "variety.com",
+      "www.boston.com",
+      "www.marketwatch.com",
+      "www.npr.org",
+      "www.wsj.com"
     ],
     "feed_times_sample": [
       {
         "host": "www.labourstart.org",
-        "sec": 2.879,
+        "sec": 1.787,
         "kept": 0
       },
       {
         "host": "toronto.citynews.ca",
-        "sec": 0.916,
+        "sec": 0.952,
         "kept": 8
       },
       {
-        "host": "www.blogto.com",
-        "sec": 0.388,
-        "kept": 0
-      },
-      {
         "host": "globalnews.ca",
-        "sec": 0.382,
+        "sec": 0.394,
         "kept": 10
       },
       {
         "host": "www.mlbtraderumors.com",
-        "sec": 0.286,
+        "sec": 0.377,
         "kept": 14
       },
       {
         "host": "www.cp24.com",
-        "sec": 0.268,
+        "sec": 0.281,
         "kept": 14
       },
       {
+        "host": "www.blogto.com",
+        "sec": 0.225,
+        "kept": 0
+      },
+      {
         "host": "www.nhl.com",
-        "sec": 0.188,
+        "sec": 0.18,
         "kept": 0
       },
       {
         "host": "www.bls.gov",
-        "sec": 0.16,
+        "sec": 0.124,
         "kept": 0
       },
       {
         "host": "www.mlb.com",
-        "sec": 0.153,
+        "sec": 0.101,
         "kept": 14
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.076,
+        "sec": 0.066,
         "kept": 14
       }
     ],
-    "elapsed_sec": 317.88,
+    "elapsed_sec": 344.81,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1093,25 +1055,25 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 6,
-      "ps_injury_hits": 0,
+      "ps_fatal_hits": 15,
+      "ps_injury_hits": 2,
       "market_btc_hits": 1,
       "market_index_hits": 0,
       "market_nikkei_hits": 0,
       "market_single_hits": 0,
       "agg_penalties": 0,
       "press_penalties": 0,
-      "preferred_bonus": 122,
+      "preferred_bonus": 126,
       "substack_tagged": 0,
-      "sports_team_hits": 12,
+      "sports_team_hits": 13,
       "sports_player_hits": 1,
-      "sports_result_win_hits": 7,
-      "sports_result_loss_hits": 1,
+      "sports_result_win_hits": 25,
+      "sports_result_loss_hits": 0,
       "sports_evening_hits": 0,
       "sports_playoff_hits": 0,
-      "sports_focus_team_hits": 0,
-      "sports_final_hits": 0,
-      "sports_final_score_hits": 0,
+      "sports_focus_team_hits": 11,
+      "sports_final_hits": 5,
+      "sports_final_score_hits": 5,
       "hype_politics": 0,
       "hype_conflict": 0,
       "hype_markets": 0,
@@ -1119,16 +1081,16 @@
       "hype_sports": 0,
       "hype_ceasefire": 0,
       "reject_hits": 0,
-      "obit_hits": 2,
-      "major_figure_hits": 0,
+      "obit_hits": 8,
+      "major_figure_hits": 1,
       "business_am_hits": 0
     },
     "sanity_stats": {
-      "link_verification_fail": 11,
-      "soft_404_drops": 20,
+      "link_verification_fail": 39,
+      "soft_404_drops": 74,
       "max_age_drops": 0,
       "min_age_drops": 0,
-      "market_sanity_drops": 10,
+      "market_sanity_drops": 4,
       "backfill_steps_used": 0
     },
     "require_exact_count": 69,
