@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Blue Jays Select Sean Keys, Option Davis Schneider",
-      "display":"Blue Jays Select Sean Keys, Option Davis Schneider",
-      "url":"https://www.mlbtraderumors.com/2026/06/blue-jays-to-select-sean-keys.html",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Blue Jays Place Jesús Sánchez On IL",
+      "display":"Blue Jays Place Jesús Sánchez On IL",
+      "url":"https://www.mlbtraderumors.com/2026/06/blue-jays-place-jesus-sanchez-on-il.html",
       "flags":{
         "is_breaking":false,
         "is_landmark":true,
@@ -19,17 +29,7 @@
         "is_landmark":true,
         "has_bitcoin":false
       }
-    },
-    {
-      "text":"Iran strikes American targets as Trump’s peace deal hangs in the balance: report",
-      "display":"Iran strikes American targets as Trump’s peace deal hangs in the balance: report",
-      "url":"https://www.rawstory.com/iran-war-2677120484",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
     }
   ],
-  "generated_utc":"2026-06-27T18:16:46Z"
+  "generated_utc":"2026-06-27T19:49:48Z"
 }
