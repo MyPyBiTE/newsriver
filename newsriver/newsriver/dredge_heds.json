@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Motorcyclist dead, Brampton man charged after fatal crash involving SUV",
-      "display":"Motorcyclist dead, Brampton man charged after fatal crash involving SUV",
-      "url":"https://globalnews.ca/news/11941545/motorcyclist-dead-hit-and-run",
+      "text":"Blue Jays call up slugging prospect Keys to juice underpowered offense",
+      "display":"Blue Jays call up slugging prospect Keys to juice underpowered offense",
+      "url":"https://www.mlb.com/bluejays/news/sean-keys-gets-called-up-to-majors-by-blue-jays",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Edmonton police shoot man dead after alleged assaults during hit-and-runs",
+      "display":"Edmonton police shoot man dead after alleged assaults during hit-and-runs",
+      "url":"https://globalnews.ca/news/11941670/edmonton-police-shooting-death",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"As survivors are pulled from rubble of Venezuela earthquakes, relatives of missing hold out hope",
-      "display":"As survivors are pulled from rubble of Venezuela earthquakes, relatives of missing hold out hope",
-      "url":"https://toronto.citynews.ca/2026/06/27/as-survivors-are-pulled-from-rubble-of-venezuela-earthquakes-relatives-of-missing-hold-out-hope",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Algeria vs. Austria World Cup prediction, odds, picks: Does either side want to win?",
-      "display":"Algeria vs. Austria World Cup prediction, odds, picks: Does either side want to win?",
-      "url":"https://nypost.com/2026/06/27/betting/algeria-vs-austria-world-cup-prediction-odds-picks-does-either-side-want-to-win",
+      "text":"Canada’s Davies ready to play World Cup game vs. South Africa: Marsch",
+      "display":"Canada’s Davies ready to play World Cup game vs. South Africa: Marsch",
+      "url":"https://toronto.citynews.ca/2026/06/27/canadas-davies-ready-to-play-world-cup-game-vs-south-africa-marsch",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-06-27T21:54:21Z"
+  "generated_utc":"2026-06-27T22:54:43Z"
 }
