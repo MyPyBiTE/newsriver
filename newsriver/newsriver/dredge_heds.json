@@ -1,8 +1,18 @@
 {
   "items":[
     {
-      "text":"Maple Leafs take Gavin McKenna 1st overall in NHL Draft",
-      "display":"Maple Leafs take Gavin McKenna 1st overall in NHL Draft",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"‘Dream come true’: Maple Leafs take Gavin McKenna 1st overall in NHL Draft",
+      "display":"‘Dream come true’: Maple Leafs take Gavin McKenna 1st overall in NHL Draft",
       "url":"https://toronto.citynews.ca/2026/06/26/maple-leafs-take-gavin-mckenna-1st-overall-in-nhl-draft",
       "flags":{
         "is_breaking":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Calgary judge reserves sentencing decision in crash that killed 9-year-old",
-      "display":"Calgary judge reserves sentencing decision in crash that killed 9-year-old",
-      "url":"https://globalnews.ca/news/11941016/calgary-sentencing-nepoose-crash",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Life, Larry, and the Pursuit of Unhappiness: A Guide to Every Major Guest Star",
-      "display":"Life, Larry, and the Pursuit of Unhappiness: A Guide to Every Major Guest Star",
-      "url":"https://consequence.net/2026/06/life-larry-pursuit-of-unhappiness-guest-stars",
+      "text":"Lethbridge neighbour of alleged Montreal shooter speaks out",
+      "display":"Lethbridge neighbour of alleged Montreal shooter speaks out",
+      "url":"https://globalnews.ca/news/11940877/lethbridge-neighbour-alleged-montreal-shooter-speaks-out",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-06-27T08:04:46Z"
+  "generated_utc":"2026-06-27T10:20:35Z"
 }
