@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"The plot's getting redundant: Blue Jays fall behind, battle, fall short",
-      "display":"The plot's getting redundant: Blue Jays fall behind, battle, fall short",
-      "url":"https://www.mlb.com/bluejays/news/dylan-cease-struggles-with-command-in-loss-to-rangers",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"1 dead, ‘numerous’ others critically injured in multi-vehicle Brampton crash",
       "display":"1 dead, ‘numerous’ others critically injured in multi-vehicle Brampton crash",
       "url":"https://toronto.citynews.ca/2026/06/27/1-dead-numerous-others-critically-injured-in-multi-vehicle-brampton-crash",
@@ -29,7 +19,17 @@
         "is_landmark":false,
         "has_bitcoin":false
       }
+    },
+    {
+      "text":"Jolin Tsai and Chang Chen-yue Lead the Pack at Golden Melody Awards",
+      "display":"Jolin Tsai and Chang Chen-yue Lead the Pack at Golden Melody Awards",
+      "url":"https://variety.com/2026/music/news/jolin-tsai-chang-chen-yue-golden-melody-awards-2026-1236796254",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
     }
   ],
-  "generated_utc":"2026-06-28T06:45:16Z"
+  "generated_utc":"2026-06-28T09:53:22Z"
 }
