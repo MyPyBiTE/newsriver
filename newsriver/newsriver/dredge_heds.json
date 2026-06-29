@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Young soccer players inspired by Team Canada’s historic win at World Cup",
-      "display":"Young soccer players inspired by Team Canada’s historic win at World Cup",
-      "url":"https://globalnews.ca/news/11943213/world-cup-soccer-players-inspired-team-canada",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Montreal announces it will support interest-free rental loans for struggling tenants",
+      "display":"Montreal announces it will support interest-free rental loans for struggling tenants",
+      "url":"https://globalnews.ca/news/11943802/montreal-interest-free-rental-loans-tenants",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"All EB lanes of Hwy. 401 at James Snow Parkway in Milton closed after crash",
-      "display":"All EB lanes of Hwy. 401 at James Snow Parkway in Milton closed after crash",
-      "url":"https://toronto.citynews.ca/2026/06/29/all-eb-lanes-of-hwy-401-at-james-snow-parkway-in-milton-closed-after-crash",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Robin Byrd went to the Supreme Court with her fight to host nude porn stars and strippers on her wild NYC talk show — and won",
-      "display":"Robin Byrd went to the Supreme Court with her fight to host nude porn stars and strippers on her wild NYC talk show — and won",
-      "url":"https://pagesix.com/2026/06/29/entertainment/sarah-jessica-parker-helped-make-a-new-movie-about-robin-byrd",
+      "text":"Taylor Sheridan Gets Candid About Critics and Paramount Execs: “I’m Not Trying to Win Emmys”",
+      "display":"Taylor Sheridan Gets Candid About Critics and Paramount Execs: “I’m Not Trying to Win Emmys”",
+      "url":"https://www.hollywoodreporter.com/tv/tv-news/taylor-sheridan-tv-critics-paramount-executives-yellowstone-1236633432",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-06-29T22:46:12Z"
+  "generated_utc":"2026-06-29T23:53:53Z"
 }
