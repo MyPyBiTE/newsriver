@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Evacuation order remains in place as glacial lake bursts near Pemberton",
-      "display":"Evacuation order remains in place as glacial lake bursts near Pemberton",
-      "url":"https://globalnews.ca/news/11945092/evacuation-order-glacial-lake-bursts-pemberton",
+      "text":"With Corbin moved to bullpen, how do Blue Jays map out pitching plan?",
+      "display":"With Corbin moved to bullpen, how do Blue Jays map out pitching plan?",
+      "url":"https://www.mlb.com/bluejays/news/patrick-corbin-moved-to-blue-jays-bullpen",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Ontario education minister ‘clarifying’ students will be allowed to miss class for sports",
+      "display":"Ontario education minister ‘clarifying’ students will be allowed to miss class for sports",
+      "url":"https://globalnews.ca/news/11945072/ontario-student-sport-attendance",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"France vs Sweden - World Cup last 32 LIVE: Kylian Mbappe looks to close in on Lionel Messi in race for Golden Boot and send the two-time winners into the round of 16",
-      "display":"France vs Sweden - World Cup last 32 LIVE: Kylian Mbappe looks to close in on Lionel Messi in race for Golden Boot and send the two-time winners into the round of 16",
-      "url":"https://www.dailymail.com/sport/football/article-15941153/France-vs-Sweden-World-Cup-32-LIVE.html",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"FDA lets Philip Morris market Zyn nicotine pouches as less harmful than cigarettes",
-      "display":"FDA lets Philip Morris market Zyn nicotine pouches as less harmful than cigarettes",
-      "url":"https://www.cnbc.com/2026/06/30/fda-zyn-philip-morris-nicotine-pouches-cigarettes-trump.html",
+      "text":"TTC Line 6 Finch West LRT suffers daylong service outage due to ‘communication’ issue",
+      "display":"TTC Line 6 Finch West LRT suffers daylong service outage due to ‘communication’ issue",
+      "url":"https://toronto.citynews.ca/2026/06/30/line-6-finch-west-lrt-service-outage-ttc-metrolinx",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-06-30T21:02:52Z"
+  "generated_utc":"2026-06-30T22:37:10Z"
 }
