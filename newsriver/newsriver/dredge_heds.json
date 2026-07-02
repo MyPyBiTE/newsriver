@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Toronto Fire Services sees a spike in emergency calls on Canada Day",
-      "display":"Toronto Fire Services sees a spike in emergency calls on Canada Day",
-      "url":"https://toronto.citynews.ca/2026/07/02/emergency-calls-canada-day-toronto-fire-services-canada",
+      "text":"Score a pair of Blue Jays tickets when activating a Rogers wireless plan",
+      "display":"Score a pair of Blue Jays tickets when activating a Rogers wireless plan",
+      "url":"https://mobilesyrup.com/2026/07/02/activate-a-new-rogers-plans-and-you-could-win-blue-jays-tickets",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Man, 24, killed in boating incident near Nova Scotia’s Oak Island",
+      "display":"Man, 24, killed in boating incident near Nova Scotia’s Oak Island",
+      "url":"https://globalnews.ca/news/11950306/fatal-boating-incident-oak-island",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Venezuelan man pulled alive from basement rubble 8 days after twin quakes",
-      "display":"Venezuelan man pulled alive from basement rubble 8 days after twin quakes",
-      "url":"https://globalnews.ca/news/11950041/venezuela-earthquake-survivor-pulled-from-rubble-hernan-alberto-gil-flores",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"No Central Air? No Sweat. These Tested Window Air Conditioners Cool Down Spaces Fast",
-      "display":"No Central Air? No Sweat. These Tested Window Air Conditioners Cool Down Spaces Fast",
-      "url":"https://www.popularmechanics.com/home/a1549/best-window-air-conditioners",
+      "text":"Astronomers sound the alarm over Elon Musk's satellite plan: 'Damaging consequences'",
+      "display":"Astronomers sound the alarm over Elon Musk's satellite plan: 'Damaging consequences'",
+      "url":"https://www.rawstory.com/elon-musk-2677146750",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-07-02T18:09:19Z"
+  "generated_utc":"2026-07-02T19:48:27Z"
 }
