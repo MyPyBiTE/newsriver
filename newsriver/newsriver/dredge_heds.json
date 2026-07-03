@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Man seriously injured in west end stabbing",
-      "display":"Man seriously injured in west end stabbing",
-      "url":"https://toronto.citynews.ca/2026/07/02/man-seriously-injured-in-west-end-stabbing-2",
+      "text":"Kyle Lowry signing one-day contract to retire with Raptors",
+      "display":"Kyle Lowry signing one-day contract to retire with Raptors",
+      "url":"https://nypost.com/2026/07/03/sports/kyle-lowry-signing-one-day-contract-to-retire-with-raptors",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Adams leads Stampeders to 58-36 win over Argonauts",
+      "display":"Adams leads Stampeders to 58-36 win over Argonauts",
+      "url":"https://globalnews.ca/news/11951285/adams-leads-stampeders-to-58-36-win-over-argonauts",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Calgary man facing attempted murder charges in Lethbridge sees case adjourned until next month",
-      "display":"Calgary man facing attempted murder charges in Lethbridge sees case adjourned until next month",
-      "url":"https://globalnews.ca/news/11950503/calgary-man-attempted-murder-charges-lethbridge-case-adjourned",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Author claims Melania Trump is trying a 'preposterous' new way to silence him",
-      "display":"Author claims Melania Trump is trying a 'preposterous' new way to silence him",
-      "url":"https://www.rawstory.com/michael-wolff-2677152288",
+      "text":"TDSB projecting $15M deficit for next school year; TCDSB deficit almost $40M",
+      "display":"TDSB projecting $15M deficit for next school year; TCDSB deficit almost $40M",
+      "url":"https://toronto.citynews.ca/2026/07/02/tdsb-projecting-15m-deficit-for-next-school-year-tcdsb-deficit-almost-40m",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-07-03T04:14:48Z"
+  "generated_utc":"2026-07-03T07:37:43Z"
 }
