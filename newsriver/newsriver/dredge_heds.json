@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Brian Paisley, founder of North America’s longest-running Fringe festival, has died",
-      "display":"Brian Paisley, founder of North America’s longest-running Fringe festival, has died",
-      "url":"https://globalnews.ca/news/11957436/brian-paisley-founder-edmonton-fringe-festival-dies",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Concerns raised over future of Kelowna’s Knox Mountain Park caretaker role",
+      "display":"Concerns raised over future of Kelowna’s Knox Mountain Park caretaker role",
+      "url":"https://globalnews.ca/news/11957383/concerns-raised-future-knox-mountain-park-caretaker-role",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Woman wanted after man stabbed in Jane and Finch area",
-      "display":"Woman wanted after man stabbed in Jane and Finch area",
-      "url":"https://toronto.citynews.ca/2026/07/07/woman-wanted-after-man-stabbed-in-jane-and-finch-area",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Tear out the Santa Monica Freeway? Are City Council members insane?",
-      "display":"Tear out the Santa Monica Freeway? Are City Council members insane?",
-      "url":"https://nypost.com/2026/07/07/opinion/santa-monica-city-council-has-a-lunatic-plan-to-destroy-i-10",
+      "text":"2 pedestrians struck by vehicle in Vaughan",
+      "display":"2 pedestrians struck by vehicle in Vaughan",
+      "url":"https://toronto.citynews.ca/2026/07/07/2-pedestrians-struck-by-vehicle-in-vaughan",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-07-08T00:57:37Z"
+  "generated_utc":"2026-07-08T04:11:46Z"
 }
