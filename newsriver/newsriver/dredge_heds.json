@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Locarno Festival Announces ‘Adventurous’ Lineup Featuring Caleb Landry Jones, Isabelle Huppert, Hong Sang-soo and Monica Bellucci",
-      "display":"Locarno Festival Announces ‘Adventurous’ Lineup Featuring Caleb Landry Jones, Isabelle Huppert, Hong Sang-soo and Monica Bellucci",
-      "url":"https://variety.com/2026/film/global/locarno-lineup-caleb-landry-jones-monica-bellucci-1236805419",
+      "text":"Alberta RCMP issue Amber Alert for six-year-old boy",
+      "display":"Alberta RCMP issue Amber Alert for six-year-old boy",
+      "url":"https://globalnews.ca/news/11959385/alberta-rcmp-amber-alert-boy-6",
+      "flags":{
+        "is_breaking":true,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Why is PM Carney putting a Conservative in the senate?",
+      "display":"Why is PM Carney putting a Conservative in the senate?",
+      "url":"https://toronto.citynews.ca/2026/07/09/carney-senate-appointments-big-story-podcast",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Hong Sang-soo, Albert Serra, Vincent Grashaw Films Set for Locarno Lineup",
-      "display":"Hong Sang-soo, Albert Serra, Vincent Grashaw Films Set for Locarno Lineup",
-      "url":"https://www.hollywoodreporter.com/movies/movie-news/2026-locarno-film-festival-program-unveiled-hong-sang-soo-1236641562",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"NANZUKA's New Shibuya Gallery Featuring Branding By Keiichi Tanaamai",
-      "display":"NANZUKA's New Shibuya Gallery Featuring Branding By Keiichi Tanaamai",
-      "url":"https://hypebeast.com/2026/7/nanzuka-new-shibuya-tokyo-gallery-opening-info",
+      "text":"'Ticked off all his grievances': NYT reveals 'odd' irony behind Trump's NATO antics",
+      "display":"'Ticked off all his grievances': NYT reveals 'odd' irony behind Trump's NATO antics",
+      "url":"https://www.rawstory.com/trump-nato-2677183323",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-07-09T11:33:10Z"
+  "generated_utc":"2026-07-09T14:13:17Z"
 }
