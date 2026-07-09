@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Minor injuries reported after tornado hits campground near Alberta-Saskatchewan border",
-      "display":"Minor injuries reported after tornado hits campground near Alberta-Saskatchewan border",
-      "url":"https://globalnews.ca/news/11959757/alberta-tornadoes-dillberry-lake-paradise-valley",
+      "text":"N.S. suspect injured in police shooting day after armed person alert",
+      "display":"N.S. suspect injured in police shooting day after armed person alert",
+      "url":"https://globalnews.ca/news/11960002/nova-scotia-sirt-rcmp-fired-weapon-suspect",
+      "flags":{
+        "is_breaking":true,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Ben Folds To Produce, Music Direct, & Appear In Off-Broadway Musical",
+      "display":"Ben Folds To Produce, Music Direct, & Appear In Off-Broadway Musical",
+      "url":"https://stereogum.com/2504763/ben-folds-to-produce-music-direct-appear-in-off-broadway-musical/news",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Tyler Robinson hearing rocked by bombshell video of trans lover Lance Twiggs' police interview",
-      "display":"Tyler Robinson hearing rocked by bombshell video of trans lover Lance Twiggs' police interview",
-      "url":"https://www.dailymail.com/news/article-15965421/Lance-Twiggs-footage-Tyler-Robinson-Charlie-Kirk-trial.html",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Samantha Busch learning ‘heartbreak and joy no longer exist separately’ after Fourth of July trip",
-      "display":"Samantha Busch learning ‘heartbreak and joy no longer exist separately’ after Fourth of July trip",
-      "url":"https://nypost.com/2026/07/09/sports/samantha-busch-learning-heartbreak-and-joy-no-longer-exist-separately-after-fourth-of-july-trip",
+      "text":"ESPN, Adam Schefter closing in on long-term contract extension",
+      "display":"ESPN, Adam Schefter closing in on long-term contract extension",
+      "url":"https://nypost.com/2026/07/09/sports/espn-adam-schefter-closing-in-on-long-term-contract-extension",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-07-09T20:14:15Z"
+  "generated_utc":"2026-07-09T21:45:07Z"
 }
