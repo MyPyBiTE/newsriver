@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"1 person dead, 2 others seriously injured in North York shooting",
-      "display":"1 person dead, 2 others seriously injured in North York shooting",
-      "url":"https://toronto.citynews.ca/2026/07/10/1-person-dead-2-others-seriously-injured-in-north-york-shooting",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"11 wounded in overnight Russian missile and drone strikes on Kyiv; Ukraine attacks Russian vessels",
+      "display":"11 wounded in overnight Russian missile and drone strikes on Kyiv; Ukraine attacks Russian vessels",
+      "url":"https://toronto.citynews.ca/2026/07/11/11-wounded-in-overnight-russian-missile-and-drone-strikes-on-kyiv-ukraine-attacks-russian-vessels",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -19,17 +29,7 @@
         "is_landmark":false,
         "has_bitcoin":false
       }
-    },
-    {
-      "text":"Why ‘The Odyssey’ Still Enchants Us. Plus . . .",
-      "display":"Why ‘The Odyssey’ Still Enchants Us. Plus . . .",
-      "url":"https://www.thefp.com/p/why-the-odyssey-still-enchants-us",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
     }
   ],
-  "generated_utc":"2026-07-11T10:54:47Z"
+  "generated_utc":"2026-07-11T11:43:55Z"
 }
