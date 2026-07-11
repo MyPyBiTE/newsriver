@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Latest Blue Jays injuries & transactions",
-      "display":"Latest Blue Jays injuries & transactions",
-      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"1 person dead, 2 others seriously injured in North York shooting",
       "display":"1 person dead, 2 others seriously injured in North York shooting",
       "url":"https://toronto.citynews.ca/2026/07/10/1-person-dead-2-others-seriously-injured-in-north-york-shooting",
@@ -29,7 +19,17 @@
         "is_landmark":false,
         "has_bitcoin":false
       }
+    },
+    {
+      "text":"Russian overnight strikes on Kyiv injure ten",
+      "display":"Russian overnight strikes on Kyiv injure ten",
+      "url":"https://www.aljazeera.com/video/newsfeed/2026/7/11/russian-overnight-strikes-on-kyiv-injure-ten?traffic_source=rss",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
     }
   ],
-  "generated_utc":"2026-07-11T08:25:33Z"
+  "generated_utc":"2026-07-11T09:54:58Z"
 }
