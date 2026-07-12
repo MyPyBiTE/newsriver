@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"5 arrested after 3 injured in shooting at Polson Pier",
-      "display":"5 arrested after 3 injured in shooting at Polson Pier",
-      "url":"https://toronto.citynews.ca/2026/07/12/toronto-polson-pier-shooting-5-arrested",
+      "text":"LIVE: Blue Jays' Draft Day 1 picks are in. Day 2 is underway",
+      "display":"LIVE: Blue Jays' Draft Day 1 picks are in. Day 2 is underway",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-2026-draft-picks",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"B.C. Wildfire Service calls for compliance amid reports of speeding and drone flights",
+      "display":"B.C. Wildfire Service calls for compliance amid reports of speeding and drone flights",
+      "url":"https://globalnews.ca/news/11962789/b-c-wildfire-service-calls-for-compliance-amid-reports-of-speeding-and-drone-flights",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Trump ally Sen. Lindsey Graham dies after brief, unexpected illness, his office says",
-      "display":"Trump ally Sen. Lindsey Graham dies after brief, unexpected illness, his office says",
-      "url":"https://globalnews.ca/news/11962774/lindsey-graham-dies",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Nike's Blueberry Slip-On Tabi Is Summer's Sweetest Scoop",
-      "display":"Nike's Blueberry Slip-On Tabi Is Summer's Sweetest Scoop",
-      "url":"https://www.highsnobiety.com/p/nike-air-rift-celestine-blue",
+      "text":"Man, 69, dead after being struck by vehicle in Pickering parking lot",
+      "display":"Man, 69, dead after being struck by vehicle in Pickering parking lot",
+      "url":"https://toronto.citynews.ca/2026/07/12/man-69-dead-after-being-struck-by-vehicle-in-pickering-parking-lot",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-07-12T15:12:55Z"
+  "generated_utc":"2026-07-12T16:10:58Z"
 }
