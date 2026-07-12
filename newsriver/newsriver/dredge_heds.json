@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"2 people shot dead, 3 others injured at Toronto’s Salsa on St. Clair festival",
-      "display":"2 people shot dead, 3 others injured at Toronto’s Salsa on St. Clair festival",
-      "url":"https://toronto.citynews.ca/2026/07/11/police-warn-of-active-shooter-near-salsa-on-st-clair-festival",
+      "text":"Key takeaways: Padres 8, Blue Jays 7",
+      "display":"Key takeaways: Padres 8, Blue Jays 7",
+      "url":"https://www.mlb.com/bluejays/news/trey-yesavage-struggles-with-command-in-blue-jays-loss",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Toronto shooting: two dead and four injured at Salsa on St Clair street festival",
+      "display":"Toronto shooting: two dead and four injured at Salsa on St Clair street festival",
+      "url":"https://www.theguardian.com/world/2026/jul/12/toronto-shooting-two-dead-and-three-injured-as-police-search-for-active-shooter",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Norway vs England - World Cup quarter-final LIVE: All the reaction as Jude Bellingham books Three Lions' place in semi-final with brilliant brace in Miami",
-      "display":"Norway vs England - World Cup quarter-final LIVE: All the reaction as Jude Bellingham books Three Lions' place in semi-final with brilliant brace in Miami",
-      "url":"https://www.dailymail.com/sport/football/article-15965961/Norway-vs-England-World-Cup-quarter-final-LIVE.html",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Zac Gallen Dealing With Elbow Inflammation, Won’t Start Sunday",
-      "display":"Zac Gallen Dealing With Elbow Inflammation, Won’t Start Sunday",
-      "url":"https://www.mlbtraderumors.com/2026/07/zac-gallen-dealing-with-elbow-inflammation-wont-start-sunday.html",
+      "text":"At least two killed in Toronto street festival shooting",
+      "display":"At least two killed in Toronto street festival shooting",
+      "url":"https://www.bbc.co.uk/news/articles/ce3e66e1x3go?at_campaign=rss&at_medium=RSS",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-07-12T03:52:50Z"
+  "generated_utc":"2026-07-12T06:25:44Z"
 }
