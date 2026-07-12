@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Here are Blue Jays' Day 1 Draft picks. Here’s how to follow Day 2",
-      "display":"Here are Blue Jays' Day 1 Draft picks. Here’s how to follow Day 2",
-      "url":"https://www.mlb.com/bluejays/news/blue-jays-2026-draft-picks",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"Toronto shooting: two dead and four injured at Salsa on St Clair street festival",
       "display":"Toronto shooting: two dead and four injured at Salsa on St Clair street festival",
       "url":"https://www.theguardian.com/world/2026/jul/12/toronto-shooting-two-dead-and-three-injured-as-police-search-for-active-shooter",
@@ -29,7 +19,17 @@
         "is_landmark":false,
         "has_bitcoin":false
       }
+    },
+    {
+      "text":"England’s Victory Over Norway Draws Biggest UK Audience For World Cup 2026",
+      "display":"England’s Victory Over Norway Draws Biggest UK Audience For World Cup 2026",
+      "url":"https://deadline.com/2026/07/england-norway-tv-rating-world-cup-1236980082",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
     }
   ],
-  "generated_utc":"2026-07-12T08:36:09Z"
+  "generated_utc":"2026-07-12T10:12:41Z"
 }
