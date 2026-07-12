@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Arizona State LHP Carlon selected No. 39 with Blue Jays' 1st pick",
-      "display":"Arizona State LHP Carlon selected No. 39 with Blue Jays' 1st pick",
-      "url":"https://www.mlb.com/bluejays/news/cole-carlon-selected-by-blue-jays-as-no-39-pick-in-draft",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"Environment Canada issues tornado warning for parts of Manitoba",
       "display":"Environment Canada issues tornado warning for parts of Manitoba",
       "url":"https://globalnews.ca/news/11962528/environment-canada-issues-tornado-warning-for-parts-of-manitoba",
@@ -21,9 +11,19 @@
       }
     },
     {
-      "text":"Veteran pilot killed fighting N.W.T. wildfire was a trusted leader and patient mentor",
-      "display":"Veteran pilot killed fighting N.W.T. wildfire was a trusted leader and patient mentor",
-      "url":"https://toronto.citynews.ca/2026/07/11/veteran-pilot-killed-fighting-n-w-t-wildfire-was-a-trusted-leader-and-patient-mentor",
+      "text":"1 man, 1 teen charged in Woodbine Beach assault investigation",
+      "display":"1 man, 1 teen charged in Woodbine Beach assault investigation",
+      "url":"https://toronto.citynews.ca/2026/07/11/1-man-1-teen-charged-in-woodbine-beach-assault-investigation",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Norway vs England - World Cup quarter-final LIVE: Jude Bellingham does it again! Three Lions back in the LEAD in extra-time - with Erling Haaland taken OFF in shock move",
+      "display":"Norway vs England - World Cup quarter-final LIVE: Jude Bellingham does it again! Three Lions back in the LEAD in extra-time - with Erling Haaland taken OFF in shock move",
+      "url":"https://www.dailymail.com/sport/football/article-15965961/Norway-vs-England-World-Cup-quarter-final-LIVE.html",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-07-11T23:07:25Z"
+  "generated_utc":"2026-07-12T00:08:12Z"
 }
