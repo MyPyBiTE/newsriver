@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Scientists find sugar in the Milky Way. It could help answer a cosmic mystery",
-      "display":"Scientists find sugar in the Milky Way. It could help answer a cosmic mystery",
-      "url":"https://globalnews.ca/news/11963684/sugar-found-in-the-milky-way",
+      "text":"All-Star surprise! Blue Jays skipper fields media question from 9-year-old son",
+      "display":"All-Star surprise! Blue Jays skipper fields media question from 9-year-old son",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-manager-john-schneider-answers-question-from-son-gunner-at-all-star-game",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Rising haddock costs force Maritime fish and chip shops to raise prices",
+      "display":"Rising haddock costs force Maritime fish and chip shops to raise prices",
+      "url":"https://globalnews.ca/news/11963832/rising-haddock-costs-maritime-fish-and-chip-shops-prices",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Diane Abbott hits out at Shabana Mahmood's asylum plans in tense debate",
-      "display":"Diane Abbott hits out at Shabana Mahmood's asylum plans in tense debate",
-      "url":"https://www.mirror.co.uk/news/politics/diane-abbott-shabana-mahmood-asylum-37425870",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Carol Vorderman hospitalised after fall left her unconscious and covered in bruises",
-      "display":"Carol Vorderman hospitalised after fall left her unconscious and covered in bruises",
-      "url":"https://metro.co.uk/2026/07/13/carol-vorderman-hospitalised-fall-left-unconscious-covered-bruises-29128744",
+      "text":"Senior seriously injured after car crashes into Scarborough building",
+      "display":"Senior seriously injured after car crashes into Scarborough building",
+      "url":"https://toronto.citynews.ca/2026/07/13/elderly-woman-seriously-injured-after-car-crashes-into-scarborough-building",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-07-13T20:33:13Z"
+  "generated_utc":"2026-07-13T21:32:54Z"
 }
