@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Bonnie Crombie prepares bid to re-take Mississauga mayoralty",
-      "display":"Bonnie Crombie prepares bid to re-take Mississauga mayoralty",
-      "url":"https://globalnews.ca/news/11963080/bonnie-crombie-mississauga-mayor-election-bid",
+      "text":"Key takeaways: Padres 5, Blue Jays 4",
+      "display":"Key takeaways: Padres 5, Blue Jays 4",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-end-first-half-with-loss-to-padres",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Saskatoon resident paints crosswalk, takes pedestrian safety into own hands",
+      "display":"Saskatoon resident paints crosswalk, takes pedestrian safety into own hands",
+      "url":"https://globalnews.ca/news/11963067/saskatoon-resident-pedestrian-safety-crosswalk-paint",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Heat warning issued for Toronto and GTA beginning Monday",
-      "display":"Heat warning issued for Toronto and GTA beginning Monday",
-      "url":"https://toronto.citynews.ca/2026/07/12/heat-warning-issued-for-toronto-and-gta-beginning-monday",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Mitch McConnell gives major update on his health after hospitalization and long Senate absence",
-      "display":"Mitch McConnell gives major update on his health after hospitalization and long Senate absence",
-      "url":"https://www.independent.co.uk/news/world/americas/us-politics/mitch-mcconnell-illness-hospitalized-b3013557.html",
+      "text":"Maya Jama reveals her mad dash back to the UK as she goes from England's World Cup game in Miami straight to the airport to host Love Island's Aftersun",
+      "display":"Maya Jama reveals her mad dash back to the UK as she goes from England's World Cup game in Miami straight to the airport to host Love Island's Aftersun",
+      "url":"https://www.dailymail.com/tvshowbiz/article-15972253/Maya-Jama-reveals-mad-dash-UK-goes-Englands-World-Cup-game-Miami-straight-airport-host-Love-Islands-Aftersun.html",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-07-12T23:06:48Z"
+  "generated_utc":"2026-07-13T00:08:20Z"
 }
