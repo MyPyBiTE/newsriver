@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"CREA now expects home sales decline in 2026 as it lowers forecast again",
-      "display":"CREA now expects home sales decline in 2026 as it lowers forecast again",
-      "url":"https://toronto.citynews.ca/2026/07/15/crea-now-expects-home-sales-decline-in-2026-as-it-lowers-forecast-again",
+      "text":"Blue Jays play key roles in AL's shutout win at 2026 All-Star Game",
+      "display":"Blue Jays play key roles in AL's shutout win at 2026 All-Star Game",
+      "url":"https://www.mlb.com/bluejays/news/2026-mlb-all-star-game-team-by-team-breakdown",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Toronto’s air quality among worst in the world as heat and smoke trigger health warnings",
+      "display":"Toronto’s air quality among worst in the world as heat and smoke trigger health warnings",
+      "url":"https://toronto.citynews.ca/2026/07/15/toronto-heat-air-quality-ranking-weather-forecast",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Brent Futures Flip to Backwardation as Middle East Supply Risks Return",
-      "display":"Brent Futures Flip to Backwardation as Middle East Supply Risks Return",
-      "url":"https://oilprice.com/Latest-Energy-News/World-News/Brent-Futures-Flip-to-Backwardation-as-Middle-East-Supply-Risks-Return.html",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"The ‘unquantified self’ movement is rejecting wellness optimisation",
-      "display":"The ‘unquantified self’ movement is rejecting wellness optimisation",
-      "url":"https://www.dazeddigital.com/beauty/article/70638/1/unquantified-self-data-driven-optimisation-wellness",
+      "text":"Transparency law changes block release of Ford government speed cameras studies",
+      "display":"Transparency law changes block release of Ford government speed cameras studies",
+      "url":"https://globalnews.ca/news/11961771/ontario-speed-camera-foi",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-07-15T10:13:56Z"
+  "generated_utc":"2026-07-15T11:47:48Z"
 }
