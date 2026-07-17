@@ -44,13 +44,13 @@
               "team": {
                 "abbreviation": "SKC"
               },
-              "score": 0
+              "score": 2
             },
             "home": {
               "team": {
                 "abbreviation": "STL"
               },
-              "score": 0
+              "score": 3
             }
           }
         },
@@ -58,19 +58,19 @@
           "gamePk": "761662",
           "gameDate": "2026-07-17T02:30Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "2nd",
+            "currentQuarter": "2nd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "POR"
               },
-              "score": 0
+              "score": 4
             },
             "home": {
               "team": {
