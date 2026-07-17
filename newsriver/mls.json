@@ -58,25 +58,25 @@
           "gamePk": "761662",
           "gameDate": "2026-07-17T02:30Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
           },
           "linescore": {
-            "currentPeriodOrdinal": "2nd",
-            "currentQuarter": "2nd"
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "POR"
               },
-              "score": 4
+              "score": 5
             },
             "home": {
               "team": {
                 "abbreviation": "SEA"
               },
-              "score": 0
+              "score": 1
             }
           }
         }
