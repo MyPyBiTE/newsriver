@@ -3,8 +3,8 @@
     {
       "games": [
         {
-          "gamePk": "761659",
-          "gameDate": "2026-07-16T23:30Z",
+          "gamePk": "761663",
+          "gameDate": "2026-07-18T00:10Z",
           "status": {
             "detailedState": "Preview",
             "abstractGameState": "Preview"
@@ -16,21 +16,21 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "TOR"
+                "abbreviation": "ATL"
               },
               "score": 0
             },
             "home": {
               "team": {
-                "abbreviation": "MTL"
+                "abbreviation": "NSH"
               },
               "score": 0
             }
           }
         },
         {
-          "gamePk": "761661",
-          "gameDate": "2026-07-17T00:30Z",
+          "gamePk": "761664",
+          "gameDate": "2026-07-18T02:25Z",
           "status": {
             "detailedState": "Preview",
             "abstractGameState": "Preview"
@@ -42,41 +42,15 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "SKC"
+                "abbreviation": "LAFC"
               },
-              "score": 2
+              "score": 0
             },
             "home": {
               "team": {
-                "abbreviation": "STL"
+                "abbreviation": "LA"
               },
-              "score": 3
-            }
-          }
-        },
-        {
-          "gamePk": "761662",
-          "gameDate": "2026-07-17T02:30Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "POR"
-              },
-              "score": 5
-            },
-            "home": {
-              "team": {
-                "abbreviation": "SEA"
-              },
-              "score": 1
+              "score": 0
             }
           }
         }
