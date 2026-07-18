@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Calgary police release CCTV image in search for missing 11-year-old",
-      "display":"Calgary police release CCTV image in search for missing 11-year-old",
-      "url":"https://globalnews.ca/news/11971232/calgary-police-cctv-image-search-missing-11-year-old",
+      "text":"Blue Jays unveil statue outside Rogers Centre honouring World Series championships",
+      "display":"Blue Jays unveil statue outside Rogers Centre honouring World Series championships",
+      "url":"https://toronto.citynews.ca/2026/07/18/blue-jays-unveil-statue-outside-rogers-centre-honouring-world-series-championships",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"B.C. wildfire tally surges past 100 as lightning transforms fire season in a flash",
+      "display":"B.C. wildfire tally surges past 100 as lightning transforms fire season in a flash",
+      "url":"https://globalnews.ca/news/11971259/bc-wildfires-lightning-3",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"2 charged in Toronto police distraction theft probe after grandmother, child allegedly targeted",
-      "display":"2 charged in Toronto police distraction theft probe after grandmother, child allegedly targeted",
-      "url":"https://toronto.citynews.ca/2026/07/18/toronto-police-distraction-theft-investigation-falstaff-culford",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Sandy Brondello apologizes for calling Angel Reese a ‘protected species’ in latest WNBA controversy",
-      "display":"Sandy Brondello apologizes for calling Angel Reese a ‘protected species’ in latest WNBA controversy",
-      "url":"https://nypost.com/2026/07/18/sports/sandy-brondello-apologizes-for-calling-angel-reese-a-protected-species",
+      "text":"'It's horrid': Legal expert warns about right-wing threats from Trump's tech allies",
+      "display":"'It's horrid': Legal expert warns about right-wing threats from Trump's tech allies",
+      "url":"https://www.rawstory.com/it-s-horrid-legal-expert-warns-about-right-wing-threats-from-trump-s-tech-allies",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-07-18T20:10:37Z"
+  "generated_utc":"2026-07-18T21:03:18Z"
 }
