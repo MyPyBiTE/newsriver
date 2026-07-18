@@ -1,6 +1,16 @@
 {
   "items":[
     {
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
       "text":"Tornado warnings lifted for southern Ontario communities",
       "display":"Tornado warnings lifted for southern Ontario communities",
       "url":"https://globalnews.ca/news/11971169/tornado-warning-milton",
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"City of Toronto resuming outdoor programming, FIFA Fan Festival as air quality forecast to improve",
-      "display":"City of Toronto resuming outdoor programming, FIFA Fan Festival as air quality forecast to improve",
-      "url":"https://toronto.citynews.ca/2026/07/18/toronto-pools-outdoor-programming-resuming-wildfires-smoke-air-quality",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Reid Detmers is one of many fantasy baseball pitchers to target for second half",
-      "display":"Reid Detmers is one of many fantasy baseball pitchers to target for second half",
-      "url":"https://nypost.com/2026/07/18/sports/reid-detmers-is-one-of-many-fantasy-baseball-pitchers-to-target-for-second-half",
+      "text":"Don Lemon Reveals What It Would Take to Get Him to Run for President",
+      "display":"Don Lemon Reveals What It Would Take to Get Him to Run for President",
+      "url":"https://www.thewrap.com/media-platforms/politics/don-lemon-reveals-run-for-president-stipulation",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-07-18T18:05:55Z"
+  "generated_utc":"2026-07-18T19:21:28Z"
 }
