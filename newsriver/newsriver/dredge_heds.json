@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Worker dead after incident on Flamboro Speedway racetrack, Hamilton police say",
-      "display":"Worker dead after incident on Flamboro Speedway racetrack, Hamilton police say",
-      "url":"https://toronto.citynews.ca/2026/07/19/flamboro-speedway-racetrack-employee-dies-hamilton-police",
+      "text":"Ward, legendary Blue Jays reliever and two-time champion, dies at 62",
+      "display":"Ward, legendary Blue Jays reliever and two-time champion, dies at 62",
+      "url":"https://www.mlb.com/bluejays/news/duane-ward-dies",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Wildfire northeast of Halifax being held, N.S. officials say",
+      "display":"Wildfire northeast of Halifax being held, N.S. officials say",
+      "url":"https://globalnews.ca/news/11971652/mooseland-wildfire-halifax-being-held",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,18 +21,8 @@
       }
     },
     {
-      "text":"Canada’s months-long World Cup party comes to an end with final",
-      "display":"Canada’s months-long World Cup party comes to an end with final",
-      "url":"https://globalnews.ca/news/11971636/world-cup-final-toronto-vancouver-watch-parties",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"BBC Radio 5 Live presenter Nicky Campbell forced to apologise after causing outrage among staff by repeatedly using term 'p***ter' in work meeting",
-      "display":"BBC Radio 5 Live presenter Nicky Campbell forced to apologise after causing outrage among staff by repeatedly using term 'p***ter' in work meeting",
+      "text":"BBC bosses force Radio 5 Live presenter Nicky Campbell to apologise for using a homophobic term while telling an anecdote in work meeting",
+      "display":"BBC bosses force Radio 5 Live presenter Nicky Campbell to apologise for using a homophobic term while telling an anecdote in work meeting",
       "url":"https://www.dailymail.com/news/article-15982557/BBC-Radio-5-Live-presenter-Nicky-Campbell-causes-outrage-staff-repeatedly-using-term-p-ter-work-meeting.html",
       "flags":{
         "is_breaking":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-07-19T14:46:43Z"
+  "generated_utc":"2026-07-19T15:46:55Z"
 }
