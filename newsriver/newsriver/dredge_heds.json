@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Yesavage's 9-K start a bright spot on another quiet day for Blue Jays' bats",
-      "display":"Yesavage's 9-K start a bright spot on another quiet day for Blue Jays' bats",
-      "url":"https://www.mlb.com/bluejays/news/trey-yesavage-quality-start-blue-jays-lose-to-white-sox",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"Saskatchewan Roughriders team captain Jayden Dalke killed in car accident",
       "display":"Saskatchewan Roughriders team captain Jayden Dalke killed in car accident",
       "url":"https://toronto.citynews.ca/2026/07/19/saskatchewan-roughriders-team-captain-jayden-dalke-killed-in-car-accident",
@@ -21,9 +11,19 @@
       }
     },
     {
-      "text":"The Curator: Your guide to mold & mildew prevention & protection",
-      "display":"The Curator: Your guide to mold & mildew prevention & protection",
-      "url":"https://globalnews.ca/the-curator/11959539/mold-mildew-prevention-protection",
+      "text":"Spain’s Torres scores in extra time to bring country 2nd World Cup title",
+      "display":"Spain’s Torres scores in extra time to bring country 2nd World Cup title",
+      "url":"https://globalnews.ca/news/11972013/spain-wins-world-cup-defeats-argentina",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"World Cup final descends into violence at full-time whistle as Spain and Argentina players clash in ugly scenes",
+      "display":"World Cup final descends into violence at full-time whistle as Spain and Argentina players clash in ugly scenes",
+      "url":"https://www.dailymail.com/sport/football/article-15989315/Fight-breaks-time-World-Cup-final-punches-thrown-players-Paredes-shown-Argentinas-second-red-card-match.html",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-07-19T22:32:03Z"
+  "generated_utc":"2026-07-19T23:37:17Z"
 }
