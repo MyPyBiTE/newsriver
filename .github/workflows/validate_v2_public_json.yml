@@ -1,0 +1,38 @@
+name: Validate V2 public JSON
+
+on:
+  push:
+    branches:
+      - main
+      - phase-7-public-json
+    paths:
+      - "data/v2/**"
+      - "scripts/validate_public_json.py"
+      - ".github/workflows/validate_v2_public_json.yml"
+
+  pull_request:
+    paths:
+      - "data/v2/**"
+      - "scripts/validate_public_json.py"
+      - ".github/workflows/validate_v2_public_json.yml"
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Validate public JSON
+        run: python scripts/validate_public_json.py
