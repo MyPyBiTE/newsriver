@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "feed_id": "mypybite-breaking-v2-fixture",
+  "generated_at": "2026-07-19T15:00:00Z",
+  "last_human_publish_at": "2026-07-19T14:55:00Z",
+  "selection_mode": "manual",
+  "stale_after_minutes": 10080,
+  "count": 2,
+  "items": [
+    {
+      "story_id": "TEST-BREAK-001",
+      "headline": "Regional water report scheduled for release",
+      "synopsis": "Officials scheduled publication of a regional water-quality report for Monday morning.",
+      "source": "Trusted Wire",
+      "url": "https://example.com/wire/water-report",
+      "published_at": "2026-07-19T13:00:00Z",
+      "category": "Water",
+      "access_type": "FREE",
+      "selection_mode": "scheduled"
+    },
+    {
+      "story_id": "TEST-BREAK-002",
+      "headline": "City council approves transit study",
+      "synopsis": "Council approved a study examining future transit capacity and possible route improvements.",
+      "source": "Trusted Wire",
+      "url": "https://example.com/wire/transit-study",
+      "published_at": "2026-07-19T12:00:00Z",
+      "category": "Local",
+      "access_type": "FREE",
+      "selection_mode": "manual"
+    }
+  ]
+}
