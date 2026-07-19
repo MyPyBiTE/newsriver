@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+
+  <title>
+    MYPYBITE V2 — Public Feed Preview
+  </title>
+
+  <meta
+    name="description"
+    content="Isolated Phase 7 preview for the MYPYBITE V2 public breaking and Newsriver feeds."
+  >
+
+  <link
+    rel="stylesheet"
+    href="./styles.css"
+  >
+</head>
+
+<body>
+  <main class="page-shell">
+    <header class="masthead">
+      <div>
+        <p class="eyebrow">
+          MYPYBITE V2 · PHASE 7
+        </p>
+
+        <h1>
+          Public feed contract preview
+        </h1>
+
+        <p class="dek">
+          This isolated test page reads visitor-safe
+          fixture JSON. The existing V1 NewsRiver
+          remains unchanged.
+        </p>
+      </div>
+
+      <a
+        class="back-link"
+        href="../"
+      >
+        Return to V1 NewsRiver
+      </a>
+    </header>
+
+    <p
+      id="test-mode"
+      class="test-mode"
+      hidden
+    ></p>
+
+    <section
+      class="panel"
+      aria-labelledby="breaking-title"
+    >
+      <div class="panel-heading">
+        <div>
+          <p class="eyebrow">
+            Breaking relay
+          </p>
+
+          <h2 id="breaking-title">
+            Current transmissions
+          </h2>
+        </div>
+
+        <span
+          id="breaking-status"
+          class="status status-loading"
+        >
+          Loading
+        </span>
+      </div>
+
+      <p
+        id="breaking-meta"
+        class="feed-meta"
+      ></p>
+
+      <div
+        id="breaking-list"
+        class="breaking-list"
+        aria-live="polite"
+      ></div>
+    </section>
+
+    <section
+      class="panel"
+      aria-labelledby="newsriver-title"
+    >
+      <div class="panel-heading">
+        <div>
+          <p class="eyebrow">
+            Newsriver
+          </p>
+
+          <h2 id="newsriver-title">
+            Latest transmissions
+          </h2>
+        </div>
+
+        <span
+          id="newsriver-status"
+          class="status status-loading"
+        >
+          Loading
+        </span>
+      </div>
+
+      <p
+        id="newsriver-meta"
+        class="feed-meta"
+      ></p>
+
+      <div
+        id="newsriver-list"
+        class="news-grid"
+      ></div>
+    </section>
+  </main>
+
+  <noscript>
+    This preview requires JavaScript.
+  </noscript>
+
+  <script
+    src="./app.js"
+    defer
+  ></script>
+</body>
+</html>
