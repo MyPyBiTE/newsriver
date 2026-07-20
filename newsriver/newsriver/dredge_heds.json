@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Air quality warning in Edmonton, much of Alberta due to N.W.T. wildfire smoke",
-      "display":"Air quality warning in Edmonton, much of Alberta due to N.W.T. wildfire smoke",
-      "url":"https://globalnews.ca/news/11972991/alberta-edmonton-wildfire-air-quality-warning-july-20",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Inquiry hears avalanche danger moderate on day of 2021 fatal Banff snow slide",
+      "display":"Inquiry hears avalanche danger moderate on day of 2021 fatal Banff snow slide",
+      "url":"https://globalnews.ca/news/11973330/banff-haddo-peak-avalanche-fatality-inquiry",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Trump to sign executive order hitting Canada with more tariffs",
-      "display":"Trump to sign executive order hitting Canada with more tariffs",
-      "url":"https://toronto.citynews.ca/2026/07/20/trump-to-sign-executive-order-hitting-canada-with-more-tariffs",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Salomon’s Earthy Hiking Sneaker Is Almost Too Classy for the Trails",
-      "display":"Salomon’s Earthy Hiking Sneaker Is Almost Too Classy for the Trails",
-      "url":"https://www.highsnobiety.com/p/salomon-x-alp-alpine-echoes-black-brown",
+      "text":"Union for NYC’s embattled horse carriages rips Council Speaker Menin as traitor in new attack ad: ‘Thank you for your betrayal’",
+      "display":"Union for NYC’s embattled horse carriages rips Council Speaker Menin as traitor in new attack ad: ‘Thank you for your betrayal’",
+      "url":"https://nypost.com/2026/07/20/us-news/union-for-nycs-embattled-horse-carriages-rips-council-speaker-menin-as-traitor",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-07-20T21:29:40Z"
+  "generated_utc":"2026-07-20T22:30:17Z"
 }
