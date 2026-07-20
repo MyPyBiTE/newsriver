@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Montreal Canadiens add Lalonde to coaching staff",
-      "display":"Montreal Canadiens add Lalonde to coaching staff",
-      "url":"https://globalnews.ca/news/11972389/montreal-canadiens-add-lalonde-to-coaching-staff",
+      "text":"Wildfire triggers evacuation alert for more than 8,000 in Kimberley, B.C.",
+      "display":"Wildfire triggers evacuation alert for more than 8,000 in Kimberley, B.C.",
+      "url":"https://toronto.citynews.ca/2026/07/20/wildfire-triggers-evacuation-alert-for-more-than-8000-in-kimberley-b-c",
+      "flags":{
+        "is_breaking":true,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Joe Scarborough Questions Trump’s Iran War After Latest Casualties: ‘What Is the Next Move?’",
+      "display":"Joe Scarborough Questions Trump’s Iran War After Latest Casualties: ‘What Is the Next Move?’",
+      "url":"https://www.thewrap.com/media-platforms/politics/morning-joe-scarborough-trump-iran-war-casualties",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Andy Burnham live: New PM vows to END rough sleeping with biggest changes in 40 years",
-      "display":"Andy Burnham live: New PM vows to END rough sleeping with biggest changes in 40 years",
-      "url":"https://www.mirror.co.uk/news/politics/andy-burnham-prime-minister-speech-37451066",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Superweapon against Trump handed to Dems with arrest of MAGA influencers: analysis",
-      "display":"Superweapon against Trump handed to Dems with arrest of MAGA influencers: analysis",
-      "url":"https://www.rawstory.com/trump-andrew-tate",
+      "text":"Mooseland Road fire northeast of Halifax continues to be held",
+      "display":"Mooseland Road fire northeast of Halifax continues to be held",
+      "url":"https://globalnews.ca/news/11972427/mooseland-road-wildfire-halifax-jacket-lake",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-07-20T15:01:40Z"
+  "generated_utc":"2026-07-20T16:42:20Z"
 }
