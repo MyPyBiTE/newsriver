@@ -1,0 +1,85 @@
+name: Publish approved editorial feeds
+
+on:
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: "Write and commit breaking.json and newsriver.json"
+        required: true
+        type: boolean
+        default: false
+      allow_empty:
+        description: "Permit an intentional publish with zero items in both feeds"
+        required: true
+        type: boolean
+        default: false
+
+  push:
+    branches:
+      - phase-9-manual-publish
+    paths:
+      - "scripts/publish_editorial_feeds.py"
+      - "scripts/test_publish_editorial_feeds.py"
+      - "requirements.txt"
+      - ".github/workflows/publish_editorial_feeds.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-approved-editorial-feeds
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip && pip install -r requirements.txt
+
+      - name: Test Phase 9 publishing rules
+        run: python scripts/test_publish_editorial_feeds.py -v
+
+      - name: Read Sheet and build validated feeds
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          MYPYBITE_SHEET_ID: ${{ secrets.MYPYBITE_SHEET_ID }}
+          MYPYBITE_EDITOR_TIMEZONE: America/Toronto
+        run: |
+          EXTRA_ARGS=""
+          if [ "${{ inputs.allow_empty }}" = "true" ]; then
+            EXTRA_ARGS="--allow-empty"
+          fi
+
+          if [ "${{ inputs.publish }}" = "true" ]; then
+            python scripts/publish_editorial_feeds.py --output-dir . --publish ${EXTRA_ARGS}
+          else
+            python scripts/publish_editorial_feeds.py --output-dir . ${EXTRA_ARGS}
+          fi
+
+      - name: Commit validated public feeds
+        if: ${{ inputs.publish == true }}
+        run: |
+          if [ -z "$(git status --porcelain -- breaking.json newsriver.json)" ]; then
+            echo "No public feed changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add breaking.json newsriver.json
+          git commit -m "Publish approved editorial feeds"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
