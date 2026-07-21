@@ -159,32 +159,6 @@
           }
         },
         {
-          "gamePk": "761674",
-          "gameDate": "2026-07-23T00:30Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "SEA"
-              },
-              "score": 0
-            },
-            "home": {
-              "team": {
-                "abbreviation": "ATX"
-              },
-              "score": 0
-            }
-          }
-        },
-        {
           "gamePk": "761671",
           "gameDate": "2026-07-23T00:30Z",
           "status": {
@@ -257,6 +231,32 @@
             "home": {
               "team": {
                 "abbreviation": "SKC"
+              },
+              "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "761674",
+          "gameDate": "2026-07-23T01:30Z",
+          "status": {
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "SEA"
+              },
+              "score": 0
+            },
+            "home": {
+              "team": {
+                "abbreviation": "ATX"
               },
               "score": 0
             }
