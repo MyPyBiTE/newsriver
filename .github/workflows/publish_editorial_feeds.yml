@@ -13,6 +13,8 @@ on:
         required: true
         type: boolean
         default: false
+  schedule:
+    - cron: "*/15 * * * *"
 
   push:
     branches:
@@ -63,14 +65,14 @@ jobs:
             EXTRA_ARGS="--allow-empty"
           fi
 
-          if [ "${{ inputs.publish }}" = "true" ]; then
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.publish }}" = "true" ]; then
             python scripts/publish_editorial_feeds.py --output-dir . --publish ${EXTRA_ARGS}
           else
             python scripts/publish_editorial_feeds.py --output-dir . ${EXTRA_ARGS}
           fi
 
       - name: Commit validated public feeds
-        if: ${{ inputs.publish == true }}
+        if: ${{ github.event_name == 'schedule' || inputs.publish == true }}
         run: |
           if [ -z "$(git status --porcelain -- breaking.json newsriver.json)" ]; then
             echo "No public feed changes to commit."
