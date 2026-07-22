@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Grief in Newfoundland and Labrador for two fishermen found dead after boat sinking",
-      "display":"Grief in Newfoundland and Labrador for two fishermen found dead after boat sinking",
-      "url":"https://globalnews.ca/news/11976491/newfoundland-boat-sinking-fatal",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Number of charges reduced for some accused in Project South police corruption probe",
+      "display":"Number of charges reduced for some accused in Project South police corruption probe",
+      "url":"https://toronto.citynews.ca/2026/07/22/number-of-charges-reduced-for-some-accused-in-project-south-police-corruption-probe",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Canadian Blood Services calling for donors amid serious drop in supply",
-      "display":"Canadian Blood Services calling for donors amid serious drop in supply",
-      "url":"https://toronto.citynews.ca/2026/07/22/canadian-blood-services-calling-for-donors-amid-serious-drop-in-supply",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Douglas Murray: Why Mamdani Is Targeting Netanyahu",
-      "display":"Douglas Murray: Why Mamdani Is Targeting Netanyahu",
-      "url":"https://www.thefp.com/p/douglas-murray-mamdani-netanyahu",
+      "text":"Project South accused, lawyers appear in court as police corruption case continues",
+      "display":"Project South accused, lawyers appear in court as police corruption case continues",
+      "url":"https://globalnews.ca/news/11976464/project-south-accused-appear-in-court",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-07-22T22:31:10Z"
+  "generated_utc":"2026-07-22T23:37:57Z"
 }
