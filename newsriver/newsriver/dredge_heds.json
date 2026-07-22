@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Man charged with second-degree murder in Nanaimo woman’s death",
-      "display":"Man charged with second-degree murder in Nanaimo woman’s death",
-      "url":"https://globalnews.ca/news/11974987/man-charged-second-degree-murder-nanaimo-woman-death",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"‘Death by a thousand cuts’: Half a dozen downtown Edmonton restaurants closing",
+      "display":"‘Death by a thousand cuts’: Half a dozen downtown Edmonton restaurants closing",
+      "url":"https://globalnews.ca/news/11975036/edmonton-downtown-restaurants-closed-permanently",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Giants ‘Pride Night’ drama spectacularly backfires into financial consequences",
-      "display":"Giants ‘Pride Night’ drama spectacularly backfires into financial consequences",
-      "url":"https://nypost.com/2026/07/21/sports/giants-pride-night-debacle-hurts-pocket-book-reputation",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"'Andy Burnham has already shown he recognises the struggles families face'",
-      "display":"'Andy Burnham has already shown he recognises the struggles families face'",
-      "url":"https://www.mirror.co.uk/news/politics/andy-burnham-bus-fare-cap-37460143",
+      "text":"The Best Student Streaming Deals, From Hulu to HBO Max",
+      "display":"The Best Student Streaming Deals, From Hulu to HBO Max",
+      "url":"https://www.rollingstone.com/product-recommendations/streaming/best-streaming-deals-discounts-students-1118708",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-07-22T01:04:34Z"
+  "generated_utc":"2026-07-22T04:31:04Z"
 }
