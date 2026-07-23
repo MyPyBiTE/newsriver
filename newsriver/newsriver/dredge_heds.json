@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Google hit with US$1B fine as EU says app store, search stifles competition",
-      "display":"Google hit with US$1B fine as EU says app store, search stifles competition",
-      "url":"https://globalnews.ca/news/11984684/google-european-union-antitrust-fine",
+      "text":"Amid flurry of moves, Schneider back with Blue Jays, with Corbin heading to IL",
+      "display":"Amid flurry of moves, Schneider back with Blue Jays, with Corbin heading to IL",
+      "url":"https://www.mlb.com/bluejays/news/davis-schneider-recalled-by-blue-jays-patrick-corbin-to-injured-list",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Lawyers present arguments in trial of man accused of killing daughter in New York",
+      "display":"Lawyers present arguments in trial of man accused of killing daughter in New York",
+      "url":"https://globalnews.ca/news/11986136/trial-man-accused-killing-daughter-ny",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Weekend need-to-know: Ossfest among events in Toronto; Gardiner/DVP closures, GO service adjustments",
-      "display":"Weekend need-to-know: Ossfest among events in Toronto; Gardiner/DVP closures, GO service adjustments",
-      "url":"https://toronto.citynews.ca/2026/07/23/toronto-events-weekend-ossfest-gardiner-dvp-closures-go-transit-service",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Dodgers broadcast left stunned as Phillies’ baserunning blunders continue: ‘What are these guys doing?’",
-      "display":"Dodgers broadcast left stunned as Phillies’ baserunning blunders continue: ‘What are these guys doing?’",
-      "url":"https://nypost.com/2026/07/23/sports/dodgers-broadcast-left-stunned-as-phillies-baserunning-blunders-continue-what-are-these-guys-doing",
+      "text":"Christos Tzolis: How Arsenal's new £34m signing went from Norwich flop to Champions League star",
+      "display":"Christos Tzolis: How Arsenal's new £34m signing went from Norwich flop to Champions League star",
+      "url":"https://www.mirror.co.uk/sport/football/transfer-news/arsenal-christos-tzolis-norwich-city-37468916",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-07-23T16:53:01Z"
+  "generated_utc":"2026-07-23T18:06:49Z"
 }
