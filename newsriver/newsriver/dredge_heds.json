@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Latest Blue Jays injuries & transactions",
-      "display":"Latest Blue Jays injuries & transactions",
-      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"Blue Jays Claim Rudy Martin Jr.",
       "display":"Blue Jays Claim Rudy Martin Jr.",
       "url":"https://www.mlbtraderumors.com/2026/07/blue-jays-claim-rudy-martin-jr.html",
@@ -21,9 +11,19 @@
       }
     },
     {
-      "text":"Nanaimo ‘stranger homicide’ suspect previously convicted of assaulting teen in alleged abduction attempt",
-      "display":"Nanaimo ‘stranger homicide’ suspect previously convicted of assaulting teen in alleged abduction attempt",
-      "url":"https://globalnews.ca/news/11986254/nanaimo-stranger-homicide-suspect-previous-assaulting-teen-alleged-abduction-attempt",
+      "text":"B.C. boosts monitoring of 865 repeat offenders, adds Lower Mainland intervention hubs",
+      "display":"B.C. boosts monitoring of 865 repeat offenders, adds Lower Mainland intervention hubs",
+      "url":"https://globalnews.ca/news/11986438/bc-monitors-repeat-offenders",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"‘Nobel Prize’ of mathematics awarded to U of T professor Jacob Tsimerman",
+      "display":"‘Nobel Prize’ of mathematics awarded to U of T professor Jacob Tsimerman",
+      "url":"https://toronto.citynews.ca/2026/07/23/nobel-prize-of-mathematics-u-of-t-professor-jacob-tsimerman",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-07-23T19:42:42Z"
+  "generated_utc":"2026-07-23T20:41:25Z"
 }
