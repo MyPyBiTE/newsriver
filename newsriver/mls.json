@@ -6,19 +6,19 @@
           "gamePk": "761685",
           "gameDate": "2026-07-25T22:30Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "CLT"
               },
-              "score": 0
+              "score": 2
             },
             "home": {
               "team": {
