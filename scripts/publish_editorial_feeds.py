@@ -343,13 +343,37 @@ def make_feeds(rows: list[list[Any]], now: datetime, editor_tz: ZoneInfo) -> tup
         if story_id and status in {"hold", "rejected", "retracted"}:
             blocked_ids.add(story_id)
 
-        active, reason = is_active(row, now, editor_tz)
-        if not active:
-            if story_id:
-                print(f"SKIP row={row_number} story_id={story_id} reason={reason}")
-            skipped += 1
-            continue
-        candidates.append(build_candidate(row, row_number, now, editor_tz))
+                try:
+            active, reason = is_active(row, now, editor_tz)
+
+            if not active:
+                if story_id:
+                    print(
+                        f"SKIP row={row_number} "
+                        f"story_id={story_id} "
+                        f"reason={reason}",
+                        flush=True,
+                    )
+                skipped += 1
+                continue
+
+            candidate = build_candidate(
+                row,
+                row_number,
+                now,
+                editor_tz,
+            )
+            candidates.append(candidate)
+
+        except Exception as exc:
+            print(
+                f"ERROR row={row_number} "
+                f"story_id={story_id or 'blank'} "
+                f"reason={exc}",
+                file=sys.stderr,
+                flush=True,
+            )
+            raise
 
     correction_targets = {candidate.correction_of for candidate in candidates if candidate.correction_of}
     blocked_ids.update(correction_targets)
