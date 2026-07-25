@@ -340,10 +340,11 @@ def make_feeds(rows: list[list[Any]], now: datetime, editor_tz: ZoneInfo) -> tup
         row = row_dict(raw_row)
         story_id = clean_text(row["story_id"])
         status = clean_text(row["status"]).lower()
+
         if story_id and status in {"hold", "rejected", "retracted"}:
             blocked_ids.add(story_id)
 
-                try:
+        try:
             active, reason = is_active(row, now, editor_tz)
 
             if not active:
