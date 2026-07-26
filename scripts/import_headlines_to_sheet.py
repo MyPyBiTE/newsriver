@@ -533,7 +533,7 @@ def import_items(
 
     result = values_api.get(
         spreadsheetId=spreadsheet_id,
-        range=f"{SHEET_NAME}!A1:AJ",
+        range=f"'{SHEET_NAME}'!A1:AJ",
     ).execute()
 
     values = result.get("values", [])
@@ -608,7 +608,7 @@ def import_items(
             )
             updates.append(
                 {
-                    "range": f"{SHEET_NAME}!A{row_number}:AJ{row_number}",
+                    "range": f"'{SHEET_NAME}'!A{row_number}:AJ{row_number}",
                     "values": [merged],
                 }
             )
