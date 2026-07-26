@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Genevieve becomes a major Pacific hurricane off Mexico, but no direct threat to land is forecast",
-      "display":"Genevieve becomes a major Pacific hurricane off Mexico, but no direct threat to land is forecast",
-      "url":"https://toronto.citynews.ca/2026/07/26/genevieve-becomes-a-major-pacific-hurricane-off-mexico-but-no-direct-threat-to-land-is-forecast",
+      "text":"Surging Red Sox topple Blue Jays 6-1",
+      "display":"Surging Red Sox topple Blue Jays 6-1",
+      "url":"https://www.boston.com/sports/boston-red-sox/2026/07/26/surging-red-sox-topple-blue-jays-6-1",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"B.C. man charged, accused of driving motorhome onto Abbotsford airport runway",
+      "display":"B.C. man charged, accused of driving motorhome onto Abbotsford airport runway",
+      "url":"https://globalnews.ca/news/11994508/abbotsford-airport-motorhome-enters-runway",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Quebec paramedics reach tentative deal with province after years without contract",
-      "display":"Quebec paramedics reach tentative deal with province after years without contract",
-      "url":"https://globalnews.ca/news/11994468/quebec-paramedics-tentative-agreement",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Snayx kick off new era with melancholic summer anthem ‘Nice Day 4 It’",
-      "display":"Snayx kick off new era with melancholic summer anthem ‘Nice Day 4 It’",
-      "url":"https://www.nme.com/news/music/snayx-kick-off-new-era-with-melancholic-summer-anthem-nice-day-4-it-3959084",
+      "text":"Road-rage maniac fatally beats NYC man with baseball bat on Belt Parkway",
+      "display":"Road-rage maniac fatally beats NYC man with baseball bat on Belt Parkway",
+      "url":"https://nypost.com/2026/07/26/us-news/road-rage-maniac-fatally-beats-nyc-man-with-baseball-bat-on-belt-parkway",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-07-26T22:26:53Z"
+  "generated_utc":"2026-07-26T23:26:56Z"
 }
