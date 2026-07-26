@@ -6,12 +6,12 @@
           "gamePk": "761685",
           "gameDate": "2026-07-25T22:30Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
           },
           "linescore": {
-            "currentPeriodOrdinal": "1st",
-            "currentQuarter": "1st"
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
           },
           "teams": {
             "away": {
@@ -44,13 +44,13 @@
               "team": {
                 "abbreviation": "CIN"
               },
-              "score": 0
+              "score": 1
             },
             "home": {
               "team": {
                 "abbreviation": "CLB"
               },
-              "score": 0
+              "score": 1
             }
           }
         },
@@ -84,12 +84,12 @@
           "gamePk": "761681",
           "gameDate": "2026-07-25T23:30Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
@@ -128,7 +128,7 @@
               "team": {
                 "abbreviation": "NE"
               },
-              "score": 0
+              "score": 1
             }
           }
         },
@@ -148,13 +148,13 @@
               "team": {
                 "abbreviation": "CHI"
               },
-              "score": 0
+              "score": 1
             },
             "home": {
               "team": {
                 "abbreviation": "NYC"
               },
-              "score": 0
+              "score": 2
             }
           }
         },
@@ -206,7 +206,7 @@
               "team": {
                 "abbreviation": "PHI"
               },
-              "score": 0
+              "score": 1
             }
           }
         },
