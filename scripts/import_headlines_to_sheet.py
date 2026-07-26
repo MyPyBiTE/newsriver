@@ -530,7 +530,27 @@ def import_items(
         cache_discovery=False,
     )
     values_api = service.spreadsheets().values()
+    spreadsheet = service.spreadsheets().get(
+        spreadsheetId=spreadsheet_id,
+        fields="sheets(properties(sheetId,title,gridProperties(rowCount)))",
+    ).execute()
 
+    sheet_properties = next(
+        (
+            sheet["properties"]
+            for sheet in spreadsheet.get("sheets", [])
+            if sheet.get("properties", {}).get("title") == SHEET_NAME
+        ),
+        None,
+    )
+
+    if sheet_properties is None:
+        raise ImportFailure(f"Sheet tab not found: {SHEET_NAME}")
+
+    sheet_id = sheet_properties["sheetId"]
+    sheet_row_count = int(
+        sheet_properties.get("gridProperties", {}).get("rowCount", 0)
+    )
     result = values_api.get(
         spreadsheetId=spreadsheet_id,
         range=f"'{SHEET_NAME}'!A1:AJ",
@@ -646,7 +666,28 @@ def import_items(
         while len(blank_story_rows) < len(additions):
             blank_story_rows.append(next_new_row)
             next_new_row += 1
+        required_last_row = max(
+            blank_story_rows[: len(additions)],
+            default=sheet_row_count,
+        )
 
+        if required_last_row > sheet_row_count:
+            rows_to_add = required_last_row - sheet_row_count
+            service.spreadsheets().batchUpdate(
+                spreadsheetId=spreadsheet_id,
+                body={
+                    "requests": [
+                        {
+                            "appendDimension": {
+                                "sheetId": sheet_id,
+                                "dimension": "ROWS",
+                                "length": rows_to_add,
+                            }
+                        }
+                    ]
+                },
+            ).execute()
+            sheet_row_count = required_last_row
         for row_number, row_values in zip(blank_story_rows, additions):
             writes.append(
                 {
