@@ -14,7 +14,7 @@ from urllib.parse import urlparse
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
-SHEET_NAME = "Incoming"
+SHEET_NAME = "Incoming - Auto Test"
 
 HEADERS = [
     "story_id", "source", "source_url", "canonical_url", "source_story_id",
