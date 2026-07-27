@@ -38,7 +38,14 @@ class PublishingRulesTest(unittest.TestCase):
         breaking, newsriver, _ = make_feeds([row()], NOW, TZ)
         self.assertEqual([item["id"] for item in breaking["items"]], ["story-1"])
         self.assertEqual([item["id"] for item in newsriver["items"]], ["story-1"])
-
+    def test_auto_fallback_publishes(self):
+        automatic = row(
+            story_id="story-auto",
+            selection_mode="AUTO_FALLBACK",
+        )
+        breaking, newsriver, _ = make_feeds([automatic], NOW, TZ)
+        self.assertEqual([item["id"] for item in breaking["items"]], ["story-auto"])
+        self.assertEqual([item["id"] for item in newsriver["items"]], ["story-auto"])
     def test_hold_and_rejected_never_publish(self):
         rows = [row(status="Hold"), row(story_id="story-2", status="Rejected")]
         breaking, newsriver, _ = make_feeds(rows, NOW, TZ)
