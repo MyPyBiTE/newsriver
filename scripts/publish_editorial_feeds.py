@@ -187,7 +187,7 @@ def is_active(row: dict[str, Any], now: datetime, editor_tz: ZoneInfo) -> tuple[
         return False, "validation_state is not VALID"
 
     if clean_text(row["selection_mode"]).upper() not in {"", "MANUAL", "AUTO_FALLBACK"}:
-    return False, "selection_mode is not MANUAL or AUTO_FALLBACK"
+        return False, "selection_mode is not MANUAL or AUTO_FALLBACK"
 
     if clean_text(row["duplicate_of"]):
         return False, "duplicate_of is populated"
