@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Less than half of FIFA Fan Festival premium tickets sold in Toronto: city report",
-      "display":"Less than half of FIFA Fan Festival premium tickets sold in Toronto: city report",
-      "url":"https://toronto.citynews.ca/2026/07/30/toronto-fifa-fan-festival",
+      "text":"Kawhi Leonard’s Raptors future revealed amid ongoing NBA investigation",
+      "display":"Kawhi Leonard’s Raptors future revealed amid ongoing NBA investigation",
+      "url":"https://nypost.com/2026/07/30/sports/raptors-clippers-still-plan-to-complete-kawhi-leonard-trade-amid-aspiration-investigation",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Investigation underway into early morning police shooting in Calgary",
+      "display":"Investigation underway into early morning police shooting in Calgary",
+      "url":"https://globalnews.ca/news/12002923/calgary-bridlewood-police-shooting",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"1 in 3 Canadian workers have used generative AI tools, StatCan says",
-      "display":"1 in 3 Canadian workers have used generative AI tools, StatCan says",
-      "url":"https://globalnews.ca/news/12002767/canadian-workers-generative-ai-tools-statcan",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"NBC News Now Expands Live Daytime Lineup With 2-Hour Christine Romans Show",
-      "display":"NBC News Now Expands Live Daytime Lineup With 2-Hour Christine Romans Show",
-      "url":"https://www.thewrap.com/media-platforms/streaming/nbc-news-now-christine-romans-current-streaming",
+      "text":"SIU probing man’s fatal fall from Mississauga condo",
+      "display":"SIU probing man’s fatal fall from Mississauga condo",
+      "url":"https://toronto.citynews.ca/2026/07/30/siu-investigation-mississauga-man-dead-condo-fall",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-07-30T16:57:05Z"
+  "generated_utc":"2026-07-30T18:11:39Z"
 }
