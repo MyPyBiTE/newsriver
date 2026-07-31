@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Improper battery disposal blamed for fire at Nova Scotia waste and recycling facility",
-      "display":"Improper battery disposal blamed for fire at Nova Scotia waste and recycling facility",
-      "url":"https://globalnews.ca/news/12005284/nova-scotia-waste-facility-fire-lithium-ion-batteries",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Missing B.C. hiker found dead in Alberta national park",
+      "display":"Missing B.C. hiker found dead in Alberta national park",
+      "url":"https://globalnews.ca/news/12005199/missing-bc-hiker-found-dead-alberta-national-park",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Canada’s Leylah Fernandez faces tough draw at National Bank Open",
-      "display":"Canada’s Leylah Fernandez faces tough draw at National Bank Open",
-      "url":"https://toronto.citynews.ca/2026/07/31/canadas-leylah-fernandez-faces-tough-draw-at-national-bank-open",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"ESPN promotes Molly McGrath to NFL sidelines ahead of network’s first Super Bowl",
-      "display":"ESPN promotes Molly McGrath to NFL sidelines ahead of network’s first Super Bowl",
-      "url":"https://nypost.com/2026/07/31/sports/espn-promotes-molly-mcgrath-to-nfl-sidelines-ahead-of-networks-first-super-bowl",
+      "text":"Driver of green Lamborghini involved in violent street racing crash in Scarborough arrested",
+      "display":"Driver of green Lamborghini involved in violent street racing crash in Scarborough arrested",
+      "url":"https://toronto.citynews.ca/2026/07/31/driver-green-lamborghini-street-racing-crash-scarborough-arrested",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-07-31T20:13:58Z"
+  "generated_utc":"2026-07-31T21:29:59Z"
 }
