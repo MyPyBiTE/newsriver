@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"B.C. firefighters face critical days as dry fuels and winds increase fire risks",
-      "display":"B.C. firefighters face critical days as dry fuels and winds increase fire risks",
-      "url":"https://globalnews.ca/news/12004513/b-c-firefighters-face-critical-days-as-dry-fuels-and-winds-increase-fire-risks",
+      "text":"Blue Jays looking to secure long-term solutions at Trade Deadline",
+      "display":"Blue Jays looking to secure long-term solutions at Trade Deadline",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-looking-to-fill-long-term-needs-at-trade-deadline",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Anthropic AI models hack multiple organizations during research testing",
+      "display":"Anthropic AI models hack multiple organizations during research testing",
+      "url":"https://globalnews.ca/news/12004619/anthropic-ai-hack",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Exxon and Chevron profits surge on rising oil prices due to Iran war",
-      "display":"Exxon and Chevron profits surge on rising oil prices due to Iran war",
-      "url":"https://www.cnbc.com/2026/07/31/exxon-xom-chevron-cvx-q2-earnings.html",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"How many hours of sleep can we REALLY survive on - and for how long? Scientists reveal when sleep deprivation becomes deadly...as world leaders say just three hours is enough",
-      "display":"How many hours of sleep can we REALLY survive on - and for how long? Scientists reveal when sleep deprivation becomes deadly...as world leaders say just three hours is enough",
-      "url":"https://www.dailymail.com/health/article-16018981/sleep-three-hours-japan-prime-minister-danger.html",
+      "text":"Trump faces 'bloody nose' as inner-party rampage finally bites back: analysis",
+      "display":"Trump faces 'bloody nose' as inner-party rampage finally bites back: analysis",
+      "url":"https://www.rawstory.com/stringr/trump-2677384245",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-07-31T13:40:42Z"
+  "generated_utc":"2026-07-31T15:47:30Z"
 }
