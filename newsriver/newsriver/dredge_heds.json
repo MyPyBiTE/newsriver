@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Blue Jays acquire veteran righty Taillon from Cubs",
-      "display":"Blue Jays acquire veteran righty Taillon from Cubs",
-      "url":"https://www.mlb.com/bluejays/news/jameson-taillon-traded-to-blue-jays",
+      "text":"Key takeaways: Cardinals 5, Blue Jays 1",
+      "display":"Key takeaways: Cardinals 5, Blue Jays 1",
+      "url":"https://www.mlb.com/bluejays/news/max-scherzer-strong-in-final-start-before-trade-deadline",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Blue Jays acquire pitcher Jameson Taillon from Chicago Cubs",
+      "display":"Blue Jays acquire pitcher Jameson Taillon from Chicago Cubs",
+      "url":"https://toronto.citynews.ca/2026/08/02/blue-jays-acquire-pitcher-jameson-taillon-from-chicago-cubs",
       "flags":{
         "is_breaking":false,
         "is_landmark":true,
@@ -19,17 +29,7 @@
         "is_landmark":true,
         "has_bitcoin":false
       }
-    },
-    {
-      "text":"Toronto couple dead after boating crash in Muskoka",
-      "display":"Toronto couple dead after boating crash in Muskoka",
-      "url":"https://toronto.citynews.ca/2026/08/02/toronto-couple-dead-after-boating-crash-in-muskoka",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
     }
   ],
-  "generated_utc":"2026-08-02T20:05:51Z"
+  "generated_utc":"2026-08-02T21:08:10Z"
 }
