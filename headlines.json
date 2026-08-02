@@ -1,13 +1,62 @@
 {
-  "generated_utc": "2026-08-01T23:13:19.770Z",
-  "itemset_hash": "296f7a917c945043",
+  "generated_utc": "2026-08-02T00:13:16.099Z",
+  "itemset_hash": "636ad389e6e6c1d5",
   "count": 69,
   "items": [
     {
-      "title": "Spain installs floating barrier as Ceuta death toll from migrant invasion hits 67",
-      "url": "https://nypost.com/2026/08/01/world-news/spain-installs-floating-barrier-as-ceuta-death-toll-hits-67",
-      "source": "New York Post",
-      "published_utc": "2026-08-01T23:06:46.000Z",
+      "title": "John Harbaugh tells The Post about mantra fueling Giants at training camp — and why he’s already ‘proud’",
+      "url": "https://nypost.com/2026/08/01/sports/john-harbaugh-tells-the-post-about-mantra-fueling-giants-at-training-camp",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-08-02T00:02:22.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Three killed after bomb detonated at Moscow restaurant, state media say",
+      "url": "https://www.bbc.co.uk/news/articles/c86n4ljxp63o?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2026-08-02T00:02:18.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6",
+          "body_count≥3"
+        ],
+        "style": "breaker"
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Scott Hylands Dead: ‘Night Heat’ & ‘Fargo’ Actor Was 83",
+      "url": "https://deadline.com/2026/08/scott-hylands-dead-1237015350",
+      "source": "Deadline",
+      "published_utc": "2026-08-02T00:01:32.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "breaker"
+      },
+      "category": "Culture",
+      "region": "Canada"
+    },
+    {
+      "title": "‘Wonder Man’ Star Yahya Abdul-Mateen II Reacts to Marvel Series Cancellation: “See You at the Emmys”",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/wonder-man-canceled-yahya-abdul-mateen-ii-reacts-marvel-1236661484",
+      "source": "The Hollywood Reporter",
+      "published_utc": "2026-08-02T00:00:36.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -17,10 +66,313 @@
       "region": "World"
     },
     {
-      "title": "Man detained in Nancy Guthrie case plans to sue Arizona sheriff’s office for $3.25M",
-      "url": "https://nypost.com/2026/08/01/us-news/arizona-man-detained-in-nancy-guthrie-case-seeks-3-25m-from-sheriffs-office",
+      "title": "Train derailment in Regina rail yard under investigation",
+      "url": "https://globalnews.ca/news/12006528/train-derailment-regina",
+      "source": "globalnews.ca",
+      "published_utc": "2026-08-02T00:00:28.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "Vincent Pastore supported a ‘Sopranos’ castmate in his last public appearance before his death",
+      "url": "https://pagesix.com/2026/08/01/celebrity-news/vincent-pastores-last-public-appearance-before-his-death",
       "source": "New York Post",
-      "published_utc": "2026-08-01T23:05:52.000Z",
+      "published_utc": "2026-08-01T23:56:52.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Policy expert flags Trump’s major ‘strategic mistake’ that could ‘bring the war to the US’",
+      "url": "https://www.rawstory.com/iran-war-2677646562",
+      "source": "Raw Story",
+      "published_utc": "2026-08-01T23:52:44.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Christopher Nolan Explains His ‘Real Problem in Criticism Today’: ‘That’s Not How Storytelling Works’",
+      "url": "https://www.thewrap.com/creative-content/movies/christopher-nolan-explains-problem-film-criticism-today",
+      "source": "TheWrap",
+      "published_utc": "2026-08-01T23:48:58.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Gavin Newsom Reportedly Concerned About State Antitrust Suit Against Paramount-Warner Bros. Merger",
+      "url": "https://www.hollywoodreporter.com/business/business-news/gavin-newsom-concerned-state-suit-paramount-warner-bros-1236661514",
+      "source": "The Hollywood Reporter",
+      "published_utc": "2026-08-01T23:46:57.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "MarJon Beauchamp's Rock-Hard Abs on Full Display During Detainment After Pals Scuffle Over Women",
+      "url": "https://www.tmz.com/2026/08/01/nba-star-marjon-beauchamp-detained",
+      "source": "TMZ.com",
+      "published_utc": "2026-08-01T23:46:25.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "K-pop Girl Group IVE is Ready for Their Next Big Adventure",
+      "url": "https://www.hollywoodreporter.com/music/music-features/k-pop-girl-group-ive-show-what-i-am-tour-interview-1236661491",
+      "source": "The Hollywood Reporter",
+      "published_utc": "2026-08-01T23:45:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "New York Times reveals Trump administration subpoena over North Korea story",
+      "url": "https://www.aljazeera.com/news/2026/8/1/new-york-times-reveals-trump-administration-subpoena-over-north-korea-story?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-08-01T23:42:44.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Athletics Select Ben Bowden, DFA Connor Thomas",
+      "url": "https://www.mlbtraderumors.com/2026/08/athletics-select-ben-bowden.html",
+      "source": "MLB Trade Rumors",
+      "published_utc": "2026-08-01T23:40:24.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "‘A Life Illuminated’: Of Bioluminescence, Mysterious Sea Creatures, And A Woman Scientist’s Groundbreaking Quest",
+      "url": "https://deadline.com/2026/08/a-life-illuminated-interview-director-tasha-van-zandt-cinematographer-sebastian-zeck-1237015335",
+      "source": "Deadline",
+      "published_utc": "2026-08-01T23:33:11.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Deion Sanders hints at ‘new toes’ during Shedeur exchange at Browns camp",
+      "url": "https://nypost.com/2026/08/01/sports/deion-sanders-hints-at-new-toes-with-shedeur-at-browns-camp",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-08-01T23:27:42.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Vincent Pastore mourned by ‘Sopranos’ cast as ‘beloved friend’ and ‘beautiful soul’ after his death",
+      "url": "https://pagesix.com/2026/08/01/celebrity-news/vincent-pastore-mourned-by-sopranos-cast-after-his-death",
+      "source": "New York Post",
+      "published_utc": "2026-08-01T23:26:04.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "GOP lawmaker jailed ‘on suspicion’ of false imprisonment and battery: report",
+      "url": "https://www.rawstory.com/austin-mccollum",
+      "source": "Raw Story",
+      "published_utc": "2026-08-01T23:26:03.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Scott Hylands, Star of TV’s ‘Night Heat’ on Both Sides of the Border, Dies at 83",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/scott-hylands-dead-night-heat-canadian-actor-1236661528",
+      "source": "The Hollywood Reporter",
+      "published_utc": "2026-08-01T23:24:47.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "Pirates Showed Interest In Huascar Brazobán",
+      "url": "https://www.mlbtraderumors.com/2026/08/pirates-showed-interest-in-huascar-brazoban.html",
+      "source": "MLB Trade Rumors",
+      "published_utc": "2026-08-01T23:21:52.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Former NFL hopeful, partner reveal death of newborn son in tragedy",
+      "url": "https://nypost.com/2026/08/01/sports/former-nfl-hopeful-patrick-murtagh-partner-reveal-newborns-death-in-tragedy",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-08-01T23:19:25.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Cyberattacks Threaten Water Supplies Across Country. Tim Walz Or Iran May Be To Blame Depending On Who You Ask.",
+      "url": "https://dailycaller.com/2026/08/01/cyberattacks-water-supply-iran-minnesota-michigan-donald-trump-tim-walz",
+      "source": "The Daily Caller",
+      "published_utc": "2026-08-01T23:18:42.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Growing like ‘gangbusters’: Can Taiwan maintain its economic momentum?",
+      "url": "https://www.aljazeera.com/economy/2026/8/1/growing-like-gangbusters-can-taiwan-maintain-its-economic-momentum?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-08-01T23:15:40.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Jets hoping to reverse dismal tight end history — and embrace NFL trend — with revamped group",
+      "url": "https://nypost.com/2026/08/01/sports/jets-hoping-to-reverse-dismal-tight-end-trend-with-revamped-group",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-08-01T23:14:40.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "St. John’s hiring former Rick Pitino player Peyton Siva as assistant coach",
+      "url": "https://nypost.com/2026/08/01/sports/st-johns-hiring-former-rick-pitino-player-peyton-siva-as-assistant-coach",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-08-01T23:11:46.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Young guns for hire - the teenage hitmen recruited to kill across Europe",
+      "url": "https://www.bbc.co.uk/news/articles/czrjyevmv61o?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2026-08-01T23:03:35.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Russian ship defies sanctions to send military vehicles to Mali",
+      "url": "https://www.bbc.co.uk/news/articles/cgk4rdley0ko?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2026-08-01T23:03:23.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -36,13 +388,23 @@
       "published_utc": "2026-08-01T23:01:26.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Why Uganda seems to be winning the battle against Ebola as virus spreads in DR Congo",
+      "url": "https://www.bbc.co.uk/news/articles/clyemjn44qqo?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2026-08-01T23:03:15.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
       "region": "World"
     },
     {
@@ -275,7 +637,7 @@
         "reasons": [
           "score≥2.6"
         ],
-        "style": "breaker"
+        "style": "lightsaber"
       },
       "category": "Local",
       "region": "Canada"
@@ -413,22 +775,6 @@
       "region": "World"
     },
     {
-      "title": "Athletics Select Ben Bowden",
-      "url": "https://www.mlbtraderumors.com/2026/08/athletics-select-ben-bowden.html",
-      "source": "MLB Trade Rumors",
-      "published_utc": "2026-08-01T21:40:24.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
       "title": "Red Sox fend off Dodgers, 9-4, in grindy series opener",
       "url": "https://www.boston.com/sports/boston-red-sox/2026/08/01/red-sox-dodgers-ceddanne-rafaela-brayan-bello",
       "source": "Boston Red Sox: News, commentary, scores, schedule, and stats",
@@ -467,11 +813,8 @@
       "published_utc": "2026-08-01T21:33:49.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "General",
       "region": "World"
@@ -514,22 +857,6 @@
       },
       "category": "Labour",
       "region": "World"
-    },
-    {
-      "title": "Logan Henderson’s mid-season breakthrough is hard to ignore fantasy baseball wise",
-      "url": "https://nypost.com/2026/08/01/sports/logan-hendersons-mid-season-breakthrough-is-hard-to-ignore-fantasy-baseball-wise",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2026-08-01T21:25:28.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Sports",
-      "region": "Canada"
     },
     {
       "title": "When It Rains, Vans’ Mighty GORE-TEX Sneaker Still Shines",
@@ -584,39 +911,6 @@
       "region": "World"
     },
     {
-      "title": "Three killed after bomb detonated at Moscow restaurant, state media say",
-      "url": "https://www.bbc.co.uk/news/articles/c86n4ljxp63o?at_campaign=rss&at_medium=RSS",
-      "source": "BBC News",
-      "published_utc": "2026-08-01T21:13:17.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6",
-          "body_count≥3"
-        ],
-        "style": "breaker"
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Lincoln Riley calls USC’s new football facility ‘a little bit of a dream’",
-      "url": "https://nypost.com/2026/08/01/sports/uscs-lincoln-riley-cant-help-himself-when-it-comes-to-new-football-digs",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2026-08-01T21:12:13.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
       "title": "Ryan O’Hearn To Miss 6-8 Weeks With Quad Strain",
       "url": "https://www.mlbtraderumors.com/2026/08/ryan-ohearn-to-miss-6-8-weeks-with-quad-strain.html",
       "source": "MLB Trade Rumors",
@@ -644,22 +938,6 @@
       },
       "category": "Culture",
       "region": "World"
-    },
-    {
-      "title": "DeAndre Hopkins clarifies his NFL future after taking college coaching job",
-      "url": "https://nypost.com/2026/08/01/sports/deandre-hopkins-clarifies-his-nfl-future-after-taking-georgia-tech-job",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2026-08-01T21:00:22.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Sports",
-      "region": "Canada"
     },
     {
       "title": "Suriname's $26 Billion Oil Bet Is Finally Paying Off",
@@ -718,304 +996,17 @@
       },
       "category": "General",
       "region": "World"
-    },
-    {
-      "title": "Police say 13 killed as small plane viewing Nazca Lines in Peru crashes",
-      "url": "https://www.aljazeera.com/news/2026/8/1/police-say-13-killed-as-small-plane-viewing-nazca-lines-in-peru-crashes?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-08-01T20:57:04.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6",
-          "body_count≥3"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "16 Years Later, Nike’s Oreo-Themed Air Jordans Still Hit the Spot",
-      "url": "https://www.highsnobiety.com/p/jordan-6-oreo-2026-sneakers",
-      "source": "Highsnobiety",
-      "published_utc": "2026-08-01T20:56:48.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Shock: “Sopranos” Star Vinnie Pastore, aka “Big Pussy,” Dead At Age 80, Found in His Apartment, A Sweet Man Who Was a Fan and NY Favorite",
-      "url": "https://www.showbiz411.com/2026/08/01/shock-sopranos-star-vinnie-pastore-aka-big-pussy-dead-at-age-80-found-in-his-apartment-a-sweet-man-who-was-a-fan-and-ny-favorite",
-      "source": "Showbiz411",
-      "published_utc": "2026-08-01T20:54:25.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Travis Scott’s “Odyssey” Nikes Are Sneakers That Will Never Be",
-      "url": "https://www.highsnobiety.com/p/travis-scott-nike-moon-shoe-odyssey",
-      "source": "Highsnobiety",
-      "published_utc": "2026-08-01T20:54:17.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "US Military Fighter Jet Crashes At California Air Base, Pilot Ejected",
-      "url": "https://dailycaller.com/2026/08/01/miramar-us-military-fighter-jet-crashes-pilot-ejected-california-f-35b-mishap",
-      "source": "The Daily Caller",
-      "published_utc": "2026-08-01T20:50:36.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Vincent Pastore, the Mobster “Big Pussy” on ‘The Sopranos,’ Dies at 80",
-      "url": "https://www.hollywoodreporter.com/tv/tv-news/vincent-pastore-dead-sopranos-big-pussy-1236661485",
-      "source": "The Hollywood Reporter",
-      "published_utc": "2026-08-01T20:47:40.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Pirates Acquire Camilo Doval",
-      "url": "https://www.mlbtraderumors.com/2026/08/yankees-trade-camilo-doval-pirates.html",
-      "source": "MLB Trade Rumors",
-      "published_utc": "2026-08-01T20:42:46.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "Fighting breaks out in western Tigray as Ethiopia and TPLF trade blame",
-      "url": "https://www.aljazeera.com/news/2026/8/1/fighting-breaks-out-in-western-tigray-as-ethiopia-and-tplf-trade-blame?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-08-01T20:38:41.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Big East to name influential former MLB executive new commissioner",
-      "url": "https://nypost.com/2026/08/01/sports/big-east-to-name-former-mlb-executive-tim-brosnan-new-commissioner",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2026-08-01T20:32:20.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "Pinkerton: The Mamdani Show Is Mobilizing the Leftist Mob",
-      "url": "https://www.breitbart.com/politics/2026/08/01/pinkerton-the-mamdani-show-is-mobilizing-the-leftist-mob",
-      "source": "Breitbart News",
-      "published_utc": "2026-08-01T20:30:48.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Top dogs ride waves at annual World Dog Surfing Championships",
-      "url": "https://toronto.citynews.ca/2026/08/01/top-dogs-ride-waves-at-annual-world-dog-surfing-championships",
-      "source": "CityNews Toronto",
-      "published_utc": "2026-08-01T20:29:28.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Labour",
-      "region": "Canada"
-    },
-    {
-      "title": "Overnight Russian barrage kills nine in Kyiv, as air defense struggle with U.S. continues",
-      "url": "https://www.npr.org/2026/08/01/nx-s1-5916393/overnight-russia-kyiv-ukraine-strikes",
-      "source": "NPR Topics: Home Page Top Stories",
-      "published_utc": "2026-08-01T20:27:32.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Why all top-five MLB contenders, including Dodgers, could use Tarik Skubal",
-      "url": "https://nypost.com/2026/08/01/sports/why-mlbs-top-five-contenders-could-all-use-tarik-skubal",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2026-08-01T20:27:14.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Labour",
-      "region": "Canada"
-    },
-    {
-      "title": "Climber Nirmal Purja Killed in Mountain Avalanche",
-      "url": "https://www.tmz.com/2026/08/01/climber-nirmal-purja-dead",
-      "source": "TMZ.com",
-      "published_utc": "2026-08-01T20:24:42.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Greece battles raging wildfires as flames appear to ease in France",
-      "url": "https://www.aljazeera.com/news/2026/8/1/greece-battles-raging-wildfires-as-flames-appear-to-ease-in-france?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-08-01T20:24:19.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Rangers Select Nolan Kingham",
-      "url": "https://www.mlbtraderumors.com/2026/08/rangers-select-nolan-kingham.html",
-      "source": "MLB Trade Rumors",
-      "published_utc": "2026-08-01T20:24:01.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "N.S. RCMP accuse man of sex charges involving youths, seek additional victims",
-      "url": "https://globalnews.ca/news/12006439/rcmp-n-s-sex-charges",
-      "source": "globalnews.ca",
-      "published_utc": "2026-08-01T20:21:02.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "Man charged with mischief in suspected hate-motivated act against East York church",
-      "url": "https://toronto.citynews.ca/2026/08/01/man-charged-with-mischief-in-suspected-hate-motivated-act-against-east-york-church",
-      "source": "CityNews Toronto",
-      "published_utc": "2026-08-01T20:15:57.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Local",
-      "region": "Canada"
-    },
-    {
-      "title": "Maren Morris Gives Insight into Taylor Swift and Travis Kelce's Vows",
-      "url": "https://www.tmz.com/2026/08/01/maren-morris-talks-taylor-swift-travis-kelce-wedding-vows",
-      "source": "TMZ.com",
-      "published_utc": "2026-08-01T20:14:05.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Don’t Miss A Single MLB Trade This Deadline",
-      "url": "https://www.mlbtraderumors.com/2026/08/dont-miss-a-single-mlb-trade-this-deadline.html",
-      "source": "MLB Trade Rumors",
-      "published_utc": "2026-08-01T20:13:26.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
     }
   ],
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 828,
-    "dedup_pass1": 812,
+    "collected": 890,
+    "dedup_pass1": 872,
     "dedup_final": 320,
     "slow_domains": [
-      "feeds.bbci.co.uk"
+      "www.gorillavsbear.net",
+      "www.peelpolice.ca"
     ],
     "timeouts": [
       "news.communitech.ca",
@@ -1040,56 +1031,56 @@
     "feed_times_sample": [
       {
         "host": "toronto.citynews.ca",
-        "sec": 2.199,
+        "sec": 2.384,
         "kept": 8
       },
       {
         "host": "www.labourstart.org",
-        "sec": 1.501,
+        "sec": 1.228,
+        "kept": 0
+      },
+      {
+        "host": "globalnews.ca",
+        "sec": 0.498,
+        "kept": 10
+      },
+      {
+        "host": "www.bls.gov",
+        "sec": 0.31,
+        "kept": 0
+      },
+      {
+        "host": "www.cp24.com",
+        "sec": 0.28,
+        "kept": 14
+      },
+      {
+        "host": "www.mlbtraderumors.com",
+        "sec": 0.27,
+        "kept": 14
+      },
+      {
+        "host": "www.blogto.com",
+        "sec": 0.235,
         "kept": 0
       },
       {
         "host": "www.mlb.com",
-        "sec": 0.721,
-        "kept": 14
-      },
-      {
-        "host": "www.cp24.com",
-        "sec": 0.659,
-        "kept": 14
-      },
-      {
-        "host": "globalnews.ca",
-        "sec": 0.453,
-        "kept": 10
-      },
-      {
-        "host": "www.blogto.com",
-        "sec": 0.392,
-        "kept": 0
-      },
-      {
-        "host": "www.mlbtraderumors.com",
-        "sec": 0.382,
+        "sec": 0.207,
         "kept": 14
       },
       {
         "host": "www.nhl.com",
-        "sec": 0.195,
-        "kept": 0
-      },
-      {
-        "host": "www.bls.gov",
-        "sec": 0.173,
+        "sec": 0.201,
         "kept": 0
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.138,
+        "sec": 0.104,
         "kept": 14
       }
     ],
-    "elapsed_sec": 341.08,
+    "elapsed_sec": 312.1,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1115,7 +1106,7 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 25,
+      "ps_fatal_hits": 26,
       "ps_injury_hits": 1,
       "market_btc_hits": 1,
       "market_index_hits": 0,
@@ -1129,9 +1120,9 @@
       "sports_player_hits": 1,
       "sports_result_win_hits": 27,
       "sports_result_loss_hits": 0,
-      "sports_evening_hits": 23,
+      "sports_evening_hits": 22,
       "sports_playoff_hits": 0,
-      "sports_focus_team_hits": 14,
+      "sports_focus_team_hits": 13,
       "sports_final_hits": 3,
       "sports_final_score_hits": 2,
       "hype_politics": 0,
@@ -1140,17 +1131,17 @@
       "hype_jobs": 0,
       "hype_sports": 0,
       "hype_ceasefire": 0,
-      "reject_hits": 3,
+      "reject_hits": 1,
       "obit_hits": 8,
-      "major_figure_hits": 5,
+      "major_figure_hits": 4,
       "business_am_hits": 0
     },
     "sanity_stats": {
       "link_verification_fail": 45,
-      "soft_404_drops": 70,
+      "soft_404_drops": 71,
       "max_age_drops": 0,
-      "min_age_drops": 0,
-      "market_sanity_drops": 4,
+      "min_age_drops": 1,
+      "market_sanity_drops": 3,
       "backfill_steps_used": 0
     },
     "require_exact_count": 69,
