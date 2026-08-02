@@ -50,33 +50,7 @@
               "team": {
                 "abbreviation": "DC"
               },
-              "score": 1
-            }
-          }
-        },
-        {
-          "gamePk": "761700",
-          "gameDate": "2026-08-01T23:30Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "SJ"
-              },
-              "score": 0
-            },
-            "home": {
-              "team": {
-                "abbreviation": "CIN"
-              },
-              "score": 0
+              "score": 2
             }
           }
         },
@@ -102,7 +76,7 @@
               "team": {
                 "abbreviation": "PHI"
               },
-              "score": 0
+              "score": 3
             }
           }
         },
@@ -154,7 +128,7 @@
               "team": {
                 "abbreviation": "VAN"
               },
-              "score": 0
+              "score": 1
             }
           }
         },
@@ -174,7 +148,7 @@
               "team": {
                 "abbreviation": "CLB"
               },
-              "score": 1
+              "score": 2
             },
             "home": {
               "team": {
@@ -206,7 +180,7 @@
               "team": {
                 "abbreviation": "CHI"
               },
-              "score": 1
+              "score": 2
             }
           }
         },
@@ -226,7 +200,7 @@
               "team": {
                 "abbreviation": "SD"
               },
-              "score": 0
+              "score": 1
             },
             "home": {
               "team": {
@@ -252,7 +226,7 @@
               "team": {
                 "abbreviation": "HOU"
               },
-              "score": 0
+              "score": 2
             },
             "home": {
               "team": {
@@ -278,13 +252,13 @@
               "team": {
                 "abbreviation": "RSL"
               },
-              "score": 0
+              "score": 1
             },
             "home": {
               "team": {
                 "abbreviation": "STL"
               },
-              "score": 0
+              "score": 1
             }
           }
         },
@@ -310,7 +284,33 @@
               "team": {
                 "abbreviation": "COL"
               },
-              "score": 0
+              "score": 1
+            }
+          }
+        },
+        {
+          "gamePk": "761700",
+          "gameDate": "2026-08-02T01:46Z",
+          "status": {
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "SJ"
+              },
+              "score": 2
+            },
+            "home": {
+              "team": {
+                "abbreviation": "CIN"
+              },
+              "score": 4
             }
           }
         },
@@ -356,13 +356,13 @@
               "team": {
                 "abbreviation": "SEA"
               },
-              "score": 0
+              "score": 1
             },
             "home": {
               "team": {
                 "abbreviation": "POR"
               },
-              "score": 0
+              "score": 2
             }
           }
         }
