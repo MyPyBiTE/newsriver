@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"UK weather forecast: What to expect in August after string of extreme heatwaves",
-      "display":"UK weather forecast: What to expect in August after string of extreme heatwaves",
-      "url":"https://www.independent.co.uk/news/uk/home-news/uk-weather-heatwave-thunderstorms-forecast-met-office-b3027642.html",
+      "text":"Jeremy Lin: Leonard makes Raptors a ‘dark horse’",
+      "display":"Jeremy Lin: Leonard makes Raptors a ‘dark horse’",
+      "url":"https://globalnews.ca/news/12009690/jeremy-lin-leonard-makes-raptors-a-dark-horse",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Is Sterling Point based on a book?",
+      "display":"Is Sterling Point based on a book?",
+      "url":"https://www.mirror.co.uk/tv/tv-news/sterling-point-based-book-37515128",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Hornsea missing boy live: Search as 13-year-old vanishes off Yorkshire coast",
-      "display":"Hornsea missing boy live: Search as 13-year-old vanishes off Yorkshire coast",
-      "url":"https://www.mirror.co.uk/news/uk-news/hornsea-missing-boy-yorkshire-search-37514389",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Perez Hilton rushed to hospital after police swarm his Miami home over distressing knife livestream pulled from TikTok",
-      "display":"Perez Hilton rushed to hospital after police swarm his Miami home over distressing knife livestream pulled from TikTok",
-      "url":"https://www.dailymail.com/tvshowbiz/article-16029433/Perez-Hilton-police-troubling-knife-livestream.html",
+      "text":"AMD plummets 8% in premarket trading despite beating expectations",
+      "display":"AMD plummets 8% in premarket trading despite beating expectations",
+      "url":"https://www.cnbc.com/2026/08/05/amd-stock-today-earnings-q2.html",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-08-05T07:32:28Z"
+  "generated_utc":"2026-08-05T10:14:44Z"
 }
