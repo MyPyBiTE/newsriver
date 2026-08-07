@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Blue Jays calling up outfield prospect Bateman",
-      "display":"Blue Jays calling up outfield prospect Bateman",
-      "url":"https://www.mlb.com/bluejays/news/brett-bateman-callup-to-blue-jays",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"Blue Jays Select Brett Bateman, Designate Rudy Martin Jr. For Assignment",
       "display":"Blue Jays Select Brett Bateman, Designate Rudy Martin Jr. For Assignment",
       "url":"https://www.mlbtraderumors.com/2026/08/blue-jays-select-brett-bateman-designate-rudy-martin-jr-for-assignment.html",
@@ -21,9 +11,19 @@
       }
     },
     {
-      "text":"N.S. Court of Appeal says province can’t deny people in tents enhanced income support",
-      "display":"N.S. Court of Appeal says province can’t deny people in tents enhanced income support",
-      "url":"https://globalnews.ca/news/12013362/ns-tents-accommodation",
+      "text":"Blue Jays calling up outfield prospect Bateman",
+      "display":"Blue Jays calling up outfield prospect Bateman",
+      "url":"https://www.mlb.com/bluejays/news/brett-bateman-callup-to-blue-jays",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Man, 78, arrested in Leslieville assault investigation",
+      "display":"Man, 78, arrested in Leslieville assault investigation",
+      "url":"https://toronto.citynews.ca/2026/08/07/man-78-arrested-in-leslieville-assault-investigation",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-08-07T20:04:32Z"
+  "generated_utc":"2026-08-07T20:55:45Z"
 }
