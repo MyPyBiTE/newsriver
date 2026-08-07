@@ -1,8 +1,18 @@
 {
   "items":[
     {
-      "text":"Lidster’s field goal rallies Argos past Stampeders 33-30",
-      "display":"Lidster’s field goal rallies Argos past Stampeders 33-30",
+      "text":"Arrighetti leaves 1st rehab start in Blue Jays' system with apparent injury",
+      "display":"Arrighetti leaves 1st rehab start in Blue Jays' system with apparent injury",
+      "url":"https://www.mlb.com/bluejays/news/spencer-arrighetti-exits-rehab-start-with-injury",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Lidster’s field goal rallies Argos past Stampeders",
+      "display":"Lidster’s field goal rallies Argos past Stampeders",
       "url":"https://globalnews.ca/news/12012617/lidsters-field-goal-rallies-argos-past-stampeders",
       "flags":{
         "is_breaking":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Is Billy Bishop expansion really dead? PM Carney’s comments muddy the waters",
-      "display":"Is Billy Bishop expansion really dead? PM Carney’s comments muddy the waters",
-      "url":"https://toronto.citynews.ca/2026/08/06/is-billy-bishop-expansion-really-dead-pm-carneys-comments-muddy-the-waters-on-contentious-issue",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"‘Disappointed’ Jake T. Austin Explains ‘Wizards of Waverly Place’ Spinoff Snub",
-      "display":"‘Disappointed’ Jake T. Austin Explains ‘Wizards of Waverly Place’ Spinoff Snub",
-      "url":"https://www.thewrap.com/creative-content/tv-shows/jake-t-austin-explains-wizards-of-waverly-place-spinoff-absence",
+      "text":"Driver fled scene after striking person with car in North York: police",
+      "display":"Driver fled scene after striking person with car in North York: police",
+      "url":"https://toronto.citynews.ca/2026/08/06/north-york-pedestrian-struck-2",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-08-07T03:36:59Z"
+  "generated_utc":"2026-08-07T05:21:31Z"
 }
