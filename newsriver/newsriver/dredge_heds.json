@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"‘Distress’ as pedestrians targeted with liquid from passing cars across Surrey",
-      "display":"‘Distress’ as pedestrians targeted with liquid from passing cars across Surrey",
-      "url":"https://www.mirror.co.uk/news/uk-news/surrey-liquid-thrown-cars-people-37527936",
+      "text":"Blue Jays' top prospect enjoys 5-hit doubleheader amidst red-hot stretch",
+      "display":"Blue Jays' top prospect enjoys 5-hit doubleheader amidst red-hot stretch",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-prospect-jojo-parker-hot-stretch-single-a",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Summerland under evacuation order due to fast-moving, aggressive wildfire",
+      "display":"Summerland under evacuation order due to fast-moving, aggressive wildfire",
+      "url":"https://globalnews.ca/news/12014029/bald-range-wildfire-summerland-evacuation-order",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Foo Fighters release Bandcamp live EP ‘Are Playing Where??? Vol. II’",
-      "display":"Foo Fighters release Bandcamp live EP ‘Are Playing Where??? Vol. II’",
-      "url":"https://www.nme.com/news/music/foo-fighters-release-bandcamp-live-ep-are-playing-where-vol-ii-3961462",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"‘The Simpsons’ actress Nancy Cartwright predicts when hit show will end",
-      "display":"‘The Simpsons’ actress Nancy Cartwright predicts when hit show will end",
-      "url":"https://pagesix.com/2026/08/08/entertainment/the-simpsons-actress-nancy-cartwright-predicts-when-hit-show-will-end",
+      "text":"Lindsey Buckingham teases new project with Stevie Nicks for 2027",
+      "display":"Lindsey Buckingham teases new project with Stevie Nicks for 2027",
+      "url":"https://www.nme.com/news/music/lindsey-buckingham-teases-new-project-with-stevie-nicks-for-2027-3961468",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-08-08T09:07:47Z"
+  "generated_utc":"2026-08-08T09:51:34Z"
 }
