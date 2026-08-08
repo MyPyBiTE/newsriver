@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Blue Jays' top prospect enjoys 5-hit doubleheader amidst red-hot stretch",
-      "display":"Blue Jays' top prospect enjoys 5-hit doubleheader amidst red-hot stretch",
-      "url":"https://www.mlb.com/bluejays/news/blue-jays-prospect-jojo-parker-hot-stretch-single-a",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"Why some B.C. farmers stay to fight, despite wildfire evacuation orders",
       "display":"Why some B.C. farmers stay to fight, despite wildfire evacuation orders",
       "url":"https://globalnews.ca/news/12014179/wildfires-bc-agriculture",
@@ -29,7 +19,17 @@
         "is_landmark":false,
         "has_bitcoin":false
       }
+    },
+    {
+      "text":"Does Guthrie Family Have Grounds to Sue Pima County Over Alleged Investigation Missteps?",
+      "display":"Does Guthrie Family Have Grounds to Sue Pima County Over Alleged Investigation Missteps?",
+      "url":"https://www.hollywoodreporter.com/tv/tv-features/nancy-guthrie-kidnapping-can-savannah-sue-pima-county-1236664152",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
     }
   ],
-  "generated_utc":"2026-08-08T14:04:07Z"
+  "generated_utc":"2026-08-08T14:47:19Z"
 }
