@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Blue Jays’ Yimi Garcia Diagnosed With Thoracic Outlet Syndrome",
-      "display":"Blue Jays’ Yimi Garcia Diagnosed With Thoracic Outlet Syndrome",
-      "url":"https://www.mlbtraderumors.com/2026/08/blue-jays-yimi-garcia-getting-checked-for-thoracic-outlet-syndrome.html",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"Suspect returned to Canada and charged in connection with 2025 death of Toronto woman",
       "display":"Suspect returned to Canada and charged in connection with 2025 death of Toronto woman",
       "url":"https://toronto.citynews.ca/2026/08/08/suspect-returned-to-canada-and-charged-in-connection-with-2025-death-of-toronto-woman",
@@ -29,7 +19,17 @@
         "is_landmark":false,
         "has_bitcoin":false
       }
+    },
+    {
+      "text":"Hecklers hurl insults at MAGA candidate at campaign event: 'You cheated on your wife!'",
+      "display":"Hecklers hurl insults at MAGA candidate at campaign event: 'You cheated on your wife!'",
+      "url":"https://www.rawstory.com/ken-paxton-senate-2677676051",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
     }
   ],
-  "generated_utc":"2026-08-08T18:01:47Z"
+  "generated_utc":"2026-08-08T18:55:12Z"
 }
