@@ -1,8 +1,119 @@
 {
-  "generated_utc": "2026-08-08T06:14:53.297Z",
-  "itemset_hash": "80aaf053557fa1e8",
+  "generated_utc": "2026-08-08T07:17:03.194Z",
+  "itemset_hash": "2768922a8b05ee4c",
   "count": 69,
   "items": [
+    {
+      "title": "International Cat Day Gift Guide",
+      "url": "https://www.tmz.com/2026/08/08/pet-cat-necessities",
+      "source": "TMZ.com",
+      "published_utc": "2026-08-08T07:05:17.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Kyle Richards Stuns In Body-Hugging Leather Look",
+      "url": "https://www.tmz.com/2026/08/08/kyle-richards-leather-dress",
+      "source": "TMZ.com",
+      "published_utc": "2026-08-08T07:01:15.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "40 Acres and a Lie Part 1",
+      "url": "https://www.motherjones.com/politics/2026/08/40-acres-and-a-lie-part-1-update",
+      "source": "Mother Jones",
+      "published_utc": "2026-08-08T07:01:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "'Menace II Society' Star Samuel Monroe Jr. May End Up In Vegetative State, Tough Choice Looms",
+      "url": "https://www.tmz.com/2026/08/08/samuel-monroe-jr-may-never-recover-from-brain-condition",
+      "source": "TMZ.com",
+      "published_utc": "2026-08-08T07:00:46.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Open Thread",
+      "url": "https://reason.com/volokh/2026/08/08/open-thread-290",
+      "source": "Reason.com",
+      "published_utc": "2026-08-08T07:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Domestic stablecoins could boost demand for dollar-backed tokens: IMF",
+      "url": "https://cointelegraph.com/news/imf-domestic-stablecoins-dollar-token-demand",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2026-08-08T06:21:08.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "No, Brian Eno Is Not Behind the Film Soundtrack for ‘At Night.’ Experimental Musician Elvin Brandhi Is.",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/at-night-film-soundrack-elvin-brandhi-not-brian-eno-locarno-1236666314",
+      "source": "The Hollywood Reporter",
+      "published_utc": "2026-08-08T06:19:52.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Child among three killed in Russian missile attacks near Kyiv",
+      "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2026-08-08T06:12:56.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6",
+          "body_count≥3"
+        ],
+        "style": "breaker"
+      },
+      "category": "General",
+      "region": "World"
+    },
     {
       "title": "NBA star Brandon Clarke died from heroin, cocaine effects, examiner rules",
       "url": "https://www.aljazeera.com/sports/2026/8/8/nba-star-brandon-clarke-died-from-heroin-cocaine-effects-examiner-rules?traffic_source=rss",
@@ -133,23 +244,6 @@
       "region": "Canada"
     },
     {
-      "title": "Child among three killed in Russian missile attacks near Kyiv",
-      "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_campaign=rss&at_medium=RSS",
-      "source": "BBC News",
-      "published_utc": "2026-08-08T05:15:51.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6",
-          "body_count≥3"
-        ],
-        "style": "breaker"
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Taylor Swift Song ‘August’ Removed From Trump TikTok Video",
       "url": "https://variety.com/2026/music/news/taylor-swift-song-august-removed-trump-tiktok-video-1236830512",
       "source": "Variety",
@@ -263,7 +357,7 @@
       "region": "World"
     },
     {
-      "title": "Urgent evacuation order issued for fast-moving wildfire near Summerland",
+      "title": "Fast-moving wildfire near Summerland forces urgent evacuation orders, alerts",
       "url": "https://globalnews.ca/news/12014029/bald-range-wildfire-summerland-evacuation-order",
       "source": "globalnews.ca",
       "published_utc": "2026-08-08T04:33:00.000Z",
@@ -370,6 +464,19 @@
         "reasons": []
       },
       "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "APOD: 2026 August 8 – A Messier Moment for Tempel 2",
+      "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-8-a-messier-moment-for-tempel-2",
+      "source": "NASA",
+      "published_utc": "2026-08-08T04:05:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Labour",
       "region": "World"
     },
     {
@@ -576,11 +683,8 @@
       "published_utc": "2026-08-08T03:04:55.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Sports",
       "region": "Canada"
@@ -592,11 +696,8 @@
       "published_utc": "2026-08-08T03:01:52.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Sports",
       "region": "Canada"
@@ -679,11 +780,8 @@
       "published_utc": "2026-08-08T02:41:35.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Sports",
       "region": "Canada"
@@ -734,11 +832,8 @@
       "published_utc": "2026-08-08T02:29:45.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Sports",
       "region": "Canada"
@@ -750,11 +845,8 @@
       "published_utc": "2026-08-08T02:23:56.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Sports",
       "region": "Canada"
@@ -868,128 +960,19 @@
       },
       "category": "Sports",
       "region": "Canada"
-    },
-    {
-      "title": "Trump DOJ rankled by far-right Republican's bogus claims against MAGA rival",
-      "url": "https://www.rawstory.com/james-fishback-doj",
-      "source": "Raw Story",
-      "published_utc": "2026-08-08T02:00:01.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Robert Carradine’s Family Sues UCLA Hospital Leadership for Wrongful Death and Elder Abuse",
-      "url": "https://www.thewrap.com/industry-news/public-policy-legal/robert-carradine-family-sues-ucla-hospital-leadership-wrongful-death-elder-abuse",
-      "source": "TheWrap",
-      "published_utc": "2026-08-08T01:57:03.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Jason Clarke Joins Action-Thriller ‘Supermax’ From Amazon MGM & Miramax",
-      "url": "https://deadline.com/2026/08/supermax-movie-jason-clarke-amazon-mgm-miramax-1237029162",
-      "source": "Deadline",
-      "published_utc": "2026-08-08T01:54:43.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Tarik Skubal to make home debut for Dodgers against Royals",
-      "url": "https://nypost.com/2026/08/07/sports/tarik-skubal-to-make-home-debut-for-dodgers-against-royals",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2026-08-08T01:54:35.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "Brandi Carlile Postpones UK, European Tour Dates Due To “Personal Circumstances”",
-      "url": "https://deadline.com/2026/08/brandi-carlile-postpones-uk-european-tour-dates-1237029159",
-      "source": "Deadline",
-      "published_utc": "2026-08-08T01:48:29.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Citing Thomas Jefferson, Conservative Abelardo de la Espriella Becomes President of Colombia",
-      "url": "https://www.breitbart.com/latin-america/2026/08/07/conservative-abelardo-de-la-espriella-inaugurated-president-colombia",
-      "source": "Breitbart News",
-      "published_utc": "2026-08-08T01:47:24.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "'Trump will flip out': Potential probe flagged that threatens to 'destabilize' White House",
-      "url": "https://www.rawstory.com/barron-trump-andrew-tate",
-      "source": "Raw Story",
-      "published_utc": "2026-08-08T01:45:01.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Behind the Scenes of Obama’s Acting Cameo in ‘Life, Larry’: Blaming Larry David for His Tan Suit Debacle, Improvising Lines and Ranting About Ketchup",
-      "url": "https://variety.com/2026/tv/news/obama-larry-david-show-tan-suit-1236829485",
-      "source": "Variety",
-      "published_utc": "2026-08-08T01:35:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
     }
   ],
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 859,
-    "dedup_pass1": 847,
+    "collected": 869,
+    "dedup_pass1": 857,
     "dedup_final": 320,
-    "slow_domains": [
-      "theintercept.com",
-      "www.gorillavsbear.net"
-    ],
+    "slow_domains": [],
     "timeouts": [
       "news.communitech.ca",
-      "www.cbc.ca"
+      "www.cbc.ca",
+      "www.gorillavsbear.net"
     ],
     "errors": [
       "alert.weather.gc.ca",
@@ -1010,56 +993,56 @@
     "feed_times_sample": [
       {
         "host": "toronto.citynews.ca",
-        "sec": 1.842,
+        "sec": 1.752,
         "kept": 8
       },
       {
         "host": "www.labourstart.org",
-        "sec": 1.291,
+        "sec": 1.545,
         "kept": 0
       },
       {
-        "host": "www.mlb.com",
-        "sec": 0.57,
-        "kept": 14
-      },
-      {
         "host": "www.cp24.com",
-        "sec": 0.43,
+        "sec": 0.827,
         "kept": 14
       },
       {
         "host": "globalnews.ca",
-        "sec": 0.41,
+        "sec": 0.446,
         "kept": 10
       },
       {
-        "host": "www.blogto.com",
-        "sec": 0.296,
-        "kept": 0
-      },
-      {
         "host": "www.mlbtraderumors.com",
-        "sec": 0.294,
+        "sec": 0.357,
         "kept": 14
       },
       {
-        "host": "www.bls.gov",
-        "sec": 0.252,
+        "host": "www.blogto.com",
+        "sec": 0.338,
         "kept": 0
       },
       {
-        "host": "www.nhl.com",
-        "sec": 0.197,
+        "host": "www.bls.gov",
+        "sec": 0.164,
         "kept": 0
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.144,
+        "sec": 0.156,
         "kept": 14
+      },
+      {
+        "host": "www.mlb.com",
+        "sec": 0.134,
+        "kept": 14
+      },
+      {
+        "host": "www.nhl.com",
+        "sec": 0.111,
+        "kept": 0
       }
     ],
-    "elapsed_sec": 322.05,
+    "elapsed_sec": 338.78,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1085,7 +1068,7 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 25,
+      "ps_fatal_hits": 24,
       "ps_injury_hits": 0,
       "market_btc_hits": 0,
       "market_index_hits": 0,
@@ -1101,7 +1084,7 @@
       "sports_result_loss_hits": 2,
       "sports_evening_hits": 0,
       "sports_playoff_hits": 0,
-      "sports_focus_team_hits": 15,
+      "sports_focus_team_hits": 16,
       "sports_final_hits": 2,
       "sports_final_score_hits": 2,
       "hype_politics": 0,
@@ -1116,8 +1099,8 @@
       "business_am_hits": 0
     },
     "sanity_stats": {
-      "link_verification_fail": 48,
-      "soft_404_drops": 28,
+      "link_verification_fail": 47,
+      "soft_404_drops": 27,
       "max_age_drops": 0,
       "min_age_drops": 0,
       "market_sanity_drops": 0,
