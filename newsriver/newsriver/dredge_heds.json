@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Blue Jays' red-hot top prospect Parker promoted to High-A",
-      "display":"Blue Jays' red-hot top prospect Parker promoted to High-A",
-      "url":"https://www.mlb.com/bluejays/news/jojo-parker-promoted-to-high-a-vancouver",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"‘Explosive’ Summerland wildfire creating conditions ‘never seen before’",
       "display":"‘Explosive’ Summerland wildfire creating conditions ‘never seen before’",
       "url":"https://globalnews.ca/news/12014564/explosive-summerland-wildfire-conditions-never-seen-before",
@@ -29,7 +19,17 @@
         "is_landmark":false,
         "has_bitcoin":false
       }
+    },
+    {
+      "text":"‘Very painful’: Joe Biden’s cancer has spread, son Hunter says",
+      "display":"‘Very painful’: Joe Biden’s cancer has spread, son Hunter says",
+      "url":"https://www.aljazeera.com/video/newsfeed/2026/8/9/08-09-clip-biden-cancer-us?traffic_source=rss",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
     }
   ],
-  "generated_utc":"2026-08-09T04:18:12Z"
+  "generated_utc":"2026-08-09T05:28:17Z"
 }
