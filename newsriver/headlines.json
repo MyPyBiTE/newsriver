@@ -1,13 +1,120 @@
 {
-  "generated_utc": "2026-08-11T05:11:42.559Z",
-  "itemset_hash": "2674f676dd9f26b3",
+  "generated_utc": "2026-08-11T06:07:25.354Z",
+  "itemset_hash": "5bc6817019049e3f",
   "count": 69,
   "items": [
     {
-      "title": "Trump ignores medical advice to make 'dangerous' changes to childhood vaccines",
-      "url": "https://www.mirror.co.uk/news/us-news/trump-vaccine-executive-order-dangerous-37536309",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-08-11T05:05:08.000Z",
+      "title": "European Broadcast Giant RTL Group Bets on Streaming to Fuel Growth",
+      "url": "https://www.hollywoodreporter.com/business/business-news/fremantle-parent-rtl-group-bets-on-streaming-to-fuel-growth-1236670765",
+      "source": "The Hollywood Reporter",
+      "published_utc": "2026-08-11T06:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Trump pivots back to sanctions for Iran as other strategies to end his war fizzle",
+      "url": "https://www.npr.org/2026/08/11/g-s1-138160/us-iran-war",
+      "source": "NPR Topics: Home Page Top Stories",
+      "published_utc": "2026-08-11T05:48:27.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2026-08-11T05:39:31.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Colombia quake leaves more than 110 dead – as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news",
+      "source": "World news | The Guardian",
+      "published_utc": "2026-08-11T05:32:08.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6",
+          "body_count≥3"
+        ],
+        "style": "breaker"
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Bitcoin’s BIP-110 fork is 300 blocks behind BTC and six years from fixing itself",
+      "url": "https://www.coindesk.com/tech/2026/08/11/bitcoin-s-bip-110-fork-is-300-blocks-behind-btc-and-six-years-from-fixing-itself",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2026-08-11T05:26:37.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Watch prospects play at Triple-A for FREE on Saturday",
+      "url": "https://www.mlb.com/bluejays/news/watch-minor-league-baseball-games-for-free-2026",
+      "source": "Blue Jays News",
+      "published_utc": "2026-08-11T05:25:00.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "‘Sunset P.I.’ Bosses Dan Goor & Luke Del Tredici On Finding Inspiration From ‘Moonlighting’ & ‘The Pitt’",
+      "url": "https://deadline.com/2026/08/sunset-p-i-inspired-by-moonlighting-the-pitt-1237030533",
+      "source": "Deadline",
+      "published_utc": "2026-08-11T05:15:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Culture",
+      "region": "Canada"
+    },
+    {
+      "title": "Somali referee arrives for UEFA Super Cup after World Cup exclusion",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/aje-onl-nf_somali-referee-arrives-for-uefa-super-cup-110826?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-08-11T05:12:05.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -33,10 +140,10 @@
       "region": "Canada"
     },
     {
-      "title": "Hormuz Deadlock: Where oil prices could head next as prospects for an imminent deal fade",
-      "url": "https://www.cnbc.com/2026/08/11/hormuz-oil-prices-us-iran.html",
-      "source": "US Top News and Analysis",
-      "published_utc": "2026-08-11T05:01:40.000Z",
+      "title": "Family watches helplessly as Colombia quake destroys home",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/family-watches-helplessly-as-colombia-quake-destroys-home?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-08-11T05:02:58.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -59,234 +166,10 @@
       "region": "World"
     },
     {
-      "title": "Iran-US war latest: Trump claims total control of Hormuz as he demands Iran pay for US soldiers’ deaths",
-      "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-hormuz-nuclear-deal-oil-news-b3030821.html",
-      "source": "The Independent News",
-      "published_utc": "2026-08-11T05:00:22.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "LG Promo Codes and Coupons for August 2026",
-      "url": "https://www.wired.com/story/lg-promo-code",
-      "source": "WIRED",
-      "published_utc": "2026-08-11T05:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Mattress Firm Coupons: Save up to $700 |",
-      "url": "https://www.wired.com/story/mattress-firm-coupon",
-      "source": "WIRED",
-      "published_utc": "2026-08-11T05:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Andoni Iraola's damning Liverpool claim, being doubted by players, club's telling response",
-      "url": "https://www.mirror.co.uk/sport/football/news/andoni-iraola-liverpool-players-bournemouth-37533339",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-08-11T05:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Home Depot Promo Codes: 30% Off in August 2026",
-      "url": "https://www.wired.com/story/home-depot-promo-code",
-      "source": "WIRED",
-      "published_utc": "2026-08-11T05:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Peacock Promo Codes: 40% Off August 2026",
-      "url": "https://www.wired.com/story/peacock-promo-code",
-      "source": "WIRED",
-      "published_utc": "2026-08-11T05:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "The ‘unsanitary and inconsiderate’ supermarket habit that’s dividing shoppers",
-      "url": "https://metro.co.uk/2026/08/11/unsanitary-inconsiderate-supermarket-habit-dividing-shoppers-29340663",
-      "source": "Metro",
-      "published_utc": "2026-08-11T05:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Valvoline Coupons and Promo Codes for August 2026",
-      "url": "https://www.wired.com/story/valvoline-coupons",
-      "source": "WIRED",
-      "published_utc": "2026-08-11T05:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Dell Coupon Codes: 20% Off for August 2026",
-      "url": "https://www.wired.com/story/dell-coupon-code",
-      "source": "WIRED",
-      "published_utc": "2026-08-11T05:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "I went to Disneyland with a disability — here’s what I think of ‘priority cards’",
-      "url": "https://metro.co.uk/2026/08/11/went-disneyland-a-disability-think-priority-cards-29305996",
-      "source": "Metro",
-      "published_utc": "2026-08-11T05:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Chewy Promo Codes: $20 Off August 2026",
-      "url": "https://www.wired.com/story/chewy-promo-code",
-      "source": "WIRED",
-      "published_utc": "2026-08-11T05:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Meta Quest Promo Codes and Coupons for August 2026",
-      "url": "https://www.wired.com/story/meta-quest-promo-code",
-      "source": "WIRED",
-      "published_utc": "2026-08-11T05:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Ukraine-Russia war latest: Zelensky mocks Putin’s reliance on North Korea after deadly strike deep inside Russia",
-      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-drone-strikes-north-korea-b3030149.html",
-      "source": "The Independent News",
-      "published_utc": "2026-08-11T04:57:22.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "breaker"
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Sealy Promo Codes: $100 Off",
-      "url": "https://www.wired.com/story/sealy-promo-code",
-      "source": "WIRED",
-      "published_utc": "2026-08-11T05:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "L.L.Bean Promo Codes and Coupons: 75% Off",
-      "url": "https://www.wired.com/story/ll-bean-promo-code",
-      "source": "WIRED",
-      "published_utc": "2026-08-11T05:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Officer who witnessed PC Harper's final moments 'will never get over the guilt'",
-      "url": "https://www.mirror.co.uk/news/uk-news/pc-harper-death-officer-guilt-37536307",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-08-11T04:54:33.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Booking.com Promo Codes: 20% Off | August 2026",
-      "url": "https://www.wired.com/story/booking-com-promo-code",
-      "source": "WIRED",
-      "published_utc": "2026-08-11T05:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "30% Off Canon Promo Codes | August 2026",
-      "url": "https://www.wired.com/story/canon-promo-code",
-      "source": "WIRED",
-      "published_utc": "2026-08-11T05:00:00.000Z",
+      "title": "Trump’s media company reports $238m loss",
+      "url": "https://www.aljazeera.com/news/2026/8/11/trumps-media-company-reports-238m-loss?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-08-11T04:52:07.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -302,65 +185,10 @@
       "published_utc": "2026-08-11T04:50:23.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Business",
-      "region": "World"
-    },
-    {
-      "title": "Best Buy Discount Codes: Up to 60% Off",
-      "url": "https://www.wired.com/story/best-buy-discount-code",
-      "source": "WIRED",
-      "published_utc": "2026-08-11T05:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Petlibro Offers: 30% Off in August 2026",
-      "url": "https://www.wired.com/story/petlibro-discount-code",
-      "source": "WIRED",
-      "published_utc": "2026-08-11T05:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Trump secretly switched planes to leave Turkey due to Iran assassination threat",
-      "url": "https://www.independent.co.uk/news/world/americas/trump-air-force-one-secret-flight-turkey-nato-summit-b3030811.html",
-      "source": "The Independent News",
-      "published_utc": "2026-08-11T04:48:38.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Donald Trump 'forced to hide in catering cart' after assassination threat",
-      "url": "https://www.mirror.co.uk/news/us-news/donald-trump-hide-assassination-attempt-37536306",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-08-11T04:48:28.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
       "region": "World"
     },
     {
@@ -457,19 +285,6 @@
       "region": "Canada"
     },
     {
-      "title": "Trump 'smuggled off Air Force One in a CATERING CART as part of elaborate ruse to switch planes and foil potential Iranian assassination threat'",
-      "url": "https://www.dailymail.com/news/article-16043281/Trump-catering-cart-Air-Force-One-Iran.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-08-11T04:36:29.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "China’s Long March 7A rocket explodes after lift-off",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/08-11-2026-china-rocket-explodes-clip?traffic_source=rss",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
@@ -512,32 +327,6 @@
       "region": "Canada"
     },
     {
-      "title": "Forgotten ex-Man Utd star reveals Bruno Fernandes gesture that shows his true colours",
-      "url": "https://www.mirror.co.uk/sport/football/news/man-utd-bruno-fernandes-gesture-37535036",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-08-11T04:30:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "An honest review of the five-star Dublin hotel with the city’s best spa",
-      "url": "https://metro.co.uk/2026/08/11/honest-review-five-star-dublin-hotel-citys-best-spa-29315918",
-      "source": "Metro",
-      "published_utc": "2026-08-11T04:30:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Téa Leoni & Tim Daly Say “We Don’t Need An Intimacy Coordinator” On ‘Newlyweds’; Jamie Lee Curtis Shares Her NSFW Title On NBC Comedy",
       "url": "https://deadline.com/2026/08/tea-leoni-tim-daly-newlyweds-couple-jamie-lee-curtis-boss-1237030834",
       "source": "Deadline",
@@ -552,23 +341,6 @@
       },
       "category": "Culture",
       "region": "Canada"
-    },
-    {
-      "title": "Colombia earthquake live updates: rescuers race to free people from building rubble after more than 110 killed",
-      "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news",
-      "source": "World news | The Guardian",
-      "published_utc": "2026-08-11T04:19:05.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6",
-          "body_count≥3"
-        ],
-        "style": "breaker"
-      },
-      "category": "Labour",
-      "region": "World"
     },
     {
       "title": "Bryse Wilson Elects Free Agency",
@@ -595,22 +367,6 @@
         "lightsaber": false,
         "glitch": false,
         "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Colombia earthquake LIVE: 132 confirmed dead with 570 injured in devastating 7.4 magnitude quake",
-      "url": "https://www.mirror.co.uk/news/world-news/colombia-earthquake-bogota-san-jose-37534402",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-08-11T04:14:14.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "breaker"
       },
       "category": "General",
       "region": "World"
@@ -666,22 +422,9 @@
           "score≥2.6",
           "body_count≥3"
         ],
-        "style": "lightsaber"
+        "style": "breaker"
       },
       "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "APOD: 2026 August 11 – Six Moons of Saturn",
-      "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-11-six-moons-of-saturn",
-      "source": "NASA",
-      "published_utc": "2026-08-11T04:05:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
       "region": "World"
     },
     {
@@ -698,82 +441,14 @@
       "region": "World"
     },
     {
-      "title": "When will next solar eclipse happen in the UK after August 12 - exact year emerges",
-      "url": "https://www.mirror.co.uk/news/uk-news/when-will-next-eclipse-happen-37535529",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-08-11T04:01:10.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Bountiful Roebuck Bay",
-      "url": "https://science.nasa.gov/earth/earth-observatory/bountiful-roebuck-bay",
-      "source": "NASA",
-      "published_utc": "2026-08-11T04:01:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Youth",
-      "region": "World"
-    },
-    {
-      "title": "Daily Horoscope: August 11, 2026",
-      "url": "https://www.vice.com/en/article/daily-horoscope-august-11-2026",
-      "source": "English - VICE",
-      "published_utc": "2026-08-11T04:01:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Liverpool news: Bradley Barcola 'gives transfer green light' and star joins up with squad",
-      "url": "https://www.mirror.co.uk/sport/football/news/liverpool-transfers-bradley-barcola-alexis-37535218",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-08-11T04:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Louise Redknapp, 51, 'SPLITS from boyfriend Drew Michael, 42, after two years together' - a year after revealing marriage plans",
-      "url": "https://www.dailymail.com/tvshowbiz/article-16042893/Louise-Redknapp-51-SPLITS-boyfriend-Drew-Michael-42-two-years-year-revealing-marriage-plans.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-08-11T03:55:36.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Reggie Bannister, Star of the Horror Film Series ‘Phantasm,’ Dies at 80",
       "url": "https://www.thewrap.com/creative-content/movies/reggie-bannister-dies-phantasm-star",
       "source": "TheWrap",
       "published_utc": "2026-08-11T03:55:17.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "General",
       "region": "World"
@@ -799,19 +474,6 @@
       "url": "https://www.breitbart.com/politics/2026/08/10/sarah-mcbride-admits-transgender-activists-strategy-failed-public-support-falls",
       "source": "Breitbart News",
       "published_utc": "2026-08-11T03:52:09.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Was Bruce Willis at daughter Tallulah's wedding? Action star, 71, appears absent in photos amid dementia fight",
-      "url": "https://www.dailymail.com/tvshowbiz/article-16042891/bruce-willis-tallulah-wedding-absent-idaho.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-08-11T03:49:18.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -848,19 +510,6 @@
       },
       "category": "Sports",
       "region": "Canada"
-    },
-    {
-      "title": "Secret texts from Dr Fauci's Covid-era phone released revealing his private concern over vaccine miscarriage risk despite public reassurance",
-      "url": "https://www.dailymail.com/news/article-16042563/New-secret-texts-Dr-Faucis-COVID-era-phone-RELEASED-including-shock-pregnant-women-admission.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-08-11T03:40:58.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
     },
     {
       "title": "Jennifer Balkcom Wins GOP Nomination to Replace Chuck Edwards in North Carolina House Race",
@@ -921,19 +570,6 @@
       "region": "Canada"
     },
     {
-      "title": "Brad Pitt reveals he is no longer sober after seven years on the wagon and 10 years after alleged drunken plane attack",
-      "url": "https://www.dailymail.com/tvshowbiz/article-16041661/brad-pitt-sober-plane-attack.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-08-11T03:38:31.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "49ers rookie wide receiver’s hands become biggest topic at training camp",
       "url": "https://nypost.com/2026/08/10/sports/49ers-rookie-wide-receivers-hands-impressing-throughout-camp",
       "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
@@ -961,16 +597,420 @@
       },
       "category": "General",
       "region": "World"
+    },
+    {
+      "title": "Reggie Bannister Dies: ‘Phantasm’ Actor Was 80",
+      "url": "https://deadline.com/2026/08/reggie-bannister-dead-phantasm-actor-1237030827",
+      "source": "Deadline",
+      "published_utc": "2026-08-11T03:32:53.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "'Crazy': Critics roast Karoline Leavitt's 'incredible' claim about Trump's economy",
+      "url": "https://www.rawstory.com/karoline-leavitt-2677684436",
+      "source": "Raw Story",
+      "published_utc": "2026-08-11T03:31:53.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Rep. Lauren Boebert’s Son Tyler’s Ex Showed Cops Video He Filmed of Her Leading to Arrest",
+      "url": "https://www.tmz.com/2026/08/10/lauren-boebert-son-tyler-arrest-details",
+      "source": "TMZ.com",
+      "published_utc": "2026-08-11T03:28:13.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Trump Media to revamp crypto treasury strategy after $238M Q2 loss",
+      "url": "https://cointelegraph.com/news/trump-media-crypto-treasury-strategy-after-238m-loss",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2026-08-11T03:21:27.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "Red Sox lose third straight game, fall to Blue Jays win 2-1",
+      "url": "https://www.boston.com/sports/boston-red-sox/2026/08/10/red-sox-lose-third-straight-game-fall-to-blue-jays-win-2-1",
+      "source": "Boston Red Sox: News, commentary, scores, schedule, and stats",
+      "published_utc": "2026-08-11T03:18:54.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Judge Blocks Mamdani’s Pied-a-Terre Tax Rollout After NYC Homeowners Sue",
+      "url": "https://www.breitbart.com/politics/2026/08/10/judge-blocks-mamdani-piedaterre-tax-rollout-nyc-homeowners-sue",
+      "source": "Breitbart News",
+      "published_utc": "2026-08-11T03:13:52.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "'Incredibly disturbing' Trump images shock analyst as golf outing sparks health concerns",
+      "url": "https://www.rawstory.com/trump-health-2677684415",
+      "source": "Raw Story",
+      "published_utc": "2026-08-11T03:13:09.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Candidates in Ontario Liberal leadership debate value of having a seat",
+      "url": "https://toronto.citynews.ca/2026/08/10/candidates-in-ontario-liberal-leadership-debate-value-of-having-a-seat",
+      "source": "CityNews Toronto",
+      "published_utc": "2026-08-11T03:11:58.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Local",
+      "region": "Canada"
+    },
+    {
+      "title": "Taron Egerton Admits He Didn’t Read the Reviews for Netflix Thriller ‘Apex’: ‘First Time in My Entire Career’",
+      "url": "https://www.thewrap.com/creative-content/movies/taron-egerton-didnt-read-apex-reviews",
+      "source": "TheWrap",
+      "published_utc": "2026-08-11T03:08:26.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Latest Blue Jays injuries & transactions",
+      "url": "https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "source": "Blue Jays News",
+      "published_utc": "2026-08-11T03:05:00.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Abdul El-Sayed Argued 'Toxic Masculinity' Governs American Football",
+      "url": "https://www.breitbart.com/sports/2026/08/10/abdul-el-sayed-argued-toxic-masculinity-governs-american-football",
+      "source": "Breitbart News",
+      "published_utc": "2026-08-11T03:03:58.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Brian Burns now the undoubted face of Giants defense — with new challenge looming",
+      "url": "https://nypost.com/2026/08/10/sports/brian-burns-now-the-undoubted-face-of-giants-defense",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-08-11T03:03:10.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Jalen Brunson gets candid with The Post about recovering from wrist injury he refused to let derail Knicks",
+      "url": "https://nypost.com/2026/08/10/sports/knicks-jalen-brunson-gets-candid-about-recovering-from-wrist-injury",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-08-11T03:01:01.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Toronto man who is accused of sexually assaulting victim at gunpoint is arrested",
+      "url": "https://toronto.citynews.ca/2026/08/10/toronto-man-who-is-accused-of-sexually-assaulting-victim-at-gunpoint-is-arrested",
+      "source": "CityNews Toronto",
+      "published_utc": "2026-08-11T02:59:06.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Local",
+      "region": "Canada"
+    },
+    {
+      "title": "Dodgers overcome Tarik Skubal’s forgettable home debut with comeback win",
+      "url": "https://nypost.com/2026/08/10/sports/tarik-skubal-makes-eagerily-anticipated-dodger-stadium-debut",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-08-11T03:00:40.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Andrew Beck’s under-the-radar Jets impact could be invaluable",
+      "url": "https://nypost.com/2026/08/10/sports/andrew-becks-under-the-radar-jets-impact-could-be-invaluable",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-08-11T02:58:54.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Beyoncé Dragged to Court Over Alleged Unauthorized Sample",
+      "url": "https://www.tmz.com/2026/08/10/beyonce-sued-over-music-sample",
+      "source": "TMZ.com",
+      "published_utc": "2026-08-11T02:56:09.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Ella Langley Has Four of the Five iTunes Top 5, and Eight Singles in the Top 100, Her Biggest Hit “Choosin’ Texas” Sounds a Lot Like a 70s Classic",
+      "url": "https://www.showbiz411.com/2026/08/10/ella-langley-has-four-of-the-five-itunes-top-5-and-eight-singles-in-the-top-100-her-biggest-hit-choosin-texas-sounds-a-lot-like-a-70s-classic",
+      "source": "Showbiz411",
+      "published_utc": "2026-08-11T02:54:54.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Colombia’s far-right government recognises Israeli claim over Golan Heights",
+      "url": "https://www.aljazeera.com/news/2026/8/11/colombias-far-right-government-recognises-israeli-claim-over-golan-heights?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-08-11T02:44:39.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Trump signs order to limit childhood vaccines and split MMR shots",
+      "url": "https://www.bbc.co.uk/news/articles/ce3q5vl581wo?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2026-08-11T02:43:01.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Motorcyclist rushed to hospital after Brampton crash",
+      "url": "https://toronto.citynews.ca/2026/08/10/motorcyclist-rushed-to-hospital-after-brampton-crash",
+      "source": "CityNews Toronto",
+      "published_utc": "2026-08-11T02:42:20.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Local",
+      "region": "Canada"
+    },
+    {
+      "title": "Biggie’s Manager Wins Battle Against Widow Faith Evans, Gains Partial Control Over Rapper’s Catalog",
+      "url": "https://www.rollingstone.com/music/music-news/biggie-manager-voletta-wallace-faith-evans-catalog-1235606554",
+      "source": "Rolling Stone",
+      "published_utc": "2026-08-11T02:34:14.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Trump demands compensation from Iran as talks on Strait of Hormuz continue",
+      "url": "https://www.aljazeera.com/news/2026/8/11/trump-demands-compensation-from-iran-as-talks-on-strait-of-hormuz-continue?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-08-11T02:32:47.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Vaughan man, 37, faces multiple charges in drug trafficking probe",
+      "url": "https://toronto.citynews.ca/2026/08/10/vaughan-man-37-faces-multiple-charges-in-drug-trafficking-probe",
+      "source": "CityNews Toronto",
+      "published_utc": "2026-08-11T02:27:50.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Local",
+      "region": "Canada"
+    },
+    {
+      "title": "Is China Going to Control Your Medicine?",
+      "url": "https://www.thefp.com/p/china-biotech-pharmaceutical-development",
+      "source": "The Free Press",
+      "published_utc": "2026-08-11T02:23:54.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Vinay Prasad: Anthony Fauci’s Vaccine Deceptions",
+      "url": "https://www.thefp.com/p/vinay-prasad-anthony-fauci-vaccine-deceptions",
+      "source": "The Free Press",
+      "published_utc": "2026-08-11T02:17:44.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Scores dead in Colombia after powerful earthquake strikes west of country",
+      "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco",
+      "source": "World news | The Guardian",
+      "published_utc": "2026-08-11T02:14:32.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "breaker"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Trump's 'slow decline' could end with a surprising figure gaining power: expert",
+      "url": "https://www.rawstory.com/trump-stephen-miller-2677684361",
+      "source": "Raw Story",
+      "published_utc": "2026-08-11T02:12:02.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
     }
   ],
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 1048,
-    "dedup_pass1": 1041,
+    "collected": 843,
+    "dedup_pass1": 838,
     "dedup_final": 320,
-    "slow_domains": [],
+    "slow_domains": [
+      "techcouver.com",
+      "theintercept.com"
+    ],
     "timeouts": [
+      "hypebeast.com",
       "news.communitech.ca",
       "www.cbc.ca"
     ],
@@ -993,56 +1033,56 @@
     "feed_times_sample": [
       {
         "host": "toronto.citynews.ca",
-        "sec": 1.532,
+        "sec": 2.196,
         "kept": 8
       },
       {
         "host": "www.labourstart.org",
-        "sec": 1.262,
+        "sec": 1.838,
         "kept": 0
       },
       {
         "host": "globalnews.ca",
-        "sec": 0.524,
+        "sec": 0.647,
         "kept": 10
       },
       {
-        "host": "www.mlbtraderumors.com",
-        "sec": 0.346,
+        "host": "www.cp24.com",
+        "sec": 0.383,
         "kept": 14
       },
       {
         "host": "www.blogto.com",
-        "sec": 0.242,
+        "sec": 0.367,
         "kept": 0
       },
       {
-        "host": "www.nhl.com",
-        "sec": 0.152,
-        "kept": 0
-      },
-      {
-        "host": "www.cp24.com",
-        "sec": 0.122,
-        "kept": 14
-      },
-      {
-        "host": "www.bls.gov",
-        "sec": 0.119,
-        "kept": 0
-      },
-      {
-        "host": "www.mlb.com",
-        "sec": 0.09,
+        "host": "www.mlbtraderumors.com",
+        "sec": 0.365,
         "kept": 14
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.051,
+        "sec": 0.155,
         "kept": 14
+      },
+      {
+        "host": "www.bls.gov",
+        "sec": 0.141,
+        "kept": 0
+      },
+      {
+        "host": "www.mlb.com",
+        "sec": 0.111,
+        "kept": 14
+      },
+      {
+        "host": "www.nhl.com",
+        "sec": 0.1,
+        "kept": 0
       }
     ],
-    "elapsed_sec": 308.27,
+    "elapsed_sec": 348.28,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1068,8 +1108,8 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 37,
-      "ps_injury_hits": 1,
+      "ps_fatal_hits": 29,
+      "ps_injury_hits": 0,
       "market_btc_hits": 1,
       "market_index_hits": 0,
       "market_nikkei_hits": 0,
@@ -1081,7 +1121,7 @@
       "sports_team_hits": 11,
       "sports_player_hits": 0,
       "sports_result_win_hits": 18,
-      "sports_result_loss_hits": 4,
+      "sports_result_loss_hits": 2,
       "sports_evening_hits": 0,
       "sports_playoff_hits": 0,
       "sports_focus_team_hits": 12,
@@ -1094,16 +1134,16 @@
       "hype_sports": 0,
       "hype_ceasefire": 0,
       "reject_hits": 0,
-      "obit_hits": 14,
-      "major_figure_hits": 7,
+      "obit_hits": 11,
+      "major_figure_hits": 3,
       "business_am_hits": 0
     },
     "sanity_stats": {
-      "link_verification_fail": 33,
-      "soft_404_drops": 69,
+      "link_verification_fail": 63,
+      "soft_404_drops": 63,
       "max_age_drops": 0,
       "min_age_drops": 0,
-      "market_sanity_drops": 2,
+      "market_sanity_drops": 0,
       "backfill_steps_used": 0
     },
     "require_exact_count": 69,
