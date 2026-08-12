@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Charges laid in fatal 2025 crash in Calgary’s Temple neighbourhood",
-      "display":"Charges laid in fatal 2025 crash in Calgary’s Temple neighbourhood",
-      "url":"https://globalnews.ca/news/12019074/calgary-temple-fatal-crash-charges-laid",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Police seize $1.5M in illegal cannabis from Brampton grow operation",
+      "display":"Police seize $1.5M in illegal cannabis from Brampton grow operation",
+      "url":"https://globalnews.ca/news/12019098/opp-seize-cannabis",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"PSG vs Aston Villa - UEFA Super Cup LIVE: Reaction as Doue goal wins trophy for European champions",
-      "display":"PSG vs Aston Villa - UEFA Super Cup LIVE: Reaction as Doue goal wins trophy for European champions",
-      "url":"https://www.dailymail.com/sport/football/article-16046519/PSG-vs-Aston-Villa-UEFA-Super-Cup-LIVE.html",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Francesca Hong’s Loss in Wisconsin is a Win for AI Data Centers — for Now",
-      "display":"Francesca Hong’s Loss in Wisconsin is a Win for AI Data Centers — for Now",
-      "url":"https://theintercept.com/2026/08/12/francesca-hong-wisconsin-governor-data-centers",
+      "text":"Micro-shelter community being built in Scarborough",
+      "display":"Micro-shelter community being built in Scarborough",
+      "url":"https://toronto.citynews.ca/2026/08/12/micro-shelter-community-being-built-in-scarborough",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-08-12T22:08:13Z"
+  "generated_utc":"2026-08-12T22:57:40Z"
 }
