@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Ontario government rolls out proposed framework for AI data centres in communities",
-      "display":"Ontario government rolls out proposed framework for AI data centres in communities",
-      "url":"https://toronto.citynews.ca/2026/08/13/ontario-government-ai-data-centres-development-building-rules",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Legendary Calgary Flames broadcaster Peter Maher dead at 79",
+      "display":"Legendary Calgary Flames broadcaster Peter Maher dead at 79",
+      "url":"https://globalnews.ca/news/12020225/peter-maher-calgary-flames-broadcaster-dies",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Prosecutor details evidence behind convictions in murders of Quebec couple",
-      "display":"Prosecutor details evidence behind convictions in murders of Quebec couple",
-      "url":"https://globalnews.ca/news/12020280/daniel-langlois-dominique-marchand-murders",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"How Bob Iger and Josh Kushner’s wives’ relationship led to Lakers sale",
-      "display":"How Bob Iger and Josh Kushner’s wives’ relationship led to Lakers sale",
-      "url":"https://nypost.com/2026/08/13/sports/bob-iger-josh-kushner-wives-relationship-led-lakers-sale",
+      "text":"Ford says he disagrees with his party’s opposition research on Crombie’s vacation",
+      "display":"Ford says he disagrees with his party’s opposition research on Crombie’s vacation",
+      "url":"https://toronto.citynews.ca/2026/08/13/ford-says-he-disagrees-with-his-partys-opposition-research-on-crombies-vacation",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-08-13T18:34:52Z"
+  "generated_utc":"2026-08-13T19:42:12Z"
 }
