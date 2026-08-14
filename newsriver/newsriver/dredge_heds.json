@@ -1,26 +1,6 @@
 {
   "items":[
     {
-      "text":"Latest Blue Jays injuries & transactions",
-      "display":"Latest Blue Jays injuries & transactions",
-      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"All evacuation orders downgraded for Quilpituk Creek wildfire, residents return home",
-      "display":"All evacuation orders downgraded for Quilpituk Creek wildfire, residents return home",
-      "url":"https://globalnews.ca/news/12022261/all-evacuation-orders-downgraded-quilpituk-creek-wildfire-return-home",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"A rare hurricane landfall threat for Hawaii’s Big Island as Lala nears",
       "display":"A rare hurricane landfall threat for Hawaii’s Big Island as Lala nears",
       "url":"https://toronto.citynews.ca/2026/08/14/a-rare-hurricane-landfall-threat-for-hawaiis-big-island-as-lala-nears",
@@ -29,7 +9,27 @@
         "is_landmark":false,
         "has_bitcoin":false
       }
+    },
+    {
+      "text":"Saskatoon woman volunteers to clean benches downtown",
+      "display":"Saskatoon woman volunteers to clean benches downtown",
+      "url":"https://globalnews.ca/news/12022155/saskatoon-woman-volunteers-to-clean-benches-downtown",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Arrest ordered for high-flying sports betting influencer ‘Vegas Dave’ known for flaunting Birkin bags and mansions",
+      "display":"Arrest ordered for high-flying sports betting influencer ‘Vegas Dave’ known for flaunting Birkin bags and mansions",
+      "url":"https://nypost.com/2026/08/14/us-news/influencer-vegas-dave-skips-30m-hearing-case-faces-no-bail-arrest",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
     }
   ],
-  "generated_utc":"2026-08-14T22:57:19Z"
+  "generated_utc":"2026-08-14T23:17:02Z"
 }
