@@ -1,6 +1,16 @@
 {
   "items":[
     {
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
       "text":"Former University of Cambridge professor Jason Arday found dead after resigning following plagiarism row",
       "display":"Former University of Cambridge professor Jason Arday found dead after resigning following plagiarism row",
       "url":"https://www.independent.co.uk/news/uk/home-news/jason-arday-found-dead-b3033390.html",
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Cocaine, cash and guns seized in months-long Winnipeg police investigation",
-      "display":"Cocaine, cash and guns seized in months-long Winnipeg police investigation",
-      "url":"https://globalnews.ca/news/12022198/cocaine-cash-guns-seized-winnipeg",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Top Trump handler's grip slips as she battles health scare: report",
-      "display":"Top Trump handler's grip slips as she battles health scare: report",
-      "url":"https://www.rawstory.com/donald-trump-susie-wiles-2677709933",
+      "text":"TTC worker stabbed near Bloor-Yonge station",
+      "display":"TTC worker stabbed near Bloor-Yonge station",
+      "url":"https://globalnews.ca/news/12022204/ttc-worker-stabbed-near-bloor-yonge-station",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-08-14T21:46:07Z"
+  "generated_utc":"2026-08-14T22:12:33Z"
 }
