@@ -1,8 +1,249 @@
 {
-  "generated_utc": "2026-08-15T05:03:41.754Z",
-  "itemset_hash": "a4a4a0276c7c8cd9",
+  "generated_utc": "2026-08-15T05:30:17.596Z",
+  "itemset_hash": "be49c7d8a3181d88",
   "count": 69,
   "items": [
+    {
+      "title": "Michigan mass shooter's ex-wife speaks out after massacre of five following bitter divorce battle",
+      "url": "https://www.dailymail.com/news/article-16053977/Six-dead-Chad-Hickman-Michigan-shooting.html",
+      "source": "Articles | Mail Online",
+      "published_utc": "2026-08-15T05:24:56.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "'I was a free woman then Taliban stole my voice and job and locked me in home'",
+      "url": "https://www.mirror.co.uk/news/world-news/afghanistan-taliban-takeover-anniversary-kabul-37523931",
+      "source": "Mirror - mirror frontpage",
+      "published_utc": "2026-08-15T05:17:07.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "'I played golf against Donald Trump – he's exactly what you think he's like'",
+      "url": "https://www.mirror.co.uk/sport/golf/donald-trump-golf-cheating-burns-37539844",
+      "source": "Mirror - mirror frontpage",
+      "published_utc": "2026-08-15T05:15:00.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Frozen 3 Previewed at D23 — And Olaf Has a Girlfriend!",
+      "url": "https://consequence.net/2026/08/frozen-3-d23-olaf-girlfriend",
+      "source": "Consequence",
+      "published_utc": "2026-08-15T05:13:12.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "'Enchanting' bedding set that's reversible and comes in 7 colours falls to 72p",
+      "url": "https://www.mirror.co.uk/money/shopping-deals/enchanting-reversible-bedding-set-exceptional-37532330",
+      "source": "Mirror - mirror frontpage",
+      "published_utc": "2026-08-15T05:15:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Bayonne, N.J. scores comeback win to advance to Little League World Series",
+      "url": "https://nypost.com/2026/08/15/sports/bayonne-n-j-scores-comeback-win-to-advance-to-little-league-world-series",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-08-15T05:11:39.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Indonesia earthquake LIVE: At least 5 people killed as massive 7.7 quake strikes tourist spot",
+      "url": "https://www.mirror.co.uk/news/world-news/indonesia-earthquake-tsunami-warning-live-37554652",
+      "source": "Mirror - mirror frontpage",
+      "published_utc": "2026-08-15T05:10:45.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6",
+          "body_count≥3"
+        ],
+        "style": "breaker"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Six dead, including suspect, as police investigate shooting spree in Michigan",
+      "url": "https://www.mirror.co.uk/news/us-news/michigan-shooting-five-people-dead-37554684",
+      "source": "Mirror - mirror frontpage",
+      "published_utc": "2026-08-15T05:10:00.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6",
+          "body_count≥3"
+        ],
+        "style": "breaker"
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Saskatoon Berries head to WCBL championship series for the first time",
+      "url": "https://globalnews.ca/news/12022382/saskatoon-berries-wcbl-championship-series-first-time",
+      "source": "globalnews.ca",
+      "published_utc": "2026-08-15T05:08:12.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "Transfer news LIVE: Barcola twist, Arsenal's Osimhen talks, fourth Man Utd deal close",
+      "url": "https://www.mirror.co.uk/sport/football/transfer-news/transfer-news-live-man-utd-37545999",
+      "source": "Mirror - mirror frontpage",
+      "published_utc": "2026-08-15T05:09:27.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Ukraine-Russia war latest: Moscow shoots down dozens of drones after Nato jets scrambled in Latvia",
+      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-nato-jet-crimea-b3032927.html",
+      "source": "The Independent News",
+      "published_utc": "2026-08-15T05:06:46.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Alberta teen’s family sues government after nearly $200K out-of-country surgical bill",
+      "url": "https://globalnews.ca/news/12017229/alberta-teens-family-sues-government-after-nearly-200k-out-of-country-surgical-bill",
+      "source": "globalnews.ca",
+      "published_utc": "2026-08-15T05:05:58.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "First ‘Frozen III’ Footage Teases New Villain, New Songs and Frozen Wonderland",
+      "url": "https://www.thewrap.com/creative-content/movies/frozen-3-footage-description-new-songs-story",
+      "source": "TheWrap",
+      "published_utc": "2026-08-15T05:05:33.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "‘Zootopia 3’ In Works At Disney; Ke Huy Quan & Ginnifer Goodwin Reprising Roles – D23",
+      "url": "https://deadline.com/2026/08/zootopia-3-d23-1237041333",
+      "source": "Deadline",
+      "published_utc": "2026-08-15T05:03:23.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Stourbridge fires - live: Burnham appoints Fire Minister as 19 homes fully destroyed",
+      "url": "https://www.mirror.co.uk/news/uk-news/stourbridge-midlands-fires-emergency-evacuate-37550156",
+      "source": "Mirror - mirror frontpage",
+      "published_utc": "2026-08-15T05:02:31.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "‘Frozen 3’ First Details: Anna and Kristoff Get Married, Olaf Gets a Girlfriend and a New Villain Emerges",
+      "url": "https://variety.com/2026/film/news/frozen-3-first-details-anna-kristoff-married-olaf-love-1236822955",
+      "source": "Film",
+      "published_utc": "2026-08-15T05:01:19.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "‘Frozen 3’ First Look Teases Wedding Bells & An Icy Villain From A Land “More Wild And Dangerous” Than Ever Before – D23",
+      "url": "https://deadline.com/2026/08/frozen-3-footage-d23-anna-wedding-new-villain-1237041024",
+      "source": "Deadline",
+      "published_utc": "2026-08-15T05:00:06.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
     {
       "title": "How I’m dealing with my video game backlog of 48 titles – Reader’s Feature",
       "url": "https://metro.co.uk/2026/08/15/im-dealing-video-game-backlog-48-titles-readers-feature-29381244",
@@ -17,6 +258,19 @@
         "style": "glitch"
       },
       "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Google Workspace Promo Codes: 14% Off for August 2026",
+      "url": "https://www.wired.com/story/google-workspace-promo-code",
+      "source": "WIRED",
+      "published_utc": "2026-08-15T05:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
       "region": "World"
     },
     {
@@ -72,10 +326,10 @@
       "region": "World"
     },
     {
-      "title": "Michigan mass shooter's ex-wife speaks out after massacre of five following bitter divorce battle",
-      "url": "https://www.dailymail.com/news/article-16053977/Six-dead-Chad-Hickman-Michigan-shooting.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-08-15T04:56:12.000Z",
+      "title": "Morocco boosts Ceuta security amid calls for mass migrant crossing",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/08-15-26-morocco-ceuta-foritfication-clip-mp4?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-08-15T04:54:53.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -98,10 +352,26 @@
       "region": "World"
     },
     {
-      "title": "‘Avengers: Doomsday’ Footage Shows Off a “Broken” Doctor Doom",
-      "url": "https://www.hollywoodreporter.com/movies/movie-news/avengers-doomsday-trailer-doctor-doom-1236673352",
-      "source": "The Hollywood Reporter",
-      "published_utc": "2026-08-15T04:48:45.000Z",
+      "title": "Nationals Moving CJ Abrams To Second Base",
+      "url": "https://www.mlbtraderumors.com/2026/08/nationals-moving-cj-abrams-to-second-base.html",
+      "source": "MLB Trade Rumors",
+      "published_utc": "2026-08-15T04:50:33.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "On the ground in Indonesia following 7.7 magnitude earthquake",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/on-the-ground-in-indonesia-following-7-7-magnitude-earthquake?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-08-15T04:49:47.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": true,
@@ -109,6 +379,19 @@
           "score≥2.1"
         ],
         "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "‘Avengers: Doomsday’ Footage Shows Off a “Broken” Doctor Doom",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/avengers-doomsday-trailer-doctor-doom-1236673352",
+      "source": "The Hollywood Reporter",
+      "published_utc": "2026-08-15T04:48:45.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
       },
       "category": "Labour",
       "region": "World"
@@ -182,7 +465,7 @@
       "region": "World"
     },
     {
-      "title": "‘Hexed’: Disney Thanksgiving Animated Pic Adds Jodie Foster & Walton Goggins-D23",
+      "title": "‘Hexed’: Disney Thanksgiving Animated Pic Adds Jodie Foster & Walton Goggins – D23",
       "url": "https://deadline.com/2026/08/hexed-jodie-foster-walton-goggins-1237040951",
       "source": "Deadline",
       "published_utc": "2026-08-15T04:41:03.000Z",
@@ -214,11 +497,8 @@
       "published_utc": "2026-08-15T04:40:24.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Labour",
       "region": "World"
@@ -250,7 +530,7 @@
       "region": "World"
     },
     {
-      "title": "Dr. Doom Takes Back “Stolen Lives” in Avengers: Doomsday Trailer: Watch",
+      "title": "Doctor Doom Takes Back “Stolen Lives” in Avengers: Doomsday Trailer: Watch",
       "url": "https://consequence.net/2026/08/avengers-doomsday-trailer-d23-doctor-doom",
       "source": "Consequence",
       "published_utc": "2026-08-15T04:39:44.000Z",
@@ -299,22 +579,6 @@
         "reasons": []
       },
       "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Indonesia earthquake LIVE: At least two people killed as massive 7.7 quake strikes tourist spot",
-      "url": "https://www.mirror.co.uk/news/world-news/indonesia-earthquake-tsunami-warning-live-37554652",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-08-15T04:32:40.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "breaker"
-      },
-      "category": "Labour",
       "region": "World"
     },
     {
@@ -555,7 +819,24 @@
       "region": "World"
     },
     {
-      "title": "‘Avengers: Doomsday’ Trailer: Robert Downey Jr. Faces Off Against Mister Fantastic, X-Men and Avengers With Army of Sentinels",
+      "title": "Five dead after 7.7 magnitude earthquake strikes Indonesia",
+      "url": "https://www.bbc.co.uk/news/articles/c5y0zz63gero?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2026-08-15T04:12:55.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6",
+          "body_count≥3"
+        ],
+        "style": "breaker"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "‘Avengers: Doomsday’ Trailer: Robert Downey Jr.’s Doctor Doom Faces Off Against Mister Fantastic, X-Men and Avengers With Army of Sentinels",
       "url": "https://variety.com/2026/film/news/avengers-doomsday-trailer-d23-1236817670",
       "source": "Film",
       "published_utc": "2026-08-15T04:12:38.000Z",
@@ -660,286 +941,17 @@
       },
       "category": "General",
       "region": "World"
-    },
-    {
-      "title": "APOD: 2026 August 15 – Bright Perseids from Sweden",
-      "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-15-bright-perseids-from-sweden",
-      "source": "NASA",
-      "published_utc": "2026-08-15T04:05:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Why Israel has done so little to rein in spiraling settler violence against Palestinians",
-      "url": "https://www.independent.co.uk/news/benjamin-netanyahu-israel-west-bank-palestinians-mike-huckabee-b3033493.html",
-      "source": "The Independent News",
-      "published_utc": "2026-08-15T04:00:29.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Liverpool news: Andoni Iraola has 'huge problem' as Bradley Barcola transfer update emerges",
-      "url": "https://www.mirror.co.uk/sport/football/news/liverpool-transfer-latest-bradley-barcola-37552975",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-08-15T04:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Jon Favreau’s ‘Oswald’ Sets Disney+ Premiere Date, Shows Off First Footage",
-      "url": "https://www.thewrap.com/creative-content/tv-shows/oswald-jon-favreau-miniseries-footage-description-release-date",
-      "source": "TheWrap",
-      "published_utc": "2026-08-15T03:58:53.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Iran-US war latest: Trump says Strait of Hormuz will soon be ‘called a territory of the United States’",
-      "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-hormuz-naval-blockade-oil-prices-b3032930.html",
-      "source": "The Independent News",
-      "published_utc": "2026-08-15T03:58:06.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Cade Klubnik backs up his moxie — and then some — in Jets debut",
-      "url": "https://nypost.com/2026/08/14/sports/cade-klubnik-backed-up-his-moxie-and-then-some-in-jets-debut",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2026-08-15T03:56:41.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "First ‘Tangled’ Live-Action Footage Teases Kathryn Hahn’s Mother Gothel",
-      "url": "https://www.thewrap.com/creative-content/movies/tangled-live-action-release-date-footage-description-kathryn-hahn-mother-gothel",
-      "source": "TheWrap",
-      "published_utc": "2026-08-15T03:56:29.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "‘Dead Souls’ Review: Alex Cox Betrays His Talent — Again — in His Latest Arid Didactic Western Doodle",
-      "url": "https://variety.com/2026/film/reviews/dead-souls-review-alex-cox-1236834377",
-      "source": "Film",
-      "published_utc": "2026-08-15T03:54:34.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Government faces backlash after 'needless' emergency wildfire alert sent to millions of phones",
-      "url": "https://www.dailymail.com/news/article-16053599/Confusion-millions-peoples-phones-England-Wales-emergency-wildfire-alert-without-warning.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-08-15T03:53:18.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Did the US really destroy Iran’s ballistic missile capability?",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/08-11-2026-tia-us-iran-munitions-quotable?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-08-15T03:52:08.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "‘Tangled’ Live-Action Movie Unveils First-Look, March 2028 Release Date",
-      "url": "https://www.hollywoodreporter.com/movies/movie-news/tangled-live-action-movie-first-look-1236672365",
-      "source": "The Hollywood Reporter",
-      "published_utc": "2026-08-15T03:51:27.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Bill Maher Roasts Luigi Mangione Fan in Denial Over Guilty Plea: ‘He Just Said He Did It!’",
-      "url": "https://www.thewrap.com/creative-content/tv-shows/bill-maher-roasts-luigi-mangione-fan-over-guilty-plea-denial",
-      "source": "TheWrap",
-      "published_utc": "2026-08-15T03:51:01.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Big night from Oliveira gets Winnipeg Blue Bombers back in win column over winless Redblacks",
-      "url": "https://globalnews.ca/news/12022642/big-night-from-oliveira-gets-winnipeg-blue-bombers-back-in-win-column-over-winless-redblacks",
-      "source": "globalnews.ca",
-      "published_utc": "2026-08-15T03:50:28.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "‘Tangled’ Live-Action Pic From Disney Sets 2028 Theatrical Release – D23",
-      "url": "https://deadline.com/2026/08/tangled-release-date-d23-1237040918",
-      "source": "Deadline",
-      "published_utc": "2026-08-15T03:50:06.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "American Pie star Shannon Elizabeth, 52, is now one of Hollywood's richest OnlyFans stars as she reveals insane income",
-      "url": "https://www.dailymail.com/tvshowbiz/article-16053631/shannon-elizabeth-onlyfans-earnings-american-pie.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-08-15T03:49:22.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "‘Tangled’ Sets March 2028 Release Date as First Footage Debuts at D23",
-      "url": "https://variety.com/2026/film/news/tangled-live-action-remake-release-date-1236822911",
-      "source": "Film",
-      "published_utc": "2026-08-15T03:49:04.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Heartwarming story of the man whose heatwave lawn will leave you green with envy. He's just lost his wife of 50 years and has had six new hips - but even the drought hasn't stopped Stuart creating perfection. So how DOES he do it?",
-      "url": "https://www.dailymail.com/news/article-16053889/heartwarming-man-heatwave-lawn-green-envy.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-08-15T03:46:50.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "First Trailer for Bluey Movie Premieres at D23: Watch",
-      "url": "https://consequence.net/2026/08/bluey-first-trailer",
-      "source": "Consequence",
-      "published_utc": "2026-08-15T03:44:25.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "‘The Bluey Movie’ Trailer: Beloved Kids Show Character Dogpaddles To Big Screen For First Time – D23",
-      "url": "https://deadline.com/2026/08/bluey-movie-trailer-d23-1237040950",
-      "source": "Deadline",
-      "published_utc": "2026-08-15T03:42:35.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Flight disaster averted after two jets with SAME flight number spared from almost-certain collision",
-      "url": "https://www.dailymail.com/news/article-16053983/Flight-disaster-averted-two-jets-certain-collision.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-08-15T03:42:22.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
     }
   ],
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 1054,
-    "dedup_pass1": 1036,
+    "collected": 1068,
+    "dedup_pass1": 1050,
     "dedup_final": 320,
     "slow_domains": [
       "cultmtl.com",
-      "theintercept.com"
+      "www.drps.ca"
     ],
     "timeouts": [
       "news.communitech.ca",
@@ -964,56 +976,56 @@
     "feed_times_sample": [
       {
         "host": "toronto.citynews.ca",
-        "sec": 1.582,
+        "sec": 2.193,
         "kept": 8
       },
       {
         "host": "www.labourstart.org",
-        "sec": 1.492,
+        "sec": 1.271,
         "kept": 0
       },
       {
-        "host": "www.cp24.com",
-        "sec": 0.523,
+        "host": "www.mlbtraderumors.com",
+        "sec": 0.374,
         "kept": 14
       },
       {
         "host": "globalnews.ca",
-        "sec": 0.465,
+        "sec": 0.355,
         "kept": 10
       },
       {
-        "host": "www.mlbtraderumors.com",
-        "sec": 0.305,
+        "host": "www.cp24.com",
+        "sec": 0.182,
         "kept": 14
       },
       {
         "host": "www.blogto.com",
-        "sec": 0.221,
+        "sec": 0.159,
         "kept": 0
       },
       {
         "host": "www.nhl.com",
-        "sec": 0.169,
+        "sec": 0.133,
         "kept": 0
       },
       {
         "host": "www.mlb.com",
-        "sec": 0.164,
+        "sec": 0.092,
         "kept": 14
       },
       {
         "host": "www.bls.gov",
-        "sec": 0.154,
+        "sec": 0.058,
         "kept": 0
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.11,
+        "sec": 0.053,
         "kept": 14
       }
     ],
-    "elapsed_sec": 307.02,
+    "elapsed_sec": 296.05,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1039,20 +1051,20 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 28,
+      "ps_fatal_hits": 30,
       "ps_injury_hits": 0,
       "market_btc_hits": 1,
       "market_index_hits": 0,
       "market_nikkei_hits": 0,
       "market_single_hits": 0,
-      "agg_penalties": 0,
+      "agg_penalties": 14,
       "press_penalties": 0,
       "preferred_bonus": 127,
       "substack_tagged": 0,
       "sports_team_hits": 11,
       "sports_player_hits": 2,
-      "sports_result_win_hits": 29,
-      "sports_result_loss_hits": 6,
+      "sports_result_win_hits": 31,
+      "sports_result_loss_hits": 7,
       "sports_evening_hits": 0,
       "sports_playoff_hits": 0,
       "sports_focus_team_hits": 12,
@@ -1066,15 +1078,15 @@
       "hype_ceasefire": 0,
       "reject_hits": 0,
       "obit_hits": 6,
-      "major_figure_hits": 4,
+      "major_figure_hits": 5,
       "business_am_hits": 0
     },
     "sanity_stats": {
-      "link_verification_fail": 27,
-      "soft_404_drops": 20,
+      "link_verification_fail": 25,
+      "soft_404_drops": 22,
       "max_age_drops": 0,
       "min_age_drops": 0,
-      "market_sanity_drops": 0,
+      "market_sanity_drops": 1,
       "backfill_steps_used": 0
     },
     "require_exact_count": 69,
