@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Blue Jays surging up Wild Card standings -- but holding breath over Vladdy",
-      "display":"Blue Jays surging up Wild Card standings -- but holding breath over Vladdy",
-      "url":"https://www.mlb.com/bluejays/news/blue-jays-beat-yankees-to-gain-ground-in-wild-card-race",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"New trial ordered for B.C. man convicted in killing of ex-girlfriend’s chihuahua",
       "display":"New trial ordered for B.C. man convicted in killing of ex-girlfriend’s chihuahua",
       "url":"https://globalnews.ca/news/12022733/new-trial-bc-man-convicted-killing-ex-girlfriends-chihuahua",
@@ -21,9 +11,19 @@
       }
     },
     {
-      "text":"Titans defensive back hit with six-game ban believes positive PED test came from fertility drug",
-      "display":"Titans defensive back hit with six-game ban believes positive PED test came from fertility drug",
-      "url":"https://nypost.com/2026/08/15/sports/titans-nazeeh-johnson-believes-positive-ped-test-came-from-fertility-drug",
+      "text":"Celebrity Sunburns Guess Who!",
+      "display":"Celebrity Sunburns Guess Who!",
+      "url":"https://www.tmz.com/2026/08/15/hot-celebrity-sunburn-pictures",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"40 Acres and a Lie Part 2",
+      "display":"40 Acres and a Lie Part 2",
+      "url":"https://www.motherjones.com/politics/2026/08/40-acres-and-a-lie-part-2-update",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-08-15T07:04:15Z"
+  "generated_utc":"2026-08-15T07:41:02Z"
 }
