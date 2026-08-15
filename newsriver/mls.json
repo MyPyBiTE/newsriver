@@ -18,7 +18,7 @@
               "team": {
                 "abbreviation": "RBNY"
               },
-              "score": 0
+              "score": 1
             },
             "home": {
               "team": {
@@ -58,12 +58,12 @@
           "gamePk": "761710",
           "gameDate": "2026-08-15T23:30Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
@@ -76,7 +76,7 @@
               "team": {
                 "abbreviation": "CLT"
               },
-              "score": 0
+              "score": 2
             }
           }
         },
