@@ -32,12 +32,12 @@
           "gamePk": "761711",
           "gameDate": "2026-08-15T23:30Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
           },
           "linescore": {
-            "currentPeriodOrdinal": "2nd",
-            "currentQuarter": "2nd"
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
           },
           "teams": {
             "away": {
@@ -122,7 +122,7 @@
               "team": {
                 "abbreviation": "NE"
               },
-              "score": 0
+              "score": 1
             },
             "home": {
               "team": {
@@ -162,25 +162,25 @@
           "gamePk": "761716",
           "gameDate": "2026-08-16T00:30Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "2nd",
+            "currentQuarter": "2nd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "MIA"
               },
-              "score": 0
+              "score": 1
             },
             "home": {
               "team": {
                 "abbreviation": "NSH"
               },
-              "score": 1
+              "score": 4
             }
           }
         },
