@@ -1,8 +1,69 @@
 {
-  "generated_utc": "2026-08-16T17:36:24.081Z",
-  "itemset_hash": "3fd65d5b243afdcd",
+  "generated_utc": "2026-08-16T17:53:47.699Z",
+  "itemset_hash": "98500f970bdf75ef",
   "count": 69,
   "items": [
+    {
+      "title": "Two dead and hundreds evacuated as twin fires break out on Greek island",
+      "url": "https://www.bbc.co.uk/news/articles/c87nnwlpe5no?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2026-08-16T17:44:23.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "breaker"
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Trump team blames 'coding errors' for 'profoundly cruel' hit to teachers, nurses: report",
+      "url": "https://www.rawstory.com/trump-student-loans-2677713189",
+      "source": "Raw Story",
+      "published_utc": "2026-08-16T17:43:39.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Op-ed: When the machines learn to dig",
+      "url": "https://www.mining.com/op-ed-when-the-machines-learn-to-dig",
+      "source": "MINING.COM",
+      "published_utc": "2026-08-16T17:37:56.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Energy",
+      "region": "Canada"
+    },
+    {
+      "title": "Dave Marsh, Veteran Rock Critic and Biographer, Dies at 76",
+      "url": "https://pitchfork.com/story/dave-marsh-veteran-rock-critic-and-biographer-dies-at-76",
+      "source": "RSS: News",
+      "published_utc": "2026-08-16T17:31:36.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Culture",
+      "region": "World"
+    },
     {
       "title": "‘Lioness’ Star Elizaveta Neretin Says Taylor Sheridan “Trusted” Her To Create Ukrainian Double Agent Oleksandra Balakin’s Backstory",
       "url": "https://decider.com/2026/08/16/lioness-elizaveta-neretin-intervew-who-plays-oleksandra-balakin",
@@ -56,6 +117,19 @@
         "reasons": []
       },
       "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "The Tower of Babel, Tyranny, and AI",
+      "url": "https://www.psychologytoday.com/ca/blog/fully-human/202608/the-tower-of-babel-tyranny-and-ai",
+      "source": "Psychology Today: The Latest",
+      "published_utc": "2026-08-16T17:25:09.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Youth",
       "region": "World"
     },
     {
@@ -133,26 +207,23 @@
       "region": "World"
     },
     {
-      "title": "Two dead and hundreds evacuated as twin fires break out on Greek island",
-      "url": "https://www.bbc.co.uk/news/articles/c87nnwlpe5no?at_campaign=rss&at_medium=RSS",
-      "source": "BBC News",
-      "published_utc": "2026-08-16T17:18:56.000Z",
+      "title": "Dolly Parton Skips Dollywood Ride Opening Amid Ongoing Health Problems: ‘My Nashville Doctor Has Kinda Clipped My Wings’",
+      "url": "https://variety.com/2026/music/news/dolly-parton-skips-dollywood-opening-health-issues-1236835632",
+      "source": "Variety",
+      "published_utc": "2026-08-16T17:18:19.000Z",
       "effects": {
-        "lightsaber": true,
+        "lightsaber": false,
         "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "breaker"
+        "reasons": []
       },
       "category": "General",
       "region": "World"
     },
     {
-      "title": "Dolly Parton Skips Dollywood Ride Opening Amid Ongoing Health Problems: ‘My Nashville Doctor Has Kinda Clipped My Wings’",
-      "url": "https://variety.com/2026/music/news/dolly-parton-skips-dollywood-opening-health-issues-1236835632",
-      "source": "Variety",
-      "published_utc": "2026-08-16T17:18:19.000Z",
+      "title": "‘Water and salt’: Qusra residents trapped in Israeli settler siege",
+      "url": "https://www.aljazeera.com/news/2026/8/16/water-and-salt-qusra-residents-trapped-in-israeli-settler-siege?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-08-16T17:18:00.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -210,7 +281,7 @@
       "region": "Canada"
     },
     {
-      "title": "Cristiano Ronaldo hints at retirement at the end of the football season",
+      "title": "Cristiano Ronaldo hints at retirement at end of season",
       "url": "https://www.aljazeera.com/sports/2026/8/16/cristiano-ronaldo-hints-at-retirement-at-the-end-of-the-football-season?traffic_source=rss",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
       "published_utc": "2026-08-16T17:03:18.000Z",
@@ -287,11 +358,8 @@
       "published_utc": "2026-08-16T17:00:00.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Labour",
       "region": "World"
@@ -307,7 +375,7 @@
         "reasons": [
           "score≥2.6"
         ],
-        "style": "breaker"
+        "style": "lightsaber"
       },
       "category": "Labour",
       "region": "Canada"
@@ -382,32 +450,6 @@
       "url": "https://www.rawstory.com/supreme-court-2677713135",
       "source": "Raw Story",
       "published_utc": "2026-08-16T16:36:50.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Thousands of Bonnie Tyler fans line the streets of Wales as late singer’s coffin is brought home",
-      "url": "https://pagesix.com/2026/08/16/celebrity-news/thousands-of-bonnie-tyler-fans-line-the-streets-of-wales-as-late-singers-coffin-is-brought-home",
-      "source": "New York Post",
-      "published_utc": "2026-08-16T16:35:32.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Inside the 2026 Emmy race for best comedy — the awards’ most dramatic competition",
-      "url": "https://pagesix.com/2026/08/16/hollywood/inside-2026-emmy-race-for-best-comedy-hacks-widows-bay",
-      "source": "New York Post",
-      "published_utc": "2026-08-16T16:35:20.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -927,60 +969,16 @@
       },
       "category": "General",
       "region": "World"
-    },
-    {
-      "title": "Belgian wildfire doubles in size on third day tearing through nature reserve",
-      "url": "https://www.bbc.co.uk/news/articles/cp8eex1nmpvo?at_campaign=rss&at_medium=RSS",
-      "source": "BBC News",
-      "published_utc": "2026-08-16T15:25:38.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Former Police Officer Convicted of Sharing 'Grossly Offensive' Meme About Islam in Britain",
-      "url": "https://www.breitbart.com/europe/2026/08/16/former-police-officer-convicted-of-sharing-grossly-offensive-meme-about-islam-in-britain",
-      "source": "Breitbart News",
-      "published_utc": "2026-08-16T15:25:29.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Maggie Haberman comes swinging for Trump's human 'binkie'",
-      "url": "https://www.rawstory.com/trump-haberman-2677712996",
-      "source": "Raw Story",
-      "published_utc": "2026-08-16T15:25:14.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
     }
   ],
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 889,
-    "dedup_pass1": 870,
+    "collected": 886,
+    "dedup_pass1": 868,
     "dedup_final": 320,
     "slow_domains": [
-      "cultmtl.com",
-      "theintercept.com",
-      "www.gorillavsbear.net"
+      "cultmtl.com"
     ],
     "timeouts": [
       "news.communitech.ca",
@@ -1004,57 +1002,57 @@
     ],
     "feed_times_sample": [
       {
-        "host": "www.labourstart.org",
-        "sec": 1.625,
-        "kept": 0
-      },
-      {
         "host": "toronto.citynews.ca",
-        "sec": 1.521,
+        "sec": 1.734,
         "kept": 8
       },
       {
+        "host": "www.labourstart.org",
+        "sec": 1.726,
+        "kept": 0
+      },
+      {
         "host": "globalnews.ca",
-        "sec": 0.493,
+        "sec": 0.495,
         "kept": 10
       },
       {
-        "host": "www.mlbtraderumors.com",
-        "sec": 0.365,
+        "host": "www.cp24.com",
+        "sec": 0.463,
         "kept": 14
       },
       {
-        "host": "www.cp24.com",
-        "sec": 0.23,
+        "host": "www.mlbtraderumors.com",
+        "sec": 0.282,
         "kept": 14
       },
       {
         "host": "www.blogto.com",
-        "sec": 0.222,
+        "sec": 0.252,
         "kept": 0
       },
       {
+        "host": "www.mlb.com",
+        "sec": 0.215,
+        "kept": 14
+      },
+      {
         "host": "www.bls.gov",
-        "sec": 0.185,
+        "sec": 0.158,
         "kept": 0
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.148,
-        "kept": 14
-      },
-      {
-        "host": "www.mlb.com",
-        "sec": 0.1,
+        "sec": 0.095,
         "kept": 14
       },
       {
         "host": "www.nhl.com",
-        "sec": 0.084,
+        "sec": 0.085,
         "kept": 0
       }
     ],
-    "elapsed_sec": 308.91,
+    "elapsed_sec": 315.71,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1080,7 +1078,7 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 27,
+      "ps_fatal_hits": 29,
       "ps_injury_hits": 1,
       "market_btc_hits": 0,
       "market_index_hits": 0,
@@ -1092,11 +1090,11 @@
       "substack_tagged": 0,
       "sports_team_hits": 10,
       "sports_player_hits": 2,
-      "sports_result_win_hits": 26,
+      "sports_result_win_hits": 25,
       "sports_result_loss_hits": 2,
       "sports_evening_hits": 0,
       "sports_playoff_hits": 0,
-      "sports_focus_team_hits": 10,
+      "sports_focus_team_hits": 11,
       "sports_final_hits": 2,
       "sports_final_score_hits": 2,
       "hype_politics": 0,
@@ -1106,13 +1104,13 @@
       "hype_sports": 0,
       "hype_ceasefire": 0,
       "reject_hits": 1,
-      "obit_hits": 6,
+      "obit_hits": 8,
       "major_figure_hits": 1,
       "business_am_hits": 0
     },
     "sanity_stats": {
-      "link_verification_fail": 36,
-      "soft_404_drops": 28,
+      "link_verification_fail": 46,
+      "soft_404_drops": 30,
       "max_age_drops": 0,
       "min_age_drops": 0,
       "market_sanity_drops": 1,
