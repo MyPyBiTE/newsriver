@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Somali man, 22, is charged with attempted murder after migrant hotel worker is stabbed",
-      "display":"Somali man, 22, is charged with attempted murder after migrant hotel worker is stabbed",
-      "url":"https://www.dailymail.com/news/article-16056845/Somali-man-22-charged-attempted-murder-migrant-hotel-worker-stabbed.html",
+      "text":"Key takeaways: Yankees 4, Blue Jays 3 (10)",
+      "display":"Key takeaways: Yankees 4, Blue Jays 3 (10)",
+      "url":"https://www.mlb.com/bluejays/news/dylan-cease-reaches-200-strikeouts-for-blue-jays",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Marcus Ericsson wins inaugural Ontario Honda Dealers Indy in Markham",
+      "display":"Marcus Ericsson wins inaugural Ontario Honda Dealers Indy in Markham",
+      "url":"https://globalnews.ca/news/12023553/ontario-honda-indy-markham-victory",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"How to watch new DC Universe show ‘Lanterns’ on HBO Max: Release date, time",
-      "display":"How to watch new DC Universe show ‘Lanterns’ on HBO Max: Release date, time",
-      "url":"https://pagesix.com/2026/08/16/entertainment/heres-how-to-watch-new-dc-universe-show-lanterns-premiere",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Iran-US war latest: Tehran’s army chief tells Trump ‘we’ll break your legs’ and places $30k bounty on US soldiers",
-      "display":"Iran-US war latest: Tehran’s army chief tells Trump ‘we’ll break your legs’ and places $30k bounty on US soldiers",
-      "url":"https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-news-trump-qatar-pilot-detention-b3033790.html",
+      "text":"Douglas Murray: The Tragedy of Jason Arday",
+      "display":"Douglas Murray: The Tragedy of Jason Arday",
+      "url":"https://www.thefp.com/p/douglas-murray-tragedy-jason-arday",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-08-16T21:12:06Z"
+  "generated_utc":"2026-08-16T21:33:02Z"
 }
