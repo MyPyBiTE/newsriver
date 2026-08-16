@@ -162,12 +162,12 @@
           "gamePk": "761716",
           "gameDate": "2026-08-16T00:30Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
           },
           "linescore": {
-            "currentPeriodOrdinal": "2nd",
-            "currentQuarter": "2nd"
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
           },
           "teams": {
             "away": {
@@ -206,7 +206,7 @@
               "team": {
                 "abbreviation": "COL"
               },
-              "score": 0
+              "score": 1
             }
           }
         },
@@ -226,13 +226,13 @@
               "team": {
                 "abbreviation": "MIN"
               },
-              "score": 0
+              "score": 1
             },
             "home": {
               "team": {
                 "abbreviation": "RSL"
               },
-              "score": 0
+              "score": 1
             }
           }
         },
@@ -278,7 +278,7 @@
               "team": {
                 "abbreviation": "STL"
               },
-              "score": 0
+              "score": 2
             },
             "home": {
               "team": {
