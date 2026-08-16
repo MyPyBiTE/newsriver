@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Commercial building catches fire in downtown Toronto",
-      "display":"Commercial building catches fire in downtown Toronto",
-      "url":"https://toronto.citynews.ca/2026/08/16/commercial-building-catches-fire-in-downtown-toronto",
+      "text":"Electric arm Jays acquired in Hoffman trade flashes potential at High-A",
+      "display":"Electric arm Jays acquired in Hoffman trade flashes potential at High-A",
+      "url":"https://www.mlb.com/bluejays/news/dasan-hill-electric-stuff-blue-jays-trade-deadline",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Man critically wounded in Scarborough shooting",
+      "display":"Man critically wounded in Scarborough shooting",
+      "url":"https://toronto.citynews.ca/2026/08/15/police-investigate-scarborough-shooting-that-injured-one-man",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Gillian Anderson admits she went to gay bars as young as 12 with fake ID",
-      "display":"Gillian Anderson admits she went to gay bars as young as 12 with fake ID",
-      "url":"https://www.mirror.co.uk/3am/celebrity-news/gillian-anderson-relationship-gay-bars-37557337",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Is your partner micro-cheating? ROSIE GREEN reveals how to spot the signs",
-      "display":"Is your partner micro-cheating? ROSIE GREEN reveals how to spot the signs",
-      "url":"https://www.dailymail.com/lifestyle/article-16046571/Video-partner-micro-cheating-ROSIE-GREEN-reveals-spot-signs.html",
+      "text":"Married women share problems renewing Alberta driver’s licences",
+      "display":"Married women share problems renewing Alberta driver’s licences",
+      "url":"https://globalnews.ca/news/12019225/married-women-problems-alberta-drivers-licences",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-08-16T12:19:00Z"
+  "generated_utc":"2026-08-16T13:06:54Z"
 }
