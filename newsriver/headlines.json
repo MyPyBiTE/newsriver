@@ -1,8 +1,570 @@
 {
-  "generated_utc": "2026-08-17T20:37:20.071Z",
-  "itemset_hash": "2729e639d1784fcf",
+  "generated_utc": "2026-08-17T21:02:27.853Z",
+  "itemset_hash": "fc25bc905c953fa2",
   "count": 69,
   "items": [
+    {
+      "title": "Trump explodes at CNN reporter after question about young blonde aide who wrote him besotted letters",
+      "url": "https://www.dailymail.com/news/article-16059265/trump-cnn-reporter-natalie-harp.html",
+      "source": "Articles | Mail Online",
+      "published_utc": "2026-08-17T20:57:02.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Anthropic tells investors annualized revenue run rate climbed to $65 billion in July",
+      "url": "https://www.cnbc.com/2026/08/17/anthropic-says-annualized-revenue-climbed-to-65-billion-in-july.html",
+      "source": "US Top News and Analysis",
+      "published_utc": "2026-08-17T20:56:54.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Showtime! Buss Family Sells Remaining Lakers Stake To Bob Iger & Josh Kushner",
+      "url": "https://deadline.com/2026/08/lakers-iger-buss-family-stak-1237043368",
+      "source": "Deadline",
+      "published_utc": "2026-08-17T20:56:48.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Rory McIlroy feels ‘lost’ after dreadful FedEx Cup showing",
+      "url": "https://nypost.com/2026/08/17/sports/rory-mcilroy-feels-lost-after-dreadful-fedex-cup-showing",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-08-17T20:56:16.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Ariel Levy, a New Yorker Staff Writer, Joins ’60 Minutes’ as Contributor",
+      "url": "https://variety.com/2026/tv/news/ariel-levy-60-minutes-contributor-cbs-new-yorker-1236836716",
+      "source": "Variety",
+      "published_utc": "2026-08-17T20:55:45.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Peggy Webber, Prolific Radio Actress Who Worked for Orson Welles and Alfred Hitchcock on Film, Dies at 100",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/peggy-webber-dead-radio-actress-orson-welles-hitchcock-1236675526",
+      "source": "The Hollywood Reporter",
+      "published_utc": "2026-08-17T20:54:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "breaker"
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "‘Do as I say, not as I do’ Trump votes by mail after calling it a fraud",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-mail-in-voting-florida-primary-election-ballot-b3034535.html",
+      "source": "The Independent News",
+      "published_utc": "2026-08-17T20:52:05.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Rockies Designate Michael Lorenzen For Assignment",
+      "url": "https://www.mlbtraderumors.com/2026/08/rockies-designate-michael-lorenzen-for-assignment.html",
+      "source": "MLB Trade Rumors",
+      "published_utc": "2026-08-17T20:50:15.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Everything to know about Hayden Panettiere’s death: family ties, 911 audio, autopsy, tributes, more",
+      "url": "https://pagesix.com/video/everything-to-know-about-hayden-panettieres-death-family-ties-911-audio-autopsy-tributes-more",
+      "source": "New York Post",
+      "published_utc": "2026-08-17T20:50:02.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Yungblud Suffered What Should Be a Concert-Cancelling Injury But He’s Still Planning to Perform",
+      "url": "https://www.vice.com/en/article/yungblud-suffered-what-should-be-a-concert-cancelling-injury-but-hes-still-planning-to-perform",
+      "source": "English - VICE",
+      "published_utc": "2026-08-17T20:49:27.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Paramount seeks $1.88 billion bond from state AGs to cover costs of WBD merger delay",
+      "url": "https://www.cnbc.com/2026/08/17/paramount-bond-merger-delay-costs.html",
+      "source": "US Top News and Analysis",
+      "published_utc": "2026-08-17T20:48:22.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Columbia House Is Finally Shutting Down",
+      "url": "https://stereogum.com/2508564/columbia-house-is-finally-shutting-down/news",
+      "source": "Stereogum",
+      "published_utc": "2026-08-17T20:47:31.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Paris Jackson Says She Underwent Electroconvulsive Therapy After Suicide Attempt",
+      "url": "https://www.tmz.com/2026/08/17/paris-jackson-talks-electroconvulsive-therapy",
+      "source": "TMZ.com",
+      "published_utc": "2026-08-17T20:46:18.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Peacock Launches Beta Rewards Program for Select Subscribers",
+      "url": "https://www.thewrap.com/industry-news/business/peacock-subscriber-rewards-program-beta-launch",
+      "source": "TheWrap",
+      "published_utc": "2026-08-17T20:45:59.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "Stephen A. Smith VS. NABJ: The ‘Thumbs Down’ Award Beef Explained",
+      "url": "https://newsone.com/6869481/stephen-a-smith-nabj-beef-explained",
+      "source": "NewsOne",
+      "published_utc": "2026-08-17T20:45:46.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Jeanine Pirro handed another big courtroom loss by judge who's tormented her",
+      "url": "https://www.rawstory.com/jeanine-pirro-vandalism",
+      "source": "Raw Story",
+      "published_utc": "2026-08-17T20:44:40.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "Faulty extension cord blamed for N.S. fire that killed 10K chickens",
+      "url": "https://globalnews.ca/news/12024524/chicken-farm-death-faulty-cord-nova-scotia",
+      "source": "globalnews.ca",
+      "published_utc": "2026-08-17T20:44:26.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "breaker"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "The Brother HL-L3280CDW Laser Printer Review: A Home Office Gem",
+      "url": "https://www.popularmechanics.com/technology/gear/a73454797/brother-hl-l3280cdw-laser-printer-review",
+      "source": "Latest Content - Popular Mechanics",
+      "published_utc": "2026-08-17T20:44:10.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Nick Reiner Frustrated By Lack of Access to $1.5 Million Trust as Star Lawyer Sits on Sidelines",
+      "url": "https://www.hollywoodreporter.com/news/general-news/nick-reiner-attorneys-trust-defense-attorney-1236675528",
+      "source": "The Hollywood Reporter",
+      "published_utc": "2026-08-17T20:43:48.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Lindsay Clancy's mom said she revealed dark thoughts of harming her children weeks before tragic killings: Live updates",
+      "url": "https://www.dailymail.com/news/article-16058283/lindsay-clancy-patrick-trial-children-parents-gofundme-case-live-updates.html",
+      "source": "Articles | Mail Online",
+      "published_utc": "2026-08-17T20:43:15.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Duane 'Keffe D' Davis faces life in jail as gang accused of 'planning' Tupac's murder",
+      "url": "https://www.mirror.co.uk/3am/celebrity-news/tupac-shakir-trial-keffe-d-37562459",
+      "source": "Mirror - mirror frontpage",
+      "published_utc": "2026-08-17T20:43:03.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Tragic Hayden Panettiere slurred her words and became emotional in final appearance before her death",
+      "url": "https://pagesix.com/2026/08/17/celebrity-news/hayden-panettiere-slurred-her-words-and-became-emotional-in-final-appearance-before-her-death",
+      "source": "New York Post",
+      "published_utc": "2026-08-17T20:42:49.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Diddy named in Tupac trial witness list as prosecutors claim rapper's murder was an 'act of revenge': Live updates",
+      "url": "https://www.dailymail.com/news/article-16058381/tupac-shakur-murder-trial-duane-keffe-davis-2026-live-updates.html",
+      "source": "Articles | Mail Online",
+      "published_utc": "2026-08-17T20:42:21.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "CONTEST: Win tickets to see Asake live at Place Bell on Aug. 23",
+      "url": "https://cultmtl.com/2026/08/contest-win-tickets-to-see-asake-live-at-place-bell-on-aug-23",
+      "source": "Cult MTL",
+      "published_utc": "2026-08-17T20:42:06.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Will Green Day ever make the ‘American Idiot’ movie or a full biopic? Tré Cool responds",
+      "url": "https://www.nme.com/news/music/will-green-day-ever-make-the-american-idiot-movie-or-a-full-biopic-tre-cool-responds-3963272",
+      "source": "NME",
+      "published_utc": "2026-08-17T20:41:48.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "Trump’s approval rating sinks to new low",
+      "url": "https://www.aljazeera.com/economy/2026/8/17/trumps-approval-rating-sinks-to-new-low?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-08-17T20:41:31.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Bethenny Frankel is ‘flipping out’ over this root touch-up kit: ‘Best hair color I’ve ever done’",
+      "url": "https://pagesix.com/2026/08/17/style/bethenny-frankel-dphue-root-touch-up-hair-kit",
+      "source": "New York Post",
+      "published_utc": "2026-08-17T20:41:27.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Chris Hansen Questions “Hollywood’s Motive” With ‘Primetime,’ Says He’d Have Cast Denis Leary",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/chris-hansen-primetime-movie-reaction-1236675459",
+      "source": "The Hollywood Reporter",
+      "published_utc": "2026-08-17T20:40:48.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Motorcyclist seriously injured in Hwy. 401 crash, eastbound express lanes closed in Mississauga",
+      "url": "https://toronto.citynews.ca/2026/08/17/motorcyclist-seriously-injured-in-hwy-401-crash-eastbound-express-lanes-closed-in-mississauga",
+      "source": "CityNews Toronto",
+      "published_utc": "2026-08-17T20:40:32.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Local",
+      "region": "Canada"
+    },
+    {
+      "title": "‘Best’ Death in Paradise detective returns two years after exit",
+      "url": "https://www.mirror.co.uk/tv/tv-news/best-death-paradise-detective-returns-37562446",
+      "source": "Mirror - mirror frontpage",
+      "published_utc": "2026-08-17T20:39:27.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Trump Administration Announces New \"Hacking Back\" Program",
+      "url": "https://reason.com/volokh/2026/08/17/trump-administration-announces-new-hacking-back-program",
+      "source": "Reason.com",
+      "published_utc": "2026-08-17T20:38:34.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Wetherspoons bans customers from playing music and taking calls on speaker",
+      "url": "https://www.independent.co.uk/news/business/tim-martin-wetherspoons-sadiq-khan-british-muswell-hill-b3034541.html",
+      "source": "The Independent News",
+      "published_utc": "2026-08-17T20:37:47.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Blake Levin Joins Independent Artist Group As Head Of Media Finance & Sales",
+      "url": "https://deadline.com/2026/08/blake-levin-joins-iag-media-finance-role-1237043412",
+      "source": "Deadline",
+      "published_utc": "2026-08-17T20:37:20.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Culture",
+      "region": "World"
+    },
+    {
+      "title": "What We Miss When We Mistake the Virtual for the Actual",
+      "url": "https://www.psychologytoday.com/ca/blog/life-gets-better/202608/what-we-miss-when-we-mistake-the-virtual-for-the-actual",
+      "source": "Psychology Today: The Latest",
+      "published_utc": "2026-08-17T20:36:40.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Youth",
+      "region": "World"
+    },
+    {
+      "title": "NFL insider reveals why Aaron Donald keeps having Rams workouts",
+      "url": "https://nypost.com/2026/08/17/sports/aaron-donald-workouts-with-rams-are-to-see-how-he-acclimates",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-08-17T20:36:25.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Diamondbacks Designate Andrew Hoffmann For Assignment",
+      "url": "https://www.mlbtraderumors.com/2026/08/diamondbacks-designate-andrew-hoffmann-for-assignment.html",
+      "source": "MLB Trade Rumors",
+      "published_utc": "2026-08-17T20:35:46.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Liverpool reach agreement with PSG star as attacking double deal takes shape",
+      "url": "https://www.mirror.co.uk/sport/football/transfer-news/liverpool-transfer-latest-ibrahim-mbaye-37562368",
+      "source": "Mirror - mirror frontpage",
+      "published_utc": "2026-08-17T20:34:44.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "LIV Golf’s long-imperiled season mercifully ending early",
+      "url": "https://nypost.com/2026/08/17/sports/liv-golfs-long-imperiled-season-mercifully-ending-early",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-08-17T20:34:23.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Saskatoon zoo’s beloved grizzly bear euthanized following a decline in health",
+      "url": "https://globalnews.ca/news/12024456/saskatoon-zoo-grizzly-bear-dies",
+      "source": "globalnews.ca",
+      "published_utc": "2026-08-17T20:34:10.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "Modern Surveillance State Grows Into Dystopian Band-Aid For Much Deeper Wound",
+      "url": "https://dailycaller.com/2026/08/17/modern-surveillance-state-flock-safety-cameras-ai-data-centers-globalization-turning-point-future",
+      "source": "The Daily Caller",
+      "published_utc": "2026-08-17T20:33:42.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
     {
       "title": "Theo Von Takes Break From Field of Dreams Game to Talk Road Trips, Staying Healthy And Loving Iowa",
       "url": "https://www.hollywoodreporter.com/news/general-news/theo-von-interview-netflix-stand-up-last-weekend-podcast-1236674658",
@@ -21,6 +583,19 @@
       "url": "https://www.thewrap.com/industry-news/business/buss-family-lakers-stake-bob-iger-josh-kushner",
       "source": "TheWrap",
       "published_utc": "2026-08-17T20:32:36.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Defense contractor L3Harris ousts CEO Chris Kubasik over unspecified 'conduct,' stock drops 4%",
+      "url": "https://www.cnbc.com/2026/08/17/l3harris-ceo-chris-kubasik-lhx-defense-mehta.html",
+      "source": "US Top News and Analysis",
+      "published_utc": "2026-08-17T20:32:15.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -163,17 +738,14 @@
       "region": "World"
     },
     {
-      "title": "Diddy named in Tupac trial witness list as prosecutors claim rapper's murder was an 'act of revenge': Live updates",
-      "url": "https://www.dailymail.com/news/article-16058381/tupac-shakur-murder-trial-duane-keffe-davis-2026-live-updates.html",
+      "title": "Norway's King Harald is rushed to hospital 'with shortness of breath': Monarch, 89, 'put on sick leave', palace says",
+      "url": "https://www.dailymail.com/news/royals/article-16059207/Norways-King-Harald-rushed-hospital.html",
       "source": "Articles | Mail Online",
-      "published_utc": "2026-08-17T20:27:11.000Z",
+      "published_utc": "2026-08-17T20:27:08.000Z",
       "effects": {
-        "lightsaber": true,
+        "lightsaber": false,
         "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "breaker"
+        "reasons": []
       },
       "category": "General",
       "region": "World"
@@ -195,19 +767,6 @@
       "region": "Canada"
     },
     {
-      "title": "Norway's King Harald is rushed to hospital 'with shortness of breath': Monarch, 89, 'put on sick leave', palace says",
-      "url": "https://www.dailymail.com/news/royals/article-16059207/Norways-King-Harald-rushed-hospital.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-08-17T20:27:08.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
       "title": "Transfer news LIVE: Bruno Fernandes Man Utd bid, Liverpool's new Barcola offer, Osimhen to Arsenal",
       "url": "https://www.mirror.co.uk/sport/football/transfer-news/manchester-united-arsenal-transfers-live-37556784",
       "source": "Mirror - mirror frontpage",
@@ -221,23 +780,23 @@
       "region": "World"
     },
     {
-      "title": "Taylor Sheridan’s ‘Lioness’ Criticized by Real Operatives It’s Based On: ‘Took Our History and Corrupted It’",
-      "url": "https://www.thewrap.com/creative-content/tv-shows/real-life-lioness-operatives-taylor-sheridan-took-our-history",
-      "source": "TheWrap",
-      "published_utc": "2026-08-17T20:25:00.000Z",
+      "title": "What Is Your Procrastination Trying to Protect You From?",
+      "url": "https://www.psychologytoday.com/ca/blog/the-compassionate-brain/202608/what-is-your-procrastination-trying-to-protect-you-from",
+      "source": "Psychology Today: The Latest",
+      "published_utc": "2026-08-17T20:25:35.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
         "reasons": []
       },
-      "category": "General",
+      "category": "Youth",
       "region": "World"
     },
     {
-      "title": "Connie Britton reacts to ‘Nashville’ co-star Hayden Panettiere’s heartbreaking death",
-      "url": "https://pagesix.com/2026/08/17/celebrity-news/connie-britton-reacts-to-nashville-co-star-hayden-panettieres-heartbreaking-death",
-      "source": "New York Post",
-      "published_utc": "2026-08-17T20:24:37.000Z",
+      "title": "Taylor Sheridan’s ‘Lioness’ Criticized by Real Operatives It’s Based On: ‘Took Our History and Corrupted It’",
+      "url": "https://www.thewrap.com/creative-content/tv-shows/real-life-lioness-operatives-taylor-sheridan-took-our-history",
+      "source": "TheWrap",
+      "published_utc": "2026-08-17T20:25:00.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -302,16 +861,16 @@
       "region": "World"
     },
     {
-      "title": "Wetherspoons bans customers from playing music and taking calls on speaker",
-      "url": "https://www.independent.co.uk/news/business/tim-martin-wetherspoons-british-press-association-b3034541.html",
-      "source": "The Independent News",
-      "published_utc": "2026-08-17T20:22:39.000Z",
+      "title": "The Moon's shadow raced across the heart of Spain, and I was there to see it",
+      "url": "https://arstechnica.com/space/2026/08/the-moons-shadow-raced-across-the-heart-of-spain-and-i-was-there-to-see-it",
+      "source": "Science - Ars Technica",
+      "published_utc": "2026-08-17T20:23:09.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
         "reasons": []
       },
-      "category": "General",
+      "category": "Youth",
       "region": "World"
     },
     {
@@ -354,7 +913,7 @@
         "reasons": [
           "score≥2.1"
         ],
-        "style": "breaker"
+        "style": "glitch"
       },
       "category": "General",
       "region": "World"
@@ -386,7 +945,7 @@
       "region": "World"
     },
     {
-      "title": "MUNA on their love of ADÉLA and recording Dancing On The Wall",
+      "title": "MUNA love ADÉLA and hate AI music",
       "url": "https://www.thefader.com/2026/08/17/muna-on-adela-dancing-on-the-wall",
       "source": "The FADER",
       "published_utc": "2026-08-17T20:20:45.000Z",
@@ -397,575 +956,17 @@
       },
       "category": "Culture",
       "region": "World"
-    },
-    {
-      "title": "Maluma Announces Plans to Take “Loco X Volver” Around the World in 2027-2028",
-      "url": "https://consequence.net/2026/08/maluma-world-tour-2027-2028",
-      "source": "Consequence",
-      "published_utc": "2026-08-17T20:20:35.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "New Balance’s Slimmest Sneaker Gets Busy",
-      "url": "https://www.highsnobiety.com/p/size-new-balance-204l-sneakers",
-      "source": "Highsnobiety",
-      "published_utc": "2026-08-17T20:20:34.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Emmerdale fans 'work out' DS Ramsden's real identity - and why she's after the Tates",
-      "url": "https://www.mirror.co.uk/tv/tv-news/ds-ramsden-emmerdale-jean-tate-37562040",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-08-17T20:20:30.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Nancy Guthrie Case: Human Remains Found 15 Miles From Home Are Not Connected to Kidnapping, Police Say",
-      "url": "https://www.thewrap.com/industry-news/public-policy-legal/human-remains-tucson-not-connected-nancy-guthrie",
-      "source": "TheWrap",
-      "published_utc": "2026-08-17T20:20:24.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Royals Designate Starling Marte For Assignment",
-      "url": "https://www.mlbtraderumors.com/2026/08/royals-designate-starling-marte-for-assignment.html",
-      "source": "MLB Trade Rumors",
-      "published_utc": "2026-08-17T20:20:18.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "CNN Says White House’s Personal Attacks On Kristen Holmes Are “Beneath The Office” After Trump Fumed Over Her Questions",
-      "url": "https://deadline.com/2026/08/trump-yells-at-cnn-reporter-north-korea-1237043330",
-      "source": "Deadline",
-      "published_utc": "2026-08-17T20:19:11.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Late-night host torches Hegseth over USS Lincoln with ‘American Horror Story’ analogy",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/john-oliver-uss-lincoln-hegseth-b3034508.html",
-      "source": "The Independent News",
-      "published_utc": "2026-08-17T20:18:45.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Trump administration pauses border wall construction in Big Bend National Park",
-      "url": "https://www.independent.co.uk/news/world/americas/big-bend-national-park-border-texas-trump-b3034531.html",
-      "source": "The Independent News",
-      "published_utc": "2026-08-17T20:18:42.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "This R-Rated Film Studio Wants to Be the HBO of AI",
-      "url": "https://www.wired.com/story/this-r-rated-film-studio-wants-to-be-the-hbo-of-ai",
-      "source": "WIRED",
-      "published_utc": "2026-08-17T20:18:17.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "President Trump Hosts Teen Lifeguard and Boy He Rescued For White House Visit",
-      "url": "https://www.tmz.com/2026/08/17/viral-teen-lifeguard-ryder-williams-visits-white-house",
-      "source": "TMZ.com",
-      "published_utc": "2026-08-17T20:17:45.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "‘Ketticè’ Review: Luca Guadagnino-Produced Sicilian Teen Stoner Dramedy Suffers From a Lack of Spark",
-      "url": "https://www.hollywoodreporter.com/movies/movie-reviews/kettice-review-monica-bellucci-luca-guadagnino-1236673582",
-      "source": "The Hollywood Reporter",
-      "published_utc": "2026-08-17T20:17:39.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "How Knicks’ title run added chaos to Jordyn Woods and Karl-Anthony Towns’ wedding",
-      "url": "https://nypost.com/2026/08/17/sports/how-knicks-title-run-added-chaos-to-jordyn-woods-and-karl-anthony-towns-wedding",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2026-08-17T20:17:32.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "NASA Selects Companies to Provide Payload Processing Services",
-      "url": "https://www.nasa.gov/news-release/nasa-selects-companies-to-provide-payload-processing-services",
-      "source": "NASA",
-      "published_utc": "2026-08-17T20:17:20.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Youth",
-      "region": "World"
-    },
-    {
-      "title": "“Just Heartbreak”: Connie Britton Mourns ‘Nashville’ Co-Star Hayden Panettiere",
-      "url": "https://deadline.com/2026/08/connie-britton-tribute-hayden-panettiere-nashville-dead-1237043343",
-      "source": "Deadline",
-      "published_utc": "2026-08-17T20:17:17.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Culture",
-      "region": "Canada"
-    },
-    {
-      "title": "Inside Hayden Panettiere's toxic romance with Brian Hickerson: Her haunting words about the bloody beatings... and why she kept going back before fateful last trip with him",
-      "url": "https://www.dailymail.com/news/article-16058875/hayden-panettiere-dating-boyfriend-Brian-Hickerson-domestic-violence.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-08-17T20:17:04.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Coronor Overseeing Hayden Panettiere’s Autopsy Finds No Signs of Trauma",
-      "url": "https://www.hollywoodreporter.com/news/general-news/hayden-panettiere-autopsy-no-trauma-1236675193",
-      "source": "The Hollywood Reporter",
-      "published_utc": "2026-08-17T20:16:36.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "'Oh my god': Internet ridicules Trump's 'tantrum' after president loses it at reporter",
-      "url": "https://www.rawstory.com/trump-tantrum-2677717030",
-      "source": "Raw Story",
-      "published_utc": "2026-08-17T20:16:17.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Luigi Mangione’s state murder trial postponed indefinitely amid double jeopardy fight",
-      "url": "https://www.independent.co.uk/news/luigi-mangione-brian-thompson-manhattan-manhattan-district-attorney-new-york-b3034538.html",
-      "source": "The Independent News",
-      "published_utc": "2026-08-17T20:15:35.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Trump Shouts at CNN’s Kristen Holmes to ‘Be Quiet’ in Latest Clash With Female Journalist",
-      "url": "https://www.thewrap.com/media-platforms/journalism/trump-cnn-kristen-holmes-be-quiet-oval-office",
-      "source": "TheWrap",
-      "published_utc": "2026-08-17T20:15:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "The Receipts: Stephen A. Smith Earned That NABJ Thumbs Down Award [Op-Ed]",
-      "url": "https://newsone.com/6869445/stephen-a-smith-earned-nabj-thumbs-down-award",
-      "source": "NewsOne",
-      "published_utc": "2026-08-17T20:14:10.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Sanders proposes bill to stop Social Security benefit garnishment for unpaid student loans",
-      "url": "https://www.cnbc.com/2026/08/17/bernie-sanders-social-security-garnishment-student-loans.html",
-      "source": "US Top News and Analysis",
-      "published_utc": "2026-08-17T20:13:27.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Gianni Infantino SACKS FIFA executive after criticism under-fire president",
-      "url": "https://www.mirror.co.uk/sport/football/news/gianni-infantino-fifa-kevin-lamour-37562373",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-08-17T20:13:21.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Calgary’s Max Bell Park and pathway being redeveloped, city seeks feedback",
-      "url": "https://globalnews.ca/news/12024261/calgary-max-bell-park-and-pathway-redevelopment",
-      "source": "globalnews.ca",
-      "published_utc": "2026-08-17T20:13:03.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "The 9 Best Multitools for Fixing Things in a Pinch",
-      "url": "https://www.popularmechanics.com/home/tools/reviews/g2962/best-new-multitools",
-      "source": "Latest Content - Popular Mechanics",
-      "published_utc": "2026-08-17T20:13:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Dodgers offense remains stuck in neutral as losses to playoff teams mount",
-      "url": "https://nypost.com/2026/08/17/sports/dodgers-offense-stuck-in-neutral-playoff-positioning-in-jeopardy",
-      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2026-08-17T20:12:57.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "Awareness of AI Doesn't Fail. It's Never Been Tested",
-      "url": "https://www.psychologytoday.com/ca/blog/human-centered-technology/202608/awareness-of-ai-doesnt-fail-its-never-been-tested",
-      "source": "Psychology Today: The Latest",
-      "published_utc": "2026-08-17T20:12:55.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Youth",
-      "region": "World"
-    },
-    {
-      "title": "Peacock Launches Test of Membership Rewards Program With Perks Including NBCU and Bravo Merch Discounts, Free Pizzas",
-      "url": "https://variety.com/2026/tv/news/peacock-test-membership-rewards-program-discounts-free-pizzas-1236836638",
-      "source": "Variety",
-      "published_utc": "2026-08-17T20:12:08.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "Hayden Panettiere dies aged 36: Cause of death update after autopsy",
-      "url": "https://www.mirror.co.uk/3am/celebrity-news/hayden-panettiere-dies-aged-36-37559059",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-08-17T20:12:05.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Victoria Beckham's hairstylist backs £10 buy for damage-free 'wow' blonde hair",
-      "url": "https://www.mirror.co.uk/money/shopping-deals/jerome-russell-bblonde-hair-lightener-37559636",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-08-17T20:11:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Why Patients Decline Effective Therapy",
-      "url": "https://www.psychologytoday.com/ca/blog/understanding-hypnosis/202607/why-patients-decline-effective-therapy",
-      "source": "Psychology Today: The Latest",
-      "published_utc": "2026-08-17T20:10:55.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Youth",
-      "region": "World"
-    },
-    {
-      "title": "‘My Life With The Walter Boys’ Star Nikki Rodriguez Signs With Independent Artist Group",
-      "url": "https://deadline.com/2026/08/my-life-with-the-walter-boys-nikki-rodriguez-signs-iag-1237043316",
-      "source": "Deadline",
-      "published_utc": "2026-08-17T20:10:22.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "Nancy Guthrie Development, Bones Located Near Home Not Connected",
-      "url": "https://www.tmz.com/2026/08/17/nancy-guthrie-not-connected-to-human-remains-in-desert",
-      "source": "TMZ.com",
-      "published_utc": "2026-08-17T20:10:10.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Trump aide Natalie Harp is given cutting new nickname as unearthed video reveals a key way she serves him",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-natalie-harp-new-nickname-b3034437.html",
-      "source": "The Independent News",
-      "published_utc": "2026-08-17T20:09:24.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Hijabs fly as Somali women have vicious cat fight inside Target store",
-      "url": "https://www.dailymail.com/news/article-16058153/somali-women-fight-target-hijab.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-08-17T20:09:17.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "‘The End of Oak Street’ Just Exposed Everything Stale About the ‘Jurassic’ Franchise",
-      "url": "https://www.hollywoodreporter.com/tv/tv-news/end-of-oak-street-vs-jurassic-franchise-1236675123",
-      "source": "The Hollywood Reporter",
-      "published_utc": "2026-08-17T20:08:19.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Supreme Court asked to review Texas law requiring the Ten Commandments in public schools",
-      "url": "https://toronto.citynews.ca/2026/08/17/supreme-court-asked-to-review-texas-law-requiring-the-ten-commandments-in-public-schools",
-      "source": "CityNews Toronto",
-      "published_utc": "2026-08-17T20:07:55.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Local",
-      "region": "Canada"
-    },
-    {
-      "title": "New Ontario cash bail requirements now in effect, advocates poised to file constitutional challenge",
-      "url": "https://toronto.citynews.ca/2026/08/17/ontario-cash-bail-requirements-court-challenge",
-      "source": "CityNews Toronto",
-      "published_utc": "2026-08-17T20:07:45.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Local",
-      "region": "Canada"
-    },
-    {
-      "title": "Urban explorer aged 17 met horrific fate after breaking into abandoned skyscraper whose stairwells did not have safety railings",
-      "url": "https://www.dailymail.com/news/article-16058327/Louisiana-boy-dies-fall-45-floor-building-Plaza-Tower-New-Orleans-drunk.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-08-17T20:07:40.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Diamondbacks Designate Andrew Hoffmann For Assignment",
-      "url": "https://www.mlbtraderumors.com/2026/08/diamondbacks-designate-andrew-hoffmann-for-assignment.html",
-      "source": "MLB Trade Rumors",
-      "published_utc": "2026-08-17T20:05:46.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
-    },
-    {
-      "title": "US school vaccination rates inch down yet again and exemptions reach record high",
-      "url": "https://www.independent.co.uk/news/donald-trump-cdc-new-york-experts-vaccines-b3034536.html",
-      "source": "The Independent News",
-      "published_utc": "2026-08-17T20:04:57.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
     }
   ],
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 1037,
-    "dedup_pass1": 1031,
+    "collected": 1055,
+    "dedup_pass1": 1047,
     "dedup_final": 320,
     "slow_domains": [
-      "cultmtl.com"
+      "cultmtl.com",
+      "theintercept.com"
     ],
     "timeouts": [
       "news.communitech.ca",
@@ -989,57 +990,57 @@
     ],
     "feed_times_sample": [
       {
-        "host": "toronto.citynews.ca",
-        "sec": 2.111,
-        "kept": 8
-      },
-      {
         "host": "www.labourstart.org",
-        "sec": 1.397,
+        "sec": 1.721,
         "kept": 0
       },
       {
+        "host": "toronto.citynews.ca",
+        "sec": 1.508,
+        "kept": 8
+      },
+      {
         "host": "globalnews.ca",
-        "sec": 0.454,
+        "sec": 0.472,
         "kept": 10
       },
       {
         "host": "www.mlbtraderumors.com",
-        "sec": 0.386,
-        "kept": 14
-      },
-      {
-        "host": "www.cp24.com",
-        "sec": 0.324,
+        "sec": 0.32,
         "kept": 14
       },
       {
         "host": "www.blogto.com",
-        "sec": 0.279,
-        "kept": 0
-      },
-      {
-        "host": "www.nhl.com",
-        "sec": 0.235,
-        "kept": 0
-      },
-      {
-        "host": "www.bls.gov",
-        "sec": 0.177,
+        "sec": 0.225,
         "kept": 0
       },
       {
         "host": "www.mlb.com",
-        "sec": 0.102,
+        "sec": 0.151,
         "kept": 14
       },
       {
+        "host": "www.cp24.com",
+        "sec": 0.132,
+        "kept": 14
+      },
+      {
+        "host": "www.bls.gov",
+        "sec": 0.131,
+        "kept": 0
+      },
+      {
+        "host": "www.nhl.com",
+        "sec": 0.094,
+        "kept": 0
+      },
+      {
         "host": "www.federalreserve.gov",
-        "sec": 0.102,
+        "sec": 0.066,
         "kept": 14
       }
     ],
-    "elapsed_sec": 334.99,
+    "elapsed_sec": 366.11,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1065,7 +1066,7 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 37,
+      "ps_fatal_hits": 38,
       "ps_injury_hits": 0,
       "market_btc_hits": 0,
       "market_index_hits": 0,
@@ -1073,15 +1074,15 @@
       "market_single_hits": 0,
       "agg_penalties": 0,
       "press_penalties": 0,
-      "preferred_bonus": 113,
+      "preferred_bonus": 127,
       "substack_tagged": 0,
       "sports_team_hits": 9,
       "sports_player_hits": 0,
-      "sports_result_win_hits": 25,
+      "sports_result_win_hits": 27,
       "sports_result_loss_hits": 2,
       "sports_evening_hits": 0,
       "sports_playoff_hits": 0,
-      "sports_focus_team_hits": 11,
+      "sports_focus_team_hits": 10,
       "sports_final_hits": 3,
       "sports_final_score_hits": 3,
       "hype_politics": 0,
@@ -1096,10 +1097,10 @@
       "business_am_hits": 0
     },
     "sanity_stats": {
-      "link_verification_fail": 20,
-      "soft_404_drops": 28,
+      "link_verification_fail": 19,
+      "soft_404_drops": 31,
       "max_age_drops": 0,
-      "min_age_drops": 1,
+      "min_age_drops": 0,
       "market_sanity_drops": 0,
       "backfill_steps_used": 0
     },
