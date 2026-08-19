@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Latest Blue Jays injuries & transactions",
-      "display":"Latest Blue Jays injuries & transactions",
-      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"Former MP Nate Erskine-Smith to enter Toronto city council race",
       "display":"Former MP Nate Erskine-Smith to enter Toronto city council race",
       "url":"https://globalnews.ca/news/12026332/nate-erskine-smith-toronto-city-council-run",
@@ -21,9 +11,19 @@
       }
     },
     {
-      "text":"Rep. Debbie Wasserman Schultz wins Florida House primary over indicted Dem Sheila Cherfilis-McCormick",
-      "display":"Rep. Debbie Wasserman Schultz wins Florida House primary over indicted Dem Sheila Cherfilis-McCormick",
-      "url":"https://nypost.com/2026/08/18/us-news/rep-debbie-wasserman-schultz-wins-florida-house-primary-over-indicted-dem-sheila-cherfilis-mccormick",
+      "text":"Vagrant accused of randomly stabbing NYC tourist at ‘murder McDonald’s’ charged with attempted murder",
+      "display":"Vagrant accused of randomly stabbing NYC tourist at ‘murder McDonald’s’ charged with attempted murder",
+      "url":"https://nypost.com/2026/08/18/us-news/vagrant-accused-of-randomly-stabbing-nyc-tourist-at-murder-mcdonalds-charged-with-attempted-murder",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Council try to block travellers from entering field with 'ring of steel' and use tractor to kick up dust and force caravans out",
+      "display":"Council try to block travellers from entering field with 'ring of steel' and use tractor to kick up dust and force caravans out",
+      "url":"https://www.dailymail.com/news/article-16060957/Travellers-field-Gosport-tractor-cloud-dust.html",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-08-18T23:55:47Z"
+  "generated_utc":"2026-08-19T00:44:02Z"
 }
