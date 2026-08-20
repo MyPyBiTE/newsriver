@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Trump's MAGA allies mock Harry and Meghan as report suggests President played a part in couple's decision to leave US",
-      "display":"Trump's MAGA allies mock Harry and Meghan as report suggests President played a part in couple's decision to leave US",
-      "url":"https://www.dailymail.com/news/article-16065463/harry-meghan-trump-maga-leaving-us.html",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Tempo eliminated from playoff contention with loss to Mystics",
+      "display":"Tempo eliminated from playoff contention with loss to Mystics",
+      "url":"https://toronto.citynews.ca/2026/08/19/tempo-eliminated-from-playoff-contention-with-loss-to-mystics",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Naomi Watts Set For Zurich’s Golden Eye Award",
-      "display":"Naomi Watts Set For Zurich’s Golden Eye Award",
-      "url":"https://deadline.com/2026/08/naomi-watts-zurich-film-festival-golden-eye-award-1237046058",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Transfer news LIVE: Man Utd poised for £65m signing, Arsenal deal agreed, Liverpool medical",
-      "display":"Transfer news LIVE: Man Utd poised for £65m signing, Arsenal deal agreed, Liverpool medical",
-      "url":"https://www.mirror.co.uk/sport/football/transfer-news/manchester-united-arsenal-liverpool-live-37571702",
+      "text":"Studies suggest public transit may improve health",
+      "display":"Studies suggest public transit may improve health",
+      "url":"https://globalnews.ca/news/12027732/studies-suggest-public-transit-improve-health",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-08-20T06:27:39Z"
+  "generated_utc":"2026-08-20T07:22:18Z"
 }
