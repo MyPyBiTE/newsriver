@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"‘It’s heartbreaking,’ says Ontario First Nation amid 2nd evacuation this summer",
-      "display":"‘It’s heartbreaking,’ says Ontario First Nation amid 2nd evacuation this summer",
-      "url":"https://globalnews.ca/news/12029157/second-evacuation-summer-ontario-first-nation",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"2nd-degree murder charge laid in death of 16-year-old girl at north Edmonton townhouse",
+      "display":"2nd-degree murder charge laid in death of 16-year-old girl at north Edmonton townhouse",
+      "url":"https://globalnews.ca/news/12028922/edmonton-homicide-charges-hairsine-shooting",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Some shoppers say ‘not a chance’ they’ll Buy American booze if Ontario brings it back",
-      "display":"Some shoppers say ‘not a chance’ they’ll Buy American booze if Ontario brings it back",
-      "url":"https://toronto.citynews.ca/2026/08/20/some-shoppers-say-not-a-chance-theyll-buy-american-booze-if-ontario-brings-it-back",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Sean McVay provides injury update on key Rams offensive lineman",
-      "display":"Sean McVay provides injury update on key Rams offensive lineman",
-      "url":"https://nypost.com/2026/08/20/sports/rams-keagen-trost-could-be-ready-for-week-1-sean-mcvay",
+      "text":"Halton police say alleged car thief used tracking devices to monitor, steal high-end vehicles",
+      "display":"Halton police say alleged car thief used tracking devices to monitor, steal high-end vehicles",
+      "url":"https://toronto.citynews.ca/2026/08/20/halton-police-say-alleged-car-thief-used-tracking-devices-to-monitor-steal-high-end-vehicles",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-08-20T21:40:26Z"
+  "generated_utc":"2026-08-20T21:59:22Z"
 }
