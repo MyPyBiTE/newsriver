@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Second overnight shooting reported in Rexdale neighbourhood this week",
-      "display":"Second overnight shooting reported in Rexdale neighbourhood this week",
-      "url":"https://toronto.citynews.ca/2026/08/20/rexdale-shooting-upper-humber-drive-toronto-police",
+      "text":"Max Scherzer loses it after Blue Jays outfielder inexplicably misplays fly ball in game-changing mistake",
+      "display":"Max Scherzer loses it after Blue Jays outfielder inexplicably misplays fly ball in game-changing mistake",
+      "url":"https://nypost.com/2026/08/20/sports/max-scherzer-loses-it-after-blue-jays-outfielder-inexplicably-misplays-fly-ball",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Motorcycle rider pronounced dead after crash in Toronto",
+      "display":"Motorcycle rider pronounced dead after crash in Toronto",
+      "url":"https://globalnews.ca/news/12028138/toronto-sheppard-grand-river-motorcycle-crash",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Prince Harry hinted at UK return — and why he felt ‘drawn to come back’ — before bombshell moving news",
-      "display":"Prince Harry hinted at UK return — and why he felt ‘drawn to come back’ — before bombshell moving news",
-      "url":"https://pagesix.com/2026/08/20/royal-family/prince-harry-hinted-at-uk-return-felt-drawn-to-come-back-before-moving-news",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Charter Closes $34.5 Billion Cox Deal in Cable Megamerger, Company to Adopt Cox Communications Name",
-      "display":"Charter Closes $34.5 Billion Cox Deal in Cable Megamerger, Company to Adopt Cox Communications Name",
-      "url":"https://variety.com/2026/tv/news/charter-closes-cox-merger-new-company-name-1236838902",
+      "text":"Heavy rain and thunderstorms possible Saturday as Toronto heads into a mixed weekend forecast",
+      "display":"Heavy rain and thunderstorms possible Saturday as Toronto heads into a mixed weekend forecast",
+      "url":"https://toronto.citynews.ca/2026/08/20/toronto-weather-weekend-forecast-rain",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-08-20T12:26:53Z"
+  "generated_utc":"2026-08-20T13:25:58Z"
 }
