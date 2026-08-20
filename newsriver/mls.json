@@ -76,7 +76,7 @@
               "team": {
                 "abbreviation": "CIN"
               },
-              "score": 1
+              "score": 2
             }
           }
         },
@@ -84,12 +84,12 @@
           "gamePk": "761729",
           "gameDate": "2026-08-19T23:30Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "2nd",
+            "currentQuarter": "2nd"
           },
           "teams": {
             "away": {
@@ -102,7 +102,7 @@
               "team": {
                 "abbreviation": "ORL"
               },
-              "score": 0
+              "score": 1
             }
           }
         },
@@ -148,7 +148,7 @@
               "team": {
                 "abbreviation": "NSH"
               },
-              "score": 0
+              "score": 1
             },
             "home": {
               "team": {
@@ -180,7 +180,7 @@
               "team": {
                 "abbreviation": "TOR"
               },
-              "score": 2
+              "score": 3
             }
           }
         },
@@ -206,7 +206,7 @@
               "team": {
                 "abbreviation": "SKC"
               },
-              "score": 0
+              "score": 1
             }
           }
         },
@@ -226,13 +226,13 @@
               "team": {
                 "abbreviation": "ATL"
               },
-              "score": 1
+              "score": 2
             },
             "home": {
               "team": {
                 "abbreviation": "MIN"
               },
-              "score": 0
+              "score": 1
             }
           }
         },
@@ -258,7 +258,7 @@
               "team": {
                 "abbreviation": "COL"
               },
-              "score": 0
+              "score": 1
             }
           }
         },
@@ -278,13 +278,13 @@
               "team": {
                 "abbreviation": "DAL"
               },
-              "score": 0
+              "score": 3
             },
             "home": {
               "team": {
                 "abbreviation": "RSL"
               },
-              "score": 0
+              "score": 1
             }
           }
         },
