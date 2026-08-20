@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"New poll has Chow with 11-point lead over Bradford among decided voters in Toronto",
-      "display":"New poll has Chow with 11-point lead over Bradford among decided voters in Toronto",
-      "url":"https://toronto.citynews.ca/2026/08/20/olivia-chow-brad-bradford-toronto-mayor-poll",
+      "text":"Blue Jays’ Brett Bateman exits game vs. Rays with hamstring tightness",
+      "display":"Blue Jays’ Brett Bateman exits game vs. Rays with hamstring tightness",
+      "url":"https://toronto.citynews.ca/2026/08/20/brett-bateman-toronto-blue-jays-hamstring-injury",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Dr Amir Khan high cholesterol message to people on statins as thousands affected",
+      "display":"Dr Amir Khan high cholesterol message to people on statins as thousands affected",
+      "url":"https://www.mirror.co.uk/news/health/dr-amir-khan-high-cholesterol-37572708",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Somali pirate menace returns as U.S.-Iran war stokes regional chaos and saps enforcement resources",
-      "display":"Somali pirate menace returns as U.S.-Iran war stokes regional chaos and saps enforcement resources",
-      "url":"https://www.cnbc.com/2026/08/20/somali-pirates-return-iran-war.html",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"One in five GCSE entries get top marks as grades rise for second year in a row - but pass rates for English and maths fall once again to lowest level in a decade",
-      "display":"One in five GCSE entries get top marks as grades rise for second year in a row - but pass rates for English and maths fall once again to lowest level in a decade",
-      "url":"https://www.dailymail.com/news/article-16064021/GCSE-students-grades-rise.html",
+      "text":"Alibaba shares fall 4% as AI spending drives 75% drop in net income",
+      "display":"Alibaba shares fall 4% as AI spending drives 75% drop in net income",
+      "url":"https://www.cnbc.com/2026/08/20/alibaba-cloud-revenue.html",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-08-20T09:56:47Z"
+  "generated_utc":"2026-08-20T10:22:53Z"
 }
