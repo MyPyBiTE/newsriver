@@ -84,19 +84,19 @@
           "gamePk": "761729",
           "gameDate": "2026-08-19T23:30Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
           },
           "linescore": {
-            "currentPeriodOrdinal": "2nd",
-            "currentQuarter": "2nd"
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "CHI"
               },
-              "score": 1
+              "score": 2
             },
             "home": {
               "team": {
@@ -284,7 +284,7 @@
               "team": {
                 "abbreviation": "RSL"
               },
-              "score": 1
+              "score": 3
             }
           }
         },
@@ -304,7 +304,7 @@
               "team": {
                 "abbreviation": "ATX"
               },
-              "score": 0
+              "score": 2
             },
             "home": {
               "team": {
@@ -356,13 +356,13 @@
               "team": {
                 "abbreviation": "SD"
               },
-              "score": 0
+              "score": 1
             },
             "home": {
               "team": {
                 "abbreviation": "POR"
               },
-              "score": 0
+              "score": 1
             }
           }
         },
@@ -382,7 +382,7 @@
               "team": {
                 "abbreviation": "HOU"
               },
-              "score": 0
+              "score": 1
             },
             "home": {
               "team": {
