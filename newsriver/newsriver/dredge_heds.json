@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"ICE arrests captain of boat that capsized in New York, killing woman and baby",
-      "display":"ICE arrests captain of boat that capsized in New York, killing woman and baby",
-      "url":"https://globalnews.ca/news/12028470/ice-arrests-captain-of-capsized-boat-new-york",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Canadian travel to the U.S. increases for 3rd month in a row",
+      "display":"Canadian travel to the U.S. increases for 3rd month in a row",
+      "url":"https://globalnews.ca/news/12028496/canada-us-travel-numbers-june",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"How an Indie Studio Convinced ‘Naruto’ Creator, TV Tokyo to Let Them Make Franchise’s First Licensed Digital Card Game (EXCLUSIVE)",
-      "display":"How an Indie Studio Convinced ‘Naruto’ Creator, TV Tokyo to Let Them Make Franchise’s First Licensed Digital Card Game (EXCLUSIVE)",
-      "url":"https://variety.com/2026/gaming/news/naruto-digital-card-game-sekai-tv-tokyo-1236839122",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Colman Domingo Limited Series ‘The Headlands House’ Lands at Netflix",
-      "display":"Colman Domingo Limited Series ‘The Headlands House’ Lands at Netflix",
-      "url":"https://www.thewrap.com/creative-content/tv-shows/colman-domingo-limited-series-the-headlands-house-in-development-netflix",
+      "text":"WSIB cuts 466 jobs across Ontario in ‘difficult business decision’",
+      "display":"WSIB cuts 466 jobs across Ontario in ‘difficult business decision’",
+      "url":"https://toronto.citynews.ca/2026/08/20/wsib-cuts-466-jobs-across-ontario-in-difficult-business-decision",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-08-20T19:08:30Z"
+  "generated_utc":"2026-08-20T19:43:06Z"
 }
