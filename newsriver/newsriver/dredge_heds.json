@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"U.S. alcohol may go back on Manitoba shelves, but Kinew urges customers to buy Canadian",
-      "display":"U.S. alcohol may go back on Manitoba shelves, but Kinew urges customers to buy Canadian",
-      "url":"https://globalnews.ca/news/12029080/american-alcohol-manitoba-shelves-kinew-buy-canadian",
+      "text":"Watch LIVE as Blue Jays' High-A talent takes the field",
+      "display":"Watch LIVE as Blue Jays' High-A talent takes the field",
+      "url":"https://www.mlb.com/bluejays/news/watch-minor-league-baseball-games-for-free-2026",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"One dead as plane makes emergency landing on B.C. road, crashing into cars",
+      "display":"One dead as plane makes emergency landing on B.C. road, crashing into cars",
+      "url":"https://toronto.citynews.ca/2026/08/20/one-dead-as-plane-makes-emergency-landing-on-b-c-road-crashing-into-cars",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Billy Bob Thornton Says ‘Hollywood Wasn’t Nice’ to Taylor Sheridan Before Texas Accepted Him",
-      "display":"Billy Bob Thornton Says ‘Hollywood Wasn’t Nice’ to Taylor Sheridan Before Texas Accepted Him",
-      "url":"https://www.thewrap.com/media-platforms/tv/billy-bob-thornton-hollywood-did-not-accept-taylor-sheridan",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"George Conway roasts Michael Cohen's 'narcissistic lovefest' with Trump on CNN: 'Comical'",
-      "display":"George Conway roasts Michael Cohen's 'narcissistic lovefest' with Trump on CNN: 'Comical'",
-      "url":"https://www.rawstory.com/trump-michael-cohen-2677741607",
+      "text":"Summerland businesses face another blow as water advisory keeps doors closed",
+      "display":"Summerland businesses face another blow as water advisory keeps doors closed",
+      "url":"https://globalnews.ca/news/12029508/summerland-businesses-boil-water-advisory",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-08-21T02:12:07Z"
+  "generated_utc":"2026-08-21T03:14:42Z"
 }
