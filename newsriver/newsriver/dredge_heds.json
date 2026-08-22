@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Vlad Jr. returns from IL as Blue Jays continue pivotal series vs. Yanks",
-      "display":"Vlad Jr. returns from IL as Blue Jays continue pivotal series vs. Yanks",
-      "url":"https://www.mlb.com/bluejays/news/vladimir-guerrero-jr-concussion-il-blue-jays-return",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"U.S.-Canada trade talks have collapsed. Carney says these 3 issues torpedoed them",
       "display":"U.S.-Canada trade talks have collapsed. Carney says these 3 issues torpedoed them",
       "url":"https://globalnews.ca/news/12031459/united-states-canada-trade-talks-issues",
@@ -21,9 +11,19 @@
       }
     },
     {
-      "text":"Canada’s premiers react to U.S. trade war with calls for unity and economic support",
-      "display":"Canada’s premiers react to U.S. trade war with calls for unity and economic support",
-      "url":"https://toronto.citynews.ca/2026/08/22/canadas-premiers-react-to-u-s-trade-war-with-calls-for-unity-and-economic-support",
+      "text":"Defiant David Sullivan continues to ignore calls to stay away from West Ham matches after allegations of sexual misconduct",
+      "display":"Defiant David Sullivan continues to ignore calls to stay away from West Ham matches after allegations of sexual misconduct",
+      "url":"https://www.dailymail.com/news/article-16072433/David-Sullivan-ignores-calls-stay-away-West-Ham-matches.html",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Taylor Sheridan Accused of Stealing ‘Yellowstone’ From 2016 Pitch in Copyright Lawsuit",
+      "display":"Taylor Sheridan Accused of Stealing ‘Yellowstone’ From 2016 Pitch in Copyright Lawsuit",
+      "url":"https://variety.com/2026/tv/news/taylor-sheridan-accused-stealing-yellowstone-lawsuit-1236840854",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-08-22T19:55:30Z"
+  "generated_utc":"2026-08-22T20:12:12Z"
 }
