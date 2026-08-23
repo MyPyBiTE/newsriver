@@ -284,7 +284,7 @@
               "team": {
                 "abbreviation": "LAFC"
               },
-              "score": 0
+              "score": 1
             }
           }
         },
@@ -310,7 +310,7 @@
               "team": {
                 "abbreviation": "SD"
               },
-              "score": 2
+              "score": 3
             }
           }
         },
@@ -318,19 +318,19 @@
           "gamePk": "761752",
           "gameDate": "2026-08-23T02:30Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
           },
           "linescore": {
-            "currentPeriodOrdinal": "2nd",
-            "currentQuarter": "2nd"
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "MIN"
               },
-              "score": 3
+              "score": 5
             },
             "home": {
               "team": {
