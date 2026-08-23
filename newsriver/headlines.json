@@ -1,8 +1,37 @@
 {
-  "generated_utc": "2026-08-23T04:24:42.721Z",
-  "itemset_hash": "ddb2fa595d66cd7b",
+  "generated_utc": "2026-08-23T05:00:43.897Z",
+  "itemset_hash": "13df1408562a80c3",
   "count": 69,
   "items": [
+    {
+      "title": "How to Watch the 2026 MLB Little League Classic Online for Free",
+      "url": "https://www.rollingstone.com/product-recommendations/streaming/watch-2026-mlb-little-league-classic-online-free-streaming-1235613464",
+      "source": "Rolling Stone",
+      "published_utc": "2026-08-23T04:32:27.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "‘One Battle After Another,’ ‘Marty Supreme,’ ‘Pluribus’ Win Awards From Location Managers Guild",
+      "url": "https://www.thewrap.com/industry-news/awards/one-battle-after-another-pluribus-win-lgmi-awards",
+      "source": "TheWrap",
+      "published_utc": "2026-08-23T04:22:34.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
     {
       "title": "Karoline Leavitt Announces Post-White House Job",
       "url": "https://deadline.com/2026/08/karoline-leavitt-post-white-house-job-1237048199",
@@ -63,6 +92,19 @@
       },
       "category": "Sports",
       "region": "Canada"
+    },
+    {
+      "title": "'We're not going to run from it': Sydney Marathon laughs off medal error",
+      "url": "https://www.bbc.co.uk/news/articles/cn4n4l1yyvro?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2026-08-23T03:44:19.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
     },
     {
       "title": "‘You just can’t trust Trump’: Canadian premiers fire back in trade war",
@@ -200,11 +242,8 @@
       "published_utc": "2026-08-23T02:34:49.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "General",
       "region": "Canada"
@@ -800,7 +839,7 @@
       "region": "World"
     },
     {
-      "title": "Iran warns nearby nations against joining US ‘economic war’ efforts",
+      "title": "Iran warns of retaliation against countries joining US ‘economic war’",
       "url": "https://www.aljazeera.com/news/2026/8/22/iran-warns-nearby-nations-against-joining-us-economic-war-efforts?traffic_source=rss",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
       "published_utc": "2026-08-22T23:26:15.000Z",
@@ -947,58 +986,17 @@
       },
       "category": "General",
       "region": "World"
-    },
-    {
-      "title": "Angels Place Nolan Schanuel, Wade Meckler On IL",
-      "url": "https://www.mlbtraderumors.com/2026/08/angels-place-nolan-schanuel-wade-meckler-on-il.html",
-      "source": "MLB Trade Rumors",
-      "published_utc": "2026-08-22T22:40:04.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Labour",
-      "region": "Canada"
-    },
-    {
-      "title": "Kid Cudi Preparing To Film “F*ckin Gnarly” Followup To Directorial Debut ‘Doe’, Both Set For 2027",
-      "url": "https://deadline.com/2026/08/kid-cudi-fckin-gnarly-followup-directorial-debut-1237048159",
-      "source": "Deadline",
-      "published_utc": "2026-08-22T22:30:41.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Tropical Storm Moke advances towards Hawaii with heavy rain, strong winds",
-      "url": "https://www.aljazeera.com/news/2026/8/22/tropical-storm-moke-advances-towards-hawaii-with-heavy-rain-strong-winds?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-08-22T22:29:07.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
     }
   ],
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 863,
-    "dedup_pass1": 847,
+    "collected": 887,
+    "dedup_pass1": 871,
     "dedup_final": 320,
     "slow_domains": [
       "cultmtl.com",
+      "theintercept.com",
       "urbantoronto.ca",
       "www.gorillavsbear.net"
     ],
@@ -1025,56 +1023,56 @@
     "feed_times_sample": [
       {
         "host": "toronto.citynews.ca",
-        "sec": 2.028,
+        "sec": 1.768,
         "kept": 8
       },
       {
         "host": "www.labourstart.org",
-        "sec": 1.637,
+        "sec": 1.318,
         "kept": 0
-      },
-      {
-        "host": "www.cp24.com",
-        "sec": 0.786,
-        "kept": 14
-      },
-      {
-        "host": "www.mlb.com",
-        "sec": 0.568,
-        "kept": 14
       },
       {
         "host": "globalnews.ca",
-        "sec": 0.505,
+        "sec": 0.497,
         "kept": 10
       },
       {
+        "host": "www.blogto.com",
+        "sec": 0.399,
+        "kept": 0
+      },
+      {
         "host": "www.mlbtraderumors.com",
-        "sec": 0.308,
+        "sec": 0.336,
         "kept": 14
       },
       {
-        "host": "www.blogto.com",
-        "sec": 0.222,
-        "kept": 0
+        "host": "www.cp24.com",
+        "sec": 0.333,
+        "kept": 14
       },
       {
         "host": "www.bls.gov",
-        "sec": 0.191,
+        "sec": 0.331,
         "kept": 0
       },
       {
+        "host": "www.mlb.com",
+        "sec": 0.229,
+        "kept": 14
+      },
+      {
         "host": "www.nhl.com",
-        "sec": 0.082,
+        "sec": 0.154,
         "kept": 0
       },
       {
         "host": "www.federalreserve.gov",
-        "sec": 0.053,
+        "sec": 0.137,
         "kept": 14
       }
     ],
-    "elapsed_sec": 313.22,
+    "elapsed_sec": 318.42,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1131,10 +1129,10 @@
       "business_am_hits": 0
     },
     "sanity_stats": {
-      "link_verification_fail": 48,
-      "soft_404_drops": 27,
+      "link_verification_fail": 45,
+      "soft_404_drops": 31,
       "max_age_drops": 0,
-      "min_age_drops": 1,
+      "min_age_drops": 0,
       "market_sanity_drops": 3,
       "backfill_steps_used": 0
     },
