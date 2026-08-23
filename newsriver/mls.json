@@ -174,13 +174,13 @@
               "team": {
                 "abbreviation": "CLB"
               },
-              "score": 1
+              "score": 2
             },
             "home": {
               "team": {
                 "abbreviation": "NSH"
               },
-              "score": 1
+              "score": 3
             }
           }
         },
@@ -200,13 +200,13 @@
               "team": {
                 "abbreviation": "HOU"
               },
-              "score": 0
+              "score": 1
             },
             "home": {
               "team": {
                 "abbreviation": "STL"
               },
-              "score": 1
+              "score": 2
             }
           }
         },
@@ -240,12 +240,12 @@
           "gamePk": "761749",
           "gameDate": "2026-08-23T01:30Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "2nd",
+            "currentQuarter": "2nd"
           },
           "teams": {
             "away": {
@@ -258,7 +258,7 @@
               "team": {
                 "abbreviation": "VAN"
               },
-              "score": 2
+              "score": 5
             }
           }
         },
@@ -278,7 +278,7 @@
               "team": {
                 "abbreviation": "POR"
               },
-              "score": 0
+              "score": 1
             },
             "home": {
               "team": {
@@ -292,12 +292,12 @@
           "gamePk": "761750",
           "gameDate": "2026-08-23T02:30Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
@@ -310,7 +310,7 @@
               "team": {
                 "abbreviation": "SD"
               },
-              "score": 0
+              "score": 1
             }
           }
         },
@@ -330,13 +330,13 @@
               "team": {
                 "abbreviation": "MIN"
               },
-              "score": 0
+              "score": 1
             },
             "home": {
               "team": {
                 "abbreviation": "SJ"
               },
-              "score": 0
+              "score": 1
             }
           }
         }
