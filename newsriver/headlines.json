@@ -1,8 +1,24 @@
 {
-  "generated_utc": "2026-08-22T23:45:18.884Z",
-  "itemset_hash": "e1959994b522f57c",
+  "generated_utc": "2026-08-23T00:02:51.265Z",
+  "itemset_hash": "be9de1e87c4d644b",
   "count": 69,
   "items": [
+    {
+      "title": "Advocates celebrate major 'victory' against Trump admin’s ‘unlawful and racist’ policy",
+      "url": "https://www.rawstory.com/immigration-2677759675",
+      "source": "Raw Story",
+      "published_utc": "2026-08-22T23:47:40.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
     {
       "title": "Bunny Levine, Former Librarian Turned Actress in ‘Gilmore Girls,’ Thelma’ and ‘You Don’t Mess With the Zohan,’ Dies at 97",
       "url": "https://www.hollywoodreporter.com/tv/tv-news/bunny-levine-dead-gilmore-girls-shameless-thelma-actress-1236679105",
@@ -139,11 +155,8 @@
       "published_utc": "2026-08-22T23:17:57.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "Labour",
       "region": "World"
@@ -502,6 +515,19 @@
       },
       "category": "Sports",
       "region": "Canada"
+    },
+    {
+      "title": "Syria says Israeli strike near Damascus violation of international law",
+      "url": "https://www.bbc.co.uk/news/articles/c2dkdegr2xeo?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News",
+      "published_utc": "2026-08-22T21:42:42.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Labour",
+      "region": "World"
     },
     {
       "title": "Hayden Panettiere's Mom Says She Pushed Cops to Investigate Death",
@@ -954,38 +980,6 @@
       },
       "category": "Labour",
       "region": "World"
-    },
-    {
-      "title": "Two Dead, Twelve Missing as Migrant Boat Capsizes Off Tunisian Coast",
-      "url": "https://www.breitbart.com/europe/2026/08/22/two-dead-twelve-missing-as-migrant-boat-capsizes-off-tunisian-coast",
-      "source": "Breitbart News",
-      "published_utc": "2026-08-22T20:23:02.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "breaker"
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Tigers Notes: Flaherty, Hurter, Meadows",
-      "url": "https://www.mlbtraderumors.com/2026/08/tigers-notes-flaherty-hurter-meadows.html",
-      "source": "MLB Trade Rumors",
-      "published_utc": "2026-08-22T20:10:22.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Sports",
-      "region": "Canada"
     }
   ],
   "_debug": {
@@ -1020,57 +1014,57 @@
     ],
     "feed_times_sample": [
       {
+        "host": "www.cp24.com",
+        "sec": 3,
+        "kept": 14
+      },
+      {
         "host": "toronto.citynews.ca",
-        "sec": 1.67,
+        "sec": 1.987,
         "kept": 8
       },
       {
         "host": "www.labourstart.org",
-        "sec": 1.399,
+        "sec": 1.854,
         "kept": 0
       },
       {
         "host": "globalnews.ca",
-        "sec": 0.537,
+        "sec": 0.451,
         "kept": 10
       },
       {
-        "host": "www.mlbtraderumors.com",
-        "sec": 0.246,
-        "kept": 14
-      },
-      {
         "host": "www.blogto.com",
-        "sec": 0.242,
+        "sec": 0.383,
         "kept": 0
       },
       {
-        "host": "www.cp24.com",
-        "sec": 0.239,
+        "host": "www.mlbtraderumors.com",
+        "sec": 0.32,
         "kept": 14
       },
       {
         "host": "www.bls.gov",
-        "sec": 0.17,
-        "kept": 0
-      },
-      {
-        "host": "www.nhl.com",
-        "sec": 0.163,
+        "sec": 0.159,
         "kept": 0
       },
       {
         "host": "www.mlb.com",
-        "sec": 0.109,
+        "sec": 0.148,
         "kept": 14
       },
       {
+        "host": "www.nhl.com",
+        "sec": 0.089,
+        "kept": 0
+      },
+      {
         "host": "www.federalreserve.gov",
-        "sec": 0.094,
+        "sec": 0.056,
         "kept": 14
       }
     ],
-    "elapsed_sec": 294.05,
+    "elapsed_sec": 312.56,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1127,7 +1121,7 @@
       "business_am_hits": 0
     },
     "sanity_stats": {
-      "link_verification_fail": 47,
+      "link_verification_fail": 46,
       "soft_404_drops": 27,
       "max_age_drops": 0,
       "min_age_drops": 0,
