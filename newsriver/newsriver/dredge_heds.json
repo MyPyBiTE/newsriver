@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Regina police arrest suspect charged with copper wire theft",
-      "display":"Regina police arrest suspect charged with copper wire theft",
-      "url":"https://globalnews.ca/news/12033013/arrest-copper-wire-theft-regina",
+      "text":"Lions Bay evacuation alert rescinded, Lone Tree Creek wildfire now being held",
+      "display":"Lions Bay evacuation alert rescinded, Lone Tree Creek wildfire now being held",
+      "url":"https://globalnews.ca/news/12033087/lions-bay-evacuation-alert-rescinded-wildfire-being-held",
+      "flags":{
+        "is_breaking":true,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"‘He’s a loser’: Ford and Trump exchange insults as bad blood from trade war spills over",
+      "display":"‘He’s a loser’: Ford and Trump exchange insults as bad blood from trade war spills over",
+      "url":"https://toronto.citynews.ca/2026/08/24/hes-a-loser-ford-and-trump-exchange-insults-as-bad-blood-from-trade-war-spills-over",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"New York’s AMC Kips Bay Movie Theater to Close at End of 2026",
-      "display":"New York’s AMC Kips Bay Movie Theater to Close at End of 2026",
-      "url":"https://variety.com/2026/film/news/amc-kips-bay-closing-new-york-movie-theater-1236841776",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"'Shocked' National Guard troops say Trump exploited them: 'Bad taste in my mouth'",
-      "display":"'Shocked' National Guard troops say Trump exploited them: 'Bad taste in my mouth'",
-      "url":"https://www.rawstory.com/dc-national-guard-2677769828",
+      "text":"Dave Franco Reveals the Hit Film Series He Thought Would End His Career",
+      "display":"Dave Franco Reveals the Hit Film Series He Thought Would End His Career",
+      "url":"https://www.thewrap.com/creative-content/movies/dave-franco-now-you-see-me-ruin-career",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-08-24T19:08:29Z"
+  "generated_utc":"2026-08-24T19:40:58Z"
 }
