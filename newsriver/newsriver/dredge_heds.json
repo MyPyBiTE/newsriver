@@ -1,8 +1,18 @@
 {
   "items":[
     {
-      "text":"‘A huge success’: Church-Wellesley community reflects on its street pedestrianization project",
-      "display":"‘A huge success’: Church-Wellesley community reflects on its street pedestrianization project",
+      "text":"Traffic controller in critical condition after being struck by a plane in Montreal",
+      "display":"Traffic controller in critical condition after being struck by a plane in Montreal",
+      "url":"https://globalnews.ca/news/12033868/traffic-controller-hit-plane-montreal",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"‘A huge success’: Community reflects on Church Street pedestrianization pilot project",
+      "display":"‘A huge success’: Community reflects on Church Street pedestrianization pilot project",
       "url":"https://toronto.citynews.ca/2026/08/24/a-huge-success-church-wellesley-community-reflects-on-its-street-pedestrianization-project",
       "flags":{
         "is_breaking":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Bear follows man, swipes at him on North Vancouver trail",
-      "display":"Bear follows man, swipes at him on North Vancouver trail",
-      "url":"https://globalnews.ca/news/12033692/bear-follows-man-swipes-him-north-vancouver-trail",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Freddie Freeman’s wife Chelsea looks healthy in white dress after hospital scare",
-      "display":"Freddie Freeman’s wife Chelsea looks healthy in white dress after hospital scare",
-      "url":"https://nypost.com/2026/08/24/sports/freddie-freemans-wife-chelsea-wears-white-dress-after-hospital-scare",
+      "text":"Data Centers Are Driving an Alarming Gas Power Expansion in the US",
+      "display":"Data Centers Are Driving an Alarming Gas Power Expansion in the US",
+      "url":"https://www.wired.com/story/us-data-centers-drive-gas-power-expansion",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-08-25T03:57:01Z"
+  "generated_utc":"2026-08-25T04:33:18Z"
 }
