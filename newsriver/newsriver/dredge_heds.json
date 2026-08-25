@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Trump wants to rename Lake Ontario. Here’s how the lake — and Ontario itself — actually came to be",
-      "display":"Trump wants to rename Lake Ontario. Here’s how the lake — and Ontario itself — actually came to be",
-      "url":"https://toronto.citynews.ca/2026/08/25/lake-ontario-donald-trump-lake-america-canada-us-tariffs",
+      "text":"With 30 games left, Blue Jays have no time to coast",
+      "display":"With 30 games left, Blue Jays have no time to coast",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-final-stretch-is-harder-than-it-seems",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"1 dead following Winnipeg house fire, foul play not suspected",
+      "display":"1 dead following Winnipeg house fire, foul play not suspected",
+      "url":"https://globalnews.ca/news/12034111/1-dead-winnipeg-house-fire",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Met Office issues thunderstorm warning for London with flooding fears as two inches of rain set to fall on parched ground in just two hours",
-      "display":"Met Office issues thunderstorm warning for London with flooding fears as two inches of rain set to fall on parched ground in just two hours",
-      "url":"https://www.dailymail.com/news/article-16077913/Met-Office-thunderstorm-warning-London-flooding.html",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Ex-insider spills on Trump's appearance with no makeup: 'Like an open can of Spam'",
-      "display":"Ex-insider spills on Trump's appearance with no makeup: 'Like an open can of Spam'",
-      "url":"https://www.rawstory.com/donald-trump-make-up",
+      "text":"Amy Winehouse’s Back to Black to Receive 20th Anniversary Reissue",
+      "display":"Amy Winehouse’s Back to Black to Receive 20th Anniversary Reissue",
+      "url":"https://consequence.net/2026/08/amy-winehouse-back-to-black-20th-anniversary-reissue",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-08-25T14:11:53Z"
+  "generated_utc":"2026-08-25T15:02:48Z"
 }
