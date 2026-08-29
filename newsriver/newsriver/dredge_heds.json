@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Man stabbed in North York, female suspect fled the scene: Toronto police",
-      "display":"Man stabbed in North York, female suspect fled the scene: Toronto police",
-      "url":"https://toronto.citynews.ca/2026/08/29/man-stabbed-in-north-york-female-suspect-fled-the-scene-toronto-police",
+      "text":"Blue Jays honor icons with Hall of Excellence",
+      "display":"Blue Jays honor icons with Hall of Excellence",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-open-hall-of-excellence-honoring-franchise-legends",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Redblacks still looking for first victory",
+      "display":"Redblacks still looking for first victory",
+      "url":"https://globalnews.ca/news/12040547/redblacks-still-looking-for-first-victory",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Trump says U.S. to take control of 65B barrels of Venezuela oil reserves in new deal",
-      "display":"Trump says U.S. to take control of 65B barrels of Venezuela oil reserves in new deal",
-      "url":"https://globalnews.ca/news/12040400/trump-us-venezuela-oil-reserves",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Hegseth 'afraid of Trump' as prez puts down 'sledgehammer' and picks up 'scalpel': report",
-      "display":"Hegseth 'afraid of Trump' as prez puts down 'sledgehammer' and picks up 'scalpel': report",
-      "url":"https://www.rawstory.com/pete-hegseth-scott-bessent",
+      "text":"Convicted sex offender is arrested again, accused of drugging and raping woman on camera",
+      "display":"Convicted sex offender is arrested again, accused of drugging and raping woman on camera",
+      "url":"https://toronto.citynews.ca/2026/08/29/convicted-sex-offender-is-arrested-again-accused-of-drugging-and-raping-woman-on-camera",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-08-29T18:50:22Z"
+  "generated_utc":"2026-08-29T21:23:27Z"
 }
