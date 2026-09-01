@@ -3,8 +3,8 @@
     {
       "games": [
         {
-          "gamePk": "761758",
-          "gameDate": "2026-08-30T20:30Z",
+          "gamePk": "761770",
+          "gameDate": "2026-09-04T23:30Z",
           "status": {
             "detailedState": "Preview",
             "abstractGameState": "Preview"
@@ -16,41 +16,15 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "NE"
+                "abbreviation": "NSH"
               },
-              "score": 3
+              "score": 0
             },
             "home": {
               "team": {
-                "abbreviation": "CLB"
+                "abbreviation": "NYC"
               },
-              "score": 1
-            }
-          }
-        },
-        {
-          "gamePk": "761769",
-          "gameDate": "2026-08-30T23:00Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "DAL"
-              },
-              "score": 3
-            },
-            "home": {
-              "team": {
-                "abbreviation": "STL"
-              },
-              "score": 3
+              "score": 0
             }
           }
         }
