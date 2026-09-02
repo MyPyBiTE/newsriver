@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"OPP warn of fraudsters using online video platforms",
-      "display":"OPP warn of fraudsters using online video platforms",
-      "url":"https://globalnews.ca/news/12044757/opp-zoom-fraud",
+      "text":"Watch Blue Jays prospects play at Single-A in FREE Sunday matinee",
+      "display":"Watch Blue Jays prospects play at Single-A in FREE Sunday matinee",
+      "url":"https://www.mlb.com/bluejays/news/watch-minor-league-baseball-games-for-free-2026",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"CNE Food Hall of Fame announces 2026 inductees",
+      "display":"CNE Food Hall of Fame announces 2026 inductees",
+      "url":"https://toronto.citynews.ca/2026/09/02/cne-food-hall-of-fame-announces-2026-inductees",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Woman, 77, suffers life-threatening injuries after being hit by vehicle in Markham",
-      "display":"Woman, 77, suffers life-threatening injuries after being hit by vehicle in Markham",
-      "url":"https://toronto.citynews.ca/2026/09/02/markham-woman-injured-york-police",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"‘The Fastest Man In The World’: Biopic Of Four-Time Paralympic Gold Medalist Tony Volpentest In The Works",
-      "display":"‘The Fastest Man In The World’: Biopic Of Four-Time Paralympic Gold Medalist Tony Volpentest In The Works",
-      "url":"https://deadline.com/2026/09/the-fastest-man-in-the-world-biopic-tony-volpentest-1237065383",
+      "text":"Ottawa commits millions to shield Nova Scotia companies from U.S. tariff pain",
+      "display":"Ottawa commits millions to shield Nova Scotia companies from U.S. tariff pain",
+      "url":"https://globalnews.ca/news/12045115/ottawa-millions-help-nova-scotia-us-tariffs",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-09-02T17:08:19Z"
+  "generated_utc":"2026-09-02T19:46:04Z"
 }
