@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Ottawa lays out plan for AI data centres as community backlash grows",
-      "display":"Ottawa lays out plan for AI data centres as community backlash grows",
-      "url":"https://globalnews.ca/news/12046702/liberals-ai-data-centre-backlash-with-framework",
+      "text":"Blue Jays secure tiebreaker with Guardians in tight AL Wild Card chase",
+      "display":"Blue Jays secure tiebreaker with Guardians in tight AL Wild Card chase",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-gain-on-guardians-in-al-wild-card-race",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Irving Oil CEO Jeff Matthews to retire in November, new CEO to be announced",
+      "display":"Irving Oil CEO Jeff Matthews to retire in November, new CEO to be announced",
+      "url":"https://toronto.citynews.ca/2026/09/03/irving-oil-ceo-jeff-matthews-to-retire-in-november-new-ceo-to-be-announced",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Lindsay Clancy’s lawyer irate as he fights for juror to be removed",
-      "display":"Lindsay Clancy’s lawyer irate as he fights for juror to be removed",
-      "url":"https://nypost.com/2026/09/03/us-news/lindsay-clancys-lawyer-kevin-reddington-irate-as-he-fights-for-juror-to-be-removed",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"The Mummy’s Curse Was Real—Just Not for the Reason You Think",
-      "display":"The Mummy’s Curse Was Real—Just Not for the Reason You Think",
-      "url":"https://www.popularmechanics.com/video/a73608274/astounding-pop-mech-show-ep-61-the-mummys-curse-was-realjust-not-for-the-reason-you-think",
+      "text":"League-leading Als set to host surging Lions",
+      "display":"League-leading Als set to host surging Lions",
+      "url":"https://globalnews.ca/news/12047125/league-leading-als-set-to-host-surging-lions",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-09-03T22:00:14Z"
+  "generated_utc":"2026-09-03T23:51:37Z"
 }
