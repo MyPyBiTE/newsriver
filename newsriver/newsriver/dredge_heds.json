@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Cambridge University announces independent review after Jason Arday's death",
-      "display":"Cambridge University announces independent review after Jason Arday's death",
-      "url":"https://www.dailymail.com/news/article-16105965/Cambridge-University-announces-independent-review-Jason-Ardays-death.html",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Fewer living in encampments, governments looking for places for them to go",
+      "display":"Fewer living in encampments, governments looking for places for them to go",
+      "url":"https://globalnews.ca/news/12047819/fewer-living-in-encampments-governments-looking-for-places-for-them-to-go",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Bombers, Riders fans clash over ‘Regina-style’ pizza in Labour Day Classic trash talk",
-      "display":"Bombers, Riders fans clash over ‘Regina-style’ pizza in Labour Day Classic trash talk",
-      "url":"https://globalnews.ca/news/12048313/roughriders-blue-bombers-labour-day-classic-2026",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Pedestrian seriously injured in York area collision",
-      "display":"Pedestrian seriously injured in York area collision",
-      "url":"https://toronto.citynews.ca/2026/09/04/pedestrian-seriously-injured-in-york-area-collision",
+      "text":"UN General Assembly endorses a new world map that shows more accurately Africa’s size",
+      "display":"UN General Assembly endorses a new world map that shows more accurately Africa’s size",
+      "url":"https://toronto.citynews.ca/2026/09/04/un-general-assembly-endorses-a-new-world-map-that-shows-more-accurately-africas-size",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-09-05T00:55:05Z"
+  "generated_utc":"2026-09-05T05:03:37Z"
 }
