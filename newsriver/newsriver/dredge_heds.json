@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Man, woman accused of stealing alcohol from Toronto Islands restaurant",
-      "display":"Man, woman accused of stealing alcohol from Toronto Islands restaurant",
-      "url":"https://toronto.citynews.ca/2026/09/05/man-woman-accused-of-stealing-alcohol-from-toronto-islands-restaurant",
+      "text":"Okamoto's career-high 4-hit night fuels Blue Jays' burst above .500",
+      "display":"Okamoto's career-high 4-hit night fuels Blue Jays' burst above .500",
+      "url":"https://www.mlb.com/bluejays/news/kazuma-okamoto-first-career-4-hit-game-blue-jays-move-above-500",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Dev Benegal’s Judith Blum Reddy Doc ‘Everything Is Not OK’ Acquired by Watermelon Pictures, Annemarie Jacir Aboard as EP (EXCLUSIVE)",
+      "display":"Dev Benegal’s Judith Blum Reddy Doc ‘Everything Is Not OK’ Acquired by Watermelon Pictures, Annemarie Jacir Aboard as EP (EXCLUSIVE)",
+      "url":"https://variety.com/2026/film/news/judith-blum-reddy-doc-everything-is-not-ok-watermelon-pictures-1236852495",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Trump's envoys Jared Kushner and Steve Witkoff meet Putin and speak for more than three hours in top secret talks... as Russian president gives two-word summation of Ukraine war",
-      "display":"Trump's envoys Jared Kushner and Steve Witkoff meet Putin and speak for more than three hours in top secret talks... as Russian president gives two-word summation of Ukraine war",
-      "url":"https://www.dailymail.com/news/article-16108455/trump-envoys-jared-kushner-steve-witkoff-putin-meeting-russia-ukraine-war.html",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Charlie Kirk corn maze mockery triggers conservative host: ‘Give me a break!’",
-      "display":"Charlie Kirk corn maze mockery triggers conservative host: ‘Give me a break!’",
-      "url":"https://www.rawstory.com/charlie-kirk-2677824574",
+      "text":"Ukraine-Russia war latest: No sign of breakthrough in Putin’s ‘highly useful’ peace talks as Trump envoys head to Kyiv",
+      "display":"Ukraine-Russia war latest: No sign of breakthrough in Putin’s ‘highly useful’ peace talks as Trump envoys head to Kyiv",
+      "url":"https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-putin-zelensky-talks-witkoff-kushner-b3045408.html",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-09-06T05:18:25Z"
+  "generated_utc":"2026-09-06T09:32:55Z"
 }
