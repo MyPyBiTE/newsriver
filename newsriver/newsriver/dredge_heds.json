@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"‘Disruptive passenger’ duct-taped to airplane seat",
-      "display":"‘Disruptive passenger’ duct-taped to airplane seat",
-      "url":"https://toronto.citynews.ca/2026/09/05/disruptive-passenger-duct-taped-to-airplane-seat",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Teen charged after losing control of vehicle that struck and killed a pedestrian",
+      "display":"Teen charged after losing control of vehicle that struck and killed a pedestrian",
+      "url":"https://toronto.citynews.ca/2026/09/05/teen-charged-after-losing-control-of-vehicle-that-struck-and-killed-a-pedestrian",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Woman airlifted to hospital after bear attack near Whistler, B.C.",
-      "display":"Woman airlifted to hospital after bear attack near Whistler, B.C.",
-      "url":"https://globalnews.ca/news/12049179/bear-attack-bc",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"ITV The Voice UK star Kelly Rowland left in tears after emotional performance",
-      "display":"ITV The Voice UK star Kelly Rowland left in tears after emotional performance",
-      "url":"https://www.mirror.co.uk/tv/tv-news/itv-voice-uk-star-kelly-37631815",
+      "text":"Natalie Portman Welcomes Third Child, First With Partner Tanguy Destable",
+      "display":"Natalie Portman Welcomes Third Child, First With Partner Tanguy Destable",
+      "url":"https://www.hollywoodreporter.com/lifestyle/lifestyle-news/natalie-portman-welcomes-third-child-1236692050",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-09-05T23:08:46Z"
+  "generated_utc":"2026-09-06T00:53:40Z"
 }
