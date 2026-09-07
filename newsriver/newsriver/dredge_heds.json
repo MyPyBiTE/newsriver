@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Amazon-contracted plane crashes at Miami airport after overrunning runway",
-      "display":"Amazon-contracted plane crashes at Miami airport after overrunning runway",
-      "url":"https://globalnews.ca/news/12049666/miami-airport-prime-air-plane-crash",
+      "text":"Blue Jays unable to sweep, lose WC ground despite encouraging series",
+      "display":"Blue Jays unable to sweep, lose WC ground despite encouraging series",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-drop-series-finale-in-kansas-city",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Brampton gas leak forces some residents to evacuate their homes",
+      "display":"Brampton gas leak forces some residents to evacuate their homes",
+      "url":"https://toronto.citynews.ca/2026/09/06/brampton-gas-leak-forces-some-residents-to-evacuate-their-homes",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Germany's hard-Right AfD party is set for a 'historic' victory in regional election, exit polls show",
-      "display":"Germany's hard-Right AfD party is set for a 'historic' victory in regional election, exit polls show",
-      "url":"https://www.dailymail.com/news/article-16109737/Germany-far-Right-AfD-party-landslide-victory-regional-election-exit-polls.html",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"A sinister pattern takes shape as Trump takes another wild swing with his hatchet",
-      "display":"A sinister pattern takes shape as Trump takes another wild swing with his hatchet",
-      "url":"https://www.rawstory.com/trump-lake-america-2677824983",
+      "text":"Frechette holds mid-campaign cabinet meeting ahead of counter-tariffs",
+      "display":"Frechette holds mid-campaign cabinet meeting ahead of counter-tariffs",
+      "url":"https://globalnews.ca/news/12049778/quebec-election-frechette-cabinet-meeting-trade-war",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-09-06T22:19:57Z"
+  "generated_utc":"2026-09-07T00:06:10Z"
 }
