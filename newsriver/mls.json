@@ -81,32 +81,6 @@
           }
         },
         {
-          "gamePk": "761786",
-          "gameDate": "2026-09-09T23:30Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "CIN"
-              },
-              "score": 0
-            },
-            "home": {
-              "team": {
-                "abbreviation": "PHI"
-              },
-              "score": 0
-            }
-          }
-        },
-        {
           "gamePk": "761790",
           "gameDate": "2026-09-09T23:30Z",
           "status": {
@@ -127,6 +101,32 @@
             "home": {
               "team": {
                 "abbreviation": "TOR"
+              },
+              "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "761786",
+          "gameDate": "2026-09-09T23:45Z",
+          "status": {
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "CIN"
+              },
+              "score": 0
+            },
+            "home": {
+              "team": {
+                "abbreviation": "PHI"
               },
               "score": 0
             }
