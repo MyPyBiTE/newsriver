@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"NAIT breaks ground on Advanced Skills Centre, adding 5,500 student spaces",
-      "display":"NAIT breaks ground on Advanced Skills Centre, adding 5,500 student spaces",
-      "url":"https://globalnews.ca/news/12051845/nait-advanced-skills-centre",
+      "text":"Okamoto hits 30th HR to propel Blue Jays in hunt for Wild Card spot",
+      "display":"Okamoto hits 30th HR to propel Blue Jays in hunt for Wild Card spot",
+      "url":"https://www.mlb.com/bluejays/news/kazuma-okamoto-hits-30th-homer-of-mlb-rookie-season",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Toronto increasing police presence during Jewish holiday weekend",
+      "display":"Toronto increasing police presence during Jewish holiday weekend",
+      "url":"https://toronto.citynews.ca/2026/09/08/toronto-increasing-police-presence-during-jewish-holiday-weekend",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Heathrow flights among 1,000 cancelled across UK after air traffic control fault - updates",
-      "display":"Heathrow flights among 1,000 cancelled across UK after air traffic control fault - updates",
-      "url":"https://www.mirror.co.uk/news/uk-news/heathrow-airport-departures-nats-manchester-37639982",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Geno Smith touched by Jets captain nod in return to New York",
-      "display":"Geno Smith touched by Jets captain nod in return to New York",
-      "url":"https://nypost.com/2026/09/08/sports/geno-smith-touched-by-jets-captain-nod-in-return-to-new-york",
+      "text":"TIFF ticket costs leave some feeling priced out",
+      "display":"TIFF ticket costs leave some feeling priced out",
+      "url":"https://globalnews.ca/news/12051615/high-tiff-costs",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-09-09T04:56:04Z"
+  "generated_utc":"2026-09-09T09:20:03Z"
 }
