@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Quebec police watchdog investigating motorcyclist’s death east of Montreal",
-      "display":"Quebec police watchdog investigating motorcyclist’s death east of Montreal",
-      "url":"https://globalnews.ca/news/12052880/quebec-police-watchdog-probe-motorcyclist-death",
+      "text":"Blue Jays blanked by A's in crucial opportunity to gain AL Wild Card ground",
+      "display":"Blue Jays blanked by A's in crucial opportunity to gain AL Wild Card ground",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-shut-out-by-depleted-athletics",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"North York flower farm destroyed by last week’s storm",
+      "display":"North York flower farm destroyed by last week’s storm",
+      "url":"https://toronto.citynews.ca/2026/09/09/north-york-flower-farm-destroyed-by-last-weeks-storm",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Zelenskyy’s plane nearly hit by a drone, Norwegian PM says",
-      "display":"Zelenskyy’s plane nearly hit by a drone, Norwegian PM says",
-      "url":"https://toronto.citynews.ca/2026/09/09/zelenskyys-plane-nearly-hit-by-a-drone-norwegian-pm-says",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Brock Bowers stunning injury has Raiders without Pro Bowl TE for Dolphins game",
-      "display":"Brock Bowers stunning injury has Raiders without Pro Bowl TE for Dolphins game",
-      "url":"https://nypost.com/2026/09/09/sports/brock-bowers-injury-raiders-ruled-out-development",
+      "text":"Central Alberta carbon capture hub on track to be largest in Canada",
+      "display":"Central Alberta carbon capture hub on track to be largest in Canada",
+      "url":"https://globalnews.ca/news/12053224/alberta-carbon-capture-the-origins-clive",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-09-09T22:06:02Z"
+  "generated_utc":"2026-09-10T00:11:46Z"
 }
