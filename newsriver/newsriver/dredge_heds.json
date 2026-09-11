@@ -1,16 +1,6 @@
 {
   "items":[
     {
-      "text":"Where the Clippers-Raptors, Kawhi Leonard trade stands amidst federal investigation",
-      "display":"Where the Clippers-Raptors, Kawhi Leonard trade stands amidst federal investigation",
-      "url":"https://nypost.com/2026/09/11/sports/where-clippers-raptors-kawhi-leonard-trade-stands",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":true,
-        "has_bitcoin":false
-      }
-    },
-    {
       "text":"After 12-year journey, OF Martin called up as Blue Jays designate Sánchez",
       "display":"After 12-year journey, OF Martin called up as Blue Jays designate Sánchez",
       "url":"https://www.mlb.com/bluejays/news/rudy-martin-jr-blue-jays-callup",
@@ -21,15 +11,25 @@
       }
     },
     {
-      "text":"Alec Baldwin says new documentary on ‘Rust’ shooting shows ‘me at my worst’",
-      "display":"Alec Baldwin says new documentary on ‘Rust’ shooting shows ‘me at my worst’",
-      "url":"https://globalnews.ca/news/12055782/the-trial-of-alec-baldwin-documentary-trailer",
+      "text":"Argos very wary about taking on winless Redblacks",
+      "display":"Argos very wary about taking on winless Redblacks",
+      "url":"https://globalnews.ca/news/12056160/argos-very-wary-about-taking-on-winless-redblacks",
       "flags":{
         "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"A24 Developing SCP Foundation Film, Adapting Hit Internet Property for ‘V/H/S’ Franchise Expansion",
+      "display":"A24 Developing SCP Foundation Film, Adapting Hit Internet Property for ‘V/H/S’ Franchise Expansion",
+      "url":"https://www.thewrap.com/creative-content/movies/scp-foundation-movie-a24",
+      "flags":{
+        "is_breaking":true,
         "is_landmark":false,
         "has_bitcoin":false
       }
     }
   ],
-  "generated_utc":"2026-09-11T21:09:49Z"
+  "generated_utc":"2026-09-11T23:14:09Z"
 }
