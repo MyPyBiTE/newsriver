@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Childhood Cancer Canada calls for $15M from feds as demand rises",
-      "display":"Childhood Cancer Canada calls for $15M from feds as demand rises",
-      "url":"https://globalnews.ca/news/12056681/cancer-children-more-funding",
+      "text":"Jays’ Cease replaces painting in skipper’s office",
+      "display":"Jays’ Cease replaces painting in skipper’s office",
+      "url":"https://globalnews.ca/news/12056648/jays-cease-replaces-painting-in-skippers-office",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Peanuts recalled in Ontario, Quebec over possible salmonella contamination",
+      "display":"Peanuts recalled in Ontario, Quebec over possible salmonella contamination",
+      "url":"https://toronto.citynews.ca/2026/09/12/peanut-recall-ontario-quebec-salmonella-contamination",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"TIFF 2026: Photos from the red carpet",
-      "display":"TIFF 2026: Photos from the red carpet",
-      "url":"https://toronto.citynews.ca/2026/09/12/tiff-2026-photos-from-the-red-carpet",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Sisi Mauigoa tells The Post how seeing ‘red’ will reward Giants’ draft faith in standout lineman",
-      "display":"Sisi Mauigoa tells The Post how seeing ‘red’ will reward Giants’ draft faith in standout lineman",
-      "url":"https://nypost.com/2026/09/12/sports/sisi-mauigoa-tells-the-post-how-seeing-red-will-reward-giants-draft-faith-in-standout-lineman",
+      "text":"Sunderland vs Arsenal - Premier League: Bukayo Saka misses brilliant chance, as Gunners struggle to break down resilient Black Cats",
+      "display":"Sunderland vs Arsenal - Premier League: Bukayo Saka misses brilliant chance, as Gunners struggle to break down resilient Black Cats",
+      "url":"https://www.dailymail.com/sport/football/article-16121289/Sunderland-vs-Arsenal-Premier-League-LIVE.html",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-09-12T18:32:15Z"
+  "generated_utc":"2026-09-12T20:56:30Z"
 }
