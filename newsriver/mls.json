@@ -6,19 +6,19 @@
           "gamePk": "761804",
           "gameDate": "2026-09-12T23:30Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
           },
           "linescore": {
-            "currentPeriodOrdinal": "2nd",
-            "currentQuarter": "2nd"
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "RBNY"
               },
-              "score": 0
+              "score": 1
             },
             "home": {
               "team": {
@@ -76,7 +76,7 @@
               "team": {
                 "abbreviation": "CIN"
               },
-              "score": 2
+              "score": 3
             }
           }
         },
@@ -84,19 +84,19 @@
           "gamePk": "761800",
           "gameDate": "2026-09-12T23:30Z",
           "status": {
-            "detailedState": "Live",
-            "abstractGameState": "Live"
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
           },
           "linescore": {
-            "currentPeriodOrdinal": "2nd",
-            "currentQuarter": "2nd"
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "NSH"
               },
-              "score": 1
+              "score": 2
             },
             "home": {
               "team": {
@@ -128,7 +128,7 @@
               "team": {
                 "abbreviation": "ORL"
               },
-              "score": 1
+              "score": 3
             }
           }
         },
@@ -148,13 +148,13 @@
               "team": {
                 "abbreviation": "POR"
               },
-              "score": 0
+              "score": 1
             },
             "home": {
               "team": {
                 "abbreviation": "DAL"
               },
-              "score": 0
+              "score": 2
             }
           }
         },
@@ -174,13 +174,13 @@
               "team": {
                 "abbreviation": "LAFC"
               },
-              "score": 0
+              "score": 1
             },
             "home": {
               "team": {
                 "abbreviation": "SKC"
               },
-              "score": 1
+              "score": 3
             }
           }
         },
@@ -200,13 +200,13 @@
               "team": {
                 "abbreviation": "MIN"
               },
-              "score": 1
+              "score": 2
             },
             "home": {
               "team": {
                 "abbreviation": "STL"
               },
-              "score": 2
+              "score": 4
             }
           }
         },
@@ -232,7 +232,7 @@
               "team": {
                 "abbreviation": "COL"
               },
-              "score": 0
+              "score": 1
             }
           }
         },
@@ -252,7 +252,7 @@
               "team": {
                 "abbreviation": "NYC"
               },
-              "score": 0
+              "score": 2
             },
             "home": {
               "team": {
@@ -278,13 +278,13 @@
               "team": {
                 "abbreviation": "SEA"
               },
-              "score": 0
+              "score": 1
             },
             "home": {
               "team": {
                 "abbreviation": "LA"
               },
-              "score": 0
+              "score": 1
             }
           }
         },
@@ -310,7 +310,7 @@
               "team": {
                 "abbreviation": "SJ"
               },
-              "score": 0
+              "score": 1
             }
           }
         }
