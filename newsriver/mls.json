@@ -6,12 +6,12 @@
           "gamePk": "761804",
           "gameDate": "2026-09-12T23:30Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "2nd",
+            "currentQuarter": "2nd"
           },
           "teams": {
             "away": {
@@ -70,13 +70,13 @@
               "team": {
                 "abbreviation": "CLT"
               },
-              "score": 0
+              "score": 3
             },
             "home": {
               "team": {
                 "abbreviation": "CIN"
               },
-              "score": 0
+              "score": 2
             }
           }
         },
@@ -84,25 +84,25 @@
           "gamePk": "761800",
           "gameDate": "2026-09-12T23:30Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "2nd",
+            "currentQuarter": "2nd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "NSH"
               },
-              "score": 0
+              "score": 1
             },
             "home": {
               "team": {
                 "abbreviation": "MIA"
               },
-              "score": 0
+              "score": 2
             }
           }
         },
@@ -128,7 +128,7 @@
               "team": {
                 "abbreviation": "ORL"
               },
-              "score": 0
+              "score": 1
             }
           }
         },
@@ -180,7 +180,7 @@
               "team": {
                 "abbreviation": "SKC"
               },
-              "score": 0
+              "score": 1
             }
           }
         },
@@ -200,13 +200,13 @@
               "team": {
                 "abbreviation": "MIN"
               },
-              "score": 0
+              "score": 1
             },
             "home": {
               "team": {
                 "abbreviation": "STL"
               },
-              "score": 0
+              "score": 2
             }
           }
         },
