@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Date set for coroner’s inquest into 2020 death of Toronto woman that led to protests",
-      "display":"Date set for coroner’s inquest into 2020 death of Toronto woman that led to protests",
-      "url":"https://globalnews.ca/news/12060021/regis-korchinski-paquet-inquest-date",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"New Brunswick tries new approach after disappointing results under 10-year education plan",
+      "display":"New Brunswick tries new approach after disappointing results under 10-year education plan",
+      "url":"https://globalnews.ca/news/12060480/new-brunswick-education-plan",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"‘Maybe they’ll shoot you’: Carney recalls Trump’s joke about White House key gift",
-      "display":"‘Maybe they’ll shoot you’: Carney recalls Trump’s joke about White House key gift",
-      "url":"https://toronto.citynews.ca/2026/09/15/maybe-theyll-shoot-you-carney-recalls-trumps-joke-about-white-house-key-gift",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"These resources can help you ‘buy Canadian’ tech and software",
-      "display":"These resources can help you ‘buy Canadian’ tech and software",
-      "url":"https://mobilesyrup.com/2026/09/15/resource-help-buy-canadian-tech-software",
+      "text":"18-year-old and 3 youths allegedly found with loaded gun in North York",
+      "display":"18-year-old and 3 youths allegedly found with loaded gun in North York",
+      "url":"https://toronto.citynews.ca/2026/09/15/18-year-old-and-3-youths-allegedly-found-with-loaded-gun-in-north-york",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-09-15T21:54:15Z"
+  "generated_utc":"2026-09-15T23:49:26Z"
 }
