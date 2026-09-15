@@ -3,8 +3,8 @@
     {
       "games": [
         {
-          "gamePk": "761812",
-          "gameDate": "2026-09-13T21:30Z",
+          "gamePk": "761815",
+          "gameDate": "2026-09-18T23:30Z",
           "status": {
             "detailedState": "Preview",
             "abstractGameState": "Preview"
@@ -16,65 +16,13 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "NE"
+                "abbreviation": "RBNY"
               },
-              "score": 2
+              "score": 0
             },
             "home": {
               "team": {
-                "abbreviation": "CHI"
-              },
-              "score": 1
-            }
-          }
-        },
-        {
-          "gamePk": "761813",
-          "gameDate": "2026-09-13T22:30Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "ATX"
-              },
-              "score": 2
-            },
-            "home": {
-              "team": {
-                "abbreviation": "VAN"
-              },
-              "score": 1
-            }
-          }
-        },
-        {
-          "gamePk": "761814",
-          "gameDate": "2026-09-14T01:00Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "PHI"
-              },
-              "score": 5
-            },
-            "home": {
-              "team": {
-                "abbreviation": "SD"
+                "abbreviation": "NYC"
               },
               "score": 0
             }
