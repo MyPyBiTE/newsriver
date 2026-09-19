@@ -1,13 +1,29 @@
 {
-  "generated_utc": "2026-09-19T13:13:31.813Z",
-  "itemset_hash": "57f01a432ce9cd36",
+  "generated_utc": "2026-09-19T16:30:39.144Z",
+  "itemset_hash": "7cdf43e49e2748ba",
   "count": 69,
   "items": [
     {
-      "title": "White House Blocks MS NOW Journalists From Entry and Confiscates Their Badges After Donald Trump Bans Network, Along With CNN and Politico",
-      "url": "https://variety.com/2026/tv/news/white-house-blocks-ms-now-journalist-trump-ban-cnn-politico-1236867650",
-      "source": "Variety",
-      "published_utc": "2026-09-19T13:10:07.000Z",
+      "title": "Error-strewn England held by Canada to end 39-game winning run",
+      "url": "https://www.telegraph.co.uk/rugby-union/2026/09/19/england-v-canada-latest-updates-from-wxv-global-series-test",
+      "source": "www.telegraph.co.uk for the latest news from the UK and around the world.",
+      "published_utc": "2026-09-19T16:26:09.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "Skunk rabies case prompts public warning in B.C. Interior",
+      "url": "https://globalnews.ca/news/12065601/skunk-rabies-kootenay-lake-bc",
+      "source": "globalnews.ca",
+      "published_utc": "2026-09-19T16:25:50.000Z",
       "effects": {
         "lightsaber": true,
         "glitch": false,
@@ -16,14 +32,30 @@
         ],
         "style": "lightsaber"
       },
-      "category": "Labour",
-      "region": "World"
+      "category": "General",
+      "region": "Canada"
     },
     {
-      "title": "Millwall vs West Ham LIVE: Police fear violence after spitting incident in heated clash",
-      "url": "https://www.mirror.co.uk/sport/football/news/millwall-west-ham-police-live-37679547",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-09-19T13:09:34.000Z",
+      "title": "Opposition ‘politicking’ on Weedmark private flights unless evidence exists, says policy expert",
+      "url": "https://globalnews.ca/news/12065066/opposition-weedmark-private-flights",
+      "source": "globalnews.ca",
+      "published_utc": "2026-09-19T16:25:38.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "Ed Davey denies Lib Dems have had their chips as he calls for 10p fuel duty cut after damning poll",
+      "url": "https://www.dailymail.com/news/article-16144395/Ed-Davey-Lib-Dems-denies-party-struggling-relevance.html",
+      "source": "Articles | Mail Online",
+      "published_utc": "2026-09-19T16:25:23.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": true,
@@ -36,10 +68,10 @@
       "region": "World"
     },
     {
-      "title": "Tottenham vs Aston Villa - Premier League LIVE: Visitors DOUBLE their lead as Nicolas Jackson bags for his new club - while hosts' wait for first GOAL goes on",
-      "url": "https://www.dailymail.com/sport/football/article-16139107/tottenham-aston-villa-premier-league-live.html",
+      "title": "Police arrest six and march West Ham fans to station to avoid violence after bitter draw with Millwall in football's nastiest rivalry",
+      "url": "https://www.dailymail.com/sport/football/article-16144047/west-ham-millwall-london-derby-chaos.html",
       "source": "Articles | Mail Online",
-      "published_utc": "2026-09-19T13:08:58.000Z",
+      "published_utc": "2026-09-19T16:25:02.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -47,12 +79,67 @@
       },
       "category": "General",
       "region": "World"
+    },
+    {
+      "title": "Joe Cole slams ‘weak’ Tottenham star and makes relegation prediction after Aston Villa loss",
+      "url": "https://metro.co.uk/2026/09/19/joe-cole-slams-weak-tottenham-star-makes-relegation-prediction-aston-villa-loss-29636321",
+      "source": "Metro",
+      "published_utc": "2026-09-19T16:21:02.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Kate jokes with Isle of Bute locals she is going for a SWIM in the ice-cold sea - as she even makes climbing down from a tractor look regal on royal trip",
+      "url": "https://www.dailymail.com/news/royals/article-16144017/Princess-Kate-Isle-Bute-swim-tractor-effortless-jokes.html",
+      "source": "Articles | Mail Online",
+      "published_utc": "2026-09-19T16:24:02.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Brighton vs Arsenal - Premier League LIVE: Champions STUNNED with heavy defeat, Newcastle and Everton win",
+      "url": "https://www.dailymail.com/sport/football/article-16139107/tottenham-aston-villa-premier-league-live.html",
+      "source": "Articles | Mail Online",
+      "published_utc": "2026-09-19T16:24:29.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "BritBox Reveals First Look At ‘The Other Bennet Sister’ Christmas Special",
+      "url": "https://deadline.com/2026/09/britbox-other-bennet-sister-christmas-special-1237108434",
+      "source": "Deadline",
+      "published_utc": "2026-09-19T16:20:19.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Culture",
+      "region": "Canada"
     },
     {
       "title": "Moment 'inappropriate old man' jumps on primary school worker's motorbike and grabs her hips in front of his laughing pals",
       "url": "https://www.dailymail.com/news/article-16144191/old-man-jumps-primary-school-workers-motorbike-grabs.html",
       "source": "Articles | Mail Online",
-      "published_utc": "2026-09-19T13:07:58.000Z",
+      "published_utc": "2026-09-19T16:20:38.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -62,52 +149,10 @@
       "region": "World"
     },
     {
-      "title": "'We planned our dream wedding in six weeks - it only cost £900'",
-      "url": "https://www.mirror.co.uk/news/real-life-stories/we-planned-dream-wedding-six-37680294",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-09-19T13:07:34.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Silent Witness star’s ‘fantastic’ crime drama finally gets release date",
-      "url": "https://www.mirror.co.uk/tv/tv-news/silent-witness-stars-fantastic-crime-37680311",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-09-19T13:05:53.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "Pensioner with a rare sleep disorder which makes him act out his dreams sues NHS for £1million after breaking his neck during 'severe nightmare'",
-      "url": "https://www.dailymail.com/news/article-16142529/Pensioner-rare-sleep-disorder-makes-act-dreams-sues-NHS-1million-breaking-neck-severe-nightmare.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-09-19T13:05:28.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Ally McCoist names who should sign Max Dowman after Arsenal change transfer stance",
-      "url": "https://metro.co.uk/2026/09/19/ally-mccoist-names-sign-max-dowman-arsenal-change-transfer-stance-29636058",
+      "title": "Classic chocolate brand introduces ‘moreish’ new flavour — but not everyone’s happy",
+      "url": "https://metro.co.uk/2026/09/19/classic-chocolate-brand-introduces-moreish-new-flavour-not-everyones-happy-29636315",
       "source": "Metro",
-      "published_utc": "2026-09-19T13:05:17.000Z",
+      "published_utc": "2026-09-19T16:18:55.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -117,26 +162,23 @@
       "region": "World"
     },
     {
-      "title": "Beaming Tess Daly shows no sign of regret as she attends event ahead of the first Strictly launch show since she quit following 21 years as host",
-      "url": "https://www.dailymail.com/tvshowbiz/article-16144305/Beaming-Tess-Daly-shows-no-sign-regret-attends-event-ahead-Strictly-launch-quit-following-21-years-host.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-09-19T13:05:13.000Z",
+      "title": "The Internet Is Convinced One of Country Music’s Biggest Stars Is Secretly the Hawk Tuah Girl",
+      "url": "https://www.vice.com/en/article/the-internet-is-convinced-one-of-country-musics-biggest-stars-is-secretly-the-hawk-tuah-girl",
+      "source": "English - VICE",
+      "published_utc": "2026-09-19T16:18:09.000Z",
       "effects": {
         "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
+        "glitch": false,
+        "reasons": []
       },
       "category": "General",
-      "region": "Canada"
+      "region": "World"
     },
     {
-      "title": "Alison Hammond's Bake Off co-star told to lose 3st as she shares tent secrets",
-      "url": "https://www.mirror.co.uk/3am/celebrity-news/alison-hammonds-bake-co-star-37680293",
+      "title": "Strictly Come Dancing 2026 updates: What time does it start and who is presenting?",
+      "url": "https://www.mirror.co.uk/tv/tv-news/strictly-come-dancing-2026-live-37680573",
       "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-09-19T13:03:39.000Z",
+      "published_utc": "2026-09-19T16:17:43.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -146,149 +188,10 @@
       "region": "World"
     },
     {
-      "title": "MS NOW reporters denied access to White House after Trump bans three media outlets",
-      "url": "https://www.cnbc.com/2026/09/19/trump-media-ban-ms-now.html",
-      "source": "US Top News and Analysis",
-      "published_utc": "2026-09-19T13:02:29.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Private Equity’s Next Target Is Indie Music",
-      "url": "https://www.rollingstone.com/music/music-features/private-equity-target-indie-music-1235626614",
-      "source": "Rolling Stone",
-      "published_utc": "2026-09-19T13:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Ian Munsick Finds His American West Avatar on New Album ‘The Mountain Goat’",
-      "url": "https://www.rollingstone.com/music/music-features/ian-munsick-interview-the-mountain-goat-1235628944",
-      "source": "Rolling Stone",
-      "published_utc": "2026-09-19T13:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "‘Big Brother 28’ star Yash Patel explains ‘hard feelings’ towards Drew Campbell after shocking double eviction",
-      "url": "https://pagesix.com/2026/09/19/entertainment/big-brother-28-star-yash-patel-explains-hard-feelings-towards-drew-campbell",
-      "source": "New York Post",
-      "published_utc": "2026-09-19T13:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Aging Isn’t Necessary, Scientist Claims. And He’s Going to Cure It in Just 3 Years.",
-      "url": "https://www.popularmechanics.com/science/health/a73792625/anti-aging-pill-cure-aging",
-      "source": "Latest Content - Popular Mechanics",
-      "published_utc": "2026-09-19T13:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "I gave birth knowing my baby wouldn’t cry – doctors still call this a miscarriage",
-      "url": "https://metro.co.uk/2026/09/19/gave-birth-knowing-baby-wouldnt-cry-29517736",
-      "source": "Metro",
-      "published_utc": "2026-09-19T13:00:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Children in balaclavas filmed stealing from shops while ‘smiling’ parents wait outside",
-      "url": "https://metro.co.uk/2026/09/19/parents-face-jail-benefits-docked-child-commits-crime-29636137",
-      "source": "Metro",
-      "published_utc": "2026-09-19T12:59:53.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Imperial War Museum embroiled in 'woke' row as staff insult veterans by claiming 'it's got nothing to do with war'",
-      "url": "https://www.dailymail.com/news/article-16143315/Imperial-War-Museum-embroiled-woke-row-staff-insult-veterans-claiming-got-war.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-09-19T12:59:50.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Child among three Palestinians killed in Israeli attacks across Gaza",
-      "url": "https://www.aljazeera.com/news/2026/9/19/three-palestinians-killed-in-israeli-strikes-across-gaza?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-09-19T12:59:31.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "breaker"
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Oktoberfest gets underway in Munich as authorities turn to AI-powered cameras to help handle the 6million visitors",
-      "url": "https://www.dailymail.com/news/article-16144215/Oktoberfest-gets-underway-Munich-authorities-turn-AI-powered-cameras-help-handle-6million-visitors.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-09-19T12:58:15.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Folkestone hotel fire: Sleeping guests evacuated as fire rips through hotel in overnight chaos",
-      "url": "https://www.mirror.co.uk/news/uk-news/folkestone-hotel-fire-live-updates-37679645",
+      "title": "'Soap & Glory's new beauty advent calendar gave me smooth skin from head to toe'",
+      "url": "https://www.mirror.co.uk/money/shopping-deals/soap-glory-advent-calendar-review-37669098",
       "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-09-19T12:58:14.000Z",
+      "published_utc": "2026-09-19T16:17:00.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -298,201 +201,23 @@
       "region": "World"
     },
     {
-      "title": "Epping fire horror as locals urged to 'keep windows and doors shut' over huge smoke clouds",
-      "url": "https://www.mirror.co.uk/news/uk-news/epping-fire-black-smoke-cloud-37680019",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-09-19T12:57:51.000Z",
+      "title": "How to Make Your September \"Fresh Start\" Last",
+      "url": "https://www.psychologytoday.com/ca/blog/beyond-willpower/202609/how-to-make-your-september-fresh-start-last",
+      "source": "Psychology Today: The Latest",
+      "published_utc": "2026-09-19T16:16:39.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
         "reasons": []
       },
-      "category": "General",
+      "category": "Youth",
       "region": "World"
     },
     {
-      "title": "Smoke and flames billow over Riyadh airport in Saudi Arabia as Houthi rebels gain ground",
-      "url": "https://www.dailymail.com/news/article-16144301/Smoke-flames-billow-Riyadh-airport-Saudi-Arabia-Houthi.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-09-19T12:57:43.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Steven Gerrard fires warning to JJ Gabriel over Manchester United exit",
-      "url": "https://metro.co.uk/2026/09/19/steven-gerrard-fires-warning-jj-gabriel-man-utd-exit-29636062",
-      "source": "Metro",
-      "published_utc": "2026-09-19T12:56:51.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "How Helen Mirren stays SO youthful: MobLand star, 81, is ageing in reverse thanks to these beauty treatments and clever makeup tricks",
-      "url": "https://www.dailymail.com/lifestyle/article-16136435/How-Helen-Mirren-stays-youthful-MobLand-star-81-ageing-reverse-thanks-beauty-treatments-clever-makeup-tricks.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-09-19T12:54:38.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "James Jordan weighs in on Karen Hauer's brutal Strictly axe as he gives his verdict on the pro dancer shake-up and 'unknown' celebrity lineup",
-      "url": "https://www.dailymail.com/tvshowbiz/article-16133253/James-Jordan-Karen-Hauer-Strictly-lineup.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-09-19T12:53:37.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "Canada"
-    },
-    {
-      "title": "What’s behind reports that the Israeli army is low on troops, equipment?",
-      "url": "https://www.aljazeera.com/news/2026/9/19/whats-behind-reports-that-the-israeli-army-is-low-on-troops-equipment?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-09-19T12:51:43.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Strictly Come Dancing 2026 rich list revealed as singer Delta Goodrem and footballer Shaun Wright-Phillips waltz to the top of the ranks",
-      "url": "https://www.dailymail.com/tvshowbiz/article-16133295/Strictly-Come-Dancing-2026-rich-list.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-09-19T12:53:19.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Consumer sentiment is in the dumps despite a solid economy. Goldman Sachs blames 'lower happiness'",
-      "url": "https://www.cnbc.com/2026/09/19/goldman-sachs-happiness-struggling-consumer-sentiment.html",
-      "source": "US Top News and Analysis",
-      "published_utc": "2026-09-19T12:50:49.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Golf latest: Rory McIlroy reacts as former Masters winner withdraws from BMW PGA",
-      "url": "https://www.mirror.co.uk/sport/golf/rory-mcilroy-bmw-pga-championship-37680200",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-09-19T12:50:27.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Ed Sheeran's Saturday Concert in Phily: Dozens of Tickets Still Available",
-      "url": "https://www.tmz.com/2026/09/19/dozens-of-tickets-still-available-for-ed-sheerans-saturday-concert",
-      "source": "TMZ.com",
-      "published_utc": "2026-09-19T12:49:28.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Vaseline teams up with luxury fashion brand for an exciting collaboration",
-      "url": "https://www.mirror.co.uk/3am/style/vaseline-oceanus-capsule-collection-edit-37680155",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-09-19T12:48:59.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Beaten-down reps make futile Trump admission as they flee DC",
-      "url": "https://www.rawstory.com/raw-investigates/johnson-house-shutdown",
-      "source": "Raw Story",
-      "published_utc": "2026-09-19T12:46:55.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Cops Show Up to Carrot Top's Las Vegas Home Following Suicide Attempt",
-      "url": "https://www.tmz.com/2026/09/19/cops-show-up-to-carrot-tops-las-vegas-house-after-suicide-attempt",
-      "source": "TMZ.com",
-      "published_utc": "2026-09-19T12:46:27.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "SKIMS' Latest Split-Toe Sneakers Are a Slimline Chocolate Treat",
-      "url": "https://www.highsnobiety.com/p/nikeskims-rift-mesh-cave-stone",
-      "source": "Highsnobiety",
-      "published_utc": "2026-09-19T12:46:02.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Culture",
-      "region": "World"
-    },
-    {
-      "title": "You could lose benefits or face prison for crimes committed by your children, minister warns parents",
-      "url": "https://www.independent.co.uk/news/uk/politics/prison-sentences-children-parents-lose-benefits-youth-crime-b3052852.html",
+      "title": "Iran-US war latest: Trump issued fresh demands to end war by Tehran as smoke and flames seen at Riyadh Airport",
+      "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-trump-iran-riyadh-airport-houthis-yemen-b3052932.html",
       "source": "The Independent News",
-      "published_utc": "2026-09-19T12:45:09.000Z",
+      "published_utc": "2026-09-19T16:16:18.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -502,23 +227,10 @@
       "region": "World"
     },
     {
-      "title": "Buffett takes next step in plan to keep Berkshire from straying",
-      "url": "https://www.cnbc.com/2026/09/19/warren-buffett-takes-next-step-in-plan-to-keep-berkshire-from-straying.html",
-      "source": "US Top News and Analysis",
-      "published_utc": "2026-09-19T12:43:56.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Illegal migrant Deliveroo rider raped woman he had dragged off the street 'like a ragdoll' - then went to hospital 'to get to her again'",
-      "url": "https://www.dailymail.com/news/article-16144141/Illegal-migrant-Deliveroo-rider-raped-woman-dragged-street.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-09-19T12:43:03.000Z",
+      "title": "Hilarity as ex-DOJ attorney delves into Trump's secret Mar-a-Lago bathroom stash",
+      "url": "https://www.rawstory.com/trump-pardons-2677894678",
+      "source": "Raw Story",
+      "published_utc": "2026-09-19T16:16:06.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": true,
@@ -531,10 +243,23 @@
       "region": "World"
     },
     {
-      "title": "British man dies after being pulled from water on Greek island",
-      "url": "https://metro.co.uk/2026/09/19/british-man-dies-pulled-water-greek-island-29636045",
-      "source": "Metro",
-      "published_utc": "2026-09-19T12:42:12.000Z",
+      "title": "Tributes paid to London 'Millionaires' Row' victim, 28, stabbed to death with manhunt underway",
+      "url": "https://www.mirror.co.uk/news/uk-news/tributes-paid-london-millionaires-row-37680794",
+      "source": "Mirror - mirror frontpage",
+      "published_utc": "2026-09-19T16:15:50.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "VanEck criticizes Metaplanet over executive dilution despite compensation cuts",
+      "url": "https://cointelegraph.com/news/vaneck-labels-metaplanet-compensation-bad",
+      "source": "Cointelegraph.com News",
+      "published_utc": "2026-09-19T16:15:27.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": true,
@@ -543,14 +268,14 @@
         ],
         "style": "glitch"
       },
-      "category": "General",
+      "category": "Business",
       "region": "World"
     },
     {
-      "title": "‘His Health Is Our Immediate Concern’: Papa Roach Cancels Festival Appearance After Bassist’s Medical Emergency",
-      "url": "https://www.vice.com/en/article/his-health-is-our-immediate-concern-papa-roach-cancels-festival-appearance-after-bassists-medical-emergency",
-      "source": "English - VICE",
-      "published_utc": "2026-09-19T12:41:04.000Z",
+      "title": "Trump Bans 3 Media Outlets From White House: Free Speech Is On The Struggle Bus",
+      "url": "https://newsone.com/6872136/trump-bans-media-outlets-white-house",
+      "source": "NewsOne",
+      "published_utc": "2026-09-19T16:15:27.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -560,52 +285,10 @@
       "region": "World"
     },
     {
-      "title": "Comedian Carrot Top hospitalized after alleged suicide attempt hours before Las Vegas show",
-      "url": "https://pagesix.com/2026/09/19/celebrity-news/comedian-carrot-top-hospitalized-after-suicide-attempt",
-      "source": "New York Post",
-      "published_utc": "2026-09-19T12:40:04.000Z",
-      "effects": {
-        "lightsaber": true,
-        "glitch": false,
-        "reasons": [
-          "score≥2.6"
-        ],
-        "style": "lightsaber"
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Asian Games 2026: Top athletes and storylines to look out for",
-      "url": "https://www.aljazeera.com/sports/2026/9/19/asian-games-2026-top-athletes-and-storylines-to-look-out-for?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-09-19T12:38:45.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "LEGO Batman: Legacy of the Dark Knight – Where and How To Start Mayhem Mode Content",
-      "url": "https://www.vice.com/en/article/lego-batman-legacy-of-the-dark-knight-where-and-how-to-start-mayhem-mode-content",
-      "source": "English - VICE",
-      "published_utc": "2026-09-19T12:38:29.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "NHL veteran’s wife feuds with Capitals fans after trade: ‘Much more to it’",
-      "url": "https://nypost.com/2026/09/19/sports/john-carlsons-wife-feuds-with-capitals-fans-after-trade-much-more-to-it",
+      "title": "How to watch Mississippi State vs. South Carolina: Start time, livestream",
+      "url": "https://nypost.com/2026/09/19/sports/how-to-watch-mississippi-state-south-carolina-time-livestream",
       "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
-      "published_utc": "2026-09-19T12:38:17.000Z",
+      "published_utc": "2026-09-19T16:15:00.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": true,
@@ -618,120 +301,10 @@
       "region": "Canada"
     },
     {
-      "title": "Michael Marra becomes new leader of Scottish Labour after Sarwar quit to join Burnham’s government",
-      "url": "https://www.independent.co.uk/news/uk/politics/michael-marra-scottish-labour-leader-sarwar-latest-b3052843.html",
-      "source": "The Independent News",
-      "published_utc": "2026-09-19T12:38:06.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "MS NOW says its journalists were denied access to the White House grounds",
-      "url": "https://www.independent.co.uk/news/washington-donald-trump-white-house-cnn-politico-b3052878.html",
-      "source": "The Independent News",
-      "published_utc": "2026-09-19T12:38:02.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "'Clearly fading': Trump's 'cognitive dissonance' linked to shocking source by NYT writer",
-      "url": "https://www.rawstory.com/cognitive-dissonance-trump",
-      "source": "Raw Story",
-      "published_utc": "2026-09-19T12:35:35.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Ayr Gold Cup under threat after 40-minute deluge of rain leaves standing water on track",
-      "url": "https://www.mirror.co.uk/sport/horse-racing/ayr-races-inspection-rain-weather-37680133",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-09-19T12:35:33.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "US lifts sanctions on Eritrea ‘to advance US regional interests’ in Red Sea",
-      "url": "https://www.aljazeera.com/news/2026/9/19/us-lifts-sanctions-on-eritrea-imposed-during-conflict-in-ethiopias-tigray?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-09-19T12:34:37.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "GBBO's Alison Hammond shares verdict on Nigella Lawson replacing Prue Leith",
-      "url": "https://www.mirror.co.uk/3am/celebrity-news/gbbos-alison-hammond-shares-verdict-37680143",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-09-19T12:34:16.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Royal family news live: Fallout over Earl Spencer book continues amid claims Diana still ‘deeply resented’ in Palace",
-      "url": "https://www.independent.co.uk/news/uk/home-news/earl-spencer-book-king-charles-response-diana-harry-live-updates-b3052283.html",
-      "source": "The Independent News",
-      "published_utc": "2026-09-19T12:32:55.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Sir Tom Jones' retirement admission before The Voice exit 'How long will it last?'",
-      "url": "https://www.mirror.co.uk/tv/tv-news/sir-tom-jones-retirement-admission-37680139",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-09-19T12:32:26.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Taliban massacre survivor describes watching as gunmen slaughtered bus passengers because women had been allowed on board... and how she managed to cheat death",
-      "url": "https://www.dailymail.com/news/article-16101665/Taliban-massacre-survivor-describes-watching-gunmen-slaughtered-bus-passengers-women-allowed-board-managed-cheat-death.html",
+      "title": "DEAR CAROLINE: I've been having an affair with a married man for six years. The sex is incredible but he won't let me see anyone else... I feel so lonely",
+      "url": "https://www.dailymail.com/lifestyle/article-16131149/DEAR-CAROLINE-Im-grieving-husband-know-Im-ready-date-again.html",
       "source": "Articles | Mail Online",
-      "published_utc": "2026-09-19T12:31:39.000Z",
+      "published_utc": "2026-09-19T16:11:08.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -741,185 +314,26 @@
       "region": "World"
     },
     {
-      "title": "Millwall's home becomes cauldron of hate as English football's nastiest rivalry is reignited with West Ham entering enemy territory at The Den",
-      "url": "https://www.dailymail.com/sport/football/article-16144047/west-ham-millwall-london-derby-chaos.html",
-      "source": "Articles | Mail Online",
-      "published_utc": "2026-09-19T12:30:12.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Kiehl’s celebrity-adored Creme de Corps is now available in ‘mood-enhancing’ scents",
-      "url": "https://pagesix.com/2026/09/19/style/kiehls-celebrity-adored-creme-de-corps-is-now-available-in-new-scents",
-      "source": "New York Post",
-      "published_utc": "2026-09-19T12:30:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Funerals held after deadly mosque attack in Pakistan’s Kohat",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/19/19-09-sv-kohat-funerals-pakistan-pk?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-09-19T12:29:51.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": true,
-        "reasons": [
-          "score≥2.1"
-        ],
-        "style": "glitch"
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Ukraine-Russia war latest: Russia claims election voting system hit by cyber attack after repelling drone strike",
-      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-election-elections-putin-zelensky-poland-nato-cyber-attack-b3052875.html",
-      "source": "The Independent News",
-      "published_utc": "2026-09-19T12:27:31.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "Labour",
-      "region": "World"
-    },
-    {
-      "title": "Double killer Christopher Halliwell's 'third victim' not identified for 15 years after DNA failing",
-      "url": "https://www.mirror.co.uk/news/uk-news/double-killer-christopher-halliwells-third-37676718",
-      "source": "Mirror - mirror frontpage",
-      "published_utc": "2026-09-19T12:27:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Saudi-led naval coalition prepares to secure Red Sea waterways",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/19/saudi-led-naval-coalition-prepares-to-secure-red-sea-waterways?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-09-19T12:21:01.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "In Gaza, actors perform a war they are still living",
-      "url": "https://www.aljazeera.com/features/2026/9/19/in-gaza-actors-perform-a-war-they-are-still-living?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-09-19T12:18:52.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "UNGA lingo: A guide to UN General Assembly meeting acronyms, buzzwords and more",
-      "url": "https://www.independent.co.uk/news/united-nations-un-general-assembly-unga-china-brics-b3052876.html",
-      "source": "The Independent News",
-      "published_utc": "2026-09-19T12:18:27.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Iran-US war latest: Black smoke seen near Riyadh airport after Tehran-backed Houthis vowed revenge against Saudi Arabia",
-      "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-strikes-hormuz-oil-news-b3052246.html",
-      "source": "The Independent News",
-      "published_utc": "2026-09-19T12:15:49.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Magic: The Gathering Calling All Angels – Full Commander Decklist",
-      "url": "https://www.vice.com/en/article/magic-the-gathering-calling-all-angels-full-commander-decklist",
-      "source": "English - VICE",
-      "published_utc": "2026-09-19T12:15:25.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Brighton vs Arsenal LIVE: Premier League latest score and confirmed lineups",
-      "url": "https://metro.co.uk/2026/09/19/brighton-vs-arsenal-live-premier-league-latest-score-confirmed-lineups-2-29635944",
-      "source": "Metro",
-      "published_utc": "2026-09-19T12:15:00.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "'The orange tie stays': Michael Saylor responds to venture capitalist's bitcoin obituary",
-      "url": "https://www.coindesk.com/markets/2026/09/19/the-orange-tie-stays-michael-saylor-responds-to-venture-capitalist-s-bitcoin-obituary",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published_utc": "2026-09-19T12:13:57.000Z",
+      "title": "Carrot Top's Saturday Show Is Canceled As He Remains Hospitalized",
+      "url": "https://www.tmz.com/2026/09/19/carrot-top-saturday-show-canceled-hospitalized",
+      "source": "TMZ.com",
+      "published_utc": "2026-09-19T16:11:01.000Z",
       "effects": {
         "lightsaber": true,
         "glitch": false,
         "reasons": [
           "score≥2.6"
         ],
-        "style": "breaker"
+        "style": "lightsaber"
       },
-      "category": "Business",
+      "category": "Labour",
       "region": "World"
     },
     {
-      "title": "Doomsday AI: panic, regulation and the China fear",
-      "url": "https://www.aljazeera.com/video/the-listening-post/2026/9/19/doomsday-ai-panic-regulation-and-the-china-fear?traffic_source=rss",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-      "published_utc": "2026-09-19T12:10:21.000Z",
-      "effects": {
-        "lightsaber": false,
-        "glitch": false,
-        "reasons": []
-      },
-      "category": "General",
-      "region": "World"
-    },
-    {
-      "title": "Stephen Miller's attack on kids exposed in damning report that details 'Nazi' sentiments",
-      "url": "https://www.rawstory.com/stephen-miller-immigration-2677894272",
-      "source": "Raw Story",
-      "published_utc": "2026-09-19T12:09:08.000Z",
+      "title": "Novig promo code NYPOST: Deposit $10, get $25 in trade credits for Mets vs. Phillies Saturday",
+      "url": "https://nypost.com/2026/09/19/betting/novig-promo-code-nypost-deposit-10-get-25-in-trade-credits-for-mets-vs-phillies-saturday",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-09-19T16:10:00.000Z",
       "effects": {
         "lightsaber": true,
         "glitch": false,
@@ -932,10 +346,26 @@
       "region": "Canada"
     },
     {
-      "title": "For Palestinian aid groups, Macklemore's $1M pledge brings relief and attention to ongoing suffering",
-      "url": "https://www.independent.co.uk/news/macklemore-palestinian-ed-sheeran-robert-kraft-grammy-b3052872.html",
-      "source": "The Independent News",
-      "published_utc": "2026-09-19T12:02:49.000Z",
+      "title": "Strictly Come Dancing stars tragically no longer with us as new series begins",
+      "url": "https://www.mirror.co.uk/tv/tv-news/strictly-stars-ann-widdecombe-died-35929604",
+      "source": "Mirror - mirror frontpage",
+      "published_utc": "2026-09-19T16:09:09.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "I lost two stone on Mounjaro. Now I'm a size 10 and have made £6,000 selling all my size 16 clothes on Vinted - here's how you can cash in on your closet",
+      "url": "https://www.dailymail.com/lifestyle/article-16130949/How-women-making-money-wardrobes-making-6-000-selling-clothes-earning-60-000-renting-out.html",
+      "source": "Articles | Mail Online",
+      "published_utc": "2026-09-19T16:09:08.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -945,10 +375,592 @@
       "region": "World"
     },
     {
-      "title": "General Threats to Kill Jews and \"Zionists\" Can Be Punished",
-      "url": "https://reason.com/volokh/2026/09/19/general-threats-to-kill-jews-and-zionists-can-be-punished",
-      "source": "Reason Magazine",
-      "published_utc": "2026-09-19T12:01:28.000Z",
+      "title": "Oogie Boogie Just Got His Own Nike Court Shoe",
+      "url": "https://www.highsnobiety.com/p/nike-book-2-halloween-2026",
+      "source": "Highsnobiety",
+      "published_utc": "2026-09-19T16:09:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Strictly's Tabby Stoecker - 'I've never sweated so hard but the little girl in me is screaming'",
+      "url": "https://www.mirror.co.uk/tv/tv-news/strictly-come-dancing-tabby-stoecker-37671563",
+      "source": "Mirror - mirror frontpage",
+      "published_utc": "2026-09-19T16:07:02.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "All but four constituencies would support reversing Brexit and rejoining the EU, major poll shows",
+      "url": "https://www.independent.co.uk/news/uk/politics/eu-uk-brexit-poll-rejoin-europe-b3052436.html",
+      "source": "The Independent News",
+      "published_utc": "2026-09-19T16:07:01.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Box Office: Zach Cregger’s ‘Resident Evil’ Scares Up $26 Million on Opening Day",
+      "url": "https://variety.com/2026/film/box-office/box-office-resident-evil-zach-cregger-1236869586",
+      "source": "Film",
+      "published_utc": "2026-09-19T16:06:01.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "They agreed to 'take the points' for someone else - and one ended up in prison. Here's why the 'friendly favour' can have serious consequences",
+      "url": "https://www.dailymail.com/lifestyle/article-16113671/speeding-points-prison-favour.html",
+      "source": "Articles | Mail Online",
+      "published_utc": "2026-09-19T16:05:19.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Britain's top planning barrister is locked in row with furious neighbours after putting up rooftop pergola at £3m London townhouse without planning permission",
+      "url": "https://www.dailymail.com/news/article-16138773/planning-barrister-row-neighbours-pergola-london-townhouse-without-permission.html",
+      "source": "Articles | Mail Online",
+      "published_utc": "2026-09-19T16:04:13.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Strictly Come Dancing's new host Emma Willis 'knows the knives are out'",
+      "url": "https://www.mirror.co.uk/tv/tv-news/emma-wills-strictly-come-dancing-37676319",
+      "source": "Mirror - mirror frontpage",
+      "published_utc": "2026-09-19T16:01:42.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "PETER HITCHENS: Why can't the BBC and our ruling classes bring themselves to admit they are wrong about Lucy Letby?",
+      "url": "https://www.dailymail.com/debate/article-16144505/PETER-HITCHENS-wrong-Lucy-Letby-BBC-ruling-classes-Thirlwall.html",
+      "source": "Articles | Mail Online",
+      "published_utc": "2026-09-19T16:02:41.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "DAN HODGES: The Right should be worried. Labour sources tell me Burnham is plotting to use a pact with the Lib Dems to stay in power for years",
+      "url": "https://www.dailymail.com/debate/article-16144457/DAN-HODGES-Burnham-plotting-Lib-Dem-pact-stay-on.html",
+      "source": "Articles | Mail Online",
+      "published_utc": "2026-09-19T16:01:29.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Pirates, Brandon Lowe Have Mutual Interest In New Deal",
+      "url": "https://www.mlbtraderumors.com/2026/09/pirates-brandon-lowe-have-mutual-interest-in-new-deal.html",
+      "source": "MLB Trade Rumors",
+      "published_utc": "2026-09-19T16:00:49.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Kalshi promo code NYPMAX: Trade $25, get $25 for UTSA vs. Texas",
+      "url": "https://nypost.com/2026/09/19/betting/kalshi-promo-code-nypmax-trade-25-get-25-for-utsa-vs-texas",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-09-19T16:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "Clarity Act, we hardly knew ye: We look at what was in the bill and what's replacing it",
+      "url": "https://www.coindesk.com/news-analysis/2026/09/18/clarity-act-we-hardly-knew-ye-we-look-at-what-was-in-the-bill-and-what-s-replacing-it",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published_utc": "2026-09-19T16:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Business",
+      "region": "World"
+    },
+    {
+      "title": "‘Landman’ Season 3 Release Date Update: When Does The Next Season of ‘Landman’ Come Out?",
+      "url": "https://decider.com/2026/09/19/landman-season-3-release-date-when-new-season-landman-start-paramount-plus",
+      "source": "New York Post",
+      "published_utc": "2026-09-19T16:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Tabby Stoecker's incredible life in a circus before starting new career due to Instagram ad",
+      "url": "https://www.mirror.co.uk/sport/other-sports/athletics/tabby-stoecker-strictly-come-dancing-37672844",
+      "source": "Mirror - mirror frontpage",
+      "published_utc": "2026-09-19T16:00:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Police hiring standards matter. But they alone cannot stop abuse",
+      "url": "https://www.aljazeera.com/opinions/2026/9/19/police-hiring-standards-matter-but-they-alone-cannot-stop-abuse?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-09-19T15:58:55.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Wayne and Coleen Rooney reveal they have told their older children about their dad's past scandals and are 'straight' when they have questions",
+      "url": "https://www.dailymail.com/tvshowbiz/article-16144343/Wayne-Coleen-Rooney-reveal-told-older-children-dads-past-scandals-straight-questions.html",
+      "source": "Articles | Mail Online",
+      "published_utc": "2026-09-19T15:58:55.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "This simple diet switch could end the pain of IBS, but Britain's 10 million sufferers aren't being told about it: DR ELLIE",
+      "url": "https://www.dailymail.com/health/article-16142481/diet-switch-end-pain-IBS-Britain-DR-ELLIE.html",
+      "source": "Articles | Mail Online",
+      "published_utc": "2026-09-19T15:58:38.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Millwall vs West Ham LIVE: Six arrests after spitting incident and red card in heated clash",
+      "url": "https://www.mirror.co.uk/sport/football/news/millwall-west-ham-police-live-37679547",
+      "source": "Mirror - mirror frontpage",
+      "published_utc": "2026-09-19T15:56:48.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Now Nicola Sturgeon embraces London life as she relaxes on her friend's £150k houseboat... on the Grand UNION Canal!",
+      "url": "https://www.dailymail.com/news/article-16143071/Now-Nicola-Sturgeon-embraces-London-life-relaxes-friends-150k-houseboat-Grand-UNION-Canal.html",
+      "source": "Articles | Mail Online",
+      "published_utc": "2026-09-19T15:58:18.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Man United fan group says Sir Jim Ratcliffe ‘must go’ after anti-immigration comments",
+      "url": "https://www.independent.co.uk/sport/football/news/jim-ratcliffe-man-united-immigration-b3052928.html",
+      "source": "The Independent News",
+      "published_utc": "2026-09-19T15:56:25.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Arsenal torn apart by Brighton on horror afternoon for reigning champions - 5 talking points",
+      "url": "https://www.mirror.co.uk/sport/football/match-reports/arsenal-brighton-premier-league-goals-37680518",
+      "source": "Mirror - mirror frontpage",
+      "published_utc": "2026-09-19T15:55:37.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Nick Reiner hasn’t received ‘even $5’ from $1.6M family trust, lawyers claim",
+      "url": "https://pagesix.com/2026/09/19/celebrity-news/nick-reiner-hasnt-received-even-5-from-1-6m-trust-lawyers-claim",
+      "source": "New York Post",
+      "published_utc": "2026-09-19T15:52:44.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Trigger for Trump's raging White House tantrum buried in WaPo report: Analyst",
+      "url": "https://www.rawstory.com/trump-media-2677894660",
+      "source": "Raw Story",
+      "published_utc": "2026-09-19T15:50:51.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "All that money spent and Spurs do not have a proper striker or goalkeeper",
+      "url": "https://www.telegraph.co.uk/football/2026/09/19/tottenham-vs-aston-villa-live-score-latest-premier-league",
+      "source": "www.telegraph.co.uk for the latest news from the UK and around the world.",
+      "published_utc": "2026-09-19T15:50:48.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "Labour",
+      "region": "World"
+    },
+    {
+      "title": "Dutch riot police break up far-right protest in The Hague after violence erupts",
+      "url": "https://www.independent.co.uk/news/police-officers-dutch-the-hague-nazi-b3052929.html",
+      "source": "The Independent News",
+      "published_utc": "2026-09-19T15:50:42.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Netflix viewers rush to binge haunting series about one of Britain’s most horrific unsolved murders",
+      "url": "https://metro.co.uk/2026/09/19/netflix-viewers-rush-binge-haunting-series-a-horrific-unsolved-murder-29636372",
+      "source": "Metro",
+      "published_utc": "2026-09-19T15:47:38.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Humpback whale spotted in California river, traveling 60 miles from Pacific Ocean",
+      "url": "https://www.independent.co.uk/news/world/americas/humpback-whale-sacramento-river-b3052919.html",
+      "source": "The Independent News",
+      "published_utc": "2026-09-19T15:43:55.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "BBC shares first look at The Other Bennet Sister Christmas special – with huge twist",
+      "url": "https://www.mirror.co.uk/tv/tv-news/the-other-bennett-sister-christmas-37680513",
+      "source": "Mirror - mirror frontpage",
+      "published_utc": "2026-09-19T15:43:46.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "General",
+      "region": "Canada"
+    },
+    {
+      "title": "Adela Brooklyn Steel",
+      "url": "https://www.rollingstone.com/music/music-pictures/adela-brooklyn-steel-photos-1235629157",
+      "source": "Rolling Stone",
+      "published_utc": "2026-09-19T15:43:28.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "What’s real and not real — including Jets, Giants’ stellar starts — after an eventful NFL Week 1",
+      "url": "https://nypost.com/2026/09/19/sports/whats-real-and-not-real-including-jets-giants-stellar-starts-after-an-eventful-nfl-week-1",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-09-19T15:41:38.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "‘I didn’t like it’ – Roberto De Zerbi slams £85m Tottenham star after Villa defeat",
+      "url": "https://metro.co.uk/2026/09/19/roberto-de-zerbi-slams-85m-tottenham-star-villa-defeat-i-didnt-like-it-29636441",
+      "source": "Metro",
+      "published_utc": "2026-09-19T15:40:42.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Wayne Rooney reveals he quit booze and shares raw feelings with Coleen after 'pressure' built up",
+      "url": "https://www.mirror.co.uk/3am/celebrity-news/wayne-rooney-alcohol-coleen-struggles-37680711",
+      "source": "Mirror - mirror frontpage",
+      "published_utc": "2026-09-19T15:40:03.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Jerusalem Daily: Gaza’s children return to schools",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/19/jerusalem-daily-gazas-children-return-to-schools?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-09-19T15:38:58.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "The Biggest Financial Red Flag in Dating Isn’t What You Think",
+      "url": "https://www.vice.com/en/article/the-biggest-financial-red-flag-in-dating-isnt-what-you-think",
+      "source": "English - VICE",
+      "published_utc": "2026-09-19T15:38:15.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "6 injured after vehicle strikes pedestrians at Quebec festival",
+      "url": "https://globalnews.ca/news/12065579/st-tite-quebec-festival-collision",
+      "source": "globalnews.ca",
+      "published_utc": "2026-09-19T15:36:42.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "Bus stolen and driven into vehicles after its driver was allegedly attacked",
+      "url": "https://www.independent.co.uk/news/uk/crime/telford-bus-stolen-driver-assault-b3052920.html",
+      "source": "The Independent News",
+      "published_utc": "2026-09-19T15:36:07.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Manchester United squad vs Fulham: Carlos Baleba and Luke Shaw in; Benjamin Sesko missing",
+      "url": "https://metro.co.uk/2026/09/19/man-utd-squad-vs-fulham-carlos-baleba-luke-shaw-benjamin-sesko-missing-29636371",
+      "source": "Metro",
+      "published_utc": "2026-09-19T15:34:18.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Bill will help reduce government interventions during strikes: Hajdu",
+      "url": "https://toronto.citynews.ca/2026/09/19/bill-will-help-reduce-government-interventions-during-strikes-hajdu",
+      "source": "CityNews Toronto",
+      "published_utc": "2026-09-19T15:32:04.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "Djibouti refugee crisis worsens as more than 2,700 Yemenis arrive",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/19/djibouti-refugee-crisis-worsens-as-more-than-2700-yemenis-arrive?traffic_source=rss",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "published_utc": "2026-09-19T15:31:05.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "Louisville vs. SMU prediction: Mustangs struggle in top-25 battle",
+      "url": "https://nypost.com/2026/09/19/betting/louisville-vs-smu-prediction-college-football-best-bets-odds-picks-for-acc-clash-in-week-3",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-09-19T15:30:00.000Z",
+      "effects": {
+        "lightsaber": true,
+        "glitch": false,
+        "reasons": [
+          "score≥2.6"
+        ],
+        "style": "lightsaber"
+      },
+      "category": "Labour",
+      "region": "Canada"
+    },
+    {
+      "title": "Here’s how to watch Florida State vs. No. 10 Alabama: Time, livestream",
+      "url": "https://nypost.com/2026/09/19/sports/heres-how-to-watch-florida-state-vs-alabama-time-livestream",
+      "source": "NY Post Sports – Latest News, Scores, Stats & Videos",
+      "published_utc": "2026-09-19T15:30:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": true,
+        "reasons": [
+          "score≥2.1"
+        ],
+        "style": "glitch"
+      },
+      "category": "Sports",
+      "region": "Canada"
+    },
+    {
+      "title": "‘Resident Evil’ Star Austin Abrams on His ‘Tragic’ Transformation, ‘Not Trying to Look Cool’ While Screaming and the One He Scene Wasn’t Allowed to Shoot",
+      "url": "https://variety.com/2026/film/features/resident-evil-austin-abrams-ending-monster-transformation-1236867004",
+      "source": "Film",
+      "published_utc": "2026-09-19T15:30:00.000Z",
+      "effects": {
+        "lightsaber": false,
+        "glitch": false,
+        "reasons": []
+      },
+      "category": "General",
+      "region": "World"
+    },
+    {
+      "title": "‘Monster: The Lizzie Borden Story’: Who Was Nance O’Neil?",
+      "url": "https://www.thewrap.com/creative-content/tv-shows/monster-the-lizzie-borden-story-nance-oneil-explained",
+      "source": "TheWrap",
+      "published_utc": "2026-09-19T15:30:00.000Z",
       "effects": {
         "lightsaber": false,
         "glitch": false,
@@ -961,8 +973,8 @@
   "_debug": {
     "feeds_total": 154,
     "cap_items": 320,
-    "collected": 1060,
-    "dedup_pass1": 1047,
+    "collected": 1040,
+    "dedup_pass1": 1029,
     "dedup_final": 320,
     "slow_domains": [
       "cultmtl.com"
@@ -990,56 +1002,56 @@
     "feed_times_sample": [
       {
         "host": "toronto.citynews.ca",
-        "sec": 1.847,
+        "sec": 1.846,
         "kept": 8
       },
       {
         "host": "www.labourstart.org",
-        "sec": 1.055,
+        "sec": 1.245,
         "kept": 0
       },
       {
         "host": "globalnews.ca",
-        "sec": 0.366,
+        "sec": 0.506,
         "kept": 10
       },
       {
-        "host": "www.blogto.com",
-        "sec": 0.305,
-        "kept": 0
-      },
-      {
         "host": "www.mlbtraderumors.com",
-        "sec": 0.292,
+        "sec": 0.369,
         "kept": 14
       },
       {
         "host": "www.cp24.com",
-        "sec": 0.168,
+        "sec": 0.292,
         "kept": 14
       },
       {
-        "host": "www.bls.gov",
-        "sec": 0.159,
-        "kept": 0
-      },
-      {
-        "host": "www.nhl.com",
-        "sec": 0.061,
+        "host": "www.blogto.com",
+        "sec": 0.232,
         "kept": 0
       },
       {
         "host": "www.mlb.com",
-        "sec": 0.061,
+        "sec": 0.128,
         "kept": 14
       },
       {
+        "host": "www.bls.gov",
+        "sec": 0.1,
+        "kept": 0
+      },
+      {
         "host": "www.federalreserve.gov",
-        "sec": 0.054,
+        "sec": 0.07,
         "kept": 14
+      },
+      {
+        "host": "www.nhl.com",
+        "sec": 0.063,
+        "kept": 0
       }
     ],
-    "elapsed_sec": 294.03,
+    "elapsed_sec": 309.2,
     "http_timeout_sec": 10,
     "slow_feed_warn_sec": 3.5,
     "global_budget_sec": 210,
@@ -1065,23 +1077,23 @@
     "score_stats": {
       "effects_lightsaber": 0,
       "effects_glitch": 0,
-      "ps_fatal_hits": 27,
-      "ps_injury_hits": 0,
+      "ps_fatal_hits": 24,
+      "ps_injury_hits": 1,
       "market_btc_hits": 0,
       "market_index_hits": 0,
       "market_nikkei_hits": 0,
       "market_single_hits": 0,
-      "agg_penalties": 14,
+      "agg_penalties": 0,
       "press_penalties": 0,
       "preferred_bonus": 127,
       "substack_tagged": 0,
-      "sports_team_hits": 9,
+      "sports_team_hits": 10,
       "sports_player_hits": 2,
-      "sports_result_win_hits": 24,
+      "sports_result_win_hits": 31,
       "sports_result_loss_hits": 0,
       "sports_evening_hits": 0,
       "sports_playoff_hits": 0,
-      "sports_focus_team_hits": 12,
+      "sports_focus_team_hits": 9,
       "sports_final_hits": 2,
       "sports_final_score_hits": 2,
       "hype_politics": 0,
@@ -1091,15 +1103,15 @@
       "hype_sports": 0,
       "hype_ceasefire": 0,
       "reject_hits": 0,
-      "obit_hits": 12,
-      "major_figure_hits": 4,
-      "business_am_hits": 73
+      "obit_hits": 13,
+      "major_figure_hits": 2,
+      "business_am_hits": 0
     },
     "sanity_stats": {
-      "link_verification_fail": 34,
-      "soft_404_drops": 77,
+      "link_verification_fail": 27,
+      "soft_404_drops": 24,
       "max_age_drops": 0,
-      "min_age_drops": 0,
+      "min_age_drops": 1,
       "market_sanity_drops": 0,
       "backfill_steps_used": 0
     },
