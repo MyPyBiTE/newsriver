@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Man, 82, dies after fight over sunlounger on Greek beach",
-      "display":"Man, 82, dies after fight over sunlounger on Greek beach",
-      "url":"https://metro.co.uk/2026/09/21/man-82-dies-fight-sunlounger-greek-beach-29638344",
+      "text":"Here's why a long winning streak has eluded Blue Jays",
+      "display":"Here's why a long winning streak has eluded Blue Jays",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-inconsistency-lack-of-long-winning-streak",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Presley Gerber, Cindy Crawford’s son, dead at 27",
+      "display":"Presley Gerber, Cindy Crawford’s son, dead at 27",
+      "url":"https://globalnews.ca/news/12066837/presley-gerber-cindy-crawford-son-dead",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Emma Corrin turns heads in a sheer black gown as they join Jade Thirlwall and Lila Moss at the star-studded Alexander McQueen LFW show",
-      "display":"Emma Corrin turns heads in a sheer black gown as they join Jade Thirlwall and Lila Moss at the star-studded Alexander McQueen LFW show",
-      "url":"https://www.dailymail.com/tvshowbiz/article-16146787/Emma-Corrin-Jade-Thirlwall-Lila-Moss-McQueen-LFW.html",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Barclays gives major update on future of UK branches 'around the country'",
-      "display":"Barclays gives major update on future of UK branches 'around the country'",
-      "url":"https://www.mirror.co.uk/money/barclays-gives-major-update-future-37683584",
+      "text":"Police investigating woman’s sudden death in Whitby",
+      "display":"Police investigating woman’s sudden death in Whitby",
+      "url":"https://toronto.citynews.ca/2026/09/21/police-investigating-womans-sudden-death-in-whitby",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-09-21T14:03:30Z"
+  "generated_utc":"2026-09-21T19:23:43Z"
 }
