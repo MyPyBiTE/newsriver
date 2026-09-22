@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"King Buffalo Announce New Album, Unleash “The Slick and the Dead”: Stream",
-      "display":"King Buffalo Announce New Album, Unleash “The Slick and the Dead”: Stream",
-      "url":"https://consequence.net/2026/09/king-buffalo-doomsayer-the-slick-and-the-dead",
+      "text":"Raptors, Kawhi Leonard agree to two-year, $115M extension: report",
+      "display":"Raptors, Kawhi Leonard agree to two-year, $115M extension: report",
+      "url":"https://toronto.citynews.ca/2026/09/22/raptors-kawhi-leonard-agree-to-two-year-115m-extension-report",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Man dead after e-bike collides with vehicle in Regina, police say",
+      "display":"Man dead after e-bike collides with vehicle in Regina, police say",
+      "url":"https://globalnews.ca/news/12068820/man-dead-ebike-collision-regina",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Canada’s privacy czar launches investigation of major driver’s licence hack",
-      "display":"Canada’s privacy czar launches investigation of major driver’s licence hack",
-      "url":"https://globalnews.ca/news/12068230/privacy-commissioner-investigation-drivers-licence-hack",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Rachel Notley and Jason Kenney on the fight for Canada",
-      "display":"Rachel Notley and Jason Kenney on the fight for Canada",
-      "url":"https://toronto.citynews.ca/2026/09/22/rachel-notley-and-jason-kenney-on-the-fight-for-canada",
+      "text":"AriZona Iced Tea billionaire allegedly promised masseuse $820K home — a secretly recorded call is central to the case",
+      "display":"AriZona Iced Tea billionaire allegedly promised masseuse $820K home — a secretly recorded call is central to the case",
+      "url":"https://nypost.com/2026/09/22/business/arizona-iced-tea-billionaire-allegedly-promised-masseuse-an-820k-home",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-09-22T19:09:08Z"
+  "generated_utc":"2026-09-22T22:04:51Z"
 }
