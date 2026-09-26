@@ -18,7 +18,7 @@
               "team": {
                 "abbreviation": "NYC"
               },
-              "score": 0
+              "score": 1
             },
             "home": {
               "team": {
@@ -58,12 +58,12 @@
           "gamePk": "761832",
           "gameDate": "2026-09-26T23:30Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
