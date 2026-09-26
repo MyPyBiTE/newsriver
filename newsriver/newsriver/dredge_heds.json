@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"B.C. truck drivers protest high diesel prices: ‘We work for free right now’",
-      "display":"B.C. truck drivers protest high diesel prices: ‘We work for free right now’",
-      "url":"https://globalnews.ca/news/12073363/convoy-truck-drivers-protest-high-diesel-prices-bc",
+      "text":"Latest Blue Jays injuries & transactions",
+      "display":"Latest Blue Jays injuries & transactions",
+      "url":"https://www.mlb.com/bluejays/news/blue-jays-injuries-and-roster-moves",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Saskatchewan harvest faces higher costs and delays",
+      "display":"Saskatchewan harvest faces higher costs and delays",
+      "url":"https://globalnews.ca/news/12072103/saskatchewan-harvest-faces-higher-costs-and-delays",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"4 from Ontario charged after 95 kilos of cannabis seized in alleged export scheme",
-      "display":"4 from Ontario charged after 95 kilos of cannabis seized in alleged export scheme",
-      "url":"https://toronto.citynews.ca/2026/09/25/ontario-four-charged-cannabis-scheme-rcmp",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"The 7 Best Fireproof Home Safes Protect Your Valuables from Extreme Heat",
-      "display":"The 7 Best Fireproof Home Safes Protect Your Valuables from Extreme Heat",
-      "url":"https://www.popularmechanics.com/home/interior-projects/a45559412/best-fireproof-home-safes",
+      "text":"Marineland belugas that died in Chicago had chronic disease, aquarium says",
+      "display":"Marineland belugas that died in Chicago had chronic disease, aquarium says",
+      "url":"https://toronto.citynews.ca/2026/09/25/marineland-belugas-that-died-in-chicago-had-chronic-disease-aquarium-says",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-09-25T22:16:28Z"
+  "generated_utc":"2026-09-26T00:43:03Z"
 }
