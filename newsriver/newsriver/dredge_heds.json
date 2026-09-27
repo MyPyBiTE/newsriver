@@ -1,8 +1,18 @@
 {
   "items":[
     {
-      "text":"1 arrested after man stabbed near Centerpoint Mall",
-      "display":"1 arrested after man stabbed near Centerpoint Mall",
+      "text":"Elks outlast Ticats 37-35 in overtime",
+      "display":"Elks outlast Ticats 37-35 in overtime",
+      "url":"https://globalnews.ca/news/12074730/elks-outlast-ticats-37-35-in-overtime",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":false,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"1 arrested after man fatally stabbed near Centerpoint Mall",
+      "display":"1 arrested after man fatally stabbed near Centerpoint Mall",
       "url":"https://toronto.citynews.ca/2026/09/26/1-arrested-after-man-stabbed-near-centerpoint-mall",
       "flags":{
         "is_breaking":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Calgary Stampeders beat Ottawa Redblacks 45-31",
-      "display":"Calgary Stampeders beat Ottawa Redblacks 45-31",
-      "url":"https://globalnews.ca/news/12074613/calgary-stampeders-beat-ottawa-redblacks-45-31",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"USC linebacker celebrates after brutal hit sends Oregon QB Dante Moore to hospital",
-      "display":"USC linebacker celebrates after brutal hit sends Oregon QB Dante Moore to hospital",
-      "url":"https://nypost.com/2026/09/26/sports/uscs-desman-stephens-celebrates-after-targeting-hit-sends-oregon-qb-dante-moore-to-hospital",
+      "text":"‘SNL’: Jalen Brunson Is MVP of the Office",
+      "display":"‘SNL’: Jalen Brunson Is MVP of the Office",
+      "url":"https://www.rollingstone.com/tv-movies/tv-movie-news/snl-jalen-brunson-knicks-mvp-of-the-office-1235632437",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-09-27T06:44:15Z"
+  "generated_utc":"2026-09-27T12:28:37Z"
 }
