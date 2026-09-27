@@ -6,25 +6,25 @@
           "gamePk": "761844",
           "gameDate": "2026-09-27T23:00Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "MIA"
               },
-              "score": 0
+              "score": 1
             },
             "home": {
               "team": {
                 "abbreviation": "CLB"
               },
-              "score": 0
+              "score": 1
             }
           }
         }
