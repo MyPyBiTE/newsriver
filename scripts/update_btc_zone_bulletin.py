@@ -12,7 +12,7 @@ from pathlib import Path
 
 STEP = 14_400
 LOOKBACK = 14 * 6
-OUTPUT = Path(__file__).with_name("btc_zone_bulletin.json")
+OUTPUT = Path(__file__).resolve().parents[1] / "btc_zone_bulletin.json"
 
 
 def main() -> None:
