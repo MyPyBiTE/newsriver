@@ -1,0 +1,34 @@
+name: Fetch latest Substack post
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "*/10 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Fetch latest Substack post
+        run: python scripts/fetch_substacks.py
+
+      - name: Commit updated Substack feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add substack.json
+          git diff --cached --quiet || git commit -m "Update Substack feed"
+          git push
