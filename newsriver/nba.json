@@ -1,8 +1,34 @@
 {
-  "generated_utc": "2026-10-05T17:12:28.445495Z",
+  "generated_utc": "2026-10-05T23:11:16.265238Z",
   "dates": [
     {
       "games": [
+        {
+          "gamePk": "401914101",
+          "gameDate": "2026-10-05T23:00Z",
+          "status": {
+            "detailedState": "Live",
+            "abstractGameState": "Live"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "NYK"
+              },
+              "score": 0
+            },
+            "home": {
+              "team": {
+                "abbreviation": "PHI"
+              },
+              "score": 0
+            }
+          }
+        },
         {
           "gamePk": "401898388",
           "gameDate": "2026-10-05T23:00Z",
@@ -50,32 +76,6 @@
             "home": {
               "team": {
                 "abbreviation": "DET"
-              },
-              "score": 0
-            }
-          }
-        },
-        {
-          "gamePk": "401914101",
-          "gameDate": "2026-10-05T23:00Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "NYK"
-              },
-              "score": 0
-            },
-            "home": {
-              "team": {
-                "abbreviation": "PHI"
               },
               "score": 0
             }
