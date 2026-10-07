@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"‘Days of Our Lives’ actor Robert Kelker-Kelly dead at 62",
-      "display":"‘Days of Our Lives’ actor Robert Kelker-Kelly dead at 62",
-      "url":"https://globalnews.ca/news/12089441/days-of-our-lives-actor-robert-kelker-kelly-dead",
+      "text":"Watch Blue Jays prospects in Arizona Fall League action",
+      "display":"Watch Blue Jays prospects in Arizona Fall League action",
+      "url":"https://www.mlb.com/bluejays/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Air Canada flight from Toronto struck by Delta plane at LAX, no injuries reported",
+      "display":"Air Canada flight from Toronto struck by Delta plane at LAX, no injuries reported",
+      "url":"https://toronto.citynews.ca/2026/10/06/air-canada-flight-from-toronto-struck-by-delta-plane-at-lax-no-injuries-reported",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Mississauga mayoral candidate Alvin Tedjo says campaign volunteer attacked with knife while putting up election signs",
-      "display":"Mississauga mayoral candidate Alvin Tedjo says campaign volunteer attacked with knife while putting up election signs",
-      "url":"https://toronto.citynews.ca/2026/10/06/mississauga-mayoral-candidate-alvin-tedjo-says-campaign-volunteer-attacked-with-knife-while-putting-up-election-signs",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"The Real Difference Between Living Longer and Living Better",
-      "display":"The Real Difference Between Living Longer and Living Better",
-      "url":"https://www.psychologytoday.com/ca/blog/leadership-diversity-and-wellness/202610/the-real-difference-between-living-longer-and-living",
+      "text":"Christine Fréchette steps down as Coalition Avenir Québec leader",
+      "display":"Christine Fréchette steps down as Coalition Avenir Québec leader",
+      "url":"https://globalnews.ca/news/12090198/christine-frechette-steps-down-caq",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-10-06T20:39:34Z"
+  "generated_utc":"2026-10-07T00:07:12Z"
 }
