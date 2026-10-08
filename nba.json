@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-08T17:58:51.822868Z",
+  "generated_utc": "2026-10-08T23:11:22.675054Z",
   "dates": [
     {
       "games": [
@@ -7,12 +7,12 @@
           "gamePk": "401898392",
           "gameDate": "2026-10-08T23:00Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
