@@ -1,34 +1,8 @@
 {
-  "generated_utc": "2026-10-09T10:13:23.590439Z",
+  "generated_utc": "2026-10-09T17:01:21.671192Z",
   "dates": [
     {
       "games": [
-        {
-          "gamePk": "401898395",
-          "gameDate": "2026-10-09T12:00Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "HOU"
-              },
-              "score": 0
-            },
-            "home": {
-              "team": {
-                "abbreviation": "DAL"
-              },
-              "score": 0
-            }
-          }
-        },
         {
           "gamePk": "401908940",
           "gameDate": "2026-10-10T00:00Z",
@@ -52,6 +26,32 @@
                 "abbreviation": "CHI"
               },
               "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401898395",
+          "gameDate": "2026-10-09T12:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "HOU"
+              },
+              "score": 135
+            },
+            "home": {
+              "team": {
+                "abbreviation": "DAL"
+              },
+              "score": 117
             }
           }
         }
