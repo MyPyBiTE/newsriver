@@ -98,7 +98,6 @@ def main() -> int:
     items: list[dict[str, Any]] = []
     with requests.Session() as session:
         session.headers.update({"User-Agent": "MyPyBiTE flight summary/1.0 (public website)"})
-        for tracked in load_watchlist():
         watchlist = load_watchlist()
         for index, tracked in enumerate(watchlist):
             try:
