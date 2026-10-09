@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 import tempfile
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -98,6 +99,8 @@ def main() -> int:
     with requests.Session() as session:
         session.headers.update({"User-Agent": "MyPyBiTE flight summary/1.0 (public website)"})
         for tracked in load_watchlist():
+        watchlist = load_watchlist()
+        for index, tracked in enumerate(watchlist):
             try:
                 item = fetch_aircraft(session, tracked)
                 if item:
@@ -105,6 +108,8 @@ def main() -> int:
             except requests.RequestException as exc:
                 print(f"WARN: {tracked.get('hex')}: {exc}")
                 items.append(unavailable(tracked, "Live status temporarily unavailable"))
+            if index < len(watchlist) - 1:
+                time.sleep(1.25)
 
     items.sort(key=lambda row: (row["altitudeFt"] > 0, row["altitudeFt"]), reverse=True)
     payload = {
