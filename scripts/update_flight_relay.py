@@ -48,7 +48,7 @@ def normalize(raw: dict[str, Any], tracked: dict[str, str]) -> dict[str, Any]:
     registration = clean(raw.get("r") or tracked.get("registration"))
     callsign = clean(raw.get("flight") or registration or hex_code.upper())
     height = altitude(raw.get("alt_baro") if raw.get("alt_baro") is not None else raw.get("alt_geom"))
-    status = "Airborne" if height > 0 else "Ground or recently observed"
+    status = "Airborne" if height > 0 else "Not currently airborne"
     label = clean(tracked.get("label") or registration or callsign)
     updated_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     return {
@@ -62,12 +62,27 @@ def normalize(raw: dict[str, Any], tracked: dict[str, str]) -> dict[str, Any]:
     }
 
 
+def unavailable(tracked: dict[str, str], status: str = "Not currently airborne") -> dict[str, Any]:
+    hex_code = clean(tracked.get("hex")).lower()
+    registration = clean(tracked.get("registration"))
+    updated_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+    return {
+        "ownerName": clean(tracked.get("label") or registration or hex_code.upper()),
+        "callsign": registration or hex_code.upper(),
+        "altitudeFt": 0,
+        "route": status,
+        "updatedAt": updated_at,
+        "url": clean(tracked.get("trackerUrl")) or f"https://www.adsb.lol/?icao={hex_code}",
+        "sourceName": "ADSB.lol",
+    }
+
+
 def fetch_aircraft(session: requests.Session, tracked: dict[str, str]) -> dict[str, Any] | None:
     hex_code = clean(tracked.get("hex")).lower()
     response = session.get(f"{API_ROOT}/{hex_code}", timeout=25)
     response.raise_for_status()
     raw = newest_aircraft(response.json())
-    return normalize(raw, tracked) if raw else None
+    return normalize(raw, tracked) if raw else unavailable(tracked)
 
 
 def write_json(path: Path, payload: dict[str, Any]) -> None:
@@ -89,6 +104,7 @@ def main() -> int:
                     items.append(item)
             except requests.RequestException as exc:
                 print(f"WARN: {tracked.get('hex')}: {exc}")
+                items.append(unavailable(tracked, "Live status temporarily unavailable"))
 
     items.sort(key=lambda row: (row["altitudeFt"] > 0, row["altitudeFt"]), reverse=True)
     payload = {
