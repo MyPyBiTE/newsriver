@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"9 dead after shooting in Erie, Pennsylvania, governor says; suspected shooter also dead",
-      "display":"9 dead after shooting in Erie, Pennsylvania, governor says; suspected shooter also dead",
-      "url":"https://toronto.citynews.ca/2026/10/10/9-dead-after-shooting-in-northern-pennsylvania",
+      "text":"Watch LIVE: Blue Jays prospects in Arizona Fall League",
+      "display":"Watch LIVE: Blue Jays prospects in Arizona Fall League",
+      "url":"https://www.mlb.com/bluejays/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"2 dead after plane crash, fire near Fergus, Ont.",
+      "display":"2 dead after plane crash, fire near Fergus, Ont.",
+      "url":"https://globalnews.ca/news/12098605/2-dead-plane-crash-fergus-ontario",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Pope Leo declares death penalty ‘inadmissible’ as his native US plans to livestream execution",
-      "display":"Pope Leo declares death penalty ‘inadmissible’ as his native US plans to livestream execution",
-      "url":"https://globalnews.ca/news/12098450/pope-leo-declares-death-penalty-inadmissible",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Why Dodgers could face trouble in Brewers NLCS rematch: ‘Feels like a different team’",
-      "display":"Why Dodgers could face trouble in Brewers NLCS rematch: ‘Feels like a different team’",
-      "url":"https://nypost.com/2026/10/10/sports/dodgers-brewers-nlcs-rematch-scouting-report",
+      "text":"2 people killed in small plane crash near Guelph",
+      "display":"2 people killed in small plane crash near Guelph",
+      "url":"https://toronto.citynews.ca/2026/10/10/2-people-killed-in-small-plane-crash-near-guelph",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-10-10T20:11:58Z"
+  "generated_utc":"2026-10-10T23:31:57Z"
 }
