@@ -2,54 +2,38 @@
 
 from __future__ import annotations
 
-import html
 import json
-import math
 import os
-import urllib.request
-import xml.etree.ElementTree as ET
 
-from concurrent.futures import ThreadPoolExecutor, as_completed
-from dataclasses import dataclass
-from datetime import datetime, timezone
-from email.utils import parsedate_to_datetime
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 from urllib.parse import urlsplit, urlunsplit
+from zoneinfo import ZoneInfo
 
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
 
-SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
-SHEET_NAME = "Substack Sources"
-HEADERS = [
+SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
+CACHE_SHEET = "Substack Cache"
+CACHE_HEADERS = [
     "publication",
-    "homepage_url",
-    "feed_url",
-    "enabled",
+    "headline",
+    "url",
+    "published_at",
     "priority",
-    "last_checked",
-    "status",
+    "source_feed",
 ]
 OUTPUT_PATH = Path("substack.json")
 OUTPUT_COUNT = 7
-MAX_POSTS_PER_SOURCE = 25
-MAX_WORKERS = 8
+SHEET_TIMEZONE = ZoneInfo("America/Toronto")
+SHEETS_EPOCH = datetime(1899, 12, 30)
 
 
 class FeedFailure(RuntimeError):
     pass
-
-
-@dataclass(frozen=True)
-class Source:
-    row_number: int
-    publication: str
-    homepage_url: str
-    feed_url: str
-    priority: int
 
 
 def utc_now() -> datetime:
@@ -60,51 +44,6 @@ def iso_utc(value: datetime) -> str:
     return value.astimezone(timezone.utc).replace(microsecond=0).isoformat().replace(
         "+00:00", "Z"
     )
-
-
-def sheet_timestamp(value: datetime) -> str:
-    return value.astimezone(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
-
-
-def truthy(value: Any) -> bool:
-    return str(value).strip().lower() in {"1", "true", "yes", "y", "on", "enabled"}
-
-
-def parse_priority(value: Any, fallback: int) -> int:
-    try:
-        return int(float(str(value).strip()))
-    except (TypeError, ValueError):
-        return fallback
-
-
-def parse_date(value: str) -> datetime | None:
-    value = (value or "").strip()
-    if not value:
-        return None
-
-    try:
-        result = parsedate_to_datetime(value)
-        if result.tzinfo is None:
-            result = result.replace(tzinfo=timezone.utc)
-        return result.astimezone(timezone.utc)
-    except (TypeError, ValueError, OverflowError):
-        pass
-
-    try:
-        result = datetime.fromisoformat(value.replace("Z", "+00:00"))
-        if result.tzinfo is None:
-            result = result.replace(tzinfo=timezone.utc)
-        return result.astimezone(timezone.utc)
-    except ValueError:
-        return None
-
-
-def element_text(element: ET.Element, names: list[str]) -> str:
-    for name in names:
-        found = element.find(name)
-        if found is not None and found.text:
-            return html.unescape(found.text.strip())
-    return ""
 
 
 def canonical_url(value: str) -> str:
@@ -118,6 +57,32 @@ def canonical_url(value: str) -> str:
     host = parts.netloc.lower().removeprefix("www.")
     path = parts.path.rstrip("/") or "/"
     return urlunsplit(("https", host, path, "", ""))
+
+
+def parse_sheet_datetime(value: Any) -> datetime | None:
+    if isinstance(value, (int, float)):
+        local_value = (SHEETS_EPOCH + timedelta(days=float(value))).replace(
+            tzinfo=SHEET_TIMEZONE
+        )
+        return local_value.astimezone(timezone.utc)
+
+    text = str(value or "").strip()
+    if not text:
+        return None
+    try:
+        parsed = datetime.fromisoformat(text.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=SHEET_TIMEZONE)
+    return parsed.astimezone(timezone.utc)
+
+
+def parse_priority(value: Any, fallback: int) -> int:
+    try:
+        return int(float(value))
+    except (TypeError, ValueError):
+        return fallback
 
 
 def credentials_from_environment():
@@ -140,146 +105,61 @@ def sheets_service():
     )
 
 
-def load_sources(service, spreadsheet_id: str) -> list[Source]:
-    result = service.spreadsheets().values().get(
-        spreadsheetId=spreadsheet_id,
-        range=f"'{SHEET_NAME}'!A1:G",
-    ).execute()
+def load_cache(service, spreadsheet_id: str) -> list[dict[str, Any]]:
+    result = (
+        service.spreadsheets()
+        .values()
+        .get(
+            spreadsheetId=spreadsheet_id,
+            range=f"'{CACHE_SHEET}'!A1:F",
+            valueRenderOption="UNFORMATTED_VALUE",
+            dateTimeRenderOption="SERIAL_NUMBER",
+        )
+        .execute()
+    )
     values = result.get("values", [])
     if not values:
-        raise FeedFailure(f"{SHEET_NAME} is empty.")
+        raise FeedFailure(f"{CACHE_SHEET} is empty.")
 
-    actual_headers = list(values[0][: len(HEADERS)])
-    if actual_headers != HEADERS:
+    actual_headers = list(values[0][: len(CACHE_HEADERS)])
+    if actual_headers != CACHE_HEADERS:
         raise FeedFailure(
-            f"{SHEET_NAME} headers do not match. Expected {HEADERS!r}; "
+            f"{CACHE_SHEET} headers do not match. Expected {CACHE_HEADERS!r}; "
             f"found {actual_headers!r}."
         )
 
-    sources: list[Source] = []
+    posts: list[dict[str, Any]] = []
+    seen: set[str] = set()
     for row_number, raw_row in enumerate(values[1:], start=2):
-        row = list(raw_row[: len(HEADERS)]) + [""] * max(0, len(HEADERS) - len(raw_row))
-        publication = str(row[0]).strip()
-        homepage_url = str(row[1]).strip()
-        feed_url = str(row[2]).strip()
-        if not publication and not feed_url:
+        row = list(raw_row[: len(CACHE_HEADERS)]) + [""] * max(
+            0, len(CACHE_HEADERS) - len(raw_row)
+        )
+        publication = str(row[0] or "").strip()
+        headline = str(row[1] or "").strip()
+        url = canonical_url(str(row[2] or ""))
+        published = parse_sheet_datetime(row[3])
+        source_feed = canonical_url(str(row[5] or ""))
+
+        if not publication or not headline or not url or not published or not source_feed:
+            print(f"SKIP: invalid cache row {row_number}")
             continue
-        if not truthy(row[3]):
+        if url in seen:
             continue
-        if not publication or not canonical_url(homepage_url) or not canonical_url(feed_url):
-            raise FeedFailure(f"Invalid enabled source on sheet row {row_number}.")
-        sources.append(
-            Source(
-                row_number=row_number,
-                publication=publication,
-                homepage_url=homepage_url,
-                feed_url=feed_url,
-                priority=parse_priority(row[4], row_number),
-            )
+        seen.add(url)
+        posts.append(
+            {
+                "source": publication,
+                "headline": headline,
+                "url": url,
+                "canonicalUrl": url,
+                "publishedAt": iso_utc(published),
+                "category": "Editorial",
+                "_timestamp": published.timestamp(),
+                "_priority": parse_priority(row[4], row_number),
+                "_source_feed": source_feed,
+            }
         )
 
-    if not sources:
-        raise FeedFailure("No enabled Substack sources were found.")
-    return sources
-
-
-def parse_rss(source: Source, root: ET.Element) -> list[dict[str, Any]]:
-    posts: list[dict[str, Any]] = []
-    for item in root.findall(".//item"):
-        title = element_text(item, ["title"])
-        link = element_text(item, ["link", "guid"])
-        published = parse_date(
-            element_text(
-                item,
-                ["pubDate", "{http://purl.org/dc/elements/1.1/}date"],
-            )
-        )
-        url = canonical_url(link)
-        if title and url and published:
-            posts.append(
-                {
-                    "source": source.publication,
-                    "headline": title,
-                    "url": url,
-                    "canonicalUrl": url,
-                    "publishedAt": iso_utc(published),
-                    "category": "Editorial",
-                    "_timestamp": published.timestamp(),
-                    "_priority": source.priority,
-                }
-            )
-    return posts
-
-
-def parse_atom(source: Source, root: ET.Element) -> list[dict[str, Any]]:
-    posts: list[dict[str, Any]] = []
-    namespace = "{http://www.w3.org/2005/Atom}"
-    for entry in root.findall(f".//{namespace}entry"):
-        title = element_text(entry, [f"{namespace}title"])
-        link = ""
-        for link_element in entry.findall(f"{namespace}link"):
-            href = link_element.attrib.get("href", "")
-            rel = link_element.attrib.get("rel", "alternate")
-            if href and rel == "alternate":
-                link = href
-                break
-        published = parse_date(
-            element_text(entry, [f"{namespace}published", f"{namespace}updated"])
-        )
-        url = canonical_url(link)
-        if title and url and published:
-            posts.append(
-                {
-                    "source": source.publication,
-                    "headline": title,
-                    "url": url,
-                    "canonicalUrl": url,
-                    "publishedAt": iso_utc(published),
-                    "category": "Editorial",
-                    "_timestamp": published.timestamp(),
-                    "_priority": source.priority,
-                }
-            )
-    return posts
-
-
-def fetch_source(source: Source) -> list[dict[str, Any]]:
-    request = urllib.request.Request(
-        source.feed_url,
-        headers={
-            "User-Agent": "MYPYBITE-Substack-Reader/2.0 (+https://www.mypybite.com)",
-            "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml",
-        },
-    )
-    with urllib.request.urlopen(request, timeout=25) as response:
-        raw = response.read()
-    root = ET.fromstring(raw)
-    posts = parse_rss(source, root) or parse_atom(source, root)
-    posts.sort(key=lambda item: item["_timestamp"], reverse=True)
-    return posts[:MAX_POSTS_PER_SOURCE]
-
-
-def update_source_statuses(
-    service,
-    spreadsheet_id: str,
-    checked_at: datetime,
-    statuses: dict[int, str],
-) -> None:
-    data = [
-        {
-            "range": f"'{SHEET_NAME}'!F{row_number}:G{row_number}",
-            "values": [[sheet_timestamp(checked_at), status]],
-        }
-        for row_number, status in sorted(statuses.items())
-    ]
-    if data:
-        service.spreadsheets().values().batchUpdate(
-            spreadsheetId=spreadsheet_id,
-            body={"valueInputOption": "USER_ENTERED", "data": data},
-        ).execute()
-
-
-def select_newest(posts: list[dict[str, Any]]) -> list[dict[str, Any]]:
     posts.sort(
         key=lambda item: (
             -float(item["_timestamp"]),
@@ -287,40 +167,29 @@ def select_newest(posts: list[dict[str, Any]]) -> list[dict[str, Any]]:
             item["canonicalUrl"],
         )
     )
-    selected: list[dict[str, Any]] = []
-    seen: set[str] = set()
-    for item in posts:
-        key = item["canonicalUrl"]
-        if key in seen:
-            continue
-        seen.add(key)
-        clean_item = {key: value for key, value in item.items() if not key.startswith("_")}
-        selected.append(clean_item)
-        if len(selected) == OUTPUT_COUNT:
-            break
-    return selected
+    return posts
 
 
-def write_payload(
-    selected: list[dict[str, Any]],
-    checked_at: datetime,
-    total_sources: int,
-    successful_sources: int,
-) -> None:
-    if len(selected) != OUTPUT_COUNT:
+def write_payload(posts: list[dict[str, Any]]) -> None:
+    if len(posts) < OUTPUT_COUNT:
         raise FeedFailure(
-            f"Refusing to replace the last valid feed: expected {OUTPUT_COUNT} posts, "
-            f"found {len(selected)}."
+            "Refusing to replace the last valid feed: expected at least "
+            f"{OUTPUT_COUNT} cached posts, found {len(posts)}."
         )
 
+    selected = posts[:OUTPUT_COUNT]
+    clean_items = [
+        {key: value for key, value in item.items() if not key.startswith("_")}
+        for item in selected
+    ]
     payload = {
         "schema": "mypybite.substack-feed.v1",
-        "generatedAt": iso_utc(checked_at),
-        "sourceCount": total_sources,
-        "successfulSources": successful_sources,
-        "latest": selected[0],
-        "items": selected,
+        "generatedAt": iso_utc(utc_now()),
+        "sourceCount": len({item["_source_feed"] for item in posts}),
+        "latest": clean_items[0],
+        "items": clean_items,
     }
+
     temporary = OUTPUT_PATH.with_suffix(".json.tmp")
     temporary.write_text(
         json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
@@ -335,50 +204,14 @@ def main() -> int:
         print("FAIL: MYPYBITE_SHEET_ID is missing.")
         return 1
 
-    checked_at = utc_now()
     try:
-        service = sheets_service()
-        sources = load_sources(service, spreadsheet_id)
-
-        posts: list[dict[str, Any]] = []
-        statuses: dict[int, str] = {}
-        successful_sources = 0
-
-        with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-            futures = {executor.submit(fetch_source, source): source for source in sources}
-            for future in as_completed(futures):
-                source = futures[future]
-                try:
-                    source_posts = future.result()
-                    if not source_posts:
-                        raise FeedFailure("feed contained no dated posts")
-                    posts.extend(source_posts)
-                    successful_sources += 1
-                    statuses[source.row_number] = f"ok ({len(source_posts)} posts)"
-                    print(f"OK: {source.publication}: {len(source_posts)} posts")
-                except Exception as exc:
-                    message = " ".join(str(exc).split())[:160]
-                    statuses[source.row_number] = f"error: {message}"
-                    print(f"SKIP: {source.publication}: {message}")
-
-        update_source_statuses(service, spreadsheet_id, checked_at, statuses)
-
-        minimum_successes = math.ceil(len(sources) * 0.5)
-        if successful_sources < minimum_successes:
-            raise FeedFailure(
-                "Refusing to replace the last valid feed: only "
-                f"{successful_sources}/{len(sources)} sources succeeded; "
-                f"minimum is {minimum_successes}."
-            )
-
-        selected = select_newest(posts)
-        write_payload(selected, checked_at, len(sources), successful_sources)
+        posts = load_cache(sheets_service(), spreadsheet_id)
+        write_payload(posts)
         print(
-            f"DONE: published {len(selected)} newest posts from "
-            f"{successful_sources}/{len(sources)} sources."
+            f"DONE: published the seven newest posts from {len(posts)} valid cached rows."
         )
         return 0
-    except (FeedFailure, HttpError, OSError, ET.ParseError) as exc:
+    except (FeedFailure, HttpError, OSError) as exc:
         print(f"FAIL: {exc}")
         return 1
 
