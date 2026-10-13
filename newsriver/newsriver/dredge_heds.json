@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Larger than life: Backstreet Boys add one more show to round out 4 weekends of Toronto residency",
-      "display":"Larger than life: Backstreet Boys add one more show to round out 4 weekends of Toronto residency",
-      "url":"https://toronto.citynews.ca/2026/10/13/larger-than-life-backstreet-boys-add-one-more-show-to-round-out-4-weekends-of-toronto-residency",
+      "text":"Watch Blue Jays prospects in Arizona Fall League action",
+      "display":"Watch Blue Jays prospects in Arizona Fall League action",
+      "url":"https://www.mlb.com/bluejays/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Favourite Family Recipe: Becky’s Great Aunt’s spice bundt cake",
+      "display":"Favourite Family Recipe: Becky’s Great Aunt’s spice bundt cake",
+      "url":"https://globalnews.ca/news/12101114/favourite-family-recipe-beckys-great-aunts-spice-bundt-cake",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"India's 97 GW Coal Expansion Plan Looks Too Small, Senior Official Says",
-      "display":"India's 97 GW Coal Expansion Plan Looks Too Small, Senior Official Says",
-      "url":"https://oilprice.com/Latest-Energy-News/World-News/Indias-97-GW-Coal-Expansion-Plan-Looks-Too-Small-Senior-Official-Says.html",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"From ‘KPop Demon Hunters’ to a Stick-Figure YouTuber: THR’s First Animation Power List",
-      "display":"From ‘KPop Demon Hunters’ to a Stick-Figure YouTuber: THR’s First Animation Power List",
-      "url":"https://www.hollywoodreporter.com/lists/2026-animation-power-list",
+      "text":"Nearly two-thirds of Torontonians support bike lane removals on major streets by the province: poll",
+      "display":"Nearly two-thirds of Torontonians support bike lane removals on major streets by the province: poll",
+      "url":"https://toronto.citynews.ca/2026/10/13/nearly-two-thirds-of-torontonians-support-bike-lane-removals-on-major-streets-by-the-province-poll",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-10-13T20:44:43Z"
+  "generated_utc":"2026-10-13T23:56:14Z"
 }
