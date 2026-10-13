@@ -29,7 +29,7 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --disable-pip-version-check -r requirements.txt
 
-      - name: Fetch seven newest Substack posts from Sheet sources
+      - name: Publish seven newest Substack posts from Sheet cache
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           MYPYBITE_SHEET_ID: ${{ secrets.MYPYBITE_SHEET_ID }}
@@ -40,5 +40,17 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add substack.json
-          git diff --cached --quiet || git commit -m "Update Substack feed"
-          git push
+          if git diff --cached --quiet; then
+            echo "Substack feed is already current."
+            exit 0
+          fi
+          git commit -m "Update Substack feed"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            sleep $((attempt * 2))
+          done
+          echo "Unable to publish Substack feed after three attempts."
+          exit 1
