@@ -28,6 +28,9 @@ CACHE_HEADERS = [
 ]
 OUTPUT_PATH = Path("substack.json")
 OUTPUT_COUNT = 7
+MYPYBITE_WINDOW = timedelta(days=5)
+MYPYBITE_PUBLICATION = "mypybite"
+MYPYBITE_HOST = "mypybite.substack.com"
 SHEET_TIMEZONE = ZoneInfo("America/Toronto")
 SHEETS_EPOCH = datetime(1899, 12, 30)
 
@@ -170,6 +173,36 @@ def load_cache(service, spreadsheet_id: str) -> list[dict[str, Any]]:
     return posts
 
 
+def is_mypybite_post(item: dict[str, Any]) -> bool:
+    publication = str(item.get("source") or "").strip().casefold()
+    try:
+        source_host = (urlsplit(str(item.get("_source_feed") or "")).hostname or "").casefold()
+        post_host = (urlsplit(str(item.get("canonicalUrl") or "")).hostname or "").casefold()
+    except ValueError:
+        source_host = ""
+        post_host = ""
+    return (
+        publication == MYPYBITE_PUBLICATION
+        or source_host == MYPYBITE_HOST
+        or post_host == MYPYBITE_HOST
+    )
+
+
+def select_posts(
+    posts: list[dict[str, Any]], now: datetime | None = None
+) -> list[dict[str, Any]]:
+    reference_time = now or utc_now()
+    cutoff = (reference_time - MYPYBITE_WINDOW).timestamp()
+    recent_mypybite = [
+        item
+        for item in posts
+        if is_mypybite_post(item) and float(item["_timestamp"]) >= cutoff
+    ]
+    reserved_urls = {item["canonicalUrl"] for item in recent_mypybite}
+    remaining = [item for item in posts if item["canonicalUrl"] not in reserved_urls]
+    return (recent_mypybite + remaining)[:OUTPUT_COUNT]
+
+
 def write_payload(posts: list[dict[str, Any]]) -> None:
     if len(posts) < OUTPUT_COUNT:
         raise FeedFailure(
@@ -177,7 +210,7 @@ def write_payload(posts: list[dict[str, Any]]) -> None:
             f"{OUTPUT_COUNT} cached posts, found {len(posts)}."
         )
 
-    selected = posts[:OUTPUT_COUNT]
+    selected = select_posts(posts)
     clean_items = [
         {key: value for key, value in item.items() if not key.startswith("_")}
         for item in selected
