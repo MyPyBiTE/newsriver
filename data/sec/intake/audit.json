@@ -1,0 +1,32 @@
+{
+  "schema": "mypybite.sec-intake.v1",
+  "generatedAt": "2026-10-14T23:38:00Z",
+  "existingRecords": 0,
+  "incomingRecords": 4495,
+  "newRecords": 4495,
+  "duplicateRecords": 0,
+  "finalRecords": 4495,
+  "uniqueFilings": 2565,
+  "targetForms": [
+    "10-K",
+    "10-K/A",
+    "10-Q",
+    "10-Q/A",
+    "3",
+    "3/A",
+    "4",
+    "4/A",
+    "5",
+    "5/A",
+    "8-K",
+    "8-K/A",
+    "SC 13D",
+    "SC 13D/A",
+    "SC 13G",
+    "SC 13G/A"
+  ],
+  "acceptanceTimestampCoverage": 0,
+  "notes": [
+    "acceptedAt is intentionally null in intake v1 and will be enriched from authoritative filing metadata in the next component."
+  ]
+}
