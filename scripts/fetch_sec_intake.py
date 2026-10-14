@@ -28,6 +28,7 @@ from typing import Iterable, Iterator
 
 SCHEMA = "mypybite.sec-intake.v1"
 SEC_ARCHIVES = "https://www.sec.gov/Archives"
+SEC_DAILY_INDEX = f"{SEC_ARCHIVES}/edgar/daily-index"
 DEFAULT_OUTPUT_DIR = Path("data/sec/intake")
 DEFAULT_LOOKBACK_DAYS = 7
 REQUEST_INTERVAL_SECONDS = 0.25  # Four requests/second, below the SEC ceiling.
@@ -161,9 +162,65 @@ def parse_master_index(text: str) -> Iterator[IndexRow]:
 def index_url(day: date) -> str:
     quarter = ((day.month - 1) // 3) + 1
     return (
-        f"{SEC_ARCHIVES}/edgar/daily-index/{day.year}/QTR{quarter}/"
+        f"{SEC_DAILY_INDEX}/{day.year}/QTR{quarter}/"
         f"master.{day:%Y%m%d}.idx"
     )
+
+
+def directory_items(text: str, source_url: str) -> list[dict[str, object]]:
+    try:
+        value = json.loads(text)
+        items = value["directory"]["item"]
+    except (json.JSONDecodeError, KeyError, TypeError) as exc:
+        raise IntakeFailure(f"Invalid SEC directory index: {source_url}") from exc
+    if not isinstance(items, list):
+        raise IntakeFailure(f"Invalid SEC directory item list: {source_url}")
+    return [item for item in items if isinstance(item, dict)]
+
+
+def latest_available_index_date(client: "SecClient") -> date:
+    root_url = f"{SEC_DAILY_INDEX}/index.json"
+    root_text = client.get_text(root_url)
+    if root_text is None:
+        raise IntakeFailure("SEC daily-index directory is unavailable.")
+    years = sorted(
+        (
+            int(str(item.get("name")))
+            for item in directory_items(root_text, root_url)
+            if str(item.get("name") or "").isdigit()
+        ),
+        reverse=True,
+    )
+    for year in years:
+        year_url = f"{SEC_DAILY_INDEX}/{year}/index.json"
+        year_text = client.get_text(year_url)
+        if year_text is None:
+            continue
+        quarters = sorted(
+            (
+                int(match.group(1))
+                for item in directory_items(year_text, year_url)
+                if (match := re.fullmatch(r"QTR([1-4])", str(item.get("name") or "")))
+            ),
+            reverse=True,
+        )
+        for quarter in quarters:
+            quarter_url = f"{SEC_DAILY_INDEX}/{year}/QTR{quarter}/index.json"
+            quarter_text = client.get_text(quarter_url)
+            if quarter_text is None:
+                continue
+            available_dates: list[date] = []
+            for item in directory_items(quarter_text, quarter_url):
+                match = re.fullmatch(
+                    r"master\.(\d{8})\.idx", str(item.get("name") or "")
+                )
+                if match:
+                    available_dates.append(
+                        date.fromisoformat(normalize_filed_date(match.group(1)))
+                    )
+            if available_dates:
+                return max(available_dates)
+    raise IntakeFailure("No SEC master index was discoverable from the archive directories.")
 
 
 class SecClient:
@@ -176,7 +233,9 @@ class SecClient:
         self.interval_seconds = max(interval_seconds, REQUEST_INTERVAL_SECONDS)
         self._last_request_at = 0.0
 
-    def get_text(self, url: str) -> str | None:
+    def get_text(
+        self, url: str, missing_statuses: frozenset[int] = frozenset({404})
+    ) -> str | None:
         for attempt in range(1, MAX_ATTEMPTS + 1):
             elapsed = time.monotonic() - self._last_request_at
             if elapsed < self.interval_seconds:
@@ -200,7 +259,7 @@ class SecClient:
                         payload = zlib.decompress(payload)
                     return payload.decode("latin-1")
             except urllib.error.HTTPError as exc:
-                if exc.code == 404:
+                if exc.code in missing_statuses:
                     return None
                 if exc.code not in {429, 500, 502, 503, 504} or attempt == MAX_ATTEMPTS:
                     raise IntakeFailure(f"SEC request failed ({exc.code}): {url}") from exc
@@ -334,9 +393,13 @@ def run(args: argparse.Namespace) -> int:
         checked.append({"source": source_url, "status": "ok", "targetRecords": len(rows)})
     else:
         client = SecClient(args.user_agent, args.request_interval)
-        for day in candidate_dates(args.end_date, args.lookback_days):
+        end_date = args.end_date or latest_available_index_date(client)
+        for day in candidate_dates(end_date, args.lookback_days):
             source_url = index_url(day)
-            text = client.get_text(source_url)
+            # EDGAR returns 403, rather than 404, for some nonexistent daily
+            # master-index dates (weekends and holidays). Directory discovery
+            # remains strict; only these optional day files treat 403 as absent.
+            text = client.get_text(source_url, frozenset({403, 404}))
             if text is None:
                 checked.append({"date": day.isoformat(), "source": source_url, "status": "not_found"})
                 continue
@@ -364,6 +427,12 @@ def run(args: argparse.Namespace) -> int:
         "recordCount": len(merged),
         "latestFiledDate": max(
             (str(record["filedDate"]) for record in merged.values()), default=None
+        ),
+        "requestedEndDate": args.end_date.isoformat() if args.end_date else None,
+        "resolvedArchiveEndDate": (
+            args.end_date.isoformat()
+            if args.end_date
+            else (None if args.input_file else end_date.isoformat())
         ),
         "checkedSources": checked,
     }
@@ -405,8 +474,8 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--end-date",
         type=parse_iso_date,
-        default=utc_now().date(),
-        help="Newest daily index date to check (default: today UTC).",
+        default=None,
+        help="Newest daily index date to check. By default, discover the newest index EDGAR has actually published.",
     )
     parser.add_argument(
         "--lookback-days",
