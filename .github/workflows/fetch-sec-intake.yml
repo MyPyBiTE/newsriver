@@ -1,0 +1,60 @@
+name: Collect SEC filing intake
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "17 2 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-sec-intake
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Test SEC intake collector
+        run: python -m unittest discover -s tests -p "test_fetch_sec_intake.py" -v
+
+      - name: Reconcile recent SEC filing indexes
+        env:
+          SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT }}
+        run: |
+          if [ -z "$SEC_USER_AGENT" ]; then
+            echo "Repository variable SEC_USER_AGENT is required."
+            exit 1
+          fi
+          python scripts/fetch_sec_intake.py --lookback-days 7
+
+      - name: Commit updated SEC intake records
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/sec/intake/filings.jsonl data/sec/intake/state.json data/sec/intake/audit.json
+          if git diff --cached --quiet; then
+            echo "SEC intake is already current."
+            exit 0
+          fi
+          git commit -m "Update SEC filing intake"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            sleep $((attempt * 2))
+          done
+          echo "Unable to publish SEC intake after three attempts."
+          exit 1
