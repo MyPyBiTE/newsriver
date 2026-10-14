@@ -40,6 +40,34 @@ class IntakeTests(unittest.TestCase):
         self.assertEqual(MODULE.normalize_filed_date("20250102"), "2025-01-02")
         self.assertEqual(MODULE.normalize_filed_date("2025-01-02"), "2025-01-02")
 
+    def test_latest_date_comes_from_archive_directory(self):
+        class FakeClient:
+            responses = {
+                f"{MODULE.SEC_DAILY_INDEX}/index.json": {
+                    "directory": {"item": [{"name": "2025"}, {"name": "2026"}]}
+                },
+                f"{MODULE.SEC_DAILY_INDEX}/2026/index.json": {
+                    "directory": {"item": [{"name": "QTR2"}, {"name": "QTR3"}]}
+                },
+                f"{MODULE.SEC_DAILY_INDEX}/2026/QTR3/index.json": {
+                    "directory": {
+                        "item": [
+                            {"name": "master.20260929.idx"},
+                            {"name": "master.20260930.idx"},
+                            {"name": "company.20260930.idx"},
+                        ]
+                    }
+                },
+            }
+
+            def get_text(self, url):
+                return json.dumps(self.responses[url])
+
+        self.assertEqual(
+            MODULE.latest_available_index_date(FakeClient()),
+            MODULE.date(2026, 9, 30),
+        )
+
     def test_local_run_is_idempotent(self):
         # Keep test writes inside the checkout. Some managed Windows runners
         # aggressively scan the global temporary directory and can stall an
