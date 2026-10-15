@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Video shows suspect sought for arson, shooting at Vaughan business",
-      "display":"Video shows suspect sought for arson, shooting at Vaughan business",
-      "url":"https://globalnews.ca/news/12102432/arson-shooting-vaughan",
+      "text":"Watch Blue Jays prospects in Arizona Fall League action",
+      "display":"Watch Blue Jays prospects in Arizona Fall League action",
+      "url":"https://www.mlb.com/bluejays/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"New Brunswick government says it was late to report inmate death",
+      "display":"New Brunswick government says it was late to report inmate death",
+      "url":"https://globalnews.ca/news/12102849/new-brunswick-inmate-death-report",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Brampton woman charged after using another person’s ID to purchase vehicle: police",
-      "display":"Brampton woman charged after using another person’s ID to purchase vehicle: police",
-      "url":"https://toronto.citynews.ca/2026/10/14/brampton-woman-charged-after-using-another-persons-id-to-purchase-vehicle-police",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Treasury says largest U.S. banks let politics influence who received banking services",
-      "display":"Treasury says largest U.S. banks let politics influence who received banking services",
-      "url":"https://www.cnbc.com/2026/10/14/treasury-banks-debanking-trump-reputation-risk.html",
+      "text":"5 injured in Scarborough 2-vehicle rollover collision",
+      "display":"5 injured in Scarborough 2-vehicle rollover collision",
+      "url":"https://toronto.citynews.ca/2026/10/14/2-vehicles-involved-in-scarborough-rollover-collision",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-10-14T21:55:45Z"
+  "generated_utc":"2026-10-15T00:11:36Z"
 }
