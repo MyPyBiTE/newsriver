@@ -1,25 +1,27 @@
-name: Collect SEC filing intake
+name: Reconcile SEC filing intake
 
 on:
   workflow_dispatch:
-
   schedule:
-    - cron: "17 2 * * *"
+    # 09:30 UTC is 04:30 EST / 05:30 EDT, safely after EDGAR's nightly
+    # daily-index build. Tuesday-Saturday covers Monday-Friday filing days.
+    - cron: "30 9 * * 2-6"
 
 permissions:
   contents: write
 
 concurrency:
-  group: fetch-sec-intake
+  group: sec-data-writer
   cancel-in-progress: false
 
 jobs:
-  collect:
+  reconcile:
     runs-on: ubuntu-latest
-
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -29,7 +31,7 @@ jobs:
       - name: Test SEC intake collector
         run: python -m unittest discover -s tests -p "test_fetch_sec_intake.py" -v
 
-      - name: Reconcile recent SEC filing indexes
+      - name: Reconcile recent daily indexes
         env:
           SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT }}
         run: |
@@ -37,9 +39,9 @@ jobs:
             echo "Repository variable SEC_USER_AGENT is required."
             exit 1
           fi
-          python scripts/fetch_sec_intake.py --lookback-days 7
+          python scripts/fetch_sec_intake.py --lookback-days 14
 
-      - name: Commit updated SEC intake records
+      - name: Commit reconciled SEC intake
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -48,7 +50,7 @@ jobs:
             echo "SEC intake is already current."
             exit 0
           fi
-          git commit -m "Update SEC filing intake"
+          git commit -m "Reconcile SEC filing intake"
           for attempt in 1 2 3; do
             git pull --rebase origin main
             if git push origin HEAD:main; then
