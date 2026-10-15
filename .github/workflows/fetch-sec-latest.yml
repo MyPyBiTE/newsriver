@@ -1,0 +1,91 @@
+name: Detect latest SEC filings
+
+on:
+  workflow_dispatch:
+  schedule:
+    # A deliberately broad UTC window covers 6 a.m.-10:15 p.m. Eastern
+    # throughout both daylight and standard time. No-data runs do not commit.
+    - cron: "*/15 10-23 * * 1-5"
+    - cron: "*/15 0-3 * * 2-6"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sec-data-writer
+  cancel-in-progress: false
+
+jobs:
+  detect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Test latest-filings detector
+        run: python -m unittest discover -s tests -p "test_fetch_sec_latest.py" -v
+
+      - name: Detect recent SEC filings
+        env:
+          SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT }}
+        run: |
+          if [ -z "$SEC_USER_AGENT" ]; then
+            echo "Repository variable SEC_USER_AGENT is required."
+            exit 1
+          fi
+          python scripts/fetch_sec_latest.py --pages 5
+
+      - name: Commit new detections
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/sec/detections/filings.jsonl data/sec/detections/state.json data/sec/detections/audit.json
+          if git diff --cached --quiet; then
+            echo "No new SEC detections."
+          else
+            git commit -m "Update SEC latest detections"
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then
+                break
+              fi
+              if [ "$attempt" -eq 3 ]; then
+                echo "Unable to publish SEC detections after three attempts."
+                exit 1
+              fi
+              sleep $((attempt * 2))
+            done
+          fi
+
+      - name: Enrich newly detected accessions
+        env:
+          SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT }}
+        run: >-
+          python scripts/enrich_sec_metadata.py
+          --input data/sec/detections/filings.jsonl
+          --max-filings 500
+
+      - name: Commit updated SEC metadata
+        run: |
+          git add data/sec/metadata/filings.jsonl data/sec/metadata/state.json data/sec/metadata/audit.json
+          if git diff --cached --quiet; then
+            echo "SEC metadata is already current."
+            exit 0
+          fi
+          git commit -m "Update SEC filing metadata"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            sleep $((attempt * 2))
+          done
+          echo "Unable to publish SEC metadata after three attempts."
+          exit 1
