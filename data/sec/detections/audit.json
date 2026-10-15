@@ -1,0 +1,31 @@
+{
+  "schema": "mypybite.sec-latest.v1",
+  "generatedAt": "2026-10-15T03:01:18Z",
+  "existingRecords": 0,
+  "incomingRecords": 373,
+  "newRecords": 373,
+  "duplicateRecords": 0,
+  "finalRecords": 373,
+  "targetForms": [
+    "10-K",
+    "10-K/A",
+    "10-Q",
+    "10-Q/A",
+    "3",
+    "3/A",
+    "4",
+    "4/A",
+    "5",
+    "5/A",
+    "8-K",
+    "8-K/A",
+    "SC 13D",
+    "SC 13D/A",
+    "SC 13G",
+    "SC 13G/A"
+  ],
+  "notes": [
+    "This feed is the low-latency detector; nightly master-index reconciliation remains authoritative.",
+    "feedUpdatedAt is not treated as the authoritative acceptance timestamp."
+  ]
+}
