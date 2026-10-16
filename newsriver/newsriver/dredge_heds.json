@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"3 dead, at least 10 injured in Calgary transit bus fire",
-      "display":"3 dead, at least 10 injured in Calgary transit bus fire",
-      "url":"https://globalnews.ca/news/12104232/northeast-calgary-bus-fire",
+      "text":"LIVE: Watch Blue Jays prospects in Arizona Fall League action",
+      "display":"LIVE: Watch Blue Jays prospects in Arizona Fall League action",
+      "url":"https://www.mlb.com/bluejays/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Young father killed when motorcycle crashes into Edmonton bus shelter",
+      "display":"Young father killed when motorcycle crashes into Edmonton bus shelter",
+      "url":"https://globalnews.ca/news/12104580/edmonton-motorcycle-bus-shelter-fatal-crash-victim",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"1 man arrested, 1 still wanted in death of Lawrence Heights manh",
-      "display":"1 man arrested, 1 still wanted in death of Lawrence Heights manh",
-      "url":"https://toronto.citynews.ca/2026/10/15/1-man-arrested-1-still-wanted-in-death-of-lawrence-heights-manh",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Eleventh Circuit Rejects Netchoice's Challenge to Georgia Law Restricting Under-16-Year-Old Social Media Access",
-      "display":"Eleventh Circuit Rejects Netchoice's Challenge to Georgia Law Restricting Under-16-Year-Old Social Media Access",
-      "url":"https://reason.com/volokh/2026/10/15/eleventh-circuit-rejects-netchoices-challenge-to-georgia-law-restricting-under-16-year-old-social-media-access",
+      "text":"Canada must diversify trade away from the U.S. for security reasons: Freeland",
+      "display":"Canada must diversify trade away from the U.S. for security reasons: Freeland",
+      "url":"https://toronto.citynews.ca/2026/10/15/canada-must-diversify-trade-away-from-the-u-s-for-security-reasons-freeland",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-10-15T23:50:25Z"
+  "generated_utc":"2026-10-16T02:17:05Z"
 }
