@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Report finds more than $40M in excess claims, misconduct in Winnipeg police HQ construction",
-      "display":"Report finds more than $40M in excess claims, misconduct in Winnipeg police HQ construction",
-      "url":"https://globalnews.ca/news/12108401/winnipeg-police-hq-construction-report",
+      "text":"Watch Blue Jays prospects in Arizona Fall League action",
+      "display":"Watch Blue Jays prospects in Arizona Fall League action",
+      "url":"https://www.mlb.com/bluejays/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Family devastated after charges stayed in 2018 fatal hit-and-run near Terrace",
+      "display":"Family devastated after charges stayed in 2018 fatal hit-and-run near Terrace",
+      "url":"https://globalnews.ca/news/12108737/family-devastated-charges-stayed-2018-fatal-hit-and-run-terrace",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Man arrested in alleged assault on TTC bus",
-      "display":"Man arrested in alleged assault on TTC bus",
-      "url":"https://toronto.citynews.ca/2026/10/19/man-arrested-in-alleged-assault-on-ttc-bus",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Walking May Improve Your Attention Span",
-      "display":"Walking May Improve Your Attention Span",
-      "url":"https://nautil.us/walking-may-improve-your-attention-span-1285936",
+      "text":"Two charged, 127 kg of cocaine seized at Ambassador Bridge: CBSA",
+      "display":"Two charged, 127 kg of cocaine seized at Ambassador Bridge: CBSA",
+      "url":"https://toronto.citynews.ca/2026/10/19/two-charged-127-kg-of-cocaine-seized-at-ambassador-bridge-cbsa",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-10-20T01:32:56Z"
+  "generated_utc":"2026-10-20T06:35:08Z"
 }
