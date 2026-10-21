@@ -2,15 +2,16 @@ name: Enrich SEC filing metadata
 
 on:
   workflow_dispatch:
-
   schedule:
-    - cron: "47 2 * * *"
+    # Runs after the 09:30 UTC reconciliation job.
+    # Shared concurrency prevents overlap with the daytime detector.
+    - cron: "10 10 * * 2-6"
 
 permissions:
   contents: write
 
 concurrency:
-  group: enrich-sec-metadata
+  group: sec-data-writer
   cancel-in-progress: false
 
 jobs:
@@ -20,16 +21,20 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: "3.13"
 
-      - name: Test SEC collectors
-        run: python -m unittest discover -s tests -p "test_*sec*.py" -v
+      - name: Test SEC metadata enrichment
+        run: |
+          python -m unittest discover -s tests -p "test_enrich_sec_metadata.py" -v
+          python -m unittest discover -s tests -p "test_build_signal_feed.py" -v
 
-      - name: Enrich filing metadata
+      - name: Enrich canonical intake accessions
         env:
           SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT }}
         run: |
@@ -37,15 +42,18 @@ jobs:
             echo "Repository variable SEC_USER_AGENT is required."
             exit 1
           fi
-          python scripts/enrich_sec_metadata.py --max-filings 250
+          python scripts/enrich_sec_metadata.py --max-filings 500
+
+      - name: Build public Signal feed
+        run: python scripts/build_signal_feed.py --output signal-feed.json
 
       - name: Commit updated SEC metadata
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/sec/metadata/filings.jsonl data/sec/metadata/state.json data/sec/metadata/audit.json
+          git add data/sec/metadata/filings.jsonl data/sec/metadata/state.json data/sec/metadata/audit.json signal-feed.json
           if git diff --cached --quiet; then
-            echo "SEC filing metadata is already current."
+            echo "SEC metadata is already current."
             exit 0
           fi
           git commit -m "Update SEC filing metadata"
