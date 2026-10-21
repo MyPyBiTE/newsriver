@@ -1,0 +1,1877 @@
+{
+  "schema": "mypybite.signal-feed.v1",
+  "generatedAt": "2026-10-21T23:57:12Z",
+  "disclaimer": "Research preview. Leadership candidates are not confirmed appointments and are not scored. Filing explanations are educational context, not investment advice.",
+  "stats": {
+    "issuerCount": 75,
+    "seatCount": 150,
+    "candidateSeatCount": 21,
+    "unresolvedSeatCount": 129,
+    "maximumManagementScore": 125
+  },
+  "scorecard": {
+    "maximumScore": 125,
+    "categories": [
+      {
+        "id": "capitalStewardship",
+        "label": "Capital stewardship",
+        "maximum": 25
+      },
+      {
+        "id": "operatingExecution",
+        "label": "Operating execution",
+        "maximum": 20
+      },
+      {
+        "id": "balanceSheetRisk",
+        "label": "Balance-sheet and risk discipline",
+        "maximum": 20
+      },
+      {
+        "id": "shareholderAlignment",
+        "label": "Shareholder alignment",
+        "maximum": 15
+      },
+      {
+        "id": "disclosureCredibility",
+        "label": "Disclosure credibility",
+        "maximum": 20
+      },
+      {
+        "id": "governanceDepth",
+        "label": "Governance and leadership depth",
+        "maximum": 15
+      },
+      {
+        "id": "strategicAdaptability",
+        "label": "Strategic adaptability",
+        "maximum": 10
+      }
+    ],
+    "confidence": {
+      "A": "At least eight years or 32 reported quarters, three attributable material decisions, and an observed adversity period.",
+      "B": "Normally five to eight years with a sufficiently attributable operating and capital-allocation record.",
+      "C": "Normally three to five years, or an otherwise incomplete or disrupted record.",
+      "D": "Under three years, an unlinked leader, or insufficient attributable evidence."
+    },
+    "rules": [
+      "Tenure changes evidence confidence, not the underlying quality score.",
+      "Market-price performance is an outcome measure and does not directly award management points.",
+      "Inherited conditions must be separated from decisions attributable to the evaluated leader or team.",
+      "Every scored component and event modifier must cite point-in-time evidence.",
+      "Unverified leadership identities remain unrated rather than receiving a default score."
+    ]
+  },
+  "filings": [
+    {
+      "accessionNumber": "0000070858-26-000494",
+      "cik": "0000070858",
+      "companyName": "BANK OF AMERICA CORP /DE/",
+      "ticker": "BAC",
+      "form": "8-K",
+      "filedDate": "2026-10-21",
+      "acceptedAt": "2026-10-21T17:07:03-04:00",
+      "items": [
+        "Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+        "Item 9.01: Financial Statements and Exhibits"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000494/0000070858-26-000494-index.htm",
+      "signalLabel": "Material event",
+      "readerNote": "An 8-K reports a material event between regular reports. The economics depend on the item: financing can change dilution or leverage; leadership changes can alter execution risk; acquisitions can change growth and integration risk.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0000909832-26-000100",
+      "cik": "0000909832",
+      "companyName": "COSTCO WHOLESALE CORP /NEW",
+      "ticker": "COST",
+      "form": "8-K",
+      "filedDate": "2026-10-16",
+      "acceptedAt": "2026-10-16T16:52:57-04:00",
+      "items": [
+        "Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+        "Item 9.01: Financial Statements and Exhibits"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000100/0000909832-26-000100-index.htm",
+      "signalLabel": "Material event",
+      "readerNote": "An 8-K reports a material event between regular reports. The economics depend on the item: financing can change dilution or leverage; leadership changes can alter execution risk; acquisitions can change growth and integration risk.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0002115436-26-000013",
+      "cik": "0002115436",
+      "companyName": "ExxonMobil Holdings Corp",
+      "ticker": "XOM",
+      "form": "8-K",
+      "filedDate": "2026-10-16",
+      "acceptedAt": "2026-10-16T08:02:58-04:00",
+      "items": [
+        "Item 7.01: Regulation FD Disclosure"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000013/0002115436-26-000013-index.htm",
+      "signalLabel": "Material event",
+      "readerNote": "An 8-K reports a material event between regular reports. The economics depend on the item: financing can change dilution or leverage; leadership changes can alter execution risk; acquisitions can change growth and integration risk.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0000040545-26-000063",
+      "cik": "0000040545",
+      "companyName": "GENERAL ELECTRIC CO",
+      "ticker": "GE",
+      "form": "8-K",
+      "filedDate": "2026-10-20",
+      "acceptedAt": "2026-10-20T06:30:57-04:00",
+      "items": [
+        "Item 2.02: Results of Operations and Financial Condition",
+        "Item 9.01: Financial Statements and Exhibits"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000063/0000040545-26-000063-index.htm",
+      "signalLabel": "Material event",
+      "readerNote": "An 8-K reports a material event between regular reports. The economics depend on the item: financing can change dilution or leverage; leadership changes can alter execution risk; acquisitions can change growth and integration risk.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0001467858-26-000056",
+      "cik": "0001467858",
+      "companyName": "General Motors Co",
+      "ticker": "GM",
+      "form": "8-K",
+      "filedDate": "2026-10-20",
+      "acceptedAt": "2026-10-20T07:30:18-04:00",
+      "items": [
+        "Item 2.02: Results of Operations and Financial Condition",
+        "Item 9.01: Financial Statements and Exhibits"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000056/0001467858-26-000056-index.htm",
+      "signalLabel": "Material event",
+      "readerNote": "An 8-K reports a material event between regular reports. The economics depend on the item: financing can change dilution or leverage; leadership changes can alter execution risk; acquisitions can change growth and integration risk.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0000101829-26-000030",
+      "cik": "0000101829",
+      "companyName": "RTX Corp",
+      "ticker": "RTX",
+      "form": "8-K",
+      "filedDate": "2026-10-20",
+      "acceptedAt": "2026-10-20T06:57:06-04:00",
+      "items": [
+        "Item 2.02: Results of Operations and Financial Condition",
+        "Item 9.01: Financial Statements and Exhibits"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000030/0000101829-26-000030-index.htm",
+      "signalLabel": "Material event",
+      "readerNote": "An 8-K reports a material event between regular reports. The economics depend on the item: financing can change dilution or leverage; leadership changes can alter execution risk; acquisitions can change growth and integration risk.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0001193125-26-425881",
+      "cik": "0001108524",
+      "companyName": "Salesforce, Inc.",
+      "ticker": "CRM",
+      "form": "8-K",
+      "filedDate": "2026-10-20",
+      "acceptedAt": "2026-10-20T09:16:53-04:00",
+      "items": [
+        "Item 7.01: Regulation FD Disclosure",
+        "Item 9.01: Financial Statements and Exhibits"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312526425881/0001193125-26-425881-index.htm",
+      "signalLabel": "Material event",
+      "readerNote": "An 8-K reports a material event between regular reports. The economics depend on the item: financing can change dilution or leverage; leadership changes can alter execution risk; acquisitions can change growth and integration risk.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0001193125-26-423400",
+      "cik": "0001050446",
+      "companyName": "Strategy Inc",
+      "ticker": "MSTR",
+      "form": "8-K",
+      "filedDate": "2026-10-16",
+      "acceptedAt": "2026-10-16T07:59:13-04:00",
+      "items": [
+        "Item 7.01: Regulation FD Disclosure",
+        "Item 8.01: Other Events"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526423400/0001193125-26-423400-index.htm",
+      "signalLabel": "Material event",
+      "readerNote": "An 8-K reports a material event between regular reports. The economics depend on the item: financing can change dilution or leverage; leadership changes can alter execution risk; acquisitions can change growth and integration risk.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0001375365-26-000024",
+      "cik": "0001375365",
+      "companyName": "Super Micro Computer, Inc.",
+      "ticker": "SMCI",
+      "form": "8-K",
+      "filedDate": "2026-10-15",
+      "acceptedAt": "2026-10-15T09:08:20-04:00",
+      "items": [
+        "Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+        "Item 9.01: Financial Statements and Exhibits"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000024/0001375365-26-000024-index.htm",
+      "signalLabel": "Material event",
+      "readerNote": "An 8-K reports a material event between regular reports. The economics depend on the item: financing can change dilution or leverage; leadership changes can alter execution risk; acquisitions can change growth and integration risk.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0001375365-26-000025",
+      "cik": "0001375365",
+      "companyName": "Super Micro Computer, Inc.",
+      "ticker": "SMCI",
+      "form": "8-K",
+      "filedDate": "2026-10-20",
+      "acceptedAt": "2026-10-20T16:44:26-04:00",
+      "items": [
+        "Item 2.02: Results of Operations and Financial Condition",
+        "Item 9.01: Financial Statements and Exhibits"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000025/0001375365-26-000025-index.htm",
+      "signalLabel": "Material event",
+      "readerNote": "An 8-K reports a material event between regular reports. The economics depend on the item: financing can change dilution or leverage; leadership changes can alter execution risk; acquisitions can change growth and integration risk.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0000040545-26-000064",
+      "cik": "0000040545",
+      "companyName": "GENERAL ELECTRIC CO",
+      "ticker": "GE",
+      "form": "10-Q",
+      "filedDate": "2026-10-20",
+      "acceptedAt": "2026-10-20T06:33:36-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000064/0000040545-26-000064-index.htm",
+      "signalLabel": "Quarterly fundamentals",
+      "readerNote": "A 10-Q updates revenue, margins, cash flow, liquidity and risks. Compare the trend with prior quarters and management guidance rather than treating the filing itself as bullish or bearish.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0001467858-26-000059",
+      "cik": "0001467858",
+      "companyName": "General Motors Co",
+      "ticker": "GM",
+      "form": "10-Q",
+      "filedDate": "2026-10-20",
+      "acceptedAt": "2026-10-20T17:00:30-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000059/0001467858-26-000059-index.htm",
+      "signalLabel": "Quarterly fundamentals",
+      "readerNote": "A 10-Q updates revenue, margins, cash flow, liquidity and risks. Compare the trend with prior quarters and management guidance rather than treating the filing itself as bullish or bearish.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0001035267-26-000071",
+      "cik": "0001035267",
+      "companyName": "INTUITIVE SURGICAL INC",
+      "ticker": "ISRG",
+      "form": "10-Q",
+      "filedDate": "2026-10-21",
+      "acceptedAt": "2026-10-21T17:14:21-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000071/0001035267-26-000071-index.htm",
+      "signalLabel": "Quarterly fundamentals",
+      "readerNote": "A 10-Q updates revenue, margins, cash flow, liquidity and risks. Compare the trend with prior quarters and management guidance rather than treating the filing itself as bullish or bearish.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0000019617-26-000368",
+      "cik": "0000019617",
+      "companyName": "JPMORGAN CHASE & CO",
+      "ticker": "JPM",
+      "form": "SC 13G/A",
+      "filedDate": "2026-10-15",
+      "acceptedAt": "2026-10-15T13:39:59-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000368/0000019617-26-000368-index.htm",
+      "signalLabel": "Large ownership",
+      "readerNote": "Schedule 13G reports a large, generally passive ownership position. It establishes who owns size, but does not by itself imply activism or a directional trade.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0000019617-26-000369",
+      "cik": "0000019617",
+      "companyName": "JPMORGAN CHASE & CO",
+      "ticker": "JPM",
+      "form": "SC 13G/A",
+      "filedDate": "2026-10-15",
+      "acceptedAt": "2026-10-15T13:39:59-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000369/0000019617-26-000369-index.htm",
+      "signalLabel": "Large ownership",
+      "readerNote": "Schedule 13G reports a large, generally passive ownership position. It establishes who owns size, but does not by itself imply activism or a directional trade.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0000019617-26-000370",
+      "cik": "0000019617",
+      "companyName": "JPMORGAN CHASE & CO",
+      "ticker": "JPM",
+      "form": "SC 13G/A",
+      "filedDate": "2026-10-15",
+      "acceptedAt": "2026-10-15T13:39:59-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000370/0000019617-26-000370-index.htm",
+      "signalLabel": "Large ownership",
+      "readerNote": "Schedule 13G reports a large, generally passive ownership position. It establishes who owns size, but does not by itself imply activism or a directional trade.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0000019617-26-000371",
+      "cik": "0000019617",
+      "companyName": "JPMORGAN CHASE & CO",
+      "ticker": "JPM",
+      "form": "SC 13G/A",
+      "filedDate": "2026-10-15",
+      "acceptedAt": "2026-10-15T13:39:59-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000371/0000019617-26-000371-index.htm",
+      "signalLabel": "Large ownership",
+      "readerNote": "Schedule 13G reports a large, generally passive ownership position. It establishes who owns size, but does not by itself imply activism or a directional trade.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0000019617-26-000372",
+      "cik": "0000019617",
+      "companyName": "JPMORGAN CHASE & CO",
+      "ticker": "JPM",
+      "form": "SC 13G/A",
+      "filedDate": "2026-10-15",
+      "acceptedAt": "2026-10-15T13:39:59-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000372/0000019617-26-000372-index.htm",
+      "signalLabel": "Large ownership",
+      "readerNote": "Schedule 13G reports a large, generally passive ownership position. It establishes who owns size, but does not by itself imply activism or a directional trade.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0000019617-26-000373",
+      "cik": "0000019617",
+      "companyName": "JPMORGAN CHASE & CO",
+      "ticker": "JPM",
+      "form": "SC 13G/A",
+      "filedDate": "2026-10-15",
+      "acceptedAt": "2026-10-15T13:39:59-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000373/0000019617-26-000373-index.htm",
+      "signalLabel": "Large ownership",
+      "readerNote": "Schedule 13G reports a large, generally passive ownership position. It establishes who owns size, but does not by itself imply activism or a directional trade.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0000019617-26-000387",
+      "cik": "0000019617",
+      "companyName": "JPMORGAN CHASE & CO",
+      "ticker": "JPM",
+      "form": "SC 13G/A",
+      "filedDate": "2026-10-16",
+      "acceptedAt": "2026-10-16T14:01:50-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000387/0000019617-26-000387-index.htm",
+      "signalLabel": "Large ownership",
+      "readerNote": "Schedule 13G reports a large, generally passive ownership position. It establishes who owns size, but does not by itself imply activism or a directional trade.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0000019617-26-000388",
+      "cik": "0000019617",
+      "companyName": "JPMORGAN CHASE & CO",
+      "ticker": "JPM",
+      "form": "SC 13G/A",
+      "filedDate": "2026-10-16",
+      "acceptedAt": "2026-10-16T14:01:50-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000388/0000019617-26-000388-index.htm",
+      "signalLabel": "Large ownership",
+      "readerNote": "Schedule 13G reports a large, generally passive ownership position. It establishes who owns size, but does not by itself imply activism or a directional trade.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0000019617-26-000389",
+      "cik": "0000019617",
+      "companyName": "JPMORGAN CHASE & CO",
+      "ticker": "JPM",
+      "form": "SC 13G/A",
+      "filedDate": "2026-10-16",
+      "acceptedAt": "2026-10-16T14:01:50-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000389/0000019617-26-000389-index.htm",
+      "signalLabel": "Large ownership",
+      "readerNote": "Schedule 13G reports a large, generally passive ownership position. It establishes who owns size, but does not by itself imply activism or a directional trade.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0000019617-26-000390",
+      "cik": "0000019617",
+      "companyName": "JPMORGAN CHASE & CO",
+      "ticker": "JPM",
+      "form": "SC 13G/A",
+      "filedDate": "2026-10-16",
+      "acceptedAt": "2026-10-16T14:01:50-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000390/0000019617-26-000390-index.htm",
+      "signalLabel": "Large ownership",
+      "readerNote": "Schedule 13G reports a large, generally passive ownership position. It establishes who owns size, but does not by itself imply activism or a directional trade.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0000019617-26-000391",
+      "cik": "0000019617",
+      "companyName": "JPMORGAN CHASE & CO",
+      "ticker": "JPM",
+      "form": "SC 13G/A",
+      "filedDate": "2026-10-16",
+      "acceptedAt": "2026-10-16T14:01:50-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000391/0000019617-26-000391-index.htm",
+      "signalLabel": "Large ownership",
+      "readerNote": "Schedule 13G reports a large, generally passive ownership position. It establishes who owns size, but does not by itself imply activism or a directional trade.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0000019617-26-000392",
+      "cik": "0000019617",
+      "companyName": "JPMORGAN CHASE & CO",
+      "ticker": "JPM",
+      "form": "SC 13G/A",
+      "filedDate": "2026-10-16",
+      "acceptedAt": "2026-10-16T14:01:50-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000392/0000019617-26-000392-index.htm",
+      "signalLabel": "Large ownership",
+      "readerNote": "Schedule 13G reports a large, generally passive ownership position. It establishes who owns size, but does not by itself imply activism or a directional trade.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0000078003-26-000118",
+      "cik": "0000078003",
+      "companyName": "PFIZER INC",
+      "ticker": "PFE",
+      "form": "SC 13G",
+      "filedDate": "2026-10-16",
+      "acceptedAt": "2026-10-16T18:02:37-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000118/0000078003-26-000118-index.htm",
+      "signalLabel": "Large ownership",
+      "readerNote": "Schedule 13G reports a large, generally passive ownership position. It establishes who owns size, but does not by itself imply activism or a directional trade.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0001193125-26-423187",
+      "cik": "0001652044",
+      "companyName": "Alphabet Inc.",
+      "ticker": "GOOGL",
+      "form": "4",
+      "filedDate": "2026-10-15",
+      "acceptedAt": "2026-10-15T20:26:15-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526423187/0001193125-26-423187-index.htm",
+      "signalLabel": "Insider transaction",
+      "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0001140361-26-039785",
+      "cik": "0000320193",
+      "companyName": "Apple Inc.",
+      "ticker": "AAPL",
+      "form": "4",
+      "filedDate": "2026-10-15",
+      "acceptedAt": "2026-10-15T18:30:17-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126039785/0001140361-26-039785-index.htm",
+      "signalLabel": "Insider transaction",
+      "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0000909832-26-000098",
+      "cik": "0000909832",
+      "companyName": "COSTCO WHOLESALE CORP /NEW",
+      "ticker": "COST",
+      "form": "4",
+      "filedDate": "2026-10-14",
+      "acceptedAt": "2026-10-14T19:00:30-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000098/0000909832-26-000098-index.htm",
+      "signalLabel": "Insider transaction",
+      "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0000037996-26-000186",
+      "cik": "0000037996",
+      "companyName": "FORD MOTOR CO",
+      "ticker": "F",
+      "form": "4",
+      "filedDate": "2026-10-16",
+      "acceptedAt": "2026-10-16T16:30:08-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000186/0000037996-26-000186-index.htm",
+      "signalLabel": "Insider transaction",
+      "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0001225208-26-008428",
+      "cik": "0000019617",
+      "companyName": "JPMORGAN CHASE & CO",
+      "ticker": "JPM",
+      "form": "4",
+      "filedDate": "2026-10-15",
+      "acceptedAt": "2026-10-15T18:47:28-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000122520826008428/0001225208-26-008428-index.htm",
+      "signalLabel": "Insider transaction",
+      "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0001493152-26-047950",
+      "cik": "0001507605",
+      "companyName": "MARA Holdings, Inc.",
+      "ticker": "MARA",
+      "form": "4",
+      "filedDate": "2026-10-21",
+      "acceptedAt": "2026-10-21T19:00:04-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/1507605/000149315226047950/0001493152-26-047950-index.htm",
+      "signalLabel": "Insider transaction",
+      "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0001218363-26-000005",
+      "cik": "0000723125",
+      "companyName": "MICRON TECHNOLOGY INC",
+      "ticker": "MU",
+      "form": "4",
+      "filedDate": "2026-10-15",
+      "acceptedAt": "2026-10-15T19:52:56-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000121836326000005/0001218363-26-000005-index.htm",
+      "signalLabel": "Insider transaction",
+      "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0001354116-26-000001",
+      "cik": "0000723125",
+      "companyName": "MICRON TECHNOLOGY INC",
+      "ticker": "MU",
+      "form": "4",
+      "filedDate": "2026-10-15",
+      "acceptedAt": "2026-10-15T19:55:40-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000135411626000001/0001354116-26-000001-index.htm",
+      "signalLabel": "Insider transaction",
+      "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0001790292-26-000003",
+      "cik": "0000723125",
+      "companyName": "MICRON TECHNOLOGY INC",
+      "ticker": "MU",
+      "form": "4",
+      "filedDate": "2026-10-15",
+      "acceptedAt": "2026-10-15T19:56:33-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000179029226000003/0001790292-26-000003-index.htm",
+      "signalLabel": "Insider transaction",
+      "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0001798757-26-000009",
+      "cik": "0000723125",
+      "companyName": "MICRON TECHNOLOGY INC",
+      "ticker": "MU",
+      "form": "4",
+      "filedDate": "2026-10-15",
+      "acceptedAt": "2026-10-15T19:57:52-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000179875726000009/0001798757-26-000009-index.htm",
+      "signalLabel": "Insider transaction",
+      "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0001224095-26-000003",
+      "cik": "0000723125",
+      "companyName": "MICRON TECHNOLOGY INC",
+      "ticker": "MU",
+      "form": "4",
+      "filedDate": "2026-10-15",
+      "acceptedAt": "2026-10-15T19:58:42-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000122409526000003/0001224095-26-000003-index.htm",
+      "signalLabel": "Insider transaction",
+      "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0002058781-26-000003",
+      "cik": "0000723125",
+      "companyName": "MICRON TECHNOLOGY INC",
+      "ticker": "MU",
+      "form": "4",
+      "filedDate": "2026-10-15",
+      "acceptedAt": "2026-10-15T20:00:12-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000205878126000003/0002058781-26-000003-index.htm",
+      "signalLabel": "Insider transaction",
+      "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0002058769-26-000006",
+      "cik": "0000723125",
+      "companyName": "MICRON TECHNOLOGY INC",
+      "ticker": "MU",
+      "form": "4",
+      "filedDate": "2026-10-15",
+      "acceptedAt": "2026-10-15T20:01:28-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000205876926000006/0002058769-26-000006-index.htm",
+      "signalLabel": "Insider transaction",
+      "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0001453368-26-000002",
+      "cik": "0000723125",
+      "companyName": "MICRON TECHNOLOGY INC",
+      "ticker": "MU",
+      "form": "4",
+      "filedDate": "2026-10-15",
+      "acceptedAt": "2026-10-15T20:02:38-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000145336826000002/0001453368-26-000002-index.htm",
+      "signalLabel": "Insider transaction",
+      "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
+      "coverage": "roster"
+    }
+  ],
+  "issuers": [
+    {
+      "ticker": "AAPL",
+      "cik": "0000320193",
+      "legalName": "Apple Inc.",
+      "cohort": "technology-platform",
+      "relevance": [
+        "capital-allocation",
+        "supply-chain",
+        "megacap"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": [
+        {
+          "seat": "chief-executive",
+          "name": "Ternus John",
+          "reportedTitle": "CEO",
+          "lastObservedDate": "2026-10-01",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126038669/form4.xml",
+          "status": "candidate-from-form4",
+          "evaluationEligible": false,
+          "confidence": "D"
+        },
+        {
+          "seat": "chief-financial",
+          "name": "Parekh Kevan",
+          "reportedTitle": "Senior Vice President, CFO",
+          "lastObservedDate": "2026-09-27",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126038024/form4.xml",
+          "status": "candidate-from-form4",
+          "evaluationEligible": false,
+          "confidence": "D"
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "cik": "0000789019",
+      "legalName": "MICROSOFT CORP",
+      "cohort": "technology-platform",
+      "relevance": [
+        "capital-allocation",
+        "cloud-ai",
+        "megacap"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "NVDA",
+      "cik": "0001045810",
+      "legalName": "NVIDIA CORP",
+      "cohort": "semiconductor",
+      "relevance": [
+        "founder-led",
+        "ai-infrastructure",
+        "insider-activity"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "GOOGL",
+      "cik": "0001652044",
+      "legalName": "Alphabet Inc.",
+      "cohort": "technology-platform",
+      "relevance": [
+        "founder-control",
+        "capital-allocation",
+        "megacap"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": [
+        {
+          "seat": "chief-executive",
+          "name": "Pichai Sundar",
+          "reportedTitle": "Chief Executive Officer",
+          "lastObservedDate": "2026-09-25",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526408007/ownership.xml",
+          "status": "candidate-from-form4",
+          "evaluationEligible": false,
+          "confidence": "D"
+        },
+        {
+          "seat": "chief-financial",
+          "name": "Ashkenazi Anat",
+          "reportedTitle": "SVP, Chief Financial Officer",
+          "lastObservedDate": "2026-09-25",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526408009/ownership.xml",
+          "status": "candidate-from-form4",
+          "evaluationEligible": false,
+          "confidence": "D"
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "cik": "0001018724",
+      "legalName": "AMAZON COM INC",
+      "cohort": "technology-platform",
+      "relevance": [
+        "founder-influence",
+        "capex",
+        "megacap"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "META",
+      "cik": "0001326801",
+      "legalName": "Meta Platforms, Inc.",
+      "cohort": "technology-platform",
+      "relevance": [
+        "founder-control",
+        "capex",
+        "insider-activity"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "TSLA",
+      "cik": "0001318605",
+      "legalName": "Tesla, Inc.",
+      "cohort": "technology-platform",
+      "relevance": [
+        "founder-control",
+        "reflexive",
+        "financing"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "ORCL",
+      "cik": "0001341439",
+      "legalName": "ORACLE CORP",
+      "cohort": "technology-platform",
+      "relevance": [
+        "founder-influence",
+        "acquisitions",
+        "cloud-capex"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "CRM",
+      "cik": "0001108524",
+      "legalName": "Salesforce, Inc.",
+      "cohort": "technology-platform",
+      "relevance": [
+        "founder-led",
+        "acquisitions",
+        "activism"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "AVGO",
+      "cik": "0001730168",
+      "legalName": "Broadcom Inc.",
+      "cohort": "semiconductor",
+      "relevance": [
+        "acquisitions",
+        "leverage",
+        "ai-infrastructure"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "AMD",
+      "cik": "0000002488",
+      "legalName": "ADVANCED MICRO DEVICES INC",
+      "cohort": "semiconductor",
+      "relevance": [
+        "execution",
+        "ai-infrastructure",
+        "cyclical"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "INTC",
+      "cik": "0000050863",
+      "legalName": "INTEL CORP",
+      "cohort": "semiconductor",
+      "relevance": [
+        "turnaround",
+        "industrial-policy",
+        "capex"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "NFLX",
+      "cik": "0001065280",
+      "legalName": "NETFLIX INC",
+      "cohort": "technology-platform",
+      "relevance": [
+        "founder-influence",
+        "capital-allocation",
+        "media"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "PLTR",
+      "cik": "0001321655",
+      "legalName": "Palantir Technologies Inc.",
+      "cohort": "technology-platform",
+      "relevance": [
+        "founder-control",
+        "government-contracting",
+        "equity-compensation"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "TSM",
+      "cik": "0001046179",
+      "legalName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "cohort": "semiconductor",
+      "relevance": [
+        "systemic-supply-chain",
+        "geopolitics",
+        "capex"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "ASML",
+      "cik": "0000937966",
+      "legalName": "ASML HOLDING NV",
+      "cohort": "semiconductor",
+      "relevance": [
+        "systemic-supply-chain",
+        "geopolitics",
+        "capex"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "MU",
+      "cik": "0000723125",
+      "legalName": "MICRON TECHNOLOGY INC",
+      "cohort": "semiconductor",
+      "relevance": [
+        "memory-cycle",
+        "capex",
+        "industrial-policy"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": [
+        {
+          "seat": "chief-executive",
+          "name": "MEHROTRA SANJAY",
+          "reportedTitle": "President and CEO",
+          "lastObservedDate": "2026-06-26",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000012/primarydocument.xml",
+          "status": "candidate-from-form4",
+          "evaluationEligible": false,
+          "confidence": "D"
+        }
+      ]
+    },
+    {
+      "ticker": "ARM",
+      "cik": "0001973239",
+      "legalName": "ARM HOLDINGS PLC /UK",
+      "cohort": "semiconductor",
+      "relevance": [
+        "controlling-shareholder",
+        "ai-infrastructure",
+        "licensing"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "SMCI",
+      "cik": "0001375365",
+      "legalName": "Super Micro Computer, Inc.",
+      "cohort": "semiconductor",
+      "relevance": [
+        "ai-infrastructure",
+        "accounting-controls",
+        "high-volatility"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "IBM",
+      "cik": "0000051143",
+      "legalName": "INTERNATIONAL BUSINESS MACHINES CORP",
+      "cohort": "technology-platform",
+      "relevance": [
+        "transformation",
+        "acquisitions",
+        "capital-return"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": [
+        {
+          "seat": "chief-executive",
+          "name": "KRISHNA ARVIND",
+          "reportedTitle": "Chairman, President & CEO",
+          "lastObservedDate": "2026-08-27",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/51143/000162989826000005/primarydocument.xml",
+          "status": "candidate-from-form4",
+          "evaluationEligible": false,
+          "confidence": "D"
+        }
+      ]
+    },
+    {
+      "ticker": "JPM",
+      "cik": "0000019617",
+      "legalName": "JPMORGAN CHASE & CO",
+      "cohort": "financial-system",
+      "relevance": [
+        "systemic-bank",
+        "capital-return",
+        "credit-cycle"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "BAC",
+      "cik": "0000070858",
+      "legalName": "BANK OF AMERICA CORP /DE/",
+      "cohort": "financial-system",
+      "relevance": [
+        "systemic-bank",
+        "capital-return",
+        "credit-cycle"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "C",
+      "cik": "0000831001",
+      "legalName": "CITIGROUP INC",
+      "cohort": "financial-system",
+      "relevance": [
+        "systemic-bank",
+        "turnaround",
+        "regulatory"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "GS",
+      "cik": "0000886982",
+      "legalName": "GOLDMAN SACHS GROUP INC",
+      "cohort": "financial-system",
+      "relevance": [
+        "capital-markets",
+        "risk-cycle",
+        "capital-return"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "MS",
+      "cik": "0000895421",
+      "legalName": "MORGAN STANLEY",
+      "cohort": "financial-system",
+      "relevance": [
+        "capital-markets",
+        "wealth-management",
+        "capital-return"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "WFC",
+      "cik": "0000072971",
+      "legalName": "WELLS FARGO & COMPANY/MN",
+      "cohort": "financial-system",
+      "relevance": [
+        "turnaround",
+        "regulatory",
+        "capital-return"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "BLK",
+      "cik": "0002012383",
+      "legalName": "BlackRock, Inc.",
+      "cohort": "capital-provider",
+      "relevance": [
+        "asset-management",
+        "market-structure",
+        "capital-provider"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "BRK-B",
+      "cik": "0001067983",
+      "legalName": "BERKSHIRE HATHAWAY INC",
+      "cohort": "capital-provider",
+      "relevance": [
+        "capital-allocation",
+        "succession",
+        "concentrated-investor"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": [
+        {
+          "seat": "chief-executive",
+          "name": "BUFFETT WARREN E",
+          "reportedTitle": "Chairman and CEO",
+          "lastObservedDate": "2026-03-17",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526116315/ownership.xml",
+          "status": "candidate-from-form4",
+          "evaluationEligible": false,
+          "confidence": "D"
+        }
+      ]
+    },
+    {
+      "ticker": "COIN",
+      "cik": "0001679788",
+      "legalName": "Coinbase Global, Inc.",
+      "cohort": "financial-system",
+      "relevance": [
+        "founder-led",
+        "crypto-cycle",
+        "regulatory"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "V",
+      "cik": "0001403161",
+      "legalName": "VISA INC.",
+      "cohort": "financial-system",
+      "relevance": [
+        "payments-network",
+        "regulatory",
+        "capital-return"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "MA",
+      "cik": "0001141391",
+      "legalName": "Mastercard Inc",
+      "cohort": "financial-system",
+      "relevance": [
+        "payments-network",
+        "regulatory",
+        "capital-return"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "AXP",
+      "cik": "0000004962",
+      "legalName": "AMERICAN EXPRESS CO",
+      "cohort": "financial-system",
+      "relevance": [
+        "payments-network",
+        "credit-cycle",
+        "capital-return"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "SCHW",
+      "cik": "0000316709",
+      "legalName": "SCHWAB CHARLES CORP",
+      "cohort": "financial-system",
+      "relevance": [
+        "brokerage",
+        "interest-rate-risk",
+        "client-assets"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "BX",
+      "cik": "0001393818",
+      "legalName": "Blackstone Inc.",
+      "cohort": "capital-provider",
+      "relevance": [
+        "private-markets",
+        "large-capital-player",
+        "credit-cycle"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "KKR",
+      "cik": "0001404912",
+      "legalName": "KKR & Co. Inc.",
+      "cohort": "capital-provider",
+      "relevance": [
+        "private-markets",
+        "large-capital-player",
+        "credit-cycle"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": [
+        {
+          "seat": "chief-executive",
+          "name": "BAE JOSEPH Y",
+          "reportedTitle": "Co-Chief Executive Officer",
+          "lastObservedDate": "2026-09-08",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1404912/000114036126036220/form4.xml",
+          "status": "candidate-from-form4",
+          "evaluationEligible": false,
+          "confidence": "D"
+        },
+        {
+          "seat": "chief-financial",
+          "name": "Lewin Robert H",
+          "reportedTitle": "Chief Financial Officer",
+          "lastObservedDate": "2026-09-02",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1404912/000114036126035811/form4.xml",
+          "status": "candidate-from-form4",
+          "evaluationEligible": false,
+          "confidence": "D"
+        }
+      ]
+    },
+    {
+      "ticker": "WMT",
+      "cik": "0000104169",
+      "legalName": "Walmart Inc.",
+      "cohort": "consumer-market",
+      "relevance": [
+        "consumer-demand",
+        "labor",
+        "supply-chain"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "COST",
+      "cik": "0000909832",
+      "legalName": "COSTCO WHOLESALE CORP /NEW",
+      "cohort": "consumer-market",
+      "relevance": [
+        "consumer-demand",
+        "pricing",
+        "capital-allocation"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "HD",
+      "cik": "0000354950",
+      "legalName": "HOME DEPOT, INC.",
+      "cohort": "consumer-market",
+      "relevance": [
+        "housing-cycle",
+        "consumer-demand",
+        "capital-return"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "NKE",
+      "cik": "0000320187",
+      "legalName": "NIKE, Inc.",
+      "cohort": "consumer-market",
+      "relevance": [
+        "brand-cycle",
+        "turnaround",
+        "global-demand"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "SBUX",
+      "cik": "0000829224",
+      "legalName": "STARBUCKS CORP",
+      "cohort": "consumer-market",
+      "relevance": [
+        "founder-influence",
+        "turnaround",
+        "labor"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "MCD",
+      "cik": "0000063908",
+      "legalName": "MCDONALDS CORP",
+      "cohort": "consumer-market",
+      "relevance": [
+        "consumer-demand",
+        "franchise-system",
+        "capital-return"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": [
+        {
+          "seat": "chief-executive",
+          "name": "Kempczinski Christopher J",
+          "reportedTitle": "Chairman and CEO",
+          "lastObservedDate": "2026-02-12",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/63908/000159811526000001/form4.xml",
+          "status": "candidate-from-form4",
+          "evaluationEligible": false,
+          "confidence": "D"
+        }
+      ]
+    },
+    {
+      "ticker": "DIS",
+      "cik": "0001744489",
+      "legalName": "Walt Disney Co",
+      "cohort": "consumer-market",
+      "relevance": [
+        "succession",
+        "activism",
+        "media"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "UBER",
+      "cik": "0001543151",
+      "legalName": "Uber Technologies, Inc",
+      "cohort": "consumer-market",
+      "relevance": [
+        "platform-economics",
+        "regulatory",
+        "capital-allocation"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": [
+        {
+          "seat": "chief-executive",
+          "name": "KHOSROWSHAHI DARA",
+          "reportedTitle": "Chief Executive Officer",
+          "lastObservedDate": "2026-09-10",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000118423726000008/primarydocument.xml",
+          "status": "candidate-from-form4",
+          "evaluationEligible": false,
+          "confidence": "D"
+        },
+        {
+          "seat": "chief-financial",
+          "name": "Krishnamurthy Balaji (A)",
+          "reportedTitle": "Chief Financial Officer",
+          "lastObservedDate": "2026-09-16",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000211186726000013/primarydocument.xml",
+          "status": "candidate-from-form4",
+          "evaluationEligible": false,
+          "confidence": "D"
+        }
+      ]
+    },
+    {
+      "ticker": "ABNB",
+      "cik": "0001559720",
+      "legalName": "Airbnb, Inc.",
+      "cohort": "consumer-market",
+      "relevance": [
+        "founder-control",
+        "platform-economics",
+        "regulatory"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": [
+        {
+          "seat": "chief-executive",
+          "name": "Chesky Brian",
+          "reportedTitle": "CEO and Chairman",
+          "lastObservedDate": "2026-08-28",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526379365/ownership.xml",
+          "status": "candidate-from-form4",
+          "evaluationEligible": false,
+          "confidence": "D"
+        },
+        {
+          "seat": "chief-financial",
+          "name": "Mertz Elinor",
+          "reportedTitle": "Chief Financial Officer",
+          "lastObservedDate": "2026-09-28",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526409153/ownership.xml",
+          "status": "candidate-from-form4",
+          "evaluationEligible": false,
+          "confidence": "D"
+        }
+      ]
+    },
+    {
+      "ticker": "CVNA",
+      "cik": "0001690820",
+      "legalName": "CARVANA CO.",
+      "cohort": "consumer-market",
+      "relevance": [
+        "founder-control",
+        "leverage",
+        "high-volatility"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "LLY",
+      "cik": "0000059478",
+      "legalName": "ELI LILLY & Co",
+      "cohort": "healthcare",
+      "relevance": [
+        "product-concentration",
+        "capex",
+        "pricing-policy"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "NVO",
+      "cik": "0000353278",
+      "legalName": "NOVO NORDISK A S",
+      "cohort": "healthcare",
+      "relevance": [
+        "product-concentration",
+        "capex",
+        "pricing-policy"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "JNJ",
+      "cik": "0000200406",
+      "legalName": "JOHNSON & JOHNSON",
+      "cohort": "healthcare",
+      "relevance": [
+        "litigation",
+        "capital-allocation",
+        "diversified-healthcare"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "UNH",
+      "cik": "0000731766",
+      "legalName": "UNITEDHEALTH GROUP INC",
+      "cohort": "healthcare",
+      "relevance": [
+        "systemic-healthcare",
+        "regulatory",
+        "leadership-risk"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "PFE",
+      "cik": "0000078003",
+      "legalName": "PFIZER INC",
+      "cohort": "healthcare",
+      "relevance": [
+        "patent-cycle",
+        "acquisitions",
+        "capital-allocation"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "MRNA",
+      "cik": "0001682852",
+      "legalName": "Moderna, Inc.",
+      "cohort": "healthcare",
+      "relevance": [
+        "founder-influence",
+        "pipeline-risk",
+        "cash-allocation"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "REGN",
+      "cik": "0000872589",
+      "legalName": "REGENERON PHARMACEUTICALS, INC.",
+      "cohort": "healthcare",
+      "relevance": [
+        "founder-led",
+        "pipeline-risk",
+        "capital-allocation"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "VRTX",
+      "cik": "0000875320",
+      "legalName": "VERTEX PHARMACEUTICALS INC / MA",
+      "cohort": "healthcare",
+      "relevance": [
+        "pipeline-risk",
+        "product-concentration",
+        "capital-allocation"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "ISRG",
+      "cik": "0001035267",
+      "legalName": "INTUITIVE SURGICAL INC",
+      "cohort": "healthcare",
+      "relevance": [
+        "founder-influence",
+        "medical-platform",
+        "capital-allocation"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "AMGN",
+      "cik": "0000318154",
+      "legalName": "AMGEN INC",
+      "cohort": "healthcare",
+      "relevance": [
+        "acquisitions",
+        "patent-cycle",
+        "leverage"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "XOM",
+      "cik": "0002115436",
+      "legalName": "ExxonMobil Holdings Corp",
+      "cohort": "industrial-energy",
+      "relevance": [
+        "energy-cycle",
+        "capital-allocation",
+        "systemic-commodity"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "CVX",
+      "cik": "0000093410",
+      "legalName": "CHEVRON CORP",
+      "cohort": "industrial-energy",
+      "relevance": [
+        "energy-cycle",
+        "capital-allocation",
+        "acquisitions"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "COP",
+      "cik": "0001163165",
+      "legalName": "CONOCOPHILLIPS",
+      "cohort": "industrial-energy",
+      "relevance": [
+        "energy-cycle",
+        "capital-allocation",
+        "acquisitions"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": [
+        {
+          "seat": "chief-executive",
+          "name": "Lance Ryan Michael",
+          "reportedTitle": "Chairman and CEO",
+          "lastObservedDate": "2026-03-20",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526119690/ownership.xml",
+          "status": "candidate-from-form4",
+          "evaluationEligible": false,
+          "confidence": "D"
+        }
+      ]
+    },
+    {
+      "ticker": "OXY",
+      "cik": "0000797468",
+      "legalName": "OCCIDENTAL PETROLEUM CORP /DE/",
+      "cohort": "industrial-energy",
+      "relevance": [
+        "leverage",
+        "concentrated-investor",
+        "energy-cycle"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "SLB",
+      "cik": "0000087347",
+      "legalName": "SLB LIMITED/NV",
+      "cohort": "industrial-energy",
+      "relevance": [
+        "energy-cycle",
+        "global-capex",
+        "geopolitics"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "GE",
+      "cik": "0000040545",
+      "legalName": "GENERAL ELECTRIC CO",
+      "cohort": "industrial-energy",
+      "relevance": [
+        "transformation",
+        "aerospace-cycle",
+        "capital-allocation"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "BA",
+      "cik": "0000012927",
+      "legalName": "BOEING CO",
+      "cohort": "industrial-energy",
+      "relevance": [
+        "safety-governance",
+        "liquidity",
+        "systemic-supply-chain"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "CAT",
+      "cik": "0000018230",
+      "legalName": "CATERPILLAR INC",
+      "cohort": "industrial-energy",
+      "relevance": [
+        "industrial-cycle",
+        "global-demand",
+        "capital-return"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "LMT",
+      "cik": "0000936468",
+      "legalName": "LOCKHEED MARTIN CORP",
+      "cohort": "industrial-energy",
+      "relevance": [
+        "defense-spending",
+        "government-contracting",
+        "capital-return"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "RTX",
+      "cik": "0000101829",
+      "legalName": "RTX Corp",
+      "cohort": "industrial-energy",
+      "relevance": [
+        "defense-spending",
+        "quality-controls",
+        "capital-return"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "NOC",
+      "cik": "0001133421",
+      "legalName": "NORTHROP GRUMMAN CORP /DE/",
+      "cohort": "industrial-energy",
+      "relevance": [
+        "defense-spending",
+        "government-contracting",
+        "capital-return"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "F",
+      "cik": "0000037996",
+      "legalName": "FORD MOTOR CO",
+      "cohort": "industrial-energy",
+      "relevance": [
+        "family-control",
+        "auto-cycle",
+        "transformation"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "GM",
+      "cik": "0001467858",
+      "legalName": "General Motors Co",
+      "cohort": "industrial-energy",
+      "relevance": [
+        "auto-cycle",
+        "transformation",
+        "capital-return"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "DE",
+      "cik": "0000315189",
+      "legalName": "DEERE & CO",
+      "cohort": "industrial-energy",
+      "relevance": [
+        "agriculture-cycle",
+        "automation",
+        "capital-return"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": [
+        {
+          "seat": "chief-executive",
+          "name": "May John C II",
+          "reportedTitle": "Chairman & CEO",
+          "lastObservedDate": "2026-01-08",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/315189/000155614426000002/form4-01092026_080101.xml",
+          "status": "candidate-from-form4",
+          "evaluationEligible": false,
+          "confidence": "D"
+        },
+        {
+          "seat": "chief-financial",
+          "name": "Norwood Terry Brent",
+          "reportedTitle": "Sr VP & CFO",
+          "lastObservedDate": "2026-08-17",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/315189/000213300526000004/form4-08182026_070832.xml",
+          "status": "candidate-from-form4",
+          "evaluationEligible": false,
+          "confidence": "D"
+        },
+        {
+          "seat": "chief-financial",
+          "name": "JEPSEN JOSHUA A",
+          "reportedTitle": "Sr VP & CFO",
+          "lastObservedDate": "2025-12-15",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/315189/000194728425000007/form4-12162025_071252.xml",
+          "status": "candidate-from-form4",
+          "evaluationEligible": false,
+          "confidence": "D"
+        }
+      ]
+    },
+    {
+      "ticker": "MSTR",
+      "cik": "0001050446",
+      "legalName": "Strategy Inc",
+      "cohort": "reflexive-financing",
+      "relevance": [
+        "founder-control",
+        "crypto-treasury",
+        "capital-markets"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": [
+        {
+          "seat": "chief-executive",
+          "name": "Le Phong",
+          "reportedTitle": "President & CEO",
+          "lastObservedDate": "2026-06-08",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000165166926000007/ownership.xml",
+          "status": "candidate-from-form4",
+          "evaluationEligible": false,
+          "confidence": "D"
+        },
+        {
+          "seat": "chief-financial",
+          "name": "Kang Andrew",
+          "reportedTitle": "EVP & CFO",
+          "lastObservedDate": "2026-06-08",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000182517026000008/ownership.xml",
+          "status": "candidate-from-form4",
+          "evaluationEligible": false,
+          "confidence": "D"
+        }
+      ]
+    },
+    {
+      "ticker": "MARA",
+      "cik": "0001507605",
+      "legalName": "MARA Holdings, Inc.",
+      "cohort": "reflexive-financing",
+      "relevance": [
+        "crypto-cycle",
+        "financing",
+        "high-volatility"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "RIOT",
+      "cik": "0001167419",
+      "legalName": "Riot Platforms, Inc.",
+      "cohort": "reflexive-financing",
+      "relevance": [
+        "crypto-cycle",
+        "financing",
+        "high-volatility"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": [
+        {
+          "seat": "chief-executive",
+          "name": "Les Jason",
+          "reportedTitle": "CEO",
+          "lastObservedDate": "2026-07-01",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1167419/000172170226000016/form4-07062026_050703.xml",
+          "status": "candidate-from-form4",
+          "evaluationEligible": false,
+          "confidence": "D"
+        },
+        {
+          "seat": "chief-financial",
+          "name": "Yee Colin M.",
+          "reportedTitle": "EVP, CFO",
+          "lastObservedDate": "2026-01-01",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1167419/000193235226000002/form4-01052026_110102.xml",
+          "status": "candidate-from-form4",
+          "evaluationEligible": false,
+          "confidence": "D"
+        }
+      ]
+    },
+    {
+      "ticker": "GME",
+      "cik": "0001326380",
+      "legalName": "GameStop Corp.",
+      "cohort": "reflexive-financing",
+      "relevance": [
+        "activism",
+        "equity-financing",
+        "high-volatility"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "AMC",
+      "cik": "0001411579",
+      "legalName": "AMC ENTERTAINMENT HOLDINGS, INC.",
+      "cohort": "reflexive-financing",
+      "relevance": [
+        "leverage",
+        "equity-financing",
+        "high-volatility"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    },
+    {
+      "ticker": "RKLB",
+      "cik": "0001819994",
+      "legalName": "Rocket Lab Corp",
+      "cohort": "reflexive-financing",
+      "relevance": [
+        "founder-led",
+        "government-contracting",
+        "financing"
+      ],
+      "leadershipStatus": "unlinked",
+      "leadershipCandidates": []
+    }
+  ],
+  "researchGeneratedAt": "2026-10-15T17:47:11Z",
+  "freshness": {
+    "status": "current",
+    "feedGeneratedAt": "2026-10-21T23:57:12Z",
+    "sourceObservedAt": "2026-10-21T23:57:12Z",
+    "latestFiledDate": "2026-10-21",
+    "latestAcceptedAt": "2026-10-21T19:00:04-04:00",
+    "recommendedRefreshSeconds": 300,
+    "warningAfterMinutes": 4320,
+    "source": "SEC EDGAR latest-filings detection with nightly reconciliation"
+  }
+}
