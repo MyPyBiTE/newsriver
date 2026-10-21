@@ -1,0 +1,47 @@
+{
+  "schema": "mypybite.management-scorecard.v1",
+  "maximumScore": 125,
+  "categories": [
+    {"id":"capitalStewardship","label":"Capital stewardship","maximum":25},
+    {"id":"operatingExecution","label":"Operating execution","maximum":20},
+    {"id":"balanceSheetRisk","label":"Balance-sheet and risk discipline","maximum":20},
+    {"id":"shareholderAlignment","label":"Shareholder alignment","maximum":15},
+    {"id":"disclosureCredibility","label":"Disclosure credibility","maximum":20},
+    {"id":"governanceDepth","label":"Governance and leadership depth","maximum":15},
+    {"id":"strategicAdaptability","label":"Strategic adaptability","maximum":10}
+  ],
+  "tenurePolicy": {
+    "provisionalUnderYears": 1,
+    "emergingUnderYears": 3,
+    "minimallyEvaluableYears": 3,
+    "sufficientYears": 5,
+    "robustYears": 8,
+    "fullCycleYears": 12,
+    "normalScoreMinimumReportedQuarters": 20,
+    "highestConfidenceMinimumReportedQuarters": 32,
+    "highestConfidenceRequiresAdversityPeriod": true,
+    "highestConfidenceMinimumMaterialDecisions": 3
+  },
+  "timeWeights": {
+    "lastThreeYears": 0.5,
+    "yearsFourThroughSeven": 0.3,
+    "olderHistory": 0.2
+  },
+  "confidence": {
+    "A": "At least eight years or 32 reported quarters, three attributable material decisions, and an observed adversity period.",
+    "B": "Normally five to eight years with a sufficiently attributable operating and capital-allocation record.",
+    "C": "Normally three to five years, or an otherwise incomplete or disrupted record.",
+    "D": "Under three years, an unlinked leader, or insufficient attributable evidence."
+  },
+  "eventModifier": {
+    "minimum": -20,
+    "maximum": 20
+  },
+  "rules": [
+    "Tenure changes evidence confidence, not the underlying quality score.",
+    "Market-price performance is an outcome measure and does not directly award management points.",
+    "Inherited conditions must be separated from decisions attributable to the evaluated leader or team.",
+    "Every scored component and event modifier must cite point-in-time evidence.",
+    "Unverified leadership identities remain unrated rather than receiving a default score."
+  ]
+}
