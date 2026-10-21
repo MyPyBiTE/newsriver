@@ -1,0 +1,288 @@
+{
+  "schema": "mypybite.leadership-discovery.v1",
+  "generatedAt": "2026-10-15T17:47:11Z",
+  "seatCount": 150,
+  "candidateSeatCount": 21,
+  "unresolvedSeatCount": 129,
+  "seats": [
+    {
+      "ticker": "AAPL",
+      "seat": "chief-executive",
+      "status": "candidate-found",
+      "candidates": [
+        {
+          "canonicalName": "Ternus John",
+          "reportedTitle": "CEO",
+          "lastObservedDate": "2026-10-01",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126038669/form4.xml"
+        }
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "seat": "chief-financial",
+      "status": "candidate-found",
+      "candidates": [
+        {
+          "canonicalName": "Parekh Kevan",
+          "reportedTitle": "Senior Vice President, CFO",
+          "lastObservedDate": "2026-09-27",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126038024/form4.xml"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "seat": "chief-executive",
+      "status": "candidate-found",
+      "candidates": [
+        {
+          "canonicalName": "Pichai Sundar",
+          "reportedTitle": "Chief Executive Officer",
+          "lastObservedDate": "2026-09-25",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526408007/ownership.xml"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "seat": "chief-financial",
+      "status": "candidate-found",
+      "candidates": [
+        {
+          "canonicalName": "Ashkenazi Anat",
+          "reportedTitle": "SVP, Chief Financial Officer",
+          "lastObservedDate": "2026-09-25",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526408009/ownership.xml"
+        }
+      ]
+    },
+    {
+      "ticker": "MU",
+      "seat": "chief-executive",
+      "status": "candidate-found",
+      "candidates": [
+        {
+          "canonicalName": "MEHROTRA SANJAY",
+          "reportedTitle": "President and CEO",
+          "lastObservedDate": "2026-06-26",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000012/primarydocument.xml"
+        }
+      ]
+    },
+    {
+      "ticker": "IBM",
+      "seat": "chief-executive",
+      "status": "candidate-found",
+      "candidates": [
+        {
+          "canonicalName": "KRISHNA ARVIND",
+          "reportedTitle": "Chairman, President & CEO",
+          "lastObservedDate": "2026-08-27",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/51143/000162989826000005/primarydocument.xml"
+        }
+      ]
+    },
+    {
+      "ticker": "BRK-B",
+      "seat": "chief-executive",
+      "status": "candidate-found",
+      "candidates": [
+        {
+          "canonicalName": "BUFFETT WARREN E",
+          "reportedTitle": "Chairman and CEO",
+          "lastObservedDate": "2026-03-17",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526116315/ownership.xml"
+        }
+      ]
+    },
+    {
+      "ticker": "KKR",
+      "seat": "chief-executive",
+      "status": "candidate-found",
+      "candidates": [
+        {
+          "canonicalName": "BAE JOSEPH Y",
+          "reportedTitle": "Co-Chief Executive Officer",
+          "lastObservedDate": "2026-09-08",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1404912/000114036126036220/form4.xml"
+        }
+      ]
+    },
+    {
+      "ticker": "KKR",
+      "seat": "chief-financial",
+      "status": "candidate-found",
+      "candidates": [
+        {
+          "canonicalName": "Lewin Robert H",
+          "reportedTitle": "Chief Financial Officer",
+          "lastObservedDate": "2026-09-02",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1404912/000114036126035811/form4.xml"
+        }
+      ]
+    },
+    {
+      "ticker": "MCD",
+      "seat": "chief-executive",
+      "status": "candidate-found",
+      "candidates": [
+        {
+          "canonicalName": "Kempczinski Christopher J",
+          "reportedTitle": "Chairman and CEO",
+          "lastObservedDate": "2026-02-12",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/63908/000159811526000001/form4.xml"
+        }
+      ]
+    },
+    {
+      "ticker": "UBER",
+      "seat": "chief-executive",
+      "status": "candidate-found",
+      "candidates": [
+        {
+          "canonicalName": "KHOSROWSHAHI DARA",
+          "reportedTitle": "Chief Executive Officer",
+          "lastObservedDate": "2026-09-10",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000118423726000008/primarydocument.xml"
+        }
+      ]
+    },
+    {
+      "ticker": "UBER",
+      "seat": "chief-financial",
+      "status": "candidate-found",
+      "candidates": [
+        {
+          "canonicalName": "Krishnamurthy Balaji (A)",
+          "reportedTitle": "Chief Financial Officer",
+          "lastObservedDate": "2026-09-16",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000211186726000013/primarydocument.xml"
+        }
+      ]
+    },
+    {
+      "ticker": "ABNB",
+      "seat": "chief-executive",
+      "status": "candidate-found",
+      "candidates": [
+        {
+          "canonicalName": "Chesky Brian",
+          "reportedTitle": "CEO and Chairman",
+          "lastObservedDate": "2026-08-28",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526379365/ownership.xml"
+        }
+      ]
+    },
+    {
+      "ticker": "ABNB",
+      "seat": "chief-financial",
+      "status": "candidate-found",
+      "candidates": [
+        {
+          "canonicalName": "Mertz Elinor",
+          "reportedTitle": "Chief Financial Officer",
+          "lastObservedDate": "2026-09-28",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526409153/ownership.xml"
+        }
+      ]
+    },
+    {
+      "ticker": "COP",
+      "seat": "chief-executive",
+      "status": "candidate-found",
+      "candidates": [
+        {
+          "canonicalName": "Lance Ryan Michael",
+          "reportedTitle": "Chairman and CEO",
+          "lastObservedDate": "2026-03-20",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526119690/ownership.xml"
+        }
+      ]
+    },
+    {
+      "ticker": "DE",
+      "seat": "chief-executive",
+      "status": "candidate-found",
+      "candidates": [
+        {
+          "canonicalName": "May John C II",
+          "reportedTitle": "Chairman & CEO",
+          "lastObservedDate": "2026-01-08",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/315189/000155614426000002/form4-01092026_080101.xml"
+        }
+      ]
+    },
+    {
+      "ticker": "DE",
+      "seat": "chief-financial",
+      "status": "candidate-found",
+      "candidates": [
+        {
+          "canonicalName": "Norwood Terry Brent",
+          "reportedTitle": "Sr VP & CFO",
+          "lastObservedDate": "2026-08-17",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/315189/000213300526000004/form4-08182026_070832.xml"
+        },
+        {
+          "canonicalName": "JEPSEN JOSHUA A",
+          "reportedTitle": "Sr VP & CFO",
+          "lastObservedDate": "2025-12-15",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/315189/000194728425000007/form4-12162025_071252.xml"
+        }
+      ]
+    },
+    {
+      "ticker": "MSTR",
+      "seat": "chief-executive",
+      "status": "candidate-found",
+      "candidates": [
+        {
+          "canonicalName": "Le Phong",
+          "reportedTitle": "President & CEO",
+          "lastObservedDate": "2026-06-08",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000165166926000007/ownership.xml"
+        }
+      ]
+    },
+    {
+      "ticker": "MSTR",
+      "seat": "chief-financial",
+      "status": "candidate-found",
+      "candidates": [
+        {
+          "canonicalName": "Kang Andrew",
+          "reportedTitle": "EVP & CFO",
+          "lastObservedDate": "2026-06-08",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000182517026000008/ownership.xml"
+        }
+      ]
+    },
+    {
+      "ticker": "RIOT",
+      "seat": "chief-executive",
+      "status": "candidate-found",
+      "candidates": [
+        {
+          "canonicalName": "Les Jason",
+          "reportedTitle": "CEO",
+          "lastObservedDate": "2026-07-01",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1167419/000172170226000016/form4-07062026_050703.xml"
+        }
+      ]
+    },
+    {
+      "ticker": "RIOT",
+      "seat": "chief-financial",
+      "status": "candidate-found",
+      "candidates": [
+        {
+          "canonicalName": "Yee Colin M.",
+          "reportedTitle": "EVP, CFO",
+          "lastObservedDate": "2026-01-01",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1167419/000193235226000002/form4-01052026_110102.xml"
+        }
+      ]
+    }
+  ]
+}
