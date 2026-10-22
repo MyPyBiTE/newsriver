@@ -185,32 +185,6 @@
           }
         },
         {
-          "gamePk": "761897",
-          "gameDate": "2026-10-25T00:30Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "VAN"
-              },
-              "score": 0
-            },
-            "home": {
-              "team": {
-                "abbreviation": "COL"
-              },
-              "score": 0
-            }
-          }
-        },
-        {
           "gamePk": "761900",
           "gameDate": "2026-10-25T00:30Z",
           "status": {
@@ -263,32 +237,6 @@
           }
         },
         {
-          "gamePk": "761898",
-          "gameDate": "2026-10-25T00:30Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "STL"
-              },
-              "score": 0
-            },
-            "home": {
-              "team": {
-                "abbreviation": "RSL"
-              },
-              "score": 0
-            }
-          }
-        },
-        {
           "gamePk": "761899",
           "gameDate": "2026-10-25T00:30Z",
           "status": {
@@ -309,6 +257,58 @@
             "home": {
               "team": {
                 "abbreviation": "SKC"
+              },
+              "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "761897",
+          "gameDate": "2026-10-25T01:30Z",
+          "status": {
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "VAN"
+              },
+              "score": 0
+            },
+            "home": {
+              "team": {
+                "abbreviation": "COL"
+              },
+              "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "761898",
+          "gameDate": "2026-10-25T01:30Z",
+          "status": {
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "STL"
+              },
+              "score": 0
+            },
+            "home": {
+              "team": {
+                "abbreviation": "RSL"
               },
               "score": 0
             }
