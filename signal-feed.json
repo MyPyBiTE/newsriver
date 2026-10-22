@@ -1,6 +1,6 @@
 {
   "schema": "mypybite.signal-feed.v1",
-  "generatedAt": "2026-10-22T18:51:28Z",
+  "generatedAt": "2026-10-22T21:59:14Z",
   "disclaimer": "Research preview. Leadership candidates are not confirmed appointments and are not scored. Filing explanations are educational context, not investment advice.",
   "stats": {
     "issuerCount": 75,
@@ -76,6 +76,23 @@
         "Item 9.01: Financial Statements and Exhibits"
       ],
       "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000494/0000070858-26-000494-index.htm",
+      "signalLabel": "Material event",
+      "readerNote": "An 8-K reports a material event between regular reports. The economics depend on the item: financing can change dilution or leverage; leadership changes can alter execution risk; acquisitions can change growth and integration risk.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0001104659-26-118193",
+      "cik": "0000831001",
+      "companyName": "CITIGROUP INC",
+      "ticker": "C",
+      "form": "8-K",
+      "filedDate": "2026-10-22",
+      "acceptedAt": "2026-10-22T17:15:22-04:00",
+      "items": [
+        "Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+        "Item 9.01: Financial Statements and Exhibits"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/831001/000110465926118193/0001104659-26-118193-index.htm",
       "signalLabel": "Material event",
       "readerNote": "An 8-K reports a material event between regular reports. The economics depend on the item: financing can change dilution or leverage; leadership changes can alter execution risk; acquisitions can change growth and integration risk.",
       "coverage": "roster"
@@ -270,6 +287,20 @@
       "acceptedAt": "2026-10-21T17:14:21-04:00",
       "items": [],
       "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000071/0001035267-26-000071-index.htm",
+      "signalLabel": "Quarterly fundamentals",
+      "readerNote": "A 10-Q updates revenue, margins, cash flow, liquidity and risks. Compare the trend with prior quarters and management guidance rather than treating the filing itself as bullish or bearish.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0001628280-26-066928",
+      "cik": "0000936468",
+      "companyName": "LOCKHEED MARTIN CORP",
+      "ticker": "LMT",
+      "form": "10-Q",
+      "filedDate": "2026-10-22",
+      "acceptedAt": "2026-10-22T17:13:59-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/936468/000162828026066928/0001628280-26-066928-index.htm",
       "signalLabel": "Quarterly fundamentals",
       "readerNote": "A 10-Q updates revenue, margins, cash flow, liquidity and risks. Compare the trend with prior quarters and management guidance rather than treating the filing itself as bullish or bearish.",
       "coverage": "roster"
@@ -620,34 +651,6 @@
       "acceptedAt": "2026-10-15T20:00:12-04:00",
       "items": [],
       "url": "https://www.sec.gov/Archives/edgar/data/723125/000205878126000003/0002058781-26-000003-index.htm",
-      "signalLabel": "Insider transaction",
-      "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
-      "coverage": "roster"
-    },
-    {
-      "accessionNumber": "0002058769-26-000006",
-      "cik": "0000723125",
-      "companyName": "MICRON TECHNOLOGY INC",
-      "ticker": "MU",
-      "form": "4",
-      "filedDate": "2026-10-15",
-      "acceptedAt": "2026-10-15T20:01:28-04:00",
-      "items": [],
-      "url": "https://www.sec.gov/Archives/edgar/data/723125/000205876926000006/0002058769-26-000006-index.htm",
-      "signalLabel": "Insider transaction",
-      "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
-      "coverage": "roster"
-    },
-    {
-      "accessionNumber": "0001453368-26-000002",
-      "cik": "0000723125",
-      "companyName": "MICRON TECHNOLOGY INC",
-      "ticker": "MU",
-      "form": "4",
-      "filedDate": "2026-10-15",
-      "acceptedAt": "2026-10-15T20:02:38-04:00",
-      "items": [],
-      "url": "https://www.sec.gov/Archives/edgar/data/723125/000145336826000002/0001453368-26-000002-index.htm",
       "signalLabel": "Insider transaction",
       "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
       "coverage": "roster"
@@ -1866,10 +1869,10 @@
   "researchGeneratedAt": "2026-10-15T17:47:11Z",
   "freshness": {
     "status": "current",
-    "feedGeneratedAt": "2026-10-22T18:51:28Z",
-    "sourceObservedAt": "2026-10-22T18:51:28Z",
-    "latestFiledDate": "2026-10-21",
-    "latestAcceptedAt": "2026-10-21T19:00:04-04:00",
+    "feedGeneratedAt": "2026-10-22T21:59:14Z",
+    "sourceObservedAt": "2026-10-22T21:59:14Z",
+    "latestFiledDate": "2026-10-22",
+    "latestAcceptedAt": "2026-10-22T17:15:22-04:00",
     "recommendedRefreshSeconds": 300,
     "warningAfterMinutes": 4320,
     "source": "SEC EDGAR latest-filings detection with nightly reconciliation"
