@@ -1,0 +1,875 @@
+#!/usr/bin/env python3
+"""Extract Strategy's October 2026 STRC dividend event into a Signal W5H draft."""
+
+from __future__ import annotations
+
+import argparse
+import json
+import re
+from datetime import datetime, timedelta, timezone
+from decimal import Decimal
+from html.parser import HTMLParser
+from pathlib import Path
+from typing import Any
+
+from validate_signal_event import validate_event
+
+
+ROOT = Path(__file__).resolve().parents[1]
+# Every timestamp extracted by this bounded October/November 1, 2026 case is
+# explicitly Eastern Daylight Time in the filing. Keeping the offset local
+# avoids an optional tzdata dependency on Windows runners.
+EASTERN = timezone(timedelta(hours=-4))
+DEFAULT_FILING_URL = (
+    "https://www.sec.gov/Archives/edgar/data/1050446/000119312526423400/"
+    "mstr-20261015.htm"
+)
+DEFAULT_INDEX_URL = (
+    "https://www.sec.gov/Archives/edgar/data/1050446/000119312526423400/"
+    "0001193125-26-423400-index.htm"
+)
+
+
+class ExtractionFailure(ValueError):
+    """Raised when a required disclosure fact cannot be found unambiguously."""
+
+
+class _TextCollector(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.parts: list[str] = []
+        self.ignored_depth = 0
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag in {"script", "style"}:
+            self.ignored_depth += 1
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag in {"script", "style"} and self.ignored_depth:
+            self.ignored_depth -= 1
+
+    def handle_data(self, data: str) -> None:
+        if not self.ignored_depth:
+            self.parts.append(data)
+
+
+def html_text(source: str) -> str:
+    parser = _TextCollector()
+    parser.feed(source)
+    return re.sub(r"\s+", " ", " ".join(parser.parts)).strip()
+
+
+def _required(pattern: str, text: str, label: str, flags: int = re.IGNORECASE) -> str:
+    match = re.search(pattern, text, flags)
+    if not match:
+        raise ExtractionFailure(f"Could not extract {label}")
+    value = match.group(1).strip()
+    if not value:
+        raise ExtractionFailure(f"Extracted an empty {label}")
+    return value
+
+
+def _date(value: str) -> datetime:
+    return datetime.strptime(value, "%B %d, %Y")
+
+
+def _eastern_datetime(date_value: str, time_value: str) -> str:
+    clean_time = time_value.lower().replace(".", "").upper()
+    combined = datetime.strptime(f"{date_value} {clean_time}", "%B %d, %Y %I:%M %p")
+    return combined.replace(tzinfo=EASTERN).isoformat()
+
+
+def _rate_label(value: str) -> str:
+    number = Decimal(value)
+    return format(number.normalize(), "f")
+
+
+def extract_facts(filing_html: str, index_html: str) -> dict[str, str]:
+    filing = html_text(filing_html)
+    index = html_text(index_html)
+
+    issuer = _required(r"\b(Strategy Inc)\s+\(Filer\)\s+CIK:", index, "issuer")
+    cik = _required(r"\(Filer\)\s+CIK:\s*([0-9]{10})", index, "CIK")
+    accession = _required(r"SEC Accession No\.\s*([0-9-]+)", index, "accession number")
+    filing_date = _required(r"Filing Date\s*([0-9]{4}-[0-9]{2}-[0-9]{2})", index, "filing date")
+    accepted = _required(
+        r"Accepted\s*([0-9]{4}-[0-9]{2}-[0-9]{2}\s+[0-9]{2}:[0-9]{2}:[0-9]{2})",
+        index,
+        "acceptance time",
+    )
+    event_date = _required(
+        r"Date of Report \(Date of earliest event reported\):\s*([A-Z][a-z]+\s+[0-9]{1,2},\s+[0-9]{4})",
+        filing,
+        "event date",
+    )
+    rate = _required(r"will be\s+([0-9]+(?:\.[0-9]+)?)%", filing, "STRC annual rate")
+    trading_target = _required(r"trading near \$([0-9]+(?:\.[0-9]+)?) per share", filing, "trading target")
+    record_start = _required(
+        r"each calendar day from ([A-Z][a-z]+\s+[0-9]{1,2},\s+[0-9]{4}) through",
+        filing,
+        "first record date",
+    )
+    record_end = _required(
+        r"each calendar day from [A-Z][a-z]+\s+[0-9]{1,2},\s+[0-9]{4} through ([A-Z][a-z]+\s+[0-9]{1,2},\s+[0-9]{4})",
+        filing,
+        "last record date",
+    )
+    total = _required(
+        r"Total Attributable to November 2026 Record Dates\s*\$([0-9]+(?:\.[0-9]+)?)",
+        filing,
+        "November dividend total",
+    )
+    meeting_date = _required(
+        r"special meeting[^.]*?held on ([A-Z][a-z]+\s+[0-9]{1,2},\s+[0-9]{4}) at",
+        filing,
+        "special-meeting date",
+    )
+    meeting_time = _required(
+        r"special meeting[^.]*?held on [A-Z][a-z]+\s+[0-9]{1,2},\s+[0-9]{4} at ([0-9]{1,2}:[0-9]{2}\s+[ap]\.m\.)",
+        filing,
+        "special-meeting time",
+    )
+    approval_time = _required(
+        r"at or prior to ([0-9]{1,2}:[0-9]{2}\s+[ap]\.m\.), New York City time, on October 31, 2026",
+        filing,
+        "approval deadline time",
+    )
+    effective_time = _required(
+        r"at or prior to ([0-9]{1,2}:[0-9]{2}\s+[ap]\.m\.), Eastern time, on November 1, 2026",
+        filing,
+        "certificate deadline time",
+    )
+
+    required_phrases = {
+        "fallback payment": "November 15 Dividend will be payable",
+        "mutually exclusive payments": "In no event will both",
+        "tax caveat": "non-taxable returns of capital",
+    }
+    for label, phrase in required_phrases.items():
+        if phrase.casefold() not in filing.casefold():
+            raise ExtractionFailure(f"Could not verify {label}")
+
+    accepted_dt = datetime.strptime(accepted, "%Y-%m-%d %H:%M:%S").replace(tzinfo=EASTERN)
+    return {
+        "issuer": issuer,
+        "cik": cik,
+        "ticker": "MSTR",
+        "accession": accession,
+        "filingDate": filing_date,
+        "acceptedAt": accepted_dt.isoformat(),
+        "eventDate": _date(event_date).date().isoformat(),
+        "rate": _rate_label(rate),
+        "tradingTarget": format(Decimal(trading_target), ".0f"),
+        "recordStart": _date(record_start).date().isoformat(),
+        "recordEnd": _date(record_end).date().isoformat(),
+        "total": format(Decimal(total), ".2f"),
+        "meetingAt": _eastern_datetime(meeting_date, meeting_time),
+        "approvalDeadline": _eastern_datetime("October 31, 2026", approval_time),
+        "certificateDeadline": _eastern_datetime("November 1, 2026", effective_time),
+    }
+
+
+def build_event(
+    facts: dict[str, str],
+    generated_at: str,
+    filing_url: str = DEFAULT_FILING_URL,
+    index_url: str = DEFAULT_INDEX_URL,
+) -> dict[str, Any]:
+    rate = facts["rate"]
+    total = facts["total"]
+    issuer = facts["issuer"]
+    accession = facts["accession"]
+    meeting_value = datetime.fromisoformat(facts["meetingAt"])
+    meeting_date = f"{meeting_value.strftime('%B')} {meeting_value.day}"
+
+    event: dict[str, Any] = {
+        "schema": "mypybite.signal-event.v1",
+        "eventId": f"sec:{accession}:strc-dividend-structure",
+        "generatedAt": generated_at,
+        "status": "draft",
+        "issuer": {"cik": facts["cik"], "legalName": issuer, "ticker": facts["ticker"]},
+        "headline": (
+            f"Strategy holds STRC at {rate}%; daily November dividends depend on "
+            f"{meeting_date} shareholder approval"
+        ),
+        "synopsis": (
+            f"Strategy declared conditional daily November dividends totaling ${total} per STRC "
+            f"share and kept the preferred stock's annual dividend rate at {rate}%. The daily "
+            "payments require shareholder approval and an amended certificate; if either "
+            "condition fails, the previously declared November 15 payment remains instead."
+        ),
+        "w5h": {
+            "who": [
+                {"name": issuer, "role": "Issuer of STRC preferred stock and filer of the disclosure", "evidenceIds": ["ev-identity"]},
+                {"name": f"{issuer} board of directors", "role": "Declared the conditional daily cash dividends", "evidenceIds": ["ev-declaration"]},
+                {"name": "STRC preferred shareholders", "role": "Holders affected by the proposed change in November payment timing", "evidenceIds": ["ev-declaration", "ev-conditions"]},
+            ],
+            "what": {
+                "text": f"Strategy kept STRC's annual dividend rate at {rate}% and declared a daily cash dividend for each day in November 2026, totaling ${total} per STRC share, subject to two conditions.",
+                "evidenceIds": ["ev-rate", "ev-declaration", "ev-total"],
+            },
+            "when": [
+                {"label": "Board action and report date", "value": facts["eventDate"], "status": "occurred", "evidenceIds": ["ev-identity", "ev-declaration"]},
+                {"label": "SEC filing accepted", "value": facts["acceptedAt"], "status": "accepted", "evidenceIds": ["ev-filing"]},
+                {"label": "Special shareholder meeting", "value": facts["meetingAt"], "status": "scheduled", "evidenceIds": ["ev-conditions"]},
+                {"label": "Shareholder-approval deadline", "value": facts["approvalDeadline"], "status": "deadline", "evidenceIds": ["ev-conditions"]},
+                {"label": "Amended-certificate effectiveness deadline", "value": facts["certificateDeadline"], "status": "deadline", "evidenceIds": ["ev-conditions"]},
+            ],
+            "where": [
+                {"text": "The action applies to Strategy's Variable Rate Series A Perpetual Stretch Preferred Stock, traded as STRC; the filing does not declare a dividend on MSTR common shares.", "evidenceIds": ["ev-identity", "ev-declaration"]},
+                {"text": "The proposed change is implemented through shareholder approval and an amended STRC certificate of designations filed with the Delaware Secretary of State.", "evidenceIds": ["ev-conditions"]},
+            ],
+            "why": {
+                "status": "disclosed",
+                "text": f"Management said it would recommend maintaining the {rate}% annual rate until STRC demonstrates sustained healthy trading near its ${facts['tradingTarget']} stated amount. The filing does not quantify how long that may take.",
+                "evidenceIds": ["ev-rate"],
+            },
+            "how": {
+                "text": "Daily payments begin only if shareholders approve the amendments by October 31 and the amended certificate becomes effective by November 1. If either condition fails, the daily payments do not occur and the previously declared November 15 dividend remains payable. The company says both payment structures cannot apply at once.",
+                "evidenceIds": ["ev-conditions"],
+            },
+        },
+        "implications": [
+            {"audience": "company", "text": f"The {rate}% rate preserves a high cash-distribution obligation on STRC while management waits for the preferred shares to trade sustainably near ${facts['tradingTarget']}.", "evidenceIds": ["ev-rate"], "caveat": "The filing does not say when the rate will change or estimate the future cash cost beyond the disclosed period."},
+            {"audience": "preferred-shareholders", "text": f"If both conditions are met, STRC holders receive daily November dividends totaling ${total} per share instead of the previously declared November 15 payment.", "evidenceIds": ["ev-total", "ev-conditions"], "caveat": "The daily structure is conditional; it does not create a second November payment."},
+            {"audience": "common-shareholders", "text": "The decision concerns the cost and administration of Strategy's preferred-stock financing, not a new dividend on MSTR common shares or a newly announced bitcoin purchase.", "evidenceIds": ["ev-identity", "ev-declaration"], "caveat": "Any effect on common shareholders depends on Strategy's broader financing and capital-allocation choices, which this filing does not quantify."},
+        ],
+        "unknowns": [
+            "Whether shareholders will approve the STRC amendments at the October 28 special meeting.",
+            "Whether the amended certificate will be filed and become effective by the November 1 deadline.",
+            f"How long management will recommend keeping the annual dividend rate at {rate}%.",
+            "Whether the November distributions will receive the expected return-of-capital tax treatment for every holder.",
+        ],
+        "watchNext": [
+            {"checkpoint": "Shareholder vote on the STRC amendments", "dueAt": facts["meetingAt"], "evidenceToSeek": "Voting results in a subsequent SEC filing or company statement."},
+            {"checkpoint": "Amended STRC certificate filed and effective", "dueAt": facts["certificateDeadline"], "evidenceToSeek": "The filed certificate of designations and confirmation that the daily-dividend conditions were satisfied."},
+            {"checkpoint": "Next STRC dividend-rate decision", "dueAt": None, "evidenceToSeek": f"A board declaration stating whether the {rate}% annual rate remains in place after November."},
+        ],
+        "classification": {
+            "category": "capital-allocation",
+            "direction": "mixed",
+            "materiality": "important",
+            "confidence": "high",
+            "structuralOddity": {"flag": True, "explanation": "The filing creates two mutually exclusive November payment paths: conditional daily dividends or the previously declared semi-monthly payment, never both."},
+        },
+        "sources": [
+            {"sourceId": "src-sec-index", "sourceType": "sec-filing", "title": f"{issuer} 8-K filing detail", "url": index_url, "publishedAt": facts["acceptedAt"], "primary": True, "accessionNumber": accession, "form": "8-K"},
+            {"sourceId": "src-sec-8k", "sourceType": "sec-filing", "title": f"{issuer} Form 8-K dated October 15, 2026", "url": filing_url, "publishedAt": facts["acceptedAt"], "primary": True, "accessionNumber": accession, "form": "8-K"},
+        ],
+        "evidence": [
+            {"evidenceId": "ev-identity", "sourceId": "src-sec-8k", "locator": "Cover page", "fact": f"{issuer} reported an October 15, 2026 event concerning its STRC preferred stock.", "quotedText": None},
+            {"evidenceId": "ev-filing", "sourceId": "src-sec-index", "locator": "Filing detail header", "fact": f"The SEC accepted accession {accession} on October 16, 2026 at 07:59:13 Eastern.", "quotedText": None},
+            {"evidenceId": "ev-rate", "sourceId": "src-sec-8k", "locator": "Item 8.01, Dividend Rate Announcement", "fact": f"Strategy announced a {rate}% annual STRC dividend rate for November record dates and said management would recommend that rate until the shares demonstrate sustained healthy trading near ${facts['tradingTarget']}.", "quotedText": None},
+            {"evidenceId": "ev-declaration", "sourceId": "src-sec-8k", "locator": "Item 8.01, Cash Dividend Declaration", "fact": "The board declared a cash dividend for each calendar day from November 1 through November 30, payable on the following business day, subject to the stated conditions.", "quotedText": None},
+            {"evidenceId": "ev-total", "sourceId": "src-sec-8k", "locator": "Item 8.01, November dividend table and footnotes", "fact": f"The daily November declarations total ${total} per STRC share if the conditions are satisfied.", "quotedText": None},
+            {"evidenceId": "ev-conditions", "sourceId": "src-sec-8k", "locator": "Item 8.01, Conditional Dividends", "fact": "Daily dividends require shareholder approval by October 31 and an effective amended certificate by November 1. If the conditions fail, the November 15 dividend remains payable; the two structures cannot both apply.", "quotedText": None},
+            {"evidenceId": "ev-tax", "sourceId": "src-sec-8k", "locator": "Item 8.01, Expected Tax Treatment", "fact": "Strategy expects payable November daily distributions to be non-taxable returns of capital to the extent of each holder's tax basis, but the filing does not guarantee that treatment.", "quotedText": None},
+        ],
+        "consolidation": {
+            "groupKey": "strategy:strc:2026-10:daily-dividend-structure",
+            "isPrimaryEvent": True,
+            "relatedEventIds": [],
+            "rationale": "The dividend rate, conditional daily declarations, shareholder vote, certificate amendment, and fallback payment are parts of one financing event and should appear as one reader-facing brief.",
+        },
+        "quality": {
+            "w5hComplete": True,
+            "evidenceComplete": True,{
+  "schema": "mypybite.signal-events-public.v1",
+  "generatedAt": "2026-10-22T20:52:19Z",
+  "releaseStatus": "ready-for-publication",
+  "publicReleaseAllowed": true,
+  "editorialPolicy": {
+    "factsAndInferenceSeparated": true,
+    "w5hComplete": true,
+    "primaryEvidenceRequired": true,
+    "humanReviewed": true
+  },
+  "stats": {
+    "eventCount": 2,
+    "issuerCount": 2,
+    "criticalCount": 0,
+    "importantCount": 1,
+    "notableCount": 1
+  },
+  "events": [
+    {
+      "schema": "mypybite.signal-event.v1",
+      "eventId": "sec:0000070858-26-000494:board-appointments",
+      "generatedAt": "2026-10-22T18:00:00Z",
+      "status": "publishable",
+      "issuer": {
+        "cik": "0000070858",
+        "legalName": "Bank of America Corporation",
+        "ticker": "BAC"
+      },
+      "headline": "Bank of America expands board to 14, appointing James Fitterling and William Thomas",
+      "synopsis": "Bank of America increased its board from 12 to 14 directors and appointed James Fitterling and William Thomas, effective immediately. Fitterling joined the risk and human-capital committees; Thomas joined the audit and governance committees. Both will receive prorated restricted-stock and cash awards under the existing non-employee director program.",
+      "w5h": {
+        "who": [
+          {
+            "name": "Bank of America Corporation",
+            "role": "Registrant and company whose board was expanded",
+            "evidenceIds": [
+              "ev-identity",
+              "ev-appointments"
+            ]
+          },
+          {
+            "name": "Bank of America board of directors",
+            "role": "Expanded the board and made both appointments",
+            "evidenceIds": [
+              "ev-appointments"
+            ]
+          },
+          {
+            "name": "James Fitterling",
+            "role": "New director assigned to the Enterprise Risk Committee and Compensation and Human Capital Committee",
+            "evidenceIds": [
+              "ev-appointments",
+              "ev-committees",
+              "ev-backgrounds"
+            ]
+          },
+          {
+            "name": "William Thomas",
+            "role": "New director assigned to the Audit Committee and Corporate Governance Committee",
+            "evidenceIds": [
+              "ev-appointments",
+              "ev-committees",
+              "ev-backgrounds"
+            ]
+          }
+        ],
+        "what": {
+          "text": "The board increased its authorized size from 12 to 14 directors, filled both new seats with James Fitterling and William Thomas, and assigned each appointee to two board committees.",
+          "evidenceIds": [
+            "ev-appointments",
+            "ev-committees"
+          ]
+        },
+        "when": [
+          {
+            "label": "Board action and effective date",
+            "value": "2026-10-21",
+            "status": "effective",
+            "evidenceIds": [
+              "ev-appointments"
+            ]
+          },
+          {
+            "label": "SEC filing accepted",
+            "value": "2026-10-21T17:07:03-04:00",
+            "status": "accepted",
+            "evidenceIds": [
+              "ev-filing"
+            ]
+          },
+          {
+            "label": "Restricted-stock and cash award date",
+            "value": "2026-10-21",
+            "status": "scheduled",
+            "evidenceIds": [
+              "ev-compensation"
+            ]
+          }
+        ],
+        "where": [
+          {
+            "text": "The change is at the parent-company board level and affects the Enterprise Risk, Compensation and Human Capital, Audit, and Corporate Governance committees.",
+            "evidenceIds": [
+              "ev-committees"
+            ]
+          },
+          {
+            "text": "The filing identifies no change to an operating division, customer product, capital ratio, or security terms.",
+            "evidenceIds": [
+              "ev-appointments",
+              "ev-compensation"
+            ]
+          }
+        ],
+        "why": {
+          "status": "disclosed",
+          "text": "Bank of America said the appointments add complementary leadership experience to strengthen oversight of long-term strategy. It highlighted Fitterling's complex-industry and public-board experience and Thomas's audit, accounting, and financial-reporting expertise.",
+          "evidenceIds": [
+            "ev-rationale",
+            "ev-backgrounds"
+          ]
+        },
+        "how": {
+          "text": "The sitting board created two additional seats and appointed both directors immediately. Each joined two committees and entered the existing non-employee director compensation program, with October 21 awards prorated through the next annual shareholder meeting.",
+          "evidenceIds": [
+            "ev-appointments",
+            "ev-committees",
+            "ev-compensation"
+          ]
+        }
+      },
+      "implications": [
+        {
+          "audience": "company",
+          "text": "The board adds recent large-company operating experience to risk and compensation oversight and audit experience to financial-reporting and governance oversight.",
+          "evidenceIds": [
+            "ev-committees",
+            "ev-backgrounds"
+          ],
+          "caveat": "The filing does not announce a change in strategy, management authority, risk limits, or financial policy."
+        },
+        {
+          "audience": "common-shareholders",
+          "text": "Shareholders now have a 14-member board with two additional directors participating in four oversight committees.",
+          "evidenceIds": [
+            "ev-appointments",
+            "ev-committees"
+          ],
+          "caveat": "The filing does not disclose how the appointments will affect future votes or decisions."
+        }
+      ],
+      "unknowns": [
+        "The exact value of each prorated restricted-stock and cash award.",
+        "Whether either appointment will change a board committee's chair, mandate, or voting balance.",
+        "How shareholders will vote on the directors at the next annual meeting.",
+        "Which specific future strategic or risk decisions the expanded board will address first."
+      ],
+      "watchNext": [
+        {
+          "checkpoint": "Initial equity awards for both directors",
+          "dueAt": null,
+          "evidenceToSeek": "Form 4 filings or a compensation disclosure showing the number and value of restricted shares."
+        },
+        {
+          "checkpoint": "Next proxy statement",
+          "dueAt": null,
+          "evidenceToSeek": "Director biographies, independence determinations, compensation, committee assignments, and the shareholder-election proposal."
+        },
+        {
+          "checkpoint": "First material committee or governance change",
+          "dueAt": null,
+          "evidenceToSeek": "A later filing that links the expanded board to a concrete policy, oversight, or leadership decision."
+        }
+      ],
+      "classification": {
+        "category": "leadership-and-governance",
+        "direction": "neutral",
+        "materiality": "notable",
+        "confidence": "high",
+        "structuralOddity": {
+          "flag": false,
+          "explanation": null
+        }
+      },
+      "sources": [
+        {
+          "sourceId": "src-sec-index",
+          "sourceType": "sec-filing",
+          "title": "Bank of America 8-K filing detail",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000494/0000070858-26-000494-index.htm",
+          "publishedAt": "2026-10-21T17:07:03-04:00",
+          "primary": true,
+          "accessionNumber": "0000070858-26-000494",
+          "form": "8-K"
+        },
+        {
+          "sourceId": "src-sec-8k",
+          "sourceType": "sec-filing",
+          "title": "Bank of America Form 8-K dated October 21, 2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000494/bac-20261021.htm",
+          "publishedAt": "2026-10-21T17:07:03-04:00",
+          "primary": true,
+          "accessionNumber": "0000070858-26-000494",
+          "form": "8-K"
+        },
+        {
+          "sourceId": "src-sec-exhibit-99-1",
+          "sourceType": "sec-exhibit",
+          "title": "Bank of America board-appointment news release",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000494/exhibit991october212026new.htm",
+          "publishedAt": "2026-10-21T17:07:03-04:00",
+          "primary": true,
+          "accessionNumber": "0000070858-26-000494",
+          "form": "EX-99.1"
+        }
+      ],
+      "evidence": [
+        {
+          "evidenceId": "ev-identity",
+          "sourceId": "src-sec-8k",
+          "locator": "Cover page",
+          "fact": "Bank of America Corporation filed an 8-K for an October 21, 2026 event.",
+          "quotedText": null
+        },
+        {
+          "evidenceId": "ev-filing",
+          "sourceId": "src-sec-index",
+          "locator": "Filing detail header",
+          "fact": "The SEC accepted accession 0000070858-26-000494 on October 21, 2026 at 17:07:03 Eastern.",
+          "quotedText": null
+        },
+        {
+          "evidenceId": "ev-appointments",
+          "sourceId": "src-sec-8k",
+          "locator": "Item 5.02",
+          "fact": "The board increased its size from 12 to 14 and appointed James Fitterling and William Thomas, effective immediately.",
+          "quotedText": null
+        },
+        {
+          "evidenceId": "ev-committees",
+          "sourceId": "src-sec-8k",
+          "locator": "Item 5.02",
+          "fact": "Fitterling joined the Enterprise Risk Committee and Compensation and Human Capital Committee; Thomas joined the Audit Committee and Corporate Governance Committee.",
+          "quotedText": null
+        },
+        {
+          "evidenceId": "ev-compensation",
+          "sourceId": "src-sec-8k",
+          "locator": "Item 5.02, director compensation paragraph",
+          "fact": "Both directors entered the existing non-employee director compensation program and were scheduled to receive prorated restricted-stock and cash awards on October 21.",
+          "quotedText": null
+        },
+        {
+          "evidenceId": "ev-backgrounds",
+          "sourceId": "src-sec-8k",
+          "locator": "Item 5.02 and Exhibit 99.1 biographies",
+          "fact": "Fitterling is Dow's executive chair and former CEO; Thomas is KPMG International's former global chair and CEO with audit, accounting, and financial-reporting experience.",
+          "quotedText": null
+        },
+        {
+          "evidenceId": "ev-rationale",
+          "sourceId": "src-sec-exhibit-99-1",
+          "locator": "Lead independent director statement",
+          "fact": "The company said the directors' complementary leadership experience would strengthen oversight of long-term strategy.",
+          "quotedText": null
+        }
+      ],
+      "consolidation": {
+        "groupKey": "bank-of-america:2026-10-21:board-appointments",
+        "isPrimaryEvent": true,
+        "relatedEventIds": [],
+        "rationale": "The board expansion, two appointments, committee assignments, compensation treatment, and incorporated news release describe one governance action."
+      },
+      "quality": {
+        "w5hComplete": true,
+        "evidenceComplete": true,
+        "quantitiesVerified": true,
+        "humanReviewRequired": true,
+        "humanReviewed": true,
+        "reviewNotes": [
+          "Automatically extracted board-appointment event; requires editorial review before publication.",
+          "No strategy or financial-policy change should be inferred from the appointments alone.",
+          "Editorial approval recorded: 2026-10-22T20:52:19Z by MYPYBITE editorial owner; approved for the public Signal event feed."
+        ]
+      }
+    },
+    {
+      "schema": "mypybite.signal-event.v1",
+      "eventId": "sec:0001193125-26-423400:strc-dividend-structure",
+      "generatedAt": "2026-10-22T16:00:00Z",
+      "status": "publishable",
+      "issuer": {
+        "cik": "0001050446",
+        "legalName": "Strategy Inc",
+        "ticker": "MSTR"
+      },
+      "headline": "Strategy holds STRC at 12%; daily November dividends depend on October 28 shareholder approval",
+      "synopsis": "Strategy declared conditional daily November dividends totaling $1.00 per STRC share and kept the preferred stock's annual dividend rate at 12%. The daily payments require shareholder approval and an amended certificate; if either condition fails, the previously declared November 15 payment remains instead.",
+      "w5h": {
+        "who": [
+          {
+            "name": "Strategy Inc",
+            "role": "Issuer of STRC preferred stock and filer of the disclosure",
+            "evidenceIds": [
+              "ev-identity"
+            ]
+          },
+          {
+            "name": "Strategy Inc board of directors",
+            "role": "Declared the conditional daily cash dividends",
+            "evidenceIds": [
+              "ev-declaration"
+            ]
+          },
+          {
+            "name": "STRC preferred shareholders",
+            "role": "Holders affected by the proposed change in November payment timing",
+            "evidenceIds": [
+              "ev-declaration",
+              "ev-conditions"
+            ]
+          }
+        ],
+        "what": {
+          "text": "Strategy kept STRC's annual dividend rate at 12% and declared a daily cash dividend for each day in November 2026, totaling $1.00 per STRC share, subject to two conditions.",
+          "evidenceIds": [
+            "ev-rate",
+            "ev-declaration",
+            "ev-total"
+          ]
+        },
+        "when": [
+          {
+            "label": "Board action and report date",
+            "value": "2026-10-15",
+            "status": "occurred",
+            "evidenceIds": [
+              "ev-identity",
+              "ev-declaration"
+            ]
+          },
+          {
+            "label": "SEC filing accepted",
+            "value": "2026-10-16T07:59:13-04:00",
+            "status": "accepted",
+            "evidenceIds": [
+              "ev-filing"
+            ]
+          },
+          {
+            "label": "Special shareholder meeting",
+            "value": "2026-10-28T10:00:00-04:00",
+            "status": "scheduled",
+            "evidenceIds": [
+              "ev-conditions"
+            ]
+          },
+          {
+            "label": "Shareholder-approval deadline",
+            "value": "2026-10-31T17:00:00-04:00",
+            "status": "deadline",
+            "evidenceIds": [
+              "ev-conditions"
+            ]
+          },
+          {
+            "label": "Amended-certificate effectiveness deadline",
+            "value": "2026-11-01T00:01:00-04:00",
+            "status": "deadline",
+            "evidenceIds": [
+              "ev-conditions"
+            ]
+          }
+        ],
+        "where": [
+          {
+            "text": "The action applies to Strategy's Variable Rate Series A Perpetual Stretch Preferred Stock, traded as STRC; the filing does not declare a dividend on MSTR common shares.",
+            "evidenceIds": [
+              "ev-identity",
+              "ev-declaration"
+            ]
+          },
+          {
+            "text": "The proposed change is implemented through shareholder approval and an amended STRC certificate of designations filed with the Delaware Secretary of State.",
+            "evidenceIds": [
+              "ev-conditions"
+            ]
+          }
+        ],
+        "why": {
+          "status": "disclosed",
+          "text": "Management said it would recommend maintaining the 12% annual rate until STRC demonstrates sustained healthy trading near its $100 stated amount. The filing does not quantify how long that may take.",
+          "evidenceIds": [
+            "ev-rate"
+          ]
+        },
+        "how": {
+          "text": "Daily payments begin only if shareholders approve the amendments by October 31 and the amended certificate becomes effective by November 1. If either condition fails, the daily payments do not occur and the previously declared November 15 dividend remains payable. The company says both payment structures cannot apply at once.",
+          "evidenceIds": [
+            "ev-conditions"
+          ]
+        }
+      },
+      "implications": [
+        {
+          "audience": "company",
+          "text": "The 12% rate preserves a high cash-distribution obligation on STRC while management waits for the preferred shares to trade sustainably near $100.",
+          "evidenceIds": [
+            "ev-rate"
+          ],
+          "caveat": "The filing does not say when the rate will change or estimate the future cash cost beyond the disclosed period."
+        },
+        {
+          "audience": "preferred-shareholders",
+          "text": "If both conditions are met, STRC holders receive daily November dividends totaling $1.00 per share instead of the previously declared November 15 payment.",
+          "evidenceIds": [
+            "ev-total",
+            "ev-conditions"
+          ],
+          "caveat": "The daily structure is conditional; it does not create a second November payment."
+        },
+        {
+          "audience": "common-shareholders",
+          "text": "The decision concerns the cost and administration of Strategy's preferred-stock financing, not a new dividend on MSTR common shares or a newly announced bitcoin purchase.",
+          "evidenceIds": [
+            "ev-identity",
+            "ev-declaration"
+          ],
+          "caveat": "Any effect on common shareholders depends on Strategy's broader financing and capital-allocation choices, which this filing does not quantify."
+        }
+      ],
+      "unknowns": [
+        "Whether shareholders will approve the STRC amendments at the October 28 special meeting.",
+        "Whether the amended certificate will be filed and become effective by the November 1 deadline.",
+        "How long management will recommend keeping the annual dividend rate at 12%.",
+        "Whether the November distributions will receive the expected return-of-capital tax treatment for every holder."
+      ],
+      "watchNext": [
+        {
+          "checkpoint": "Shareholder vote on the STRC amendments",
+          "dueAt": "2026-10-28T10:00:00-04:00",
+          "evidenceToSeek": "Voting results in a subsequent SEC filing or company statement."
+        },
+        {
+          "checkpoint": "Amended STRC certificate filed and effective",
+          "dueAt": "2026-11-01T00:01:00-04:00",
+          "evidenceToSeek": "The filed certificate of designations and confirmation that the daily-dividend conditions were satisfied."
+        },
+        {
+          "checkpoint": "Next STRC dividend-rate decision",
+          "dueAt": null,
+          "evidenceToSeek": "A board declaration stating whether the 12% annual rate remains in place after November."
+        }
+      ],
+      "classification": {
+        "category": "capital-allocation",
+        "direction": "mixed",
+        "materiality": "important",
+        "confidence": "high",
+        "structuralOddity": {
+          "flag": true,
+          "explanation": "The filing creates two mutually exclusive November payment paths: conditional daily dividends or the previously declared semi-monthly payment, never both."
+        }
+      },
+      "sources": [
+        {
+          "sourceId": "src-sec-index",
+          "sourceType": "sec-filing",
+          "title": "Strategy Inc 8-K filing detail",
+          "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526423400/0001193125-26-423400-index.htm",
+          "publishedAt": "2026-10-16T07:59:13-04:00",
+          "primary": true,
+          "accessionNumber": "0001193125-26-423400",
+          "form": "8-K"
+        },
+        {
+          "sourceId": "src-sec-8k",
+          "sourceType": "sec-filing",
+          "title": "Strategy Inc Form 8-K dated October 15, 2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526423400/mstr-20261015.htm",
+          "publishedAt": "2026-10-16T07:59:13-04:00",
+          "primary": true,
+          "accessionNumber": "0001193125-26-423400",
+          "form": "8-K"
+        }
+      ],
+      "evidence": [
+        {
+          "evidenceId": "ev-identity",
+          "sourceId": "src-sec-8k",
+          "locator": "Cover page",
+          "fact": "Strategy Inc reported an October 15, 2026 event concerning its STRC preferred stock.",
+          "quotedText": null
+        },
+        {
+          "evidenceId": "ev-filing",
+          "sourceId": "src-sec-index",
+          "locator": "Filing detail header",
+          "fact": "The SEC accepted accession 0001193125-26-423400 on October 16, 2026 at 07:59:13 Eastern.",
+          "quotedText": null
+        },
+        {
+          "evidenceId": "ev-rate",
+          "sourceId": "src-sec-8k",
+          "locator": "Item 8.01, Dividend Rate Announcement",
+          "fact": "Strategy announced a 12.00% annual STRC dividend rate for November record dates and said management would recommend that rate until the shares demonstrate sustained healthy trading near $100.",
+          "quotedText": null
+        },
+        {
+          "evidenceId": "ev-declaration",
+          "sourceId": "src-sec-8k",
+          "locator": "Item 8.01, Cash Dividend Declaration",
+          "fact": "The board declared a cash dividend for each calendar day from November 1 through November 30, payable on the following business day, subject to the stated conditions.",
+          "quotedText": null
+        },
+        {
+          "evidenceId": "ev-total",
+          "sourceId": "src-sec-8k",
+          "locator": "Item 8.01, November dividend table and footnotes",
+          "fact": "The daily November declarations total $1.00 per STRC share if the conditions are satisfied.",
+          "quotedText": null
+        },
+        {
+          "evidenceId": "ev-conditions",
+          "sourceId": "src-sec-8k",
+          "locator": "Item 8.01, Conditional Dividends",
+          "fact": "Daily dividends require shareholder approval by October 31 and an effective amended certificate by November 1. If the conditions fail, the November 15 dividend remains payable; the two structures cannot both apply.",
+          "quotedText": null
+        },
+        {
+          "evidenceId": "ev-tax",
+          "sourceId": "src-sec-8k",
+          "locator": "Item 8.01, Expected Tax Treatment",
+          "fact": "Strategy expects payable November daily distributions to be non-taxable returns of capital to the extent of each holder's tax basis, but the filing does not guarantee that treatment.",
+          "quotedText": null
+        }
+      ],
+      "consolidation": {
+        "groupKey": "strategy:strc:2026-10:daily-dividend-structure",
+        "isPrimaryEvent": true,
+        "relatedEventIds": [],
+        "rationale": "The dividend rate, conditional daily declarations, shareholder vote, certificate amendment, and fallback payment are parts of one financing event and should appear as one reader-facing brief."
+      },
+      "quality": {
+        "w5hComplete": true,
+        "evidenceComplete": true,
+        "quantitiesVerified": true,
+        "humanReviewRequired": true,
+        "humanReviewed": true,
+        "reviewNotes": [
+          "Gold-standard draft for testing the Signal editorial contract.",
+          "Human approval is required before publication because the event is classified as important.",
+          "Editorial approval recorded: 2026-10-22T20:52:19Z by MYPYBITE editorial owner; approved for the public Signal event feed."
+        ]
+      }
+    }
+  ]
+}
+
+            "quantitiesVerified": True,
+            "humanReviewRequired": True,
+            "humanReviewed": False,
+            "reviewNotes": [
+                "Automatically extracted Strategy STRC event; requires human approval before publication.",
+                "All quantities and conditions were matched against the SEC filing fixture.",
+            ],
+        },
+    }
+    return event
+
+
+def build_parser() -> argparse.ArgumentParser:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--filing-html", type=Path, required=True)
+    parser.add_argument("--index-html", type=Path, required=True)
+    parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--filing-url", default=DEFAULT_FILING_URL)
+    parser.add_argument("--index-url", default=DEFAULT_INDEX_URL)
+    parser.add_argument("--generated-at")
+    return parser
+
+
+def main() -> int:
+    args = build_parser().parse_args()
+    generated_at = args.generated_at or datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+    facts = extract_facts(
+        args.filing_html.read_text(encoding="utf-8"),
+        args.index_html.read_text(encoding="utf-8"),
+    )
+    event = build_event(facts, generated_at, args.filing_url, args.index_url)
+    validate_event(event)
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    args.output.write_text(json.dumps(event, indent=2) + "\n", encoding="utf-8")
+    print(f"Strategy Signal draft written: {args.output}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
