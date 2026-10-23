@@ -10,6 +10,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
+PUBLIC_FILING_LIMIT = 500
 
 
 FORM_GUIDE = {
@@ -171,6 +172,16 @@ def build_payload(
             }
         )
 
+    public_filings = sorted(
+        deduped.values(),
+        key=lambda item: (
+            item.get("filedDate") or "",
+            item.get("acceptedAt") or "",
+            item.get("accessionNumber") or "",
+        ),
+        reverse=True,
+    )[:PUBLIC_FILING_LIMIT]
+
     return {
         "schema": "mypybite.signal-preview.v1",
         "generatedAt": discovery["generatedAt"],
@@ -181,6 +192,8 @@ def build_payload(
             "candidateSeatCount": discovery["candidateSeatCount"],
             "unresolvedSeatCount": discovery["unresolvedSeatCount"],
             "maximumManagementScore": scorecard["maximumScore"],
+            "availableFilingCount": len(deduped),
+            "publishedFilingCount": len(public_filings),
         },
         "scorecard": {
             "maximumScore": scorecard["maximumScore"],
@@ -188,23 +201,7 @@ def build_payload(
             "confidence": scorecard["confidence"],
             "rules": scorecard["rules"],
         },
-        "filings": sorted(
-            deduped.values(),
-            key=lambda item: (
-                item["coverage"] != "roster",
-                {
-                    "8-K": 0,
-                    "10-Q": 1,
-                    "10-K": 2,
-                    "SC 13D": 3,
-                    "SC 13D/A": 3,
-                    "SC 13G": 4,
-                    "SC 13G/A": 4,
-                    "4": 5,
-                }.get(item["form"], 6),
-                item.get("companyName") or "",
-            ),
-        )[:40],
+        "filings": public_filings,
         "issuers": public_issuers,
     }
 

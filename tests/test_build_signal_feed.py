@@ -77,6 +77,27 @@ class SignalFeedTests(unittest.TestCase):
         )
 
         self.assertEqual(
+            len(feed["filings"]),
+            min(
+                MODULE.PUBLIC_FILING_LIMIT,
+                feed["stats"]["availableFilingCount"],
+            ),
+        )
+
+        self.assertEqual(
+            feed["stats"]["publishedFilingCount"],
+            len(feed["filings"]),
+        )
+
+        self.assertEqual(
+            [item["filedDate"] for item in feed["filings"]],
+            sorted(
+                (item["filedDate"] for item in feed["filings"]),
+                reverse=True,
+            ),
+        )
+
+        self.assertEqual(
             len(feed["issuers"]),
             75,
         )

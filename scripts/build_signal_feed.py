@@ -9,7 +9,7 @@ import os
 from datetime import datetime, timezone
 from pathlib import Path
 
-from build_signal_preview import build_payload
+from build_signal_preview import PUBLIC_FILING_LIMIT, build_payload
 
 
 ROOT = Path(__file__).resolve().parents[1]
