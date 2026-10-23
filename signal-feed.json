@@ -1,6 +1,6 @@
 {
   "schema": "mypybite.signal-feed.v1",
-  "generatedAt": "2026-10-22T21:59:14Z",
+  "generatedAt": "2026-10-23T00:25:27Z",
   "disclaimer": "Research preview. Leadership candidates are not confirmed appointments and are not scored. Filing explanations are educational context, not investment advice.",
   "stats": {
     "issuerCount": 75,
@@ -516,6 +516,20 @@
       "coverage": "roster"
     },
     {
+      "accessionNumber": "0001140361-26-040540",
+      "cik": "0000320193",
+      "companyName": "Apple Inc.",
+      "ticker": "AAPL",
+      "form": "4",
+      "filedDate": "2026-10-22",
+      "acceptedAt": "2026-10-22T18:32:20-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126040540/0001140361-26-040540-index.htm",
+      "signalLabel": "Insider transaction",
+      "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
+      "coverage": "roster"
+    },
+    {
       "accessionNumber": "0000909832-26-000098",
       "cik": "0000909832",
       "companyName": "COSTCO WHOLESALE CORP /NEW",
@@ -637,20 +651,6 @@
       "acceptedAt": "2026-10-15T19:58:42-04:00",
       "items": [],
       "url": "https://www.sec.gov/Archives/edgar/data/723125/000122409526000003/0001224095-26-000003-index.htm",
-      "signalLabel": "Insider transaction",
-      "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
-      "coverage": "roster"
-    },
-    {
-      "accessionNumber": "0002058781-26-000003",
-      "cik": "0000723125",
-      "companyName": "MICRON TECHNOLOGY INC",
-      "ticker": "MU",
-      "form": "4",
-      "filedDate": "2026-10-15",
-      "acceptedAt": "2026-10-15T20:00:12-04:00",
-      "items": [],
-      "url": "https://www.sec.gov/Archives/edgar/data/723125/000205878126000003/0002058781-26-000003-index.htm",
       "signalLabel": "Insider transaction",
       "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
       "coverage": "roster"
@@ -1869,10 +1869,10 @@
   "researchGeneratedAt": "2026-10-15T17:47:11Z",
   "freshness": {
     "status": "current",
-    "feedGeneratedAt": "2026-10-22T21:59:14Z",
-    "sourceObservedAt": "2026-10-22T21:59:14Z",
+    "feedGeneratedAt": "2026-10-23T00:25:27Z",
+    "sourceObservedAt": "2026-10-23T00:25:27Z",
     "latestFiledDate": "2026-10-22",
-    "latestAcceptedAt": "2026-10-22T17:15:22-04:00",
+    "latestAcceptedAt": "2026-10-22T18:32:20-04:00",
     "recommendedRefreshSeconds": 300,
     "warningAfterMinutes": 4320,
     "source": "SEC EDGAR latest-filings detection with nightly reconciliation"
