@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Footage captures TV reporter rescuing man from sinking car during flood",
-      "display":"Footage captures TV reporter rescuing man from sinking car during flood",
-      "url":"https://globalnews.ca/news/12118698/australian-tv-reporter-rescues-man-sinking-car-video",
+      "text":"Babcock faces former team as Oilers host Leafs",
+      "display":"Babcock faces former team as Oilers host Leafs",
+      "url":"https://globalnews.ca/news/12119243/babcock-faces-former-team-as-oilers-host-leafs",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"1 serious injured in two-alarm Etobicoke fire",
+      "display":"1 serious injured in two-alarm Etobicoke fire",
+      "url":"https://toronto.citynews.ca/2026/10/23/1-serious-injured-in-two-alarm-etobicoke-fire",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Man arrested in drug trafficking investigation after community complaints in Mississauga",
-      "display":"Man arrested in drug trafficking investigation after community complaints in Mississauga",
-      "url":"https://toronto.citynews.ca/2026/10/23/man-arrested-in-drug-trafficking-investigation-after-community-complaints-in-mississauga",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Jaguars star lineman Anton Harrison out for season after doctors make surprise discovery",
-      "display":"Jaguars star lineman Anton Harrison out for season after doctors make surprise discovery",
-      "url":"https://nypost.com/2026/10/23/sports/jaguars-star-lineman-anton-harrison-out-for-season-after-doctors-make-surprise-discovery",
+      "text":"Mystery of feds at polling site solved with ‘most comical explanation possible’",
+      "display":"Mystery of feds at polling site solved with ‘most comical explanation possible’",
+      "url":"https://www.rawstory.com/florida-agents",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-10-23T21:39:53Z"
+  "generated_utc":"2026-10-23T23:59:44Z"
 }
