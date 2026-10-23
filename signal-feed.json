@@ -1,6 +1,6 @@
 {
   "schema": "mypybite.signal-feed.v1",
-  "generatedAt": "2026-10-23T14:31:56Z",
+  "generatedAt": "2026-10-23T17:22:51Z",
   "disclaimer": "Research preview. Leadership candidates are not confirmed appointments and are not scored. Filing explanations are educational context, not investment advice.",
   "stats": {
     "issuerCount": 75,
@@ -300,6 +300,20 @@
       "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526429539/0001193125-26-429539-index.htm",
       "signalLabel": "Material event",
       "readerNote": "An 8-K reports a material event between regular reports. The economics depend on the item: financing can change dilution or leverage; leadership changes can alter execution risk; acquisitions can change growth and integration risk.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0000004962-26-000409",
+      "cik": "0000004962",
+      "companyName": "AMERICAN EXPRESS CO",
+      "ticker": "AXP",
+      "form": "10-Q",
+      "filedDate": "2026-10-23",
+      "acceptedAt": "2026-10-23T12:26:51-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000409/0000004962-26-000409-index.htm",
+      "signalLabel": "Quarterly fundamentals",
+      "readerNote": "A 10-Q updates revenue, margins, cash flow, liquidity and risks. Compare the trend with prior quarters and management guidance rather than treating the filing itself as bullish or bearish.",
       "coverage": "roster"
     },
     {
@@ -648,20 +662,6 @@
       "acceptedAt": "2026-10-15T19:52:56-04:00",
       "items": [],
       "url": "https://www.sec.gov/Archives/edgar/data/723125/000121836326000005/0001218363-26-000005-index.htm",
-      "signalLabel": "Insider transaction",
-      "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
-      "coverage": "roster"
-    },
-    {
-      "accessionNumber": "0001354116-26-000001",
-      "cik": "0000723125",
-      "companyName": "MICRON TECHNOLOGY INC",
-      "ticker": "MU",
-      "form": "4",
-      "filedDate": "2026-10-15",
-      "acceptedAt": "2026-10-15T19:55:40-04:00",
-      "items": [],
-      "url": "https://www.sec.gov/Archives/edgar/data/723125/000135411626000001/0001354116-26-000001-index.htm",
       "signalLabel": "Insider transaction",
       "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
       "coverage": "roster"
@@ -1880,10 +1880,10 @@
   "researchGeneratedAt": "2026-10-15T17:47:11Z",
   "freshness": {
     "status": "current",
-    "feedGeneratedAt": "2026-10-23T14:31:56Z",
-    "sourceObservedAt": "2026-10-23T14:31:56Z",
+    "feedGeneratedAt": "2026-10-23T17:22:51Z",
+    "sourceObservedAt": "2026-10-23T17:22:51Z",
     "latestFiledDate": "2026-10-23",
-    "latestAcceptedAt": "2026-10-23T09:04:03-04:00",
+    "latestAcceptedAt": "2026-10-23T12:26:51-04:00",
     "recommendedRefreshSeconds": 300,
     "warningAfterMinutes": 4320,
     "source": "SEC EDGAR latest-filings detection with nightly reconciliation"

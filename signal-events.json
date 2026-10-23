@@ -1,22 +1,237 @@
 {
   "schema": "mypybite.signal-events-public.v1",
-  "generatedAt": "2026-10-22T20:52:19Z",
+  "generatedAt": "2026-10-23T17:22:59Z",
   "releaseStatus": "ready-for-publication",
   "publicReleaseAllowed": true,
   "editorialPolicy": {
     "factsAndInferenceSeparated": true,
     "w5hComplete": true,
     "primaryEvidenceRequired": true,
-    "humanReviewed": true
+    "automatedEvidenceGate": true,
+    "humanReviewIsException": true
   },
   "stats": {
-    "eventCount": 2,
-    "issuerCount": 2,
+    "eventCount": 3,
+    "issuerCount": 3,
     "criticalCount": 0,
     "importantCount": 1,
-    "notableCount": 1
+    "notableCount": 2,
+    "routineCount": 0,
+    "automatedCount": 1
   },
   "events": [
+    {
+      "schema": "mypybite.signal-event.v1",
+      "eventId": "sec:0001193125-26-429435:15d5adc2622e",
+      "generatedAt": "2026-10-23T17:22:59Z",
+      "status": "publishable",
+      "issuer": {
+        "cik": "0000087347",
+        "legalName": "SLB LIMITED/NV",
+        "ticker": "SLB"
+      },
+      "headline": "SLB LIMITED/NV: On October 22, 2026, SLB’s Board of Directors approved a quarterly cash dividend of $0.295 per share of outstanding common stock",
+      "synopsis": "On October 22, 2026, SLB’s Board of Directors approved a quarterly cash dividend of $0.295 per share of outstanding common stock, payable on January 7, 2027, to stockholders of record on December 2, 2026.",
+      "w5h": {
+        "who": [
+          {
+            "name": "SLB LIMITED/NV",
+            "role": "SEC registrant and verified issuer",
+            "evidenceIds": [
+              "ev-0052",
+              "ev-0053",
+              "ev-0054"
+            ]
+          },
+          {
+            "name": "SLB’s Board of Directors",
+            "role": "Actor phrase stated in the filing",
+            "evidenceIds": [
+              "ev-0052",
+              "ev-0053",
+              "ev-0054"
+            ]
+          }
+        ],
+        "what": {
+          "text": "On October 22, 2026, SLB’s Board of Directors approved a quarterly cash dividend of $0.295 per share of outstanding common stock, payable on January 7, 2027, to stockholders of record on December 2, 2026.",
+          "evidenceIds": [
+            "ev-0052",
+            "ev-0053",
+            "ev-0054"
+          ]
+        },
+        "when": [
+          {
+            "label": "Disclosed disclosed date",
+            "value": "2026-10-22",
+            "status": "occurred",
+            "evidenceIds": [
+              "ev-0052",
+              "ev-0053",
+              "ev-0054"
+            ]
+          },
+          {
+            "label": "Disclosed scheduled date",
+            "value": "2027-01-07",
+            "status": "scheduled",
+            "evidenceIds": [
+              "ev-0052",
+              "ev-0053",
+              "ev-0054"
+            ]
+          },
+          {
+            "label": "Disclosed deadline date",
+            "value": "2026-12-02",
+            "status": "deadline",
+            "evidenceIds": [
+              "ev-0052",
+              "ev-0053",
+              "ev-0054"
+            ]
+          }
+        ],
+        "where": [
+          {
+            "text": "On October 22, 2026, SLB’s Board of Directors approved a quarterly cash dividend of $0.295 per share of outstanding common stock, payable on January 7, 2027, to stockholders of record on December 2, 2026.",
+            "evidenceIds": [
+              "ev-0052",
+              "ev-0053",
+              "ev-0054"
+            ]
+          }
+        ],
+        "why": {
+          "status": "not-disclosed",
+          "text": "The company did not disclose why in the captured documents.",
+          "evidenceIds": []
+        },
+        "how": {
+          "text": "On October 22, 2026, SLB’s Board of Directors approved a quarterly cash dividend of $0.295 per share of outstanding common stock, payable on January 7, 2027, to stockholders of record on December 2, 2026.",
+          "evidenceIds": [
+            "ev-0052",
+            "ev-0053",
+            "ev-0054"
+          ]
+        }
+      },
+      "implications": [
+        {
+          "audience": "company",
+          "text": "The disclosure changes or confirms how company resources are distributed or retained. The practical effect depends on the amount, conditions, timing, and whether the action recurs.",
+          "evidenceIds": [
+            "ev-0052",
+            "ev-0053",
+            "ev-0054"
+          ],
+          "caveat": "This is a measured consequence of the disclosed structure, not a prediction of market price or operating results."
+        },
+        {
+          "audience": "common-shareholders",
+          "text": "The filing establishes the disclosed action. Its durable economic effect remains unproven until the stated mechanism, condition, or later reported result can be checked.",
+          "evidenceIds": [
+            "ev-0052",
+            "ev-0053",
+            "ev-0054"
+          ],
+          "caveat": "Absence of a demonstrated effect is not evidence that the effect will be positive or negative."
+        }
+      ],
+      "unknowns": [
+        "The company did not disclose why in the captured documents."
+      ],
+      "watchNext": [
+        {
+          "checkpoint": "Confirm the outcome associated with the disclosed scheduled date January 7, 2027.",
+          "dueAt": null,
+          "evidenceToSeek": "The payment, authorization usage, subsequent declaration, or cash-flow disclosure confirming the economic cost."
+        },
+        {
+          "checkpoint": "Confirm the outcome associated with the disclosed deadline date December 2, 2026.",
+          "dueAt": null,
+          "evidenceToSeek": "The payment, authorization usage, subsequent declaration, or cash-flow disclosure confirming the economic cost."
+        }
+      ],
+      "classification": {
+        "category": "capital-allocation",
+        "direction": "indeterminate",
+        "materiality": "notable",
+        "confidence": "moderate",
+        "structuralOddity": {
+          "flag": false,
+          "explanation": null
+        }
+      },
+      "sources": [
+        {
+          "sourceId": "src-002-0466ebfbc7",
+          "sourceType": "sec-exhibit",
+          "title": "SLB LIMITED/NV EX-99 exhibit",
+          "url": "https://www.sec.gov/Archives/edgar/data/87347/000119312526429435/d151271dex99.htm",
+          "publishedAt": "2026-10-23T07:04:15-04:00",
+          "primary": true,
+          "accessionNumber": "0001193125-26-429435",
+          "form": "8-K"
+        }
+      ],
+      "evidence": [
+        {
+          "evidenceId": "ev-0052",
+          "sourceId": "src-002-0466ebfbc7",
+          "locator": "002-d151271dex99.htm block 496 (p)",
+          "fact": "On October 22, 2026, SLB’s Board of Directors approved a quarterly cash dividend of $0.295 per share of outstanding common stock, payable on January 7, 2027, to stockholders of record on December 2, 2026.",
+          "quotedText": "On October 22, 2026, SLB’s Board of Directors approved a quarterly cash dividend of $0.295 per share of outstanding common stock, payable on January 7, 2027, to stockholders of record on December 2, 2026."
+        },
+        {
+          "evidenceId": "ev-0053",
+          "sourceId": "src-002-0466ebfbc7",
+          "locator": "002-d151271dex99.htm block 496 (p)",
+          "fact": "On October 22, 2026, SLB’s Board of Directors approved a quarterly cash dividend of $0.295 per share of outstanding common stock, payable on January 7, 2027, to stockholders of record on December 2, 2026.",
+          "quotedText": "On October 22, 2026, SLB’s Board of Directors approved a quarterly cash dividend of $0.295 per share of outstanding common stock, payable on January 7, 2027, to stockholders of record on December 2, 2026."
+        },
+        {
+          "evidenceId": "ev-0054",
+          "sourceId": "src-002-0466ebfbc7",
+          "locator": "002-d151271dex99.htm block 496 (p)",
+          "fact": "On October 22, 2026, SLB’s Board of Directors approved a quarterly cash dividend of $0.295 per share of outstanding common stock, payable on January 7, 2027, to stockholders of record on December 2, 2026.",
+          "quotedText": "On October 22, 2026, SLB’s Board of Directors approved a quarterly cash dividend of $0.295 per share of outstanding common stock, payable on January 7, 2027, to stockholders of record on December 2, 2026."
+        }
+      ],
+      "consolidation": {
+        "groupKey": "0000087347:0001193125-26-429435:capital-allocation",
+        "isPrimaryEvent": true,
+        "relatedEventIds": [],
+        "rationale": "This record consolidates the source-linked action, dates, conditions, consequences, and follow-up checkpoints extracted from one SEC filing bundle."
+      },
+      "quality": {
+        "w5hComplete": true,
+        "evidenceComplete": true,
+        "quantitiesVerified": true,
+        "humanReviewRequired": false,
+        "humanReviewed": false,
+        "reviewMethod": "automated",
+        "automatedReviewPassed": true,
+        "automatedReviewChecks": [
+          "action-specificity",
+          "classification-rules",
+          "concrete-action",
+          "confidence-threshold",
+          "evidence-references",
+          "no-trading-language",
+          "official-sec-sources",
+          "quantities-source-linked",
+          "supported-filing",
+          "temporal-relevance",
+          "w5h-contract"
+        ],
+        "quarantineReasons": [],
+        "reviewNotes": [
+          "Automated evidence gate passed 11 required checks at 2026-10-23T17:22:59Z."
+        ]
+      }
+    },
     {
       "schema": "mypybite.signal-event.v1",
       "eventId": "sec:0000070858-26-000494:board-appointments",
