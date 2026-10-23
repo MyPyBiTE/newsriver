@@ -1,0 +1,269 @@
+{
+  "schema": "mypybite.signal-event.v1",
+  "eventId": "sec:0001193125-26-423400:strc-dividend-structure",
+  "generatedAt": "2026-10-22T16:00:00Z",
+  "status": "draft",
+  "issuer": {
+    "cik": "0001050446",
+    "legalName": "Strategy Inc",
+    "ticker": "MSTR"
+  },
+  "headline": "Strategy holds STRC at 12%; daily November dividends depend on October 28 shareholder approval",
+  "synopsis": "Strategy declared conditional daily November dividends totaling $1.00 per STRC share and kept the preferred stock's annual dividend rate at 12%. The daily payments require shareholder approval and an amended certificate; if either condition fails, the previously declared November 15 payment remains instead.",
+  "w5h": {
+    "who": [
+      {
+        "name": "Strategy Inc",
+        "role": "Issuer of STRC preferred stock and filer of the disclosure",
+        "evidenceIds": [
+          "ev-identity"
+        ]
+      },
+      {
+        "name": "Strategy Inc board of directors",
+        "role": "Declared the conditional daily cash dividends",
+        "evidenceIds": [
+          "ev-declaration"
+        ]
+      },
+      {
+        "name": "STRC preferred shareholders",
+        "role": "Holders affected by the proposed change in November payment timing",
+        "evidenceIds": [
+          "ev-declaration",
+          "ev-conditions"
+        ]
+      }
+    ],
+    "what": {
+      "text": "Strategy kept STRC's annual dividend rate at 12% and declared a daily cash dividend for each day in November 2026, totaling $1.00 per STRC share, subject to two conditions.",
+      "evidenceIds": [
+        "ev-rate",
+        "ev-declaration",
+        "ev-total"
+      ]
+    },
+    "when": [
+      {
+        "label": "Board action and report date",
+        "value": "2026-10-15",
+        "status": "occurred",
+        "evidenceIds": [
+          "ev-identity",
+          "ev-declaration"
+        ]
+      },
+      {
+        "label": "SEC filing accepted",
+        "value": "2026-10-16T07:59:13-04:00",
+        "status": "accepted",
+        "evidenceIds": [
+          "ev-filing"
+        ]
+      },
+      {
+        "label": "Special shareholder meeting",
+        "value": "2026-10-28T10:00:00-04:00",
+        "status": "scheduled",
+        "evidenceIds": [
+          "ev-conditions"
+        ]
+      },
+      {
+        "label": "Shareholder-approval deadline",
+        "value": "2026-10-31T17:00:00-04:00",
+        "status": "deadline",
+        "evidenceIds": [
+          "ev-conditions"
+        ]
+      },
+      {
+        "label": "Amended-certificate effectiveness deadline",
+        "value": "2026-11-01T00:01:00-04:00",
+        "status": "deadline",
+        "evidenceIds": [
+          "ev-conditions"
+        ]
+      }
+    ],
+    "where": [
+      {
+        "text": "The action applies to Strategy's Variable Rate Series A Perpetual Stretch Preferred Stock, traded as STRC; the filing does not declare a dividend on MSTR common shares.",
+        "evidenceIds": [
+          "ev-identity",
+          "ev-declaration"
+        ]
+      },
+      {
+        "text": "The proposed change is implemented through shareholder approval and an amended STRC certificate of designations filed with the Delaware Secretary of State.",
+        "evidenceIds": [
+          "ev-conditions"
+        ]
+      }
+    ],
+    "why": {
+      "status": "disclosed",
+      "text": "Management said it would recommend maintaining the 12% annual rate until STRC demonstrates sustained healthy trading near its $100 stated amount. The filing does not quantify how long that may take.",
+      "evidenceIds": [
+        "ev-rate"
+      ]
+    },
+    "how": {
+      "text": "Daily payments begin only if shareholders approve the amendments by October 31 and the amended certificate becomes effective by November 1. If either condition fails, the daily payments do not occur and the previously declared November 15 dividend remains payable. The company says both payment structures cannot apply at once.",
+      "evidenceIds": [
+        "ev-conditions"
+      ]
+    }
+  },
+  "implications": [
+    {
+      "audience": "company",
+      "text": "The 12% rate preserves a high cash-distribution obligation on STRC while management waits for the preferred shares to trade sustainably near $100.",
+      "evidenceIds": [
+        "ev-rate"
+      ],
+      "caveat": "The filing does not say when the rate will change or estimate the future cash cost beyond the disclosed period."
+    },
+    {
+      "audience": "preferred-shareholders",
+      "text": "If both conditions are met, STRC holders receive daily November dividends totaling $1.00 per share instead of the previously declared November 15 payment.",
+      "evidenceIds": [
+        "ev-total",
+        "ev-conditions"
+      ],
+      "caveat": "The daily structure is conditional; it does not create a second November payment."
+    },
+    {
+      "audience": "common-shareholders",
+      "text": "The decision concerns the cost and administration of Strategy's preferred-stock financing, not a new dividend on MSTR common shares or a newly announced bitcoin purchase.",
+      "evidenceIds": [
+        "ev-identity",
+        "ev-declaration"
+      ],
+      "caveat": "Any effect on common shareholders depends on Strategy's broader financing and capital-allocation choices, which this filing does not quantify."
+    }
+  ],
+  "unknowns": [
+    "Whether shareholders will approve the STRC amendments at the October 28 special meeting.",
+    "Whether the amended certificate will be filed and become effective by the November 1 deadline.",
+    "How long management will recommend keeping the annual dividend rate at 12%.",
+    "Whether the November distributions will receive the expected return-of-capital tax treatment for every holder."
+  ],
+  "watchNext": [
+    {
+      "checkpoint": "Shareholder vote on the STRC amendments",
+      "dueAt": "2026-10-28T10:00:00-04:00",
+      "evidenceToSeek": "Voting results in a subsequent SEC filing or company statement."
+    },
+    {
+      "checkpoint": "Amended STRC certificate filed and effective",
+      "dueAt": "2026-11-01T00:01:00-04:00",
+      "evidenceToSeek": "The filed certificate of designations and confirmation that the daily-dividend conditions were satisfied."
+    },
+    {
+      "checkpoint": "Next STRC dividend-rate decision",
+      "dueAt": null,
+      "evidenceToSeek": "A board declaration stating whether the 12% annual rate remains in place after November."
+    }
+  ],
+  "classification": {
+    "category": "capital-allocation",
+    "direction": "mixed",
+    "materiality": "important",
+    "confidence": "high",
+    "structuralOddity": {
+      "flag": true,
+      "explanation": "The filing creates two mutually exclusive November payment paths: conditional daily dividends or the previously declared semi-monthly payment, never both."
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "src-sec-index",
+      "sourceType": "sec-filing",
+      "title": "Strategy Inc 8-K filing detail",
+      "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526423400/0001193125-26-423400-index.htm",
+      "publishedAt": "2026-10-16T07:59:13-04:00",
+      "primary": true,
+      "accessionNumber": "0001193125-26-423400",
+      "form": "8-K"
+    },
+    {
+      "sourceId": "src-sec-8k",
+      "sourceType": "sec-filing",
+      "title": "Strategy Inc Form 8-K dated October 15, 2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526423400/mstr-20261015.htm",
+      "publishedAt": "2026-10-16T07:59:13-04:00",
+      "primary": true,
+      "accessionNumber": "0001193125-26-423400",
+      "form": "8-K"
+    }
+  ],
+  "evidence": [
+    {
+      "evidenceId": "ev-identity",
+      "sourceId": "src-sec-8k",
+      "locator": "Cover page",
+      "fact": "Strategy Inc reported an October 15, 2026 event concerning its STRC preferred stock.",
+      "quotedText": null
+    },
+    {
+      "evidenceId": "ev-filing",
+      "sourceId": "src-sec-index",
+      "locator": "Filing detail header",
+      "fact": "The SEC accepted accession 0001193125-26-423400 on October 16, 2026 at 07:59:13 Eastern.",
+      "quotedText": null
+    },
+    {
+      "evidenceId": "ev-rate",
+      "sourceId": "src-sec-8k",
+      "locator": "Item 8.01, Dividend Rate Announcement",
+      "fact": "Strategy announced a 12.00% annual STRC dividend rate for November record dates and said management would recommend that rate until the shares demonstrate sustained healthy trading near $100.",
+      "quotedText": null
+    },
+    {
+      "evidenceId": "ev-declaration",
+      "sourceId": "src-sec-8k",
+      "locator": "Item 8.01, Cash Dividend Declaration",
+      "fact": "The board declared a cash dividend for each calendar day from November 1 through November 30, payable on the following business day, subject to the stated conditions.",
+      "quotedText": null
+    },
+    {
+      "evidenceId": "ev-total",
+      "sourceId": "src-sec-8k",
+      "locator": "Item 8.01, November dividend table and footnotes",
+      "fact": "The daily November declarations total $1.00 per STRC share if the conditions are satisfied.",
+      "quotedText": null
+    },
+    {
+      "evidenceId": "ev-conditions",
+      "sourceId": "src-sec-8k",
+      "locator": "Item 8.01, Conditional Dividends",
+      "fact": "Daily dividends require shareholder approval by October 31 and an effective amended certificate by November 1. If the conditions fail, the November 15 dividend remains payable; the two structures cannot both apply.",
+      "quotedText": null
+    },
+    {
+      "evidenceId": "ev-tax",
+      "sourceId": "src-sec-8k",
+      "locator": "Item 8.01, Expected Tax Treatment",
+      "fact": "Strategy expects payable November daily distributions to be non-taxable returns of capital to the extent of each holder's tax basis, but the filing does not guarantee that treatment.",
+      "quotedText": null
+    }
+  ],
+  "consolidation": {
+    "groupKey": "strategy:strc:2026-10:daily-dividend-structure",
+    "isPrimaryEvent": true,
+    "relatedEventIds": [],
+    "rationale": "The dividend rate, conditional daily declarations, shareholder vote, certificate amendment, and fallback payment are parts of one financing event and should appear as one reader-facing brief."
+  },
+  "quality": {
+    "w5hComplete": true,
+    "evidenceComplete": true,
+    "quantitiesVerified": true,
+    "humanReviewRequired": true,
+    "humanReviewed": false,
+    "reviewNotes": [
+      "Gold-standard draft for testing the Signal editorial contract.",
+      "Human approval is required before publication because the event is classified as important."
+    ]
+  }
+}

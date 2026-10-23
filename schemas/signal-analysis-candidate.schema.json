@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.mypybite.com/schemas/signal-analysis-candidate.v1.json",
+  "title": "MYPYBITE Signal Analysis Candidate",
+  "description": "A verified, non-public SEC filing queued for company-agnostic W5H analysis.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "candidateId", "queuedAt", "issuer", "filing", "coverage", "analysis", "quality"],
+  "properties": {
+    "schema": {"const": "mypybite.signal-analysis-candidate.v1"},
+    "candidateId": {"type": "string", "pattern": "^sec:[0-9-]+:[0-9]{10}$"},
+    "queuedAt": {"type": "string", "format": "date-time"},
+    "issuer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["cik", "legalName", "ticker"],
+      "properties": {
+        "cik": {"type": "string", "pattern": "^[0-9]{10}$"},
+        "legalName": {"type": "string", "minLength": 1},
+        "ticker": {"type": "string", "minLength": 1}
+      }
+    },
+    "filing": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["accessionNumber", "form", "isAmendment", "filedDate", "acceptedAt", "items", "indexUrl", "textUrl"],
+      "properties": {
+        "accessionNumber": {"type": "string", "pattern": "^[0-9]{10}-[0-9]{2}-[0-9]{6}$"},
+        "form": {"type": "string", "minLength": 1},
+        "isAmendment": {"type": "boolean"},
+        "filedDate": {"type": "string", "format": "date"},
+        "acceptedAt": {"type": ["string", "null"], "format": "date-time"},
+        "items": {"type": "array", "items": {"type": "string"}},
+        "indexUrl": {"type": "string", "format": "uri"},
+        "textUrl": {"type": "string", "format": "uri"}
+      }
+    },
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["cohort", "relevance", "coverage"],
+      "properties": {
+        "cohort": {"type": ["string", "null"]},
+        "relevance": {"type": "array", "items": {"type": "string"}},
+        "coverage": {"type": ["string", "null"]}
+      }
+    },
+    "analysis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "engine", "requiredDocuments", "publicReleaseAllowed"],
+      "properties": {
+        "status": {"const": "queued"},
+        "engine": {"const": "generic-signal-analyzer"},
+        "requiredDocuments": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "publicReleaseAllowed": {"const": false}
+      }
+    },
+    "quality": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["issuerIdentityVerified", "primarySourceReady", "acceptanceTimestampVerified", "watchedIssuer"],
+      "properties": {
+        "issuerIdentityVerified": {"const": true},
+        "primarySourceReady": {"type": "boolean"},
+        "acceptanceTimestampVerified": {"type": "boolean"},
+        "watchedIssuer": {"const": true}
+      }
+    }
+  }
+}

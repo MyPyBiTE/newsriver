@@ -3,8 +3,8 @@ name: Detect latest SEC filings
 on:
   workflow_dispatch:
   schedule:
-    # Covers 6 a.m.-10:15 p.m. Eastern during daylight and standard time.
-    # Runs without new data do not create a commit.
+    # A deliberately broad UTC window covers 6 a.m.-10:15 p.m. Eastern
+    # throughout both daylight and standard time. No-data runs do not commit.
     - cron: "*/15 10-23 * * 1-5"
     - cron: "*/15 0-3 * * 2-6"
 
@@ -18,7 +18,6 @@ concurrency:
 jobs:
   detect:
     runs-on: ubuntu-latest
-
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
@@ -34,6 +33,7 @@ jobs:
         run: |
           python -m unittest discover -s tests -p "test_fetch_sec_latest.py" -v
           python -m unittest discover -s tests -p "test_build_signal_feed.py" -v
+          python -m unittest discover -s tests -p "test_run_signal_pipeline.py" -v
 
       - name: Detect recent SEC filings
         env:
@@ -78,9 +78,24 @@ jobs:
       - name: Build public Signal feed
         run: python scripts/build_signal_feed.py --output signal-feed.json
 
+      - name: Analyze and gate new Signal events
+        env:
+          SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT }}
+        run: >-
+          python scripts/run_signal_pipeline.py
+          --public-feed signal-events.json
+          --state data/sec/signal-pipeline/state.json
+          --audit data/sec/signal-pipeline/audit.json
+
       - name: Commit updated SEC metadata
         run: |
           git add data/sec/metadata/filings.jsonl data/sec/metadata/state.json data/sec/metadata/audit.json signal-feed.json
+          if [ -f signal-events.json ]; then
+            git add signal-events.json
+          fi
+          if [ -f data/sec/signal-pipeline/state.json ]; then
+            git add data/sec/signal-pipeline/state.json data/sec/signal-pipeline/audit.json
+          fi
           if git diff --cached --quiet; then
             echo "SEC metadata is already current."
             exit 0

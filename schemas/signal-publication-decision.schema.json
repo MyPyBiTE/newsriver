@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.mypybite.com/schemas/signal-publication-decision.v1.json",
+  "title": "MYPYBITE Signal Automated Publication Decision",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "decisionId", "analysisId", "decidedAt", "decision", "publicReleaseAllowed", "sourceAnalysis", "checks", "quarantineReasons", "event"],
+  "properties": {
+    "schema": {"const": "mypybite.signal-publication-decision.v1"},
+    "decisionId": {"type": "string", "minLength": 1},
+    "analysisId": {"type": "string", "minLength": 1},
+    "decidedAt": {"type": "string", "format": "date-time"},
+    "decision": {"enum": ["auto-approved", "quarantined"]},
+    "publicReleaseAllowed": {"type": "boolean"},
+    "sourceAnalysis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sha256"],
+      "properties": {"sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}}
+    },
+    "checks": {
+      "type": "array",
+      "minItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "passed", "requirement"],
+        "properties": {
+          "name": {"type": "string", "minLength": 1},
+          "passed": {"type": "boolean"},
+          "requirement": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "quarantineReasons": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "event": {"type": ["object", "null"]}
+  }
+}

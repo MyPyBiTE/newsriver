@@ -1,0 +1,267 @@
+{
+  "schema": "mypybite.signal-event.v1",
+  "eventId": "sec:0000070858-26-000494:board-appointments",
+  "generatedAt": "2026-10-22T18:00:00Z",
+  "status": "draft",
+  "issuer": {
+    "cik": "0000070858",
+    "legalName": "Bank of America Corporation",
+    "ticker": "BAC"
+  },
+  "headline": "Bank of America expands board to 14, appointing James Fitterling and William Thomas",
+  "synopsis": "Bank of America increased its board from 12 to 14 directors and appointed James Fitterling and William Thomas, effective immediately. Fitterling joined the risk and human-capital committees; Thomas joined the audit and governance committees. Both will receive prorated restricted-stock and cash awards under the existing non-employee director program.",
+  "w5h": {
+    "who": [
+      {
+        "name": "Bank of America Corporation",
+        "role": "Registrant and company whose board was expanded",
+        "evidenceIds": [
+          "ev-identity",
+          "ev-appointments"
+        ]
+      },
+      {
+        "name": "Bank of America board of directors",
+        "role": "Expanded the board and made both appointments",
+        "evidenceIds": [
+          "ev-appointments"
+        ]
+      },
+      {
+        "name": "James Fitterling",
+        "role": "New director assigned to the Enterprise Risk Committee and Compensation and Human Capital Committee",
+        "evidenceIds": [
+          "ev-appointments",
+          "ev-committees",
+          "ev-backgrounds"
+        ]
+      },
+      {
+        "name": "William Thomas",
+        "role": "New director assigned to the Audit Committee and Corporate Governance Committee",
+        "evidenceIds": [
+          "ev-appointments",
+          "ev-committees",
+          "ev-backgrounds"
+        ]
+      }
+    ],
+    "what": {
+      "text": "The board increased its authorized size from 12 to 14 directors, filled both new seats with James Fitterling and William Thomas, and assigned each appointee to two board committees.",
+      "evidenceIds": [
+        "ev-appointments",
+        "ev-committees"
+      ]
+    },
+    "when": [
+      {
+        "label": "Board action and effective date",
+        "value": "2026-10-21",
+        "status": "effective",
+        "evidenceIds": [
+          "ev-appointments"
+        ]
+      },
+      {
+        "label": "SEC filing accepted",
+        "value": "2026-10-21T17:07:03-04:00",
+        "status": "accepted",
+        "evidenceIds": [
+          "ev-filing"
+        ]
+      },
+      {
+        "label": "Restricted-stock and cash award date",
+        "value": "2026-10-21",
+        "status": "scheduled",
+        "evidenceIds": [
+          "ev-compensation"
+        ]
+      }
+    ],
+    "where": [
+      {
+        "text": "The change is at the parent-company board level and affects the Enterprise Risk, Compensation and Human Capital, Audit, and Corporate Governance committees.",
+        "evidenceIds": [
+          "ev-committees"
+        ]
+      },
+      {
+        "text": "The filing identifies no change to an operating division, customer product, capital ratio, or security terms.",
+        "evidenceIds": [
+          "ev-appointments",
+          "ev-compensation"
+        ]
+      }
+    ],
+    "why": {
+      "status": "disclosed",
+      "text": "Bank of America said the appointments add complementary leadership experience to strengthen oversight of long-term strategy. It highlighted Fitterling's complex-industry and public-board experience and Thomas's audit, accounting, and financial-reporting expertise.",
+      "evidenceIds": [
+        "ev-rationale",
+        "ev-backgrounds"
+      ]
+    },
+    "how": {
+      "text": "The sitting board created two additional seats and appointed both directors immediately. Each joined two committees and entered the existing non-employee director compensation program, with October 21 awards prorated through the next annual shareholder meeting.",
+      "evidenceIds": [
+        "ev-appointments",
+        "ev-committees",
+        "ev-compensation"
+      ]
+    }
+  },
+  "implications": [
+    {
+      "audience": "company",
+      "text": "The board adds recent large-company operating experience to risk and compensation oversight and audit experience to financial-reporting and governance oversight.",
+      "evidenceIds": [
+        "ev-committees",
+        "ev-backgrounds"
+      ],
+      "caveat": "The filing does not announce a change in strategy, management authority, risk limits, or financial policy."
+    },
+    {
+      "audience": "common-shareholders",
+      "text": "Shareholders now have a 14-member board with two additional directors participating in four oversight committees.",
+      "evidenceIds": [
+        "ev-appointments",
+        "ev-committees"
+      ],
+      "caveat": "The filing does not disclose how the appointments will affect future votes or decisions."
+    }
+  ],
+  "unknowns": [
+    "The exact value of each prorated restricted-stock and cash award.",
+    "Whether either appointment will change a board committee's chair, mandate, or voting balance.",
+    "How shareholders will vote on the directors at the next annual meeting.",
+    "Which specific future strategic or risk decisions the expanded board will address first."
+  ],
+  "watchNext": [
+    {
+      "checkpoint": "Initial equity awards for both directors",
+      "dueAt": null,
+      "evidenceToSeek": "Form 4 filings or a compensation disclosure showing the number and value of restricted shares."
+    },
+    {
+      "checkpoint": "Next proxy statement",
+      "dueAt": null,
+      "evidenceToSeek": "Director biographies, independence determinations, compensation, committee assignments, and the shareholder-election proposal."
+    },
+    {
+      "checkpoint": "First material committee or governance change",
+      "dueAt": null,
+      "evidenceToSeek": "A later filing that links the expanded board to a concrete policy, oversight, or leadership decision."
+    }
+  ],
+  "classification": {
+    "category": "leadership-and-governance",
+    "direction": "neutral",
+    "materiality": "notable",
+    "confidence": "high",
+    "structuralOddity": {
+      "flag": false,
+      "explanation": null
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "src-sec-index",
+      "sourceType": "sec-filing",
+      "title": "Bank of America 8-K filing detail",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000494/0000070858-26-000494-index.htm",
+      "publishedAt": "2026-10-21T17:07:03-04:00",
+      "primary": true,
+      "accessionNumber": "0000070858-26-000494",
+      "form": "8-K"
+    },
+    {
+      "sourceId": "src-sec-8k",
+      "sourceType": "sec-filing",
+      "title": "Bank of America Form 8-K dated October 21, 2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000494/bac-20261021.htm",
+      "publishedAt": "2026-10-21T17:07:03-04:00",
+      "primary": true,
+      "accessionNumber": "0000070858-26-000494",
+      "form": "8-K"
+    },
+    {
+      "sourceId": "src-sec-exhibit-99-1",
+      "sourceType": "sec-exhibit",
+      "title": "Bank of America board-appointment news release",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000494/exhibit991october212026new.htm",
+      "publishedAt": "2026-10-21T17:07:03-04:00",
+      "primary": true,
+      "accessionNumber": "0000070858-26-000494",
+      "form": "EX-99.1"
+    }
+  ],
+  "evidence": [
+    {
+      "evidenceId": "ev-identity",
+      "sourceId": "src-sec-8k",
+      "locator": "Cover page",
+      "fact": "Bank of America Corporation filed an 8-K for an October 21, 2026 event.",
+      "quotedText": null
+    },
+    {
+      "evidenceId": "ev-filing",
+      "sourceId": "src-sec-index",
+      "locator": "Filing detail header",
+      "fact": "The SEC accepted accession 0000070858-26-000494 on October 21, 2026 at 17:07:03 Eastern.",
+      "quotedText": null
+    },
+    {
+      "evidenceId": "ev-appointments",
+      "sourceId": "src-sec-8k",
+      "locator": "Item 5.02",
+      "fact": "The board increased its size from 12 to 14 and appointed James Fitterling and William Thomas, effective immediately.",
+      "quotedText": null
+    },
+    {
+      "evidenceId": "ev-committees",
+      "sourceId": "src-sec-8k",
+      "locator": "Item 5.02",
+      "fact": "Fitterling joined the Enterprise Risk Committee and Compensation and Human Capital Committee; Thomas joined the Audit Committee and Corporate Governance Committee.",
+      "quotedText": null
+    },
+    {
+      "evidenceId": "ev-compensation",
+      "sourceId": "src-sec-8k",
+      "locator": "Item 5.02, director compensation paragraph",
+      "fact": "Both directors entered the existing non-employee director compensation program and were scheduled to receive prorated restricted-stock and cash awards on October 21.",
+      "quotedText": null
+    },
+    {
+      "evidenceId": "ev-backgrounds",
+      "sourceId": "src-sec-8k",
+      "locator": "Item 5.02 and Exhibit 99.1 biographies",
+      "fact": "Fitterling is Dow's executive chair and former CEO; Thomas is KPMG International's former global chair and CEO with audit, accounting, and financial-reporting experience.",
+      "quotedText": null
+    },
+    {
+      "evidenceId": "ev-rationale",
+      "sourceId": "src-sec-exhibit-99-1",
+      "locator": "Lead independent director statement",
+      "fact": "The company said the directors' complementary leadership experience would strengthen oversight of long-term strategy.",
+      "quotedText": null
+    }
+  ],
+  "consolidation": {
+    "groupKey": "bank-of-america:2026-10-21:board-appointments",
+    "isPrimaryEvent": true,
+    "relatedEventIds": [],
+    "rationale": "The board expansion, two appointments, committee assignments, compensation treatment, and incorporated news release describe one governance action."
+  },
+  "quality": {
+    "w5hComplete": true,
+    "evidenceComplete": true,
+    "quantitiesVerified": true,
+    "humanReviewRequired": true,
+    "humanReviewed": false,
+    "reviewNotes": [
+      "Automatically extracted board-appointment event; requires editorial review before publication.",
+      "No strategy or financial-policy change should be inferred from the appointments alone."
+    ]
+  }
+}

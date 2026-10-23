@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.mypybite.com/schemas/signal-document-bundle.v1.json",
+  "title": "MYPYBITE Signal SEC Document Bundle",
+  "description": "A private, hashed bundle of official SEC documents for one analysis candidate.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "candidateId", "collectedAt", "publicReleaseAllowed", "issuer", "filing", "verification", "documents"],
+  "properties": {
+    "schema": {"const": "mypybite.signal-document-bundle.v1"},
+    "candidateId": {"type": "string", "minLength": 1},
+    "collectedAt": {"type": "string", "format": "date-time"},
+    "publicReleaseAllowed": {"const": false},
+    "issuer": {"type": "object"},
+    "filing": {"type": "object"},
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["officialSecHost", "accessionDirectoryMatched", "primaryDocumentPresent", "allDocumentsHashed"],
+      "properties": {
+        "officialSecHost": {"const": true},
+        "accessionDirectoryMatched": {"const": true},
+        "primaryDocumentPresent": {"const": true},
+        "allDocumentsHashed": {"const": true}
+      }
+    },
+    "documents": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["sequence", "role", "documentType", "description", "url", "filename", "mediaKind", "byteLength", "sha256"],
+        "properties": {
+          "sequence": {"type": "integer", "minimum": 0},
+          "role": {"enum": ["filing-index", "primary-document", "exhibit"]},
+          "documentType": {"type": "string", "minLength": 1},
+          "description": {"type": "string"},
+          "url": {"type": "string", "format": "uri"},
+          "filename": {"type": "string", "minLength": 1},
+          "mediaKind": {"enum": ["text", "binary"]},
+          "byteLength": {"type": "integer", "minimum": 1},
+          "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+        }
+      }
+    }
+  }
+}

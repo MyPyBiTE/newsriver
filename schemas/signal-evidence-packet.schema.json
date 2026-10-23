@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.mypybite.com/schemas/signal-evidence-packet.v1.json",
+  "title": "MYPYBITE Signal Evidence Packet",
+  "description": "Private, source-linked factual passages extracted from a verified SEC document bundle.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "packetId", "candidateId", "extractedAt", "publicReleaseAllowed", "issuer", "filing", "sourceBundle", "verification", "documents", "evidence"],
+  "properties": {
+    "schema": {"const": "mypybite.signal-evidence-packet.v1"},
+    "packetId": {"type": "string", "minLength": 1},
+    "candidateId": {"type": "string", "minLength": 1},
+    "extractedAt": {"type": "string", "format": "date-time"},
+    "publicReleaseAllowed": {"const": false},
+    "issuer": {"type": "object"},
+    "filing": {"type": "object"},
+    "sourceBundle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["collectedAt", "manifestSha256"],
+      "properties": {
+        "collectedAt": {"type": "string", "format": "date-time"},
+        "manifestSha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      }
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["manifestPrivate", "allDocumentHashesVerified", "primaryTextPresent", "sourceLinksPreserved"],
+      "properties": {
+        "manifestPrivate": {"const": true},
+        "allDocumentHashesVerified": {"const": true},
+        "primaryTextPresent": {"const": true},
+        "sourceLinksPreserved": {"const": true}
+      }
+    },
+    "documents": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["filename", "role", "status", "blockCount", "evidenceCount"],
+        "properties": {
+          "filename": {"type": "string", "minLength": 1},
+          "role": {"enum": ["filing-index", "primary-document", "exhibit"]},
+          "status": {"enum": ["extracted", "skipped-binary"]},
+          "blockCount": {"type": "integer", "minimum": 0},
+          "evidenceCount": {"type": "integer", "minimum": 0}
+        }
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["evidenceId", "type", "source", "locator", "quote", "normalizedFact", "extractionMethod"],
+        "properties": {
+          "evidenceId": {"type": "string", "pattern": "^ev-[0-9]{4}$"},
+          "type": {"enum": ["action", "date", "quantity", "condition", "stated-reason", "item-heading"]},
+          "source": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["sequence", "role", "documentType", "url", "filename", "sha256"],
+            "properties": {
+              "sequence": {"type": "integer", "minimum": 0},
+              "role": {"enum": ["primary-document", "exhibit"]},
+              "documentType": {"type": "string", "minLength": 1},
+              "url": {"type": "string", "format": "uri"},
+              "filename": {"type": "string", "minLength": 1},
+              "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+            }
+          },
+          "locator": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["block", "tag"],
+            "properties": {
+              "block": {"type": "integer", "minimum": 1},
+              "tag": {"type": "string", "minLength": 1}
+            }
+          },
+          "quote": {"type": "string", "minLength": 1, "maxLength": 2000},
+          "normalizedFact": {"type": "string", "minLength": 1, "maxLength": 2000},
+          "extractionMethod": {"const": "deterministic-pattern-v1"}
+        }
+      }
+    }
+  }
+}

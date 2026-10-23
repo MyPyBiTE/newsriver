@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.mypybite.com/schemas/signal-pipeline-state.v1.json",
+  "title": "MYPYBITE Signal Pipeline State",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "pipelineVersion", "updatedAt", "candidates"],
+  "properties": {
+    "schema": {"const": "mypybite.signal-pipeline-state.v1"},
+    "pipelineVersion": {"type": "integer", "minimum": 1},
+    "updatedAt": {"type": ["string", "null"], "format": "date-time"},
+    "candidates": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["pipelineVersion", "status", "accessionNumber", "cik", "completedAt", "stage", "reasons", "eventId"],
+        "properties": {
+          "pipelineVersion": {"type": "integer", "minimum": 1},
+          "status": {"enum": ["auto-approved", "quarantined"]},
+          "accessionNumber": {"type": "string"},
+          "cik": {"type": "string"},
+          "completedAt": {"type": "string", "format": "date-time"},
+          "stage": {"type": "string"},
+          "reasons": {"type": "array", "items": {"type": "string"}},
+          "eventId": {"type": ["string", "null"]}
+        }
+      }
+    }
+  }
+}
