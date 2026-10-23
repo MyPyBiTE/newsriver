@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Ottawa tells its diplomats not to meet with U.S. midterm candidates",
-      "display":"Ottawa tells its diplomats not to meet with U.S. midterm candidates",
-      "url":"https://globalnews.ca/news/12114128/canada-diplomats-not-to-meet-with-midterm-candidates",
+      "text":"Watch Blue Jays prospects in Arizona Fall League action",
+      "display":"Watch Blue Jays prospects in Arizona Fall League action",
+      "url":"https://www.mlb.com/bluejays/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Europe’s killer heat this summer claims 50,000 lives. Climate change blamed for two-thirds of deaths",
+      "display":"Europe’s killer heat this summer claims 50,000 lives. Climate change blamed for two-thirds of deaths",
+      "url":"https://toronto.citynews.ca/2026/10/22/europes-killer-heat-this-summer-claims-50000-lives-climate-change-blamed-for-two-thirds-of-deaths",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"4 men arrested after allegedly breaking into downtown Toronto building to take social media photos",
-      "display":"4 men arrested after allegedly breaking into downtown Toronto building to take social media photos",
-      "url":"https://toronto.citynews.ca/2026/10/22/4-men-arrested-after-allegedly-breaking-into-downtown-toronto-building-to-take-social-media-photos",
-      "flags":{
-        "is_breaking":true,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"NYC delivery workers rally against Mamdani-backed bill they say will kill their ‘American dream’",
-      "display":"NYC delivery workers rally against Mamdani-backed bill they say will kill their ‘American dream’",
-      "url":"https://nypost.com/2026/10/22/us-news/nyc-delivery-workers-rally-against-mamdani-backed-bill-they-say-will-kill-their-american-dream",
+      "text":"Meghan Markle's father Thomas 'is being probed over huge stash of child abuse photos found at Philippines home': Thomas Sr is reported to police by his own son - but daughter Samantha says it's 'all lies'",
+      "display":"Meghan Markle's father Thomas 'is being probed over huge stash of child abuse photos found at Philippines home': Thomas Sr is reported to police by his own son - but daughter Samantha says it's 'all lies'",
+      "url":"https://www.dailymail.com/news/article-16231535/Meghan-Markles-father-Thomas-probed-child-abuse-photos-daughter-Samantha-lies.html",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-10-23T00:08:57Z"
+  "generated_utc":"2026-10-23T04:42:26Z"
 }
