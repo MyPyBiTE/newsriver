@@ -1,6 +1,6 @@
 {
   "schema": "mypybite.signal-feed.v1",
-  "generatedAt": "2026-10-23T04:27:47Z",
+  "generatedAt": "2026-10-23T14:31:56Z",
   "disclaimer": "Research preview. Leadership candidates are not confirmed appointments and are not scored. Filing explanations are educational context, not investment advice.",
   "stats": {
     "issuerCount": 75,
@@ -63,6 +63,24 @@
     ]
   },
   "filings": [
+    {
+      "accessionNumber": "0000004962-26-000405",
+      "cik": "0000004962",
+      "companyName": "AMERICAN EXPRESS CO",
+      "ticker": "AXP",
+      "form": "8-K",
+      "filedDate": "2026-10-23",
+      "acceptedAt": "2026-10-23T07:00:36-04:00",
+      "items": [
+        "Item 2.02: Results of Operations and Financial Condition",
+        "Item 7.01: Regulation FD Disclosure",
+        "Item 9.01: Financial Statements and Exhibits"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000405/0000004962-26-000405-index.htm",
+      "signalLabel": "Material event",
+      "readerNote": "An 8-K reports a material event between regular reports. The economics depend on the item: financing can change dilution or leverage; leadership changes can alter execution risk; acquisitions can change growth and integration risk.",
+      "coverage": "roster"
+    },
     {
       "accessionNumber": "0000070858-26-000494",
       "cik": "0000070858",
@@ -182,6 +200,24 @@
       "coverage": "roster"
     },
     {
+      "accessionNumber": "0001193125-26-429435",
+      "cik": "0000087347",
+      "companyName": "SLB LIMITED/NV",
+      "ticker": "SLB",
+      "form": "8-K",
+      "filedDate": "2026-10-23",
+      "acceptedAt": "2026-10-23T07:04:15-04:00",
+      "items": [
+        "Item 2.02: Results of Operations and Financial Condition",
+        "Item 7.01: Regulation FD Disclosure",
+        "Item 9.01: Financial Statements and Exhibits"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/87347/000119312526429435/0001193125-26-429435-index.htm",
+      "signalLabel": "Material event",
+      "readerNote": "An 8-K reports a material event between regular reports. The economics depend on the item: financing can change dilution or leverage; leadership changes can alter execution risk; acquisitions can change growth and integration risk.",
+      "coverage": "roster"
+    },
+    {
       "accessionNumber": "0001193125-26-425881",
       "cik": "0001108524",
       "companyName": "Salesforce, Inc.",
@@ -245,6 +281,23 @@
         "Item 9.01: Financial Statements and Exhibits"
       ],
       "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000025/0001375365-26-000025-index.htm",
+      "signalLabel": "Material event",
+      "readerNote": "An 8-K reports a material event between regular reports. The economics depend on the item: financing can change dilution or leverage; leadership changes can alter execution risk; acquisitions can change growth and integration risk.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0001193125-26-429539",
+      "cik": "0000104169",
+      "companyName": "Walmart Inc.",
+      "ticker": "WMT",
+      "form": "8-K",
+      "filedDate": "2026-10-23",
+      "acceptedAt": "2026-10-23T09:04:03-04:00",
+      "items": [
+        "Item 8.01: Other Events",
+        "Item 9.01: Financial Statements and Exhibits"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526429539/0001193125-26-429539-index.htm",
       "signalLabel": "Material event",
       "readerNote": "An 8-K reports a material event between regular reports. The economics depend on the item: financing can change dilution or leverage; leadership changes can alter execution risk; acquisitions can change growth and integration risk.",
       "coverage": "roster"
@@ -609,48 +662,6 @@
       "acceptedAt": "2026-10-15T19:55:40-04:00",
       "items": [],
       "url": "https://www.sec.gov/Archives/edgar/data/723125/000135411626000001/0001354116-26-000001-index.htm",
-      "signalLabel": "Insider transaction",
-      "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
-      "coverage": "roster"
-    },
-    {
-      "accessionNumber": "0001790292-26-000003",
-      "cik": "0000723125",
-      "companyName": "MICRON TECHNOLOGY INC",
-      "ticker": "MU",
-      "form": "4",
-      "filedDate": "2026-10-15",
-      "acceptedAt": "2026-10-15T19:56:33-04:00",
-      "items": [],
-      "url": "https://www.sec.gov/Archives/edgar/data/723125/000179029226000003/0001790292-26-000003-index.htm",
-      "signalLabel": "Insider transaction",
-      "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
-      "coverage": "roster"
-    },
-    {
-      "accessionNumber": "0001798757-26-000009",
-      "cik": "0000723125",
-      "companyName": "MICRON TECHNOLOGY INC",
-      "ticker": "MU",
-      "form": "4",
-      "filedDate": "2026-10-15",
-      "acceptedAt": "2026-10-15T19:57:52-04:00",
-      "items": [],
-      "url": "https://www.sec.gov/Archives/edgar/data/723125/000179875726000009/0001798757-26-000009-index.htm",
-      "signalLabel": "Insider transaction",
-      "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
-      "coverage": "roster"
-    },
-    {
-      "accessionNumber": "0001224095-26-000003",
-      "cik": "0000723125",
-      "companyName": "MICRON TECHNOLOGY INC",
-      "ticker": "MU",
-      "form": "4",
-      "filedDate": "2026-10-15",
-      "acceptedAt": "2026-10-15T19:58:42-04:00",
-      "items": [],
-      "url": "https://www.sec.gov/Archives/edgar/data/723125/000122409526000003/0001224095-26-000003-index.htm",
       "signalLabel": "Insider transaction",
       "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
       "coverage": "roster"
@@ -1869,10 +1880,10 @@
   "researchGeneratedAt": "2026-10-15T17:47:11Z",
   "freshness": {
     "status": "current",
-    "feedGeneratedAt": "2026-10-23T04:27:47Z",
-    "sourceObservedAt": "2026-10-23T04:27:47Z",
-    "latestFiledDate": "2026-10-22",
-    "latestAcceptedAt": "2026-10-22T18:32:20-04:00",
+    "feedGeneratedAt": "2026-10-23T14:31:56Z",
+    "sourceObservedAt": "2026-10-23T14:31:56Z",
+    "latestFiledDate": "2026-10-23",
+    "latestAcceptedAt": "2026-10-23T09:04:03-04:00",
     "recommendedRefreshSeconds": 300,
     "warningAfterMinutes": 4320,
     "source": "SEC EDGAR latest-filings detection with nightly reconciliation"
