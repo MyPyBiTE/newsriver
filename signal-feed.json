@@ -1,6 +1,6 @@
 {
   "schema": "mypybite.signal-feed.v1",
-  "generatedAt": "2026-10-23T18:42:24Z",
+  "generatedAt": "2026-10-23T21:41:29Z",
   "disclaimer": "Research preview. Leadership candidates are not confirmed appointments and are not scored. Filing explanations are educational context, not investment advice.",
   "stats": {
     "issuerCount": 75,
@@ -94,6 +94,25 @@
         "Item 9.01: Financial Statements and Exhibits"
       ],
       "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000494/0000070858-26-000494-index.htm",
+      "signalLabel": "Material event",
+      "readerNote": "An 8-K reports a material event between regular reports. The economics depend on the item: financing can change dilution or leverage; leadership changes can alter execution risk; acquisitions can change growth and integration risk.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0001193125-26-430566",
+      "cik": "0000070858",
+      "companyName": "BANK OF AMERICA CORP /DE/",
+      "ticker": "BAC",
+      "form": "8-K",
+      "filedDate": "2026-10-23",
+      "acceptedAt": "2026-10-23T16:41:47-04:00",
+      "items": [
+        "Item 3.03: Material Modifications to Rights of Security Holders",
+        "Item 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year",
+        "Item 8.01: Other Events",
+        "Item 9.01: Financial Statements and Exhibits"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000119312526430566/0001193125-26-430566-index.htm",
       "signalLabel": "Material event",
       "readerNote": "An 8-K reports a material event between regular reports. The economics depend on the item: financing can change dilution or leverage; leadership changes can alter execution risk; acquisitions can change growth and integration risk.",
       "coverage": "roster"
@@ -597,6 +616,48 @@
       "coverage": "roster"
     },
     {
+      "accessionNumber": "0000070858-26-000505",
+      "cik": "0000070858",
+      "companyName": "BANK OF AMERICA CORP /DE/",
+      "ticker": "BAC",
+      "form": "4",
+      "filedDate": "2026-10-23",
+      "acceptedAt": "2026-10-23T16:37:51-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000505/0000070858-26-000505-index.htm",
+      "signalLabel": "Insider transaction",
+      "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0000070858-26-000506",
+      "cik": "0000070858",
+      "companyName": "BANK OF AMERICA CORP /DE/",
+      "ticker": "BAC",
+      "form": "4",
+      "filedDate": "2026-10-23",
+      "acceptedAt": "2026-10-23T16:41:01-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000506/0000070858-26-000506-index.htm",
+      "signalLabel": "Insider transaction",
+      "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
+      "coverage": "roster"
+    },
+    {
+      "accessionNumber": "0001728451-26-000005",
+      "cik": "0001067983",
+      "companyName": "BERKSHIRE HATHAWAY INC",
+      "ticker": "BRK-B",
+      "form": "4",
+      "filedDate": "2026-10-23",
+      "acceptedAt": "2026-10-23T16:38:16-04:00",
+      "items": [],
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000172845126000005/0001728451-26-000005-index.htm",
+      "signalLabel": "Insider transaction",
+      "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
+      "coverage": "roster"
+    },
+    {
       "accessionNumber": "0000909832-26-000098",
       "cik": "0000909832",
       "companyName": "COSTCO WHOLESALE CORP /NEW",
@@ -606,62 +667,6 @@
       "acceptedAt": "2026-10-14T19:00:30-04:00",
       "items": [],
       "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000098/0000909832-26-000098-index.htm",
-      "signalLabel": "Insider transaction",
-      "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
-      "coverage": "roster"
-    },
-    {
-      "accessionNumber": "0000037996-26-000186",
-      "cik": "0000037996",
-      "companyName": "FORD MOTOR CO",
-      "ticker": "F",
-      "form": "4",
-      "filedDate": "2026-10-16",
-      "acceptedAt": "2026-10-16T16:30:08-04:00",
-      "items": [],
-      "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000186/0000037996-26-000186-index.htm",
-      "signalLabel": "Insider transaction",
-      "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
-      "coverage": "roster"
-    },
-    {
-      "accessionNumber": "0001225208-26-008428",
-      "cik": "0000019617",
-      "companyName": "JPMORGAN CHASE & CO",
-      "ticker": "JPM",
-      "form": "4",
-      "filedDate": "2026-10-15",
-      "acceptedAt": "2026-10-15T18:47:28-04:00",
-      "items": [],
-      "url": "https://www.sec.gov/Archives/edgar/data/19617/000122520826008428/0001225208-26-008428-index.htm",
-      "signalLabel": "Insider transaction",
-      "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
-      "coverage": "roster"
-    },
-    {
-      "accessionNumber": "0001493152-26-047950",
-      "cik": "0001507605",
-      "companyName": "MARA Holdings, Inc.",
-      "ticker": "MARA",
-      "form": "4",
-      "filedDate": "2026-10-21",
-      "acceptedAt": "2026-10-21T19:00:04-04:00",
-      "items": [],
-      "url": "https://www.sec.gov/Archives/edgar/data/1507605/000149315226047950/0001493152-26-047950-index.htm",
-      "signalLabel": "Insider transaction",
-      "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
-      "coverage": "roster"
-    },
-    {
-      "accessionNumber": "0001218363-26-000005",
-      "cik": "0000723125",
-      "companyName": "MICRON TECHNOLOGY INC",
-      "ticker": "MU",
-      "form": "4",
-      "filedDate": "2026-10-15",
-      "acceptedAt": "2026-10-15T19:52:56-04:00",
-      "items": [],
-      "url": "https://www.sec.gov/Archives/edgar/data/723125/000121836326000005/0001218363-26-000005-index.htm",
       "signalLabel": "Insider transaction",
       "readerNote": "Form 4 reports insider ownership changes. Open-market buys can be informative, but grants, tax withholding and planned sales have different economics. Read the transaction code before drawing a conclusion.",
       "coverage": "roster"
@@ -1880,10 +1885,10 @@
   "researchGeneratedAt": "2026-10-15T17:47:11Z",
   "freshness": {
     "status": "current",
-    "feedGeneratedAt": "2026-10-23T18:42:24Z",
-    "sourceObservedAt": "2026-10-23T18:42:24Z",
+    "feedGeneratedAt": "2026-10-23T21:41:29Z",
+    "sourceObservedAt": "2026-10-23T21:41:29Z",
     "latestFiledDate": "2026-10-23",
-    "latestAcceptedAt": "2026-10-23T12:26:51-04:00",
+    "latestAcceptedAt": "2026-10-23T16:41:47-04:00",
     "recommendedRefreshSeconds": 300,
     "warningAfterMinutes": 4320,
     "source": "SEC EDGAR latest-filings detection with nightly reconciliation"
