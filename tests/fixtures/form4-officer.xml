@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ownershipDocument>
+  <periodOfReport>2026-10-06</periodOfReport>
+  <issuer>
+    <issuerCik>0000320193</issuerCik>
+  </issuer>
+  <reportingOwner>
+    <reportingOwnerId>
+      <rptOwnerCik>0001234567</rptOwnerCik>
+      <rptOwnerName>Example Chief</rptOwnerName>
+    </reportingOwnerId>
+    <reportingOwnerRelationship>
+      <isOfficer>true</isOfficer>
+      <officerTitle>President and Chief Executive Officer</officerTitle>
+    </reportingOwnerRelationship>
+  </reportingOwner>
+</ownershipDocument>

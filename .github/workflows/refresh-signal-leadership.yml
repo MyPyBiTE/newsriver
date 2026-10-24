@@ -1,0 +1,63 @@
+name: Refresh Signal leadership observations
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 5 * * 1-5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sec-data-writer
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Test leadership discovery
+        run: python -m unittest discover -s tests -p "test_discover_leadership_identities.py" -v
+
+      - name: Refresh principal-officer observations
+        env:
+          SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT }}
+        run: |
+          if [ -z "$SEC_USER_AGENT" ]; then
+            echo "Repository variable SEC_USER_AGENT is required."
+            exit 1
+          fi
+          python scripts/discover_leadership_identities.py --max-form4 30
+
+      - name: Rebuild public Signal feed
+        run: python scripts/build_signal_feed.py --output signal-feed.json
+
+      - name: Publish refreshed observations
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add config/leadership-discovery.json signal-feed.json
+          if git diff --cached --quiet; then
+            echo "Leadership observations are already current."
+            exit 0
+          fi
+          git commit -m "Refresh Signal leadership observations"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            sleep $((attempt * 2))
+          done
+          echo "Unable to publish leadership observations after three attempts."
+          exit 1

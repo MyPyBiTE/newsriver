@@ -185,6 +185,7 @@ def build_payload(
     return {
         "schema": "mypybite.signal-preview.v1",
         "generatedAt": discovery["generatedAt"],
+        "leadershipGeneratedAt": discovery["generatedAt"],
         "disclaimer": "Research preview. Leadership candidates are not confirmed appointments and are not scored. Filing explanations are educational context, not investment advice.",
         "stats": {
             "issuerCount": roster["issuerCount"],

@@ -102,6 +102,11 @@ class SignalFeedTests(unittest.TestCase):
             75,
         )
 
+        self.assertEqual(
+            feed["leadershipGeneratedAt"],
+            "2026-10-15T17:47:11Z",
+        )
+
     def test_feed_remains_json_serializable(self):
         feed = MODULE.build_feed(
             ROOT,
