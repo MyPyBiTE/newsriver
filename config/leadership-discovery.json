@@ -1,288 +1,1573 @@
 {
   "schema": "mypybite.leadership-discovery.v1",
-  "generatedAt": "2026-10-15T17:47:11Z",
+  "generatedAt": "2026-10-24T04:23:54Z",
+  "rosterAsOf": "2026-10-15",
+  "method": "Daily principal-officer observations from official Form 4 titles. Observations are not appointment or tenure confirmation.",
+  "form4SearchDepth": 30,
   "seatCount": 150,
-  "candidateSeatCount": 21,
-  "unresolvedSeatCount": 129,
+  "candidateSeatCount": 24,
+  "unresolvedSeatCount": 126,
+  "uniqueCandidatePeople": 24,
   "seats": [
     {
+      "issuerCik": "0000320193",
       "ticker": "AAPL",
+      "legalName": "Apple Inc.",
       "seat": "chief-executive",
       "status": "candidate-found",
       "candidates": [
         {
+          "personCik": "0002148403",
           "canonicalName": "Ternus John",
           "reportedTitle": "CEO",
           "lastObservedDate": "2026-10-01",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126038669/form4.xml"
+          "accessionNumber": "0001140361-26-038669",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126038669/form4.xml",
+          "identityStatus": "candidate-from-form4",
+          "appointmentDate": null,
+          "appointmentDateStatus": "unresolved",
+          "evaluationEligible": false,
+          "confidence": "D",
+          "role": "chief-executive"
         }
       ]
     },
     {
+      "issuerCik": "0000320193",
       "ticker": "AAPL",
+      "legalName": "Apple Inc.",
       "seat": "chief-financial",
       "status": "candidate-found",
       "candidates": [
         {
+          "personCik": "0002050912",
           "canonicalName": "Parekh Kevan",
           "reportedTitle": "Senior Vice President, CFO",
-          "lastObservedDate": "2026-09-27",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126038024/form4.xml"
+          "lastObservedDate": "2026-10-15",
+          "accessionNumber": "0001140361-26-040126",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126040126/form4.xml",
+          "identityStatus": "candidate-from-form4",
+          "appointmentDate": null,
+          "appointmentDateStatus": "unresolved",
+          "evaluationEligible": false,
+          "confidence": "D",
+          "role": "chief-financial"
         }
       ]
     },
     {
+      "issuerCik": "0000789019",
+      "ticker": "MSFT",
+      "legalName": "MICROSOFT CORP",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000789019",
+      "ticker": "MSFT",
+      "legalName": "MICROSOFT CORP",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001045810",
+      "ticker": "NVDA",
+      "legalName": "NVIDIA CORP",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001045810",
+      "ticker": "NVDA",
+      "legalName": "NVIDIA CORP",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001652044",
       "ticker": "GOOGL",
+      "legalName": "Alphabet Inc.",
       "seat": "chief-executive",
       "status": "candidate-found",
       "candidates": [
         {
+          "personCik": "0001534753",
           "canonicalName": "Pichai Sundar",
           "reportedTitle": "Chief Executive Officer",
           "lastObservedDate": "2026-09-25",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526408007/ownership.xml"
+          "accessionNumber": "0001193125-26-408007",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526408007/ownership.xml",
+          "identityStatus": "candidate-from-form4",
+          "appointmentDate": null,
+          "appointmentDateStatus": "unresolved",
+          "evaluationEligible": false,
+          "confidence": "D",
+          "role": "chief-executive"
         }
       ]
     },
     {
+      "issuerCik": "0001652044",
       "ticker": "GOOGL",
+      "legalName": "Alphabet Inc.",
       "seat": "chief-financial",
       "status": "candidate-found",
       "candidates": [
         {
+          "personCik": "0001761679",
           "canonicalName": "Ashkenazi Anat",
           "reportedTitle": "SVP, Chief Financial Officer",
           "lastObservedDate": "2026-09-25",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526408009/ownership.xml"
+          "accessionNumber": "0001193125-26-408009",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526408009/ownership.xml",
+          "identityStatus": "candidate-from-form4",
+          "appointmentDate": null,
+          "appointmentDateStatus": "unresolved",
+          "evaluationEligible": false,
+          "confidence": "D",
+          "role": "chief-financial"
         }
       ]
     },
     {
+      "issuerCik": "0001018724",
+      "ticker": "AMZN",
+      "legalName": "AMAZON COM INC",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001018724",
+      "ticker": "AMZN",
+      "legalName": "AMAZON COM INC",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001326801",
+      "ticker": "META",
+      "legalName": "Meta Platforms, Inc.",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001326801",
+      "ticker": "META",
+      "legalName": "Meta Platforms, Inc.",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001318605",
+      "ticker": "TSLA",
+      "legalName": "Tesla, Inc.",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001318605",
+      "ticker": "TSLA",
+      "legalName": "Tesla, Inc.",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001341439",
+      "ticker": "ORCL",
+      "legalName": "ORACLE CORP",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001341439",
+      "ticker": "ORCL",
+      "legalName": "ORACLE CORP",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001108524",
+      "ticker": "CRM",
+      "legalName": "Salesforce, Inc.",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001108524",
+      "ticker": "CRM",
+      "legalName": "Salesforce, Inc.",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001730168",
+      "ticker": "AVGO",
+      "legalName": "Broadcom Inc.",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001730168",
+      "ticker": "AVGO",
+      "legalName": "Broadcom Inc.",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000002488",
+      "ticker": "AMD",
+      "legalName": "ADVANCED MICRO DEVICES INC",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000002488",
+      "ticker": "AMD",
+      "legalName": "ADVANCED MICRO DEVICES INC",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000050863",
+      "ticker": "INTC",
+      "legalName": "INTEL CORP",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000050863",
+      "ticker": "INTC",
+      "legalName": "INTEL CORP",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001065280",
+      "ticker": "NFLX",
+      "legalName": "NETFLIX INC",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001065280",
+      "ticker": "NFLX",
+      "legalName": "NETFLIX INC",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001321655",
+      "ticker": "PLTR",
+      "legalName": "Palantir Technologies Inc.",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001321655",
+      "ticker": "PLTR",
+      "legalName": "Palantir Technologies Inc.",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001046179",
+      "ticker": "TSM",
+      "legalName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001046179",
+      "ticker": "TSM",
+      "legalName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000937966",
+      "ticker": "ASML",
+      "legalName": "ASML HOLDING NV",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000937966",
+      "ticker": "ASML",
+      "legalName": "ASML HOLDING NV",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000723125",
       "ticker": "MU",
+      "legalName": "MICRON TECHNOLOGY INC",
       "seat": "chief-executive",
       "status": "candidate-found",
       "candidates": [
         {
+          "personCik": "0001242654",
           "canonicalName": "MEHROTRA SANJAY",
           "reportedTitle": "President and CEO",
-          "lastObservedDate": "2026-06-26",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000012/primarydocument.xml"
+          "lastObservedDate": "2026-10-13",
+          "accessionNumber": "0001242654-26-000016",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000016/primarydocument.xml",
+          "identityStatus": "candidate-from-form4",
+          "appointmentDate": null,
+          "appointmentDateStatus": "unresolved",
+          "evaluationEligible": false,
+          "confidence": "D",
+          "role": "chief-executive"
         }
       ]
     },
     {
+      "issuerCik": "0000723125",
+      "ticker": "MU",
+      "legalName": "MICRON TECHNOLOGY INC",
+      "seat": "chief-financial",
+      "status": "candidate-found",
+      "candidates": [
+        {
+          "personCik": "0001498287",
+          "canonicalName": "Murphy Mark J.",
+          "reportedTitle": "EVP & Chief Financial Officer",
+          "lastObservedDate": "2026-10-13",
+          "accessionNumber": "0001498287-26-000001",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/723125/000149828726000001/primarydocument.xml",
+          "identityStatus": "candidate-from-form4",
+          "appointmentDate": null,
+          "appointmentDateStatus": "unresolved",
+          "evaluationEligible": false,
+          "confidence": "D",
+          "role": "chief-financial"
+        }
+      ]
+    },
+    {
+      "issuerCik": "0001973239",
+      "ticker": "ARM",
+      "legalName": "ARM HOLDINGS PLC /UK",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001973239",
+      "ticker": "ARM",
+      "legalName": "ARM HOLDINGS PLC /UK",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001375365",
+      "ticker": "SMCI",
+      "legalName": "Super Micro Computer, Inc.",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001375365",
+      "ticker": "SMCI",
+      "legalName": "Super Micro Computer, Inc.",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000051143",
       "ticker": "IBM",
+      "legalName": "INTERNATIONAL BUSINESS MACHINES CORP",
       "seat": "chief-executive",
       "status": "candidate-found",
       "candidates": [
         {
+          "personCik": "0001629898",
           "canonicalName": "KRISHNA ARVIND",
           "reportedTitle": "Chairman, President & CEO",
           "lastObservedDate": "2026-08-27",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/51143/000162989826000005/primarydocument.xml"
+          "accessionNumber": "0001629898-26-000005",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/51143/000162989826000005/primarydocument.xml",
+          "identityStatus": "candidate-from-form4",
+          "appointmentDate": null,
+          "appointmentDateStatus": "unresolved",
+          "evaluationEligible": false,
+          "confidence": "D",
+          "role": "chief-executive"
         }
       ]
     },
     {
+      "issuerCik": "0000051143",
+      "ticker": "IBM",
+      "legalName": "INTERNATIONAL BUSINESS MACHINES CORP",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000019617",
+      "ticker": "JPM",
+      "legalName": "JPMORGAN CHASE & CO",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000019617",
+      "ticker": "JPM",
+      "legalName": "JPMORGAN CHASE & CO",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000070858",
+      "ticker": "BAC",
+      "legalName": "BANK OF AMERICA CORP /DE/",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000070858",
+      "ticker": "BAC",
+      "legalName": "BANK OF AMERICA CORP /DE/",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000831001",
+      "ticker": "C",
+      "legalName": "CITIGROUP INC",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000831001",
+      "ticker": "C",
+      "legalName": "CITIGROUP INC",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000886982",
+      "ticker": "GS",
+      "legalName": "GOLDMAN SACHS GROUP INC",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000886982",
+      "ticker": "GS",
+      "legalName": "GOLDMAN SACHS GROUP INC",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000895421",
+      "ticker": "MS",
+      "legalName": "MORGAN STANLEY",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000895421",
+      "ticker": "MS",
+      "legalName": "MORGAN STANLEY",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000072971",
+      "ticker": "WFC",
+      "legalName": "WELLS FARGO & COMPANY/MN",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000072971",
+      "ticker": "WFC",
+      "legalName": "WELLS FARGO & COMPANY/MN",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0002012383",
+      "ticker": "BLK",
+      "legalName": "BlackRock, Inc.",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0002012383",
+      "ticker": "BLK",
+      "legalName": "BlackRock, Inc.",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001067983",
       "ticker": "BRK-B",
+      "legalName": "BERKSHIRE HATHAWAY INC",
       "seat": "chief-executive",
       "status": "candidate-found",
       "candidates": [
         {
+          "personCik": "0000315090",
           "canonicalName": "BUFFETT WARREN E",
           "reportedTitle": "Chairman and CEO",
           "lastObservedDate": "2026-03-17",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526116315/ownership.xml"
+          "accessionNumber": "0001193125-26-116315",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526116315/ownership.xml",
+          "identityStatus": "candidate-from-form4",
+          "appointmentDate": null,
+          "appointmentDateStatus": "unresolved",
+          "evaluationEligible": false,
+          "confidence": "D",
+          "role": "chief-executive"
         }
       ]
     },
     {
+      "issuerCik": "0001067983",
+      "ticker": "BRK-B",
+      "legalName": "BERKSHIRE HATHAWAY INC",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001679788",
+      "ticker": "COIN",
+      "legalName": "Coinbase Global, Inc.",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001679788",
+      "ticker": "COIN",
+      "legalName": "Coinbase Global, Inc.",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001403161",
+      "ticker": "V",
+      "legalName": "VISA INC.",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001403161",
+      "ticker": "V",
+      "legalName": "VISA INC.",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001141391",
+      "ticker": "MA",
+      "legalName": "Mastercard Inc",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001141391",
+      "ticker": "MA",
+      "legalName": "Mastercard Inc",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000004962",
+      "ticker": "AXP",
+      "legalName": "AMERICAN EXPRESS CO",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000004962",
+      "ticker": "AXP",
+      "legalName": "AMERICAN EXPRESS CO",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000316709",
+      "ticker": "SCHW",
+      "legalName": "SCHWAB CHARLES CORP",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000316709",
+      "ticker": "SCHW",
+      "legalName": "SCHWAB CHARLES CORP",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001393818",
+      "ticker": "BX",
+      "legalName": "Blackstone Inc.",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001393818",
+      "ticker": "BX",
+      "legalName": "Blackstone Inc.",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001404912",
       "ticker": "KKR",
+      "legalName": "KKR & Co. Inc.",
       "seat": "chief-executive",
       "status": "candidate-found",
       "candidates": [
         {
+          "personCik": "0001208917",
           "canonicalName": "BAE JOSEPH Y",
           "reportedTitle": "Co-Chief Executive Officer",
           "lastObservedDate": "2026-09-08",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1404912/000114036126036220/form4.xml"
+          "accessionNumber": "0001140361-26-036220",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1404912/000114036126036220/form4.xml",
+          "identityStatus": "candidate-from-form4",
+          "appointmentDate": null,
+          "appointmentDateStatus": "unresolved",
+          "evaluationEligible": false,
+          "confidence": "D",
+          "role": "chief-executive"
         }
       ]
     },
     {
+      "issuerCik": "0001404912",
       "ticker": "KKR",
+      "legalName": "KKR & Co. Inc.",
       "seat": "chief-financial",
       "status": "candidate-found",
       "candidates": [
         {
+          "personCik": "0001797043",
           "canonicalName": "Lewin Robert H",
           "reportedTitle": "Chief Financial Officer",
           "lastObservedDate": "2026-09-02",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1404912/000114036126035811/form4.xml"
+          "accessionNumber": "0001140361-26-035811",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1404912/000114036126035811/form4.xml",
+          "identityStatus": "candidate-from-form4",
+          "appointmentDate": null,
+          "appointmentDateStatus": "unresolved",
+          "evaluationEligible": false,
+          "confidence": "D",
+          "role": "chief-financial"
         }
       ]
     },
     {
+      "issuerCik": "0000104169",
+      "ticker": "WMT",
+      "legalName": "Walmart Inc.",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000104169",
+      "ticker": "WMT",
+      "legalName": "Walmart Inc.",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000909832",
+      "ticker": "COST",
+      "legalName": "COSTCO WHOLESALE CORP /NEW",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000909832",
+      "ticker": "COST",
+      "legalName": "COSTCO WHOLESALE CORP /NEW",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000354950",
+      "ticker": "HD",
+      "legalName": "HOME DEPOT, INC.",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000354950",
+      "ticker": "HD",
+      "legalName": "HOME DEPOT, INC.",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000320187",
+      "ticker": "NKE",
+      "legalName": "NIKE, Inc.",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000320187",
+      "ticker": "NKE",
+      "legalName": "NIKE, Inc.",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000829224",
+      "ticker": "SBUX",
+      "legalName": "STARBUCKS CORP",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000829224",
+      "ticker": "SBUX",
+      "legalName": "STARBUCKS CORP",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000063908",
       "ticker": "MCD",
+      "legalName": "MCDONALDS CORP",
       "seat": "chief-executive",
       "status": "candidate-found",
       "candidates": [
         {
+          "personCik": "0001598115",
           "canonicalName": "Kempczinski Christopher J",
           "reportedTitle": "Chairman and CEO",
           "lastObservedDate": "2026-02-12",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/63908/000159811526000001/form4.xml"
+          "accessionNumber": "0001598115-26-000001",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/63908/000159811526000001/form4.xml",
+          "identityStatus": "candidate-from-form4",
+          "appointmentDate": null,
+          "appointmentDateStatus": "unresolved",
+          "evaluationEligible": false,
+          "confidence": "D",
+          "role": "chief-executive"
         }
       ]
     },
     {
+      "issuerCik": "0000063908",
+      "ticker": "MCD",
+      "legalName": "MCDONALDS CORP",
+      "seat": "chief-financial",
+      "status": "candidate-found",
+      "candidates": [
+        {
+          "personCik": "0001647334",
+          "canonicalName": "Borden Ian Frederick",
+          "reportedTitle": "EVP - CFO",
+          "lastObservedDate": "2026-02-13",
+          "accessionNumber": "0001647334-26-000001",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/63908/000164733426000001/form4.xml",
+          "identityStatus": "candidate-from-form4",
+          "appointmentDate": null,
+          "appointmentDateStatus": "unresolved",
+          "evaluationEligible": false,
+          "confidence": "D",
+          "role": "chief-financial"
+        }
+      ]
+    },
+    {
+      "issuerCik": "0001744489",
+      "ticker": "DIS",
+      "legalName": "Walt Disney Co",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001744489",
+      "ticker": "DIS",
+      "legalName": "Walt Disney Co",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001543151",
       "ticker": "UBER",
+      "legalName": "Uber Technologies, Inc",
       "seat": "chief-executive",
       "status": "candidate-found",
       "candidates": [
         {
+          "personCik": "0001184237",
           "canonicalName": "KHOSROWSHAHI DARA",
           "reportedTitle": "Chief Executive Officer",
           "lastObservedDate": "2026-09-10",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000118423726000008/primarydocument.xml"
+          "accessionNumber": "0001184237-26-000008",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000118423726000008/primarydocument.xml",
+          "identityStatus": "candidate-from-form4",
+          "appointmentDate": null,
+          "appointmentDateStatus": "unresolved",
+          "evaluationEligible": false,
+          "confidence": "D",
+          "role": "chief-executive"
         }
       ]
     },
     {
+      "issuerCik": "0001543151",
       "ticker": "UBER",
+      "legalName": "Uber Technologies, Inc",
       "seat": "chief-financial",
       "status": "candidate-found",
       "candidates": [
         {
+          "personCik": "0002111867",
           "canonicalName": "Krishnamurthy Balaji (A)",
           "reportedTitle": "Chief Financial Officer",
-          "lastObservedDate": "2026-09-16",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000211186726000013/primarydocument.xml"
+          "lastObservedDate": "2026-10-16",
+          "accessionNumber": "0002111867-26-000014",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000211186726000014/primarydocument.xml",
+          "identityStatus": "candidate-from-form4",
+          "appointmentDate": null,
+          "appointmentDateStatus": "unresolved",
+          "evaluationEligible": false,
+          "confidence": "D",
+          "role": "chief-financial"
         }
       ]
     },
     {
+      "issuerCik": "0001559720",
       "ticker": "ABNB",
+      "legalName": "Airbnb, Inc.",
       "seat": "chief-executive",
       "status": "candidate-found",
       "candidates": [
         {
+          "personCik": "0001834152",
           "canonicalName": "Chesky Brian",
           "reportedTitle": "CEO and Chairman",
           "lastObservedDate": "2026-08-28",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526379365/ownership.xml"
+          "accessionNumber": "0001193125-26-379365",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526379365/ownership.xml",
+          "identityStatus": "candidate-from-form4",
+          "appointmentDate": null,
+          "appointmentDateStatus": "unresolved",
+          "evaluationEligible": false,
+          "confidence": "D",
+          "role": "chief-executive"
         }
       ]
     },
     {
+      "issuerCik": "0001559720",
       "ticker": "ABNB",
+      "legalName": "Airbnb, Inc.",
       "seat": "chief-financial",
       "status": "candidate-found",
       "candidates": [
         {
+          "personCik": "0001938411",
           "canonicalName": "Mertz Elinor",
           "reportedTitle": "Chief Financial Officer",
           "lastObservedDate": "2026-09-28",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526409153/ownership.xml"
+          "accessionNumber": "0001193125-26-409153",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526409153/ownership.xml",
+          "identityStatus": "candidate-from-form4",
+          "appointmentDate": null,
+          "appointmentDateStatus": "unresolved",
+          "evaluationEligible": false,
+          "confidence": "D",
+          "role": "chief-financial"
         }
       ]
     },
     {
+      "issuerCik": "0001690820",
+      "ticker": "CVNA",
+      "legalName": "CARVANA CO.",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001690820",
+      "ticker": "CVNA",
+      "legalName": "CARVANA CO.",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000059478",
+      "ticker": "LLY",
+      "legalName": "ELI LILLY & Co",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000059478",
+      "ticker": "LLY",
+      "legalName": "ELI LILLY & Co",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000353278",
+      "ticker": "NVO",
+      "legalName": "NOVO NORDISK A S",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000353278",
+      "ticker": "NVO",
+      "legalName": "NOVO NORDISK A S",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000200406",
+      "ticker": "JNJ",
+      "legalName": "JOHNSON & JOHNSON",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000200406",
+      "ticker": "JNJ",
+      "legalName": "JOHNSON & JOHNSON",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000731766",
+      "ticker": "UNH",
+      "legalName": "UNITEDHEALTH GROUP INC",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000731766",
+      "ticker": "UNH",
+      "legalName": "UNITEDHEALTH GROUP INC",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000078003",
+      "ticker": "PFE",
+      "legalName": "PFIZER INC",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000078003",
+      "ticker": "PFE",
+      "legalName": "PFIZER INC",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001682852",
+      "ticker": "MRNA",
+      "legalName": "Moderna, Inc.",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001682852",
+      "ticker": "MRNA",
+      "legalName": "Moderna, Inc.",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000872589",
+      "ticker": "REGN",
+      "legalName": "REGENERON PHARMACEUTICALS, INC.",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000872589",
+      "ticker": "REGN",
+      "legalName": "REGENERON PHARMACEUTICALS, INC.",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000875320",
+      "ticker": "VRTX",
+      "legalName": "VERTEX PHARMACEUTICALS INC / MA",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000875320",
+      "ticker": "VRTX",
+      "legalName": "VERTEX PHARMACEUTICALS INC / MA",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001035267",
+      "ticker": "ISRG",
+      "legalName": "INTUITIVE SURGICAL INC",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001035267",
+      "ticker": "ISRG",
+      "legalName": "INTUITIVE SURGICAL INC",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000318154",
+      "ticker": "AMGN",
+      "legalName": "AMGEN INC",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000318154",
+      "ticker": "AMGN",
+      "legalName": "AMGEN INC",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0002115436",
+      "ticker": "XOM",
+      "legalName": "ExxonMobil Holdings Corp",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0002115436",
+      "ticker": "XOM",
+      "legalName": "ExxonMobil Holdings Corp",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000093410",
+      "ticker": "CVX",
+      "legalName": "CHEVRON CORP",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000093410",
+      "ticker": "CVX",
+      "legalName": "CHEVRON CORP",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001163165",
       "ticker": "COP",
+      "legalName": "CONOCOPHILLIPS",
       "seat": "chief-executive",
       "status": "candidate-found",
       "candidates": [
         {
+          "personCik": "0001464560",
           "canonicalName": "Lance Ryan Michael",
           "reportedTitle": "Chairman and CEO",
-          "lastObservedDate": "2026-03-20",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526119690/ownership.xml"
+          "lastObservedDate": "2026-03-31",
+          "accessionNumber": "0001193125-26-134713",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526134713/ownership.xml",
+          "identityStatus": "candidate-from-form4",
+          "appointmentDate": null,
+          "appointmentDateStatus": "unresolved",
+          "evaluationEligible": false,
+          "confidence": "D",
+          "role": "chief-executive"
         }
       ]
     },
     {
+      "issuerCik": "0001163165",
+      "ticker": "COP",
+      "legalName": "CONOCOPHILLIPS",
+      "seat": "chief-financial",
+      "status": "candidate-found",
+      "candidates": [
+        {
+          "personCik": "0001953011",
+          "canonicalName": "O'BRIEN ANDREW M.",
+          "reportedTitle": "Executive Vice President & CFO",
+          "lastObservedDate": "2026-02-14",
+          "accessionNumber": "0001193125-26-057629",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526057629/ownership.xml",
+          "identityStatus": "candidate-from-form4",
+          "appointmentDate": null,
+          "appointmentDateStatus": "unresolved",
+          "evaluationEligible": false,
+          "confidence": "D",
+          "role": "chief-financial"
+        }
+      ]
+    },
+    {
+      "issuerCik": "0000797468",
+      "ticker": "OXY",
+      "legalName": "OCCIDENTAL PETROLEUM CORP /DE/",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000797468",
+      "ticker": "OXY",
+      "legalName": "OCCIDENTAL PETROLEUM CORP /DE/",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000087347",
+      "ticker": "SLB",
+      "legalName": "SLB LIMITED/NV",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000087347",
+      "ticker": "SLB",
+      "legalName": "SLB LIMITED/NV",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000040545",
+      "ticker": "GE",
+      "legalName": "GENERAL ELECTRIC CO",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000040545",
+      "ticker": "GE",
+      "legalName": "GENERAL ELECTRIC CO",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000012927",
+      "ticker": "BA",
+      "legalName": "BOEING CO",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000012927",
+      "ticker": "BA",
+      "legalName": "BOEING CO",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000018230",
+      "ticker": "CAT",
+      "legalName": "CATERPILLAR INC",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000018230",
+      "ticker": "CAT",
+      "legalName": "CATERPILLAR INC",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000936468",
+      "ticker": "LMT",
+      "legalName": "LOCKHEED MARTIN CORP",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000936468",
+      "ticker": "LMT",
+      "legalName": "LOCKHEED MARTIN CORP",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000101829",
+      "ticker": "RTX",
+      "legalName": "RTX Corp",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000101829",
+      "ticker": "RTX",
+      "legalName": "RTX Corp",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001133421",
+      "ticker": "NOC",
+      "legalName": "NORTHROP GRUMMAN CORP /DE/",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001133421",
+      "ticker": "NOC",
+      "legalName": "NORTHROP GRUMMAN CORP /DE/",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000037996",
+      "ticker": "F",
+      "legalName": "FORD MOTOR CO",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000037996",
+      "ticker": "F",
+      "legalName": "FORD MOTOR CO",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001467858",
+      "ticker": "GM",
+      "legalName": "General Motors Co",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001467858",
+      "ticker": "GM",
+      "legalName": "General Motors Co",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0000315189",
       "ticker": "DE",
+      "legalName": "DEERE & CO",
       "seat": "chief-executive",
       "status": "candidate-found",
       "candidates": [
         {
+          "personCik": "0001556144",
           "canonicalName": "May John C II",
           "reportedTitle": "Chairman & CEO",
           "lastObservedDate": "2026-01-08",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/315189/000155614426000002/form4-01092026_080101.xml"
+          "accessionNumber": "0001556144-26-000002",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/315189/000155614426000002/form4-01092026_080101.xml",
+          "identityStatus": "candidate-from-form4",
+          "appointmentDate": null,
+          "appointmentDateStatus": "unresolved",
+          "evaluationEligible": false,
+          "confidence": "D",
+          "role": "chief-executive"
         }
       ]
     },
     {
+      "issuerCik": "0000315189",
       "ticker": "DE",
+      "legalName": "DEERE & CO",
       "seat": "chief-financial",
       "status": "candidate-found",
       "candidates": [
         {
+          "personCik": "0002133005",
           "canonicalName": "Norwood Terry Brent",
           "reportedTitle": "Sr VP & CFO",
           "lastObservedDate": "2026-08-17",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/315189/000213300526000004/form4-08182026_070832.xml"
-        },
-        {
-          "canonicalName": "JEPSEN JOSHUA A",
-          "reportedTitle": "Sr VP & CFO",
-          "lastObservedDate": "2025-12-15",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/315189/000194728425000007/form4-12162025_071252.xml"
+          "accessionNumber": "0002133005-26-000004",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/315189/000213300526000004/form4-08182026_070832.xml",
+          "identityStatus": "candidate-from-form4",
+          "appointmentDate": null,
+          "appointmentDateStatus": "unresolved",
+          "evaluationEligible": false,
+          "confidence": "D",
+          "role": "chief-financial"
         }
       ]
     },
     {
+      "issuerCik": "0001050446",
       "ticker": "MSTR",
+      "legalName": "Strategy Inc",
       "seat": "chief-executive",
       "status": "candidate-found",
       "candidates": [
         {
+          "personCik": "0001651669",
           "canonicalName": "Le Phong",
           "reportedTitle": "President & CEO",
-          "lastObservedDate": "2026-06-08",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000165166926000007/ownership.xml"
+          "lastObservedDate": "2026-06-22",
+          "accessionNumber": "0001651669-26-000010",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000165166926000010/ownership.xml",
+          "identityStatus": "candidate-from-form4",
+          "appointmentDate": null,
+          "appointmentDateStatus": "unresolved",
+          "evaluationEligible": false,
+          "confidence": "D",
+          "role": "chief-executive"
         }
       ]
     },
     {
+      "issuerCik": "0001050446",
       "ticker": "MSTR",
+      "legalName": "Strategy Inc",
       "seat": "chief-financial",
       "status": "candidate-found",
       "candidates": [
         {
+          "personCik": "0001825170",
           "canonicalName": "Kang Andrew",
           "reportedTitle": "EVP & CFO",
           "lastObservedDate": "2026-06-08",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000182517026000008/ownership.xml"
+          "accessionNumber": "0001825170-26-000008",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000182517026000008/ownership.xml",
+          "identityStatus": "candidate-from-form4",
+          "appointmentDate": null,
+          "appointmentDateStatus": "unresolved",
+          "evaluationEligible": false,
+          "confidence": "D",
+          "role": "chief-financial"
         }
       ]
     },
     {
+      "issuerCik": "0001507605",
+      "ticker": "MARA",
+      "legalName": "MARA Holdings, Inc.",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001507605",
+      "ticker": "MARA",
+      "legalName": "MARA Holdings, Inc.",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001167419",
       "ticker": "RIOT",
+      "legalName": "Riot Platforms, Inc.",
       "seat": "chief-executive",
       "status": "candidate-found",
       "candidates": [
         {
+          "personCik": "0001721702",
           "canonicalName": "Les Jason",
           "reportedTitle": "CEO",
-          "lastObservedDate": "2026-07-01",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1167419/000172170226000016/form4-07062026_050703.xml"
+          "lastObservedDate": "2026-07-31",
+          "accessionNumber": "0001721702-26-000018",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1167419/000172170226000018/form4-08042026_080801.xml",
+          "identityStatus": "candidate-from-form4",
+          "appointmentDate": null,
+          "appointmentDateStatus": "unresolved",
+          "evaluationEligible": false,
+          "confidence": "D",
+          "role": "chief-executive"
         }
       ]
     },
     {
+      "issuerCik": "0001167419",
       "ticker": "RIOT",
+      "legalName": "Riot Platforms, Inc.",
       "seat": "chief-financial",
       "status": "candidate-found",
       "candidates": [
         {
+          "personCik": "0001932352",
           "canonicalName": "Yee Colin M.",
           "reportedTitle": "EVP, CFO",
           "lastObservedDate": "2026-01-01",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1167419/000193235226000002/form4-01052026_110102.xml"
+          "accessionNumber": "0001932352-26-000002",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1167419/000193235226000002/form4-01052026_110102.xml",
+          "identityStatus": "candidate-from-form4",
+          "appointmentDate": null,
+          "appointmentDateStatus": "unresolved",
+          "evaluationEligible": false,
+          "confidence": "D",
+          "role": "chief-financial"
         }
       ]
+    },
+    {
+      "issuerCik": "0001326380",
+      "ticker": "GME",
+      "legalName": "GameStop Corp.",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001326380",
+      "ticker": "GME",
+      "legalName": "GameStop Corp.",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001411579",
+      "ticker": "AMC",
+      "legalName": "AMC ENTERTAINMENT HOLDINGS, INC.",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001411579",
+      "ticker": "AMC",
+      "legalName": "AMC ENTERTAINMENT HOLDINGS, INC.",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001819994",
+      "ticker": "RKLB",
+      "legalName": "Rocket Lab Corp",
+      "seat": "chief-executive",
+      "status": "unresolved",
+      "candidates": []
+    },
+    {
+      "issuerCik": "0001819994",
+      "ticker": "RKLB",
+      "legalName": "Rocket Lab Corp",
+      "seat": "chief-financial",
+      "status": "unresolved",
+      "candidates": []
     }
   ]
 }
