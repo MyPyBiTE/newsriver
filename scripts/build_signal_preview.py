@@ -64,6 +64,13 @@ def build_payload(
     roster = read_json(root / "config" / "management-roster.json")
     discovery = read_json(root / "config" / "leadership-discovery.json")
     scorecard = read_json(root / "config" / "management-scorecard.json")
+    fundamentals_path = root / "data" / "sec" / "fundamentals" / "fundamentals.json"
+    fundamentals = read_json(fundamentals_path) if fundamentals_path.exists() else {}
+    fundamentals_by_ticker = {
+        item["ticker"]: item
+        for item in fundamentals.get("companies", [])
+        if item.get("ticker")
+    }
 
     filings = read_jsonl(
         filings_path or root / "live-latest-output" / "filings.jsonl"
@@ -169,6 +176,9 @@ def build_payload(
                     issuer["ticker"],
                     [],
                 ),
+                "fundamentalStanding": fundamentals_by_ticker.get(
+                    issuer["ticker"]
+                ),
             }
         )
 
@@ -186,6 +196,7 @@ def build_payload(
         "schema": "mypybite.signal-preview.v1",
         "generatedAt": discovery["generatedAt"],
         "leadershipGeneratedAt": discovery["generatedAt"],
+        "fundamentalsGeneratedAt": fundamentals.get("generatedAt"),
         "disclaimer": "Research preview. Leadership candidates are not confirmed appointments and are not scored. Filing explanations are educational context, not investment advice.",
         "stats": {
             "issuerCount": roster["issuerCount"],

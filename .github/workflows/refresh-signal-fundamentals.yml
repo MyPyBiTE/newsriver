@@ -1,0 +1,63 @@
+name: Refresh Signal fundamental snapshots
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "43 6 * * 1-5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sec-data-writer
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Test fundamental snapshot builder
+        run: |
+          python -m unittest discover -s tests -p "test_build_fundamental_snapshot.py" -v
+          python -m unittest discover -s tests -p "test_build_signal_feed.py" -v
+
+      - name: Refresh SEC Companyfacts snapshots
+        env:
+          SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT }}
+        run: |
+          if [ -z "$SEC_USER_AGENT" ]; then
+            echo "Repository variable SEC_USER_AGENT is required."
+            exit 1
+          fi
+          python scripts/build_fundamental_snapshot.py
+          python scripts/build_signal_feed.py --output signal-feed.json
+
+      - name: Publish fundamental snapshots
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/sec/fundamentals/fundamentals.json signal-feed.json
+          if git diff --cached --quiet; then
+            echo "Fundamental snapshots are already current."
+            exit 0
+          fi
+          git commit -m "Refresh Signal fundamental snapshots"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            sleep $((attempt * 2))
+          done
+          echo "Unable to publish fundamental snapshots after three attempts."
+          exit 1
