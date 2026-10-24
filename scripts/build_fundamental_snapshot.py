@@ -53,6 +53,23 @@ CONCEPTS = {
         "RepaymentsOfLongTermDebt",
         "RepaymentsOfDebt",
     ),
+    "sharesOutstanding": (
+        "EntityCommonStockSharesOutstanding",
+        "CommonStockSharesOutstanding",
+    ),
+    "debt": (
+        "LongTermDebtAndFinanceLeaseObligations",
+        "LongTermDebt",
+    ),
+    "currentDebt": (
+        "LongTermDebtAndFinanceLeaseObligationsCurrent",
+        "LongTermDebtCurrent",
+        "ShortTermBorrowings",
+    ),
+    "noncurrentDebt": (
+        "LongTermDebtAndFinanceLeaseObligationsNoncurrent",
+        "LongTermDebtNoncurrent",
+    ),
 }
 
 
@@ -80,28 +97,42 @@ def source_url(cik: str, accession: object) -> str | None:
     )
 
 
-def concept_entries(companyfacts: dict, tags: tuple[str, ...]) -> list[dict]:
-    us_gaap = companyfacts.get("facts", {}).get("us-gaap", {})
+def concept_entries(
+    companyfacts: dict,
+    tags: tuple[str, ...],
+    *,
+    namespaces: tuple[str, ...] = ("us-gaap",),
+    unit: str = "USD",
+) -> list[dict]:
     results: list[dict] = []
-    for rank, tag in enumerate(tags):
-        concept = us_gaap.get(tag, {})
-        units = concept.get("units", {})
-        for raw in units.get("USD", []):
-            if not isinstance(raw, dict) or not isinstance(raw.get("val"), (int, float)):
-                continue
-            item = dict(raw)
-            item["tag"] = tag
-            item["label"] = concept.get("label") or tag
-            item["unit"] = "USD"
-            item["tagRank"] = rank
-            results.append(item)
+    all_facts = companyfacts.get("facts", {})
+    for namespace_rank, namespace in enumerate(namespaces):
+        taxonomy = all_facts.get(namespace, {})
+        for tag_rank, tag in enumerate(tags):
+            concept = taxonomy.get(tag, {})
+            units = concept.get("units", {})
+            for raw in units.get(unit, []):
+                if not isinstance(raw, dict) or not isinstance(raw.get("val"), (int, float)):
+                    continue
+                item = dict(raw)
+                item["tag"] = tag
+                item["label"] = concept.get("label") or tag
+                item["unit"] = unit
+                item["tagRank"] = namespace_rank * len(tags) + tag_rank
+                results.append(item)
     return results
 
 
-def newest_instant(companyfacts: dict, tags: tuple[str, ...]) -> dict | None:
+def newest_instant(
+    companyfacts: dict,
+    tags: tuple[str, ...],
+    *,
+    namespaces: tuple[str, ...] = ("us-gaap",),
+    unit: str = "USD",
+) -> dict | None:
     rows = [
         row
-        for row in concept_entries(companyfacts, tags)
+        for row in concept_entries(companyfacts, tags, namespaces=namespaces, unit=unit)
         if row.get("form") in INSTANT_FORMS
         and parse_date(row.get("end"))
         and not row.get("start")
@@ -236,6 +267,14 @@ def analyze_company(issuer: dict, companyfacts: dict) -> dict:
             "retainedEarnings",
         )
     }
+    instant["sharesOutstanding"] = newest_instant(
+        companyfacts,
+        CONCEPTS["sharesOutstanding"],
+        namespaces=("dei", "us-gaap"),
+        unit="shares",
+    )
+    for debt_key in ("debt", "currentDebt", "noncurrentDebt"):
+        instant[debt_key] = newest_instant(companyfacts, CONCEPTS[debt_key])
     annual = {
         key: newest_annual(companyfacts, CONCEPTS[key])
         for key in (
@@ -264,6 +303,14 @@ def analyze_company(issuer: dict, companyfacts: dict) -> dict:
     current_liabilities = (
         instant["currentLiabilities"]["val"] if instant["currentLiabilities"] else None
     )
+    reported_debt = instant["debt"]["val"] if instant["debt"] else None
+    current_debt = instant["currentDebt"]["val"] if instant["currentDebt"] else None
+    noncurrent_debt = instant["noncurrentDebt"]["val"] if instant["noncurrentDebt"] else None
+    total_debt = reported_debt
+    if total_debt is None and (current_debt is not None or noncurrent_debt is not None):
+        total_debt = (current_debt or 0) + (noncurrent_debt or 0)
+    free_cash_flow = cfo - capex if cfo is not None and capex is not None else None
+    net_debt = total_debt - cash if total_debt is not None and cash is not None else None
     is_financial = issuer.get("cohort") in FINANCIAL_COHORTS
 
     if cash is None:
@@ -417,6 +464,18 @@ def analyze_company(issuer: dict, companyfacts: dict) -> dict:
             "watchSignals": watch,
             "supportiveSignals": supportive,
             "conclusion": conclusion,
+        },
+        "valuationInputs": {
+            "freeCashFlow": free_cash_flow,
+            "totalDebt": total_debt,
+            "netDebt": net_debt,
+            "unit": "USD",
+            "method": "Free cash flow equals annual operating cash flow less capital expenditures; net debt equals reported or reconstructed debt less cash.",
+            "sourceFactKeys": {
+                "freeCashFlow": ["operatingCashFlow", "capitalExpenditures"],
+                "totalDebt": ["debt", "currentDebt", "noncurrentDebt"],
+                "netDebt": ["debt", "currentDebt", "noncurrentDebt", "cash"],
+            },
         },
         "facts": facts,
         "caveats": [

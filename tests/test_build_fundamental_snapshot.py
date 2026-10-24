@@ -23,6 +23,10 @@ def fact(label: str, entries: list[dict]) -> dict:
     return {"label": label, "units": {"USD": entries}}
 
 
+def share_fact(label: str, entries: list[dict]) -> dict:
+    return {"label": label, "units": {"shares": entries}}
+
+
 def instant(value: int, end: str, filed: str, accn: str) -> dict:
     return {"end": end, "val": value, "form": "10-Q", "filed": filed, "accn": accn}
 
@@ -53,6 +57,12 @@ class FundamentalSnapshotTests(unittest.TestCase):
         prior_accn = "0000000001-25-000001"
         self.companyfacts = {
             "facts": {
+                "dei": {
+                    "EntityCommonStockSharesOutstanding": share_fact(
+                        "Entity common stock shares outstanding",
+                        [instant(125_000_000, "2026-09-30", "2026-10-20", current_accn)],
+                    ),
+                },
                 "us-gaap": {
                     "CashAndCashEquivalentsAtCarryingValue": fact(
                         "Cash and cash equivalents",
@@ -71,6 +81,7 @@ class FundamentalSnapshotTests(unittest.TestCase):
                     "NetCashProvidedByUsedInFinancingActivities": fact("Financing cash flow", [annual(400_000_000, "2025-12-31", "2026-02-20", current_accn)]),
                     "ProceedsFromIssuanceOfLongTermDebt": fact("Debt issued", [annual(500_000_000, "2025-12-31", "2026-02-20", current_accn)]),
                     "RepaymentsOfLongTermDebt": fact("Debt repaid", [annual(50_000_000, "2025-12-31", "2026-02-20", current_accn)]),
+                    "LongTermDebtAndFinanceLeaseObligations": fact("Debt", [instant(750_000_000, "2026-09-30", "2026-10-20", current_accn)]),
                 }
             }
         }
@@ -85,6 +96,10 @@ class FundamentalSnapshotTests(unittest.TestCase):
         self.assertEqual(checks["investing"]["status"], "context")
         self.assertEqual(checks["financing"]["status"], "watch")
         self.assertEqual(checks["balance-sheet"]["status"], "pressure")
+        self.assertEqual(result["facts"]["sharesOutstanding"]["value"], 125_000_000)
+        self.assertEqual(result["valuationInputs"]["freeCashFlow"], -800_000_000)
+        self.assertEqual(result["valuationInputs"]["totalDebt"], 750_000_000)
+        self.assertEqual(result["valuationInputs"]["netDebt"], 120_000_000)
         self.assertGreaterEqual(result["summary"]["pressureSignals"], 3)
 
     def test_financial_company_uses_sector_review_instead_of_generic_leverage_rule(self):
