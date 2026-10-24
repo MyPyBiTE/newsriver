@@ -23,6 +23,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Sync queued run with latest main
+        run: git pull --ff-only origin main
+
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
