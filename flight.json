@@ -1,14 +1,23 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T19:31:44Z",
+  "generatedAt": "2026-10-25T22:00:25Z",
   "attribution": "Flight data: ADSB.lol (ODbL 1.0). Presence does not identify passengers.",
   "items": [
+    {
+      "ownerName": "Possible flight by Tom Cruise",
+      "callsign": "XGN888",
+      "altitudeFt": 38000,
+      "route": "Airborne",
+      "updatedAt": "2026-10-25T22:00:22Z",
+      "url": "https://www.celebplanes.com/map?track=aa688a",
+      "sourceName": "ADSB.lol"
+    },
     {
       "ownerName": "Possible flight by Marc Anthony",
       "callsign": "N513MA",
       "altitudeFt": 0,
       "route": "Not currently airborne",
-      "updatedAt": "2026-10-25T19:31:34Z",
+      "updatedAt": "2026-10-25T22:00:15Z",
       "url": "https://www.celebplanes.com/map?track=a66da8",
       "sourceName": "ADSB.lol"
     },
@@ -17,7 +26,7 @@
       "callsign": "N3200X",
       "altitudeFt": 0,
       "route": "Not currently airborne",
-      "updatedAt": "2026-10-25T19:31:36Z",
+      "updatedAt": "2026-10-25T22:00:17Z",
       "url": "https://www.celebplanes.com/map?track=a370be",
       "sourceName": "ADSB.lol"
     },
@@ -26,7 +35,7 @@
       "callsign": "N767CJ",
       "altitudeFt": 0,
       "route": "Not currently airborne",
-      "updatedAt": "2026-10-25T19:31:37Z",
+      "updatedAt": "2026-10-25T22:00:18Z",
       "url": "https://www.celebplanes.com/map?track=aa5bc4",
       "sourceName": "ADSB.lol"
     },
@@ -35,7 +44,7 @@
       "callsign": "N540W",
       "altitudeFt": 0,
       "route": "Not currently airborne",
-      "updatedAt": "2026-10-25T19:31:39Z",
+      "updatedAt": "2026-10-25T22:00:20Z",
       "url": "https://www.celebplanes.com/map?track=a6d9e0",
       "sourceName": "ADSB.lol"
     },
@@ -44,17 +53,8 @@
       "callsign": "N236MJ",
       "altitudeFt": 0,
       "route": "Not currently airborne",
-      "updatedAt": "2026-10-25T19:31:40Z",
+      "updatedAt": "2026-10-25T22:00:21Z",
       "url": "https://www.celebplanes.com/map?track=a21fe6",
-      "sourceName": "ADSB.lol"
-    },
-    {
-      "ownerName": "Possible flight by Tom Cruise",
-      "callsign": "N77VA",
-      "altitudeFt": 0,
-      "route": "Not currently airborne",
-      "updatedAt": "2026-10-25T19:31:41Z",
-      "url": "https://www.celebplanes.com/map?track=aa688a",
       "sourceName": "ADSB.lol"
     },
     {
@@ -62,7 +62,7 @@
       "callsign": "N1089",
       "altitudeFt": 0,
       "route": "Not currently airborne",
-      "updatedAt": "2026-10-25T19:31:43Z",
+      "updatedAt": "2026-10-25T22:00:24Z",
       "url": "https://www.celebplanes.com/map?track=a025ff",
       "sourceName": "ADSB.lol"
     },
@@ -71,7 +71,7 @@
       "callsign": "N628TS",
       "altitudeFt": 0,
       "route": "Not currently airborne",
-      "updatedAt": "2026-10-25T19:31:44Z",
+      "updatedAt": "2026-10-25T22:00:25Z",
       "url": "https://www.celebplanes.com/map?track=a835af",
       "sourceName": "ADSB.lol"
     }
