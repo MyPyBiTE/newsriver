@@ -20,57 +20,100 @@ from fetch_sec_intake import REQUEST_INTERVAL_SECONDS, IntakeFailure, SecClient,
 ROOT = Path(__file__).resolve().parents[1]
 SCHEMA = "mypybite.fundamental-snapshot.v1"
 SEC_COMPANYFACTS = "https://data.sec.gov/api/xbrl/companyfacts"
-INSTANT_FORMS = {"10-Q", "10-Q/A", "10-K", "10-K/A"}
+INSTANT_FORMS = {
+    "10-Q",
+    "10-Q/A",
+    "10-K",
+    "10-K/A",
+    "20-F",
+    "20-F/A",
+    "40-F",
+    "40-F/A",
+}
 ANNUAL_FORMS = {"10-K", "10-K/A", "20-F", "20-F/A", "40-F", "40-F/A"}
 FINANCIAL_COHORTS = {"financial-system", "capital-provider"}
+MONETARY_NAMESPACES = ("us-gaap", "ifrs-full")
 
 CONCEPTS = {
     "cash": (
         "CashAndCashEquivalentsAtCarryingValue",
         "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
         "CashAndDueFromBanks",
+        "CashAndCashEquivalents",
     ),
     "assets": ("Assets",),
-    "currentAssets": ("AssetsCurrent",),
+    "currentAssets": ("AssetsCurrent", "CurrentAssets"),
     "liabilities": ("Liabilities",),
-    "currentLiabilities": ("LiabilitiesCurrent",),
+    "currentLiabilities": ("LiabilitiesCurrent", "CurrentLiabilities"),
     "equity": (
         "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
         "StockholdersEquity",
         "PartnersCapital",
+        "Equity",
+        "EquityAttributableToOwnersOfParent",
     ),
-    "retainedEarnings": ("RetainedEarningsAccumulatedDeficit",),
-    "operatingCashFlow": ("NetCashProvidedByUsedInOperatingActivities",),
-    "investingCashFlow": ("NetCashProvidedByUsedInInvestingActivities",),
-    "financingCashFlow": ("NetCashProvidedByUsedInFinancingActivities",),
-    "capitalExpenditures": ("PaymentsToAcquirePropertyPlantAndEquipment",),
+    "retainedEarnings": ("RetainedEarningsAccumulatedDeficit", "RetainedEarnings"),
+    "operatingCashFlow": (
+        "NetCashProvidedByUsedInOperatingActivities",
+        "CashFlowsFromUsedInOperatingActivities",
+    ),
+    "investingCashFlow": (
+        "NetCashProvidedByUsedInInvestingActivities",
+        "CashFlowsFromUsedInInvestingActivities",
+    ),
+    "financingCashFlow": (
+        "NetCashProvidedByUsedInFinancingActivities",
+        "CashFlowsFromUsedInFinancingActivities",
+    ),
+    "capitalExpenditures": (
+        "PaymentsToAcquirePropertyPlantAndEquipment",
+        "PaymentsToAcquireOtherPropertyPlantAndEquipment",
+        "PaymentsToAcquireProductiveAssets",
+        "PaymentsToAcquireOtherProductiveAssets",
+        "PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+    ),
     "debtIssued": (
         "ProceedsFromIssuanceOfLongTermDebt",
         "ProceedsFromLongTermDebt",
         "ProceedsFromIssuanceOfDebt",
+        "ProceedsFromBorrowingsClassifiedAsFinancingActivities",
+        "ProceedsFromCurrentBorrowings",
+        "ProceedsFromNoncurrentBorrowings",
     ),
     "debtRepaid": (
         "RepaymentsOfLongTermDebt",
         "RepaymentsOfDebt",
+        "RepaymentsOfBorrowingsClassifiedAsFinancingActivities",
+        "RepaymentsOfNoncurrentBorrowings",
     ),
     "sharesOutstanding": (
         "EntityCommonStockSharesOutstanding",
         "CommonStockSharesOutstanding",
+        "NumberOfSharesOutstanding",
     ),
     "debt": (
         "LongTermDebtAndFinanceLeaseObligations",
         "LongTermDebt",
+        "Borrowings",
     ),
     "currentDebt": (
         "LongTermDebtAndFinanceLeaseObligationsCurrent",
         "LongTermDebtCurrent",
         "ShortTermBorrowings",
+        "CurrentPortionOfLongtermBorrowings",
+        "ShorttermBorrowings",
     ),
     "noncurrentDebt": (
         "LongTermDebtAndFinanceLeaseObligationsNoncurrent",
         "LongTermDebtNoncurrent",
+        "LongtermBorrowings",
     ),
 }
+
+SHARE_FALLBACK_CONCEPTS = (
+    "WeightedAverageNumberOfDilutedSharesOutstanding",
+    "WeightedAverageNumberOfSharesOutstandingBasic",
+)
 
 
 def utc_now_iso() -> str:
@@ -117,6 +160,7 @@ def concept_entries(
                 item = dict(raw)
                 item["tag"] = tag
                 item["label"] = concept.get("label") or tag
+                item["taxonomy"] = namespace
                 item["unit"] = unit
                 item["tagRank"] = namespace_rank * len(tags) + tag_rank
                 results.append(item)
@@ -158,7 +202,12 @@ def prior_year_instant(companyfacts: dict, latest: dict | None) -> dict | None:
         return None
     rows = [
         row
-        for row in concept_entries(companyfacts, (str(latest["tag"]),))
+        for row in concept_entries(
+            companyfacts,
+            (str(latest["tag"]),),
+            namespaces=(str(latest["taxonomy"]),),
+            unit=str(latest["unit"]),
+        )
         if row.get("form") in INSTANT_FORMS
         and not row.get("start")
         and parse_date(row.get("end"))
@@ -175,9 +224,15 @@ def prior_year_instant(companyfacts: dict, latest: dict | None) -> dict | None:
     )
 
 
-def newest_annual(companyfacts: dict, tags: tuple[str, ...]) -> dict | None:
+def newest_annual(
+    companyfacts: dict,
+    tags: tuple[str, ...],
+    *,
+    namespaces: tuple[str, ...] = ("us-gaap",),
+    unit: str = "USD",
+) -> dict | None:
     rows = []
-    for row in concept_entries(companyfacts, tags):
+    for row in concept_entries(companyfacts, tags, namespaces=namespaces, unit=unit):
         start = parse_date(row.get("start"))
         end = parse_date(row.get("end"))
         if (
@@ -200,12 +255,34 @@ def newest_annual(companyfacts: dict, tags: tuple[str, ...]) -> dict | None:
     )
 
 
+def reporting_currency(companyfacts: dict) -> str:
+    """Choose one reporting currency without mixing currencies within a company."""
+    scores: dict[str, int] = {}
+    all_facts = companyfacts.get("facts", {})
+    for key, tags in CONCEPTS.items():
+        if key == "sharesOutstanding":
+            continue
+        units_for_key: set[str] = set()
+        for namespace in MONETARY_NAMESPACES:
+            taxonomy = all_facts.get(namespace, {})
+            for tag in tags:
+                for unit in taxonomy.get(tag, {}).get("units", {}):
+                    if len(unit) == 3 and unit.isalpha() and unit.upper() == unit:
+                        units_for_key.add(unit)
+        for unit in units_for_key:
+            scores[unit] = scores.get(unit, 0) + 1
+    if not scores:
+        return "USD"
+    return max(scores, key=lambda unit: (scores[unit], unit == "USD", unit))
+
+
 def public_fact(cik: str, row: dict | None) -> dict | None:
     if not row:
         return None
     return {
         "value": row["val"],
         "unit": row["unit"],
+        "taxonomy": row["taxonomy"],
         "tag": row["tag"],
         "label": row["label"],
         "start": row.get("start"),
@@ -223,16 +300,17 @@ def percent_change(current: dict | None, previous: dict | None) -> float | None:
     return round((current["val"] / previous["val"] - 1) * 100, 1)
 
 
-def money(value: float | int | None) -> str:
+def money(value: float | int | None, currency: str = "USD") -> str:
     if value is None:
         return "unavailable"
     sign = "-" if value < 0 else ""
     size = abs(value)
+    prefix = "$" if currency == "USD" else f"{currency} "
     if size >= 1_000_000_000:
-        return f"{sign}${size / 1_000_000_000:.1f}B"
+        return f"{sign}{prefix}{size / 1_000_000_000:.1f}B"
     if size >= 1_000_000:
-        return f"{sign}${size / 1_000_000:.1f}M"
-    return f"{sign}${size:,.0f}"
+        return f"{sign}{prefix}{size / 1_000_000:.1f}M"
+    return f"{sign}{prefix}{size:,.0f}"
 
 
 def check(
@@ -255,8 +333,14 @@ def check(
 
 def analyze_company(issuer: dict, companyfacts: dict) -> dict:
     cik = str(issuer["cik"])
+    currency = reporting_currency(companyfacts)
     instant = {
-        key: newest_instant(companyfacts, CONCEPTS[key])
+        key: newest_instant(
+            companyfacts,
+            CONCEPTS[key],
+            namespaces=MONETARY_NAMESPACES,
+            unit=currency,
+        )
         for key in (
             "cash",
             "assets",
@@ -270,13 +354,33 @@ def analyze_company(issuer: dict, companyfacts: dict) -> dict:
     instant["sharesOutstanding"] = newest_instant(
         companyfacts,
         CONCEPTS["sharesOutstanding"],
-        namespaces=("dei", "us-gaap"),
+        namespaces=("dei", "us-gaap", "ifrs-full"),
         unit="shares",
     )
+    share_count_basis = "point-in-time"
+    if instant["sharesOutstanding"] is None:
+        instant["sharesOutstanding"] = newest_annual(
+            companyfacts,
+            SHARE_FALLBACK_CONCEPTS,
+            namespaces=("us-gaap", "ifrs-full"),
+            unit="shares",
+        )
+        if instant["sharesOutstanding"] is not None:
+            share_count_basis = "annual-diluted-weighted-average-fallback"
     for debt_key in ("debt", "currentDebt", "noncurrentDebt"):
-        instant[debt_key] = newest_instant(companyfacts, CONCEPTS[debt_key])
+        instant[debt_key] = newest_instant(
+            companyfacts,
+            CONCEPTS[debt_key],
+            namespaces=MONETARY_NAMESPACES,
+            unit=currency,
+        )
     annual = {
-        key: newest_annual(companyfacts, CONCEPTS[key])
+        key: newest_annual(
+            companyfacts,
+            CONCEPTS[key],
+            namespaces=MONETARY_NAMESPACES,
+            unit=currency,
+        )
         for key in (
             "operatingCashFlow",
             "investingCashFlow",
@@ -309,9 +413,20 @@ def analyze_company(issuer: dict, companyfacts: dict) -> dict:
     total_debt = reported_debt
     if total_debt is None and (current_debt is not None or noncurrent_debt is not None):
         total_debt = (current_debt or 0) + (noncurrent_debt or 0)
-    free_cash_flow = cfo - capex if cfo is not None and capex is not None else None
+    cash_flow_periods_match = bool(
+        annual["operatingCashFlow"]
+        and annual["capitalExpenditures"]
+        and annual["operatingCashFlow"].get("end")
+        == annual["capitalExpenditures"].get("end")
+    )
+    free_cash_flow = (
+        cfo - capex
+        if cfo is not None and capex is not None and cash_flow_periods_match
+        else None
+    )
     net_debt = total_debt - cash if total_debt is not None and cash is not None else None
     is_financial = issuer.get("cohort") in FINANCIAL_COHORTS
+    format_money = lambda value: money(value, currency)
 
     if cash is None:
         liquidity_status = "insufficient"
@@ -324,11 +439,11 @@ def analyze_company(issuer: dict, companyfacts: dict) -> dict:
         liquidity_headline = f"Cash rose {cash_change:.1f}% year over year"
     else:
         liquidity_status = "neutral"
-        liquidity_headline = f"Cash stands at {money(cash)}"
+        liquidity_headline = f"Cash stands at {format_money(cash)}"
     liquidity_detail = (
-        f"Latest cash is {money(cash)}"
+        f"Latest cash is {format_money(cash)}"
         + (
-            f", versus {money(cash_prior['val'])} roughly one year earlier."
+            f", versus {format_money(cash_prior['val'])} roughly one year earlier."
             if cash_prior
             else ". A comparable prior-year fact was not available."
         )
@@ -339,10 +454,10 @@ def analyze_company(issuer: dict, companyfacts: dict) -> dict:
         operations_headline = "Annual operating cash flow unavailable"
     elif cfo < 0:
         operations_status = "pressure"
-        operations_headline = f"Operations used {money(abs(cfo))} of cash"
+        operations_headline = f"Operations used {format_money(abs(cfo))} of cash"
     else:
         operations_status = "supportive"
-        operations_headline = f"Operations generated {money(cfo)} of cash"
+        operations_headline = f"Operations generated {format_money(cfo)} of cash"
     if cash is not None and cfo is not None and cfo < 0:
         runway = cash / abs(cfo) if cfo else None
         operations_detail = (
@@ -356,12 +471,12 @@ def analyze_company(issuer: dict, companyfacts: dict) -> dict:
         )
 
     investing_headline = (
-        f"Investing activities {'used' if investing < 0 else 'provided'} {money(abs(investing))}"
+        f"Investing activities {'used' if investing < 0 else 'provided'} {format_money(abs(investing))}"
         if investing is not None
         else "Annual investing cash flow unavailable"
     )
     investing_detail = (
-        f"Reported capital expenditures were {money(capex)}. Investing outflows require context: "
+        f"Reported capital expenditures were {format_money(capex)}. Investing outflows require context: "
         "they may represent expansion, acquisitions or asset purchases rather than deterioration."
         if capex is not None
         else "Investing cash flow is contextual until the filing explains acquisitions, asset sales and capital spending."
@@ -369,9 +484,9 @@ def analyze_company(issuer: dict, companyfacts: dict) -> dict:
 
     financing_parts = []
     if debt_issued is not None:
-        financing_parts.append(f"debt issued {money(debt_issued)}")
+        financing_parts.append(f"debt issued {format_money(debt_issued)}")
     if debt_repaid is not None:
-        financing_parts.append(f"debt repaid {money(debt_repaid)}")
+        financing_parts.append(f"debt repaid {format_money(debt_repaid)}")
     financing_status = (
         "watch"
         if debt_issued is not None and debt_issued > (debt_repaid or 0)
@@ -382,12 +497,12 @@ def analyze_company(issuer: dict, companyfacts: dict) -> dict:
     financing_headline = (
         "; ".join(financing_parts).capitalize()
         if financing_parts
-        else f"Financing activities {'provided' if financing and financing > 0 else 'used'} {money(abs(financing))}"
+        else f"Financing activities {'provided' if financing and financing > 0 else 'used'} {format_money(abs(financing))}"
         if financing is not None
         else "Annual financing details unavailable"
     )
     financing_detail = (
-        f"Net financing cash flow was {money(financing)}. Positive financing cash flow can mean new debt or equity; inspect the components before judging it."
+        f"Net financing cash flow was {format_money(financing)}. Positive financing cash flow can mean new debt or equity; inspect the components before judging it."
         if financing is not None
         else "Debt and equity issuance should be read together with repayments, dilution and maturity obligations."
     )
@@ -400,7 +515,7 @@ def analyze_company(issuer: dict, companyfacts: dict) -> dict:
         )
     elif equity is not None and equity < 0:
         balance_status = "pressure"
-        balance_headline = f"Shareholders’ equity is negative at {money(equity)}"
+        balance_headline = f"Shareholders’ equity is negative at {format_money(equity)}"
         balance_detail = "Negative equity means recorded liabilities and other claims exceed recorded assets attributable to shareholders."
     elif assets is not None and liabilities is not None:
         ratio = liabilities / assets if assets else None
@@ -416,9 +531,9 @@ def analyze_company(issuer: dict, companyfacts: dict) -> dict:
             else "Balance-sheet ratio unavailable"
         )
         balance_detail = (
-            f"Assets are {money(assets)}, liabilities {money(liabilities)} and equity {money(equity)}."
+            f"Assets are {format_money(assets)}, liabilities {format_money(liabilities)} and equity {format_money(equity)}."
             + (f" Current ratio is {current_ratio:.2f}." if current_ratio is not None else "")
-            + (f" Retained earnings/accumulated deficit is {money(retained)}." if retained is not None else "")
+            + (f" Retained earnings/accumulated deficit is {format_money(retained)}." if retained is not None else "")
         )
     else:
         balance_status = "insufficient"
@@ -469,8 +584,9 @@ def analyze_company(issuer: dict, companyfacts: dict) -> dict:
             "freeCashFlow": free_cash_flow,
             "totalDebt": total_debt,
             "netDebt": net_debt,
-            "unit": "USD",
-            "method": "Free cash flow equals annual operating cash flow less capital expenditures; net debt equals reported or reconstructed debt less cash.",
+            "unit": currency,
+            "shareCountBasis": share_count_basis if instant["sharesOutstanding"] else None,
+            "method": "Free cash flow equals annual operating cash flow less capital expenditures for the same fiscal period; net debt equals reported or reconstructed debt less cash.",
             "sourceFactKeys": {
                 "freeCashFlow": ["operatingCashFlow", "capitalExpenditures"],
                 "totalDebt": ["debt", "currentDebt", "noncurrentDebt"],
