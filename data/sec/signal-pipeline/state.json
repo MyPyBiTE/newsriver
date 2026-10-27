@@ -1,7 +1,7 @@
 {
   "schema": "mypybite.signal-pipeline-state.v1",
   "pipelineVersion": 1,
-  "updatedAt": "2026-10-27T20:14:39Z",
+  "updatedAt": "2026-10-27T23:47:16Z",
   "candidates": {
     "sec:0000004962-26-000409:0000004962": {
       "pipelineVersion": 1,
@@ -1387,6 +1387,1796 @@
       "stage": "document-collection",
       "reasons": [
         "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0000318154-26-000148:0000318154": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0000318154-26-000148",
+      "cik": "0000318154",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "publication-gate",
+      "reasons": [
+        "Who, What, When and How must be source-supported; undisclosed Why or Where must be explicit.",
+        "The category and high-materiality decision must match a defined rule.",
+        "Important and Critical events require high confidence; other events require at least moderate confidence.",
+        "Automatic publication currently supports Form 8-K and 8-K/A only; other forms require a form-specific reader.",
+        "The selected passage must state a concrete corporate action and must not be filing instructions or regulatory boilerplate."
+      ],
+      "eventId": null
+    },
+    "sec:0001225208-26-008538:0000936468": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0001225208-26-008538",
+      "cik": "0000936468",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "publication-gate",
+      "reasons": [
+        "Who, What, When and How must be source-supported; undisclosed Why or Where must be explicit.",
+        "Important and Critical events require high confidence; other events require at least moderate confidence.",
+        "Automatic publication currently supports Form 8-K and 8-K/A only; other forms require a form-specific reader.",
+        "The selected passage must state a concrete corporate action and must not be filing instructions or regulatory boilerplate."
+      ],
+      "eventId": null
+    },
+    "sec:0001225208-26-008537:0000936468": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0001225208-26-008537",
+      "cik": "0000936468",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "publication-gate",
+      "reasons": [
+        "Who, What, When and How must be source-supported; undisclosed Why or Where must be explicit.",
+        "Important and Critical events require high confidence; other events require at least moderate confidence.",
+        "Automatic publication currently supports Form 8-K and 8-K/A only; other forms require a form-specific reader.",
+        "The selected passage must state a concrete corporate action and must not be filing instructions or regulatory boilerplate."
+      ],
+      "eventId": null
+    },
+    "sec:0001341439-26-000125:0001341439": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0001341439-26-000125",
+      "cik": "0001341439",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "publication-gate",
+      "reasons": [
+        "Who, What, When and How must be source-supported; undisclosed Why or Where must be explicit.",
+        "Important and Critical events require high confidence; other events require at least moderate confidence.",
+        "Automatic publication currently supports Form 8-K and 8-K/A only; other forms require a form-specific reader.",
+        "The selected passage must state a concrete corporate action and must not be filing instructions or regulatory boilerplate."
+      ],
+      "eventId": null
+    },
+    "sec:0001341439-26-000123:0001341439": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0001341439-26-000123",
+      "cik": "0001341439",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "Document URL leaves the expected accession directory."
+      ],
+      "eventId": null
+    },
+    "sec:0001341439-26-000121:0001341439": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0001341439-26-000121",
+      "cik": "0001341439",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "Document URL leaves the expected accession directory."
+      ],
+      "eventId": null
+    },
+    "sec:0001341439-26-000119:0001341439": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0001341439-26-000119",
+      "cik": "0001341439",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "publication-gate",
+      "reasons": [
+        "Automatic publication currently supports Form 8-K and 8-K/A only; other forms require a form-specific reader.",
+        "The selected passage must state a concrete corporate action and must not be filing instructions or regulatory boilerplate."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003951:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003951",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003950:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003950",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003949:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003949",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003948:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003948",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003947:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003947",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003946:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003946",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003945:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003945",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003944:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003944",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003943:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003943",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003942:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003942",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003941:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003941",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003940:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003940",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003939:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003939",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003938:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003938",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003937:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003937",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003936:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003936",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003935:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003935",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003934:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003934",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003933:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003933",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003930:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003930",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003929:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003929",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003922:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003922",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003920:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003920",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003919:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003919",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003917:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003917",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003915:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003915",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003914:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003914",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003910:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003910",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003932:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003932",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003931:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003931",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003928:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003928",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003927:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003927",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003926:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003926",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003925:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003925",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003924:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003924",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003923:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003923",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003921:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003921",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003918:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003918",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003916:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003916",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003913:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003913",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003912:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003912",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003911:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003911",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003909:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003909",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003908:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003908",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003907:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003907",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003905:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003905",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003904:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003904",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003903:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003903",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003901:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003901",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003898:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003898",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003897:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003897",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003895:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003895",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003893:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003893",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003892:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003892",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003891:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003891",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003890:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003890",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003889:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003889",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003888:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003888",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003885:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003885",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003883:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003883",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003880:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003880",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003876:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003876",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003906:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003906",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003902:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003902",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003900:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003900",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003899:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003899",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003896:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003896",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003894:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003894",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003887:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003887",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003886:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003886",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003884:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003884",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003882:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003882",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003881:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003881",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003879:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003879",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003878:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003878",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003877:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003877",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003875:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003875",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003873:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003873",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003872:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003872",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003868:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003868",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003867:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003867",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003866:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003866",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003865:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003865",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003863:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003863",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003861:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003861",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003860:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003860",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003856:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003856",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003854:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003854",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003853:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003853",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003852:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003852",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003852:0001318605": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003852",
+      "cik": "0001318605",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003850:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003850",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003848:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003848",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003846:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003846",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003874:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003874",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003871:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003871",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003870:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003870",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003869:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003869",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003864:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003864",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003862:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003862",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003859:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003859",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003858:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003858",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003857:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003857",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003855:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003855",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003851:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003851",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003849:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003849",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003847:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003847",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003844:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003844",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003843:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003843",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003840:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003840",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003845:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003845",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003842:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003842",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003841:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003841",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003839:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003839",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003838:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003838",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003837:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003837",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003836:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003836",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003835:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003835",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003834:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003834",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003833:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003833",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003832:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003832",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003825:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003825",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003831:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003831",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003830:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003830",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003828:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003828",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003827:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003827",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003826:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003826",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003823:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003823",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003821:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003821",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003820:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003820",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003819:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003819",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003817:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003817",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003816:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003816",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003815:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003815",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003812:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003812",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003811:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003811",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003810:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003810",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003808:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003808",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003807:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003807",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003805:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003805",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G document."
+      ],
+      "eventId": null
+    },
+    "sec:0002012383-26-003804:0002012383": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002012383-26-003804",
+      "cik": "0002012383",
+      "completedAt": "2026-10-27T23:47:16Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G document."
       ],
       "eventId": null
     }
