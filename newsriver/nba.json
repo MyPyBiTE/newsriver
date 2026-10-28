@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-27T23:07:51.369355Z",
+  "generated_utc": "2026-10-28T02:10:22.163086Z",
   "dates": [
     {
       "games": [
@@ -7,25 +7,25 @@
           "gamePk": "401909877",
           "gameDate": "2026-10-27T23:30Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "4th",
+            "currentQuarter": "4th"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "BKN"
               },
-              "score": 0
+              "score": 117
             },
             "home": {
               "team": {
                 "abbreviation": "BOS"
               },
-              "score": 0
+              "score": 117
             }
           }
         },
@@ -33,25 +33,25 @@
           "gamePk": "401909878",
           "gameDate": "2026-10-28T00:00Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "3rd",
+            "currentQuarter": "3rd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "DET"
               },
-              "score": 0
+              "score": 63
             },
             "home": {
               "team": {
                 "abbreviation": "NYK"
               },
-              "score": 0
+              "score": 84
             }
           }
         },
@@ -59,25 +59,25 @@
           "gamePk": "401909879",
           "gameDate": "2026-10-28T00:00Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "4th",
+            "currentQuarter": "4th"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "SAC"
               },
-              "score": 0
+              "score": 92
             },
             "home": {
               "team": {
                 "abbreviation": "SAS"
               },
-              "score": 0
+              "score": 114
             }
           }
         },
