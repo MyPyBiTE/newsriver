@@ -1,95 +1,24 @@
 {
   "schema": "mypybite.signal-pipeline-audit.v1",
-  "runAt": "2026-10-28T05:18:22Z",
-  "watchedCandidateCount": 255,
-  "pendingCandidateCount": 6,
+  "runAt": "2026-10-28T16:21:10Z",
+  "watchedCandidateCount": 256,
+  "pendingCandidateCount": 1,
   "autoApprovedCount": 0,
-  "quarantinedCount": 6,
+  "quarantinedCount": 1,
   "records": [
     {
-      "candidateId": "sec:0001193125-26-434846:0001652044",
+      "candidateId": "sec:0001193125-26-435577:0000087347",
       "pipelineVersion": 1,
       "status": "quarantined",
-      "accessionNumber": "0001193125-26-434846",
-      "cik": "0001652044",
-      "completedAt": "2026-10-28T05:18:22Z",
+      "accessionNumber": "0001193125-26-435577",
+      "cik": "0000087347",
+      "completedAt": "2026-10-28T16:21:10Z",
       "stage": "publication-gate",
       "reasons": [
         "Who, What, When and How must be source-supported; undisclosed Why or Where must be explicit.",
         "Important and Critical events require high confidence; other events require at least moderate confidence.",
         "Automatic publication currently supports Form 8-K and 8-K/A only; other forms require a form-specific reader.",
-        "The selected passage must state a concrete corporate action and must not be filing instructions or regulatory boilerplate."
-      ],
-      "eventId": null
-    },
-    {
-      "candidateId": "sec:0001193125-26-434841:0001652044",
-      "pipelineVersion": 1,
-      "status": "quarantined",
-      "accessionNumber": "0001193125-26-434841",
-      "cik": "0001652044",
-      "completedAt": "2026-10-28T05:18:22Z",
-      "stage": "document-collection",
-      "reasons": [
-        "Document URL leaves the expected accession directory."
-      ],
-      "eventId": null
-    },
-    {
-      "candidateId": "sec:0001193125-26-434840:0001652044",
-      "pipelineVersion": 1,
-      "status": "quarantined",
-      "accessionNumber": "0001193125-26-434840",
-      "cik": "0001652044",
-      "completedAt": "2026-10-28T05:18:22Z",
-      "stage": "publication-gate",
-      "reasons": [
-        "Who, What, When and How must be source-supported; undisclosed Why or Where must be explicit.",
-        "Important and Critical events require high confidence; other events require at least moderate confidence.",
-        "Automatic publication currently supports Form 8-K and 8-K/A only; other forms require a form-specific reader.",
-        "The selected passage must state a concrete corporate action and must not be filing instructions or regulatory boilerplate."
-      ],
-      "eventId": null
-    },
-    {
-      "candidateId": "sec:0001193125-26-434839:0001652044",
-      "pipelineVersion": 1,
-      "status": "quarantined",
-      "accessionNumber": "0001193125-26-434839",
-      "cik": "0001652044",
-      "completedAt": "2026-10-28T05:18:22Z",
-      "stage": "document-collection",
-      "reasons": [
-        "Document URL leaves the expected accession directory."
-      ],
-      "eventId": null
-    },
-    {
-      "candidateId": "sec:0001193125-26-434837:0001652044",
-      "pipelineVersion": 1,
-      "status": "quarantined",
-      "accessionNumber": "0001193125-26-434837",
-      "cik": "0001652044",
-      "completedAt": "2026-10-28T05:18:22Z",
-      "stage": "publication-gate",
-      "reasons": [
-        "Who, What, When and How must be source-supported; undisclosed Why or Where must be explicit.",
-        "Important and Critical events require high confidence; other events require at least moderate confidence.",
-        "Automatic publication currently supports Form 8-K and 8-K/A only; other forms require a form-specific reader.",
-        "The selected passage must state a concrete corporate action and must not be filing instructions or regulatory boilerplate."
-      ],
-      "eventId": null
-    },
-    {
-      "candidateId": "sec:0001193125-26-434831:0001652044",
-      "pipelineVersion": 1,
-      "status": "quarantined",
-      "accessionNumber": "0001193125-26-434831",
-      "cik": "0001652044",
-      "completedAt": "2026-10-28T05:18:22Z",
-      "stage": "document-collection",
-      "reasons": [
-        "Document URL leaves the expected accession directory."
+        "An explicitly dated action must be current enough to represent a development in the newly filed statement."
       ],
       "eventId": null
     }
