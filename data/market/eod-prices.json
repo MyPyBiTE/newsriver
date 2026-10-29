@@ -1,6 +1,6 @@
 {
   "schema": "mypybite.eod-price-cache.v1",
-  "generatedAt": "2026-10-29T19:41:14Z",
+  "generatedAt": "2026-10-29T21:07:41Z",
   "source": {
     "name": "IEX HIST",
     "permission": "Public T+1 distribution permitted with required attribution",
@@ -1228,6 +1228,16 @@
       "status": "iex-last-trade-t1",
       "venue": "IEX",
       "tradeSize": 32,
+      "refreshState": "fresh"
+    },
+    {
+      "symbol": "AETR",
+      "price": 1.98,
+      "currency": "USD",
+      "asOf": "2026-10-28T19:57:45.188550Z",
+      "status": "iex-last-trade-t1",
+      "venue": "IEX",
+      "tradeSize": 200,
       "refreshState": "fresh"
     },
     {
@@ -57522,8 +57532,8 @@
     }
   ],
   "coverage": {
-    "priceCount": 5751,
-    "refreshedThisRun": 5751,
+    "priceCount": 5752,
+    "refreshedThisRun": 5752,
     "preservedFromPriorRun": 0
   }
 }
