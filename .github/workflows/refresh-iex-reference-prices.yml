@@ -1,0 +1,106 @@
+name: Refresh IEX T+1 reference prices
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/refresh-iex-reference-prices.yml"
+      - "scripts/build_eod_price_cache.py"
+      - "scripts/build_iex_hist_price_input.py"
+      - "tests/test_build_eod_price_cache.py"
+      - "tests/test_build_iex_hist_price_input.py"
+  workflow_dispatch:
+    inputs:
+      hist_date:
+        description: "Optional IEX HIST date in YYYYMMDD form"
+        required: false
+        type: string
+  schedule:
+    - cron: "23 14 * * 2-6"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sec-data-writer
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Sync queued run with latest main
+        run: git pull --ff-only origin main
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Test the IEX decoder and price-cache contract
+        run: |
+          python -m unittest discover -s tests -p "test_build_iex_hist_price_input.py" -v
+          python -m unittest discover -s tests -p "test_build_eod_price_cache.py" -v
+
+      - name: Stream IEX TOPS and build the small attributed cache
+        env:
+          HIST_DATE: ${{ github.event.inputs.hist_date || '' }}
+        run: |
+          DATE_ARGS=()
+          if [ -n "$HIST_DATE" ]; then
+            DATE_ARGS=(--date "$HIST_DATE")
+          fi
+          python -u scripts/build_iex_hist_price_input.py \
+            "${DATE_ARGS[@]}" \
+            --symbols outputs/zero-cost-ticker-directory-development.json \
+            --output "$RUNNER_TEMP/iex-approved-price-input.json"
+          python scripts/build_eod_price_cache.py \
+            --input "$RUNNER_TEMP/iex-approved-price-input.json" \
+            --output data/market/eod-prices.json
+
+      - name: Validate publication size and attribution
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path("data/market/eod-prices.json")
+          payload = json.loads(path.read_text(encoding="utf-8"))
+          assert payload["schema"] == "mypybite.eod-price-cache.v1"
+          assert payload["source"]["name"] == "IEX HIST"
+          assert "IEX Historical Data Terms of Use" in payload["source"]["attribution"]
+          assert "not a consolidated market close" in payload["source"]["scope"]
+          assert payload["coverage"]["refreshedThisRun"] > 0
+          assert path.stat().st_size < 10_000_000
+          print(
+              f"Validated {payload['coverage']['priceCount']:,} cached prices; "
+              f"{payload['coverage']['refreshedThisRun']:,} refreshed this run."
+          )
+          PY
+
+      - name: Publish the attributed reference-price cache
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/market/eod-prices.json
+          if git diff --cached --quiet; then
+            echo "The IEX reference-price cache is already current."
+            exit 0
+          fi
+          git commit -m "Refresh IEX T+1 reference prices"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            sleep $((attempt * 2))
+          done
+          echo "Unable to publish IEX reference prices after three attempts."
+          exit 1
