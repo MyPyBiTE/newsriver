@@ -1,152 +1,21 @@
 {
   "schema": "mypybite.signal-pipeline-audit.v1",
-  "runAt": "2026-10-30T01:12:08Z",
-  "watchedCandidateCount": 280,
-  "pendingCandidateCount": 9,
+  "runAt": "2026-10-30T16:22:44Z",
+  "watchedCandidateCount": 281,
+  "pendingCandidateCount": 1,
   "autoApprovedCount": 0,
-  "quarantinedCount": 9,
+  "quarantinedCount": 1,
   "records": [
     {
-      "candidateId": "sec:0001392941-26-000017:0001375365",
+      "candidateId": "sec:0002100119-26-001597:0002115436",
       "pipelineVersion": 1,
       "status": "quarantined",
-      "accessionNumber": "0001392941-26-000017",
-      "cik": "0001375365",
-      "completedAt": "2026-10-30T01:12:08Z",
-      "stage": "publication-gate",
+      "accessionNumber": "0002100119-26-001597",
+      "cik": "0002115436",
+      "completedAt": "2026-10-30T16:22:44Z",
+      "stage": "document-collection",
       "reasons": [
-        "Who, What, When and How must be source-supported; undisclosed Why or Where must be explicit.",
-        "Important and Critical events require high confidence; other events require at least moderate confidence.",
-        "Automatic publication currently supports Form 8-K and 8-K/A only; other forms require a form-specific reader.",
-        "The selected passage must state a concrete corporate action and must not be filing instructions or regulatory boilerplate."
-      ],
-      "eventId": null
-    },
-    {
-      "candidateId": "sec:0001392942-26-000016:0001375365",
-      "pipelineVersion": 1,
-      "status": "quarantined",
-      "accessionNumber": "0001392942-26-000016",
-      "cik": "0001375365",
-      "completedAt": "2026-10-30T01:12:08Z",
-      "stage": "publication-gate",
-      "reasons": [
-        "Who, What, When and How must be source-supported; undisclosed Why or Where must be explicit.",
-        "Important and Critical events require high confidence; other events require at least moderate confidence.",
-        "Automatic publication currently supports Form 8-K and 8-K/A only; other forms require a form-specific reader.",
-        "The selected passage must state a concrete corporate action and must not be filing instructions or regulatory boilerplate."
-      ],
-      "eventId": null
-    },
-    {
-      "candidateId": "sec:0000923738-26-000048:0000316709",
-      "pipelineVersion": 1,
-      "status": "quarantined",
-      "accessionNumber": "0000923738-26-000048",
-      "cik": "0000316709",
-      "completedAt": "2026-10-30T01:12:08Z",
-      "stage": "publication-gate",
-      "reasons": [
-        "Who, What, When and How must be source-supported; undisclosed Why or Where must be explicit.",
-        "Important and Critical events require high confidence; other events require at least moderate confidence.",
-        "Automatic publication currently supports Form 8-K and 8-K/A only; other forms require a form-specific reader.",
-        "The selected passage must state a concrete corporate action and must not be filing instructions or regulatory boilerplate."
-      ],
-      "eventId": null
-    },
-    {
-      "candidateId": "sec:0001140361-26-041201:0000320193",
-      "pipelineVersion": 1,
-      "status": "quarantined",
-      "accessionNumber": "0001140361-26-041201",
-      "cik": "0000320193",
-      "completedAt": "2026-10-30T01:12:08Z",
-      "stage": "publication-gate",
-      "reasons": [
-        "Who, What, When and How must be source-supported; undisclosed Why or Where must be explicit.",
-        "Important and Critical events require high confidence; other events require at least moderate confidence.",
-        "Automatic publication currently supports Form 8-K and 8-K/A only; other forms require a form-specific reader.",
-        "The selected passage must state a concrete corporate action and must not be filing instructions or regulatory boilerplate."
-      ],
-      "eventId": null
-    },
-    {
-      "candidateId": "sec:0001492126-26-000013:0001375365",
-      "pipelineVersion": 1,
-      "status": "quarantined",
-      "accessionNumber": "0001492126-26-000013",
-      "cik": "0001375365",
-      "completedAt": "2026-10-30T01:12:08Z",
-      "stage": "publication-gate",
-      "reasons": [
-        "Who, What, When and How must be source-supported; undisclosed Why or Where must be explicit.",
-        "Important and Critical events require high confidence; other events require at least moderate confidence.",
-        "Automatic publication currently supports Form 8-K and 8-K/A only; other forms require a form-specific reader.",
-        "The selected passage must state a concrete corporate action and must not be filing instructions or regulatory boilerplate."
-      ],
-      "eventId": null
-    },
-    {
-      "candidateId": "sec:0002104631-26-000018:0001375365",
-      "pipelineVersion": 1,
-      "status": "quarantined",
-      "accessionNumber": "0002104631-26-000018",
-      "cik": "0001375365",
-      "completedAt": "2026-10-30T01:12:08Z",
-      "stage": "publication-gate",
-      "reasons": [
-        "Who, What, When and How must be source-supported; undisclosed Why or Where must be explicit.",
-        "Important and Critical events require high confidence; other events require at least moderate confidence.",
-        "Automatic publication currently supports Form 8-K and 8-K/A only; other forms require a form-specific reader.",
-        "The selected passage must state a concrete corporate action and must not be filing instructions or regulatory boilerplate."
-      ],
-      "eventId": null
-    },
-    {
-      "candidateId": "sec:0001583109-26-000004:0001065280",
-      "pipelineVersion": 1,
-      "status": "quarantined",
-      "accessionNumber": "0001583109-26-000004",
-      "cik": "0001065280",
-      "completedAt": "2026-10-30T01:12:08Z",
-      "stage": "publication-gate",
-      "reasons": [
-        "Who, What, When and How must be source-supported; undisclosed Why or Where must be explicit.",
-        "Important and Critical events require high confidence; other events require at least moderate confidence.",
-        "Automatic publication currently supports Form 8-K and 8-K/A only; other forms require a form-specific reader.",
-        "The selected passage must state a concrete corporate action and must not be filing instructions or regulatory boilerplate."
-      ],
-      "eventId": null
-    },
-    {
-      "candidateId": "sec:0002148161-26-000012:0001375365",
-      "pipelineVersion": 1,
-      "status": "quarantined",
-      "accessionNumber": "0002148161-26-000012",
-      "cik": "0001375365",
-      "completedAt": "2026-10-30T01:12:08Z",
-      "stage": "publication-gate",
-      "reasons": [
-        "Who, What, When and How must be source-supported; undisclosed Why or Where must be explicit.",
-        "Important and Critical events require high confidence; other events require at least moderate confidence.",
-        "Automatic publication currently supports Form 8-K and 8-K/A only; other forms require a form-specific reader.",
-        "The selected passage must state a concrete corporate action and must not be filing instructions or regulatory boilerplate."
-      ],
-      "eventId": null
-    },
-    {
-      "candidateId": "sec:0002135314-26-000014:0001375365",
-      "pipelineVersion": 1,
-      "status": "quarantined",
-      "accessionNumber": "0002135314-26-000014",
-      "cik": "0001375365",
-      "completedAt": "2026-10-30T01:12:08Z",
-      "stage": "publication-gate",
-      "reasons": [
-        "Who, What, When and How must be source-supported; undisclosed Why or Where must be explicit.",
-        "Important and Critical events require high confidence; other events require at least moderate confidence.",
-        "Automatic publication currently supports Form 8-K and 8-K/A only; other forms require a form-specific reader.",
-        "The selected passage must state a concrete corporate action and must not be filing instructions or regulatory boilerplate."
+        "SEC filing index lacks primary SC 13G document."
       ],
       "eventId": null
     }
