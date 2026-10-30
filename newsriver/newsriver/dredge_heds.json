@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Meet the new faces elected to Winnipeg city council",
-      "display":"Meet the new faces elected to Winnipeg city council",
-      "url":"https://globalnews.ca/news/12126492/new-city-councillors-winnipeg",
+      "text":"LIVE: Watch Blue Jays prospects in Arizona Fall League action",
+      "display":"LIVE: Watch Blue Jays prospects in Arizona Fall League action",
+      "url":"https://www.mlb.com/bluejays/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Summerland landslides raise concerns after wildfire leaves slopes vulnerable",
+      "display":"Summerland landslides raise concerns after wildfire leaves slopes vulnerable",
+      "url":"https://globalnews.ca/news/12126734/summerland-landslides-concerns-wildfire-slopes-vulnerable",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Skydance Reveals Key TV and Streaming Leadership Roles",
-      "display":"Skydance Reveals Key TV and Streaming Leadership Roles",
-      "url":"https://www.hollywoodreporter.com/business/business-news/skydance-tv-streaming-leadership-roles-1236743077",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Skydance’s JB Perrette Reveals His Full Leadership Team, Announces Departures of Several Execs Not Joining Following the Paramount-Warner Bros. Merger",
-      "display":"Skydance’s JB Perrette Reveals His Full Leadership Team, Announces Departures of Several Execs Not Joining Following the Paramount-Warner Bros. Merger",
-      "url":"https://variety.com/2026/tv/news/skydance-jb-perrette-leadership-team-departures-1236934597",
+      "text":"Ashton Jeanty gives Jets bulletin board material with vague defense dig",
+      "display":"Ashton Jeanty gives Jets bulletin board material with vague defense dig",
+      "url":"https://nypost.com/2026/10/29/sports/ashton-jeanty-gives-jets-bulletin-board-material-wit-defense-dig",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-10-30T00:55:24Z"
+  "generated_utc":"2026-10-30T06:37:54Z"
 }
