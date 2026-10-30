@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-30T20:03:55.533443Z",
+  "generated_utc": "2026-10-30T23:40:37.076641Z",
   "dates": [
     {
       "games": [
@@ -7,25 +7,25 @@
           "gamePk": "401909277",
           "gameDate": "2026-10-30T23:00Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "2nd",
+            "currentQuarter": "2nd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "CHA"
               },
-              "score": 0
+              "score": 26
             },
             "home": {
               "team": {
                 "abbreviation": "WSH"
               },
-              "score": 0
+              "score": 25
             }
           }
         },
