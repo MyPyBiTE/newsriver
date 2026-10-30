@@ -20,9 +20,13 @@ from fetch_sec_intake import REQUEST_INTERVAL_SECONDS, IntakeFailure, SecClient,
 
 ROOT = Path(__file__).resolve().parents[1]
 SCHEMA = "mypybite.fundamental-lookup-cache.v1"
+CALCULATOR_SCHEMA = "mypybite.calculator-fundamentals.v1"
 DEFAULT_DIRECTORY = ROOT / "outputs" / "zero-cost-ticker-directory-development.json"
 DEFAULT_SEED = ROOT / "data" / "sec" / "fundamentals" / "fundamentals.json"
 DEFAULT_OUTPUT = ROOT / "data" / "sec" / "fundamentals" / "ticker-lookup.json"
+DEFAULT_CALCULATOR_OUTPUT = (
+    ROOT / "data" / "sec" / "fundamentals" / "calculator-lookup.json"
+)
 KEEP_FACTS = (
     "sharesOutstanding",
     "operatingCashFlow",
@@ -234,11 +238,56 @@ def build_payload(
     }
 
 
+def build_calculator_payload(payload: dict) -> dict:
+    """Reduce the full evidence cache to the numbers needed by the DCF form."""
+    fields = [
+        "ticker",
+        "aliases",
+        "cik",
+        "legalName",
+        "latestPeriodEnd",
+        "sharesOutstanding",
+        "freeCashFlow",
+        "netDebt",
+        "currency",
+    ]
+    rows = []
+    for company in payload.get("companies", []):
+        facts = company.get("facts") or {}
+        inputs = company.get("valuationInputs") or {}
+        shares = (facts.get("sharesOutstanding") or {}).get("value")
+        rows.append(
+            [
+                company.get("ticker"),
+                company.get("aliases") or [],
+                company.get("cik"),
+                company.get("legalName"),
+                company.get("latestPeriodEnd"),
+                shares,
+                inputs.get("freeCashFlow"),
+                inputs.get("netDebt"),
+                inputs.get("unit") or "USD",
+            ]
+        )
+    return {
+        "schema": CALCULATOR_SCHEMA,
+        "generatedAt": payload.get("generatedAt"),
+        "source": payload.get("source"),
+        "marketPriceProvided": False,
+        "fields": fields,
+        "data": rows,
+        "coverage": payload.get("coverage") or {},
+    }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--directory", type=Path, default=DEFAULT_DIRECTORY)
     parser.add_argument("--seed-snapshot", type=Path, default=DEFAULT_SEED)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
+    parser.add_argument(
+        "--calculator-output", type=Path, default=DEFAULT_CALCULATOR_OUTPUT
+    )
     parser.add_argument("--batch-size", type=int, default=100)
     parser.add_argument(
         "--refresh-batch-size",
@@ -320,9 +369,20 @@ def main() -> int:
         args.output,
         json.dumps(payload, separators=(",", ":"), ensure_ascii=False) + "\n",
     )
+    calculator_payload = build_calculator_payload(payload)
+    args.calculator_output.parent.mkdir(parents=True, exist_ok=True)
+    atomic_write_text(
+        args.calculator_output,
+        json.dumps(calculator_payload, separators=(",", ":"), ensure_ascii=False)
+        + "\n",
+    )
     print(
         f"Wrote {args.output} with {payload['coverage']['cachedCiks']} cached CIKs; "
         f"{refreshed} refreshed and {len(failures)} failed this run"
+    )
+    print(
+        f"Wrote {args.calculator_output} with "
+        f"{len(calculator_payload['data'])} calculator rows"
     )
     return 0
 

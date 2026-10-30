@@ -60,6 +60,7 @@ jobs:
           git add \
             data/sec/fundamentals/fundamentals.json \
             data/sec/fundamentals/ticker-lookup.json \
+            data/sec/fundamentals/calculator-lookup.json \
             outputs/zero-cost-ticker-directory-development.json \
             signal-feed.json
           if git diff --cached --quiet; then

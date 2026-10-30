@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import importlib.util
+import json
 import sys
 import unittest
 from pathlib import Path
@@ -113,6 +114,46 @@ class FundamentalLookupCacheTests(unittest.TestCase):
         self.assertEqual(payload["coverage"]["cachedCiks"], 1)
         self.assertEqual(payload["coverage"]["remainingCiks"], 2)
         self.assertFalse(payload["marketPriceProvided"])
+
+    def test_calculator_payload_keeps_only_dcf_inputs(self):
+        payload = {
+            "generatedAt": "2026-10-30T00:00:00Z",
+            "source": "SEC",
+            "coverage": {"cachedCiks": 1},
+            "companies": [
+                {
+                    "ticker": "AAPL",
+                    "aliases": ["AAPL"],
+                    "cik": "0000320193",
+                    "legalName": "Apple Inc.",
+                    "latestPeriodEnd": "2026-07-17",
+                    "valuationInputs": {
+                        "freeCashFlow": 98_767_000_000,
+                        "netDebt": 42_756_000_000,
+                        "unit": "USD",
+                    },
+                    "facts": {
+                        "sharesOutstanding": {"value": 14_594_180_000},
+                        "cash": {"value": 39_544_000_000},
+                    },
+                }
+            ],
+        }
+        compact = MODULE.build_calculator_payload(payload)
+        self.assertEqual(compact["schema"], "mypybite.calculator-fundamentals.v1")
+        self.assertEqual(compact["data"][0][0], "AAPL")
+        self.assertEqual(compact["data"][0][5], 14_594_180_000)
+        self.assertEqual(compact["data"][0][6], 98_767_000_000)
+        self.assertNotIn("cash", compact["fields"])
+
+    def test_current_calculator_feed_maps_aapl_to_expected_dcf_inputs(self):
+        path = ROOT / "data" / "sec" / "fundamentals" / "calculator-lookup.json"
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        positions = {field: index for index, field in enumerate(payload["fields"])}
+        row = next(item for item in payload["data"] if item[positions["ticker"]] == "AAPL")
+        self.assertEqual(row[positions["sharesOutstanding"]] / 1_000_000, 14_594.18)
+        self.assertEqual(row[positions["freeCashFlow"]] / 1_000_000, 98_767)
+        self.assertEqual(row[positions["netDebt"]] / 1_000_000, 42_756)
 
 
 if __name__ == "__main__":
