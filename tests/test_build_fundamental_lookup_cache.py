@@ -53,6 +53,34 @@ class FundamentalLookupCacheTests(unittest.TestCase):
         selected = MODULE.choose_batch(companies, cache, 1)
         self.assertEqual(selected[0]["ticker"], "GOOG")
 
+    def test_large_batch_is_only_used_during_initial_fill(self):
+        companies = MODULE.directory_companies(directory_payload())
+        partial = {"0000320193": {"cik": "0000320193"}}
+        self.assertEqual(
+            MODULE.effective_batch_size(
+                companies,
+                partial,
+                initial_batch_size=6000,
+                refresh_batch_size=100,
+                initial_fill_minimum=2,
+            ),
+            6000,
+        )
+        broad = {
+            "0000320193": {"cik": "0000320193"},
+            "0000789019": {"cik": "0000789019"},
+        }
+        self.assertEqual(
+            MODULE.effective_batch_size(
+                companies,
+                broad,
+                initial_batch_size=6000,
+                refresh_batch_size=100,
+                initial_fill_minimum=2,
+            ),
+            100,
+        )
+
     def test_compact_company_never_carries_market_price(self):
         compact = MODULE.compact_company(
             {

@@ -187,6 +187,25 @@ def choose_batch(
     return chosen
 
 
+def effective_batch_size(
+    directory: dict[str, dict],
+    cache: dict[str, dict],
+    *,
+    initial_batch_size: int,
+    refresh_batch_size: int,
+    initial_fill_minimum: int,
+) -> int:
+    """Use the large batch only while the cache is genuinely being bootstrapped.
+
+    A small number of SEC directory entries never receive Companyfacts records.
+    Treating any uncached CIK as an unfinished initial build would needlessly
+    redownload almost the full universe on every scheduled run.
+    """
+    cached_eligible = len(set(directory).intersection(cache))
+    bootstrap_target = min(len(directory), max(0, initial_fill_minimum))
+    return initial_batch_size if cached_eligible < bootstrap_target else refresh_batch_size
+
+
 def build_payload(
     directory: dict[str, dict],
     cache: dict[str, dict],
@@ -221,6 +240,18 @@ def main() -> int:
     parser.add_argument("--seed-snapshot", type=Path, default=DEFAULT_SEED)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--batch-size", type=int, default=100)
+    parser.add_argument(
+        "--refresh-batch-size",
+        type=int,
+        default=100,
+        help="Batch size used after the initial cache target has been reached.",
+    )
+    parser.add_argument(
+        "--initial-fill-minimum",
+        type=int,
+        default=5000,
+        help="Minimum cached eligible CIKs before switching to the refresh batch.",
+    )
     parser.add_argument("--ticker", action="append", default=[])
     parser.add_argument("--user-agent", default=os.environ.get("SEC_USER_AGENT", ""))
     args = parser.parse_args()
@@ -234,7 +265,18 @@ def main() -> int:
     except (OSError, ValueError, json.JSONDecodeError) as exc:
         raise SystemExit(f"Fundamental lookup cache setup failed: {exc}") from exc
 
-    selected = choose_batch(directory, cache, args.batch_size, args.ticker)
+    selected = choose_batch(
+        directory,
+        cache,
+        effective_batch_size(
+            directory,
+            cache,
+            initial_batch_size=args.batch_size,
+            refresh_batch_size=args.refresh_batch_size,
+            initial_fill_minimum=args.initial_fill_minimum,
+        ),
+        args.ticker,
+    )
     client = SecClient(args.user_agent, REQUEST_INTERVAL_SECONDS)
     failures: list[dict[str, str]] = []
     refreshed = 0

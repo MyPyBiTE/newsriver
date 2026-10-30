@@ -46,7 +46,11 @@ jobs:
           fi
           python scripts/build_fundamental_snapshot.py
           python scripts/build_ticker_directory.py
-          python scripts/build_fundamental_lookup_cache.py --batch-size 100
+          # Fill the compact SEC lookup cache in one bounded run. Once at least
+          # 5,000 eligible CIKs are cached, refresh 100 records per run. This
+          # avoids retrying the entire universe when SEC has no Companyfacts
+          # document for a small number of funds or unusual issuers.
+          python scripts/build_fundamental_lookup_cache.py --batch-size 6000 --refresh-batch-size 100 --initial-fill-minimum 5000
           python scripts/build_signal_feed.py --output signal-feed.json
 
       - name: Publish fundamental snapshots
