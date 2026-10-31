@@ -1,7 +1,7 @@
 {
   "schema": "mypybite.signal-pipeline-state.v1",
   "pipelineVersion": 1,
-  "updatedAt": "2026-10-30T20:57:19Z",
+  "updatedAt": "2026-10-31T00:18:11Z",
   "candidates": {
     "sec:0000004962-26-000409:0000004962": {
       "pipelineVersion": 1,
@@ -3628,6 +3628,78 @@
       "accessionNumber": "0001193125-26-441717",
       "cik": "0001393818",
       "completedAt": "2026-10-30T20:57:19Z",
+      "stage": "publication-gate",
+      "reasons": [
+        "Who, What, When and How must be source-supported; undisclosed Why or Where must be explicit.",
+        "Important and Critical events require high confidence; other events require at least moderate confidence.",
+        "Automatic publication currently supports Form 8-K and 8-K/A only; other forms require a form-specific reader.",
+        "The selected passage must state a concrete corporate action and must not be filing instructions or regulatory boilerplate."
+      ],
+      "eventId": null
+    },
+    "sec:0001823923-26-000015:0001321655": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0001823923-26-000015",
+      "cik": "0001321655",
+      "completedAt": "2026-10-31T00:18:11Z",
+      "stage": "publication-gate",
+      "reasons": [
+        "Automatic publication currently supports Form 8-K and 8-K/A only; other forms require a form-specific reader.",
+        "The selected passage must state a concrete corporate action and must not be filing instructions or regulatory boilerplate.",
+        "An explicitly dated action must be current enough to represent a development in the newly filed statement."
+      ],
+      "eventId": null
+    },
+    "sec:0001824159-26-000015:0001321655": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0001824159-26-000015",
+      "cik": "0001321655",
+      "completedAt": "2026-10-31T00:18:11Z",
+      "stage": "publication-gate",
+      "reasons": [
+        "Automatic publication currently supports Form 8-K and 8-K/A only; other forms require a form-specific reader.",
+        "The selected passage must state a concrete corporate action and must not be filing instructions or regulatory boilerplate.",
+        "An explicitly dated action must be current enough to represent a development in the newly filed statement."
+      ],
+      "eventId": null
+    },
+    "sec:0001823940-26-000012:0001321655": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0001823940-26-000012",
+      "cik": "0001321655",
+      "completedAt": "2026-10-31T00:18:11Z",
+      "stage": "publication-gate",
+      "reasons": [
+        "Automatic publication currently supports Form 8-K and 8-K/A only; other forms require a form-specific reader.",
+        "The selected passage must state a concrete corporate action and must not be filing instructions or regulatory boilerplate.",
+        "An explicitly dated action must be current enough to represent a development in the newly filed statement."
+      ],
+      "eventId": null
+    },
+    "sec:0001193125-26-442116:0001652044": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0001193125-26-442116",
+      "cik": "0001652044",
+      "completedAt": "2026-10-31T00:18:11Z",
+      "stage": "publication-gate",
+      "reasons": [
+        "Who, What, When and How must be source-supported; undisclosed Why or Where must be explicit.",
+        "Important and Critical events require high confidence; other events require at least moderate confidence.",
+        "Automatic publication currently supports Form 8-K and 8-K/A only; other forms require a form-specific reader.",
+        "The selected passage must state a concrete corporate action and must not be filing instructions or regulatory boilerplate."
+      ],
+      "eventId": null
+    },
+    "sec:0000087347-26-000130:0000087347": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0000087347-26-000130",
+      "cik": "0000087347",
+      "completedAt": "2026-10-31T00:18:11Z",
       "stage": "publication-gate",
       "reasons": [
         "Who, What, When and How must be source-supported; undisclosed Why or Where must be explicit.",
