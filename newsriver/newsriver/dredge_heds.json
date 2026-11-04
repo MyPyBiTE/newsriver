@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Elks’ Rankin looks to solve Lions’ run defence",
-      "display":"Elks’ Rankin looks to solve Lions’ run defence",
-      "url":"https://globalnews.ca/news/12134988/elks-rankin-looks-to-solve-lions-run-defence",
+      "text":"LIVE: Watch Blue Jays prospects in Arizona Fall League action",
+      "display":"LIVE: Watch Blue Jays prospects in Arizona Fall League action",
+      "url":"https://www.mlb.com/bluejays/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"New Kelowna councillors intend to improve public discourse",
+      "display":"New Kelowna councillors intend to improve public discourse",
+      "url":"https://globalnews.ca/news/12135167/new-kelowna-councillors-intend-improve-public-discourse",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Key Senate races to watch in the U.S. midterms",
-      "display":"Key Senate races to watch in the U.S. midterms",
-      "url":"https://toronto.citynews.ca/2026/11/03/key-senate-races-u-s-midterms",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Election prediction model shows last-minute shift for Republicans as Democrats switch votes and chaos unfolds at polling places nationwide: Midterms live",
-      "display":"Election prediction model shows last-minute shift for Republicans as Democrats switch votes and chaos unfolds at polling places nationwide: Midterms live",
-      "url":"https://www.dailymail.com/news/article-16259741/election-day-midterms-2026-live-updates.html",
+      "text":"Midterm elections could jolt stocks if Democrats sweep Congress",
+      "display":"Midterm elections could jolt stocks if Democrats sweep Congress",
+      "url":"https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-11-04T01:30:57Z"
+  "generated_utc":"2026-11-04T07:59:16Z"
 }
