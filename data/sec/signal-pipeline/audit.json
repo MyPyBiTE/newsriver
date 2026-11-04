@@ -1,21 +1,39 @@
 {
   "schema": "mypybite.signal-pipeline-audit.v1",
-  "runAt": "2026-11-04T05:56:13Z",
-  "watchedCandidateCount": 314,
-  "pendingCandidateCount": 1,
+  "runAt": "2026-11-04T17:39:03Z",
+  "watchedCandidateCount": 316,
+  "pendingCandidateCount": 2,
   "autoApprovedCount": 0,
-  "quarantinedCount": 1,
+  "quarantinedCount": 2,
   "records": [
     {
-      "candidateId": "sec:0001193125-26-445930:0001067983",
+      "candidateId": "sec:0000050863-26-000195:0000050863",
       "pipelineVersion": 1,
       "status": "quarantined",
-      "accessionNumber": "0001193125-26-445930",
-      "cik": "0001067983",
-      "completedAt": "2026-11-04T05:56:13Z",
-      "stage": "document-collection",
+      "accessionNumber": "0000050863-26-000195",
+      "cik": "0000050863",
+      "completedAt": "2026-11-04T17:39:03Z",
+      "stage": "publication-gate",
       "reasons": [
-        "Document URL leaves the expected accession directory."
+        "Who, What, When and How must be source-supported; undisclosed Why or Where must be explicit.",
+        "Important and Critical events require high confidence; other events require at least moderate confidence.",
+        "Automatic publication currently supports Form 8-K and 8-K/A only; other forms require a form-specific reader.",
+        "The selected passage must state a concrete corporate action and must not be filing instructions or regulatory boilerplate."
+      ],
+      "eventId": null
+    },
+    {
+      "candidateId": "sec:0000018230-26-000057:0000018230",
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0000018230-26-000057",
+      "cik": "0000018230",
+      "completedAt": "2026-11-04T17:39:03Z",
+      "stage": "publication-gate",
+      "reasons": [
+        "Important and Critical events require high confidence; other events require at least moderate confidence.",
+        "Automatic publication currently supports Form 8-K and 8-K/A only; other forms require a form-specific reader.",
+        "An explicitly dated action must be current enough to represent a development in the newly filed statement."
       ],
       "eventId": null
     }
