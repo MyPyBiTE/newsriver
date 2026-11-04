@@ -1,7 +1,7 @@
 {
   "schema": "mypybite.signal-pipeline-state.v1",
   "pipelineVersion": 1,
-  "updatedAt": "2026-11-04T17:39:03Z",
+  "updatedAt": "2026-11-04T22:53:09Z",
   "candidates": {
     "sec:0000004962-26-000409:0000004962": {
       "pipelineVersion": 1,
@@ -4122,6 +4122,21 @@
         "Important and Critical events require high confidence; other events require at least moderate confidence.",
         "Automatic publication currently supports Form 8-K and 8-K/A only; other forms require a form-specific reader.",
         "An explicitly dated action must be current enough to represent a development in the newly filed statement."
+      ],
+      "eventId": null
+    },
+    "sec:0001936006-26-000028:0001018724": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0001936006-26-000028",
+      "cik": "0001018724",
+      "completedAt": "2026-11-04T22:53:09Z",
+      "stage": "publication-gate",
+      "reasons": [
+        "Who, What, When and How must be source-supported; undisclosed Why or Where must be explicit.",
+        "Important and Critical events require high confidence; other events require at least moderate confidence.",
+        "Automatic publication currently supports Form 8-K and 8-K/A only; other forms require a form-specific reader.",
+        "The selected passage must state a concrete corporate action and must not be filing instructions or regulatory boilerplate."
       ],
       "eventId": null
     }
