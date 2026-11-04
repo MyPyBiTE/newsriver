@@ -1,7 +1,7 @@
 {
   "schema": "mypybite.signal-pipeline-state.v1",
   "pipelineVersion": 1,
-  "updatedAt": "2026-11-04T02:30:36Z",
+  "updatedAt": "2026-11-04T05:56:13Z",
   "candidates": {
     "sec:0000004962-26-000409:0000004962": {
       "pipelineVersion": 1,
@@ -4078,6 +4078,18 @@
       "accessionNumber": "0001193125-26-445697",
       "cik": "0001690820",
       "completedAt": "2026-11-04T02:30:36Z",
+      "stage": "document-collection",
+      "reasons": [
+        "Document URL leaves the expected accession directory."
+      ],
+      "eventId": null
+    },
+    "sec:0001193125-26-445930:0001067983": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0001193125-26-445930",
+      "cik": "0001067983",
+      "completedAt": "2026-11-04T05:56:13Z",
       "stage": "document-collection",
       "reasons": [
         "Document URL leaves the expected accession directory."
