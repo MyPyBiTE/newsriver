@@ -1,6 +1,6 @@
 {
   "schema": "mypybite.fundamental-snapshot.v1",
-  "generatedAt": "2026-11-04T14:51:51Z",
+  "generatedAt": "2026-11-05T14:56:37Z",
   "source": "SEC EDGAR Companyfacts API",
   "method": "Latest point-in-time balance sheet facts plus latest full-fiscal-year cash-flow facts; no quarterly/annual period mixing.",
   "companies": [
@@ -8302,15 +8302,15 @@
       "legalName": "BlackRock, Inc.",
       "cohort": "capital-provider",
       "status": "available",
-      "latestPeriodEnd": "2026-06-30",
-      "cashChangePercent": 10.7,
+      "latestPeriodEnd": "2026-09-30",
+      "cashChangePercent": 29.0,
       "checks": [
         {
           "id": "liquidity",
           "label": "Cash and liquidity",
-          "status": "neutral",
-          "headline": "Cash stands at $10.5B",
-          "detail": "Latest cash is $10.5B, versus $9.5B roughly one year earlier.",
+          "status": "supportive",
+          "headline": "Cash rose 29.0% year over year",
+          "detail": "Latest cash is $12.9B, versus $10.0B roughly one year earlier.",
           "evidence": [
             "cash",
             "cashPriorYear"
@@ -8368,13 +8368,13 @@
       "summary": {
         "pressureSignals": 0,
         "watchSignals": 1,
-        "supportiveSignals": 1,
+        "supportiveSignals": 2,
         "conclusion": "At least one pressure or watch signal requires explanation from the filing."
       },
       "valuationInputs": {
         "freeCashFlow": 3552000000,
-        "totalDebt": 12744000000,
-        "netDebt": 2252000000,
+        "totalDebt": 12740000000,
+        "netDebt": -137000000,
         "unit": "USD",
         "shareCountBasis": "point-in-time",
         "method": "Free cash flow equals annual operating cash flow less capital expenditures for the same fiscal period; net debt equals reported or reconstructed debt less cash.",
@@ -8398,100 +8398,100 @@
       },
       "facts": {
         "cash": {
-          "value": 10492000000,
+          "value": 12877000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "CashAndCashEquivalentsAtCarryingValue",
           "label": "Cash and Cash Equivalents, at Carrying Value",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-08-06",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0001193125-26-337177",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526337177/0001193125-26-337177-index.html"
+          "accessionNumber": "0001193125-26-447043",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526447043/0001193125-26-447043-index.html"
         },
         "assets": {
-          "value": 175875000000,
+          "value": 177898000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "Assets",
           "label": "Assets",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-08-06",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0001193125-26-337177",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526337177/0001193125-26-337177-index.html"
+          "accessionNumber": "0001193125-26-447043",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526447043/0001193125-26-447043-index.html"
         },
         "currentAssets": null,
         "liabilities": {
-          "value": 111335000000,
+          "value": 110123000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "Liabilities",
           "label": "Liabilities",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-08-06",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0001193125-26-337177",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526337177/0001193125-26-337177-index.html"
+          "accessionNumber": "0001193125-26-447043",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526447043/0001193125-26-447043-index.html"
         },
         "currentLiabilities": null,
         "equity": {
-          "value": 57840000000,
+          "value": 63925000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
           "label": "Stockholders' Equity, Including Portion Attributable to Noncontrolling Interest",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-08-06",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0001193125-26-337177",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526337177/0001193125-26-337177-index.html"
+          "accessionNumber": "0001193125-26-447043",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526447043/0001193125-26-447043-index.html"
         },
         "retainedEarnings": null,
         "sharesOutstanding": {
-          "value": 154996807,
+          "value": 154606029,
           "unit": "shares",
           "taxonomy": "us-gaap",
           "tag": "CommonStockSharesOutstanding",
           "label": "Common Stock, Shares, Outstanding",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-08-06",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0001193125-26-337177",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526337177/0001193125-26-337177-index.html"
+          "accessionNumber": "0001193125-26-447043",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526447043/0001193125-26-447043-index.html"
         },
         "debt": {
-          "value": 12744000000,
+          "value": 12740000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "LongTermDebt",
           "label": "Long-term Debt",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-08-06",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0001193125-26-337177",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526337177/0001193125-26-337177-index.html"
+          "accessionNumber": "0001193125-26-447043",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526447043/0001193125-26-447043-index.html"
         },
         "currentDebt": null,
         "noncurrentDebt": null,
         "cashPriorYear": {
-          "value": 9478000000,
+          "value": 9979000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "CashAndCashEquivalentsAtCarryingValue",
           "label": "Cash and Cash Equivalents, at Carrying Value",
           "start": null,
-          "end": "2025-06-30",
-          "filed": "2025-08-06",
+          "end": "2025-09-30",
+          "filed": "2025-11-05",
           "form": "10-Q",
-          "accessionNumber": "0000950170-25-103780",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000095017025103780/0000950170-25-103780-index.html"
+          "accessionNumber": "0001193125-25-267043",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312525267043/0001193125-25-267043-index.html"
         },
         "operatingCashFlow": {
           "value": 3927000000,
@@ -13378,15 +13378,15 @@
       "legalName": "Uber Technologies, Inc",
       "cohort": "consumer-market",
       "status": "available",
-      "latestPeriodEnd": "2026-07-31",
-      "cashChangePercent": -24.4,
+      "latestPeriodEnd": "2026-10-30",
+      "cashChangePercent": 13.4,
       "checks": [
         {
           "id": "liquidity",
           "label": "Cash and liquidity",
-          "status": "pressure",
-          "headline": "Cash fell 24.4% year over year",
-          "detail": "Latest cash is $4.9B, versus $6.4B roughly one year earlier.",
+          "status": "neutral",
+          "headline": "Cash stands at $9.6B",
+          "detail": "Latest cash is $9.6B, versus $8.4B roughly one year earlier.",
           "evidence": [
             "cash",
             "cashPriorYear"
@@ -13429,8 +13429,8 @@
           "id": "balance-sheet",
           "label": "Liabilities and equity",
           "status": "supportive",
-          "headline": "Liabilities equal 56.8% of assets",
-          "detail": "Assets are $65.8B, liabilities $37.4B and equity $28.2B. Current ratio is 0.84. Retained earnings/accumulated deficit is -$8.0B.",
+          "headline": "Liabilities equal 59.2% of assets",
+          "detail": "Assets are $71.1B, liabilities $42.1B and equity $28.6B. Current ratio is 1.23. Retained earnings/accumulated deficit is -$7.4B.",
           "evidence": [
             "assets",
             "liabilities",
@@ -13442,15 +13442,15 @@
         }
       ],
       "summary": {
-        "pressureSignals": 1,
+        "pressureSignals": 0,
         "watchSignals": 1,
         "supportiveSignals": 2,
         "conclusion": "At least one pressure or watch signal requires explanation from the filing."
       },
       "valuationInputs": {
         "freeCashFlow": 9763000000,
-        "totalDebt": 12723000000,
-        "netDebt": 7853000000,
+        "totalDebt": 15664000000,
+        "netDebt": 6106000000,
         "unit": "USD",
         "shareCountBasis": "point-in-time",
         "method": "Free cash flow equals annual operating cash flow less capital expenditures for the same fiscal period; net debt equals reported or reconstructed debt less cash.",
@@ -13474,121 +13474,121 @@
       },
       "facts": {
         "cash": {
-          "value": 4870000000,
+          "value": 9558000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "CashAndCashEquivalentsAtCarryingValue",
           "label": "Cash and Cash Equivalents, at Carrying Value",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-08-05",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0001543151-26-000032",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000032/0001543151-26-000032-index.html"
+          "accessionNumber": "0001543151-26-000041",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000041/0001543151-26-000041-index.html"
         },
         "assets": {
-          "value": 65801000000,
+          "value": 71067000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "Assets",
           "label": "Assets",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-08-05",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0001543151-26-000032",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000032/0001543151-26-000032-index.html"
+          "accessionNumber": "0001543151-26-000041",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000041/0001543151-26-000041-index.html"
         },
         "currentAssets": {
-          "value": 12529000000,
+          "value": 17869000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "AssetsCurrent",
           "label": "Assets, Current",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-08-05",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0001543151-26-000032",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000032/0001543151-26-000032-index.html"
+          "accessionNumber": "0001543151-26-000041",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000041/0001543151-26-000041-index.html"
         },
         "liabilities": {
-          "value": 37402000000,
+          "value": 42104000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "Liabilities",
           "label": "Liabilities",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-08-05",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0001543151-26-000032",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000032/0001543151-26-000032-index.html"
+          "accessionNumber": "0001543151-26-000041",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000041/0001543151-26-000041-index.html"
         },
         "currentLiabilities": {
-          "value": 14871000000,
+          "value": 14506000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "LiabilitiesCurrent",
           "label": "Liabilities, Current",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-08-05",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0001543151-26-000032",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000032/0001543151-26-000032-index.html"
+          "accessionNumber": "0001543151-26-000041",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000041/0001543151-26-000041-index.html"
         },
         "equity": {
-          "value": 28219000000,
+          "value": 28575000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
           "label": "Stockholders' Equity, Including Portion Attributable to Noncontrolling Interest",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-08-05",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0001543151-26-000032",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000032/0001543151-26-000032-index.html"
+          "accessionNumber": "0001543151-26-000041",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000041/0001543151-26-000041-index.html"
         },
         "retainedEarnings": {
-          "value": -7950000000,
+          "value": -7381000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "RetainedEarningsAccumulatedDeficit",
           "label": "Retained Earnings (Accumulated Deficit)",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-08-05",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0001543151-26-000032",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000032/0001543151-26-000032-index.html"
+          "accessionNumber": "0001543151-26-000041",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000041/0001543151-26-000041-index.html"
         },
         "sharesOutstanding": {
-          "value": 2042560121,
+          "value": 2041898070,
           "unit": "shares",
           "taxonomy": "dei",
           "tag": "EntityCommonStockSharesOutstanding",
           "label": "Entity Common Stock, Shares Outstanding",
           "start": null,
-          "end": "2026-07-31",
-          "filed": "2026-08-05",
+          "end": "2026-10-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0001543151-26-000032",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000032/0001543151-26-000032-index.html"
+          "accessionNumber": "0001543151-26-000041",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000041/0001543151-26-000041-index.html"
         },
         "debt": {
-          "value": 12723000000,
+          "value": 15664000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "LongTermDebt",
           "label": "Long-term Debt",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-08-05",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0001543151-26-000032",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000032/0001543151-26-000032-index.html"
+          "accessionNumber": "0001543151-26-000041",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000041/0001543151-26-000041-index.html"
         },
         "currentDebt": {
           "value": 1997000000,
@@ -13604,30 +13604,30 @@
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000032/0001543151-26-000032-index.html"
         },
         "noncurrentDebt": {
-          "value": 10726000000,
+          "value": 15664000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "LongTermDebtNoncurrent",
           "label": "Long-term Debt, Excluding Current Maturities",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-08-05",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0001543151-26-000032",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000032/0001543151-26-000032-index.html"
+          "accessionNumber": "0001543151-26-000041",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000041/0001543151-26-000041-index.html"
         },
         "cashPriorYear": {
-          "value": 6438000000,
+          "value": 8432000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "CashAndCashEquivalentsAtCarryingValue",
           "label": "Cash and Cash Equivalents, at Carrying Value",
           "start": null,
-          "end": "2025-06-30",
-          "filed": "2026-08-05",
+          "end": "2025-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0001543151-26-000032",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000032/0001543151-26-000032-index.html"
+          "accessionNumber": "0001543151-26-000041",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000041/0001543151-26-000041-index.html"
         },
         "operatingCashFlow": {
           "value": 10099000000,
@@ -18184,15 +18184,15 @@
       "legalName": "CONOCOPHILLIPS",
       "cohort": "industrial-energy",
       "status": "available",
-      "latestPeriodEnd": "2026-06-30",
-      "cashChangePercent": 34.1,
+      "latestPeriodEnd": "2026-09-30",
+      "cashChangePercent": 47.6,
       "checks": [
         {
           "id": "liquidity",
           "label": "Cash and liquidity",
           "status": "supportive",
-          "headline": "Cash rose 34.1% year over year",
-          "detail": "Latest cash is $6.6B, versus $4.9B roughly one year earlier.",
+          "headline": "Cash rose 47.6% year over year",
+          "detail": "Latest cash is $7.8B, versus $5.3B roughly one year earlier.",
           "evidence": [
             "cash",
             "cashPriorYear"
@@ -18235,8 +18235,8 @@
           "id": "balance-sheet",
           "label": "Liabilities and equity",
           "status": "supportive",
-          "headline": "Liabilities equal 47.4% of assets",
-          "detail": "Assets are $124.3B, liabilities $58.9B and equity $65.3B. Current ratio is 1.54. Retained earnings/accumulated deficit is $72.9B.",
+          "headline": "Liabilities equal 47.7% of assets",
+          "detail": "Assets are $126.1B, liabilities $60.1B and equity $66.0B. Current ratio is 1.52. Retained earnings/accumulated deficit is $75.9B.",
           "evidence": [
             "assets",
             "liabilities",
@@ -18256,7 +18256,7 @@
       "valuationInputs": {
         "freeCashFlow": null,
         "totalDebt": 22797000000,
-        "netDebt": 16223000000,
+        "netDebt": 15032000000,
         "unit": "USD",
         "shareCountBasis": "point-in-time",
         "method": "Free cash flow equals annual operating cash flow less capital expenditures for the same fiscal period; net debt equals reported or reconstructed debt less cash.",
@@ -18280,108 +18280,108 @@
       },
       "facts": {
         "cash": {
-          "value": 6574000000,
+          "value": 7765000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "CashAndCashEquivalentsAtCarryingValue",
           "label": "Cash and Cash Equivalents, at Carrying Value",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-08-06",
+          "end": "2026-09-30",
+          "filed": "2026-11-05",
           "form": "10-Q",
-          "accessionNumber": "0001163165-26-000032",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000032/0001163165-26-000032-index.html"
+          "accessionNumber": "0001163165-26-000045",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000045/0001163165-26-000045-index.html"
         },
         "assets": {
-          "value": 124261000000,
+          "value": 126073000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "Assets",
           "label": "Assets",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-08-06",
+          "end": "2026-09-30",
+          "filed": "2026-11-05",
           "form": "10-Q",
-          "accessionNumber": "0001163165-26-000032",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000032/0001163165-26-000032-index.html"
+          "accessionNumber": "0001163165-26-000045",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000045/0001163165-26-000045-index.html"
         },
         "currentAssets": {
-          "value": 19195000000,
+          "value": 20868000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "AssetsCurrent",
           "label": "Assets, Current",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-08-06",
+          "end": "2026-09-30",
+          "filed": "2026-11-05",
           "form": "10-Q",
-          "accessionNumber": "0001163165-26-000032",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000032/0001163165-26-000032-index.html"
+          "accessionNumber": "0001163165-26-000045",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000045/0001163165-26-000045-index.html"
         },
         "liabilities": {
-          "value": 58912000000,
+          "value": 60082000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "Liabilities",
           "label": "Liabilities",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-08-06",
+          "end": "2026-09-30",
+          "filed": "2026-11-05",
           "form": "10-Q",
-          "accessionNumber": "0001163165-26-000032",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000032/0001163165-26-000032-index.html"
+          "accessionNumber": "0001163165-26-000045",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000045/0001163165-26-000045-index.html"
         },
         "currentLiabilities": {
-          "value": 12452000000,
+          "value": 13745000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "LiabilitiesCurrent",
           "label": "Liabilities, Current",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-08-06",
+          "end": "2026-09-30",
+          "filed": "2026-11-05",
           "form": "10-Q",
-          "accessionNumber": "0001163165-26-000032",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000032/0001163165-26-000032-index.html"
+          "accessionNumber": "0001163165-26-000045",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000045/0001163165-26-000045-index.html"
         },
         "equity": {
-          "value": 65349000000,
+          "value": 65991000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "StockholdersEquity",
           "label": "Stockholders' Equity Attributable to Parent",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-08-06",
+          "end": "2026-09-30",
+          "filed": "2026-11-05",
           "form": "10-Q",
-          "accessionNumber": "0001163165-26-000032",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000032/0001163165-26-000032-index.html"
+          "accessionNumber": "0001163165-26-000045",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000045/0001163165-26-000045-index.html"
         },
         "retainedEarnings": {
-          "value": 72921000000,
+          "value": 75916000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "RetainedEarningsAccumulatedDeficit",
           "label": "Retained Earnings (Accumulated Deficit)",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-08-06",
+          "end": "2026-09-30",
+          "filed": "2026-11-05",
           "form": "10-Q",
-          "accessionNumber": "0001163165-26-000032",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000032/0001163165-26-000032-index.html"
+          "accessionNumber": "0001163165-26-000045",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000045/0001163165-26-000045-index.html"
         },
         "sharesOutstanding": {
-          "value": 1201337479,
+          "value": 1182335057,
           "unit": "shares",
           "taxonomy": "dei",
           "tag": "EntityCommonStockSharesOutstanding",
           "label": "Entity Common Stock, Shares Outstanding",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-08-06",
+          "end": "2026-09-30",
+          "filed": "2026-11-05",
           "form": "10-Q",
-          "accessionNumber": "0001163165-26-000032",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000032/0001163165-26-000032-index.html"
+          "accessionNumber": "0001163165-26-000045",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000045/0001163165-26-000045-index.html"
         },
         "debt": {
           "value": 22797000000,
@@ -18399,17 +18399,17 @@
         "currentDebt": null,
         "noncurrentDebt": null,
         "cashPriorYear": {
-          "value": 4901000000,
+          "value": 5260000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "CashAndCashEquivalentsAtCarryingValue",
           "label": "Cash and Cash Equivalents, at Carrying Value",
           "start": null,
-          "end": "2025-06-30",
-          "filed": "2025-08-07",
+          "end": "2025-09-30",
+          "filed": "2025-11-06",
           "form": "10-Q",
-          "accessionNumber": "0001163165-25-000042",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000116316525000042/0001163165-25-000042-index.html"
+          "accessionNumber": "0001163165-25-000058",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000116316525000058/0001163165-25-000058-index.html"
         },
         "operatingCashFlow": {
           "value": 19796000000,
@@ -19798,15 +19798,15 @@
       "legalName": "CATERPILLAR INC",
       "cohort": "industrial-energy",
       "status": "available",
-      "latestPeriodEnd": "2026-06-30",
-      "cashChangePercent": 23.4,
+      "latestPeriodEnd": "2026-09-30",
+      "cashChangePercent": 5.2,
       "checks": [
         {
           "id": "liquidity",
           "label": "Cash and liquidity",
-          "status": "supportive",
-          "headline": "Cash rose 23.4% year over year",
-          "detail": "Latest cash is $6.7B, versus $5.4B roughly one year earlier.",
+          "status": "neutral",
+          "headline": "Cash stands at $7.9B",
+          "detail": "Latest cash is $7.9B, versus $7.5B roughly one year earlier.",
           "evidence": [
             "cash",
             "cashPriorYear"
@@ -19848,9 +19848,9 @@
         {
           "id": "balance-sheet",
           "label": "Liabilities and equity",
-          "status": "watch",
-          "headline": "Liabilities equal 81.1% of assets",
-          "detail": "Assets are $102.6B, liabilities $83.2B and equity $19.4B. Current ratio is 1.37. Retained earnings/accumulated deficit is $70.1B.",
+          "status": "supportive",
+          "headline": "Liabilities equal 79.9% of assets",
+          "detail": "Assets are $106.8B, liabilities $85.4B and equity $21.5B. Current ratio is 1.42. Retained earnings/accumulated deficit is $73.4B.",
           "evidence": [
             "assets",
             "liabilities",
@@ -19863,14 +19863,14 @@
       ],
       "summary": {
         "pressureSignals": 0,
-        "watchSignals": 1,
+        "watchSignals": 0,
         "supportiveSignals": 2,
-        "conclusion": "At least one pressure or watch signal requires explanation from the filing."
+        "conclusion": "The available facts show positive cash-generation and balance-sheet support, subject to filing context."
       },
       "valuationInputs": {
         "freeCashFlow": 8918000000,
         "totalDebt": 36210000000,
-        "netDebt": 29497000000,
+        "netDebt": 28281000000,
         "unit": "USD",
         "shareCountBasis": "point-in-time",
         "method": "Free cash flow equals annual operating cash flow less capital expenditures for the same fiscal period; net debt equals reported or reconstructed debt less cash.",
@@ -19894,108 +19894,108 @@
       },
       "facts": {
         "cash": {
-          "value": 6713000000,
+          "value": 7929000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "CashAndCashEquivalentsAtCarryingValue",
           "label": "Cash and Cash Equivalents, at Carrying Value",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-08-05",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0000018230-26-000046",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000046/0000018230-26-000046-index.html"
+          "accessionNumber": "0000018230-26-000057",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000057/0000018230-26-000057-index.html"
         },
         "assets": {
-          "value": 102609000000,
+          "value": 106843000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "Assets",
           "label": "Assets",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-08-05",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0000018230-26-000046",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000046/0000018230-26-000046-index.html"
+          "accessionNumber": "0000018230-26-000057",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000057/0000018230-26-000057-index.html"
         },
         "currentAssets": {
-          "value": 54450000000,
+          "value": 57834000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "AssetsCurrent",
           "label": "Assets, Current",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-08-05",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0000018230-26-000046",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000046/0000018230-26-000046-index.html"
+          "accessionNumber": "0000018230-26-000057",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000057/0000018230-26-000057-index.html"
         },
         "liabilities": {
-          "value": 83215000000,
+          "value": 85361000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "Liabilities",
           "label": "Liabilities",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-08-05",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0000018230-26-000046",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000046/0000018230-26-000046-index.html"
+          "accessionNumber": "0000018230-26-000057",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000057/0000018230-26-000057-index.html"
         },
         "currentLiabilities": {
-          "value": 39790000000,
+          "value": 40666000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "LiabilitiesCurrent",
           "label": "Liabilities, Current",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-08-05",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0000018230-26-000046",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000046/0000018230-26-000046-index.html"
+          "accessionNumber": "0000018230-26-000057",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000057/0000018230-26-000057-index.html"
         },
         "equity": {
-          "value": 19394000000,
+          "value": 21482000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
           "label": "Stockholders' Equity, Including Portion Attributable to Noncontrolling Interest",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-08-05",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0000018230-26-000046",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000046/0000018230-26-000046-index.html"
+          "accessionNumber": "0000018230-26-000057",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000057/0000018230-26-000057-index.html"
         },
         "retainedEarnings": {
-          "value": 70141000000,
+          "value": 73428000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "RetainedEarningsAccumulatedDeficit",
           "label": "Retained Earnings (Accumulated Deficit)",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-08-05",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0000018230-26-000046",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000046/0000018230-26-000046-index.html"
+          "accessionNumber": "0000018230-26-000057",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000057/0000018230-26-000057-index.html"
         },
         "sharesOutstanding": {
-          "value": 459674889,
+          "value": 457594174,
           "unit": "shares",
           "taxonomy": "dei",
           "tag": "EntityCommonStockSharesOutstanding",
           "label": "Entity Common Stock, Shares Outstanding",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-08-05",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0000018230-26-000046",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000046/0000018230-26-000046-index.html"
+          "accessionNumber": "0000018230-26-000057",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000057/0000018230-26-000057-index.html"
         },
         "debt": null,
         "currentDebt": {
@@ -20025,17 +20025,17 @@
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/0000018230-26-000008-index.html"
         },
         "cashPriorYear": {
-          "value": 5442000000,
+          "value": 7538000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "CashAndCashEquivalentsAtCarryingValue",
           "label": "Cash and Cash Equivalents, at Carrying Value",
           "start": null,
-          "end": "2025-06-30",
-          "filed": "2025-08-06",
+          "end": "2025-09-30",
+          "filed": "2025-11-03",
           "form": "10-Q",
-          "accessionNumber": "0000018230-25-000040",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/18230/000001823025000040/0000018230-25-000040-index.html"
+          "accessionNumber": "0000018230-25-000048",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/18230/000001823025000048/0000018230-25-000048-index.html"
         },
         "operatingCashFlow": {
           "value": 11739000000,
@@ -23332,15 +23332,15 @@
       "legalName": "AMC ENTERTAINMENT HOLDINGS, INC.",
       "cohort": "reflexive-financing",
       "status": "available",
-      "latestPeriodEnd": "2026-07-22",
-      "cashChangePercent": 83.7,
+      "latestPeriodEnd": "2026-11-03",
+      "cashChangePercent": 105.5,
       "checks": [
         {
           "id": "liquidity",
           "label": "Cash and liquidity",
           "status": "supportive",
-          "headline": "Cash rose 83.7% year over year",
-          "detail": "Latest cash is $778.4M, versus $423.7M roughly one year earlier.",
+          "headline": "Cash rose 105.5% year over year",
+          "detail": "Latest cash is $751.9M, versus $365.8M roughly one year earlier.",
           "evidence": [
             "cash",
             "cashPriorYear"
@@ -23351,7 +23351,7 @@
           "label": "Operating cash flow",
           "status": "pressure",
           "headline": "Operations used $119.8M of cash",
-          "detail": "At the latest annual operating burn, reported cash equals about 6.5 years of that burn. This is a rough pressure check, not a forecast.",
+          "detail": "At the latest annual operating burn, reported cash equals about 6.3 years of that burn. This is a rough pressure check, not a forecast.",
           "evidence": [
             "operatingCashFlow"
           ]
@@ -23383,7 +23383,7 @@
           "id": "balance-sheet",
           "label": "Liabilities and equity",
           "status": "pressure",
-          "headline": "Shareholders’ equity is negative at -$1.5B",
+          "headline": "Shareholders’ equity is negative at -$1.3B",
           "detail": "Negative equity means recorded liabilities and other claims exceed recorded assets attributable to shareholders.",
           "evidence": [
             "assets",
@@ -23404,7 +23404,7 @@
       "valuationInputs": {
         "freeCashFlow": -365900000,
         "totalDebt": 4024200000,
-        "netDebt": 3245800000,
+        "netDebt": 3272300000,
         "unit": "USD",
         "shareCountBasis": "point-in-time",
         "method": "Free cash flow equals annual operating cash flow less capital expenditures for the same fiscal period; net debt equals reported or reconstructed debt less cash.",
@@ -23428,95 +23428,95 @@
       },
       "facts": {
         "cash": {
-          "value": 778400000,
+          "value": 751900000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "CashAndCashEquivalentsAtCarryingValue",
           "label": "Cash and Cash Equivalents, at Carrying Value",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-07-23",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0001411579-26-000059",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000059/0001411579-26-000059-index.html"
+          "accessionNumber": "0001411579-26-000075",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000075/0001411579-26-000075-index.html"
         },
         "assets": {
-          "value": 8043600000,
+          "value": 8005000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "Assets",
           "label": "Assets",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-07-23",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0001411579-26-000059",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000059/0001411579-26-000059-index.html"
+          "accessionNumber": "0001411579-26-000075",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000075/0001411579-26-000075-index.html"
         },
         "currentAssets": {
-          "value": 1038200000,
+          "value": 1021300000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "AssetsCurrent",
           "label": "Assets, Current",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-07-23",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0001411579-26-000059",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000059/0001411579-26-000059-index.html"
+          "accessionNumber": "0001411579-26-000075",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000075/0001411579-26-000075-index.html"
         },
         "liabilities": {
-          "value": 9496300000,
+          "value": 9348100000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "Liabilities",
           "label": "Liabilities",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-07-23",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0001411579-26-000059",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000059/0001411579-26-000059-index.html"
+          "accessionNumber": "0001411579-26-000075",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000075/0001411579-26-000075-index.html"
         },
         "currentLiabilities": {
-          "value": 1898100000,
+          "value": 1774500000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "LiabilitiesCurrent",
           "label": "Liabilities, Current",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-07-23",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0001411579-26-000059",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000059/0001411579-26-000059-index.html"
+          "accessionNumber": "0001411579-26-000075",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000075/0001411579-26-000075-index.html"
         },
         "equity": {
-          "value": -1452700000,
+          "value": -1343100000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "StockholdersEquity",
           "label": "Stockholders' Equity Attributable to Parent",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-07-23",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0001411579-26-000059",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000059/0001411579-26-000059-index.html"
+          "accessionNumber": "0001411579-26-000075",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000075/0001411579-26-000075-index.html"
         },
         "retainedEarnings": {
-          "value": -9107700000,
+          "value": -8998400000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "RetainedEarningsAccumulatedDeficit",
           "label": "Retained Earnings (Accumulated Deficit)",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-07-23",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0001411579-26-000059",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000059/0001411579-26-000059-index.html"
+          "accessionNumber": "0001411579-26-000075",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000075/0001411579-26-000075-index.html"
         },
         "sharesOutstanding": {
           "value": 892604638,
@@ -23525,11 +23525,11 @@
           "tag": "EntityCommonStockSharesOutstanding",
           "label": "Entity Common Stock, Shares Outstanding",
           "start": null,
-          "end": "2026-07-22",
-          "filed": "2026-07-23",
+          "end": "2026-11-03",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0001411579-26-000059",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000059/0001411579-26-000059-index.html"
+          "accessionNumber": "0001411579-26-000075",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000075/0001411579-26-000075-index.html"
         },
         "debt": {
           "value": 4024200000,
@@ -23545,43 +23545,43 @@
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000016/0001411579-26-000016-index.html"
         },
         "currentDebt": {
-          "value": 148900000,
+          "value": 24000000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "LongTermDebtCurrent",
           "label": "Long-term Debt, Current Maturities",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-07-23",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0001411579-26-000059",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000059/0001411579-26-000059-index.html"
+          "accessionNumber": "0001411579-26-000075",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000075/0001411579-26-000075-index.html"
         },
         "noncurrentDebt": {
-          "value": 3702700000,
+          "value": 3723400000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "LongTermDebtNoncurrent",
           "label": "Long-term Debt, Excluding Current Maturities",
           "start": null,
-          "end": "2026-06-30",
-          "filed": "2026-07-23",
+          "end": "2026-09-30",
+          "filed": "2026-11-04",
           "form": "10-Q",
-          "accessionNumber": "0001411579-26-000059",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000059/0001411579-26-000059-index.html"
+          "accessionNumber": "0001411579-26-000075",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000075/0001411579-26-000075-index.html"
         },
         "cashPriorYear": {
-          "value": 423700000,
+          "value": 365800000,
           "unit": "USD",
           "taxonomy": "us-gaap",
           "tag": "CashAndCashEquivalentsAtCarryingValue",
           "label": "Cash and Cash Equivalents, at Carrying Value",
           "start": null,
-          "end": "2025-06-30",
-          "filed": "2025-08-11",
+          "end": "2025-09-30",
+          "filed": "2025-11-05",
           "form": "10-Q",
-          "accessionNumber": "0001411579-25-000062",
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157925000062/0001411579-25-000062-index.html"
+          "accessionNumber": "0001411579-25-000073",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157925000073/0001411579-25-000073-index.html"
         },
         "operatingCashFlow": {
           "value": -119800000,
