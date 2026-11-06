@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Canada’s new immigration level plan revealed in Budget 2026",
-      "display":"Canada’s new immigration level plan revealed in Budget 2026",
-      "url":"https://globalnews.ca/news/12138746/budget-2026-immigration-levels",
+      "text":"Watch Blue Jays prospects in Arizona Fall League action",
+      "display":"Watch Blue Jays prospects in Arizona Fall League action",
+      "url":"https://www.mlb.com/bluejays/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Winnipeg Jets crush Canucks 6-2 for second straight victory",
+      "display":"Winnipeg Jets crush Canucks 6-2 for second straight victory",
+      "url":"https://globalnews.ca/news/12139229/winnipeg-jets-crush-canucks-6-2-for-second-straight-victory",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Bank of Canada keeps 2% inflation target in mandate renewal",
-      "display":"Bank of Canada keeps 2% inflation target in mandate renewal",
-      "url":"https://toronto.citynews.ca/2026/11/05/bank-of-canada-keeps-2-inflation-target-in-mandate-renewal",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Real-Time Rail payments system to launch Monday, feds say",
-      "display":"Real-Time Rail payments system to launch Monday, feds say",
-      "url":"https://betakit.com/real-time-rail-payments-system-to-launch-monday-feds-say",
+      "text":"Ford government to change laws in response to lithium ion battery fires",
+      "display":"Ford government to change laws in response to lithium ion battery fires",
+      "url":"https://toronto.citynews.ca/2026/11/05/ford-government-to-change-laws-in-response-to-lithium-ion-battery-fires",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-11-06T02:41:02Z"
+  "generated_utc":"2026-11-06T09:52:32Z"
 }
