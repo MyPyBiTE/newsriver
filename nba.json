@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-05T22:55:08.131943Z",
+  "generated_utc": "2026-11-06T03:07:01.516720Z",
   "dates": [
     {
       "games": [
@@ -7,25 +7,25 @@
           "gamePk": "401909936",
           "gameDate": "2026-11-06T02:00Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "2nd",
+            "currentQuarter": "2nd"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "ORL"
               },
-              "score": 0
+              "score": 51
             },
             "home": {
               "team": {
                 "abbreviation": "PHX"
               },
-              "score": 0
+              "score": 60
             }
           }
         },
