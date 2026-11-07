@@ -11,6 +11,7 @@ on:
       - "scripts/build_iex_reference_history.py"
       - "tests/test_build_eod_price_cache.py"
       - "tests/test_build_iex_hist_price_input.py"
+      - "tests/test_build_iex_reference_history.py"
   workflow_dispatch:
     inputs:
       hist_date:
@@ -49,6 +50,7 @@ jobs:
         run: |
           python -m unittest discover -s tests -p "test_build_iex_hist_price_input.py" -v
           python -m unittest discover -s tests -p "test_build_eod_price_cache.py" -v
+          python -m unittest discover -s tests -p "test_build_iex_reference_history.py" -v
 
       - name: Stream IEX TOPS and build the small attributed cache
         env:
@@ -86,17 +88,29 @@ jobs:
           )
           PY
 
-      - name: Accumulate Tesla IEX reference trade history (exploratory only)
+      - name: Accumulate all available IEX ticker histories (exploratory only)
         run: |
           python scripts/build_iex_reference_history.py \
-            --symbol TSLA \
-            --output outputs/iex-reference-history-TSLA.json
+            --all \
+            --output outputs/iex-reference-history-all.json
+          python - <<'PYVALID'
+          import json
+          from pathlib import Path
+          path = Path('outputs/iex-reference-history-all.json')
+          payload = json.loads(path.read_text(encoding='utf-8'))
+          assert payload['schema'] == 'mypybite.iex-reference-history-all.v1'
+          assert payload['coverage']['symbolCount'] > 0
+          assert payload['coverage']['observationCount'] >= payload['coverage']['symbolCount']
+          assert payload['coverage']['annualSharpeReady'] is False
+          assert path.stat().st_size < 95_000_000, 'All-ticker history too large for GitHub'
+          print(f"Validated {payload['coverage']['symbolCount']:,} ticker histories")
+          PYVALID
 
       - name: Publish the attributed reference-price cache
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/market/eod-prices.json outputs/iex-reference-history-TSLA.json
+          git add data/market/eod-prices.json outputs/iex-reference-history-all.json
           if git diff --cached --quiet; then
             echo "The IEX reference-price cache is already current."
             exit 0
