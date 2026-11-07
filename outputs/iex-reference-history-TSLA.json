@@ -1,0 +1,58 @@
+{
+  "schema": "mypybite.iex-reference-history-poc.v1",
+  "symbol": "TSLA",
+  "source": {
+    "name": "IEX historical TOPS-derived reference trades saved in MYPYBITE EOD cache",
+    "scope": "IEX-only last observed trade per recorded day, not consolidated market close",
+    "attribution": "Data provided for free by IEX. Subject to IEX Historical Data Terms of Use.",
+    "terms": "https://www.iex.io/legal/hist-data-terms"
+  },
+  "basis": "unadjusted-iex-last-trade",
+  "observations": [
+    {
+      "dateUtc": "2026-10-28",
+      "asOf": "2026-10-28T20:52:57.251812Z",
+      "price": 402.31,
+      "venue": "IEX",
+      "status": "iex-last-trade-t1",
+      "revision": "5cc2370c23b2"
+    },
+    {
+      "dateUtc": "2026-10-29",
+      "asOf": "2026-10-29T20:53:44.222329Z",
+      "price": 397.93,
+      "venue": "IEX",
+      "status": "iex-last-trade-t1",
+      "revision": "59b67b224bae"
+    },
+    {
+      "dateUtc": "2026-10-30",
+      "asOf": "2026-10-30T20:59:51.092781Z",
+      "price": 399.67,
+      "venue": "IEX",
+      "status": "iex-last-trade-t1",
+      "revision": "46608a4c1b54"
+    },
+    {
+      "dateUtc": "2026-11-02",
+      "asOf": "2026-11-02T21:53:55.297559Z",
+      "price": 403.9,
+      "venue": "IEX",
+      "status": "iex-last-trade-t1",
+      "revision": "a70e300acbc3"
+    },
+    {
+      "dateUtc": "2026-11-03",
+      "asOf": "2026-11-03T21:51:25.855384Z",
+      "price": 397.63,
+      "venue": "IEX",
+      "status": "iex-last-trade-t1",
+      "revision": "working-tree"
+    }
+  ],
+  "coverage": {
+    "distinctUtcDates": 5,
+    "annualSharpeReady": false
+  },
+  "note": "Exploratory price history only: no split/dividend adjustment, no verified regular-session closing price. Do not score Sharpe with it."
+}

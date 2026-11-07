@@ -8,6 +8,7 @@ on:
       - ".github/workflows/refresh-iex-reference-prices.yml"
       - "scripts/build_eod_price_cache.py"
       - "scripts/build_iex_hist_price_input.py"
+      - "scripts/build_iex_reference_history.py"
       - "tests/test_build_eod_price_cache.py"
       - "tests/test_build_iex_hist_price_input.py"
   workflow_dispatch:
@@ -85,11 +86,17 @@ jobs:
           )
           PY
 
+      - name: Accumulate Tesla IEX reference trade history (exploratory only)
+        run: |
+          python scripts/build_iex_reference_history.py \
+            --symbol TSLA \
+            --output outputs/iex-reference-history-TSLA.json
+
       - name: Publish the attributed reference-price cache
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/market/eod-prices.json
+          git add data/market/eod-prices.json outputs/iex-reference-history-TSLA.json
           if git diff --cached --quiet; then
             echo "The IEX reference-price cache is already current."
             exit 0
