@@ -426,12 +426,28 @@ def analyze_company(issuer: dict, companyfacts: dict) -> dict:
     current_liabilities = (
         instant["currentLiabilities"]["val"] if instant["currentLiabilities"] else None
     )
-    reported_debt = instant["debt"]["val"] if instant["debt"] else None
-    current_debt = instant["currentDebt"]["val"] if instant["currentDebt"] else None
-    noncurrent_debt = instant["noncurrentDebt"]["val"] if instant["noncurrentDebt"] else None
-    total_debt = reported_debt
-    if total_debt is None and (current_debt is not None or noncurrent_debt is not None):
-        total_debt = (current_debt or 0) + (noncurrent_debt or 0)
+    # Match point-in-time balance-sheet dates before comparing cash with debt.
+    # A single reported debt fact is preferred; a reconstructed total requires
+    # both components, each from the same date as cash. Missing is not zero.
+    cash_date = instant["cash"].get("end") if instant["cash"] else None
+    debt_row = instant["debt"]
+    current_debt_row = instant["currentDebt"]
+    noncurrent_debt_row = instant["noncurrentDebt"]
+    total_debt = None
+    debt_basis = None
+    if cash_date and debt_row and debt_row.get("end") == cash_date:
+        total_debt = debt_row["val"]
+        debt_basis = "reported-same-period"
+    elif (
+        cash_date
+        and current_debt_row
+        and noncurrent_debt_row
+        and current_debt_row.get("end") == cash_date
+        and noncurrent_debt_row.get("end") == cash_date
+    ):
+        total_debt = current_debt_row["val"] + noncurrent_debt_row["val"]
+        debt_basis = "components-same-period"
+    # Do not infer zero debt from absent standardized SEC concepts.
     cash_flow_periods_match = bool(
         annual["operatingCashFlow"]
         and annual["capitalExpenditures"]
@@ -603,6 +619,8 @@ def analyze_company(issuer: dict, companyfacts: dict) -> dict:
             "freeCashFlow": free_cash_flow,
             "totalDebt": total_debt,
             "netDebt": net_debt,
+            "debtBasis": debt_basis,
+            "debtPeriodEnd": cash_date if total_debt is not None else None,
             "unit": currency,
             "shareCountBasis": share_count_basis if instant["sharesOutstanding"] else None,
             "method": "Free cash flow equals annual operating cash flow less capital expenditures for the same fiscal period; net debt equals reported or reconstructed debt less cash.",
