@@ -1,57 +1,31 @@
 {
-  "generated_utc": "2026-11-08T19:59:30.974972Z",
+  "generated_utc": "2026-11-08T23:36:31.483662Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401909945",
-          "gameDate": "2026-11-08T20:30Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "PHI"
-              },
-              "score": 0
-            },
-            "home": {
-              "team": {
-                "abbreviation": "CHI"
-              },
-              "score": 0
-            }
-          }
-        },
-        {
           "gamePk": "401909946",
           "gameDate": "2026-11-08T23:00Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "LAL"
               },
-              "score": 0
+              "score": 38
             },
             "home": {
               "team": {
                 "abbreviation": "DET"
               },
-              "score": 0
+              "score": 14
             }
           }
         },
@@ -182,6 +156,32 @@
                 "abbreviation": "SAC"
               },
               "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401909945",
+          "gameDate": "2026-11-08T20:30Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "PHI"
+              },
+              "score": 127
+            },
+            "home": {
+              "team": {
+                "abbreviation": "CHI"
+              },
+              "score": 121
             }
           }
         }
