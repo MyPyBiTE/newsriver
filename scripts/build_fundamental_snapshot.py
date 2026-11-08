@@ -129,6 +129,24 @@ def parse_date(value: object) -> date | None:
         return None
 
 
+def valid_filing_dates(row: dict, *, as_of: date | None = None) -> bool:
+    """Accept only observations from valid, already-filed reporting periods.
+
+    This is a current-data safeguard, not a point-in-time backtesting engine.
+    """
+    cutoff = as_of or datetime.now(timezone.utc).date()
+    period_end = parse_date(row.get("end"))
+    filed = parse_date(row.get("filed"))
+    period_start = parse_date(row.get("start")) if row.get("start") else None
+    if period_end is None or filed is None:
+        return False
+    if period_end > cutoff or filed > cutoff or filed < period_end:
+        return False
+    if row.get("start") and (period_start is None or period_start > period_end):
+        return False
+    return True
+
+
 def source_url(cik: str, accession: object) -> str | None:
     accession_text = str(accession or "")
     if not accession_text:
@@ -178,7 +196,7 @@ def newest_instant(
         row
         for row in concept_entries(companyfacts, tags, namespaces=namespaces, unit=unit)
         if row.get("form") in INSTANT_FORMS
-        and parse_date(row.get("end"))
+        and valid_filing_dates(row)
         and not row.get("start")
     ]
     if not rows:
@@ -210,7 +228,7 @@ def prior_year_instant(companyfacts: dict, latest: dict | None) -> dict | None:
         )
         if row.get("form") in INSTANT_FORMS
         and not row.get("start")
-        and parse_date(row.get("end"))
+        and valid_filing_dates(row)
         and 300 <= (latest_end - parse_date(row["end"])).days <= 460
     ]
     if not rows:
@@ -239,6 +257,7 @@ def newest_annual(
             row.get("form") in ANNUAL_FORMS
             and start
             and end
+            and valid_filing_dates(row)
             and 300 <= (end - start).days <= 430
         ):
             rows.append(row)
