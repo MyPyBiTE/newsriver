@@ -35,6 +35,9 @@ KEEP_FACTS = (
     "debt",
     "currentDebt",
     "noncurrentDebt",
+    "revenue",
+    "revenuePriorYear",
+    "operatingIncome",
 )
 
 
@@ -111,6 +114,8 @@ def compact_company(company: dict, *, refreshed_at: str | None = None) -> dict:
             "shareCountBasis": valuation.get("shareCountBasis"),
         },
         "facts": {key: facts.get(key) for key in KEEP_FACTS if facts.get(key) is not None},
+        "revenueGrowthPercent": company.get("revenueGrowthPercent"),
+        "operatingMarginPercent": company.get("operatingMarginPercent"),
         "marketPrice": None,
     }
 
