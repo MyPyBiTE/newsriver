@@ -144,7 +144,11 @@ class FundamentalLookupCacheTests(unittest.TestCase):
         self.assertEqual(compact["data"][0][0], "AAPL")
         self.assertEqual(compact["data"][0][5], 14_594_180_000)
         self.assertEqual(compact["data"][0][6], 98_767_000_000)
-        self.assertNotIn("cash", compact["fields"])
+        self.assertIn("cash", compact["fields"])
+self.assertEqual(
+    compact["data"][0][compact["fields"].index("cash")],
+    39_544_000_000
+)
 
     def test_current_calculator_feed_maps_aapl_to_expected_dcf_inputs(self):
         path = ROOT / "data" / "sec" / "fundamentals" / "calculator-lookup.json"
