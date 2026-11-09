@@ -324,6 +324,34 @@ def build_calculator_payload(payload: dict) -> dict:
                 operating_income_fact.get("end"),
             ]
         )
+    # Count actual scorable rows, not merely cached CIKs. Missing data stays null.
+    positions = {name: index for index, name in enumerate(fields)}
+    def has_number(row, key):
+        value = row[positions[key]]
+        return isinstance(value, (int, float)) and not isinstance(value, bool)
+
+    coverage_counts = {
+        "records": len(rows),
+        "cashDebtMatched": sum(
+            has_number(row, "cash") and has_number(row, "totalDebt")
+            for row in rows
+        ),
+        "revenueGrowth": sum(has_number(row, "revenueGrowthPercent") for row in rows),
+        "operatingMargin": sum(has_number(row, "operatingMarginPercent") for row in rows),
+        "allThreeQuantitative": sum(
+            has_number(row, "cash")
+            and has_number(row, "totalDebt")
+            and has_number(row, "revenueGrowthPercent")
+            and has_number(row, "operatingMarginPercent")
+            for row in rows
+        ),
+        "dcfInputs": sum(
+            has_number(row, "sharesOutstanding")
+            and has_number(row, "freeCashFlow")
+            and has_number(row, "netDebt")
+            for row in rows
+        ),
+    }
     return {
         "schema": CALCULATOR_SCHEMA,
         "generatedAt": payload.get("generatedAt"),
@@ -332,6 +360,7 @@ def build_calculator_payload(payload: dict) -> dict:
         "fields": fields,
         "data": rows,
         "coverage": payload.get("coverage") or {},
+        "scoringCoverage": coverage_counts,
     }
 
 
@@ -439,6 +468,9 @@ def main() -> int:
         f"Wrote {args.calculator_output} with "
         f"{len(calculator_payload['data'])} calculator rows"
     )
+    print("Quantitative scoring coverage:", json.dumps(
+        calculator_payload["scoringCoverage"], sort_keys=True
+    ))
     return 0
 
 
