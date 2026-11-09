@@ -1,3 +1,4 @@
+```python
 from __future__ import annotations
 
 import importlib.util
@@ -115,7 +116,7 @@ class FundamentalLookupCacheTests(unittest.TestCase):
         self.assertEqual(payload["coverage"]["remainingCiks"], 2)
         self.assertFalse(payload["marketPriceProvided"])
 
-    def test_calculator_payload_keeps_only_dcf_inputs(self):
+    def test_calculator_payload_includes_expanded_scoring_inputs(self):
         payload = {
             "generatedAt": "2026-10-30T00:00:00Z",
             "source": "SEC",
@@ -145,10 +146,10 @@ class FundamentalLookupCacheTests(unittest.TestCase):
         self.assertEqual(compact["data"][0][5], 14_594_180_000)
         self.assertEqual(compact["data"][0][6], 98_767_000_000)
         self.assertIn("cash", compact["fields"])
-self.assertEqual(
-    compact["data"][0][compact["fields"].index("cash")],
-    39_544_000_000
-)
+        self.assertEqual(
+            compact["data"][0][compact["fields"].index("cash")],
+            39_544_000_000,
+        )
 
     def test_current_calculator_feed_maps_aapl_to_expected_dcf_inputs(self):
         path = ROOT / "data" / "sec" / "fundamentals" / "calculator-lookup.json"
@@ -162,3 +163,4 @@ self.assertEqual(
 
 if __name__ == "__main__":
     unittest.main()
+```
