@@ -40,6 +40,20 @@ CONCEPTS = {
         "CashAndDueFromBanks",
         "CashAndCashEquivalents",
     ),
+    # Annual income-statement facts for Nash-style quantitative screening.
+    # Prefer consolidated revenue concepts and avoid mixing components.
+    "revenue": (
+        "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "RevenueFromContractWithCustomerIncludingAssessedTax",
+        "Revenues",
+        "SalesRevenueNet",
+        "SalesRevenueGoodsNet",
+        "Revenue",
+    ),
+    "operatingIncome": (
+        "OperatingIncomeLoss",
+        "ProfitLossFromOperatingActivities",
+    ),
     "assets": ("Assets",),
     "currentAssets": ("AssetsCurrent", "CurrentAssets"),
     "liabilities": ("Liabilities",),
@@ -292,6 +306,65 @@ def newest_annual(
     )
 
 
+def prior_year_annual(companyfacts: dict, latest: dict | None) -> dict | None:
+    """Find comparable prior full-year revenue with the same concept and currency."""
+    if not latest:
+        return None
+    latest_end = parse_date(latest.get("end"))
+    latest_start = parse_date(latest.get("start"))
+    if not latest_end or not latest_start:
+        return None
+    rows = []
+    for row in concept_entries(
+        companyfacts, (str(latest["tag"]),),
+        namespaces=(str(latest["taxonomy"]),), unit=str(latest["unit"]),
+    ):
+        start = parse_date(row.get("start"))
+        end = parse_date(row.get("end"))
+        if (
+            row.get("form") in ANNUAL_FORMS
+            and start is not None and end is not None
+            and valid_filing_dates(row)
+            and 300 <= (end - start).days <= 430
+            and 300 <= (latest_end - end).days <= 430
+            and 300 <= (latest_start - start).days <= 430
+        ):
+            rows.append(row)
+    if not rows:
+        return None
+    return min(
+        rows,
+        key=lambda row: (
+            abs((latest_end - parse_date(row["end"])).days - 365),
+            -int(str(row.get("filed") or "0000-00-00").replace("-", "")),
+        ),
+    )
+
+
+def matched_annual_income(
+    companyfacts: dict, revenue: dict | None, currency: str,
+) -> dict | None:
+    """Use operating income only for the exact revenue start/end and currency."""
+    if not revenue:
+        return None
+    rows = [
+        row for row in concept_entries(
+            companyfacts, CONCEPTS["operatingIncome"],
+            namespaces=MONETARY_NAMESPACES, unit=currency,
+        )
+        if row.get("form") in ANNUAL_FORMS
+        and valid_filing_dates(row)
+        and row.get("start") == revenue.get("start")
+        and row.get("end") == revenue.get("end")
+    ]
+    if not rows:
+        return None
+    return max(rows, key=lambda row: (
+        str(row.get("filed") or ""), -int(row.get("tagRank") or 0),
+        str(row.get("accn") or ""),
+    ))
+
+
 def reporting_currency(companyfacts: dict) -> str:
     """Choose one reporting currency without mixing currencies within a company."""
     scores: dict[str, int] = {}
@@ -427,6 +500,27 @@ def analyze_company(issuer: dict, companyfacts: dict) -> dict:
             "debtRepaid",
         )
     }
+    # Ensure operating margin uses matching full-year income statement periods.
+    annual["revenue"] = newest_annual(
+        companyfacts, CONCEPTS["revenue"],
+        namespaces=MONETARY_NAMESPACES, unit=currency,
+    )
+    annual["operatingIncome"] = matched_annual_income(
+        companyfacts, annual["revenue"], currency,
+    )
+    revenue_prior = prior_year_annual(companyfacts, annual["revenue"])
+    revenue_now = annual["revenue"]["val"] if annual["revenue"] else None
+    operating_income = annual["operatingIncome"]["val"] if annual["operatingIncome"] else None
+    revenue_growth_percent = (
+        round((revenue_now / revenue_prior["val"] - 1) * 100, 2)
+        if revenue_now is not None and revenue_prior and revenue_prior["val"] > 0
+        else None
+    )
+    operating_margin_percent = (
+        round(operating_income / revenue_now * 100, 2)
+        if operating_income is not None and revenue_now is not None and revenue_now > 0
+        else None
+    )
     cash_prior = prior_year_instant(companyfacts, instant["cash"])
     cash_change = percent_change(instant["cash"], cash_prior)
     cash = instant["cash"]["val"] if instant["cash"] else None
@@ -615,6 +709,7 @@ def analyze_company(issuer: dict, companyfacts: dict) -> dict:
     facts = {
         **{key: public_fact(cik, value) for key, value in instant.items()},
         "cashPriorYear": public_fact(cik, cash_prior),
+        "revenuePriorYear": public_fact(cik, revenue_prior),
         **{key: public_fact(cik, value) for key, value in annual.items()},
     }
     latest_ends = [item["end"] for item in facts.values() if item and item.get("end")]
@@ -626,6 +721,8 @@ def analyze_company(issuer: dict, companyfacts: dict) -> dict:
         "status": "available" if latest_ends else "insufficient",
         "latestPeriodEnd": max(latest_ends, default=None),
         "cashChangePercent": cash_change,
+        "revenueGrowthPercent": revenue_growth_percent,
+        "operatingMarginPercent": operating_margin_percent,
         "checks": checks,
         "summary": {
             "pressureSignals": pressure,
