@@ -2,7 +2,7 @@
   "schema": "mypybite.signal-feed.v1",
   "generatedAt": "2026-11-07T05:41:21Z",
   "leadershipGeneratedAt": "2026-11-06T13:11:02Z",
-  "fundamentalsGeneratedAt": "2026-11-08T22:21:32Z",
+  "fundamentalsGeneratedAt": "2026-11-09T01:18:16Z",
   "disclaimer": "Research preview. Leadership candidates are not confirmed appointments and are not scored. Filing explanations are educational context, not investment advice.",
   "stats": {
     "issuerCount": 75,
@@ -8489,19 +8489,7 @@
             "accessionNumber": "0001652044-26-000084",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/0001652044-26-000084-index.html"
           },
-          "debt": {
-            "value": 49085000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2025-12-31",
-            "filed": "2026-02-05",
-            "form": "10-K",
-            "accessionNumber": "0001652044-26-000018",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/0001652044-26-000018-index.html"
-          },
+          "debt": null,
           "currentDebt": {
             "value": 1016000000,
             "unit": "USD",
@@ -9179,19 +9167,7 @@
             "accessionNumber": "0001628280-26-003942",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/0001628280-26-003942-index.html"
           },
-          "debt": {
-            "value": 83664000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2026-06-30",
-            "filed": "2026-07-30",
-            "form": "10-Q",
-            "accessionNumber": "0001628280-26-050705",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/0001628280-26-050705-index.html"
-          },
+          "debt": null,
           "currentDebt": {
             "value": 2747000000,
             "unit": "USD",
@@ -9549,32 +9525,8 @@
             "accessionNumber": "0001628280-26-066775",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/0001628280-26-066775-index.html"
           },
-          "currentDebt": {
-            "value": 50841000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebtCurrent",
-            "label": "Long-term Debt, Current Maturities",
-            "start": null,
-            "end": "2013-03-31",
-            "filed": "2013-05-10",
-            "form": "10-Q",
-            "accessionNumber": "0001193125-13-212354",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000119312513212354/0001193125-13-212354-index.html"
-          },
-          "noncurrentDebt": {
-            "value": 597600000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebtNoncurrent",
-            "label": "Long-term Debt, Excluding Current Maturities",
-            "start": null,
-            "end": "2014-09-30",
-            "filed": "2014-11-07",
-            "form": "10-Q",
-            "accessionNumber": "0001193125-14-403635",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000119312514403635/0001193125-14-403635-index.html"
-          },
+          "currentDebt": null,
+          "noncurrentDebt": null,
           "cashPriorYear": {
             "value": 18289000000,
             "unit": "USD",
@@ -9881,19 +9833,7 @@
             "accessionNumber": "0001193125-26-389274",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/0001193125-26-389274-index.html"
           },
-          "debt": {
-            "value": 0,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2022-05-31",
-            "filed": "2022-06-21",
-            "form": "10-K",
-            "accessionNumber": "0001564590-22-023675",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1341439/000156459022023675/0001564590-22-023675-index.html"
-          },
+          "debt": null,
           "currentDebt": null,
           "noncurrentDebt": null,
           "cashPriorYear": {
@@ -10892,19 +10832,7 @@
             "accessionNumber": "0000002488-26-000191",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/0000002488-26-000191-index.html"
           },
-          "debt": {
-            "value": 1000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2021-12-25",
-            "filed": "2022-02-03",
-            "form": "10-K",
-            "accessionNumber": "0000002488-22-000016",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248822000016/0000002488-22-000016-index.html"
-          },
+          "debt": null,
           "currentDebt": {
             "value": 0,
             "unit": "USD",
@@ -11237,32 +11165,8 @@
             "accessionNumber": "0000050863-26-000191",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/0000050863-26-000191-index.html"
           },
-          "debt": {
-            "value": 46585000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2025-12-27",
-            "filed": "2026-01-23",
-            "form": "10-K",
-            "accessionNumber": "0000050863-26-000011",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/0000050863-26-000011-index.html"
-          },
-          "currentDebt": {
-            "value": 2499000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebtCurrent",
-            "label": "Long-term Debt, Current Maturities",
-            "start": null,
-            "end": "2025-12-27",
-            "filed": "2026-01-23",
-            "form": "10-K",
-            "accessionNumber": "0000050863-26-000011",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/0000050863-26-000011-index.html"
-          },
+          "debt": null,
+          "currentDebt": null,
           "noncurrentDebt": {
             "value": 46317000000,
             "unit": "USD",
@@ -11594,19 +11498,7 @@
             "accessionNumber": "0001065280-26-000291",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000291/0001065280-26-000291-index.html"
           },
-          "debt": {
-            "value": 20535734000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2021-09-30",
-            "filed": "2021-10-21",
-            "form": "10-Q",
-            "accessionNumber": "0001065280-21-000363",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1065280/000106528021000363/0001065280-21-000363-index.html"
-          },
+          "debt": null,
           "currentDebt": {
             "value": 2474796000,
             "unit": "USD",
@@ -11953,19 +11845,7 @@
           },
           "debt": null,
           "currentDebt": null,
-          "noncurrentDebt": {
-            "value": 0,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebtNoncurrent",
-            "label": "Long-term Debt, Excluding Current Maturities",
-            "start": null,
-            "end": "2021-12-31",
-            "filed": "2022-02-24",
-            "form": "10-K",
-            "accessionNumber": "0001193125-22-050913",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000119312522050913/0001193125-22-050913-index.html"
-          },
+          "noncurrentDebt": null,
           "cashPriorYear": {
             "value": 1615967000,
             "unit": "USD",
@@ -12617,19 +12497,7 @@
             "accessionNumber": "0001628280-26-011378",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/937966/000162828026011378/0001628280-26-011378-index.html"
           },
-          "debt": {
-            "value": 3007500000,
-            "unit": "EUR",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2018-12-31",
-            "filed": "2019-02-06",
-            "form": "20-F",
-            "accessionNumber": "0000937966-19-000007",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/937966/000093796619000007/0000937966-19-000007-index.html"
-          },
+          "debt": null,
           "currentDebt": {
             "value": 1681900000,
             "unit": "EUR",
@@ -13008,32 +12876,8 @@
             "accessionNumber": "0000723125-26-000023",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html"
           },
-          "currentDebt": {
-            "value": 357000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebtCurrent",
-            "label": "Long-term Debt, Current Maturities",
-            "start": null,
-            "end": "2013-05-30",
-            "filed": "2013-07-08",
-            "form": "10-Q",
-            "accessionNumber": "0000723125-13-000108",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/723125/000072312513000108/0000723125-13-000108-index.html"
-          },
-          "noncurrentDebt": {
-            "value": 3267000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebtNoncurrent",
-            "label": "Long-term Debt, Excluding Current Maturities",
-            "start": null,
-            "end": "2013-05-30",
-            "filed": "2013-07-08",
-            "form": "10-Q",
-            "accessionNumber": "0000723125-13-000108",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/723125/000072312513000108/0000723125-13-000108-index.html"
-          },
+          "currentDebt": null,
+          "noncurrentDebt": null,
           "cashPriorYear": {
             "value": 9642000000,
             "unit": "USD",
@@ -13649,45 +13493,9 @@
             "accessionNumber": "0001375365-26-000027",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000027/0001375365-26-000027-index.html"
           },
-          "debt": {
-            "value": 120179000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2023-06-30",
-            "filed": "2023-08-28",
-            "form": "10-K",
-            "accessionNumber": "0001375365-23-000036",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1375365/000137536523000036/0001375365-23-000036-index.html"
-          },
-          "currentDebt": {
-            "value": 170123000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "ShortTermBorrowings",
-            "label": "Short-term Debt",
-            "start": null,
-            "end": "2023-06-30",
-            "filed": "2023-08-28",
-            "form": "10-K",
-            "accessionNumber": "0001375365-23-000036",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1375365/000137536523000036/0001375365-23-000036-index.html"
-          },
-          "noncurrentDebt": {
-            "value": 85646000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebtNoncurrent",
-            "label": "Long-term Debt, Excluding Current Maturities",
-            "start": null,
-            "end": "2024-03-31",
-            "filed": "2024-05-06",
-            "form": "10-Q",
-            "accessionNumber": "0001375365-24-000022",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1375365/000137536524000022/0001375365-24-000022-index.html"
-          },
+          "debt": null,
+          "currentDebt": null,
+          "noncurrentDebt": null,
           "cashPriorYear": {
             "value": 4196867000,
             "unit": "USD",
@@ -14017,19 +13825,7 @@
             "accessionNumber": "0000051143-26-000095",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000095/0000051143-26-000095-index.html"
           },
-          "debt": {
-            "value": 62944000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2019-09-30",
-            "filed": "2019-10-30",
-            "form": "10-Q",
-            "accessionNumber": "0001558370-19-009324",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/51143/000155837019009324/0001558370-19-009324-index.html"
-          },
+          "debt": null,
           "currentDebt": {
             "value": 7013000000,
             "unit": "USD",
@@ -14150,14 +13946,14 @@
         "cohort": "financial-system",
         "status": "available",
         "latestPeriodEnd": "2026-09-30",
-        "cashChangePercent": 7.5,
+        "cashChangePercent": -2.6,
         "checks": [
           {
             "id": "liquidity",
             "label": "Cash and liquidity",
             "status": "neutral",
-            "headline": "Cash stands at $326.3B",
-            "detail": "Latest cash is $326.3B, versus $303.4B roughly one year earlier.",
+            "headline": "Cash stands at $21.3B",
+            "detail": "Latest cash is $21.3B, versus $21.8B roughly one year earlier.",
             "evidence": [
               "cash",
               "cashPriorYear"
@@ -14168,7 +13964,7 @@
             "label": "Operating cash flow",
             "status": "pressure",
             "headline": "Operations used $147.8B of cash",
-            "detail": "At the latest annual operating burn, reported cash equals about 2.2 years of that burn. This is a rough pressure check, not a forecast.",
+            "detail": "At the latest annual operating burn, reported cash equals about 0.1 years of that burn. This is a rough pressure check, not a forecast.",
             "evidence": [
               "operatingCashFlow"
             ]
@@ -14247,11 +14043,11 @@
         },
         "facts": {
           "cash": {
-            "value": 326271000000,
+            "value": 21259000000,
             "unit": "USD",
             "taxonomy": "us-gaap",
-            "tag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-            "label": "Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents",
+            "tag": "CashAndDueFromBanks",
+            "label": "Cash and Due from Banks",
             "start": null,
             "end": "2026-09-30",
             "filed": "2026-11-03",
@@ -14326,19 +14122,7 @@
             "accessionNumber": "0001628280-26-069523",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828026069523/0001628280-26-069523-index.html"
           },
-          "debt": {
-            "value": 269929000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2014-06-30",
-            "filed": "2014-08-04",
-            "form": "10-Q",
-            "accessionNumber": "0000019617-14-000409",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000001961714000409/0000019617-14-000409-index.html"
-          },
+          "debt": null,
           "currentDebt": {
             "value": 71339000000,
             "unit": "USD",
@@ -14354,17 +14138,17 @@
           },
           "noncurrentDebt": null,
           "cashPriorYear": {
-            "value": 303436000000,
+            "value": 21821000000,
             "unit": "USD",
             "taxonomy": "us-gaap",
-            "tag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-            "label": "Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents",
+            "tag": "CashAndDueFromBanks",
+            "label": "Cash and Due from Banks",
             "start": null,
             "end": "2025-09-30",
-            "filed": "2026-11-03",
+            "filed": "2025-11-04",
             "form": "10-Q",
-            "accessionNumber": "0001628280-26-069523",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828026069523/0001628280-26-069523-index.html"
+            "accessionNumber": "0001628280-25-048859",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/0001628280-25-048859-index.html"
           },
           "operatingCashFlow": {
             "value": -147782000000,
@@ -14435,14 +14219,14 @@
         "cohort": "financial-system",
         "status": "available",
         "latestPeriodEnd": "2026-10-29",
-        "cashChangePercent": 1.3,
+        "cashChangePercent": 6.1,
         "checks": [
           {
             "id": "liquidity",
             "label": "Cash and liquidity",
             "status": "neutral",
-            "headline": "Cash stands at $249.6B",
-            "detail": "Latest cash is $249.6B, versus $246.5B roughly one year earlier.",
+            "headline": "Cash stands at $26.9B",
+            "detail": "Latest cash is $26.9B, versus $25.4B roughly one year earlier.",
             "evidence": [
               "cash",
               "cashPriorYear"
@@ -14506,7 +14290,7 @@
         "valuationInputs": {
           "freeCashFlow": null,
           "totalDebt": 318687000000,
-          "netDebt": 69044000000,
+          "netDebt": 291780000000,
           "debtBasis": "reported-same-period",
           "debtPeriodEnd": "2026-09-30",
           "unit": "USD",
@@ -14532,11 +14316,11 @@
         },
         "facts": {
           "cash": {
-            "value": 249643000000,
+            "value": 26907000000,
             "unit": "USD",
             "taxonomy": "us-gaap",
-            "tag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-            "label": "Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents",
+            "tag": "CashAndDueFromBanks",
+            "label": "Cash and Due from Banks",
             "start": null,
             "end": "2026-09-30",
             "filed": "2026-10-30",
@@ -14624,32 +14408,20 @@
             "accessionNumber": "0000070858-26-000548",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000548/0000070858-26-000548-index.html"
           },
-          "currentDebt": {
-            "value": 211113000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "ShortTermBorrowings",
-            "label": "Short-term Debt",
-            "start": null,
-            "end": "2016-06-30",
-            "filed": "2016-08-01",
-            "form": "10-Q",
-            "accessionNumber": "0000070858-16-000200",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085816000200/0000070858-16-000200-index.html"
-          },
+          "currentDebt": null,
           "noncurrentDebt": null,
           "cashPriorYear": {
-            "value": 246507000000,
+            "value": 25352000000,
             "unit": "USD",
             "taxonomy": "us-gaap",
-            "tag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-            "label": "Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents",
+            "tag": "CashAndDueFromBanks",
+            "label": "Cash and Due from Banks",
             "start": null,
             "end": "2025-09-30",
-            "filed": "2026-10-30",
+            "filed": "2025-10-31",
             "form": "10-Q",
-            "accessionNumber": "0000070858-26-000548",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000548/0000070858-26-000548-index.html"
+            "accessionNumber": "0000070858-25-000405",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/0000070858-25-000405-index.html"
           },
           "operatingCashFlow": {
             "value": 12613000000,
@@ -14744,14 +14516,14 @@
         "cohort": "financial-system",
         "status": "available",
         "latestPeriodEnd": "2026-01-31",
-        "cashChangePercent": 26.4,
+        "cashChangePercent": 4.1,
         "checks": [
           {
             "id": "liquidity",
             "label": "Cash and liquidity",
-            "status": "supportive",
-            "headline": "Cash rose 26.4% year over year",
-            "detail": "Latest cash is $349.6B, versus $276.5B roughly one year earlier.",
+            "status": "neutral",
+            "headline": "Cash stands at $23.7B",
+            "detail": "Latest cash is $23.7B, versus $22.8B roughly one year earlier.",
             "evidence": [
               "cash",
               "cashPriorYear"
@@ -14762,7 +14534,7 @@
             "label": "Operating cash flow",
             "status": "pressure",
             "headline": "Operations used $67.6B of cash",
-            "detail": "At the latest annual operating burn, reported cash equals about 5.2 years of that burn. This is a rough pressure check, not a forecast.",
+            "detail": "At the latest annual operating burn, reported cash equals about 0.4 years of that burn. This is a rough pressure check, not a forecast.",
             "evidence": [
               "operatingCashFlow"
             ]
@@ -14809,13 +14581,13 @@
         "summary": {
           "pressureSignals": 1,
           "watchSignals": 1,
-          "supportiveSignals": 1,
+          "supportiveSignals": 0,
           "conclusion": "At least one pressure or watch signal requires explanation from the filing."
         },
         "valuationInputs": {
           "freeCashFlow": -74152000000,
           "totalDebt": 315827000000,
-          "netDebt": -33752000000,
+          "netDebt": 292110000000,
           "debtBasis": "reported-same-period",
           "debtPeriodEnd": "2025-12-31",
           "unit": "USD",
@@ -14841,11 +14613,11 @@
         },
         "facts": {
           "cash": {
-            "value": 349579000000,
+            "value": 23717000000,
             "unit": "USD",
             "taxonomy": "us-gaap",
-            "tag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-            "label": "Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents",
+            "tag": "CashAndDueFromBanks",
+            "label": "Cash and Due from Banks",
             "start": null,
             "end": "2025-12-31",
             "filed": "2026-02-20",
@@ -14948,11 +14720,11 @@
           },
           "noncurrentDebt": null,
           "cashPriorYear": {
-            "value": 276532000000,
+            "value": 22782000000,
             "unit": "USD",
             "taxonomy": "us-gaap",
-            "tag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-            "label": "Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents",
+            "tag": "CashAndDueFromBanks",
+            "label": "Cash and Due from Banks",
             "start": null,
             "end": "2024-12-31",
             "filed": "2026-02-20",
@@ -15230,32 +15002,8 @@
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000532/0000886982-26-000532-index.html"
           },
           "debt": null,
-          "currentDebt": {
-            "value": 72385000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "ShortTermBorrowings",
-            "label": "Short-term Debt",
-            "start": null,
-            "end": "2025-09-30",
-            "filed": "2025-10-31",
-            "form": "10-Q",
-            "accessionNumber": "0000886982-25-001411",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/886982/000088698225001411/0000886982-25-001411-index.html"
-          },
-          "noncurrentDebt": {
-            "value": 228723000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebtNoncurrent",
-            "label": "Long-term Debt, Excluding Current Maturities",
-            "start": null,
-            "end": "2019-09-30",
-            "filed": "2019-11-01",
-            "form": "10-Q",
-            "accessionNumber": "0001193125-19-280752",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/886982/000119312519280752/0001193125-19-280752-index.html"
-          },
+          "currentDebt": null,
+          "noncurrentDebt": null,
           "cashPriorYear": {
             "value": 169577000000,
             "unit": "USD",
@@ -15539,19 +15287,7 @@
             "accessionNumber": "0000895421-26-000293",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000293/0000895421-26-000293-index.html"
           },
-          "currentDebt": {
-            "value": 24241000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebtCurrent",
-            "label": "Long-term Debt, Current Maturities",
-            "start": null,
-            "end": "2020-12-31",
-            "filed": "2022-02-24",
-            "form": "10-K",
-            "accessionNumber": "0000895421-22-000400",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/895421/000089542122000400/0000895421-22-000400-index.html"
-          },
+          "currentDebt": null,
           "noncurrentDebt": null,
           "cashPriorYear": {
             "value": 103734000000,
@@ -15659,14 +15395,14 @@
         "cohort": "financial-system",
         "status": "available",
         "latestPeriodEnd": "2026-10-19",
-        "cashChangePercent": 4.0,
+        "cashChangePercent": 16.5,
         "checks": [
           {
             "id": "liquidity",
             "label": "Cash and liquidity",
             "status": "neutral",
-            "headline": "Cash stands at $179.4B",
-            "detail": "Latest cash is $179.4B, versus $172.5B roughly one year earlier.",
+            "headline": "Cash stands at $40.6B",
+            "detail": "Latest cash is $40.6B, versus $34.8B roughly one year earlier.",
             "evidence": [
               "cash",
               "cashPriorYear"
@@ -15677,7 +15413,7 @@
             "label": "Operating cash flow",
             "status": "pressure",
             "headline": "Operations used $19.0B of cash",
-            "detail": "At the latest annual operating burn, reported cash equals about 9.4 years of that burn. This is a rough pressure check, not a forecast.",
+            "detail": "At the latest annual operating burn, reported cash equals about 2.1 years of that burn. This is a rough pressure check, not a forecast.",
             "evidence": [
               "operatingCashFlow"
             ]
@@ -15730,7 +15466,7 @@
         "valuationInputs": {
           "freeCashFlow": null,
           "totalDebt": 182851000000,
-          "netDebt": 3491000000,
+          "netDebt": 142295000000,
           "debtBasis": "reported-same-period",
           "debtPeriodEnd": "2026-09-30",
           "unit": "USD",
@@ -15756,11 +15492,11 @@
         },
         "facts": {
           "cash": {
-            "value": 179360000000,
+            "value": 40556000000,
             "unit": "USD",
             "taxonomy": "us-gaap",
-            "tag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-            "label": "Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents",
+            "tag": "CashAndDueFromBanks",
+            "label": "Cash and Due from Banks",
             "start": null,
             "end": "2026-09-30",
             "filed": "2026-10-28",
@@ -15863,17 +15599,17 @@
           },
           "noncurrentDebt": null,
           "cashPriorYear": {
-            "value": 172516000000,
+            "value": 34801000000,
             "unit": "USD",
             "taxonomy": "us-gaap",
-            "tag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-            "label": "Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents",
+            "tag": "CashAndDueFromBanks",
+            "label": "Cash and Due from Banks",
             "start": null,
             "end": "2025-09-30",
-            "filed": "2026-10-28",
+            "filed": "2025-10-31",
             "form": "10-Q",
-            "accessionNumber": "0000072971-26-000327",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000327/0000072971-26-000327-index.html"
+            "accessionNumber": "0000072971-25-000253",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000253/0000072971-25-000253-index.html"
           },
           "operatingCashFlow": {
             "value": -19001000000,
@@ -16264,14 +16000,14 @@
         "cohort": "capital-provider",
         "status": "available",
         "latestPeriodEnd": "2026-06-30",
-        "cashChangePercent": -59.1,
+        "cashChangePercent": 12.6,
         "checks": [
           {
             "id": "liquidity",
             "label": "Cash and liquidity",
-            "status": "pressure",
-            "headline": "Cash fell 59.1% year over year",
-            "detail": "Latest cash is $41.4B, versus $101.2B roughly one year earlier.",
+            "status": "neutral",
+            "headline": "Cash stands at $31.6B",
+            "detail": "Latest cash is $31.6B, versus $28.0B roughly one year earlier.",
             "evidence": [
               "cash",
               "cashPriorYear"
@@ -16327,10 +16063,10 @@
           }
         ],
         "summary": {
-          "pressureSignals": 1,
+          "pressureSignals": 0,
           "watchSignals": 0,
           "supportiveSignals": 1,
-          "conclusion": "At least one pressure or watch signal requires explanation from the filing."
+          "conclusion": "The available standardized facts are not sufficient for a directional conclusion."
         },
         "valuationInputs": {
           "freeCashFlow": 25042000000,
@@ -16361,17 +16097,17 @@
         },
         "facts": {
           "cash": {
-            "value": 41360000000,
+            "value": 31583000000,
             "unit": "USD",
             "taxonomy": "us-gaap",
-            "tag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-            "label": "Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents",
+            "tag": "CashAndCashEquivalentsAtCarryingValue",
+            "label": "Cash and Cash Equivalents, at Carrying Value",
             "start": null,
-            "end": "2026-06-30",
-            "filed": "2026-08-10",
-            "form": "10-Q",
-            "accessionNumber": "0001193125-26-341032",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526341032/0001193125-26-341032-index.html"
+            "end": "2017-12-31",
+            "filed": "2018-02-26",
+            "form": "10-K",
+            "accessionNumber": "0001193125-18-057033",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1067983/000119312518057033/0001193125-18-057033-index.html"
           },
           "assets": {
             "value": 1263071000000,
@@ -16444,17 +16180,17 @@
           "currentDebt": null,
           "noncurrentDebt": null,
           "cashPriorYear": {
-            "value": 101228000000,
+            "value": 28048000000,
             "unit": "USD",
             "taxonomy": "us-gaap",
-            "tag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-            "label": "Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents",
+            "tag": "CashAndCashEquivalentsAtCarryingValue",
+            "label": "Cash and Cash Equivalents, at Carrying Value",
             "start": null,
-            "end": "2025-06-30",
-            "filed": "2026-08-10",
-            "form": "10-Q",
-            "accessionNumber": "0001193125-26-341032",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526341032/0001193125-26-341032-index.html"
+            "end": "2016-12-31",
+            "filed": "2018-02-26",
+            "form": "10-K",
+            "accessionNumber": "0001193125-18-057033",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1067983/000119312518057033/0001193125-18-057033-index.html"
           },
           "operatingCashFlow": {
             "value": 45969000000,
@@ -17082,19 +16818,7 @@
             "accessionNumber": "0001193125-10-020834",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000119312510020834/0001193125-10-020834-index.html"
           },
-          "debt": {
-            "value": 20920000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2021-12-31",
-            "filed": "2022-01-28",
-            "form": "10-Q",
-            "accessionNumber": "0001403161-22-000013",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000140316122000013/0001403161-22-000013-index.html"
-          },
+          "debt": null,
           "currentDebt": {
             "value": 2716000000,
             "unit": "USD",
@@ -17439,19 +17163,7 @@
             "accessionNumber": "0001193125-10-243917",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1141391/000119312510243917/0001193125-10-243917-index.html"
           },
-          "debt": {
-            "value": 21000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2011-03-31",
-            "filed": "2011-05-03",
-            "form": "10-Q",
-            "accessionNumber": "0001193125-11-123143",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1141391/000119312511123143/0001193125-11-123143-index.html"
-          },
+          "debt": null,
           "currentDebt": {
             "value": 1749000000,
             "unit": "USD",
@@ -17596,14 +17308,14 @@
         "cohort": "financial-system",
         "status": "available",
         "latestPeriodEnd": "2026-10-15",
-        "cashChangePercent": -21.0,
+        "cashChangePercent": 13.5,
         "checks": [
           {
             "id": "liquidity",
             "label": "Cash and liquidity",
-            "status": "pressure",
-            "headline": "Cash fell 21.0% year over year",
-            "detail": "Latest cash is $43.2B, versus $54.7B roughly one year earlier.",
+            "status": "neutral",
+            "headline": "Cash stands at $3.7B",
+            "detail": "Latest cash is $3.7B, versus $3.2B roughly one year earlier.",
             "evidence": [
               "cash",
               "cashPriorYear"
@@ -17659,7 +17371,7 @@
           }
         ],
         "summary": {
-          "pressureSignals": 1,
+          "pressureSignals": 0,
           "watchSignals": 1,
           "supportiveSignals": 1,
           "conclusion": "At least one pressure or watch signal requires explanation from the filing."
@@ -17667,7 +17379,7 @@
         "valuationInputs": {
           "freeCashFlow": 16003000000,
           "totalDebt": 58538000000,
-          "netDebt": 15335000000,
+          "netDebt": 54869000000,
           "debtBasis": "reported-same-period",
           "debtPeriodEnd": "2026-09-30",
           "unit": "USD",
@@ -17693,11 +17405,11 @@
         },
         "facts": {
           "cash": {
-            "value": 43203000000,
+            "value": 3669000000,
             "unit": "USD",
             "taxonomy": "us-gaap",
-            "tag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-            "label": "Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents",
+            "tag": "CashAndDueFromBanks",
+            "label": "Cash and Due from Banks",
             "start": null,
             "end": "2026-09-30",
             "filed": "2026-10-23",
@@ -17800,17 +17512,17 @@
           },
           "noncurrentDebt": null,
           "cashPriorYear": {
-            "value": 54706000000,
+            "value": 3234000000,
             "unit": "USD",
             "taxonomy": "us-gaap",
-            "tag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-            "label": "Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents",
+            "tag": "CashAndDueFromBanks",
+            "label": "Cash and Due from Banks",
             "start": null,
             "end": "2025-09-30",
-            "filed": "2026-10-23",
+            "filed": "2025-10-17",
             "form": "10-Q",
-            "accessionNumber": "0000004962-26-000409",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000409/0000004962-26-000409-index.html"
+            "accessionNumber": "0000004962-25-000222",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/4962/000000496225000222/0000004962-25-000222-index.html"
           },
           "operatingCashFlow": {
             "value": 18428000000,
@@ -18093,32 +17805,8 @@
             "accessionNumber": "0000316709-26-000038",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000038/0000316709-26-000038-index.html"
           },
-          "debt": {
-            "value": 18914000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2021-12-31",
-            "filed": "2022-02-24",
-            "form": "10-K",
-            "accessionNumber": "0000316709-22-000009",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/316709/000031670922000009/0000316709-22-000009-index.html"
-          },
-          "currentDebt": {
-            "value": 17050000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "ShortTermBorrowings",
-            "label": "Short-term Debt",
-            "start": null,
-            "end": "2022-12-31",
-            "filed": "2023-02-24",
-            "form": "10-K",
-            "accessionNumber": "0000316709-23-000009",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/316709/000031670923000009/0000316709-23-000009-index.html"
-          },
+          "debt": null,
+          "currentDebt": null,
           "noncurrentDebt": null,
           "cashPriorYear": {
             "value": 30572000000,
@@ -18568,14 +18256,14 @@
         "cohort": "capital-provider",
         "status": "available",
         "latestPeriodEnd": "2026-08-05",
-        "cashChangePercent": 17.4,
+        "cashChangePercent": 128.5,
         "checks": [
           {
             "id": "liquidity",
             "label": "Cash and liquidity",
-            "status": "neutral",
-            "headline": "Cash stands at $21.2B",
-            "detail": "Latest cash is $21.2B, versus $18.1B roughly one year earlier.",
+            "status": "supportive",
+            "headline": "Cash rose 128.5% year over year",
+            "detail": "Latest cash is $5.4B, versus $2.3B roughly one year earlier.",
             "evidence": [
               "cash",
               "cashPriorYear"
@@ -18633,15 +18321,15 @@
         "summary": {
           "pressureSignals": 0,
           "watchSignals": 1,
-          "supportiveSignals": 1,
+          "supportiveSignals": 2,
           "conclusion": "At least one pressure or watch signal requires explanation from the filing."
         },
         "valuationInputs": {
           "freeCashFlow": null,
-          "totalDebt": null,
-          "netDebt": null,
-          "debtBasis": null,
-          "debtPeriodEnd": null,
+          "totalDebt": 33501204000,
+          "netDebt": 28138195000,
+          "debtBasis": "reported-same-period",
+          "debtPeriodEnd": "2020-12-31",
           "unit": "USD",
           "shareCountBasis": "point-in-time",
           "method": "Free cash flow equals annual operating cash flow less capital expenditures for the same fiscal period; net debt equals reported or reconstructed debt less cash.",
@@ -18665,17 +18353,17 @@
         },
         "facts": {
           "cash": {
-            "value": 21202194000,
+            "value": 5363009000,
             "unit": "USD",
             "taxonomy": "us-gaap",
-            "tag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-            "label": "Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents",
+            "tag": "CashAndCashEquivalentsAtCarryingValue",
+            "label": "Cash and Cash Equivalents, at Carrying Value",
             "start": null,
-            "end": "2026-06-30",
-            "filed": "2026-08-06",
-            "form": "10-Q",
-            "accessionNumber": "0001404912-26-000027",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000027/0001404912-26-000027-index.html"
+            "end": "2020-12-31",
+            "filed": "2021-02-19",
+            "form": "10-K",
+            "accessionNumber": "0001404912-21-000008",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1404912/000140491221000008/0001404912-21-000008-index.html"
           },
           "assets": {
             "value": 414463237000,
@@ -18745,32 +18433,32 @@
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000027/0001404912-26-000027-index.html"
           },
           "debt": {
-            "value": 36914472000,
+            "value": 33501204000,
             "unit": "USD",
             "taxonomy": "us-gaap",
             "tag": "LongTermDebt",
             "label": "Long-term Debt",
             "start": null,
-            "end": "2021-12-31",
-            "filed": "2022-02-28",
+            "end": "2020-12-31",
+            "filed": "2021-02-19",
             "form": "10-K",
-            "accessionNumber": "0001404912-22-000004",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1404912/000140491222000004/0001404912-22-000004-index.html"
+            "accessionNumber": "0001404912-21-000008",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1404912/000140491221000008/0001404912-21-000008-index.html"
           },
           "currentDebt": null,
           "noncurrentDebt": null,
           "cashPriorYear": {
-            "value": 18056173000,
+            "value": 2346713000,
             "unit": "USD",
             "taxonomy": "us-gaap",
-            "tag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-            "label": "Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents",
+            "tag": "CashAndCashEquivalentsAtCarryingValue",
+            "label": "Cash and Cash Equivalents, at Carrying Value",
             "start": null,
-            "end": "2025-06-30",
-            "filed": "2026-08-06",
-            "form": "10-Q",
-            "accessionNumber": "0001404912-26-000027",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000027/0001404912-26-000027-index.html"
+            "end": "2019-12-31",
+            "filed": "2021-02-19",
+            "form": "10-K",
+            "accessionNumber": "0001404912-21-000008",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1404912/000140491221000008/0001404912-21-000008-index.html"
           },
           "operatingCashFlow": {
             "value": 477760000,
@@ -19065,19 +18753,7 @@
             "accessionNumber": "0000104169-26-000154",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/0000104169-26-000154-index.html"
           },
-          "debt": {
-            "value": 38166000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2026-01-31",
-            "filed": "2026-03-13",
-            "form": "10-K",
-            "accessionNumber": "0000104169-26-000055",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/0000104169-26-000055-index.html"
-          },
+          "debt": null,
           "currentDebt": {
             "value": 3470000000,
             "unit": "USD",
@@ -19422,19 +19098,7 @@
             "accessionNumber": "0000909832-26-000093",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093-index.html"
           },
-          "debt": {
-            "value": 6618000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2022-05-08",
-            "filed": "2022-06-02",
-            "form": "10-Q",
-            "accessionNumber": "0000909832-22-000014",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983222000014/0000909832-22-000014-index.html"
-          },
+          "debt": null,
           "currentDebt": {
             "value": 2248000000,
             "unit": "USD",
@@ -19779,45 +19443,9 @@
             "accessionNumber": "0001628280-26-058715",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/354950/000162828026058715/0001628280-26-058715-index.html"
           },
-          "debt": {
-            "value": 49397000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2026-02-01",
-            "filed": "2026-03-18",
-            "form": "10-K",
-            "accessionNumber": "0001628280-26-019436",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/0001628280-26-019436-index.html"
-          },
-          "currentDebt": {
-            "value": 1344000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "ShortTermBorrowings",
-            "label": "Short-term Debt",
-            "start": null,
-            "end": "2024-10-27",
-            "filed": "2024-11-19",
-            "form": "10-Q",
-            "accessionNumber": "0000354950-24-000240",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/354950/000035495024000240/0000354950-24-000240-index.html"
-          },
-          "noncurrentDebt": {
-            "value": 8707000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebtNoncurrent",
-            "label": "Long-term Debt, Excluding Current Maturities",
-            "start": null,
-            "end": "2011-01-30",
-            "filed": "2011-03-24",
-            "form": "10-K",
-            "accessionNumber": "0001193125-11-076501",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/354950/000119312511076501/0001193125-11-076501-index.html"
-          },
+          "debt": null,
+          "currentDebt": null,
+          "noncurrentDebt": null,
           "cashPriorYear": {
             "value": 2804000000,
             "unit": "USD",
@@ -20100,19 +19728,7 @@
             "accessionNumber": "0000320187-15-000113",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320187/000032018715000113/0000320187-15-000113-index.html"
           },
-          "debt": {
-            "value": 7942000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2026-05-31",
-            "filed": "2026-07-15",
-            "form": "10-K",
-            "accessionNumber": "0000320187-26-000088",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000088/0000320187-26-000088-index.html"
-          },
+          "debt": null,
           "currentDebt": {
             "value": 2000000000,
             "unit": "USD",
@@ -20257,14 +19873,14 @@
         "cohort": "consumer-market",
         "status": "available",
         "latestPeriodEnd": "2026-07-23",
-        "cashChangePercent": -17.3,
+        "cashChangePercent": -33.1,
         "checks": [
           {
             "id": "liquidity",
             "label": "Cash and liquidity",
-            "status": "neutral",
-            "headline": "Cash stands at $3.4B",
-            "detail": "Latest cash is $3.4B, versus $4.2B roughly one year earlier.",
+            "status": "pressure",
+            "headline": "Cash fell 33.1% year over year",
+            "detail": "Latest cash is $3.2B, versus $4.8B roughly one year earlier.",
             "evidence": [
               "cash",
               "cashPriorYear"
@@ -20320,17 +19936,17 @@
           }
         ],
         "summary": {
-          "pressureSignals": 1,
+          "pressureSignals": 2,
           "watchSignals": 1,
           "supportiveSignals": 1,
-          "conclusion": "At least one pressure or watch signal requires explanation from the filing."
+          "conclusion": "Multiple financial-pressure signals require deeper filing review."
         },
         "valuationInputs": {
           "freeCashFlow": 2442000000,
-          "totalDebt": 13278600000,
-          "netDebt": 9828800000,
+          "totalDebt": 14929900000,
+          "netDebt": 11752400000,
           "debtBasis": "reported-same-period",
-          "debtPeriodEnd": "2026-06-28",
+          "debtPeriodEnd": "2022-07-03",
           "unit": "USD",
           "shareCountBasis": "point-in-time",
           "method": "Free cash flow equals annual operating cash flow less capital expenditures for the same fiscal period; net debt equals reported or reconstructed debt less cash.",
@@ -20354,17 +19970,17 @@
         },
         "facts": {
           "cash": {
-            "value": 3449800000,
+            "value": 3177500000,
             "unit": "USD",
             "taxonomy": "us-gaap",
-            "tag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-            "label": "Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents",
+            "tag": "CashAndCashEquivalentsAtCarryingValue",
+            "label": "Cash and Cash Equivalents, at Carrying Value",
             "start": null,
-            "end": "2026-06-28",
-            "filed": "2026-07-29",
+            "end": "2022-07-03",
+            "filed": "2022-08-02",
             "form": "10-Q",
-            "accessionNumber": "0000829224-26-000130",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000130/0000829224-26-000130-index.html"
+            "accessionNumber": "0000829224-22-000039",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/829224/000082922422000039/0000829224-22-000039-index.html"
           },
           "assets": {
             "value": 28294700000,
@@ -20458,56 +20074,56 @@
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000130/0000829224-26-000130-index.html"
           },
           "debt": {
-            "value": 13278600000,
+            "value": 14929900000,
             "unit": "USD",
             "taxonomy": "us-gaap",
             "tag": "LongTermDebt",
             "label": "Long-term Debt",
             "start": null,
-            "end": "2026-06-28",
-            "filed": "2026-07-29",
+            "end": "2022-07-03",
+            "filed": "2022-08-02",
             "form": "10-Q",
-            "accessionNumber": "0000829224-26-000130",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000130/0000829224-26-000130-index.html"
+            "accessionNumber": "0000829224-22-000039",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/829224/000082922422000039/0000829224-22-000039-index.html"
           },
           "currentDebt": {
-            "value": 1498400000,
+            "value": 999100000,
             "unit": "USD",
             "taxonomy": "us-gaap",
             "tag": "LongTermDebtCurrent",
             "label": "Long-term Debt, Current Maturities",
             "start": null,
-            "end": "2026-06-28",
-            "filed": "2026-07-29",
+            "end": "2022-07-03",
+            "filed": "2022-08-02",
             "form": "10-Q",
-            "accessionNumber": "0000829224-26-000130",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000130/0000829224-26-000130-index.html"
+            "accessionNumber": "0000829224-22-000039",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/829224/000082922422000039/0000829224-22-000039-index.html"
           },
           "noncurrentDebt": {
-            "value": 11780200000,
+            "value": 13930800000,
             "unit": "USD",
             "taxonomy": "us-gaap",
             "tag": "LongTermDebtNoncurrent",
             "label": "Long-term Debt, Excluding Current Maturities",
             "start": null,
-            "end": "2026-06-28",
-            "filed": "2026-07-29",
+            "end": "2022-07-03",
+            "filed": "2022-08-02",
             "form": "10-Q",
-            "accessionNumber": "0000829224-26-000130",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000130/0000829224-26-000130-index.html"
+            "accessionNumber": "0000829224-22-000039",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/829224/000082922422000039/0000829224-22-000039-index.html"
           },
           "cashPriorYear": {
-            "value": 4172600000,
+            "value": 4753100000,
             "unit": "USD",
             "taxonomy": "us-gaap",
-            "tag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-            "label": "Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents",
+            "tag": "CashAndCashEquivalentsAtCarryingValue",
+            "label": "Cash and Cash Equivalents, at Carrying Value",
             "start": null,
-            "end": "2025-06-29",
-            "filed": "2026-07-29",
+            "end": "2021-06-27",
+            "filed": "2022-08-02",
             "form": "10-Q",
-            "accessionNumber": "0000829224-26-000130",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000130/0000829224-26-000130-index.html"
+            "accessionNumber": "0000829224-22-000039",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/829224/000082922422000039/0000829224-22-000039-index.html"
           },
           "operatingCashFlow": {
             "value": 4747500000,
@@ -20823,32 +20439,8 @@
             "accessionNumber": "0000063908-26-000083",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000083/0000063908-26-000083-index.html"
           },
-          "debt": {
-            "value": 39973000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2025-12-31",
-            "filed": "2026-02-24",
-            "form": "10-K",
-            "accessionNumber": "0000063908-26-000035",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000035/0000063908-26-000035-index.html"
-          },
-          "currentDebt": {
-            "value": 725000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebtCurrent",
-            "label": "Long-term Debt, Current Maturities",
-            "start": null,
-            "end": "2025-12-31",
-            "filed": "2026-02-24",
-            "form": "10-K",
-            "accessionNumber": "0000063908-26-000035",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000035/0000063908-26-000035-index.html"
-          },
+          "debt": null,
+          "currentDebt": null,
           "noncurrentDebt": {
             "value": 39820000000,
             "unit": "USD",
@@ -21168,19 +20760,7 @@
             "accessionNumber": "0001744489-26-000057",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000057/0001744489-26-000057-index.html"
           },
-          "debt": {
-            "value": 42026000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2025-09-27",
-            "filed": "2025-11-13",
-            "form": "10-K",
-            "accessionNumber": "0001744489-25-000155",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1744489/000174448925000155/0001744489-25-000155-index.html"
-          },
+          "debt": null,
           "currentDebt": {
             "value": 8627000000,
             "unit": "USD",
@@ -21559,19 +21139,7 @@
             "accessionNumber": "0001543151-26-000041",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000041/0001543151-26-000041-index.html"
           },
-          "currentDebt": {
-            "value": 1997000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "ShortTermBorrowings",
-            "label": "Short-term Debt",
-            "start": null,
-            "end": "2026-06-30",
-            "filed": "2026-08-05",
-            "form": "10-Q",
-            "accessionNumber": "0001543151-26-000032",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000032/0001543151-26-000032-index.html"
-          },
+          "currentDebt": null,
           "noncurrentDebt": {
             "value": 15664000000,
             "unit": "USD",
@@ -22269,19 +21837,7 @@
             "accessionNumber": "0001690820-17-000007",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1690820/000169082017000007/0001690820-17-000007-index.html"
           },
-          "debt": {
-            "value": 4918000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2025-12-31",
-            "filed": "2026-02-18",
-            "form": "10-K",
-            "accessionNumber": "0001690820-26-000009",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000009/0001690820-26-000009-index.html"
-          },
+          "debt": null,
           "currentDebt": {
             "value": 302000000,
             "unit": "USD",
@@ -22602,32 +22158,8 @@
             "accessionNumber": "0000059478-26-000108",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000108/0000059478-26-000108-index.html"
           },
-          "debt": {
-            "value": 29474000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2024-12-31",
-            "filed": "2025-02-19",
-            "form": "10-K",
-            "accessionNumber": "0000059478-25-000067",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000067/0000059478-25-000067-index.html"
-          },
-          "currentDebt": {
-            "value": 1012600000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebtCurrent",
-            "label": "Long-term Debt, Current Maturities",
-            "start": null,
-            "end": "2013-12-31",
-            "filed": "2014-02-19",
-            "form": "10-K",
-            "accessionNumber": "0000059478-14-000078",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/59478/000005947814000078/0000059478-14-000078-index.html"
-          },
+          "debt": null,
+          "currentDebt": null,
           "noncurrentDebt": {
             "value": 46986000000,
             "unit": "USD",
@@ -23316,19 +22848,7 @@
             "accessionNumber": "0000200406-26-000197",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000197/0000200406-26-000197-index.html"
           },
-          "debt": {
-            "value": 41438000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2025-12-28",
-            "filed": "2026-02-11",
-            "form": "10-K",
-            "accessionNumber": "0000200406-26-000016",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/0000200406-26-000016-index.html"
-          },
+          "debt": null,
           "currentDebt": {
             "value": 8852000000,
             "unit": "USD",
@@ -23674,19 +23194,7 @@
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000266/0000731766-26-000266-index.html"
           },
           "debt": null,
-          "currentDebt": {
-            "value": 3620000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebtCurrent",
-            "label": "Long-term Debt, Current Maturities",
-            "start": null,
-            "end": "2021-12-31",
-            "filed": "2022-02-15",
-            "form": "10-K",
-            "accessionNumber": "0000731766-22-000008",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176622000008/0000731766-22-000008-index.html"
-          },
+          "currentDebt": null,
           "noncurrentDebt": {
             "value": 68714000000,
             "unit": "USD",
@@ -24018,19 +23526,7 @@
             "accessionNumber": "0000078003-26-000127",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000127/0000078003-26-000127-index.html"
           },
-          "debt": {
-            "value": 4000000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2020-12-31",
-            "filed": "2021-02-25",
-            "form": "10-K",
-            "accessionNumber": "0000078003-21-000038",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/78003/000007800321000038/0000078003-21-000038-index.html"
-          },
+          "debt": null,
           "currentDebt": {
             "value": 2604000000,
             "unit": "USD",
@@ -24377,19 +23873,7 @@
           },
           "debt": null,
           "currentDebt": null,
-          "noncurrentDebt": {
-            "value": 591000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebtNoncurrent",
-            "label": "Long-term Debt, Excluding Current Maturities",
-            "start": null,
-            "end": "2026-06-30",
-            "filed": "2026-07-31",
-            "form": "10-Q",
-            "accessionNumber": "0001682852-26-000150",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000150/0001682852-26-000150-index.html"
-          },
+          "noncurrentDebt": null,
           "cashPriorYear": {
             "value": 1132000000,
             "unit": "USD",
@@ -24685,19 +24169,7 @@
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/872589/000153217612000004/0001532176-12-000004-index.html"
           },
           "debt": null,
-          "currentDebt": {
-            "value": 1500000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "ShortTermBorrowings",
-            "label": "Short-term Debt",
-            "start": null,
-            "end": "2020-06-30",
-            "filed": "2020-08-05",
-            "form": "10-Q",
-            "accessionNumber": "0001804220-20-000022",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/872589/000180422020000022/0001804220-20-000022-index.html"
-          },
+          "currentDebt": null,
           "noncurrentDebt": {
             "value": 1987000000,
             "unit": "USD",
@@ -25017,19 +24489,7 @@
             "accessionNumber": "0000875320-26-000291",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000291/0000875320-26-000291-index.html"
           },
-          "debt": {
-            "value": 105000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2011-09-30",
-            "filed": "2011-11-03",
-            "form": "10-Q",
-            "accessionNumber": "0001047469-11-009007",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/875320/000104746911009007/0001047469-11-009007-index.html"
-          },
+          "debt": null,
           "currentDebt": {
             "value": 999600000,
             "unit": "USD",
@@ -26053,14 +25513,14 @@
         "cohort": "industrial-energy",
         "status": "available",
         "latestPeriodEnd": "2026-09-30",
-        "cashChangePercent": 58.5,
+        "cashChangePercent": -56.9,
         "checks": [
           {
             "id": "liquidity",
             "label": "Cash and liquidity",
-            "status": "supportive",
-            "headline": "Cash rose 58.5% year over year",
-            "detail": "Latest cash is $13.9B, versus $8.8B roughly one year earlier.",
+            "status": "pressure",
+            "headline": "Cash fell 56.9% year over year",
+            "detail": "Latest cash is $4.0B, versus $9.3B roughly one year earlier.",
             "evidence": [
               "cash",
               "cashPriorYear"
@@ -26116,9 +25576,9 @@
           }
         ],
         "summary": {
-          "pressureSignals": 0,
+          "pressureSignals": 1,
           "watchSignals": 1,
-          "supportiveSignals": 3,
+          "supportiveSignals": 2,
           "conclusion": "At least one pressure or watch signal requires explanation from the filing."
         },
         "valuationInputs": {
@@ -26150,17 +25610,17 @@
         },
         "facts": {
           "cash": {
-            "value": 13919000000,
+            "value": 4008000000,
             "unit": "USD",
             "taxonomy": "us-gaap",
-            "tag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-            "label": "Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents",
+            "tag": "CashAndCashEquivalentsAtCarryingValue",
+            "label": "Cash and Cash Equivalents, at Carrying Value",
             "start": null,
-            "end": "2026-09-30",
-            "filed": "2026-11-05",
+            "end": "2024-06-30",
+            "filed": "2024-08-07",
             "form": "10-Q",
-            "accessionNumber": "0000093410-26-000200",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000200/0000093410-26-000200-index.html"
+            "accessionNumber": "0000093410-24-000040",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/93410/000009341024000040/0000093410-24-000040-index.html"
           },
           "assets": {
             "value": 333786000000,
@@ -26253,57 +25713,33 @@
             "accessionNumber": "0000093410-26-000200",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000200/0000093410-26-000200-index.html"
           },
-          "debt": {
-            "value": 25676000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2021-12-31",
-            "filed": "2022-02-24",
-            "form": "10-K",
-            "accessionNumber": "0000093410-22-000019",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/93410/000009341022000019/0000093410-22-000019-index.html"
-          },
+          "debt": null,
           "currentDebt": {
-            "value": 731000000,
+            "value": 1735000000,
             "unit": "USD",
             "taxonomy": "us-gaap",
             "tag": "ShortTermBorrowings",
             "label": "Short-term Debt",
             "start": null,
-            "end": "2026-09-30",
-            "filed": "2026-11-05",
+            "end": "2024-06-30",
+            "filed": "2024-08-07",
             "form": "10-Q",
-            "accessionNumber": "0000093410-26-000200",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000200/0000093410-26-000200-index.html"
+            "accessionNumber": "0000093410-24-000040",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/93410/000009341024000040/0000093410-24-000040-index.html"
           },
-          "noncurrentDebt": {
-            "value": 29854000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebtNoncurrent",
-            "label": "Long-term Debt, Excluding Current Maturities",
-            "start": null,
-            "end": "2018-09-30",
-            "filed": "2018-11-08",
-            "form": "10-Q",
-            "accessionNumber": "0000093410-18-000035",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/93410/000009341018000035/0000093410-18-000035-index.html"
-          },
+          "noncurrentDebt": null,
           "cashPriorYear": {
-            "value": 8783000000,
+            "value": 9292000000,
             "unit": "USD",
             "taxonomy": "us-gaap",
-            "tag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-            "label": "Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents",
+            "tag": "CashAndCashEquivalentsAtCarryingValue",
+            "label": "Cash and Cash Equivalents, at Carrying Value",
             "start": null,
-            "end": "2025-09-30",
-            "filed": "2026-11-05",
+            "end": "2023-06-30",
+            "filed": "2024-08-07",
             "form": "10-Q",
-            "accessionNumber": "0000093410-26-000200",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000200/0000093410-26-000200-index.html"
+            "accessionNumber": "0000093410-24-000040",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/93410/000009341024000040/0000093410-24-000040-index.html"
           },
           "operatingCashFlow": {
             "value": 33939000000,
@@ -26619,19 +26055,7 @@
             "accessionNumber": "0001163165-26-000045",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000045/0001163165-26-000045-index.html"
           },
-          "debt": {
-            "value": 22797000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2021-09-30",
-            "filed": "2021-11-04",
-            "form": "10-Q",
-            "accessionNumber": "0001562762-21-000409",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000156276221000409/0001562762-21-000409-index.html"
-          },
+          "debt": null,
           "currentDebt": null,
           "noncurrentDebt": null,
           "cashPriorYear": {
@@ -26953,19 +26377,7 @@
             "accessionNumber": "0001628280-26-053388",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/797468/000162828026053388/0001628280-26-053388-index.html"
           },
-          "currentDebt": {
-            "value": 1000000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebtCurrent",
-            "label": "Long-term Debt, Current Maturities",
-            "start": null,
-            "end": "2024-09-30",
-            "filed": "2024-11-12",
-            "form": "10-Q",
-            "accessionNumber": "0000797468-24-000164",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/797468/000079746824000164/0000797468-24-000164-index.html"
-          },
+          "currentDebt": null,
           "noncurrentDebt": {
             "value": 13540000000,
             "unit": "USD",
@@ -27167,10 +26579,10 @@
         },
         "valuationInputs": {
           "freeCashFlow": 4795000000,
-          "totalDebt": null,
-          "netDebt": null,
-          "debtBasis": null,
-          "debtPeriodEnd": null,
+          "totalDebt": 10737000000,
+          "netDebt": 7565000000,
+          "debtBasis": "components-same-period",
+          "debtPeriodEnd": "2015-09-30",
           "unit": "USD",
           "shareCountBasis": "point-in-time",
           "method": "Free cash flow equals annual operating cash flow less capital expenditures for the same fiscal period; net debt equals reported or reconstructed debt less cash.",
@@ -27299,30 +26711,30 @@
           },
           "debt": null,
           "currentDebt": {
-            "value": 1975000000,
+            "value": 3250000000,
             "unit": "USD",
             "taxonomy": "us-gaap",
             "tag": "LongTermDebtCurrent",
             "label": "Long-term Debt, Current Maturities",
             "start": null,
-            "end": "2016-12-31",
-            "filed": "2017-01-25",
-            "form": "10-K",
-            "accessionNumber": "0001564590-17-000589",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/87347/000156459017000589/0001564590-17-000589-index.html"
+            "end": "2015-09-30",
+            "filed": "2015-10-21",
+            "form": "10-Q",
+            "accessionNumber": "0001564590-15-008511",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/87347/000156459015008511/0001564590-15-008511-index.html"
           },
           "noncurrentDebt": {
-            "value": 11147000000,
+            "value": 7487000000,
             "unit": "USD",
             "taxonomy": "us-gaap",
             "tag": "LongTermDebtNoncurrent",
             "label": "Long-term Debt, Excluding Current Maturities",
             "start": null,
-            "end": "2026-09-30",
-            "filed": "2026-10-28",
+            "end": "2015-09-30",
+            "filed": "2015-10-21",
             "form": "10-Q",
-            "accessionNumber": "0001193125-26-435577",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/87347/000119312526435577/0001193125-26-435577-index.html"
+            "accessionNumber": "0001564590-15-008511",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/87347/000156459015008511/0001564590-15-008511-index.html"
           },
           "cashPriorYear": {
             "value": 3118000000,
@@ -27442,14 +26854,14 @@
         "cohort": "industrial-energy",
         "status": "available",
         "latestPeriodEnd": "2026-09-30",
-        "cashChangePercent": -29.9,
+        "cashChangePercent": -10.0,
         "checks": [
           {
             "id": "liquidity",
             "label": "Cash and liquidity",
-            "status": "pressure",
-            "headline": "Cash fell 29.9% year over year",
-            "detail": "Latest cash is $8.8B, versus $12.5B roughly one year earlier.",
+            "status": "neutral",
+            "headline": "Cash stands at $43.3B",
+            "detail": "Latest cash is $43.3B, versus $48.1B roughly one year earlier.",
             "evidence": [
               "cash",
               "cashPriorYear"
@@ -27505,7 +26917,7 @@
           }
         ],
         "summary": {
-          "pressureSignals": 1,
+          "pressureSignals": 0,
           "watchSignals": 2,
           "supportiveSignals": 1,
           "conclusion": "At least one pressure or watch signal requires explanation from the filing."
@@ -27539,17 +26951,17 @@
         },
         "facts": {
           "cash": {
-            "value": 8764000000,
+            "value": 43299000000,
             "unit": "USD",
             "taxonomy": "us-gaap",
-            "tag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-            "label": "Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents",
+            "tag": "CashAndCashEquivalentsAtCarryingValue",
+            "label": "Cash and Cash Equivalents, at Carrying Value",
             "start": null,
-            "end": "2026-09-30",
-            "filed": "2026-10-20",
-            "form": "10-Q",
-            "accessionNumber": "0000040545-26-000064",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000064/0000040545-26-000064-index.html"
+            "end": "2017-12-31",
+            "filed": "2018-02-23",
+            "form": "10-K",
+            "accessionNumber": "0000040545-18-000014",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/40545/000004054518000014/0000040545-18-000014-index.html"
           },
           "assets": {
             "value": 127195000000,
@@ -27642,45 +27054,33 @@
             "accessionNumber": "0000040545-26-000064",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000064/0000040545-26-000064-index.html"
           },
-          "debt": {
-            "value": 20469000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2025-12-31",
-            "filed": "2026-01-29",
-            "form": "10-K",
-            "accessionNumber": "0000040545-26-000008",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000008/0000040545-26-000008-index.html"
-          },
+          "debt": null,
           "currentDebt": {
-            "value": 5000000,
+            "value": 24036000000,
             "unit": "USD",
             "taxonomy": "us-gaap",
             "tag": "ShortTermBorrowings",
             "label": "Short-term Debt",
             "start": null,
-            "end": "2026-06-30",
-            "filed": "2026-07-16",
-            "form": "10-Q",
-            "accessionNumber": "0000040545-26-000049",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000049/0000040545-26-000049-index.html"
+            "end": "2017-12-31",
+            "filed": "2019-02-26",
+            "form": "10-K",
+            "accessionNumber": "0000040545-19-000014",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/40545/000004054519000014/0000040545-19-000014-index.html"
           },
           "noncurrentDebt": null,
           "cashPriorYear": {
-            "value": 12501000000,
+            "value": 48129000000,
             "unit": "USD",
             "taxonomy": "us-gaap",
-            "tag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-            "label": "Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents",
+            "tag": "CashAndCashEquivalentsAtCarryingValue",
+            "label": "Cash and Cash Equivalents, at Carrying Value",
             "start": null,
-            "end": "2025-09-30",
-            "filed": "2025-10-21",
-            "form": "10-Q",
-            "accessionNumber": "0000040545-25-000132",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000132/0000040545-25-000132-index.html"
+            "end": "2016-12-31",
+            "filed": "2018-02-23",
+            "form": "10-K",
+            "accessionNumber": "0000040545-18-000014",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/40545/000004054518000014/0000040545-18-000014-index.html"
           },
           "operatingCashFlow": {
             "value": 8537000000,
@@ -28309,32 +27709,8 @@
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000057/0000018230-26-000057-index.html"
           },
           "debt": null,
-          "currentDebt": {
-            "value": 5514000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "ShortTermBorrowings",
-            "label": "Short-term Debt",
-            "start": null,
-            "end": "2025-12-31",
-            "filed": "2026-02-13",
-            "form": "10-K",
-            "accessionNumber": "0000018230-26-000008",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/0000018230-26-000008-index.html"
-          },
-          "noncurrentDebt": {
-            "value": 30696000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebtNoncurrent",
-            "label": "Long-term Debt, Excluding Current Maturities",
-            "start": null,
-            "end": "2025-12-31",
-            "filed": "2026-02-13",
-            "form": "10-K",
-            "accessionNumber": "0000018230-26-000008",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/0000018230-26-000008-index.html"
-          },
+          "currentDebt": null,
+          "noncurrentDebt": null,
           "cashPriorYear": {
             "value": 7538000000,
             "unit": "USD",
@@ -28629,19 +28005,7 @@
             "accessionNumber": "0001628280-26-066928",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/936468/000162828026066928/0001628280-26-066928-index.html"
           },
-          "debt": {
-            "value": 21700000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2025-12-31",
-            "filed": "2026-01-29",
-            "form": "10-K",
-            "accessionNumber": "0001628280-26-004195",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/936468/000162828026004195/0001628280-26-004195-index.html"
-          },
+          "debt": null,
           "currentDebt": {
             "value": 0,
             "unit": "USD",
@@ -28986,19 +28350,7 @@
             "accessionNumber": "0000101829-26-000031",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000031/0000101829-26-000031-index.html"
           },
-          "debt": {
-            "value": 41078000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2024-12-31",
-            "filed": "2025-02-03",
-            "form": "10-K",
-            "accessionNumber": "0000101829-25-000005",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/101829/000010182925000005/0000101829-25-000005-index.html"
-          },
+          "debt": null,
           "currentDebt": {
             "value": 210000000,
             "unit": "USD",
@@ -29331,19 +28683,7 @@
             "accessionNumber": "0001133421-26-000038",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000038/0001133421-26-000038-index.html"
           },
-          "debt": {
-            "value": 15696000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2025-12-31",
-            "filed": "2026-01-27",
-            "form": "10-K",
-            "accessionNumber": "0001133421-26-000003",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/0001133421-26-000003-index.html"
-          },
+          "debt": null,
           "currentDebt": {
             "value": 764000000,
             "unit": "USD",
@@ -29690,19 +29030,7 @@
           },
           "debt": null,
           "currentDebt": null,
-          "noncurrentDebt": {
-            "value": 291000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebtNoncurrent",
-            "label": "Long-term Debt, Excluding Current Maturities",
-            "start": null,
-            "end": "2020-12-31",
-            "filed": "2021-02-05",
-            "form": "10-K",
-            "accessionNumber": "0000037996-21-000012",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/37996/000003799621000012/0000037996-21-000012-index.html"
-          },
+          "noncurrentDebt": null,
           "cashPriorYear": {
             "value": 26788000000,
             "unit": "USD",
@@ -30317,19 +29645,7 @@
           },
           "debt": null,
           "currentDebt": null,
-          "noncurrentDebt": {
-            "value": 32447000000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebtNoncurrent",
-            "label": "Long-term Debt, Excluding Current Maturities",
-            "start": null,
-            "end": "2022-05-01",
-            "filed": "2022-05-26",
-            "form": "10-Q",
-            "accessionNumber": "0001558370-22-009375",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/315189/000155837022009375/0001558370-22-009375-index.html"
-          },
+          "noncurrentDebt": null,
           "cashPriorYear": {
             "value": 8580000000,
             "unit": "USD",
@@ -31713,45 +31029,9 @@
             "accessionNumber": "0001326380-26-000055",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326380/000132638026000055/0001326380-26-000055-index.html"
           },
-          "debt": {
-            "value": 4164300000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2026-01-31",
-            "filed": "2026-03-24",
-            "form": "10-K",
-            "accessionNumber": "0001326380-26-000013",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326380/000132638026000013/0001326380-26-000013-index.html"
-          },
-          "currentDebt": {
-            "value": 0,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebtCurrent",
-            "label": "Long-term Debt, Current Maturities",
-            "start": null,
-            "end": "2026-01-31",
-            "filed": "2026-03-24",
-            "form": "10-K",
-            "accessionNumber": "0001326380-26-000013",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326380/000132638026000013/0001326380-26-000013-index.html"
-          },
-          "noncurrentDebt": {
-            "value": 9600000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebtNoncurrent",
-            "label": "Long-term Debt, Excluding Current Maturities",
-            "start": null,
-            "end": "2024-11-02",
-            "filed": "2024-12-10",
-            "form": "10-Q",
-            "accessionNumber": "0001326380-24-000170",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326380/000132638024000170/0001326380-24-000170-index.html"
-          },
+          "debt": null,
+          "currentDebt": null,
+          "noncurrentDebt": null,
           "cashPriorYear": {
             "value": 8694400000,
             "unit": "USD",
@@ -32070,19 +31350,7 @@
             "accessionNumber": "0001411579-26-000075",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000075/0001411579-26-000075-index.html"
           },
-          "debt": {
-            "value": 4024200000,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebt",
-            "label": "Long-term Debt",
-            "start": null,
-            "end": "2025-12-31",
-            "filed": "2026-02-23",
-            "form": "10-K",
-            "accessionNumber": "0001411579-26-000016",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000016/0001411579-26-000016-index.html"
-          },
+          "debt": null,
           "currentDebt": {
             "value": 24000000,
             "unit": "USD",
@@ -32416,19 +31684,7 @@
             "accessionNumber": "0001819994-26-000062",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000062/0001819994-26-000062-index.html"
           },
-          "currentDebt": {
-            "value": 0,
-            "unit": "USD",
-            "taxonomy": "us-gaap",
-            "tag": "LongTermDebtCurrent",
-            "label": "Long-term Debt, Current Maturities",
-            "start": null,
-            "end": "2025-12-31",
-            "filed": "2026-02-26",
-            "form": "10-K",
-            "accessionNumber": "0001819994-26-000013",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000013/0001819994-26-000013-index.html"
-          },
+          "currentDebt": null,
           "noncurrentDebt": {
             "value": 1716000,
             "unit": "USD",
