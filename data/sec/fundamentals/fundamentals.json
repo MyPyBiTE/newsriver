@@ -1,6 +1,6 @@
 {
   "schema": "mypybite.fundamental-snapshot.v1",
-  "generatedAt": "2026-11-09T01:18:16Z",
+  "generatedAt": "2026-11-09T02:09:30Z",
   "source": "SEC EDGAR Companyfacts API",
   "method": "Latest point-in-time balance sheet facts plus latest full-fiscal-year cash-flow facts; no quarterly/annual period mixing.",
   "companies": [
@@ -12,6 +12,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-10-23",
       "cashChangePercent": 1.0,
+      "revenueGrowthPercent": 15.06,
+      "operatingMarginPercent": 33.01,
       "checks": [
         {
           "id": "liquidity",
@@ -263,6 +265,19 @@
           "accessionNumber": "0000320193-26-000026",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/0000320193-26-000026-index.html"
         },
+        "revenuePriorYear": {
+          "value": 416161000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-09-29",
+          "end": "2025-09-27",
+          "filed": "2026-11-03",
+          "form": "10-K",
+          "accessionNumber": "0000320193-26-000026",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/0000320193-26-000026-index.html"
+        },
         "operatingCashFlow": {
           "value": 145097000000,
           "unit": "USD",
@@ -340,6 +355,32 @@
           "form": "10-K",
           "accessionNumber": "0000320193-26-000026",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/0000320193-26-000026-index.html"
+        },
+        "revenue": {
+          "value": 478834000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-09-28",
+          "end": "2026-09-26",
+          "filed": "2026-11-03",
+          "form": "10-K",
+          "accessionNumber": "0000320193-26-000026",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/0000320193-26-000026-index.html"
+        },
+        "operatingIncome": {
+          "value": 158063000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-09-28",
+          "end": "2026-09-26",
+          "filed": "2026-11-03",
+          "form": "10-K",
+          "accessionNumber": "0000320193-26-000026",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/0000320193-26-000026-index.html"
         }
       },
       "caveats": [
@@ -356,6 +397,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-10-22",
       "cashChangePercent": -29.7,
+      "revenueGrowthPercent": 17.79,
+      "operatingMarginPercent": 46.78,
       "checks": [
         {
           "id": "liquidity",
@@ -607,6 +650,19 @@
           "accessionNumber": "0001193125-25-256321",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/0001193125-25-256321-index.html"
         },
+        "revenuePriorYear": {
+          "value": 281724000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-07-01",
+          "end": "2025-06-30",
+          "filed": "2026-07-29",
+          "form": "10-K",
+          "accessionNumber": "0001193125-26-323660",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/0001193125-26-323660-index.html"
+        },
         "operatingCashFlow": {
           "value": 182935000000,
           "unit": "USD",
@@ -660,7 +716,33 @@
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/0001193125-26-323660-index.html"
         },
         "debtIssued": null,
-        "debtRepaid": null
+        "debtRepaid": null,
+        "revenue": {
+          "value": 331839000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-07-01",
+          "end": "2026-06-30",
+          "filed": "2026-07-29",
+          "form": "10-K",
+          "accessionNumber": "0001193125-26-323660",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/0001193125-26-323660-index.html"
+        },
+        "operatingIncome": {
+          "value": 155237000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-07-01",
+          "end": "2026-06-30",
+          "filed": "2026-07-29",
+          "form": "10-K",
+          "accessionNumber": "0001193125-26-323660",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/0001193125-26-323660-index.html"
+        }
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -676,6 +758,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-08-21",
       "cashChangePercent": 92.8,
+      "revenueGrowthPercent": 65.47,
+      "operatingMarginPercent": 60.38,
       "checks": [
         {
           "id": "liquidity",
@@ -927,6 +1011,19 @@
           "accessionNumber": "0001045810-25-000209",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/0001045810-25-000209-index.html"
         },
+        "revenuePriorYear": {
+          "value": 130497000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2024-01-29",
+          "end": "2025-01-26",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "accessionNumber": "0001045810-26-000021",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html"
+        },
         "operatingCashFlow": {
           "value": 102718000000,
           "unit": "USD",
@@ -1004,6 +1101,32 @@
           "form": "10-K",
           "accessionNumber": "0001045810-26-000021",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html"
+        },
+        "revenue": {
+          "value": 215938000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2025-01-27",
+          "end": "2026-01-25",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "accessionNumber": "0001045810-26-000021",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html"
+        },
+        "operatingIncome": {
+          "value": 130387000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-27",
+          "end": "2026-01-25",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "accessionNumber": "0001045810-26-000021",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html"
         }
       },
       "caveats": [
@@ -1020,6 +1143,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-09-30",
       "cashChangePercent": 144.0,
+      "revenueGrowthPercent": 15.09,
+      "operatingMarginPercent": 32.03,
       "checks": [
         {
           "id": "liquidity",
@@ -1259,6 +1384,19 @@
           "accessionNumber": "0001652044-25-000091",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/0001652044-25-000091-index.html"
         },
+        "revenuePriorYear": {
+          "value": 350018000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-05",
+          "form": "10-K",
+          "accessionNumber": "0001652044-26-000018",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/0001652044-26-000018-index.html"
+        },
         "operatingCashFlow": {
           "value": 164713000000,
           "unit": "USD",
@@ -1324,6 +1462,32 @@
           "form": "10-K",
           "accessionNumber": "0001652044-17-000008",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204417000008/0001652044-17-000008-index.html"
+        },
+        "revenue": {
+          "value": 402836000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-05",
+          "form": "10-K",
+          "accessionNumber": "0001652044-26-000018",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/0001652044-26-000018-index.html"
+        },
+        "operatingIncome": {
+          "value": 129039000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-05",
+          "form": "10-K",
+          "accessionNumber": "0001652044-26-000018",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/0001652044-26-000018-index.html"
         }
       },
       "caveats": [
@@ -1340,6 +1504,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-10-21",
       "cashChangePercent": -16.6,
+      "revenueGrowthPercent": 12.38,
+      "operatingMarginPercent": 11.16,
       "checks": [
         {
           "id": "liquidity",
@@ -1579,6 +1745,19 @@
           "accessionNumber": "0001018724-25-000123",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/0001018724-25-000123-index.html"
         },
+        "revenuePriorYear": {
+          "value": 637959000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-06",
+          "form": "10-K",
+          "accessionNumber": "0001018724-26-000004",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+        },
         "operatingCashFlow": {
           "value": 139514000000,
           "unit": "USD",
@@ -1656,6 +1835,32 @@
           "form": "10-K",
           "accessionNumber": "0001018724-26-000004",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+        },
+        "revenue": {
+          "value": 716924000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-06",
+          "form": "10-K",
+          "accessionNumber": "0001018724-26-000004",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+        },
+        "operatingIncome": {
+          "value": 79975000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-06",
+          "form": "10-K",
+          "accessionNumber": "0001018724-26-000004",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
         }
       },
       "caveats": [
@@ -1672,6 +1877,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-09-30",
       "cashChangePercent": 10.2,
+      "revenueGrowthPercent": 22.17,
+      "operatingMarginPercent": 41.44,
       "checks": [
         {
           "id": "liquidity",
@@ -1911,6 +2118,19 @@
           "accessionNumber": "0001628280-26-066773",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/0001628280-26-066773-index.html"
         },
+        "revenuePriorYear": {
+          "value": 164501000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-01-29",
+          "form": "10-K",
+          "accessionNumber": "0001628280-26-003942",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/0001628280-26-003942-index.html"
+        },
         "operatingCashFlow": {
           "value": 115800000000,
           "unit": "USD",
@@ -1988,6 +2208,32 @@
           "form": "10-K",
           "accessionNumber": "0001326801-16-000043",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000132680116000043/0001326801-16-000043-index.html"
+        },
+        "revenue": {
+          "value": 200966000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-01-29",
+          "form": "10-K",
+          "accessionNumber": "0001628280-26-003942",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/0001628280-26-003942-index.html"
+        },
+        "operatingIncome": {
+          "value": 83276000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-01-29",
+          "form": "10-K",
+          "accessionNumber": "0001628280-26-003942",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/0001628280-26-003942-index.html"
         }
       },
       "caveats": [
@@ -2004,6 +2250,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-10-15",
       "cashChangePercent": -2.4,
+      "revenueGrowthPercent": -2.93,
+      "operatingMarginPercent": 4.59,
       "checks": [
         {
           "id": "liquidity",
@@ -2231,6 +2479,19 @@
           "accessionNumber": "0001628280-26-066775",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/0001628280-26-066775-index.html"
         },
+        "revenuePriorYear": {
+          "value": 97690000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-01-29",
+          "form": "10-K",
+          "accessionNumber": "0001628280-26-003952",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/0001628280-26-003952-index.html"
+        },
         "operatingCashFlow": {
           "value": 14747000000,
           "unit": "USD",
@@ -2308,6 +2569,32 @@
           "form": "10-K",
           "accessionNumber": "0001628280-24-002390",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828024002390/0001628280-24-002390-index.html"
+        },
+        "revenue": {
+          "value": 94827000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-01-29",
+          "form": "10-K",
+          "accessionNumber": "0001628280-26-003952",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/0001628280-26-003952-index.html"
+        },
+        "operatingIncome": {
+          "value": 4355000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-01-29",
+          "form": "10-K",
+          "accessionNumber": "0001628280-26-003952",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/0001628280-26-003952-index.html"
         }
       },
       "caveats": [
@@ -2324,6 +2611,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-09-07",
       "cashChangePercent": 248.2,
+      "revenueGrowthPercent": 17.35,
+      "operatingMarginPercent": 30.59,
       "checks": [
         {
           "id": "liquidity",
@@ -2527,6 +2816,19 @@
           "accessionNumber": "0001193125-25-200095",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525200095/0001193125-25-200095-index.html"
         },
+        "revenuePriorYear": {
+          "value": 57399000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-06-01",
+          "end": "2025-05-31",
+          "filed": "2026-06-22",
+          "form": "10-K",
+          "accessionNumber": "0001193125-26-277521",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/0001193125-26-277521-index.html"
+        },
         "operatingCashFlow": {
           "value": 31977000000,
           "unit": "USD",
@@ -2604,6 +2906,32 @@
           "form": "10-K",
           "accessionNumber": "0001193125-26-277521",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/0001193125-26-277521-index.html"
+        },
+        "revenue": {
+          "value": 67357000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-06-01",
+          "end": "2026-05-31",
+          "filed": "2026-06-22",
+          "form": "10-K",
+          "accessionNumber": "0001193125-26-277521",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/0001193125-26-277521-index.html"
+        },
+        "operatingIncome": {
+          "value": 20606000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-06-01",
+          "end": "2026-05-31",
+          "filed": "2026-06-22",
+          "form": "10-K",
+          "accessionNumber": "0001193125-26-277521",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/0001193125-26-277521-index.html"
         }
       },
       "caveats": [
@@ -2620,6 +2948,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-08-20",
       "cashChangePercent": -19.8,
+      "revenueGrowthPercent": 9.58,
+      "operatingMarginPercent": 20.06,
       "checks": [
         {
           "id": "liquidity",
@@ -2871,6 +3201,19 @@
           "accessionNumber": "0001108524-25-000088",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000088/0001108524-25-000088-index.html"
         },
+        "revenuePriorYear": {
+          "value": 37895000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-02-01",
+          "end": "2025-01-31",
+          "filed": "2026-03-02",
+          "form": "10-K",
+          "accessionNumber": "0001108524-26-000060",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/0001108524-26-000060-index.html"
+        },
         "operatingCashFlow": {
           "value": 14996000000,
           "unit": "USD",
@@ -2924,7 +3267,33 @@
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/0001108524-26-000060-index.html"
         },
         "debtIssued": null,
-        "debtRepaid": null
+        "debtRepaid": null,
+        "revenue": {
+          "value": 41525000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-02-01",
+          "end": "2026-01-31",
+          "filed": "2026-03-02",
+          "form": "10-K",
+          "accessionNumber": "0001108524-26-000060",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/0001108524-26-000060-index.html"
+        },
+        "operatingIncome": {
+          "value": 8331000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-02-01",
+          "end": "2026-01-31",
+          "filed": "2026-03-02",
+          "form": "10-K",
+          "accessionNumber": "0001108524-26-000060",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/0001108524-26-000060-index.html"
+        }
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -2940,6 +3309,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-08-28",
       "cashChangePercent": 123.7,
+      "revenueGrowthPercent": 23.87,
+      "operatingMarginPercent": 39.89,
       "checks": [
         {
           "id": "liquidity",
@@ -3191,6 +3562,19 @@
           "accessionNumber": "0001730168-25-000098",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000098/0001730168-25-000098-index.html"
         },
+        "revenuePriorYear": {
+          "value": 51574000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2023-10-30",
+          "end": "2024-11-03",
+          "filed": "2025-12-18",
+          "form": "10-K",
+          "accessionNumber": "0001730168-25-000121",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/0001730168-25-000121-index.html"
+        },
         "operatingCashFlow": {
           "value": 27537000000,
           "unit": "USD",
@@ -3268,6 +3652,32 @@
           "form": "10-K",
           "accessionNumber": "0001730168-25-000121",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/0001730168-25-000121-index.html"
+        },
+        "revenue": {
+          "value": 63887000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-11-04",
+          "end": "2025-11-02",
+          "filed": "2025-12-18",
+          "form": "10-K",
+          "accessionNumber": "0001730168-25-000121",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/0001730168-25-000121-index.html"
+        },
+        "operatingIncome": {
+          "value": 25484000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2024-11-04",
+          "end": "2025-11-02",
+          "filed": "2025-12-18",
+          "form": "10-K",
+          "accessionNumber": "0001730168-25-000121",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/0001730168-25-000121-index.html"
         }
       },
       "caveats": [
@@ -3284,6 +3694,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-10-28",
       "cashChangePercent": 54.0,
+      "revenueGrowthPercent": 34.34,
+      "operatingMarginPercent": 10.66,
       "checks": [
         {
           "id": "liquidity",
@@ -3511,6 +3923,19 @@
           "accessionNumber": "0000002488-25-000166",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000166/0000002488-25-000166-index.html"
         },
+        "revenuePriorYear": {
+          "value": 25785000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2023-12-31",
+          "end": "2024-12-28",
+          "filed": "2026-02-04",
+          "form": "10-K",
+          "accessionNumber": "0000002488-26-000018",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/0000002488-26-000018-index.html"
+        },
         "operatingCashFlow": {
           "value": 7709000000,
           "unit": "USD",
@@ -3588,6 +4013,32 @@
           "form": "10-K",
           "accessionNumber": "0000002488-26-000018",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/0000002488-26-000018-index.html"
+        },
+        "revenue": {
+          "value": 34639000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-12-29",
+          "end": "2025-12-27",
+          "filed": "2026-02-04",
+          "form": "10-K",
+          "accessionNumber": "0000002488-26-000018",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/0000002488-26-000018-index.html"
+        },
+        "operatingIncome": {
+          "value": 3694000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2024-12-29",
+          "end": "2025-12-27",
+          "filed": "2026-02-04",
+          "form": "10-K",
+          "accessionNumber": "0000002488-26-000018",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/0000002488-26-000018-index.html"
         }
       },
       "caveats": [
@@ -3604,6 +4055,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-10-23",
       "cashChangePercent": 96.1,
+      "revenueGrowthPercent": -0.47,
+      "operatingMarginPercent": -4.19,
       "checks": [
         {
           "id": "liquidity",
@@ -3819,6 +4272,19 @@
           "accessionNumber": "0000050863-25-000179",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000179/0000050863-25-000179-index.html"
         },
+        "revenuePriorYear": {
+          "value": 53101000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2023-12-31",
+          "end": "2024-12-28",
+          "filed": "2026-01-23",
+          "form": "10-K",
+          "accessionNumber": "0000050863-26-000011",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/0000050863-26-000011-index.html"
+        },
         "operatingCashFlow": {
           "value": 9697000000,
           "unit": "USD",
@@ -3896,6 +4362,32 @@
           "form": "10-K",
           "accessionNumber": "0000050863-26-000011",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/0000050863-26-000011-index.html"
+        },
+        "revenue": {
+          "value": 52853000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-12-29",
+          "end": "2025-12-27",
+          "filed": "2026-01-23",
+          "form": "10-K",
+          "accessionNumber": "0000050863-26-000011",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/0000050863-26-000011-index.html"
+        },
+        "operatingIncome": {
+          "value": -2214000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2024-12-29",
+          "end": "2025-12-27",
+          "filed": "2026-01-23",
+          "form": "10-K",
+          "accessionNumber": "0000050863-26-000011",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/0000050863-26-000011-index.html"
         }
       },
       "caveats": [
@@ -3912,6 +4404,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-09-30",
       "cashChangePercent": -11.8,
+      "revenueGrowthPercent": 15.85,
+      "operatingMarginPercent": 29.49,
       "checks": [
         {
           "id": "liquidity",
@@ -4151,6 +4645,19 @@
           "accessionNumber": "0001065280-25-000406",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000406/0001065280-25-000406-index.html"
         },
+        "revenuePriorYear": {
+          "value": 39000966000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-01-23",
+          "form": "10-K",
+          "accessionNumber": "0001065280-26-000034",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/0001065280-26-000034-index.html"
+        },
         "operatingCashFlow": {
           "value": 10149273000,
           "unit": "USD",
@@ -4228,6 +4735,32 @@
           "form": "10-K",
           "accessionNumber": "0001065280-26-000034",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/0001065280-26-000034-index.html"
+        },
+        "revenue": {
+          "value": 45183036000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-01-23",
+          "form": "10-K",
+          "accessionNumber": "0001065280-26-000034",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/0001065280-26-000034-index.html"
+        },
+        "operatingIncome": {
+          "value": 13326603000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-01-23",
+          "form": "10-K",
+          "accessionNumber": "0001065280-26-000034",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/0001065280-26-000034-index.html"
         }
       },
       "caveats": [
@@ -4244,6 +4777,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-09-30",
       "cashChangePercent": 124.0,
+      "revenueGrowthPercent": 56.18,
+      "operatingMarginPercent": 31.59,
       "checks": [
         {
           "id": "liquidity",
@@ -4459,6 +4994,19 @@
           "accessionNumber": "0001321655-26-000048",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/0001321655-26-000048-index.html"
         },
+        "revenuePriorYear": {
+          "value": 2865507000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-17",
+          "form": "10-K",
+          "accessionNumber": "0001321655-26-000011",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/0001321655-26-000011-index.html"
+        },
         "operatingCashFlow": {
           "value": 2134473000,
           "unit": "USD",
@@ -4524,6 +5072,32 @@
           "form": "10-K",
           "accessionNumber": "0001321655-24-000022",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000022/0001321655-24-000022-index.html"
+        },
+        "revenue": {
+          "value": 4475446000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-17",
+          "form": "10-K",
+          "accessionNumber": "0001321655-26-000011",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/0001321655-26-000011-index.html"
+        },
+        "operatingIncome": {
+          "value": 1414015000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-17",
+          "form": "10-K",
+          "accessionNumber": "0001321655-26-000011",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/0001321655-26-000011-index.html"
         }
       },
       "caveats": [
@@ -4540,6 +5114,8 @@
       "status": "available",
       "latestPeriodEnd": "2025-12-31",
       "cashChangePercent": 45.2,
+      "revenueGrowthPercent": 25.03,
+      "operatingMarginPercent": 45.68,
       "checks": [
         {
           "id": "liquidity",
@@ -4779,6 +5355,19 @@
           "accessionNumber": "0001193125-25-083423",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000119312525083423/0001193125-25-083423-index.html"
         },
+        "revenuePriorYear": {
+          "value": 70598800000,
+          "unit": "USD",
+          "taxonomy": "ifrs-full",
+          "tag": "Revenue",
+          "label": "Revenue",
+          "start": "2023-01-01",
+          "end": "2023-12-31",
+          "filed": "2024-04-18",
+          "form": "20-F",
+          "accessionNumber": "0001193125-24-099840",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000119312524099840/0001193125-24-099840-index.html"
+        },
         "operatingCashFlow": {
           "value": 55693100000,
           "unit": "USD",
@@ -4856,6 +5445,32 @@
           "form": "20-F",
           "accessionNumber": "0001193125-25-083423",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000119312525083423/0001193125-25-083423-index.html"
+        },
+        "revenue": {
+          "value": 88268000000,
+          "unit": "USD",
+          "taxonomy": "ifrs-full",
+          "tag": "Revenue",
+          "label": "Revenue",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2025-04-17",
+          "form": "20-F",
+          "accessionNumber": "0001193125-25-083423",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000119312525083423/0001193125-25-083423-index.html"
+        },
+        "operatingIncome": {
+          "value": 40318800000,
+          "unit": "USD",
+          "taxonomy": "ifrs-full",
+          "tag": "ProfitLossFromOperatingActivities",
+          "label": "ProfitLossFromOperatingActivities",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2025-04-17",
+          "form": "20-F",
+          "accessionNumber": "0001193125-25-083423",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000119312525083423/0001193125-25-083423-index.html"
         }
       },
       "caveats": [
@@ -4872,6 +5487,8 @@
       "status": "available",
       "latestPeriodEnd": "2025-12-31",
       "cashChangePercent": 1.4,
+      "revenueGrowthPercent": 15.58,
+      "operatingMarginPercent": 34.6,
       "checks": [
         {
           "id": "liquidity",
@@ -5111,6 +5728,19 @@
           "accessionNumber": "0001628280-26-011378",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/937966/000162828026011378/0001628280-26-011378-index.html"
         },
+        "revenuePriorYear": {
+          "value": 28262900000,
+          "unit": "EUR",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-25",
+          "form": "20-F",
+          "accessionNumber": "0001628280-26-011378",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/937966/000162828026011378/0001628280-26-011378-index.html"
+        },
         "operatingCashFlow": {
           "value": 12658500000,
           "unit": "EUR",
@@ -5188,6 +5818,32 @@
           "form": "20-F",
           "accessionNumber": "0000937966-24-000008",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/937966/000093796624000008/0000937966-24-000008-index.html"
+        },
+        "revenue": {
+          "value": 32667300000,
+          "unit": "EUR",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-25",
+          "form": "20-F",
+          "accessionNumber": "0001628280-26-011378",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/937966/000162828026011378/0001628280-26-011378-index.html"
+        },
+        "operatingIncome": {
+          "value": 11301400000,
+          "unit": "EUR",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-25",
+          "form": "20-F",
+          "accessionNumber": "0001628280-26-011378",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/937966/000162828026011378/0001628280-26-011378-index.html"
         }
       },
       "caveats": [
@@ -5204,6 +5860,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-10-02",
       "cashChangePercent": 297.9,
+      "revenueGrowthPercent": 256.33,
+      "operatingMarginPercent": 74.59,
       "checks": [
         {
           "id": "liquidity",
@@ -5431,6 +6089,19 @@
           "accessionNumber": "0000723125-26-000023",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html"
         },
+        "revenuePriorYear": {
+          "value": 37378000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-08-30",
+          "end": "2025-08-28",
+          "filed": "2026-10-09",
+          "form": "10-K",
+          "accessionNumber": "0000723125-26-000023",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html"
+        },
         "operatingCashFlow": {
           "value": 89675000000,
           "unit": "USD",
@@ -5508,6 +6179,32 @@
           "form": "10-K",
           "accessionNumber": "0000723125-26-000023",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html"
+        },
+        "revenue": {
+          "value": 133188000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-08-29",
+          "end": "2026-09-03",
+          "filed": "2026-10-09",
+          "form": "10-K",
+          "accessionNumber": "0000723125-26-000023",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html"
+        },
+        "operatingIncome": {
+          "value": 99340000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-08-29",
+          "end": "2026-09-03",
+          "filed": "2026-10-09",
+          "form": "10-K",
+          "accessionNumber": "0000723125-26-000023",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html"
         }
       },
       "caveats": [
@@ -5524,6 +6221,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-03-31",
       "cashChangePercent": 31.9,
+      "revenueGrowthPercent": 22.79,
+      "operatingMarginPercent": 18.29,
       "checks": [
         {
           "id": "liquidity",
@@ -5739,6 +6438,19 @@
           "accessionNumber": "0001973239-26-000097",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000097/0001973239-26-000097-index.html"
         },
+        "revenuePriorYear": {
+          "value": 4007000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-04-01",
+          "end": "2025-03-31",
+          "filed": "2026-05-26",
+          "form": "20-F",
+          "accessionNumber": "0001973239-26-000097",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000097/0001973239-26-000097-index.html"
+        },
         "operatingCashFlow": {
           "value": 1524000000,
           "unit": "USD",
@@ -5792,7 +6504,33 @@
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000097/0001973239-26-000097-index.html"
         },
         "debtIssued": null,
-        "debtRepaid": null
+        "debtRepaid": null,
+        "revenue": {
+          "value": 4920000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-04-01",
+          "end": "2026-03-31",
+          "filed": "2026-05-26",
+          "form": "20-F",
+          "accessionNumber": "0001973239-26-000097",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000097/0001973239-26-000097-index.html"
+        },
+        "operatingIncome": {
+          "value": 900000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-04-01",
+          "end": "2026-03-31",
+          "filed": "2026-05-26",
+          "form": "20-F",
+          "accessionNumber": "0001973239-26-000097",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000097/0001973239-26-000097-index.html"
+        }
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -5808,6 +6546,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-10-31",
       "cashChangePercent": 64.3,
+      "revenueGrowthPercent": 77.79,
+      "operatingMarginPercent": 7.09,
       "checks": [
         {
           "id": "liquidity",
@@ -6023,6 +6763,19 @@
           "accessionNumber": "0001375365-25-000030",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1375365/000137536525000030/0001375365-25-000030-index.html"
         },
+        "revenuePriorYear": {
+          "value": 21972042000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-07-01",
+          "end": "2025-06-30",
+          "filed": "2026-08-31",
+          "form": "10-K",
+          "accessionNumber": "0001375365-26-000022",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000022/0001375365-26-000022-index.html"
+        },
         "operatingCashFlow": {
           "value": -6809886000,
           "unit": "USD",
@@ -6100,6 +6853,32 @@
           "form": "10-K",
           "accessionNumber": "0001375365-26-000022",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000022/0001375365-26-000022-index.html"
+        },
+        "revenue": {
+          "value": 39063072000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-07-01",
+          "end": "2026-06-30",
+          "filed": "2026-08-31",
+          "form": "10-K",
+          "accessionNumber": "0001375365-26-000022",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000022/0001375365-26-000022-index.html"
+        },
+        "operatingIncome": {
+          "value": 2770486000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-07-01",
+          "end": "2026-06-30",
+          "filed": "2026-08-31",
+          "form": "10-K",
+          "accessionNumber": "0001375365-26-000022",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000022/0001375365-26-000022-index.html"
         }
       },
       "caveats": [
@@ -6116,6 +6895,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-09-30",
       "cashChangePercent": -20.2,
+      "revenueGrowthPercent": 7.62,
+      "operatingMarginPercent": null,
       "checks": [
         {
           "id": "liquidity",
@@ -6355,6 +7136,19 @@
           "accessionNumber": "0000051143-25-000064",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/51143/000005114325000064/0000051143-25-000064-index.html"
         },
+        "revenuePriorYear": {
+          "value": 62753000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-24",
+          "form": "10-K",
+          "accessionNumber": "0000051143-26-000010",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/0000051143-26-000010-index.html"
+        },
         "operatingCashFlow": {
           "value": 13193000000,
           "unit": "USD",
@@ -6408,7 +7202,21 @@
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/0000051143-26-000010-index.html"
         },
         "debtIssued": null,
-        "debtRepaid": null
+        "debtRepaid": null,
+        "revenue": {
+          "value": 67535000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-24",
+          "form": "10-K",
+          "accessionNumber": "0000051143-26-000010",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/0000051143-26-000010-index.html"
+        },
+        "operatingIncome": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -6424,6 +7232,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-09-30",
       "cashChangePercent": -2.6,
+      "revenueGrowthPercent": 2.75,
+      "operatingMarginPercent": null,
       "checks": [
         {
           "id": "liquidity",
@@ -6627,6 +7437,19 @@
           "accessionNumber": "0001628280-25-048859",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/0001628280-25-048859-index.html"
         },
+        "revenuePriorYear": {
+          "value": 177556000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-13",
+          "form": "10-K",
+          "accessionNumber": "0001628280-26-008131",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/0001628280-26-008131-index.html"
+        },
         "operatingCashFlow": {
           "value": -147782000000,
           "unit": "USD",
@@ -6668,7 +7491,21 @@
         },
         "capitalExpenditures": null,
         "debtIssued": null,
-        "debtRepaid": null
+        "debtRepaid": null,
+        "revenue": {
+          "value": 182447000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-13",
+          "form": "10-K",
+          "accessionNumber": "0001628280-26-008131",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/0001628280-26-008131-index.html"
+        },
+        "operatingIncome": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -6684,6 +7521,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-10-29",
       "cashChangePercent": 6.1,
+      "revenueGrowthPercent": 6.84,
+      "operatingMarginPercent": null,
       "checks": [
         {
           "id": "liquidity",
@@ -6887,6 +7726,19 @@
           "accessionNumber": "0000070858-25-000405",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/0000070858-25-000405-index.html"
         },
+        "revenuePriorYear": {
+          "value": 105856000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "accessionNumber": "0000070858-26-000157",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/0000070858-26-000157-index.html"
+        },
         "operatingCashFlow": {
           "value": 12613000000,
           "unit": "USD",
@@ -6952,7 +7804,21 @@
           "form": "10-K",
           "accessionNumber": "0000070858-26-000157",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/0000070858-26-000157-index.html"
-        }
+        },
+        "revenue": {
+          "value": 113097000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "accessionNumber": "0000070858-26-000157",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/0000070858-26-000157-index.html"
+        },
+        "operatingIncome": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -6968,6 +7834,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-01-31",
       "cashChangePercent": 4.1,
+      "revenueGrowthPercent": 5.58,
+      "operatingMarginPercent": null,
       "checks": [
         {
           "id": "liquidity",
@@ -7183,6 +8051,19 @@
           "accessionNumber": "0000831001-26-000011",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/831001/000083100126000011/0000831001-26-000011-index.html"
         },
+        "revenuePriorYear": {
+          "value": 80722000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-20",
+          "form": "10-K",
+          "accessionNumber": "0000831001-26-000011",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/831001/000083100126000011/0000831001-26-000011-index.html"
+        },
         "operatingCashFlow": {
           "value": -67632000000,
           "unit": "USD",
@@ -7248,7 +8129,21 @@
           "accessionNumber": "0000831001-26-000011",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/831001/000083100126000011/0000831001-26-000011-index.html"
         },
-        "debtRepaid": null
+        "debtRepaid": null,
+        "revenue": {
+          "value": 85225000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-20",
+          "form": "10-K",
+          "accessionNumber": "0000831001-26-000011",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/831001/000083100126000011/0000831001-26-000011-index.html"
+        },
+        "operatingIncome": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -7264,6 +8159,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-10-16",
       "cashChangePercent": 4.2,
+      "revenueGrowthPercent": null,
+      "operatingMarginPercent": null,
       "checks": [
         {
           "id": "liquidity",
@@ -7455,6 +8352,7 @@
           "accessionNumber": "0000886982-25-001411",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/886982/000088698225001411/0000886982-25-001411-index.html"
         },
+        "revenuePriorYear": null,
         "operatingCashFlow": {
           "value": -45154000000,
           "unit": "USD",
@@ -7508,7 +8406,9 @@
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000091/0000886982-26-000091-index.html"
         },
         "debtIssued": null,
-        "debtRepaid": null
+        "debtRepaid": null,
+        "revenue": null,
+        "operatingIncome": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -7524,6 +8424,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-10-30",
       "cashChangePercent": 33.7,
+      "revenueGrowthPercent": 5.48,
+      "operatingMarginPercent": null,
       "checks": [
         {
           "id": "liquidity",
@@ -7727,6 +8629,19 @@
           "accessionNumber": "0000895421-25-000539",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/895421/000089542125000539/0000895421-25-000539-index.html"
         },
+        "revenuePriorYear": {
+          "value": 32493000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2013-01-01",
+          "end": "2013-12-31",
+          "filed": "2015-03-02",
+          "form": "10-K",
+          "accessionNumber": "0001193125-15-071980",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/895421/000119312515071980/0001193125-15-071980-index.html"
+        },
         "operatingCashFlow": {
           "value": -17889000000,
           "unit": "USD",
@@ -7792,7 +8707,21 @@
           "form": "10-K",
           "accessionNumber": "0000895421-26-000086",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000086/0000895421-26-000086-index.html"
-        }
+        },
+        "revenue": {
+          "value": 34275000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2014-01-01",
+          "end": "2014-12-31",
+          "filed": "2015-03-02",
+          "form": "10-K",
+          "accessionNumber": "0001193125-15-071980",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/895421/000119312515071980/0001193125-15-071980-index.html"
+        },
+        "operatingIncome": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -7808,6 +8737,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-10-19",
       "cashChangePercent": 16.5,
+      "revenueGrowthPercent": -1.56,
+      "operatingMarginPercent": null,
       "checks": [
         {
           "id": "liquidity",
@@ -8023,6 +8954,19 @@
           "accessionNumber": "0000072971-25-000253",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/72971/000007297125000253/0000072971-25-000253-index.html"
         },
+        "revenuePriorYear": {
+          "value": 86408000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2018-01-01",
+          "end": "2018-12-31",
+          "filed": "2020-02-27",
+          "form": "10-K",
+          "accessionNumber": "0000072971-20-000217",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/72971/000007297120000217/0000072971-20-000217-index.html"
+        },
         "operatingCashFlow": {
           "value": -19001000000,
           "unit": "USD",
@@ -8076,7 +9020,21 @@
           "form": "10-K",
           "accessionNumber": "0000072971-26-000133",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000133/0000072971-26-000133-index.html"
-        }
+        },
+        "revenue": {
+          "value": 85063000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2019-01-01",
+          "end": "2019-12-31",
+          "filed": "2020-02-27",
+          "form": "10-K",
+          "accessionNumber": "0000072971-20-000217",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/72971/000007297120000217/0000072971-20-000217-index.html"
+        },
+        "operatingIncome": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -8092,6 +9050,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-09-30",
       "cashChangePercent": 29.0,
+      "revenueGrowthPercent": 18.67,
+      "operatingMarginPercent": 29.09,
       "checks": [
         {
           "id": "liquidity",
@@ -8283,6 +9243,19 @@
           "accessionNumber": "0001193125-25-267043",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312525267043/0001193125-25-267043-index.html"
         },
+        "revenuePriorYear": {
+          "value": 20407000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "accessionNumber": "0001193125-26-071966",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/0001193125-26-071966-index.html"
+        },
         "operatingCashFlow": {
           "value": 3927000000,
           "unit": "USD",
@@ -8360,6 +9333,32 @@
           "form": "10-K",
           "accessionNumber": "0001193125-26-071966",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/0001193125-26-071966-index.html"
+        },
+        "revenue": {
+          "value": 24216000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "accessionNumber": "0001193125-26-071966",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/0001193125-26-071966-index.html"
+        },
+        "operatingIncome": {
+          "value": 7045000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "accessionNumber": "0001193125-26-071966",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/0001193125-26-071966-index.html"
         }
       },
       "caveats": [
@@ -8376,6 +9375,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-06-30",
       "cashChangePercent": 12.6,
+      "revenueGrowthPercent": -0.99,
+      "operatingMarginPercent": null,
       "checks": [
         {
           "id": "liquidity",
@@ -8567,6 +9568,19 @@
           "accessionNumber": "0001193125-18-057033",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1067983/000119312518057033/0001193125-18-057033-index.html"
         },
+        "revenuePriorYear": {
+          "value": 249714000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-03-02",
+          "form": "10-K",
+          "accessionNumber": "0001193125-26-083899",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/0001193125-26-083899-index.html"
+        },
         "operatingCashFlow": {
           "value": 45969000000,
           "unit": "USD",
@@ -8620,7 +9634,21 @@
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/0001193125-26-083899-index.html"
         },
         "debtIssued": null,
-        "debtRepaid": null
+        "debtRepaid": null,
+        "revenue": {
+          "value": 247244000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-03-02",
+          "form": "10-K",
+          "accessionNumber": "0001193125-26-083899",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/0001193125-26-083899-index.html"
+        },
+        "operatingIncome": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -8636,6 +9664,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-09-30",
       "cashChangePercent": -28.2,
+      "revenueGrowthPercent": 9.4,
+      "operatingMarginPercent": 19.99,
       "checks": [
         {
           "id": "liquidity",
@@ -8887,6 +9917,19 @@
           "accessionNumber": "0001679788-26-000122",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000122/0001679788-26-000122-index.html"
         },
+        "revenuePriorYear": {
+          "value": 6564028000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-12",
+          "form": "10-K",
+          "accessionNumber": "0001679788-26-000015",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000015/0001679788-26-000015-index.html"
+        },
         "operatingCashFlow": {
           "value": 2426383000,
           "unit": "USD",
@@ -8952,6 +9995,32 @@
           "form": "10-K",
           "accessionNumber": "0001679788-26-000015",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000015/0001679788-26-000015-index.html"
+        },
+        "revenue": {
+          "value": 7181325000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-12",
+          "form": "10-K",
+          "accessionNumber": "0001679788-26-000015",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000015/0001679788-26-000015-index.html"
+        },
+        "operatingIncome": {
+          "value": 1435441000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-12",
+          "form": "10-K",
+          "accessionNumber": "0001679788-26-000015",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000015/0001679788-26-000015-index.html"
         }
       },
       "caveats": [
@@ -8968,6 +10037,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-09-30",
       "cashChangePercent": -24.6,
+      "revenueGrowthPercent": 14.76,
+      "operatingMarginPercent": 61.24,
       "checks": [
         {
           "id": "liquidity",
@@ -9207,6 +10278,19 @@
           "accessionNumber": "0001403161-26-000134",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/0001403161-26-000134-index.html"
         },
+        "revenuePriorYear": {
+          "value": 40000000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-10-01",
+          "end": "2025-09-30",
+          "filed": "2026-11-05",
+          "form": "10-K",
+          "accessionNumber": "0001403161-26-000134",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/0001403161-26-000134-index.html"
+        },
         "operatingCashFlow": {
           "value": 23728000000,
           "unit": "USD",
@@ -9284,6 +10368,32 @@
           "form": "10-K",
           "accessionNumber": "0001403161-26-000134",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/0001403161-26-000134-index.html"
+        },
+        "revenue": {
+          "value": 45903000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-10-01",
+          "end": "2026-09-30",
+          "filed": "2026-11-05",
+          "form": "10-K",
+          "accessionNumber": "0001403161-26-000134",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/0001403161-26-000134-index.html"
+        },
+        "operatingIncome": {
+          "value": 28110000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-10-01",
+          "end": "2026-09-30",
+          "filed": "2026-11-05",
+          "form": "10-K",
+          "accessionNumber": "0001403161-26-000134",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/0001403161-26-000134-index.html"
         }
       },
       "caveats": [
@@ -9300,6 +10410,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-09-30",
       "cashChangePercent": -1.6,
+      "revenueGrowthPercent": 16.42,
+      "operatingMarginPercent": 57.63,
       "checks": [
         {
           "id": "liquidity",
@@ -9539,6 +10651,19 @@
           "accessionNumber": "0001141391-25-000193",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000193/0001141391-25-000193-index.html"
         },
+        "revenuePriorYear": {
+          "value": 28167000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-11",
+          "form": "10-K",
+          "accessionNumber": "0001141391-26-000013",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/0001141391-26-000013-index.html"
+        },
         "operatingCashFlow": {
           "value": 17648000000,
           "unit": "USD",
@@ -9616,6 +10741,32 @@
           "form": "10-K",
           "accessionNumber": "0001141391-26-000013",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/0001141391-26-000013-index.html"
+        },
+        "revenue": {
+          "value": 32791000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-11",
+          "form": "10-K",
+          "accessionNumber": "0001141391-26-000013",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/0001141391-26-000013-index.html"
+        },
+        "operatingIncome": {
+          "value": 18897000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-11",
+          "form": "10-K",
+          "accessionNumber": "0001141391-26-000013",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/0001141391-26-000013-index.html"
         }
       },
       "caveats": [
@@ -9632,6 +10783,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-10-15",
       "cashChangePercent": 13.5,
+      "revenueGrowthPercent": 6.39,
+      "operatingMarginPercent": null,
       "checks": [
         {
           "id": "liquidity",
@@ -9847,6 +11000,19 @@
           "accessionNumber": "0000004962-25-000222",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/4962/000000496225000222/0000004962-25-000222-index.html"
         },
+        "revenuePriorYear": {
+          "value": 38825000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-06",
+          "form": "10-K",
+          "accessionNumber": "0000004962-26-000080",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/0000004962-26-000080-index.html"
+        },
         "operatingCashFlow": {
           "value": 18428000000,
           "unit": "USD",
@@ -9924,7 +11090,21 @@
           "form": "10-K",
           "accessionNumber": "0000004962-26-000080",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/0000004962-26-000080-index.html"
-        }
+        },
+        "revenue": {
+          "value": 41304000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-06",
+          "form": "10-K",
+          "accessionNumber": "0000004962-26-000080",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/0000004962-26-000080-index.html"
+        },
+        "operatingIncome": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -9940,6 +11120,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-10-30",
       "cashChangePercent": 19.9,
+      "revenueGrowthPercent": 22.01,
+      "operatingMarginPercent": null,
       "checks": [
         {
           "id": "liquidity",
@@ -10131,6 +11313,19 @@
           "accessionNumber": "0000316709-26-000038",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000038/0000316709-26-000038-index.html"
         },
+        "revenuePriorYear": {
+          "value": 19606000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "accessionNumber": "0000316709-26-000009",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/0000316709-26-000009-index.html"
+        },
         "operatingCashFlow": {
           "value": 9311000000,
           "unit": "USD",
@@ -10208,7 +11403,21 @@
           "form": "10-K",
           "accessionNumber": "0000316709-23-000009",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/316709/000031670923000009/0000316709-23-000009-index.html"
-        }
+        },
+        "revenue": {
+          "value": 23921000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "accessionNumber": "0000316709-26-000009",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/0000316709-26-000009-index.html"
+        },
+        "operatingIncome": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -10224,6 +11433,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-10-30",
       "cashChangePercent": 25.0,
+      "revenueGrowthPercent": 9.22,
+      "operatingMarginPercent": null,
       "checks": [
         {
           "id": "liquidity",
@@ -10427,6 +11638,19 @@
           "accessionNumber": "0001193125-25-272343",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525272343/0001193125-25-272343-index.html"
         },
+        "revenuePriorYear": {
+          "value": 13229968000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-27",
+          "form": "10-K",
+          "accessionNumber": "0001193125-26-082531",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/0001193125-26-082531-index.html"
+        },
         "operatingCashFlow": {
           "value": 4663161000,
           "unit": "USD",
@@ -10504,7 +11728,21 @@
           "form": "10-K",
           "accessionNumber": "0001193125-26-082531",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/0001193125-26-082531-index.html"
-        }
+        },
+        "revenue": {
+          "value": 14450265000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-27",
+          "form": "10-K",
+          "accessionNumber": "0001193125-26-082531",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/0001193125-26-082531-index.html"
+        },
+        "operatingIncome": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -10520,6 +11758,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-08-05",
       "cashChangePercent": 128.5,
+      "revenueGrowthPercent": -11.04,
+      "operatingMarginPercent": null,
       "checks": [
         {
           "id": "liquidity",
@@ -10723,6 +11963,19 @@
           "accessionNumber": "0001404912-21-000008",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1404912/000140491221000008/0001404912-21-000008-index.html"
         },
+        "revenuePriorYear": {
+          "value": 21878698000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-27",
+          "form": "10-K",
+          "accessionNumber": "0001404912-26-000007",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000007/0001404912-26-000007-index.html"
+        },
         "operatingCashFlow": {
           "value": 477760000,
           "unit": "USD",
@@ -10800,7 +12053,21 @@
           "form": "10-K",
           "accessionNumber": "0001404912-26-000007",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000007/0001404912-26-000007-index.html"
-        }
+        },
+        "revenue": {
+          "value": 19464307000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-27",
+          "form": "10-K",
+          "accessionNumber": "0001404912-26-000007",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000007/0001404912-26-000007-index.html"
+        },
+        "operatingIncome": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -10816,6 +12083,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-08-26",
       "cashChangePercent": 22.2,
+      "revenueGrowthPercent": 4.73,
+      "operatingMarginPercent": 4.22,
       "checks": [
         {
           "id": "liquidity",
@@ -11043,6 +12312,19 @@
           "accessionNumber": "0000104169-26-000154",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/0000104169-26-000154-index.html"
         },
+        "revenuePriorYear": {
+          "value": 674538000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-02-01",
+          "end": "2025-01-31",
+          "filed": "2026-03-13",
+          "form": "10-K",
+          "accessionNumber": "0000104169-26-000055",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/0000104169-26-000055-index.html"
+        },
         "operatingCashFlow": {
           "value": 41565000000,
           "unit": "USD",
@@ -11120,6 +12402,32 @@
           "form": "10-K",
           "accessionNumber": "0000104169-26-000055",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/0000104169-26-000055-index.html"
+        },
+        "revenue": {
+          "value": 706413000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-02-01",
+          "end": "2026-01-31",
+          "filed": "2026-03-13",
+          "form": "10-K",
+          "accessionNumber": "0000104169-26-000055",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/0000104169-26-000055-index.html"
+        },
+        "operatingIncome": {
+          "value": 29825000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-02-01",
+          "end": "2026-01-31",
+          "filed": "2026-03-13",
+          "form": "10-K",
+          "accessionNumber": "0000104169-26-000055",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/0000104169-26-000055-index.html"
         }
       },
       "caveats": [
@@ -11136,6 +12444,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-09-29",
       "cashChangePercent": 42.7,
+      "revenueGrowthPercent": 10.14,
+      "operatingMarginPercent": 3.85,
       "checks": [
         {
           "id": "liquidity",
@@ -11375,6 +12685,19 @@
           "accessionNumber": "0000909832-26-000093",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093-index.html"
         },
+        "revenuePriorYear": {
+          "value": 275235000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-09-02",
+          "end": "2025-08-31",
+          "filed": "2026-10-07",
+          "form": "10-K",
+          "accessionNumber": "0000909832-26-000093",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093-index.html"
+        },
         "operatingCashFlow": {
           "value": 15817000000,
           "unit": "USD",
@@ -11452,6 +12775,32 @@
           "form": "10-K",
           "accessionNumber": "0000909832-26-000093",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093-index.html"
+        },
+        "revenue": {
+          "value": 303154000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-09-01",
+          "end": "2026-08-30",
+          "filed": "2026-10-07",
+          "form": "10-K",
+          "accessionNumber": "0000909832-26-000093",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093-index.html"
+        },
+        "operatingIncome": {
+          "value": 11685000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-09-01",
+          "end": "2026-08-30",
+          "filed": "2026-10-07",
+          "form": "10-K",
+          "accessionNumber": "0000909832-26-000093",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093-index.html"
         }
       },
       "caveats": [
@@ -11468,6 +12817,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-08-18",
       "cashChangePercent": -25.6,
+      "revenueGrowthPercent": 3.24,
+      "operatingMarginPercent": 12.68,
       "checks": [
         {
           "id": "liquidity",
@@ -11683,6 +13034,19 @@
           "accessionNumber": "0000354950-25-000217",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000217/0000354950-25-000217-index.html"
         },
+        "revenuePriorYear": {
+          "value": 159514000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-01-29",
+          "end": "2025-02-02",
+          "filed": "2026-03-18",
+          "form": "10-K",
+          "accessionNumber": "0001628280-26-019436",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/0001628280-26-019436-index.html"
+        },
         "operatingCashFlow": {
           "value": 16325000000,
           "unit": "USD",
@@ -11736,7 +13100,33 @@
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/0001628280-26-019436-index.html"
         },
         "debtIssued": null,
-        "debtRepaid": null
+        "debtRepaid": null,
+        "revenue": {
+          "value": 164683000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-02-03",
+          "end": "2026-02-01",
+          "filed": "2026-03-18",
+          "form": "10-K",
+          "accessionNumber": "0001628280-26-019436",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/0001628280-26-019436-index.html"
+        },
+        "operatingIncome": {
+          "value": 20890000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-02-03",
+          "end": "2026-02-01",
+          "filed": "2026-03-18",
+          "form": "10-K",
+          "accessionNumber": "0001628280-26-019436",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/0001628280-26-019436-index.html"
+        }
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -11752,6 +13142,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-08-31",
       "cashChangePercent": -1.7,
+      "revenueGrowthPercent": 0.19,
+      "operatingMarginPercent": null,
       "checks": [
         {
           "id": "liquidity",
@@ -11979,6 +13371,19 @@
           "accessionNumber": "0000320187-25-000097",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320187/000032018725000097/0000320187-25-000097-index.html"
         },
+        "revenuePriorYear": {
+          "value": 46309000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-06-01",
+          "end": "2025-05-31",
+          "filed": "2026-07-15",
+          "form": "10-K",
+          "accessionNumber": "0000320187-26-000088",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000088/0000320187-26-000088-index.html"
+        },
         "operatingCashFlow": {
           "value": 2868000000,
           "unit": "USD",
@@ -12056,7 +13461,21 @@
           "form": "10-K",
           "accessionNumber": "0000320187-26-000088",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000088/0000320187-26-000088-index.html"
-        }
+        },
+        "revenue": {
+          "value": 46398000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-06-01",
+          "end": "2026-05-31",
+          "filed": "2026-07-15",
+          "form": "10-K",
+          "accessionNumber": "0000320187-26-000088",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000088/0000320187-26-000088-index.html"
+        },
+        "operatingIncome": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -12072,6 +13491,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-07-23",
       "cashChangePercent": -33.1,
+      "revenueGrowthPercent": 2.79,
+      "operatingMarginPercent": 7.9,
       "checks": [
         {
           "id": "liquidity",
@@ -12323,6 +13744,19 @@
           "accessionNumber": "0000829224-22-000039",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/829224/000082922422000039/0000829224-22-000039-index.html"
         },
+        "revenuePriorYear": {
+          "value": 36176200000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2023-10-02",
+          "end": "2024-09-29",
+          "filed": "2025-11-14",
+          "form": "10-K",
+          "accessionNumber": "0000829224-25-000114",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/829224/000082922425000114/0000829224-25-000114-index.html"
+        },
         "operatingCashFlow": {
           "value": 4747500000,
           "unit": "USD",
@@ -12400,6 +13834,32 @@
           "form": "10-K",
           "accessionNumber": "0000829224-25-000114",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/829224/000082922425000114/0000829224-25-000114-index.html"
+        },
+        "revenue": {
+          "value": 37184400000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2024-09-30",
+          "end": "2025-09-28",
+          "filed": "2025-11-14",
+          "form": "10-K",
+          "accessionNumber": "0000829224-25-000114",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/829224/000082922425000114/0000829224-25-000114-index.html"
+        },
+        "operatingIncome": {
+          "value": 2936600000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2024-09-30",
+          "end": "2025-09-28",
+          "filed": "2025-11-14",
+          "form": "10-K",
+          "accessionNumber": "0000829224-25-000114",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/829224/000082922425000114/0000829224-25-000114-index.html"
         }
       },
       "caveats": [
@@ -12416,6 +13876,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-09-30",
       "cashChangePercent": -50.6,
+      "revenueGrowthPercent": 3.72,
+      "operatingMarginPercent": 46.1,
       "checks": [
         {
           "id": "liquidity",
@@ -12631,6 +14093,19 @@
           "accessionNumber": "0000063908-25-000059",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/63908/000006390825000059/0000063908-25-000059-index.html"
         },
+        "revenuePriorYear": {
+          "value": 25920000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-24",
+          "form": "10-K",
+          "accessionNumber": "0000063908-26-000035",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000035/0000063908-26-000035-index.html"
+        },
         "operatingCashFlow": {
           "value": 10551000000,
           "unit": "USD",
@@ -12708,6 +14183,32 @@
           "form": "10-K",
           "accessionNumber": "0000063908-26-000035",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000035/0000063908-26-000035-index.html"
+        },
+        "revenue": {
+          "value": 26885000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-24",
+          "form": "10-K",
+          "accessionNumber": "0000063908-26-000035",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000035/0000063908-26-000035-index.html"
+        },
+        "operatingIncome": {
+          "value": 12393000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-24",
+          "form": "10-K",
+          "accessionNumber": "0000063908-26-000035",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000035/0000063908-26-000035-index.html"
         }
       },
       "caveats": [
@@ -12724,6 +14225,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-07-29",
       "cashChangePercent": -3.4,
+      "revenueGrowthPercent": 3.35,
+      "operatingMarginPercent": 18.59,
       "checks": [
         {
           "id": "liquidity",
@@ -12951,6 +14454,19 @@
           "accessionNumber": "0001744489-25-000136",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1744489/000174448925000136/0001744489-25-000136-index.html"
         },
+        "revenuePriorYear": {
+          "value": 91361000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2023-10-01",
+          "end": "2024-09-28",
+          "filed": "2025-11-13",
+          "form": "10-K",
+          "accessionNumber": "0001744489-25-000155",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1744489/000174448925000155/0001744489-25-000155-index.html"
+        },
         "operatingCashFlow": {
           "value": 18101000000,
           "unit": "USD",
@@ -13028,6 +14544,32 @@
           "form": "10-K",
           "accessionNumber": "0001744489-25-000155",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1744489/000174448925000155/0001744489-25-000155-index.html"
+        },
+        "revenue": {
+          "value": 94425000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2024-09-29",
+          "end": "2025-09-27",
+          "filed": "2025-11-13",
+          "form": "10-K",
+          "accessionNumber": "0001744489-25-000155",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1744489/000174448925000155/0001744489-25-000155-index.html"
+        },
+        "operatingIncome": {
+          "value": 17551000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2024-09-29",
+          "end": "2025-09-27",
+          "filed": "2025-11-13",
+          "form": "10-K",
+          "accessionNumber": "0001744489-25-000155",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1744489/000174448925000155/0001744489-25-000155-index.html"
         }
       },
       "caveats": [
@@ -13044,6 +14586,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-10-30",
       "cashChangePercent": 13.4,
+      "revenueGrowthPercent": 18.28,
+      "operatingMarginPercent": 10.7,
       "checks": [
         {
           "id": "liquidity",
@@ -13283,6 +14827,19 @@
           "accessionNumber": "0001543151-26-000041",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000041/0001543151-26-000041-index.html"
         },
+        "revenuePriorYear": {
+          "value": 43978000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-13",
+          "form": "10-K",
+          "accessionNumber": "0001543151-26-000015",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000015/0001543151-26-000015-index.html"
+        },
         "operatingCashFlow": {
           "value": 10099000000,
           "unit": "USD",
@@ -13360,6 +14917,32 @@
           "form": "10-K",
           "accessionNumber": "0001543151-26-000015",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000015/0001543151-26-000015-index.html"
+        },
+        "revenue": {
+          "value": 52017000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-13",
+          "form": "10-K",
+          "accessionNumber": "0001543151-26-000015",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000015/0001543151-26-000015-index.html"
+        },
+        "operatingIncome": {
+          "value": 5565000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-13",
+          "form": "10-K",
+          "accessionNumber": "0001543151-26-000015",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000015/0001543151-26-000015-index.html"
         }
       },
       "caveats": [
@@ -13376,6 +14959,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-09-30",
       "cashChangePercent": -3.4,
+      "revenueGrowthPercent": 10.26,
+      "operatingMarginPercent": 20.78,
       "checks": [
         {
           "id": "liquidity",
@@ -13627,6 +15212,19 @@
           "accessionNumber": "0001559720-25-000030",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1559720/000155972025000030/0001559720-25-000030-index.html"
         },
+        "revenuePriorYear": {
+          "value": 11102000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-12",
+          "form": "10-K",
+          "accessionNumber": "0001559720-26-000004",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/0001559720-26-000004-index.html"
+        },
         "operatingCashFlow": {
           "value": 4646000000,
           "unit": "USD",
@@ -13692,6 +15290,32 @@
           "form": "10-K",
           "accessionNumber": "0001559720-24-000006",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1559720/000155972024000006/0001559720-24-000006-index.html"
+        },
+        "revenue": {
+          "value": 12241000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-12",
+          "form": "10-K",
+          "accessionNumber": "0001559720-26-000004",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/0001559720-26-000004-index.html"
+        },
+        "operatingIncome": {
+          "value": 2544000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-12",
+          "form": "10-K",
+          "accessionNumber": "0001559720-26-000004",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/0001559720-26-000004-index.html"
         }
       },
       "caveats": [
@@ -13708,6 +15332,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-09-30",
       "cashChangePercent": 42.3,
+      "revenueGrowthPercent": 48.63,
+      "operatingMarginPercent": 9.26,
       "checks": [
         {
           "id": "liquidity",
@@ -13947,6 +15573,19 @@
           "accessionNumber": "0001690820-26-000067",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000067/0001690820-26-000067-index.html"
         },
+        "revenuePriorYear": {
+          "value": 13673000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-18",
+          "form": "10-K",
+          "accessionNumber": "0001690820-26-000009",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000009/0001690820-26-000009-index.html"
+        },
         "operatingCashFlow": {
           "value": 1036000000,
           "unit": "USD",
@@ -14012,7 +15651,33 @@
           "accessionNumber": "0001690820-19-000024",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1690820/000169082019000024/0001690820-19-000024-index.html"
         },
-        "debtRepaid": null
+        "debtRepaid": null,
+        "revenue": {
+          "value": 20322000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-18",
+          "form": "10-K",
+          "accessionNumber": "0001690820-26-000009",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000009/0001690820-26-000009-index.html"
+        },
+        "operatingIncome": {
+          "value": 1881000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-18",
+          "form": "10-K",
+          "accessionNumber": "0001690820-26-000009",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000009/0001690820-26-000009-index.html"
+        }
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -14028,6 +15693,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-10-26",
       "cashChangePercent": -50.1,
+      "revenueGrowthPercent": 44.7,
+      "operatingMarginPercent": null,
       "checks": [
         {
           "id": "liquidity",
@@ -14243,6 +15910,19 @@
           "accessionNumber": "0000059478-25-000254",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000254/0000059478-25-000254-index.html"
         },
+        "revenuePriorYear": {
+          "value": 45043000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-12",
+          "form": "10-K",
+          "accessionNumber": "0000059478-26-000013",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/0000059478-26-000013-index.html"
+        },
         "operatingCashFlow": {
           "value": 16813000000,
           "unit": "USD",
@@ -14320,7 +16000,21 @@
           "form": "10-K",
           "accessionNumber": "0000059478-26-000013",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/0000059478-26-000013-index.html"
-        }
+        },
+        "revenue": {
+          "value": 65179000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-12",
+          "form": "10-K",
+          "accessionNumber": "0000059478-26-000013",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/0000059478-26-000013-index.html"
+        },
+        "operatingIncome": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -14336,6 +16030,8 @@
       "status": "available",
       "latestPeriodEnd": "2025-12-31",
       "cashChangePercent": 69.0,
+      "revenueGrowthPercent": 6.43,
+      "operatingMarginPercent": 41.3,
       "checks": [
         {
           "id": "liquidity",
@@ -14587,6 +16283,19 @@
           "accessionNumber": "0000353278-26-000012",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/353278/000035327826000012/0000353278-26-000012-index.html"
         },
+        "revenuePriorYear": {
+          "value": 290403000000,
+          "unit": "DKK",
+          "taxonomy": "ifrs-full",
+          "tag": "Revenue",
+          "label": "Revenue",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-04",
+          "form": "20-F",
+          "accessionNumber": "0000353278-26-000012",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/353278/000035327826000012/0000353278-26-000012-index.html"
+        },
         "operatingCashFlow": {
           "value": 119102000000,
           "unit": "DKK",
@@ -14664,6 +16373,32 @@
           "form": "20-F",
           "accessionNumber": "0000353278-26-000012",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/353278/000035327826000012/0000353278-26-000012-index.html"
+        },
+        "revenue": {
+          "value": 309064000000,
+          "unit": "DKK",
+          "taxonomy": "ifrs-full",
+          "tag": "Revenue",
+          "label": "Revenue",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-04",
+          "form": "20-F",
+          "accessionNumber": "0000353278-26-000012",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/353278/000035327826000012/0000353278-26-000012-index.html"
+        },
+        "operatingIncome": {
+          "value": 127658000000,
+          "unit": "DKK",
+          "taxonomy": "ifrs-full",
+          "tag": "ProfitLossFromOperatingActivities",
+          "label": "ProfitLossFromOperatingActivities",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-04",
+          "form": "20-F",
+          "accessionNumber": "0000353278-26-000012",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/353278/000035327826000012/0000353278-26-000012-index.html"
         }
       },
       "caveats": [
@@ -14680,6 +16415,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-10-15",
       "cashChangePercent": -7.2,
+      "revenueGrowthPercent": 6.05,
+      "operatingMarginPercent": null,
       "checks": [
         {
           "id": "liquidity",
@@ -14919,6 +16656,19 @@
           "accessionNumber": "0000200406-25-000209",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000209/0000200406-25-000209-index.html"
         },
+        "revenuePriorYear": {
+          "value": 88821000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-01-01",
+          "end": "2024-12-29",
+          "filed": "2026-02-11",
+          "form": "10-K",
+          "accessionNumber": "0000200406-26-000016",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/0000200406-26-000016-index.html"
+        },
         "operatingCashFlow": {
           "value": 24530000000,
           "unit": "USD",
@@ -14996,7 +16746,21 @@
           "form": "10-K",
           "accessionNumber": "0000200406-26-000016",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/0000200406-26-000016-index.html"
-        }
+        },
+        "revenue": {
+          "value": 94193000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-12-30",
+          "end": "2025-12-28",
+          "filed": "2026-02-11",
+          "form": "10-K",
+          "accessionNumber": "0000200406-26-000016",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/0000200406-26-000016-index.html"
+        },
+        "operatingIncome": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -15012,6 +16776,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-10-30",
       "cashChangePercent": -5.0,
+      "revenueGrowthPercent": 11.81,
+      "operatingMarginPercent": 4.24,
       "checks": [
         {
           "id": "liquidity",
@@ -15239,6 +17005,19 @@
           "accessionNumber": "0000731766-25-000305",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000305/0000731766-25-000305-index.html"
         },
+        "revenuePriorYear": {
+          "value": 400278000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-03-02",
+          "form": "10-K",
+          "accessionNumber": "0000731766-26-000062",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000062/0000731766-26-000062-index.html"
+        },
         "operatingCashFlow": {
           "value": 19697000000,
           "unit": "USD",
@@ -15316,6 +17095,32 @@
           "form": "10-K",
           "accessionNumber": "0000731766-26-000062",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000062/0000731766-26-000062-index.html"
+        },
+        "revenue": {
+          "value": 447567000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-03-02",
+          "form": "10-K",
+          "accessionNumber": "0000731766-26-000062",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000062/0000731766-26-000062-index.html"
+        },
+        "operatingIncome": {
+          "value": 18964000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-03-02",
+          "form": "10-K",
+          "accessionNumber": "0000731766-26-000062",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000062/0000731766-26-000062-index.html"
         }
       },
       "caveats": [
@@ -15332,6 +17137,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-10-28",
       "cashChangePercent": 35.8,
+      "revenueGrowthPercent": -1.65,
+      "operatingMarginPercent": null,
       "checks": [
         {
           "id": "liquidity",
@@ -15571,6 +17378,19 @@
           "accessionNumber": "0000078003-25-000150",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/78003/000007800325000150/0000078003-25-000150-index.html"
         },
+        "revenuePriorYear": {
+          "value": 63627000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-26",
+          "form": "10-K",
+          "accessionNumber": "0000078003-26-000026",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000026/0000078003-26-000026-index.html"
+        },
         "operatingCashFlow": {
           "value": 11704000000,
           "unit": "USD",
@@ -15648,7 +17468,21 @@
           "form": "10-K",
           "accessionNumber": "0000078003-26-000026",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000026/0000078003-26-000026-index.html"
-        }
+        },
+        "revenue": {
+          "value": 62579000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-26",
+          "form": "10-K",
+          "accessionNumber": "0000078003-26-000026",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000026/0000078003-26-000026-index.html"
+        },
+        "operatingIncome": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -15664,6 +17498,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-10-30",
       "cashChangePercent": 5.6,
+      "revenueGrowthPercent": -39.93,
+      "operatingMarginPercent": -158.13,
       "checks": [
         {
           "id": "liquidity",
@@ -15879,6 +17715,19 @@
           "accessionNumber": "0001682852-26-000197",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000197/0001682852-26-000197-index.html"
         },
+        "revenuePriorYear": {
+          "value": 3236000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-20",
+          "form": "10-K",
+          "accessionNumber": "0001682852-26-000033",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000033/0001682852-26-000033-index.html"
+        },
         "operatingCashFlow": {
           "value": -1873000000,
           "unit": "USD",
@@ -15932,7 +17781,33 @@
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000033/0001682852-26-000033-index.html"
         },
         "debtIssued": null,
-        "debtRepaid": null
+        "debtRepaid": null,
+        "revenue": {
+          "value": 1944000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-20",
+          "form": "10-K",
+          "accessionNumber": "0001682852-26-000033",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000033/0001682852-26-000033-index.html"
+        },
+        "operatingIncome": {
+          "value": -3074000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-20",
+          "form": "10-K",
+          "accessionNumber": "0001682852-26-000033",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000033/0001682852-26-000033-index.html"
+        }
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -15948,6 +17823,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-09-30",
       "cashChangePercent": 46.0,
+      "revenueGrowthPercent": 0.99,
+      "operatingMarginPercent": 24.95,
       "checks": [
         {
           "id": "liquidity",
@@ -16175,6 +18052,19 @@
           "accessionNumber": "0000872589-26-000034",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000034/0000872589-26-000034-index.html"
         },
+        "revenuePriorYear": {
+          "value": 14202000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-04",
+          "form": "10-K",
+          "accessionNumber": "0000872589-26-000008",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000008/0000872589-26-000008-index.html"
+        },
         "operatingCashFlow": {
           "value": 4978900000,
           "unit": "USD",
@@ -16240,7 +18130,33 @@
           "accessionNumber": "0001804220-23-000008",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/872589/000180422023000008/0001804220-23-000008-index.html"
         },
-        "debtRepaid": null
+        "debtRepaid": null,
+        "revenue": {
+          "value": 14342900000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-04",
+          "form": "10-K",
+          "accessionNumber": "0000872589-26-000008",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000008/0000872589-26-000008-index.html"
+        },
+        "operatingIncome": {
+          "value": 3577900000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-04",
+          "form": "10-K",
+          "accessionNumber": "0000872589-26-000008",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000008/0000872589-26-000008-index.html"
+        }
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -16256,6 +18172,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-10-31",
       "cashChangePercent": 0.8,
+      "revenueGrowthPercent": 8.9,
+      "operatingMarginPercent": 34.77,
       "checks": [
         {
           "id": "liquidity",
@@ -16495,6 +18413,19 @@
           "accessionNumber": "0000875320-26-000291",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000291/0000875320-26-000291-index.html"
         },
+        "revenuePriorYear": {
+          "value": 11020100000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-13",
+          "form": "10-K",
+          "accessionNumber": "0000875320-26-000056",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000056/0000875320-26-000056-index.html"
+        },
         "operatingCashFlow": {
           "value": 3631400000,
           "unit": "USD",
@@ -16572,6 +18503,32 @@
           "form": "10-K",
           "accessionNumber": "0000875320-16-000067",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/875320/000087532016000067/0000875320-16-000067-index.html"
+        },
+        "revenue": {
+          "value": 12001300000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-13",
+          "form": "10-K",
+          "accessionNumber": "0000875320-26-000056",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000056/0000875320-26-000056-index.html"
+        },
+        "operatingIncome": {
+          "value": 4173300000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-13",
+          "form": "10-K",
+          "accessionNumber": "0000875320-26-000056",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000056/0000875320-26-000056-index.html"
         }
       },
       "caveats": [
@@ -16588,6 +18545,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-10-15",
       "cashChangePercent": 6.1,
+      "revenueGrowthPercent": 20.51,
+      "operatingMarginPercent": 29.27,
       "checks": [
         {
           "id": "liquidity",
@@ -16803,6 +18762,19 @@
           "accessionNumber": "0001035267-25-000209",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1035267/000103526725000209/0001035267-25-000209-index.html"
         },
+        "revenuePriorYear": {
+          "value": 8352100000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-03",
+          "form": "10-K",
+          "accessionNumber": "0001035267-26-000010",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/0001035267-26-000010-index.html"
+        },
         "operatingCashFlow": {
           "value": 3030500000,
           "unit": "USD",
@@ -16856,7 +18828,33 @@
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/0001035267-26-000010-index.html"
         },
         "debtIssued": null,
-        "debtRepaid": null
+        "debtRepaid": null,
+        "revenue": {
+          "value": 10064700000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-03",
+          "form": "10-K",
+          "accessionNumber": "0001035267-26-000010",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/0001035267-26-000010-index.html"
+        },
+        "operatingIncome": {
+          "value": 2945500000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-03",
+          "form": "10-K",
+          "accessionNumber": "0001035267-26-000010",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/0001035267-26-000010-index.html"
+        }
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -16872,6 +18870,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-10-29",
       "cashChangePercent": 39.7,
+      "revenueGrowthPercent": 9.95,
+      "operatingMarginPercent": 24.71,
       "checks": [
         {
           "id": "liquidity",
@@ -17111,6 +19111,19 @@
           "accessionNumber": "0000318154-25-000072",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/318154/000031815425000072/0000318154-25-000072-index.html"
         },
+        "revenuePriorYear": {
+          "value": 33424000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-13",
+          "form": "10-K",
+          "accessionNumber": "0000318154-26-000010",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/318154/000031815426000010/0000318154-26-000010-index.html"
+        },
         "operatingCashFlow": {
           "value": 9958000000,
           "unit": "USD",
@@ -17188,6 +19201,32 @@
           "form": "10-K",
           "accessionNumber": "0000318154-26-000010",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/318154/000031815426000010/0000318154-26-000010-index.html"
+        },
+        "revenue": {
+          "value": 36751000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-13",
+          "form": "10-K",
+          "accessionNumber": "0000318154-26-000010",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/318154/000031815426000010/0000318154-26-000010-index.html"
+        },
+        "operatingIncome": {
+          "value": 9080000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-13",
+          "form": "10-K",
+          "accessionNumber": "0000318154-26-000010",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/318154/000031815426000010/0000318154-26-000010-index.html"
         }
       },
       "caveats": [
@@ -17204,6 +19243,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-09-30",
       "cashChangePercent": null,
+      "revenueGrowthPercent": null,
+      "operatingMarginPercent": null,
       "checks": [
         {
           "id": "liquidity",
@@ -17407,12 +19448,15 @@
         "currentDebt": null,
         "noncurrentDebt": null,
         "cashPriorYear": null,
+        "revenuePriorYear": null,
         "operatingCashFlow": null,
         "investingCashFlow": null,
         "financingCashFlow": null,
         "capitalExpenditures": null,
         "debtIssued": null,
-        "debtRepaid": null
+        "debtRepaid": null,
+        "revenue": null,
+        "operatingIncome": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -17428,6 +19472,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-09-30",
       "cashChangePercent": -56.9,
+      "revenueGrowthPercent": -4.64,
+      "operatingMarginPercent": null,
       "checks": [
         {
           "id": "liquidity",
@@ -17655,6 +19701,19 @@
           "accessionNumber": "0000093410-24-000040",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/93410/000009341024000040/0000093410-24-000040-index.html"
         },
+        "revenuePriorYear": {
+          "value": 193414000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-24",
+          "form": "10-K",
+          "accessionNumber": "0000093410-26-000078",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000078/0000093410-26-000078-index.html"
+        },
         "operatingCashFlow": {
           "value": 33939000000,
           "unit": "USD",
@@ -17720,7 +19779,21 @@
           "accessionNumber": "0000093410-26-000078",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000078/0000093410-26-000078-index.html"
         },
-        "debtRepaid": null
+        "debtRepaid": null,
+        "revenue": {
+          "value": 184432000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-24",
+          "form": "10-K",
+          "accessionNumber": "0000093410-26-000078",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000078/0000093410-26-000078-index.html"
+        },
+        "operatingIncome": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -17736,6 +19809,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-09-30",
       "cashChangePercent": 47.6,
+      "revenueGrowthPercent": 4.87,
+      "operatingMarginPercent": null,
       "checks": [
         {
           "id": "liquidity",
@@ -17951,6 +20026,19 @@
           "accessionNumber": "0001163165-25-000058",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000116316525000058/0001163165-25-000058-index.html"
         },
+        "revenuePriorYear": {
+          "value": 49418000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-17",
+          "form": "10-K",
+          "accessionNumber": "0001163165-26-000009",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000009/0001163165-26-000009-index.html"
+        },
         "operatingCashFlow": {
           "value": 19796000000,
           "unit": "USD",
@@ -18028,7 +20116,21 @@
           "form": "10-K",
           "accessionNumber": "0001163165-26-000009",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000009/0001163165-26-000009-index.html"
-        }
+        },
+        "revenue": {
+          "value": 51824000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-17",
+          "form": "10-K",
+          "accessionNumber": "0001163165-26-000009",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000009/0001163165-26-000009-index.html"
+        },
+        "operatingIncome": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -18044,6 +20146,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-07-31",
       "cashChangePercent": 79.3,
+      "revenueGrowthPercent": -5.02,
+      "operatingMarginPercent": null,
       "checks": [
         {
           "id": "liquidity",
@@ -18271,6 +20375,19 @@
           "accessionNumber": "0001628280-26-053388",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/797468/000162828026053388/0001628280-26-053388-index.html"
         },
+        "revenuePriorYear": {
+          "value": 22710000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-18",
+          "form": "10-K",
+          "accessionNumber": "0001628280-26-009059",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/797468/000162828026009059/0001628280-26-009059-index.html"
+        },
         "operatingCashFlow": {
           "value": 10532000000,
           "unit": "USD",
@@ -18348,7 +20465,21 @@
           "form": "10-K",
           "accessionNumber": "0001628280-26-009059",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/797468/000162828026009059/0001628280-26-009059-index.html"
-        }
+        },
+        "revenue": {
+          "value": 21569000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-18",
+          "form": "10-K",
+          "accessionNumber": "0001628280-26-009059",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/797468/000162828026009059/0001628280-26-009059-index.html"
+        },
+        "operatingIncome": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -18364,6 +20495,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-09-30",
       "cashChangePercent": 1.7,
+      "revenueGrowthPercent": -1.6,
+      "operatingMarginPercent": null,
       "checks": [
         {
           "id": "liquidity",
@@ -18603,6 +20736,19 @@
           "accessionNumber": "0001564590-15-008511",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/87347/000156459015008511/0001564590-15-008511-index.html"
         },
+        "revenuePriorYear": {
+          "value": 36289000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-01-23",
+          "form": "10-K",
+          "accessionNumber": "0001193125-26-021017",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/87347/000119312526021017/0001193125-26-021017-index.html"
+        },
         "operatingCashFlow": {
           "value": 6489000000,
           "unit": "USD",
@@ -18680,7 +20826,21 @@
           "form": "10-K",
           "accessionNumber": "0001193125-26-021017",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/87347/000119312526021017/0001193125-26-021017-index.html"
-        }
+        },
+        "revenue": {
+          "value": 35708000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-01-23",
+          "form": "10-K",
+          "accessionNumber": "0001193125-26-021017",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/87347/000119312526021017/0001193125-26-021017-index.html"
+        },
+        "operatingIncome": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -18696,6 +20856,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-09-30",
       "cashChangePercent": -10.0,
+      "revenueGrowthPercent": 18.48,
+      "operatingMarginPercent": null,
       "checks": [
         {
           "id": "liquidity",
@@ -18923,6 +21085,19 @@
           "accessionNumber": "0000040545-18-000014",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/40545/000004054518000014/0000040545-18-000014-index.html"
         },
+        "revenuePriorYear": {
+          "value": 38702000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-01-29",
+          "form": "10-K",
+          "accessionNumber": "0000040545-26-000008",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000008/0000040545-26-000008-index.html"
+        },
         "operatingCashFlow": {
           "value": 8537000000,
           "unit": "USD",
@@ -18988,7 +21163,21 @@
           "accessionNumber": "0000040545-26-000008",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000008/0000040545-26-000008-index.html"
         },
-        "debtRepaid": null
+        "debtRepaid": null,
+        "revenue": {
+          "value": 45855000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-01-29",
+          "form": "10-K",
+          "accessionNumber": "0000040545-26-000008",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000008/0000040545-26-000008-index.html"
+        },
+        "operatingIncome": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -19004,6 +21193,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-10-20",
       "cashChangePercent": 53.9,
+      "revenueGrowthPercent": 34.5,
+      "operatingMarginPercent": 4.79,
       "checks": [
         {
           "id": "liquidity",
@@ -19231,6 +21422,19 @@
           "accessionNumber": "0001628280-26-067508",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/12927/000162828026067508/0001628280-26-067508-index.html"
         },
+        "revenuePriorYear": {
+          "value": 66517000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-01-30",
+          "form": "10-K",
+          "accessionNumber": "0001628280-26-004357",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/12927/000162828026004357/0001628280-26-004357-index.html"
+        },
         "operatingCashFlow": {
           "value": 1065000000,
           "unit": "USD",
@@ -19308,6 +21512,32 @@
           "form": "10-K",
           "accessionNumber": "0001628280-26-004357",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/12927/000162828026004357/0001628280-26-004357-index.html"
+        },
+        "revenue": {
+          "value": 89463000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-01-30",
+          "form": "10-K",
+          "accessionNumber": "0001628280-26-004357",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/12927/000162828026004357/0001628280-26-004357-index.html"
+        },
+        "operatingIncome": {
+          "value": 4281000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-01-30",
+          "form": "10-K",
+          "accessionNumber": "0001628280-26-004357",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/12927/000162828026004357/0001628280-26-004357-index.html"
         }
       },
       "caveats": [
@@ -19324,6 +21554,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-09-30",
       "cashChangePercent": 5.2,
+      "revenueGrowthPercent": 4.29,
+      "operatingMarginPercent": 16.5,
       "checks": [
         {
           "id": "liquidity",
@@ -19539,6 +21771,19 @@
           "accessionNumber": "0000018230-25-000048",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/18230/000001823025000048/0000018230-25-000048-index.html"
         },
+        "revenuePriorYear": {
+          "value": 64809000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-13",
+          "form": "10-K",
+          "accessionNumber": "0000018230-26-000008",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/0000018230-26-000008-index.html"
+        },
         "operatingCashFlow": {
           "value": 11739000000,
           "unit": "USD",
@@ -19592,7 +21837,33 @@
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/0000018230-26-000008-index.html"
         },
         "debtIssued": null,
-        "debtRepaid": null
+        "debtRepaid": null,
+        "revenue": {
+          "value": 67589000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-13",
+          "form": "10-K",
+          "accessionNumber": "0000018230-26-000008",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/0000018230-26-000008-index.html"
+        },
+        "operatingIncome": {
+          "value": 11151000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-13",
+          "form": "10-K",
+          "accessionNumber": "0000018230-26-000008",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/0000018230-26-000008-index.html"
+        }
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -19608,6 +21879,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-10-19",
       "cashChangePercent": 71.8,
+      "revenueGrowthPercent": 5.64,
+      "operatingMarginPercent": 10.3,
       "checks": [
         {
           "id": "liquidity",
@@ -19847,6 +22120,19 @@
           "accessionNumber": "0001628280-25-045693",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/936468/000162828025045693/0001628280-25-045693-index.html"
         },
+        "revenuePriorYear": {
+          "value": 71043000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-01-29",
+          "form": "10-K",
+          "accessionNumber": "0001628280-26-004195",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/936468/000162828026004195/0001628280-26-004195-index.html"
+        },
         "operatingCashFlow": {
           "value": 8557000000,
           "unit": "USD",
@@ -19924,6 +22210,32 @@
           "form": "10-K",
           "accessionNumber": "0001628280-26-004195",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/936468/000162828026004195/0001628280-26-004195-index.html"
+        },
+        "revenue": {
+          "value": 75048000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-01-29",
+          "form": "10-K",
+          "accessionNumber": "0001628280-26-004195",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/936468/000162828026004195/0001628280-26-004195-index.html"
+        },
+        "operatingIncome": {
+          "value": 7731000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-01-29",
+          "form": "10-K",
+          "accessionNumber": "0001628280-26-004195",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/936468/000162828026004195/0001628280-26-004195-index.html"
         }
       },
       "caveats": [
@@ -19940,6 +22252,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-09-30",
       "cashChangePercent": 53.8,
+      "revenueGrowthPercent": 9.74,
+      "operatingMarginPercent": 10.5,
       "checks": [
         {
           "id": "liquidity",
@@ -20167,6 +22481,19 @@
           "accessionNumber": "0000101829-26-000031",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000031/0000101829-26-000031-index.html"
         },
+        "revenuePriorYear": {
+          "value": 80738000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-06",
+          "form": "10-K",
+          "accessionNumber": "0000101829-26-000006",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/0000101829-26-000006-index.html"
+        },
         "operatingCashFlow": {
           "value": 10567000000,
           "unit": "USD",
@@ -20244,6 +22571,32 @@
           "form": "10-K",
           "accessionNumber": "0000101829-26-000006",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/0000101829-26-000006-index.html"
+        },
+        "revenue": {
+          "value": 88603000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-06",
+          "form": "10-K",
+          "accessionNumber": "0000101829-26-000006",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/0000101829-26-000006-index.html"
+        },
+        "operatingIncome": {
+          "value": 9300000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-06",
+          "form": "10-K",
+          "accessionNumber": "0000101829-26-000006",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/0000101829-26-000006-index.html"
         }
       },
       "caveats": [
@@ -20260,6 +22613,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-10-15",
       "cashChangePercent": 91.3,
+      "revenueGrowthPercent": 2.24,
+      "operatingMarginPercent": 10.75,
       "checks": [
         {
           "id": "liquidity",
@@ -20499,6 +22854,19 @@
           "accessionNumber": "0001133421-25-000053",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1133421/000113342125000053/0001133421-25-000053-index.html"
         },
+        "revenuePriorYear": {
+          "value": 41033000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-01-27",
+          "form": "10-K",
+          "accessionNumber": "0001133421-26-000003",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/0001133421-26-000003-index.html"
+        },
         "operatingCashFlow": {
           "value": 4757000000,
           "unit": "USD",
@@ -20576,6 +22944,32 @@
           "form": "10-K",
           "accessionNumber": "0001133421-26-000003",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/0001133421-26-000003-index.html"
+        },
+        "revenue": {
+          "value": 41954000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-01-27",
+          "form": "10-K",
+          "accessionNumber": "0001133421-26-000003",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/0001133421-26-000003-index.html"
+        },
+        "operatingIncome": {
+          "value": 4511000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-01-27",
+          "form": "10-K",
+          "accessionNumber": "0001133421-26-000003",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/0001133421-26-000003-index.html"
         }
       },
       "caveats": [
@@ -20592,6 +22986,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-09-30",
       "cashChangePercent": -16.8,
+      "revenueGrowthPercent": 1.23,
+      "operatingMarginPercent": -4.9,
       "checks": [
         {
           "id": "liquidity",
@@ -20807,6 +23203,19 @@
           "accessionNumber": "0000037996-25-000186",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000186/0000037996-25-000186-index.html"
         },
+        "revenuePriorYear": {
+          "value": 184992000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-11",
+          "form": "10-K",
+          "accessionNumber": "0000037996-26-000015",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000015/0000037996-26-000015-index.html"
+        },
         "operatingCashFlow": {
           "value": 21282000000,
           "unit": "USD",
@@ -20884,6 +23293,32 @@
           "form": "10-K",
           "accessionNumber": "0000037996-26-000015",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000015/0000037996-26-000015-index.html"
+        },
+        "revenue": {
+          "value": 187267000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-11",
+          "form": "10-K",
+          "accessionNumber": "0000037996-26-000015",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000015/0000037996-26-000015-index.html"
+        },
+        "operatingIncome": {
+          "value": -9169000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-11",
+          "form": "10-K",
+          "accessionNumber": "0000037996-26-000015",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000015/0000037996-26-000015-index.html"
         }
       },
       "caveats": [
@@ -20900,6 +23335,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-10-09",
       "cashChangePercent": 1.2,
+      "revenueGrowthPercent": -2.12,
+      "operatingMarginPercent": 1.73,
       "checks": [
         {
           "id": "liquidity",
@@ -21115,6 +23552,19 @@
           "accessionNumber": "0001467858-25-000143",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000143/0001467858-25-000143-index.html"
         },
+        "revenuePriorYear": {
+          "value": 171606000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-01-27",
+          "form": "10-K",
+          "accessionNumber": "0001467858-26-000013",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000013/0001467858-26-000013-index.html"
+        },
         "operatingCashFlow": {
           "value": 26867000000,
           "unit": "USD",
@@ -21168,7 +23618,33 @@
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000013/0001467858-26-000013-index.html"
         },
         "debtIssued": null,
-        "debtRepaid": null
+        "debtRepaid": null,
+        "revenue": {
+          "value": 167971000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-01-27",
+          "form": "10-K",
+          "accessionNumber": "0001467858-26-000013",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000013/0001467858-26-000013-index.html"
+        },
+        "operatingIncome": {
+          "value": 2909000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-01-27",
+          "form": "10-K",
+          "accessionNumber": "0001467858-26-000013",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000013/0001467858-26-000013-index.html"
+        }
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -21184,6 +23660,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-08-02",
       "cashChangePercent": 4.1,
+      "revenueGrowthPercent": -11.66,
+      "operatingMarginPercent": null,
       "checks": [
         {
           "id": "liquidity",
@@ -21375,6 +23853,19 @@
           "accessionNumber": "0001104659-26-102213",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/315189/000110465926102213/0001104659-26-102213-index.html"
         },
+        "revenuePriorYear": {
+          "value": 51716000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2023-10-30",
+          "end": "2024-10-27",
+          "filed": "2025-12-18",
+          "form": "10-K",
+          "accessionNumber": "0001104659-25-122321",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/315189/000110465925122321/0001104659-25-122321-index.html"
+        },
         "operatingCashFlow": {
           "value": 7459000000,
           "unit": "USD",
@@ -21452,7 +23943,21 @@
           "form": "10-K",
           "accessionNumber": "0001558370-22-018703",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/315189/000155837022018703/0001558370-22-018703-index.html"
-        }
+        },
+        "revenue": {
+          "value": 45684000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2024-10-28",
+          "end": "2025-11-02",
+          "filed": "2025-12-18",
+          "form": "10-K",
+          "accessionNumber": "0001104659-25-122321",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/315189/000110465925122321/0001104659-25-122321-index.html"
+        },
+        "operatingIncome": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -21468,6 +23973,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-09-30",
       "cashChangePercent": 4508.0,
+      "revenueGrowthPercent": 2.97,
+      "operatingMarginPercent": -1140.82,
       "checks": [
         {
           "id": "liquidity",
@@ -21719,6 +24226,19 @@
           "accessionNumber": "0001193125-25-262568",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000119312525262568/0001193125-25-262568-index.html"
         },
+        "revenuePriorYear": {
+          "value": 463456000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-19",
+          "form": "10-K",
+          "accessionNumber": "0001050446-26-000020",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000105044626000020/0001050446-26-000020-index.html"
+        },
         "operatingCashFlow": {
           "value": -67241000,
           "unit": "USD",
@@ -21772,7 +24292,33 @@
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000105044626000020/0001050446-26-000020-index.html"
         },
         "debtIssued": null,
-        "debtRepaid": null
+        "debtRepaid": null,
+        "revenue": {
+          "value": 477233000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-19",
+          "form": "10-K",
+          "accessionNumber": "0001050446-26-000020",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000105044626000020/0001050446-26-000020-index.html"
+        },
+        "operatingIncome": {
+          "value": -5444385000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-19",
+          "form": "10-K",
+          "accessionNumber": "0001050446-26-000020",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000105044626000020/0001050446-26-000020-index.html"
+        }
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -21788,6 +24334,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-07-30",
       "cashChangePercent": 284.8,
+      "revenueGrowthPercent": -39.18,
+      "operatingMarginPercent": -2085.46,
       "checks": [
         {
           "id": "liquidity",
@@ -22039,6 +24587,19 @@
           "accessionNumber": "0001507605-26-000022",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1507605/000150760526000022/0001507605-26-000022-index.html"
         },
+        "revenuePriorYear": {
+          "value": 96524000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-03-02",
+          "form": "10-K",
+          "accessionNumber": "0001507605-26-000007",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1507605/000150760526000007/0001507605-26-000007-index.html"
+        },
         "operatingCashFlow": {
           "value": -802725000,
           "unit": "USD",
@@ -22116,6 +24677,32 @@
           "form": "10-K",
           "accessionNumber": "0001507605-26-000007",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1507605/000150760526000007/0001507605-26-000007-index.html"
+        },
+        "revenue": {
+          "value": 58704000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-03-02",
+          "form": "10-K",
+          "accessionNumber": "0001507605-26-000007",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1507605/000150760526000007/0001507605-26-000007-index.html"
+        },
+        "operatingIncome": {
+          "value": -1224250000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-03-02",
+          "form": "10-K",
+          "accessionNumber": "0001507605-26-000007",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1507605/000150760526000007/0001507605-26-000007-index.html"
         }
       },
       "caveats": [
@@ -22132,6 +24719,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-11-02",
       "cashChangePercent": 102.3,
+      "revenueGrowthPercent": 71.89,
+      "operatingMarginPercent": -96.1,
       "checks": [
         {
           "id": "liquidity",
@@ -22383,6 +24972,19 @@
           "accessionNumber": "0001104659-26-122417",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1167419/000110465926122417/0001104659-26-122417-index.html"
         },
+        "revenuePriorYear": {
+          "value": 376658000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-03-02",
+          "form": "10-K",
+          "accessionNumber": "0001104659-26-022322",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1167419/000110465926022322/0001104659-26-022322-index.html"
+        },
         "operatingCashFlow": {
           "value": -572928000,
           "unit": "USD",
@@ -22436,7 +25038,33 @@
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1167419/000110465926022322/0001104659-26-022322-index.html"
         },
         "debtIssued": null,
-        "debtRepaid": null
+        "debtRepaid": null,
+        "revenue": {
+          "value": 647435000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "Revenues",
+          "label": "Revenues",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-03-02",
+          "form": "10-K",
+          "accessionNumber": "0001104659-26-022322",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1167419/000110465926022322/0001104659-26-022322-index.html"
+        },
+        "operatingIncome": {
+          "value": -622166000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-03-02",
+          "form": "10-K",
+          "accessionNumber": "0001104659-26-022322",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1167419/000110465926022322/0001104659-26-022322-index.html"
+        }
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -22452,6 +25080,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-09-03",
       "cashChangePercent": -44.2,
+      "revenueGrowthPercent": -5.05,
+      "operatingMarginPercent": 6.39,
       "checks": [
         {
           "id": "liquidity",
@@ -22667,6 +25297,19 @@
           "accessionNumber": "0001326380-26-000055",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326380/000132638026000055/0001326380-26-000055-index.html"
         },
+        "revenuePriorYear": {
+          "value": 3823000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-02-04",
+          "end": "2025-02-01",
+          "filed": "2026-03-24",
+          "form": "10-K",
+          "accessionNumber": "0001326380-26-000013",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326380/000132638026000013/0001326380-26-000013-index.html"
+        },
         "operatingCashFlow": {
           "value": 614800000,
           "unit": "USD",
@@ -22744,6 +25387,32 @@
           "form": "10-K",
           "accessionNumber": "0001326380-24-000012",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326380/000132638024000012/0001326380-24-000012-index.html"
+        },
+        "revenue": {
+          "value": 3629900000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-02-02",
+          "end": "2026-01-31",
+          "filed": "2026-03-24",
+          "form": "10-K",
+          "accessionNumber": "0001326380-26-000013",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326380/000132638026000013/0001326380-26-000013-index.html"
+        },
+        "operatingIncome": {
+          "value": 232100000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-02-02",
+          "end": "2026-01-31",
+          "filed": "2026-03-24",
+          "form": "10-K",
+          "accessionNumber": "0001326380-26-000013",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326380/000132638026000013/0001326380-26-000013-index.html"
         }
       },
       "caveats": [
@@ -22760,6 +25429,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-11-03",
       "cashChangePercent": 105.5,
+      "revenueGrowthPercent": 4.57,
+      "operatingMarginPercent": -0.36,
       "checks": [
         {
           "id": "liquidity",
@@ -22999,6 +25670,19 @@
           "accessionNumber": "0001411579-25-000073",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157925000073/0001411579-25-000073-index.html"
         },
+        "revenuePriorYear": {
+          "value": 4637200000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-23",
+          "form": "10-K",
+          "accessionNumber": "0001411579-26-000016",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000016/0001411579-26-000016-index.html"
+        },
         "operatingCashFlow": {
           "value": -119800000,
           "unit": "USD",
@@ -23052,7 +25736,33 @@
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000016/0001411579-26-000016-index.html"
         },
         "debtIssued": null,
-        "debtRepaid": null
+        "debtRepaid": null,
+        "revenue": {
+          "value": 4848900000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-23",
+          "form": "10-K",
+          "accessionNumber": "0001411579-26-000016",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000016/0001411579-26-000016-index.html"
+        },
+        "operatingIncome": {
+          "value": -17400000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-23",
+          "form": "10-K",
+          "accessionNumber": "0001411579-26-000016",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000016/0001411579-26-000016-index.html"
+        }
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -23068,6 +25778,8 @@
       "status": "available",
       "latestPeriodEnd": "2026-08-05",
       "cashChangePercent": 277.5,
+      "revenueGrowthPercent": 37.96,
+      "operatingMarginPercent": -38.03,
       "checks": [
         {
           "id": "liquidity",
@@ -23307,6 +26019,19 @@
           "accessionNumber": "0001628280-25-038936",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1819994/000162828025038936/0001628280-25-038936-index.html"
         },
+        "revenuePriorYear": {
+          "value": 436214000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-26",
+          "form": "10-K",
+          "accessionNumber": "0001819994-26-000013",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000013/0001819994-26-000013-index.html"
+        },
         "operatingCashFlow": {
           "value": -165521000,
           "unit": "USD",
@@ -23360,7 +26085,33 @@
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000013/0001819994-26-000013-index.html"
         },
         "debtIssued": null,
-        "debtRepaid": null
+        "debtRepaid": null,
+        "revenue": {
+          "value": 601799000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-26",
+          "form": "10-K",
+          "accessionNumber": "0001819994-26-000013",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000013/0001819994-26-000013-index.html"
+        },
+        "operatingIncome": {
+          "value": -228838000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingIncomeLoss",
+          "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-26",
+          "form": "10-K",
+          "accessionNumber": "0001819994-26-000013",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000013/0001819994-26-000013-index.html"
+        }
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
