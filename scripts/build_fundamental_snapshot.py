@@ -37,7 +37,6 @@ MONETARY_NAMESPACES = ("us-gaap", "ifrs-full")
 CONCEPTS = {
     "cash": (
         "CashAndCashEquivalentsAtCarryingValue",
-        "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
         "CashAndDueFromBanks",
         "CashAndCashEquivalents",
     ),
@@ -210,6 +209,25 @@ def newest_instant(
             str(row.get("accn") or ""),
         ),
     )
+
+
+def instant_at_date(
+    companyfacts: dict, tags: tuple[str, ...], period_end: str | None,
+    *, namespaces: tuple[str, ...] = MONETARY_NAMESPACES, unit: str = "USD",
+) -> dict | None:
+    """Select an eligible fact at a specific balance-sheet date."""
+    if not period_end:
+        return None
+    rows = [
+        row for row in concept_entries(companyfacts, tags, namespaces=namespaces, unit=unit)
+        if row.get("form") in INSTANT_FORMS
+        and not row.get("start")
+        and row.get("end") == period_end
+        and valid_filing_dates(row)
+    ]
+    if not rows:
+        return None
+    return max(rows, key=lambda row: (str(row.get("filed") or ""), -int(row.get("tagRank") or 0), str(row.get("accn") or "")))
 
 
 def prior_year_instant(companyfacts: dict, latest: dict | None) -> dict | None:
@@ -386,12 +404,12 @@ def analyze_company(issuer: dict, companyfacts: dict) -> dict:
         )
         if instant["sharesOutstanding"] is not None:
             share_count_basis = "annual-diluted-weighted-average-fallback"
+    # Debt must be selected for the same reporting date as cash, not independently.
+    cash_date_for_debt = instant["cash"].get("end") if instant["cash"] else None
     for debt_key in ("debt", "currentDebt", "noncurrentDebt"):
-        instant[debt_key] = newest_instant(
-            companyfacts,
-            CONCEPTS[debt_key],
-            namespaces=MONETARY_NAMESPACES,
-            unit=currency,
+        instant[debt_key] = instant_at_date(
+            companyfacts, CONCEPTS[debt_key], cash_date_for_debt,
+            namespaces=MONETARY_NAMESPACES, unit=currency,
         )
     annual = {
         key: newest_annual(
