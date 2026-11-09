@@ -110,6 +110,8 @@ def compact_company(company: dict, *, refreshed_at: str | None = None) -> dict:
             "freeCashFlow": valuation.get("freeCashFlow"),
             "totalDebt": valuation.get("totalDebt"),
             "netDebt": valuation.get("netDebt"),
+            "debtBasis": valuation.get("debtBasis"),
+            "debtPeriodEnd": valuation.get("debtPeriodEnd"),
             "unit": valuation.get("unit"),
             "shareCountBasis": valuation.get("shareCountBasis"),
         },
@@ -255,12 +257,29 @@ def build_calculator_payload(payload: dict) -> dict:
         "freeCashFlow",
         "netDebt",
         "currency",
+        # Append-only fields: the original nine DCF columns retain their indexes.
+        "cash",
+        "totalDebt",
+        "debtBasis",
+        "cashPeriodEnd",
+        "debtPeriodEnd",
+        "revenueGrowthPercent",
+        "operatingMarginPercent",
+        "revenuePeriodEnd",
+        "operatingIncomePeriodEnd",
     ]
     rows = []
     for company in payload.get("companies", []):
         facts = company.get("facts") or {}
         inputs = company.get("valuationInputs") or {}
         shares = (facts.get("sharesOutstanding") or {}).get("value")
+        cash_fact = facts.get("cash") or {}
+        revenue_fact = facts.get("revenue") or {}
+        operating_income_fact = facts.get("operatingIncome") or {}
+        cash_end = cash_fact.get("end")
+        debt_end = inputs.get("debtPeriodEnd")
+        # Only expose a comparable pair; unresolved values remain null.
+        debt_matches_cash = bool(cash_end and debt_end and cash_end == debt_end)
         rows.append(
             [
                 company.get("ticker"),
@@ -272,6 +291,15 @@ def build_calculator_payload(payload: dict) -> dict:
                 inputs.get("freeCashFlow"),
                 inputs.get("netDebt"),
                 inputs.get("unit") or "USD",
+                cash_fact.get("value") if debt_matches_cash else None,
+                inputs.get("totalDebt") if debt_matches_cash else None,
+                inputs.get("debtBasis") if debt_matches_cash else None,
+                cash_end,
+                debt_end,
+                company.get("revenueGrowthPercent"),
+                company.get("operatingMarginPercent"),
+                revenue_fact.get("end"),
+                operating_income_fact.get("end"),
             ]
         )
     return {
