@@ -153,8 +153,15 @@ def choose_batch(
     batch_size: int,
     priority_tickers: list[str] | None = None,
 ) -> list[dict]:
+    """Refresh cached companies while retrying a rotating uncached sample.
+
+    Priority tickers take precedence. When both cached and uncached companies
+    exist, reserve roughly 10% of remaining capacity for uncached companies,
+    and use the rest to refresh the oldest cached records.
+    """
     if batch_size < 1:
         return []
+
     by_ticker = {
         alias: company
         for company in directory.values()
@@ -162,39 +169,54 @@ def choose_batch(
     }
     chosen: list[dict] = []
     seen: set[str] = set()
+
     for ticker in priority_tickers or []:
         company = by_ticker.get(str(ticker).strip().upper())
         if company and company["cik"] not in seen:
             chosen.append(company)
             seen.add(company["cik"])
+            if len(chosen) >= batch_size:
+                return chosen
 
-    uncached = [
-        company
-        for company in directory.values()
-        if company["cik"] not in cache and company["cik"] not in seen
-    ]
-    uncached.sort(key=lambda company: (company["ticker"], company["cik"]))
-    for company in uncached:
-        if len(chosen) >= batch_size:
-            return chosen
-        chosen.append(company)
-        seen.add(company["cik"])
-
-    stale = [
-        company
-        for company in directory.values()
-        if company["cik"] in cache and company["cik"] not in seen
-    ]
-    stale.sort(
+    uncached = sorted(
+        (
+            company for company in directory.values()
+            if company["cik"] not in cache and company["cik"] not in seen
+        ),
+        key=lambda company: (company["ticker"], company["cik"]),
+    )
+    stale = sorted(
+        (
+            company for company in directory.values()
+            if company["cik"] in cache and company["cik"] not in seen
+        ),
         key=lambda company: (
             str(cache[company["cik"]].get("refreshedAt") or ""),
             company["ticker"],
-        )
+        ),
     )
-    for company in stale:
-        if len(chosen) >= batch_size:
-            break
-        chosen.append(company)
+
+    remaining = batch_size - len(chosen)
+    if not stale:
+        uncached_quota = remaining
+    elif not uncached:
+        uncached_quota = 0
+    else:
+        uncached_quota = min(len(uncached), max(1, remaining // 10))
+
+    # Vary the first uncached candidate by calendar day. This avoids
+    # permanently retrying the same unavailable CIKs on daily runs.
+    if uncached_quota and uncached:
+        offset = (datetime.now(timezone.utc).date().toordinal() * uncached_quota) % len(uncached)
+        rotated_uncached = uncached[offset:] + uncached[:offset]
+    else:
+        rotated_uncached = uncached
+
+    chosen.extend(rotated_uncached[:uncached_quota])
+    remaining = batch_size - len(chosen)
+    chosen.extend(stale[:remaining])
+    remaining = batch_size - len(chosen)
+    chosen.extend(rotated_uncached[uncached_quota:uncached_quota + remaining])
     return chosen
 
 
