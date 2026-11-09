@@ -1,7 +1,7 @@
 {
   "schema": "mypybite.signal-pipeline-state.v1",
   "pipelineVersion": 1,
-  "updatedAt": "2026-11-07T05:41:26Z",
+  "updatedAt": "2026-11-09T20:17:38Z",
   "candidates": {
     "sec:0000004962-26-000409:0000004962": {
       "pipelineVersion": 1,
@@ -4559,6 +4559,114 @@
         "Important and Critical events require high confidence; other events require at least moderate confidence.",
         "Automatic publication currently supports Form 8-K and 8-K/A only; other forms require a form-specific reader.",
         "The selected passage must state a concrete corporate action and must not be filing instructions or regulatory boilerplate."
+      ],
+      "eventId": null
+    },
+    "sec:0000886982-26-000564:0000886982": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0000886982-26-000564",
+      "cik": "0000886982",
+      "completedAt": "2026-11-09T20:17:38Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G document."
+      ],
+      "eventId": null
+    },
+    "sec:0000886982-26-000562:0000886982": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0000886982-26-000562",
+      "cik": "0000886982",
+      "completedAt": "2026-11-09T20:17:38Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G document."
+      ],
+      "eventId": null
+    },
+    "sec:0000886982-26-000560:0000886982": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0000886982-26-000560",
+      "cik": "0000886982",
+      "completedAt": "2026-11-09T20:17:38Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0000886982-26-000557:0000886982": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0000886982-26-000557",
+      "cik": "0000886982",
+      "completedAt": "2026-11-09T20:17:38Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G document."
+      ],
+      "eventId": null
+    },
+    "sec:0000886982-26-000555:0000886982": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0000886982-26-000555",
+      "cik": "0000886982",
+      "completedAt": "2026-11-09T20:17:38Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G document."
+      ],
+      "eventId": null
+    },
+    "sec:0000886982-26-000553:0000886982": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0000886982-26-000553",
+      "cik": "0000886982",
+      "completedAt": "2026-11-09T20:17:38Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G document."
+      ],
+      "eventId": null
+    },
+    "sec:0000886982-26-000551:0000886982": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0000886982-26-000551",
+      "cik": "0000886982",
+      "completedAt": "2026-11-09T20:17:38Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0000886982-26-000549:0000886982": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0000886982-26-000549",
+      "cik": "0000886982",
+      "completedAt": "2026-11-09T20:17:38Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
+      ],
+      "eventId": null
+    },
+    "sec:0000886982-26-000547:0000886982": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0000886982-26-000547",
+      "cik": "0000886982",
+      "completedAt": "2026-11-09T20:17:38Z",
+      "stage": "document-collection",
+      "reasons": [
+        "SEC filing index lacks primary SC 13G/A document."
       ],
       "eventId": null
     }
