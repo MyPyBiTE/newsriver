@@ -35,6 +35,7 @@ jobs:
           python -m unittest discover -s tests -p "test_build_fundamental_lookup_cache.py" -v
           python -m unittest discover -s tests -p "test_build_ticker_directory.py" -v
           python -m unittest discover -s tests -p "test_build_signal_feed.py" -v
+          PYTHONPATH=scripts python -m unittest discover -s tests -p "test_nash_quantitative_score.py" -v
 
       - name: Refresh SEC Companyfacts snapshots
         env:
