@@ -13,10 +13,8 @@ import json
 import os
 from datetime import datetime, timezone
 from pathlib import Path
-
 import build_fundamental_snapshot as fundamentals
 from fetch_sec_intake import REQUEST_INTERVAL_SECONDS, IntakeFailure, SecClient, atomic_write_text
-
 
 ROOT = Path(__file__).resolve().parents[1]
 SCHEMA = "mypybite.fundamental-lookup-cache.v1"
@@ -38,6 +36,18 @@ KEEP_FACTS = (
     "revenue",
     "revenuePriorYear",
     "operatingIncome",
+    "operatingExpenses",
+    "operatingExpensesPriorYear",
+)
+SCALABILITY_FIELDS = (
+    "annualRevenueCurrent",
+    "annualRevenuePrior",
+    "annualOperatingExpensesCurrent",
+    "annualOperatingExpensesPrior",
+    "annualRevenueCurrentPeriodEnd",
+    "annualRevenuePriorPeriodEnd",
+    "annualOperatingExpensesCurrentPeriodEnd",
+    "annualOperatingExpensesPriorPeriodEnd",
 )
 
 
@@ -63,7 +73,6 @@ def directory_companies(payload: dict) -> dict[str, dict]:
     missing = required.difference(positions)
     if missing:
         raise ValueError(f"Ticker directory is missing fields: {sorted(missing)}")
-
     companies: dict[str, dict] = {}
     for row in rows:
         if not isinstance(row, list) or len(row) < len(fields):
@@ -82,7 +91,6 @@ def directory_companies(payload: dict) -> dict[str, dict]:
             company["aliases"].append(symbol)
         if exchange not in company["exchanges"]:
             company["exchanges"].append(exchange)
-
     for company in companies.values():
         company["aliases"].sort(key=lambda value: ("-" in value, len(value), value))
         company["exchanges"].sort()
@@ -95,6 +103,11 @@ def compact_company(company: dict, *, refreshed_at: str | None = None) -> dict:
     valuation = (
         company.get("valuationInputs")
         if isinstance(company.get("valuationInputs"), dict)
+        else {}
+    )
+    scalability = (
+        company.get("scalabilityInputs")
+        if isinstance(company.get("scalabilityInputs"), dict)
         else {}
     )
     return {
@@ -116,6 +129,7 @@ def compact_company(company: dict, *, refreshed_at: str | None = None) -> dict:
             "shareCountBasis": valuation.get("shareCountBasis"),
         },
         "facts": {key: facts.get(key) for key in KEEP_FACTS if facts.get(key) is not None},
+        "scalabilityInputs": {key: scalability.get(key) for key in SCALABILITY_FIELDS},
         "revenueGrowthPercent": company.get("revenueGrowthPercent"),
         "operatingMarginPercent": company.get("operatingMarginPercent"),
         "marketPrice": None,
@@ -161,7 +175,6 @@ def choose_batch(
     """
     if batch_size < 1:
         return []
-
     by_ticker = {
         alias: company
         for company in directory.values()
@@ -177,7 +190,6 @@ def choose_batch(
             seen.add(company["cik"])
             if len(chosen) >= batch_size:
                 return chosen
-
     uncached = sorted(
         (
             company for company in directory.values()
@@ -195,7 +207,6 @@ def choose_batch(
             company["ticker"],
         ),
     )
-
     remaining = batch_size - len(chosen)
     if not stale:
         uncached_quota = remaining
@@ -203,7 +214,6 @@ def choose_batch(
         uncached_quota = 0
     else:
         uncached_quota = min(len(uncached), max(1, remaining // 10))
-
     # Vary the first uncached candidate by calendar day. This avoids
     # permanently retrying the same unavailable CIKs on daily runs.
     if uncached_quota and uncached:
@@ -211,7 +221,6 @@ def choose_batch(
         rotated_uncached = uncached[offset:] + uncached[:offset]
     else:
         rotated_uncached = uncached
-
     chosen.extend(rotated_uncached[:uncached_quota])
     remaining = batch_size - len(chosen)
     chosen.extend(stale[:remaining])
@@ -229,7 +238,6 @@ def effective_batch_size(
     initial_fill_minimum: int,
 ) -> int:
     """Use the large batch only while the cache is genuinely being bootstrapped.
-
     A small number of SEC directory entries never receive Companyfacts records.
     Treating any uncached CIK as an unfinished initial build would needlessly
     redownload almost the full universe on every scheduled run.
@@ -289,11 +297,15 @@ def build_calculator_payload(payload: dict) -> dict:
         "operatingMarginPercent",
         "revenuePeriodEnd",
         "operatingIncomePeriodEnd",
+        # The 125-point MYPYBITE scorecard reads these eight named columns.
+        # Existing DCF and 30-point fields retain their original positions.
+        *SCALABILITY_FIELDS,
     ]
     rows = []
     for company in payload.get("companies", []):
         facts = company.get("facts") or {}
         inputs = company.get("valuationInputs") or {}
+        scalability = company.get("scalabilityInputs") or {}
         shares = (facts.get("sharesOutstanding") or {}).get("value")
         cash_fact = facts.get("cash") or {}
         revenue_fact = facts.get("revenue") or {}
@@ -322,13 +334,29 @@ def build_calculator_payload(payload: dict) -> dict:
                 company.get("operatingMarginPercent"),
                 revenue_fact.get("end"),
                 operating_income_fact.get("end"),
+                *[scalability.get(key) for key in SCALABILITY_FIELDS],
             ]
         )
     # Count actual scorable rows, not merely cached CIKs. Missing data stays null.
     positions = {name: index for index, name in enumerate(fields)}
+
     def has_number(row, key):
         value = row[positions[key]]
         return isinstance(value, (int, float)) and not isinstance(value, bool)
+
+    def comparable_scalability(row):
+        # Conservative audit: both fiscal-year pairs have dates and values.
+        current_revenue_end = row[positions["annualRevenueCurrentPeriodEnd"]]
+        prior_revenue_end = row[positions["annualRevenuePriorPeriodEnd"]]
+        current_expense_end = row[positions["annualOperatingExpensesCurrentPeriodEnd"]]
+        prior_expense_end = row[positions["annualOperatingExpensesPriorPeriodEnd"]]
+        return (
+            all(has_number(row, field) for field in SCALABILITY_FIELDS[:4])
+            and isinstance(current_revenue_end, str)
+            and isinstance(prior_revenue_end, str)
+            and current_revenue_end == current_expense_end
+            and prior_revenue_end == prior_expense_end
+        )
 
     coverage_counts = {
         "records": len(rows),
@@ -351,6 +379,7 @@ def build_calculator_payload(payload: dict) -> dict:
             and has_number(row, "netDebt")
             for row in rows
         ),
+        "scalabilityInputsMatched": sum(comparable_scalability(row) for row in rows),
     }
     return {
         "schema": CALCULATOR_SCHEMA,
@@ -390,14 +419,12 @@ def main() -> int:
     args = parser.parse_args()
     if not args.user_agent:
         raise SystemExit("SEC_USER_AGENT is required")
-
     try:
         directory = directory_companies(read_json(args.directory))
         cache = load_existing(args.output)
         add_seed(cache, args.seed_snapshot)
     except (OSError, ValueError, json.JSONDecodeError) as exc:
         raise SystemExit(f"Fundamental lookup cache setup failed: {exc}") from exc
-
     selected = choose_batch(
         directory,
         cache,
@@ -437,7 +464,6 @@ def main() -> int:
         except (IntakeFailure, json.JSONDecodeError, ValueError) as exc:
             failures.append({"cik": cik, "ticker": company["ticker"], "reason": str(exc)})
         print(f"[{index}/{len(selected)}] {company['ticker']}", flush=True)
-
     payload = build_payload(
         directory,
         cache,
