@@ -73,6 +73,10 @@ jobs:
           python scripts/build_fundamental_lookup_cache.py --batch-size 6000 --refresh-batch-size "$REFRESH_BATCH" --initial-fill-minimum 5000
           python scripts/build_signal_feed.py --output signal-feed.json
 
+      - name: Build MYPYBITE 125-point scorecard feed
+        run: |
+          python scripts/build_mypybite_scorecard_feed.py
+
       - name: Publish fundamental snapshots
         run: |
           git config user.name "github-actions[bot]"
@@ -81,6 +85,7 @@ jobs:
             data/sec/fundamentals/fundamentals.json \
             data/sec/fundamentals/ticker-lookup.json \
             data/sec/fundamentals/calculator-lookup.json \
+            data/sec/fundamentals/scorecard-lookup.json \
             outputs/zero-cost-ticker-directory-development.json \
             signal-feed.json
           if git diff --cached --quiet; then
