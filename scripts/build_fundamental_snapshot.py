@@ -54,6 +54,9 @@ CONCEPTS = {
         "OperatingIncomeLoss",
         "ProfitLossFromOperatingActivities",
     ),
+    # This explicit SEC concept excludes cost of sales. Do not substitute
+    # broader or unrelated expense totals when standardized facts are missing.
+    "operatingExpenses": ("OperatingExpenses",),
     "assets": ("Assets",),
     "currentAssets": ("AssetsCurrent", "CurrentAssets"),
     "liabilities": ("Liabilities",),
@@ -365,12 +368,60 @@ def matched_annual_income(
     ))
 
 
+def matched_annual_operating_expenses(
+    companyfacts: dict,
+    revenue: dict | None,
+    currency: str,
+    *,
+    same_concept_as: dict | None = None,
+) -> dict | None:
+    """Match reported operating expenses to the exact annual revenue period.
+
+    Keep the prior-year expense taxonomy and concept identical to the current
+    year. Do not infer expenses from revenue minus operating income, which may
+    combine noncomparable accounting classifications.
+    """
+    if not revenue:
+        return None
+    rows = [
+        row
+        for row in concept_entries(
+            companyfacts,
+            CONCEPTS["operatingExpenses"],
+            namespaces=("us-gaap",),
+            unit=currency,
+        )
+        if row.get("form") in ANNUAL_FORMS
+        and valid_filing_dates(row)
+        and row.get("start") == revenue.get("start")
+        and row.get("end") == revenue.get("end")
+        and (
+            same_concept_as is None
+            or (
+                row.get("taxonomy") == same_concept_as.get("taxonomy")
+                and row.get("tag") == same_concept_as.get("tag")
+            )
+        )
+    ]
+    if not rows:
+        return None
+    return max(
+        rows,
+        key=lambda row: (
+            str(row.get("filed") or ""),
+            -int(row.get("tagRank") or 0),
+            str(row.get("accn") or ""),
+        ),
+    )
+
+
 def reporting_currency(companyfacts: dict) -> str:
     """Choose one reporting currency without mixing currencies within a company."""
     scores: dict[str, int] = {}
     all_facts = companyfacts.get("facts", {})
     for key, tags in CONCEPTS.items():
-        if key == "sharesOutstanding":
+        if key in ("sharesOutstanding", "operatingExpenses"):
+            # Preserve the existing reporting-currency selection unchanged.
             continue
         units_for_key: set[str] = set()
         for namespace in MONETARY_NAMESPACES:
@@ -509,6 +560,15 @@ def analyze_company(issuer: dict, companyfacts: dict) -> dict:
         companyfacts, annual["revenue"], currency,
     )
     revenue_prior = prior_year_annual(companyfacts, annual["revenue"])
+    annual["operatingExpenses"] = matched_annual_operating_expenses(
+        companyfacts, annual["revenue"], currency,
+    )
+    operating_expenses_prior = matched_annual_operating_expenses(
+        companyfacts,
+        revenue_prior,
+        currency,
+        same_concept_as=annual["operatingExpenses"],
+    ) if annual["operatingExpenses"] else None
     revenue_now = annual["revenue"]["val"] if annual["revenue"] else None
     operating_income = annual["operatingIncome"]["val"] if annual["operatingIncome"] else None
     revenue_growth_percent = (
@@ -710,7 +770,30 @@ def analyze_company(issuer: dict, companyfacts: dict) -> dict:
         **{key: public_fact(cik, value) for key, value in instant.items()},
         "cashPriorYear": public_fact(cik, cash_prior),
         "revenuePriorYear": public_fact(cik, revenue_prior),
+        "operatingExpensesPriorYear": public_fact(cik, operating_expenses_prior),
         **{key: public_fact(cik, value) for key, value in annual.items()},
+    }
+    # Explicit values for MYPYBITE's standalone scalability calculation.
+    # Incomplete data remains null; the scoring engine marks it pending.
+    scalability_inputs = {
+        "annualRevenueCurrent": revenue_now,
+        "annualRevenuePrior": revenue_prior["val"] if revenue_prior else None,
+        "annualOperatingExpensesCurrent": (
+            annual["operatingExpenses"]["val"] if annual["operatingExpenses"] else None
+        ),
+        "annualOperatingExpensesPrior": (
+            operating_expenses_prior["val"] if operating_expenses_prior else None
+        ),
+        "annualRevenueCurrentPeriodEnd": (
+            annual["revenue"].get("end") if annual["revenue"] else None
+        ),
+        "annualRevenuePriorPeriodEnd": revenue_prior.get("end") if revenue_prior else None,
+        "annualOperatingExpensesCurrentPeriodEnd": (
+            annual["operatingExpenses"].get("end") if annual["operatingExpenses"] else None
+        ),
+        "annualOperatingExpensesPriorPeriodEnd": (
+            operating_expenses_prior.get("end") if operating_expenses_prior else None
+        ),
     }
     latest_ends = [item["end"] for item in facts.values() if item and item.get("end")]
     return {
@@ -723,6 +806,7 @@ def analyze_company(issuer: dict, companyfacts: dict) -> dict:
         "cashChangePercent": cash_change,
         "revenueGrowthPercent": revenue_growth_percent,
         "operatingMarginPercent": operating_margin_percent,
+        "scalabilityInputs": scalability_inputs,
         "checks": checks,
         "summary": {
             "pressureSignals": pressure,
