@@ -1,6 +1,6 @@
 {
   "schema": "mypybite.fundamental-snapshot.v1",
-  "generatedAt": "2026-11-10T20:12:57Z",
+  "generatedAt": "2026-11-11T00:34:03Z",
   "source": "SEC EDGAR Companyfacts API",
   "method": "Latest point-in-time balance sheet facts plus latest full-fiscal-year cash-flow facts; no quarterly/annual period mixing.",
   "companies": [
@@ -14,6 +14,16 @@
       "cashChangePercent": 1.0,
       "revenueGrowthPercent": 15.06,
       "operatingMarginPercent": 33.01,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 478834000000,
+        "annualRevenuePrior": 416161000000,
+        "annualOperatingExpensesCurrent": 75539000000,
+        "annualOperatingExpensesPrior": 62151000000,
+        "annualRevenueCurrentPeriodEnd": "2026-09-26",
+        "annualRevenuePriorPeriodEnd": "2025-09-27",
+        "annualOperatingExpensesCurrentPeriodEnd": "2026-09-26",
+        "annualOperatingExpensesPriorPeriodEnd": "2025-09-27"
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -278,6 +288,19 @@
           "accessionNumber": "0000320193-26-000026",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/0000320193-26-000026-index.html"
         },
+        "operatingExpensesPriorYear": {
+          "value": 62151000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2024-09-29",
+          "end": "2025-09-27",
+          "filed": "2026-11-03",
+          "form": "10-K",
+          "accessionNumber": "0000320193-26-000026",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/0000320193-26-000026-index.html"
+        },
         "operatingCashFlow": {
           "value": 145097000000,
           "unit": "USD",
@@ -381,6 +404,19 @@
           "form": "10-K",
           "accessionNumber": "0000320193-26-000026",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/0000320193-26-000026-index.html"
+        },
+        "operatingExpenses": {
+          "value": 75539000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2025-09-28",
+          "end": "2026-09-26",
+          "filed": "2026-11-03",
+          "form": "10-K",
+          "accessionNumber": "0000320193-26-000026",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/0000320193-26-000026-index.html"
         }
       },
       "caveats": [
@@ -399,6 +435,16 @@
       "cashChangePercent": -29.7,
       "revenueGrowthPercent": 17.79,
       "operatingMarginPercent": 46.78,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 331839000000,
+        "annualRevenuePrior": 281724000000,
+        "annualOperatingExpensesCurrent": 70228000000,
+        "annualOperatingExpensesPrior": 65365000000,
+        "annualRevenueCurrentPeriodEnd": "2026-06-30",
+        "annualRevenuePriorPeriodEnd": "2025-06-30",
+        "annualOperatingExpensesCurrentPeriodEnd": "2026-06-30",
+        "annualOperatingExpensesPriorPeriodEnd": "2025-06-30"
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -663,6 +709,19 @@
           "accessionNumber": "0001193125-26-323660",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/0001193125-26-323660-index.html"
         },
+        "operatingExpensesPriorYear": {
+          "value": 65365000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2024-07-01",
+          "end": "2025-06-30",
+          "filed": "2026-07-29",
+          "form": "10-K",
+          "accessionNumber": "0001193125-26-323660",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/0001193125-26-323660-index.html"
+        },
         "operatingCashFlow": {
           "value": 182935000000,
           "unit": "USD",
@@ -742,6 +801,19 @@
           "form": "10-K",
           "accessionNumber": "0001193125-26-323660",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/0001193125-26-323660-index.html"
+        },
+        "operatingExpenses": {
+          "value": 70228000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2025-07-01",
+          "end": "2026-06-30",
+          "filed": "2026-07-29",
+          "form": "10-K",
+          "accessionNumber": "0001193125-26-323660",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/0001193125-26-323660-index.html"
         }
       },
       "caveats": [
@@ -760,6 +832,16 @@
       "cashChangePercent": 92.8,
       "revenueGrowthPercent": 65.47,
       "operatingMarginPercent": 60.38,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 215938000000,
+        "annualRevenuePrior": 130497000000,
+        "annualOperatingExpensesCurrent": 23076000000,
+        "annualOperatingExpensesPrior": 16405000000,
+        "annualRevenueCurrentPeriodEnd": "2026-01-25",
+        "annualRevenuePriorPeriodEnd": "2025-01-26",
+        "annualOperatingExpensesCurrentPeriodEnd": "2026-01-25",
+        "annualOperatingExpensesPriorPeriodEnd": "2025-01-26"
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -1024,6 +1106,19 @@
           "accessionNumber": "0001045810-26-000021",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html"
         },
+        "operatingExpensesPriorYear": {
+          "value": 16405000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2024-01-29",
+          "end": "2025-01-26",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "accessionNumber": "0001045810-26-000021",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html"
+        },
         "operatingCashFlow": {
           "value": 102718000000,
           "unit": "USD",
@@ -1127,6 +1222,19 @@
           "form": "10-K",
           "accessionNumber": "0001045810-26-000021",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html"
+        },
+        "operatingExpenses": {
+          "value": 23076000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2025-01-27",
+          "end": "2026-01-25",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "accessionNumber": "0001045810-26-000021",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html"
         }
       },
       "caveats": [
@@ -1145,6 +1253,16 @@
       "cashChangePercent": 144.0,
       "revenueGrowthPercent": 15.09,
       "operatingMarginPercent": 32.03,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 402836000000,
+        "annualRevenuePrior": 350018000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -1397,6 +1515,7 @@
           "accessionNumber": "0001652044-26-000018",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/0001652044-26-000018-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 164713000000,
           "unit": "USD",
@@ -1488,7 +1607,8 @@
           "form": "10-K",
           "accessionNumber": "0001652044-26-000018",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/0001652044-26-000018-index.html"
-        }
+        },
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -1506,6 +1626,16 @@
       "cashChangePercent": -16.6,
       "revenueGrowthPercent": 12.38,
       "operatingMarginPercent": 11.16,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 716924000000,
+        "annualRevenuePrior": 637959000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -1758,6 +1888,7 @@
           "accessionNumber": "0001018724-26-000004",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 139514000000,
           "unit": "USD",
@@ -1861,7 +1992,8 @@
           "form": "10-K",
           "accessionNumber": "0001018724-26-000004",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
-        }
+        },
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -1879,6 +2011,16 @@
       "cashChangePercent": 10.2,
       "revenueGrowthPercent": 22.17,
       "operatingMarginPercent": 41.44,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 200966000000,
+        "annualRevenuePrior": 164501000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -2131,6 +2273,7 @@
           "accessionNumber": "0001628280-26-003942",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/0001628280-26-003942-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 115800000000,
           "unit": "USD",
@@ -2234,7 +2377,8 @@
           "form": "10-K",
           "accessionNumber": "0001628280-26-003942",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/0001628280-26-003942-index.html"
-        }
+        },
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -2252,6 +2396,16 @@
       "cashChangePercent": -2.4,
       "revenueGrowthPercent": -2.93,
       "operatingMarginPercent": 4.59,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 94827000000,
+        "annualRevenuePrior": 97690000000,
+        "annualOperatingExpensesCurrent": 12739000000,
+        "annualOperatingExpensesPrior": 10374000000,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": "2025-12-31",
+        "annualOperatingExpensesPriorPeriodEnd": "2024-12-31"
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -2492,6 +2646,19 @@
           "accessionNumber": "0001628280-26-003952",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/0001628280-26-003952-index.html"
         },
+        "operatingExpensesPriorYear": {
+          "value": 10374000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-01-29",
+          "form": "10-K",
+          "accessionNumber": "0001628280-26-003952",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/0001628280-26-003952-index.html"
+        },
         "operatingCashFlow": {
           "value": 14747000000,
           "unit": "USD",
@@ -2595,6 +2762,19 @@
           "form": "10-K",
           "accessionNumber": "0001628280-26-003952",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/0001628280-26-003952-index.html"
+        },
+        "operatingExpenses": {
+          "value": 12739000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-01-29",
+          "form": "10-K",
+          "accessionNumber": "0001628280-26-003952",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/0001628280-26-003952-index.html"
         }
       },
       "caveats": [
@@ -2613,6 +2793,16 @@
       "cashChangePercent": 248.2,
       "revenueGrowthPercent": 17.35,
       "operatingMarginPercent": 30.59,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 67357000000,
+        "annualRevenuePrior": 57399000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2026-05-31",
+        "annualRevenuePriorPeriodEnd": "2025-05-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -2829,6 +3019,7 @@
           "accessionNumber": "0001193125-26-277521",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/0001193125-26-277521-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 31977000000,
           "unit": "USD",
@@ -2932,7 +3123,8 @@
           "form": "10-K",
           "accessionNumber": "0001193125-26-277521",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/0001193125-26-277521-index.html"
-        }
+        },
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -2950,6 +3142,16 @@
       "cashChangePercent": -19.8,
       "revenueGrowthPercent": 9.58,
       "operatingMarginPercent": 20.06,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 41525000000,
+        "annualRevenuePrior": 37895000000,
+        "annualOperatingExpensesCurrent": 23924000000,
+        "annualOperatingExpensesPrior": 22047000000,
+        "annualRevenueCurrentPeriodEnd": "2026-01-31",
+        "annualRevenuePriorPeriodEnd": "2025-01-31",
+        "annualOperatingExpensesCurrentPeriodEnd": "2026-01-31",
+        "annualOperatingExpensesPriorPeriodEnd": "2025-01-31"
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -3214,6 +3416,19 @@
           "accessionNumber": "0001108524-26-000060",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/0001108524-26-000060-index.html"
         },
+        "operatingExpensesPriorYear": {
+          "value": 22047000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2024-02-01",
+          "end": "2025-01-31",
+          "filed": "2026-03-02",
+          "form": "10-K",
+          "accessionNumber": "0001108524-26-000060",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/0001108524-26-000060-index.html"
+        },
         "operatingCashFlow": {
           "value": 14996000000,
           "unit": "USD",
@@ -3293,6 +3508,19 @@
           "form": "10-K",
           "accessionNumber": "0001108524-26-000060",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/0001108524-26-000060-index.html"
+        },
+        "operatingExpenses": {
+          "value": 23924000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2025-02-01",
+          "end": "2026-01-31",
+          "filed": "2026-03-02",
+          "form": "10-K",
+          "accessionNumber": "0001108524-26-000060",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/0001108524-26-000060-index.html"
         }
       },
       "caveats": [
@@ -3311,6 +3539,16 @@
       "cashChangePercent": 123.7,
       "revenueGrowthPercent": 23.87,
       "operatingMarginPercent": 39.89,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 63887000000,
+        "annualRevenuePrior": 51574000000,
+        "annualOperatingExpensesCurrent": 17810000000,
+        "annualOperatingExpensesPrior": 19046000000,
+        "annualRevenueCurrentPeriodEnd": "2025-11-02",
+        "annualRevenuePriorPeriodEnd": "2024-11-03",
+        "annualOperatingExpensesCurrentPeriodEnd": "2025-11-02",
+        "annualOperatingExpensesPriorPeriodEnd": "2024-11-03"
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -3575,6 +3813,19 @@
           "accessionNumber": "0001730168-25-000121",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/0001730168-25-000121-index.html"
         },
+        "operatingExpensesPriorYear": {
+          "value": 19046000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2023-10-30",
+          "end": "2024-11-03",
+          "filed": "2025-12-18",
+          "form": "10-K",
+          "accessionNumber": "0001730168-25-000121",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/0001730168-25-000121-index.html"
+        },
         "operatingCashFlow": {
           "value": 27537000000,
           "unit": "USD",
@@ -3678,6 +3929,19 @@
           "form": "10-K",
           "accessionNumber": "0001730168-25-000121",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/0001730168-25-000121-index.html"
+        },
+        "operatingExpenses": {
+          "value": 17810000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2024-11-04",
+          "end": "2025-11-02",
+          "filed": "2025-12-18",
+          "form": "10-K",
+          "accessionNumber": "0001730168-25-000121",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/0001730168-25-000121-index.html"
         }
       },
       "caveats": [
@@ -3696,6 +3960,16 @@
       "cashChangePercent": 54.0,
       "revenueGrowthPercent": 34.34,
       "operatingMarginPercent": 10.66,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 34639000000,
+        "annualRevenuePrior": 25785000000,
+        "annualOperatingExpensesCurrent": 13458000000,
+        "annualOperatingExpensesPrior": 10825000000,
+        "annualRevenueCurrentPeriodEnd": "2025-12-27",
+        "annualRevenuePriorPeriodEnd": "2024-12-28",
+        "annualOperatingExpensesCurrentPeriodEnd": "2025-12-27",
+        "annualOperatingExpensesPriorPeriodEnd": "2024-12-28"
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -3936,6 +4210,19 @@
           "accessionNumber": "0000002488-26-000018",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/0000002488-26-000018-index.html"
         },
+        "operatingExpensesPriorYear": {
+          "value": 10825000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2023-12-31",
+          "end": "2024-12-28",
+          "filed": "2026-02-04",
+          "form": "10-K",
+          "accessionNumber": "0000002488-26-000018",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/0000002488-26-000018-index.html"
+        },
         "operatingCashFlow": {
           "value": 7709000000,
           "unit": "USD",
@@ -4039,6 +4326,19 @@
           "form": "10-K",
           "accessionNumber": "0000002488-26-000018",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/0000002488-26-000018-index.html"
+        },
+        "operatingExpenses": {
+          "value": 13458000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2024-12-29",
+          "end": "2025-12-27",
+          "filed": "2026-02-04",
+          "form": "10-K",
+          "accessionNumber": "0000002488-26-000018",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/0000002488-26-000018-index.html"
         }
       },
       "caveats": [
@@ -4057,6 +4357,16 @@
       "cashChangePercent": 96.1,
       "revenueGrowthPercent": -0.47,
       "operatingMarginPercent": -4.19,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 52853000000,
+        "annualRevenuePrior": 53101000000,
+        "annualOperatingExpensesCurrent": 20589000000,
+        "annualOperatingExpensesPrior": 29023000000,
+        "annualRevenueCurrentPeriodEnd": "2025-12-27",
+        "annualRevenuePriorPeriodEnd": "2024-12-28",
+        "annualOperatingExpensesCurrentPeriodEnd": "2025-12-27",
+        "annualOperatingExpensesPriorPeriodEnd": "2024-12-28"
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -4285,6 +4595,19 @@
           "accessionNumber": "0000050863-26-000011",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/0000050863-26-000011-index.html"
         },
+        "operatingExpensesPriorYear": {
+          "value": 29023000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2023-12-31",
+          "end": "2024-12-28",
+          "filed": "2026-01-23",
+          "form": "10-K",
+          "accessionNumber": "0000050863-26-000011",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/0000050863-26-000011-index.html"
+        },
         "operatingCashFlow": {
           "value": 9697000000,
           "unit": "USD",
@@ -4388,6 +4711,19 @@
           "form": "10-K",
           "accessionNumber": "0000050863-26-000011",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/0000050863-26-000011-index.html"
+        },
+        "operatingExpenses": {
+          "value": 20589000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2024-12-29",
+          "end": "2025-12-27",
+          "filed": "2026-01-23",
+          "form": "10-K",
+          "accessionNumber": "0000050863-26-000011",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/0000050863-26-000011-index.html"
         }
       },
       "caveats": [
@@ -4406,6 +4742,16 @@
       "cashChangePercent": -11.8,
       "revenueGrowthPercent": 15.85,
       "operatingMarginPercent": 29.49,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 45183036000,
+        "annualRevenuePrior": 39000966000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -4658,6 +5004,7 @@
           "accessionNumber": "0001065280-26-000034",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/0001065280-26-000034-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 10149273000,
           "unit": "USD",
@@ -4761,7 +5108,8 @@
           "form": "10-K",
           "accessionNumber": "0001065280-26-000034",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/0001065280-26-000034-index.html"
-        }
+        },
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -4779,6 +5127,16 @@
       "cashChangePercent": 124.0,
       "revenueGrowthPercent": 56.18,
       "operatingMarginPercent": 31.59,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 4475446000,
+        "annualRevenuePrior": 2865507000,
+        "annualOperatingExpensesCurrent": 2272254000,
+        "annualOperatingExpensesPrior": 1989114000,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": "2025-12-31",
+        "annualOperatingExpensesPriorPeriodEnd": "2024-12-31"
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -5007,6 +5365,19 @@
           "accessionNumber": "0001321655-26-000011",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/0001321655-26-000011-index.html"
         },
+        "operatingExpensesPriorYear": {
+          "value": 1989114000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-17",
+          "form": "10-K",
+          "accessionNumber": "0001321655-26-000011",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/0001321655-26-000011-index.html"
+        },
         "operatingCashFlow": {
           "value": 2134473000,
           "unit": "USD",
@@ -5098,6 +5469,19 @@
           "form": "10-K",
           "accessionNumber": "0001321655-26-000011",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/0001321655-26-000011-index.html"
+        },
+        "operatingExpenses": {
+          "value": 2272254000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-17",
+          "form": "10-K",
+          "accessionNumber": "0001321655-26-000011",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/0001321655-26-000011-index.html"
         }
       },
       "caveats": [
@@ -5116,6 +5500,16 @@
       "cashChangePercent": 45.2,
       "revenueGrowthPercent": 25.03,
       "operatingMarginPercent": 45.68,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 88268000000,
+        "annualRevenuePrior": 70598800000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2024-12-31",
+        "annualRevenuePriorPeriodEnd": "2023-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -5368,6 +5762,7 @@
           "accessionNumber": "0001193125-24-099840",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000119312524099840/0001193125-24-099840-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 55693100000,
           "unit": "USD",
@@ -5471,7 +5866,8 @@
           "form": "20-F",
           "accessionNumber": "0001193125-25-083423",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000119312525083423/0001193125-25-083423-index.html"
-        }
+        },
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -5489,6 +5885,16 @@
       "cashChangePercent": 1.4,
       "revenueGrowthPercent": 15.58,
       "operatingMarginPercent": 34.6,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 32667300000,
+        "annualRevenuePrior": 28262900000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -5741,6 +6147,7 @@
           "accessionNumber": "0001628280-26-011378",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/937966/000162828026011378/0001628280-26-011378-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 12658500000,
           "unit": "EUR",
@@ -5844,7 +6251,8 @@
           "form": "20-F",
           "accessionNumber": "0001628280-26-011378",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/937966/000162828026011378/0001628280-26-011378-index.html"
-        }
+        },
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -5862,6 +6270,16 @@
       "cashChangePercent": 297.9,
       "revenueGrowthPercent": 256.33,
       "operatingMarginPercent": 74.59,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 133188000000,
+        "annualRevenuePrior": 37378000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2026-09-03",
+        "annualRevenuePriorPeriodEnd": "2025-08-28",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -6102,6 +6520,7 @@
           "accessionNumber": "0000723125-26-000023",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 89675000000,
           "unit": "USD",
@@ -6205,7 +6624,8 @@
           "form": "10-K",
           "accessionNumber": "0000723125-26-000023",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html"
-        }
+        },
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -6223,6 +6643,16 @@
       "cashChangePercent": 31.9,
       "revenueGrowthPercent": 22.79,
       "operatingMarginPercent": 18.29,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 4920000000,
+        "annualRevenuePrior": 4007000000,
+        "annualOperatingExpensesCurrent": 3899000000,
+        "annualOperatingExpensesPrior": 3055000000,
+        "annualRevenueCurrentPeriodEnd": "2026-03-31",
+        "annualRevenuePriorPeriodEnd": "2025-03-31",
+        "annualOperatingExpensesCurrentPeriodEnd": "2026-03-31",
+        "annualOperatingExpensesPriorPeriodEnd": "2025-03-31"
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -6451,6 +6881,19 @@
           "accessionNumber": "0001973239-26-000097",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000097/0001973239-26-000097-index.html"
         },
+        "operatingExpensesPriorYear": {
+          "value": 3055000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2024-04-01",
+          "end": "2025-03-31",
+          "filed": "2026-05-26",
+          "form": "20-F",
+          "accessionNumber": "0001973239-26-000097",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000097/0001973239-26-000097-index.html"
+        },
         "operatingCashFlow": {
           "value": 1524000000,
           "unit": "USD",
@@ -6530,6 +6973,19 @@
           "form": "20-F",
           "accessionNumber": "0001973239-26-000097",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000097/0001973239-26-000097-index.html"
+        },
+        "operatingExpenses": {
+          "value": 3899000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2025-04-01",
+          "end": "2026-03-31",
+          "filed": "2026-05-26",
+          "form": "20-F",
+          "accessionNumber": "0001973239-26-000097",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000097/0001973239-26-000097-index.html"
         }
       },
       "caveats": [
@@ -6548,6 +7004,16 @@
       "cashChangePercent": 64.3,
       "revenueGrowthPercent": 77.79,
       "operatingMarginPercent": 7.09,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 39063072000,
+        "annualRevenuePrior": 21972042000,
+        "annualOperatingExpensesCurrent": 1456765000,
+        "annualOperatingExpensesPrior": 1176928000,
+        "annualRevenueCurrentPeriodEnd": "2026-06-30",
+        "annualRevenuePriorPeriodEnd": "2025-06-30",
+        "annualOperatingExpensesCurrentPeriodEnd": "2026-06-30",
+        "annualOperatingExpensesPriorPeriodEnd": "2025-06-30"
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -6776,6 +7242,19 @@
           "accessionNumber": "0001375365-26-000022",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000022/0001375365-26-000022-index.html"
         },
+        "operatingExpensesPriorYear": {
+          "value": 1176928000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2024-07-01",
+          "end": "2025-06-30",
+          "filed": "2026-08-31",
+          "form": "10-K",
+          "accessionNumber": "0001375365-26-000022",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000022/0001375365-26-000022-index.html"
+        },
         "operatingCashFlow": {
           "value": -6809886000,
           "unit": "USD",
@@ -6879,6 +7358,19 @@
           "form": "10-K",
           "accessionNumber": "0001375365-26-000022",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000022/0001375365-26-000022-index.html"
+        },
+        "operatingExpenses": {
+          "value": 1456765000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2025-07-01",
+          "end": "2026-06-30",
+          "filed": "2026-08-31",
+          "form": "10-K",
+          "accessionNumber": "0001375365-26-000022",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000022/0001375365-26-000022-index.html"
         }
       },
       "caveats": [
@@ -6897,6 +7389,16 @@
       "cashChangePercent": -20.2,
       "revenueGrowthPercent": 7.62,
       "operatingMarginPercent": null,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 67535000000,
+        "annualRevenuePrior": 62753000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -7149,6 +7651,7 @@
           "accessionNumber": "0000051143-26-000010",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/0000051143-26-000010-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 13193000000,
           "unit": "USD",
@@ -7216,7 +7719,8 @@
           "accessionNumber": "0000051143-26-000010",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/0000051143-26-000010-index.html"
         },
-        "operatingIncome": null
+        "operatingIncome": null,
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -7234,6 +7738,16 @@
       "cashChangePercent": -2.6,
       "revenueGrowthPercent": 2.75,
       "operatingMarginPercent": null,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 182447000000,
+        "annualRevenuePrior": 177556000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -7450,6 +7964,7 @@
           "accessionNumber": "0001628280-26-008131",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/0001628280-26-008131-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": -147782000000,
           "unit": "USD",
@@ -7505,7 +8020,8 @@
           "accessionNumber": "0001628280-26-008131",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/0001628280-26-008131-index.html"
         },
-        "operatingIncome": null
+        "operatingIncome": null,
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -7523,6 +8039,16 @@
       "cashChangePercent": 6.1,
       "revenueGrowthPercent": 6.84,
       "operatingMarginPercent": null,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 113097000000,
+        "annualRevenuePrior": 105856000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -7739,6 +8265,7 @@
           "accessionNumber": "0000070858-26-000157",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/0000070858-26-000157-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 12613000000,
           "unit": "USD",
@@ -7818,7 +8345,8 @@
           "accessionNumber": "0000070858-26-000157",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/0000070858-26-000157-index.html"
         },
-        "operatingIncome": null
+        "operatingIncome": null,
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -7836,6 +8364,16 @@
       "cashChangePercent": 4.1,
       "revenueGrowthPercent": 5.58,
       "operatingMarginPercent": null,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 85225000000,
+        "annualRevenuePrior": 80722000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -8064,6 +8602,7 @@
           "accessionNumber": "0000831001-26-000011",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/831001/000083100126000011/0000831001-26-000011-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": -67632000000,
           "unit": "USD",
@@ -8143,7 +8682,8 @@
           "accessionNumber": "0000831001-26-000011",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/831001/000083100126000011/0000831001-26-000011-index.html"
         },
-        "operatingIncome": null
+        "operatingIncome": null,
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -8161,6 +8701,16 @@
       "cashChangePercent": 4.2,
       "revenueGrowthPercent": null,
       "operatingMarginPercent": null,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": null,
+        "annualRevenuePrior": null,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": null,
+        "annualRevenuePriorPeriodEnd": null,
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -8353,6 +8903,7 @@
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/886982/000088698225001411/0000886982-25-001411-index.html"
         },
         "revenuePriorYear": null,
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": -45154000000,
           "unit": "USD",
@@ -8408,7 +8959,8 @@
         "debtIssued": null,
         "debtRepaid": null,
         "revenue": null,
-        "operatingIncome": null
+        "operatingIncome": null,
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -8426,6 +8978,16 @@
       "cashChangePercent": 33.7,
       "revenueGrowthPercent": 5.48,
       "operatingMarginPercent": null,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 34275000000,
+        "annualRevenuePrior": 32493000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2014-12-31",
+        "annualRevenuePriorPeriodEnd": "2013-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -8642,6 +9204,7 @@
           "accessionNumber": "0001193125-15-071980",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/895421/000119312515071980/0001193125-15-071980-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": -17889000000,
           "unit": "USD",
@@ -8721,7 +9284,8 @@
           "accessionNumber": "0001193125-15-071980",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/895421/000119312515071980/0001193125-15-071980-index.html"
         },
-        "operatingIncome": null
+        "operatingIncome": null,
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -8739,6 +9303,16 @@
       "cashChangePercent": 16.5,
       "revenueGrowthPercent": -1.56,
       "operatingMarginPercent": null,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 85063000000,
+        "annualRevenuePrior": 86408000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2019-12-31",
+        "annualRevenuePriorPeriodEnd": "2018-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -8967,6 +9541,7 @@
           "accessionNumber": "0000072971-20-000217",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/72971/000007297120000217/0000072971-20-000217-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": -19001000000,
           "unit": "USD",
@@ -9034,7 +9609,8 @@
           "accessionNumber": "0000072971-20-000217",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/72971/000007297120000217/0000072971-20-000217-index.html"
         },
-        "operatingIncome": null
+        "operatingIncome": null,
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -9052,6 +9628,16 @@
       "cashChangePercent": 29.0,
       "revenueGrowthPercent": 18.67,
       "operatingMarginPercent": 29.09,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 24216000000,
+        "annualRevenuePrior": 20407000000,
+        "annualOperatingExpensesCurrent": 17171000000,
+        "annualOperatingExpensesPrior": 12833000000,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": "2025-12-31",
+        "annualOperatingExpensesPriorPeriodEnd": "2024-12-31"
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -9256,6 +9842,19 @@
           "accessionNumber": "0001193125-26-071966",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/0001193125-26-071966-index.html"
         },
+        "operatingExpensesPriorYear": {
+          "value": 12833000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "accessionNumber": "0001193125-26-071966",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/0001193125-26-071966-index.html"
+        },
         "operatingCashFlow": {
           "value": 3927000000,
           "unit": "USD",
@@ -9359,6 +9958,19 @@
           "form": "10-K",
           "accessionNumber": "0001193125-26-071966",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/0001193125-26-071966-index.html"
+        },
+        "operatingExpenses": {
+          "value": 17171000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "accessionNumber": "0001193125-26-071966",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/0001193125-26-071966-index.html"
         }
       },
       "caveats": [
@@ -9377,6 +9989,16 @@
       "cashChangePercent": 12.6,
       "revenueGrowthPercent": -0.99,
       "operatingMarginPercent": null,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 247244000000,
+        "annualRevenuePrior": 249714000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -9581,6 +10203,7 @@
           "accessionNumber": "0001193125-26-083899",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/0001193125-26-083899-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 45969000000,
           "unit": "USD",
@@ -9648,7 +10271,8 @@
           "accessionNumber": "0001193125-26-083899",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/0001193125-26-083899-index.html"
         },
-        "operatingIncome": null
+        "operatingIncome": null,
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -9666,6 +10290,16 @@
       "cashChangePercent": -28.2,
       "revenueGrowthPercent": 9.4,
       "operatingMarginPercent": 19.99,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 7181325000,
+        "annualRevenuePrior": 6564028000,
+        "annualOperatingExpensesCurrent": 5745884000,
+        "annualOperatingExpensesPrior": 4256868000,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": "2025-12-31",
+        "annualOperatingExpensesPriorPeriodEnd": "2024-12-31"
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -9930,6 +10564,19 @@
           "accessionNumber": "0001679788-26-000015",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000015/0001679788-26-000015-index.html"
         },
+        "operatingExpensesPriorYear": {
+          "value": 4256868000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-12",
+          "form": "10-K",
+          "accessionNumber": "0001679788-26-000015",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000015/0001679788-26-000015-index.html"
+        },
         "operatingCashFlow": {
           "value": 2426383000,
           "unit": "USD",
@@ -10021,6 +10668,19 @@
           "form": "10-K",
           "accessionNumber": "0001679788-26-000015",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000015/0001679788-26-000015-index.html"
+        },
+        "operatingExpenses": {
+          "value": 5745884000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-12",
+          "form": "10-K",
+          "accessionNumber": "0001679788-26-000015",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000015/0001679788-26-000015-index.html"
         }
       },
       "caveats": [
@@ -10039,6 +10699,16 @@
       "cashChangePercent": -24.6,
       "revenueGrowthPercent": 14.76,
       "operatingMarginPercent": 61.24,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 45903000000,
+        "annualRevenuePrior": 40000000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2026-09-30",
+        "annualRevenuePriorPeriodEnd": "2025-09-30",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -10291,6 +10961,7 @@
           "accessionNumber": "0001403161-26-000134",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/0001403161-26-000134-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 23728000000,
           "unit": "USD",
@@ -10394,7 +11065,8 @@
           "form": "10-K",
           "accessionNumber": "0001403161-26-000134",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/0001403161-26-000134-index.html"
-        }
+        },
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -10412,6 +11084,16 @@
       "cashChangePercent": -1.6,
       "revenueGrowthPercent": 16.42,
       "operatingMarginPercent": 57.63,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 32791000000,
+        "annualRevenuePrior": 28167000000,
+        "annualOperatingExpensesCurrent": 13894000000,
+        "annualOperatingExpensesPrior": 12585000000,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": "2025-12-31",
+        "annualOperatingExpensesPriorPeriodEnd": "2024-12-31"
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -10664,6 +11346,19 @@
           "accessionNumber": "0001141391-26-000013",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/0001141391-26-000013-index.html"
         },
+        "operatingExpensesPriorYear": {
+          "value": 12585000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-11",
+          "form": "10-K",
+          "accessionNumber": "0001141391-26-000013",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/0001141391-26-000013-index.html"
+        },
         "operatingCashFlow": {
           "value": 17648000000,
           "unit": "USD",
@@ -10767,6 +11462,19 @@
           "form": "10-K",
           "accessionNumber": "0001141391-26-000013",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/0001141391-26-000013-index.html"
+        },
+        "operatingExpenses": {
+          "value": 13894000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-11",
+          "form": "10-K",
+          "accessionNumber": "0001141391-26-000013",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/0001141391-26-000013-index.html"
         }
       },
       "caveats": [
@@ -10785,6 +11493,16 @@
       "cashChangePercent": 13.5,
       "revenueGrowthPercent": 6.39,
       "operatingMarginPercent": null,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 41304000000,
+        "annualRevenuePrior": 38825000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -11013,6 +11731,7 @@
           "accessionNumber": "0000004962-26-000080",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/0000004962-26-000080-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 18428000000,
           "unit": "USD",
@@ -11104,7 +11823,8 @@
           "accessionNumber": "0000004962-26-000080",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/0000004962-26-000080-index.html"
         },
-        "operatingIncome": null
+        "operatingIncome": null,
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -11122,6 +11842,16 @@
       "cashChangePercent": 19.9,
       "revenueGrowthPercent": 22.01,
       "operatingMarginPercent": null,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 23921000000,
+        "annualRevenuePrior": 19606000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -11326,6 +12056,7 @@
           "accessionNumber": "0000316709-26-000009",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/0000316709-26-000009-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 9311000000,
           "unit": "USD",
@@ -11417,7 +12148,8 @@
           "accessionNumber": "0000316709-26-000009",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/0000316709-26-000009-index.html"
         },
-        "operatingIncome": null
+        "operatingIncome": null,
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -11435,6 +12167,16 @@
       "cashChangePercent": 25.0,
       "revenueGrowthPercent": 9.22,
       "operatingMarginPercent": null,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 14450265000,
+        "annualRevenuePrior": 13229968000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -11651,6 +12393,7 @@
           "accessionNumber": "0001193125-26-082531",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/0001193125-26-082531-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 4663161000,
           "unit": "USD",
@@ -11742,7 +12485,8 @@
           "accessionNumber": "0001193125-26-082531",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/0001193125-26-082531-index.html"
         },
-        "operatingIncome": null
+        "operatingIncome": null,
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -11760,6 +12504,16 @@
       "cashChangePercent": 128.5,
       "revenueGrowthPercent": -11.04,
       "operatingMarginPercent": null,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 19464307000,
+        "annualRevenuePrior": 21878698000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -11976,6 +12730,7 @@
           "accessionNumber": "0001404912-26-000007",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000007/0001404912-26-000007-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 477760000,
           "unit": "USD",
@@ -12067,7 +12822,8 @@
           "accessionNumber": "0001404912-26-000007",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000007/0001404912-26-000007-index.html"
         },
-        "operatingIncome": null
+        "operatingIncome": null,
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -12085,6 +12841,16 @@
       "cashChangePercent": 22.2,
       "revenueGrowthPercent": 4.73,
       "operatingMarginPercent": 4.22,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 706413000000,
+        "annualRevenuePrior": 674538000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2026-01-31",
+        "annualRevenuePriorPeriodEnd": "2025-01-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -12325,6 +13091,7 @@
           "accessionNumber": "0000104169-26-000055",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/0000104169-26-000055-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 41565000000,
           "unit": "USD",
@@ -12428,7 +13195,8 @@
           "form": "10-K",
           "accessionNumber": "0000104169-26-000055",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/0000104169-26-000055-index.html"
-        }
+        },
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -12446,6 +13214,16 @@
       "cashChangePercent": 42.7,
       "revenueGrowthPercent": 10.14,
       "operatingMarginPercent": 3.85,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 303154000000,
+        "annualRevenuePrior": 275235000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2026-08-30",
+        "annualRevenuePriorPeriodEnd": "2025-08-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -12698,6 +13476,7 @@
           "accessionNumber": "0000909832-26-000093",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 15817000000,
           "unit": "USD",
@@ -12801,7 +13580,8 @@
           "form": "10-K",
           "accessionNumber": "0000909832-26-000093",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093-index.html"
-        }
+        },
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -12819,6 +13599,16 @@
       "cashChangePercent": -25.6,
       "revenueGrowthPercent": 3.24,
       "operatingMarginPercent": 12.68,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 164683000000,
+        "annualRevenuePrior": 159514000000,
+        "annualOperatingExpensesCurrent": 33975000000,
+        "annualOperatingExpensesPrior": 31782000000,
+        "annualRevenueCurrentPeriodEnd": "2026-02-01",
+        "annualRevenuePriorPeriodEnd": "2025-02-02",
+        "annualOperatingExpensesCurrentPeriodEnd": "2026-02-01",
+        "annualOperatingExpensesPriorPeriodEnd": "2025-02-02"
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -13047,6 +13837,19 @@
           "accessionNumber": "0001628280-26-019436",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/0001628280-26-019436-index.html"
         },
+        "operatingExpensesPriorYear": {
+          "value": 31782000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2024-01-29",
+          "end": "2025-02-02",
+          "filed": "2026-03-18",
+          "form": "10-K",
+          "accessionNumber": "0001628280-26-019436",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/0001628280-26-019436-index.html"
+        },
         "operatingCashFlow": {
           "value": 16325000000,
           "unit": "USD",
@@ -13126,6 +13929,19 @@
           "form": "10-K",
           "accessionNumber": "0001628280-26-019436",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/0001628280-26-019436-index.html"
+        },
+        "operatingExpenses": {
+          "value": 33975000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2025-02-03",
+          "end": "2026-02-01",
+          "filed": "2026-03-18",
+          "form": "10-K",
+          "accessionNumber": "0001628280-26-019436",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/0001628280-26-019436-index.html"
         }
       },
       "caveats": [
@@ -13144,6 +13960,16 @@
       "cashChangePercent": -1.7,
       "revenueGrowthPercent": 0.19,
       "operatingMarginPercent": null,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 46398000000,
+        "annualRevenuePrior": 46309000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2026-05-31",
+        "annualRevenuePriorPeriodEnd": "2025-05-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -13384,6 +14210,7 @@
           "accessionNumber": "0000320187-26-000088",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000088/0000320187-26-000088-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 2868000000,
           "unit": "USD",
@@ -13475,7 +14302,8 @@
           "accessionNumber": "0000320187-26-000088",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000088/0000320187-26-000088-index.html"
         },
-        "operatingIncome": null
+        "operatingIncome": null,
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -13493,6 +14321,16 @@
       "cashChangePercent": -33.1,
       "revenueGrowthPercent": 2.79,
       "operatingMarginPercent": 7.9,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 37184400000,
+        "annualRevenuePrior": 36176200000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-09-28",
+        "annualRevenuePriorPeriodEnd": "2024-09-29",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -13757,6 +14595,7 @@
           "accessionNumber": "0000829224-25-000114",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/829224/000082922425000114/0000829224-25-000114-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 4747500000,
           "unit": "USD",
@@ -13860,7 +14699,8 @@
           "form": "10-K",
           "accessionNumber": "0000829224-25-000114",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/829224/000082922425000114/0000829224-25-000114-index.html"
-        }
+        },
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -13878,6 +14718,16 @@
       "cashChangePercent": -50.6,
       "revenueGrowthPercent": 3.72,
       "operatingMarginPercent": 46.1,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 26885000000,
+        "annualRevenuePrior": 25920000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -14106,6 +14956,7 @@
           "accessionNumber": "0000063908-26-000035",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000035/0000063908-26-000035-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 10551000000,
           "unit": "USD",
@@ -14209,7 +15060,8 @@
           "form": "10-K",
           "accessionNumber": "0000063908-26-000035",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000035/0000063908-26-000035-index.html"
-        }
+        },
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -14227,6 +15079,16 @@
       "cashChangePercent": -3.4,
       "revenueGrowthPercent": 3.35,
       "operatingMarginPercent": 18.59,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 94425000000,
+        "annualRevenuePrior": 91361000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-09-27",
+        "annualRevenuePriorPeriodEnd": "2024-09-28",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -14467,6 +15329,7 @@
           "accessionNumber": "0001744489-25-000155",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1744489/000174448925000155/0001744489-25-000155-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 18101000000,
           "unit": "USD",
@@ -14570,7 +15433,8 @@
           "form": "10-K",
           "accessionNumber": "0001744489-25-000155",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1744489/000174448925000155/0001744489-25-000155-index.html"
-        }
+        },
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -14588,6 +15452,16 @@
       "cashChangePercent": 13.4,
       "revenueGrowthPercent": 18.28,
       "operatingMarginPercent": 10.7,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 52017000000,
+        "annualRevenuePrior": 43978000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -14840,6 +15714,7 @@
           "accessionNumber": "0001543151-26-000015",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000015/0001543151-26-000015-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 10099000000,
           "unit": "USD",
@@ -14943,7 +15818,8 @@
           "form": "10-K",
           "accessionNumber": "0001543151-26-000015",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000015/0001543151-26-000015-index.html"
-        }
+        },
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -14961,6 +15837,16 @@
       "cashChangePercent": -3.4,
       "revenueGrowthPercent": 10.26,
       "operatingMarginPercent": 20.78,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 12241000000,
+        "annualRevenuePrior": 11102000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -15225,6 +16111,7 @@
           "accessionNumber": "0001559720-26-000004",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/0001559720-26-000004-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 4646000000,
           "unit": "USD",
@@ -15316,7 +16203,8 @@
           "form": "10-K",
           "accessionNumber": "0001559720-26-000004",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/0001559720-26-000004-index.html"
-        }
+        },
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -15334,6 +16222,16 @@
       "cashChangePercent": 42.3,
       "revenueGrowthPercent": 48.63,
       "operatingMarginPercent": 9.26,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 20322000000,
+        "annualRevenuePrior": 13673000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -15586,6 +16484,7 @@
           "accessionNumber": "0001690820-26-000009",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000009/0001690820-26-000009-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 1036000000,
           "unit": "USD",
@@ -15677,7 +16576,8 @@
           "form": "10-K",
           "accessionNumber": "0001690820-26-000009",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000009/0001690820-26-000009-index.html"
-        }
+        },
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -15695,6 +16595,16 @@
       "cashChangePercent": -50.1,
       "revenueGrowthPercent": 44.7,
       "operatingMarginPercent": null,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 65179000000,
+        "annualRevenuePrior": 45043000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -15923,6 +16833,7 @@
           "accessionNumber": "0000059478-26-000013",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/0000059478-26-000013-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 16813000000,
           "unit": "USD",
@@ -16014,7 +16925,8 @@
           "accessionNumber": "0000059478-26-000013",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/0000059478-26-000013-index.html"
         },
-        "operatingIncome": null
+        "operatingIncome": null,
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -16032,6 +16944,16 @@
       "cashChangePercent": 69.0,
       "revenueGrowthPercent": 6.43,
       "operatingMarginPercent": 41.3,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 309064000000,
+        "annualRevenuePrior": 290403000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -16296,6 +17218,7 @@
           "accessionNumber": "0000353278-26-000012",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/353278/000035327826000012/0000353278-26-000012-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 119102000000,
           "unit": "DKK",
@@ -16399,7 +17322,8 @@
           "form": "20-F",
           "accessionNumber": "0000353278-26-000012",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/353278/000035327826000012/0000353278-26-000012-index.html"
-        }
+        },
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -16417,6 +17341,16 @@
       "cashChangePercent": -7.2,
       "revenueGrowthPercent": 6.05,
       "operatingMarginPercent": null,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 94193000000,
+        "annualRevenuePrior": 88821000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-28",
+        "annualRevenuePriorPeriodEnd": "2024-12-29",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -16669,6 +17603,7 @@
           "accessionNumber": "0000200406-26-000016",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/0000200406-26-000016-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 24530000000,
           "unit": "USD",
@@ -16760,7 +17695,8 @@
           "accessionNumber": "0000200406-26-000016",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/0000200406-26-000016-index.html"
         },
-        "operatingIncome": null
+        "operatingIncome": null,
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -16778,6 +17714,16 @@
       "cashChangePercent": -5.0,
       "revenueGrowthPercent": 11.81,
       "operatingMarginPercent": 4.24,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 447567000000,
+        "annualRevenuePrior": 400278000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -17018,6 +17964,7 @@
           "accessionNumber": "0000731766-26-000062",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000062/0000731766-26-000062-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 19697000000,
           "unit": "USD",
@@ -17121,7 +18068,8 @@
           "form": "10-K",
           "accessionNumber": "0000731766-26-000062",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000062/0000731766-26-000062-index.html"
-        }
+        },
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -17139,6 +18087,16 @@
       "cashChangePercent": 35.8,
       "revenueGrowthPercent": -1.65,
       "operatingMarginPercent": null,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 62579000000,
+        "annualRevenuePrior": 63627000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -17391,6 +18349,7 @@
           "accessionNumber": "0000078003-26-000026",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000026/0000078003-26-000026-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 11704000000,
           "unit": "USD",
@@ -17482,7 +18441,8 @@
           "accessionNumber": "0000078003-26-000026",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000026/0000078003-26-000026-index.html"
         },
-        "operatingIncome": null
+        "operatingIncome": null,
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -17500,6 +18460,16 @@
       "cashChangePercent": 5.6,
       "revenueGrowthPercent": -39.93,
       "operatingMarginPercent": -158.13,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 1944000000,
+        "annualRevenuePrior": 3236000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -17728,6 +18698,7 @@
           "accessionNumber": "0001682852-26-000033",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000033/0001682852-26-000033-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": -1873000000,
           "unit": "USD",
@@ -17807,7 +18778,8 @@
           "form": "10-K",
           "accessionNumber": "0001682852-26-000033",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000033/0001682852-26-000033-index.html"
-        }
+        },
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -17825,6 +18797,16 @@
       "cashChangePercent": 46.0,
       "revenueGrowthPercent": 0.99,
       "operatingMarginPercent": 24.95,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 14342900000,
+        "annualRevenuePrior": 14202000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -18065,6 +19047,7 @@
           "accessionNumber": "0000872589-26-000008",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000008/0000872589-26-000008-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 4978900000,
           "unit": "USD",
@@ -18156,7 +19139,8 @@
           "form": "10-K",
           "accessionNumber": "0000872589-26-000008",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000008/0000872589-26-000008-index.html"
-        }
+        },
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -18174,6 +19158,16 @@
       "cashChangePercent": 0.8,
       "revenueGrowthPercent": 8.9,
       "operatingMarginPercent": 34.77,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 12001300000,
+        "annualRevenuePrior": 11020100000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -18426,6 +19420,7 @@
           "accessionNumber": "0000875320-26-000056",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000056/0000875320-26-000056-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 3631400000,
           "unit": "USD",
@@ -18529,7 +19524,8 @@
           "form": "10-K",
           "accessionNumber": "0000875320-26-000056",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000056/0000875320-26-000056-index.html"
-        }
+        },
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -18547,6 +19543,16 @@
       "cashChangePercent": 6.1,
       "revenueGrowthPercent": 20.51,
       "operatingMarginPercent": 29.27,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 10064700000,
+        "annualRevenuePrior": 8352100000,
+        "annualOperatingExpensesCurrent": 3696800000,
+        "annualOperatingExpensesPrior": 3285300000,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": "2025-12-31",
+        "annualOperatingExpensesPriorPeriodEnd": "2024-12-31"
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -18775,6 +19781,19 @@
           "accessionNumber": "0001035267-26-000010",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/0001035267-26-000010-index.html"
         },
+        "operatingExpensesPriorYear": {
+          "value": 3285300000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-03",
+          "form": "10-K",
+          "accessionNumber": "0001035267-26-000010",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/0001035267-26-000010-index.html"
+        },
         "operatingCashFlow": {
           "value": 3030500000,
           "unit": "USD",
@@ -18854,6 +19873,19 @@
           "form": "10-K",
           "accessionNumber": "0001035267-26-000010",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/0001035267-26-000010-index.html"
+        },
+        "operatingExpenses": {
+          "value": 3696800000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-03",
+          "form": "10-K",
+          "accessionNumber": "0001035267-26-000010",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/0001035267-26-000010-index.html"
         }
       },
       "caveats": [
@@ -18872,6 +19904,16 @@
       "cashChangePercent": 39.7,
       "revenueGrowthPercent": 9.95,
       "operatingMarginPercent": 24.71,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 36751000000,
+        "annualRevenuePrior": 33424000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -19124,6 +20166,7 @@
           "accessionNumber": "0000318154-26-000010",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/318154/000031815426000010/0000318154-26-000010-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 9958000000,
           "unit": "USD",
@@ -19227,7 +20270,8 @@
           "form": "10-K",
           "accessionNumber": "0000318154-26-000010",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/318154/000031815426000010/0000318154-26-000010-index.html"
-        }
+        },
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -19245,6 +20289,16 @@
       "cashChangePercent": null,
       "revenueGrowthPercent": null,
       "operatingMarginPercent": null,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": null,
+        "annualRevenuePrior": null,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": null,
+        "annualRevenuePriorPeriodEnd": null,
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -19449,6 +20503,7 @@
         "noncurrentDebt": null,
         "cashPriorYear": null,
         "revenuePriorYear": null,
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": null,
         "investingCashFlow": null,
         "financingCashFlow": null,
@@ -19456,7 +20511,8 @@
         "debtIssued": null,
         "debtRepaid": null,
         "revenue": null,
-        "operatingIncome": null
+        "operatingIncome": null,
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -19474,6 +20530,16 @@
       "cashChangePercent": -56.9,
       "revenueGrowthPercent": -4.64,
       "operatingMarginPercent": null,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 184432000000,
+        "annualRevenuePrior": 193414000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -19714,6 +20780,7 @@
           "accessionNumber": "0000093410-26-000078",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000078/0000093410-26-000078-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 33939000000,
           "unit": "USD",
@@ -19793,7 +20860,8 @@
           "accessionNumber": "0000093410-26-000078",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000078/0000093410-26-000078-index.html"
         },
-        "operatingIncome": null
+        "operatingIncome": null,
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -19811,6 +20879,16 @@
       "cashChangePercent": 47.6,
       "revenueGrowthPercent": 4.87,
       "operatingMarginPercent": null,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 51824000000,
+        "annualRevenuePrior": 49418000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -20039,6 +21117,7 @@
           "accessionNumber": "0001163165-26-000009",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000009/0001163165-26-000009-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 19796000000,
           "unit": "USD",
@@ -20130,7 +21209,8 @@
           "accessionNumber": "0001163165-26-000009",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000009/0001163165-26-000009-index.html"
         },
-        "operatingIncome": null
+        "operatingIncome": null,
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -20148,6 +21228,16 @@
       "cashChangePercent": 81.4,
       "revenueGrowthPercent": -5.02,
       "operatingMarginPercent": null,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 21569000000,
+        "annualRevenuePrior": 22710000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -20388,6 +21478,7 @@
           "accessionNumber": "0001628280-26-009059",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/797468/000162828026009059/0001628280-26-009059-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 10532000000,
           "unit": "USD",
@@ -20479,7 +21570,8 @@
           "accessionNumber": "0001628280-26-009059",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/797468/000162828026009059/0001628280-26-009059-index.html"
         },
-        "operatingIncome": null
+        "operatingIncome": null,
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -20497,6 +21589,16 @@
       "cashChangePercent": 1.7,
       "revenueGrowthPercent": -1.6,
       "operatingMarginPercent": null,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 35708000000,
+        "annualRevenuePrior": 36289000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -20749,6 +21851,7 @@
           "accessionNumber": "0001193125-26-021017",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/87347/000119312526021017/0001193125-26-021017-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 6489000000,
           "unit": "USD",
@@ -20840,7 +21943,8 @@
           "accessionNumber": "0001193125-26-021017",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/87347/000119312526021017/0001193125-26-021017-index.html"
         },
-        "operatingIncome": null
+        "operatingIncome": null,
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -20858,6 +21962,16 @@
       "cashChangePercent": -10.0,
       "revenueGrowthPercent": 18.48,
       "operatingMarginPercent": null,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 45855000000,
+        "annualRevenuePrior": 38702000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -21098,6 +22212,7 @@
           "accessionNumber": "0000040545-26-000008",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000008/0000040545-26-000008-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 8537000000,
           "unit": "USD",
@@ -21177,7 +22292,8 @@
           "accessionNumber": "0000040545-26-000008",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000008/0000040545-26-000008-index.html"
         },
-        "operatingIncome": null
+        "operatingIncome": null,
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -21195,6 +22311,16 @@
       "cashChangePercent": 53.9,
       "revenueGrowthPercent": 34.5,
       "operatingMarginPercent": 4.79,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 89463000000,
+        "annualRevenuePrior": 66517000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -21435,6 +22561,7 @@
           "accessionNumber": "0001628280-26-004357",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/12927/000162828026004357/0001628280-26-004357-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 1065000000,
           "unit": "USD",
@@ -21538,7 +22665,8 @@
           "form": "10-K",
           "accessionNumber": "0001628280-26-004357",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/12927/000162828026004357/0001628280-26-004357-index.html"
-        }
+        },
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -21556,6 +22684,16 @@
       "cashChangePercent": 5.2,
       "revenueGrowthPercent": 4.29,
       "operatingMarginPercent": 16.5,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 67589000000,
+        "annualRevenuePrior": 64809000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -21784,6 +22922,7 @@
           "accessionNumber": "0000018230-26-000008",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/0000018230-26-000008-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 11739000000,
           "unit": "USD",
@@ -21863,7 +23002,8 @@
           "form": "10-K",
           "accessionNumber": "0000018230-26-000008",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/0000018230-26-000008-index.html"
-        }
+        },
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -21881,6 +23021,16 @@
       "cashChangePercent": 71.8,
       "revenueGrowthPercent": 5.64,
       "operatingMarginPercent": 10.3,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 75048000000,
+        "annualRevenuePrior": 71043000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -22133,6 +23283,7 @@
           "accessionNumber": "0001628280-26-004195",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/936468/000162828026004195/0001628280-26-004195-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 8557000000,
           "unit": "USD",
@@ -22236,7 +23387,8 @@
           "form": "10-K",
           "accessionNumber": "0001628280-26-004195",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/936468/000162828026004195/0001628280-26-004195-index.html"
-        }
+        },
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -22254,6 +23406,16 @@
       "cashChangePercent": 53.8,
       "revenueGrowthPercent": 9.74,
       "operatingMarginPercent": 10.5,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 88603000000,
+        "annualRevenuePrior": 80738000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -22494,6 +23656,7 @@
           "accessionNumber": "0000101829-26-000006",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/0000101829-26-000006-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 10567000000,
           "unit": "USD",
@@ -22597,7 +23760,8 @@
           "form": "10-K",
           "accessionNumber": "0000101829-26-000006",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/0000101829-26-000006-index.html"
-        }
+        },
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -22615,6 +23779,16 @@
       "cashChangePercent": 91.3,
       "revenueGrowthPercent": 2.24,
       "operatingMarginPercent": 10.75,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 41954000000,
+        "annualRevenuePrior": 41033000000,
+        "annualOperatingExpensesCurrent": 37674000000,
+        "annualOperatingExpensesPrior": 36663000000,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": "2025-12-31",
+        "annualOperatingExpensesPriorPeriodEnd": "2024-12-31"
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -22867,6 +24041,19 @@
           "accessionNumber": "0001133421-26-000003",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/0001133421-26-000003-index.html"
         },
+        "operatingExpensesPriorYear": {
+          "value": 36663000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-01-27",
+          "form": "10-K",
+          "accessionNumber": "0001133421-26-000003",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/0001133421-26-000003-index.html"
+        },
         "operatingCashFlow": {
           "value": 4757000000,
           "unit": "USD",
@@ -22970,6 +24157,19 @@
           "form": "10-K",
           "accessionNumber": "0001133421-26-000003",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/0001133421-26-000003-index.html"
+        },
+        "operatingExpenses": {
+          "value": 37674000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-01-27",
+          "form": "10-K",
+          "accessionNumber": "0001133421-26-000003",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/0001133421-26-000003-index.html"
         }
       },
       "caveats": [
@@ -22988,6 +24188,16 @@
       "cashChangePercent": -16.8,
       "revenueGrowthPercent": 1.23,
       "operatingMarginPercent": -4.9,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 187267000000,
+        "annualRevenuePrior": 184992000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -23216,6 +24426,7 @@
           "accessionNumber": "0000037996-26-000015",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000015/0000037996-26-000015-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 21282000000,
           "unit": "USD",
@@ -23319,7 +24530,8 @@
           "form": "10-K",
           "accessionNumber": "0000037996-26-000015",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000015/0000037996-26-000015-index.html"
-        }
+        },
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -23337,6 +24549,16 @@
       "cashChangePercent": 1.2,
       "revenueGrowthPercent": -2.12,
       "operatingMarginPercent": 1.73,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 167971000000,
+        "annualRevenuePrior": 171606000000,
+        "annualOperatingExpensesCurrent": 182110000000,
+        "annualOperatingExpensesPrior": 174658000000,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": "2025-12-31",
+        "annualOperatingExpensesPriorPeriodEnd": "2024-12-31"
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -23565,6 +24787,19 @@
           "accessionNumber": "0001467858-26-000013",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000013/0001467858-26-000013-index.html"
         },
+        "operatingExpensesPriorYear": {
+          "value": 174658000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-01-27",
+          "form": "10-K",
+          "accessionNumber": "0001467858-26-000013",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000013/0001467858-26-000013-index.html"
+        },
         "operatingCashFlow": {
           "value": 26867000000,
           "unit": "USD",
@@ -23644,6 +24879,19 @@
           "form": "10-K",
           "accessionNumber": "0001467858-26-000013",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000013/0001467858-26-000013-index.html"
+        },
+        "operatingExpenses": {
+          "value": 182110000000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-01-27",
+          "form": "10-K",
+          "accessionNumber": "0001467858-26-000013",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000013/0001467858-26-000013-index.html"
         }
       },
       "caveats": [
@@ -23662,6 +24910,16 @@
       "cashChangePercent": 4.1,
       "revenueGrowthPercent": -11.66,
       "operatingMarginPercent": null,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 45684000000,
+        "annualRevenuePrior": 51716000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-11-02",
+        "annualRevenuePriorPeriodEnd": "2024-10-27",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -23866,6 +25124,7 @@
           "accessionNumber": "0001104659-25-122321",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/315189/000110465925122321/0001104659-25-122321-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 7459000000,
           "unit": "USD",
@@ -23957,7 +25216,8 @@
           "accessionNumber": "0001104659-25-122321",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/315189/000110465925122321/0001104659-25-122321-index.html"
         },
-        "operatingIncome": null
+        "operatingIncome": null,
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -23975,6 +25235,16 @@
       "cashChangePercent": 4508.0,
       "revenueGrowthPercent": 2.97,
       "operatingMarginPercent": -1140.82,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 477233000,
+        "annualRevenuePrior": 463456000,
+        "annualOperatingExpensesCurrent": 5772201000,
+        "annualOperatingExpensesPrior": 2186966000,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": "2025-12-31",
+        "annualOperatingExpensesPriorPeriodEnd": "2024-12-31"
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -24239,6 +25509,19 @@
           "accessionNumber": "0001050446-26-000020",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000105044626000020/0001050446-26-000020-index.html"
         },
+        "operatingExpensesPriorYear": {
+          "value": 2186966000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-19",
+          "form": "10-K",
+          "accessionNumber": "0001050446-26-000020",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000105044626000020/0001050446-26-000020-index.html"
+        },
         "operatingCashFlow": {
           "value": -67241000,
           "unit": "USD",
@@ -24318,6 +25601,19 @@
           "form": "10-K",
           "accessionNumber": "0001050446-26-000020",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000105044626000020/0001050446-26-000020-index.html"
+        },
+        "operatingExpenses": {
+          "value": 5772201000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-19",
+          "form": "10-K",
+          "accessionNumber": "0001050446-26-000020",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1050446/000105044626000020/0001050446-26-000020-index.html"
         }
       },
       "caveats": [
@@ -24336,6 +25632,16 @@
       "cashChangePercent": 14.5,
       "revenueGrowthPercent": -39.18,
       "operatingMarginPercent": -2085.46,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 58704000,
+        "annualRevenuePrior": 96524000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -24600,6 +25906,7 @@
           "accessionNumber": "0001507605-26-000007",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1507605/000150760526000007/0001507605-26-000007-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": -802725000,
           "unit": "USD",
@@ -24703,7 +26010,8 @@
           "form": "10-K",
           "accessionNumber": "0001507605-26-000007",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1507605/000150760526000007/0001507605-26-000007-index.html"
-        }
+        },
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -24721,6 +26029,16 @@
       "cashChangePercent": 102.3,
       "revenueGrowthPercent": 71.89,
       "operatingMarginPercent": -96.1,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 647435000,
+        "annualRevenuePrior": 376658000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -24985,6 +26303,7 @@
           "accessionNumber": "0001104659-26-022322",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1167419/000110465926022322/0001104659-26-022322-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": -572928000,
           "unit": "USD",
@@ -25064,7 +26383,8 @@
           "form": "10-K",
           "accessionNumber": "0001104659-26-022322",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1167419/000110465926022322/0001104659-26-022322-index.html"
-        }
+        },
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -25082,6 +26402,16 @@
       "cashChangePercent": -44.2,
       "revenueGrowthPercent": -5.05,
       "operatingMarginPercent": 6.39,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 3629900000,
+        "annualRevenuePrior": 3823000000,
+        "annualOperatingExpensesCurrent": null,
+        "annualOperatingExpensesPrior": null,
+        "annualRevenueCurrentPeriodEnd": "2026-01-31",
+        "annualRevenuePriorPeriodEnd": "2025-02-01",
+        "annualOperatingExpensesCurrentPeriodEnd": null,
+        "annualOperatingExpensesPriorPeriodEnd": null
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -25310,6 +26640,7 @@
           "accessionNumber": "0001326380-26-000013",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326380/000132638026000013/0001326380-26-000013-index.html"
         },
+        "operatingExpensesPriorYear": null,
         "operatingCashFlow": {
           "value": 614800000,
           "unit": "USD",
@@ -25413,7 +26744,8 @@
           "form": "10-K",
           "accessionNumber": "0001326380-26-000013",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326380/000132638026000013/0001326380-26-000013-index.html"
-        }
+        },
+        "operatingExpenses": null
       },
       "caveats": [
         "Balance-sheet values are point-in-time facts; cash-flow values are from the latest available full fiscal year.",
@@ -25431,6 +26763,16 @@
       "cashChangePercent": 105.5,
       "revenueGrowthPercent": 4.57,
       "operatingMarginPercent": -0.36,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 4848900000,
+        "annualRevenuePrior": 4637200000,
+        "annualOperatingExpensesCurrent": 14600000,
+        "annualOperatingExpensesPrior": 5400000,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": "2025-12-31",
+        "annualOperatingExpensesPriorPeriodEnd": "2024-12-31"
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -25683,6 +27025,19 @@
           "accessionNumber": "0001411579-26-000016",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000016/0001411579-26-000016-index.html"
         },
+        "operatingExpensesPriorYear": {
+          "value": 5400000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-23",
+          "form": "10-K",
+          "accessionNumber": "0001411579-26-000016",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000016/0001411579-26-000016-index.html"
+        },
         "operatingCashFlow": {
           "value": -119800000,
           "unit": "USD",
@@ -25762,6 +27117,19 @@
           "form": "10-K",
           "accessionNumber": "0001411579-26-000016",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000016/0001411579-26-000016-index.html"
+        },
+        "operatingExpenses": {
+          "value": 14600000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-23",
+          "form": "10-K",
+          "accessionNumber": "0001411579-26-000016",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000016/0001411579-26-000016-index.html"
         }
       },
       "caveats": [
@@ -25780,6 +27148,16 @@
       "cashChangePercent": 450.5,
       "revenueGrowthPercent": 37.96,
       "operatingMarginPercent": -38.03,
+      "scalabilityInputs": {
+        "annualRevenueCurrent": 601799000,
+        "annualRevenuePrior": 436214000,
+        "annualOperatingExpensesCurrent": 436019000,
+        "annualOperatingExpensesPrior": 305950000,
+        "annualRevenueCurrentPeriodEnd": "2025-12-31",
+        "annualRevenuePriorPeriodEnd": "2024-12-31",
+        "annualOperatingExpensesCurrentPeriodEnd": "2025-12-31",
+        "annualOperatingExpensesPriorPeriodEnd": "2024-12-31"
+      },
       "checks": [
         {
           "id": "liquidity",
@@ -26032,6 +27410,19 @@
           "accessionNumber": "0001819994-26-000013",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000013/0001819994-26-000013-index.html"
         },
+        "operatingExpensesPriorYear": {
+          "value": 305950000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-26",
+          "form": "10-K",
+          "accessionNumber": "0001819994-26-000013",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000013/0001819994-26-000013-index.html"
+        },
         "operatingCashFlow": {
           "value": -165521000,
           "unit": "USD",
@@ -26105,6 +27496,19 @@
           "taxonomy": "us-gaap",
           "tag": "OperatingIncomeLoss",
           "label": "Operating Income (Loss)",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-26",
+          "form": "10-K",
+          "accessionNumber": "0001819994-26-000013",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000013/0001819994-26-000013-index.html"
+        },
+        "operatingExpenses": {
+          "value": 436019000,
+          "unit": "USD",
+          "taxonomy": "us-gaap",
+          "tag": "OperatingExpenses",
+          "label": "Operating Expenses",
           "start": "2025-01-01",
           "end": "2025-12-31",
           "filed": "2026-02-26",
