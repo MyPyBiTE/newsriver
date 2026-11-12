@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Man charged with second-degree murder for April death in Saskatoon",
-      "display":"Man charged with second-degree murder for April death in Saskatoon",
-      "url":"https://globalnews.ca/news/12147833/second-degree-murder-charge-saskatoon",
+      "text":"Blue Jays GM Atkins says Santander's social media posts were 'extremely concerning, extremely disappointing'",
+      "display":"Blue Jays GM Atkins says Santander's social media posts were 'extremely concerning, extremely disappointing'",
+      "url":"https://www.mlb.com/bluejays/news/ross-atkins-disappointed-in-anthony-santander-for-social-media-posts",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Friend of woman stabbed to death in North York left traumatized after witnessing violent murder",
+      "display":"Friend of woman stabbed to death in North York left traumatized after witnessing violent murder",
+      "url":"https://toronto.citynews.ca/2026/11/12/friend-of-woman-stabbed-to-death-in-north-york-left-traumatized-after-witnessing-violent-murder",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Man who fled country after Mississauga double shooting arrested, police say",
-      "display":"Man who fled country after Mississauga double shooting arrested, police say",
-      "url":"https://toronto.citynews.ca/2026/11/12/mississauga-double-shooting-canada-wide-suspect-charged",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"We’re Dangerously Close to Another #OscarsSoWhite Year. Can Zendaya, Colman Domingo, Pedro Pascal and More Prevent It?",
-      "display":"We’re Dangerously Close to Another #OscarsSoWhite Year. Can Zendaya, Colman Domingo, Pedro Pascal and More Prevent It?",
-      "url":"https://variety.com/2026/film/awards/scars-so-white-2027-predictions-actors-diversity-1236945645",
+      "text":"Program that supports seniors living at home expands in rural New Brunswick",
+      "display":"Program that supports seniors living at home expands in rural New Brunswick",
+      "url":"https://globalnews.ca/news/12148478/nursing-home-without-walls",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-11-12T16:56:06Z"
+  "generated_utc":"2026-11-12T22:30:25Z"
 }
