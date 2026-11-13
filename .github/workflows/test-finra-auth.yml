@@ -1,0 +1,63 @@
+name: Test FINRA API Authentication
+
+on:
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  test-authentication:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Verify FINRA credentials
+        env:
+          FINRA_CLIENT_ID: ${{ secrets.FINRA_CLIENT_ID }}
+          FINRA_CLIENT_SECRET: ${{ secrets.FINRA_CLIENT_SECRET }}
+        run: |
+          python3 - <<'PY'
+          import os
+          import sys
+          import json
+          import base64
+          from urllib.request import Request, urlopen
+          from urllib.error import HTTPError, URLError
+
+          client_id = os.environ.get("FINRA_CLIENT_ID", "").strip()
+          client_secret = os.environ.get("FINRA_CLIENT_SECRET", "").strip()
+
+          if not client_id or not client_secret:
+              sys.exit("FAIL: Missing FINRA credentials.")
+
+          credentials = base64.b64encode(
+              f"{client_id}:{client_secret}".encode()
+          ).decode()
+
+          url = (
+              "https://ews.fip.finra.org/fip/rest/ews/"
+              "oauth2/access_token?grant_type=client_credentials"
+          )
+
+          request = Request(
+              url,
+              headers={
+                  "Authorization": "Basic " + credentials,
+                  "Accept": "application/json"
+              },
+              method="POST"
+          )
+
+          try:
+              with urlopen(request, timeout=30) as response:
+                  result = json.load(response)
+          except HTTPError as error:
+              sys.exit(f"FAIL: FINRA returned HTTP {error.code}.")
+          except (URLError, TimeoutError, ValueError):
+              sys.exit("FAIL: Could not obtain a valid FINRA response.")
+
+          if isinstance(result, dict) and result.get("access_token"):
+              print("SUCCESS: FINRA authentication works.")
+          else:
+              sys.exit("FAIL: FINRA did not issue an access token.")
+          PY
