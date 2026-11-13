@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"Farm truck caught going 92 km/h in 40 km/h zone: OPP",
-      "display":"Farm truck caught going 92 km/h in 40 km/h zone: OPP",
-      "url":"https://globalnews.ca/news/12149663/mapleton-township-farm-truck-speeding",
+      "text":"Babcock back in Toronto with Oilers to face Leafs",
+      "display":"Babcock back in Toronto with Oilers to face Leafs",
+      "url":"https://globalnews.ca/news/12150403/babcock-back-in-toronto-with-oilers-to-face-leafs",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"Carney arrives in Manila for ASEAN summit, seeks trade pact with Philippines",
+      "display":"Carney arrives in Manila for ASEAN summit, seeks trade pact with Philippines",
+      "url":"https://toronto.citynews.ca/2026/11/13/carney-arrives-in-manila-for-asean-summit-seeks-trade-pact-with-philippines",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Owners of 720,000 BMWs urged to park outside as US recall expands",
-      "display":"Owners of 720,000 BMWs urged to park outside as US recall expands",
-      "url":"https://www.independent.co.uk/news/world/americas/bmw-recall-3-series-x5-models-b3084742.html",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Star stylist Erin Walsh once changed an A-lister’s entire red carpet look because of a ‘perfect’ necklace",
-      "display":"Star stylist Erin Walsh once changed an A-lister’s entire red carpet look because of a ‘perfect’ necklace",
-      "url":"https://pagesix.com/2026/11/13/style/celebrity-stylist-erin-walsh-once-changed-an-entire-red-carpet-look-for-a-perfect-necklace",
+      "text":"FAA orders rare nationwide ground stop at all US airports due to 'extraordinary circumstances'… while White House says 'we're not ruling out anything'",
+      "display":"FAA orders rare nationwide ground stop at all US airports due to 'extraordinary circumstances'… while White House says 'we're not ruling out anything'",
+      "url":"https://www.dailymail.com/sciencetech/article-16291415/faa-ground-stop-airports.html",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-11-13T17:56:02Z"
+  "generated_utc":"2026-11-13T23:03:42Z"
 }
