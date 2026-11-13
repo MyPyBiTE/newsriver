@@ -1,18 +1,18 @@
 {
   "schema": "mypybite.signal-pipeline-audit.v1",
-  "runAt": "2026-11-12T22:58:49Z",
-  "watchedCandidateCount": 406,
+  "runAt": "2026-11-13T03:07:52Z",
+  "watchedCandidateCount": 415,
   "pendingCandidateCount": 9,
   "autoApprovedCount": 0,
   "quarantinedCount": 9,
   "records": [
     {
-      "candidateId": "sec:0002104631-26-000020:0001375365",
+      "candidateId": "sec:0002135314-26-000016:0001375365",
       "pipelineVersion": 1,
       "status": "quarantined",
-      "accessionNumber": "0002104631-26-000020",
+      "accessionNumber": "0002135314-26-000016",
       "cik": "0001375365",
-      "completedAt": "2026-11-12T22:58:49Z",
+      "completedAt": "2026-11-13T03:07:52Z",
       "stage": "publication-gate",
       "reasons": [
         "Who, What, When and How must be source-supported; undisclosed Why or Where must be explicit.",
@@ -23,12 +23,28 @@
       "eventId": null
     },
     {
-      "candidateId": "sec:0001492126-26-000015:0001375365",
+      "candidateId": "sec:0001140361-26-043484:0000320193",
       "pipelineVersion": 1,
       "status": "quarantined",
-      "accessionNumber": "0001492126-26-000015",
+      "accessionNumber": "0001140361-26-043484",
+      "cik": "0000320193",
+      "completedAt": "2026-11-13T03:07:52Z",
+      "stage": "publication-gate",
+      "reasons": [
+        "Who, What, When and How must be source-supported; undisclosed Why or Where must be explicit.",
+        "Important and Critical events require high confidence; other events require at least moderate confidence.",
+        "Automatic publication currently supports Form 8-K and 8-K/A only; other forms require a form-specific reader.",
+        "The selected passage must state a concrete corporate action and must not be filing instructions or regulatory boilerplate."
+      ],
+      "eventId": null
+    },
+    {
+      "candidateId": "sec:0002148161-26-000014:0001375365",
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002148161-26-000014",
       "cik": "0001375365",
-      "completedAt": "2026-11-12T22:58:49Z",
+      "completedAt": "2026-11-13T03:07:52Z",
       "stage": "publication-gate",
       "reasons": [
         "Who, What, When and How must be source-supported; undisclosed Why or Where must be explicit.",
@@ -39,12 +55,12 @@
       "eventId": null
     },
     {
-      "candidateId": "sec:0000909832-26-000136:0000909832",
+      "candidateId": "sec:0001392941-26-000019:0001375365",
       "pipelineVersion": 1,
       "status": "quarantined",
-      "accessionNumber": "0000909832-26-000136",
-      "cik": "0000909832",
-      "completedAt": "2026-11-12T22:58:49Z",
+      "accessionNumber": "0001392941-26-000019",
+      "cik": "0001375365",
+      "completedAt": "2026-11-13T03:07:52Z",
       "stage": "publication-gate",
       "reasons": [
         "Who, What, When and How must be source-supported; undisclosed Why or Where must be explicit.",
@@ -55,51 +71,12 @@
       "eventId": null
     },
     {
-      "candidateId": "sec:0001210412-26-000012:0001690820",
+      "candidateId": "sec:0001392942-26-000018:0001375365",
       "pipelineVersion": 1,
       "status": "quarantined",
-      "accessionNumber": "0001210412-26-000012",
-      "cik": "0001690820",
-      "completedAt": "2026-11-12T22:58:49Z",
-      "stage": "document-collection",
-      "reasons": [
-        "Document URL leaves the expected accession directory."
-      ],
-      "eventId": null
-    },
-    {
-      "candidateId": "sec:0001607889-26-000042:0001690820",
-      "pipelineVersion": 1,
-      "status": "quarantined",
-      "accessionNumber": "0001607889-26-000042",
-      "cik": "0001690820",
-      "completedAt": "2026-11-12T22:58:49Z",
-      "stage": "document-collection",
-      "reasons": [
-        "Document URL leaves the expected accession directory."
-      ],
-      "eventId": null
-    },
-    {
-      "candidateId": "sec:0002012383-26-003982:0002012383",
-      "pipelineVersion": 1,
-      "status": "quarantined",
-      "accessionNumber": "0002012383-26-003982",
-      "cik": "0002012383",
-      "completedAt": "2026-11-12T22:58:49Z",
-      "stage": "document-collection",
-      "reasons": [
-        "Document URL leaves the expected accession directory."
-      ],
-      "eventId": null
-    },
-    {
-      "candidateId": "sec:0001403161-26-000140:0001403161",
-      "pipelineVersion": 1,
-      "status": "quarantined",
-      "accessionNumber": "0001403161-26-000140",
-      "cik": "0001403161",
-      "completedAt": "2026-11-12T22:58:49Z",
+      "accessionNumber": "0001392942-26-000018",
+      "cik": "0001375365",
+      "completedAt": "2026-11-13T03:07:52Z",
       "stage": "publication-gate",
       "reasons": [
         "Who, What, When and How must be source-supported; undisclosed Why or Where must be explicit.",
@@ -110,12 +87,12 @@
       "eventId": null
     },
     {
-      "candidateId": "sec:0000072971-26-000338:0000072971",
+      "candidateId": "sec:0000950103-26-017401:0001326801",
       "pipelineVersion": 1,
       "status": "quarantined",
-      "accessionNumber": "0000072971-26-000338",
-      "cik": "0000072971",
-      "completedAt": "2026-11-12T22:58:49Z",
+      "accessionNumber": "0000950103-26-017401",
+      "cik": "0001326801",
+      "completedAt": "2026-11-13T03:07:52Z",
       "stage": "publication-gate",
       "reasons": [
         "Who, What, When and How must be source-supported; undisclosed Why or Where must be explicit.",
@@ -126,12 +103,44 @@
       "eventId": null
     },
     {
-      "candidateId": "sec:0001193125-26-458686:0001393818",
+      "candidateId": "sec:0000950103-26-017398:0001326801",
       "pipelineVersion": 1,
       "status": "quarantined",
-      "accessionNumber": "0001193125-26-458686",
-      "cik": "0001393818",
-      "completedAt": "2026-11-12T22:58:49Z",
+      "accessionNumber": "0000950103-26-017398",
+      "cik": "0001326801",
+      "completedAt": "2026-11-13T03:07:52Z",
+      "stage": "publication-gate",
+      "reasons": [
+        "Who, What, When and How must be source-supported; undisclosed Why or Where must be explicit.",
+        "Important and Critical events require high confidence; other events require at least moderate confidence.",
+        "Automatic publication currently supports Form 8-K and 8-K/A only; other forms require a form-specific reader.",
+        "The selected passage must state a concrete corporate action and must not be filing instructions or regulatory boilerplate."
+      ],
+      "eventId": null
+    },
+    {
+      "candidateId": "sec:0001018724-26-000042:0001018724",
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0001018724-26-000042",
+      "cik": "0001018724",
+      "completedAt": "2026-11-13T03:07:52Z",
+      "stage": "publication-gate",
+      "reasons": [
+        "Who, What, When and How must be source-supported; undisclosed Why or Where must be explicit.",
+        "Important and Critical events require high confidence; other events require at least moderate confidence.",
+        "Automatic publication currently supports Form 8-K and 8-K/A only; other forms require a form-specific reader.",
+        "The selected passage must state a concrete corporate action and must not be filing instructions or regulatory boilerplate."
+      ],
+      "eventId": null
+    },
+    {
+      "candidateId": "sec:0000789019-26-000234:0000789019",
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0000789019-26-000234",
+      "cik": "0000789019",
+      "completedAt": "2026-11-13T03:07:52Z",
       "stage": "publication-gate",
       "reasons": [
         "Who, What, When and How must be source-supported; undisclosed Why or Where must be explicit.",
