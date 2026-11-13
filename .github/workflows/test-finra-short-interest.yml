@@ -1,0 +1,146 @@
+name: Test FINRA Short Interest
+
+on:
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  test-short-interest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Retrieve MSFT short interest from FINRA
+        env:
+          FINRA_CLIENT_ID: ${{ secrets.FINRA_CLIENT_ID }}
+          FINRA_CLIENT_SECRET: ${{ secrets.FINRA_CLIENT_SECRET }}
+        run: |
+          python3 - <<'PY'
+          import os
+          import sys
+          import json
+          import base64
+          from datetime import date
+          from urllib.request import Request, urlopen
+          from urllib.error import HTTPError, URLError
+
+          CLIENT_ID = os.environ.get("FINRA_CLIENT_ID", "").strip()
+          CLIENT_SECRET = os.environ.get("FINRA_CLIENT_SECRET", "").strip()
+
+          if not CLIENT_ID or not CLIENT_SECRET:
+              sys.exit("FAIL: FINRA credentials are missing.")
+
+          BASE = "https://api.finra.org"
+          DATASET = "otcMarket/name/consolidatedShortInterest"
+
+          def fetch(url, token=None, payload=None, basic=None):
+              headers = {"Accept": "application/json"}
+
+              if token:
+                  headers["Authorization"] = "Bearer " + token
+              if basic:
+                  headers["Authorization"] = "Basic " + basic
+
+              body = None
+              if payload is not None:
+                  body = json.dumps(payload).encode()
+                  headers["Content-Type"] = "application/json"
+
+              method = "POST" if body is not None or basic else "GET"
+              request = Request(
+                  url, data=body, headers=headers, method=method
+              )
+
+              try:
+                  with urlopen(request, timeout=30) as response:
+                      return json.load(response)
+              except HTTPError as error:
+                  sys.exit(f"FAIL: FINRA returned HTTP {error.code}.")
+              except (URLError, TimeoutError, ValueError):
+                  sys.exit("FAIL: FINRA request could not be completed.")
+
+          credentials = base64.b64encode(
+              f"{CLIENT_ID}:{CLIENT_SECRET}".encode()
+          ).decode()
+
+          token_response = fetch(
+              "https://ews.fip.finra.org/fip/rest/ews/"
+              "oauth2/access_token?grant_type=client_credentials",
+              basic=credentials
+          )
+
+          token = token_response.get("access_token")
+          if not token:
+              sys.exit("FAIL: FINRA authentication failed.")
+
+          print("PASS: FINRA authentication.")
+
+          partitions = fetch(
+              f"{BASE}/partitions/group/{DATASET}",
+              token=token
+          )
+
+          if partitions.get("partitionFields") != ["settlementDate"]:
+              sys.exit("FAIL: Unexpected FINRA date structure.")
+
+          dates = []
+          for entry in partitions.get("availablePartitions", []):
+              values = entry.get("partitions", [])
+              if len(values) == 1:
+                  try:
+                      d = date.fromisoformat(values[0])
+                      if d <= date.today():
+                          dates.append(d)
+                  except ValueError:
+                      pass
+
+          if not dates:
+              sys.exit("FAIL: No published settlement dates found.")
+
+          latest = max(dates).isoformat()
+          print("Latest settlement date:", latest)
+
+          rows = fetch(
+              f"{BASE}/data/group/{DATASET}",
+              token=token,
+              payload={
+                  "limit": 100,
+                  "compareFilters": [
+                      {
+                          "compareType": "EQUAL",
+                          "fieldName": "settlementDate",
+                          "fieldValue": latest
+                      },
+                      {
+                          "compareType": "EQUAL",
+                          "fieldName": "symbolCode",
+                          "fieldValue": "MSFT"
+                      }
+                  ]
+              }
+          )
+
+          if not isinstance(rows, list):
+              sys.exit("FAIL: Unexpected FINRA data format.")
+
+          matches = [
+              row for row in rows
+              if row.get("symbolCode") == "MSFT"
+              and row.get("settlementDate") == latest
+          ]
+
+          if not matches:
+              sys.exit("FAIL: No MSFT short-interest record found.")
+
+          print("SUCCESS: FINRA returned MSFT short-interest data.")
+          print("Matching records:", len(matches))
+
+          for row in matches:
+              print("Company:", row.get("issueName"))
+              print("Settlement date:", row.get("settlementDate"))
+              print("Shares short:", row.get("currentShortPositionQuantity"))
+              print("Days to cover:", row.get("daysToCoverQuantity"))
+
+          print("RESEARCH ONLY: No MYPYBITE scores or feeds modified.")
+          PY
