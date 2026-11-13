@@ -1,0 +1,90 @@
+name: Test Massive Free Float
+
+on:
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  test-float:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Retrieve Microsoft free-float data
+        env:
+          MASSIVE_API_KEY: ${{ secrets.MASSIVE_API_KEY }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import sys
+          from datetime import date
+          from urllib.request import Request, urlopen
+          from urllib.error import HTTPError, URLError
+
+          key = os.environ.get("MASSIVE_API_KEY", "").strip()
+
+          if not key:
+              sys.exit("FAIL: Massive API key is missing.")
+
+          url = "https://api.massive.com/stocks/vX/float?ticker=MSFT"
+
+          request = Request(
+              url,
+              headers={
+                  "Authorization": "Bearer " + key,
+                  "Accept": "application/json"
+              }
+          )
+
+          try:
+              with urlopen(request, timeout=30) as response:
+                  data = json.load(response)
+          except HTTPError as error:
+              sys.exit(f"FAIL: Massive returned HTTP {error.code}.")
+          except (URLError, TimeoutError, ValueError):
+              sys.exit("FAIL: Could not retrieve Massive data.")
+
+          if not isinstance(data, dict):
+              sys.exit("FAIL: Unexpected API response.")
+
+          results = data.get("results")
+
+          if not isinstance(results, list):
+              sys.exit("FAIL: Missing results array.")
+
+          matches = [
+              row for row in results
+              if isinstance(row, dict)
+              and row.get("ticker") == "MSFT"
+          ]
+
+          if len(matches) != 1:
+              sys.exit("FAIL: Expected one Microsoft float record.")
+
+          record = matches[0]
+
+          shares = record.get("free_float")
+          effective = record.get("effective_date")
+          percentage = record.get("free_float_percent")
+
+          if type(shares) is not int or shares <= 0:
+              sys.exit("FAIL: Invalid free-float share count.")
+
+          try:
+              observed = date.fromisoformat(effective)
+              if observed > date.today():
+                  raise ValueError()
+          except (TypeError, ValueError):
+              sys.exit("FAIL: Invalid free-float effective date.")
+
+          print("SUCCESS: Massive free-float retrieval works.")
+          print("Ticker: MSFT")
+          print("Free-float shares:", shares)
+          print("Free-float percentage:", percentage)
+          print("Effective date:", effective)
+          print("FINRA settlement date: 2026-10-30")
+          print("Date alignment: NOT YET VERIFIED")
+          print("RESEARCH ONLY: No scores or public feeds modified.")
+          PY
