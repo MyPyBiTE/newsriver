@@ -1,0 +1,71 @@
+name: Test FINRA Collector
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test-collector:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Download repository
+        uses: actions/checkout@v4
+
+      - name: Run collector self-tests
+        run: python3 scripts/fetch_finra_short_interest.py --self-test
+
+      - name: Collect Microsoft short-interest data
+        env:
+          FINRA_CLIENT_ID: ${{ secrets.FINRA_CLIENT_ID }}
+          FINRA_CLIENT_SECRET: ${{ secrets.FINRA_CLIENT_SECRET }}
+        run: |
+          python3 scripts/fetch_finra_short_interest.py \
+            --symbol MSFT \
+            --directory outputs/zero-cost-ticker-directory-development.json \
+            --output "$RUNNER_TEMP/finra-msft-research.json" \
+            --max-pages 2
+
+      - name: Verify collected results
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          path = Path(os.environ["RUNNER_TEMP"]) / "finra-msft-research.json"
+
+          if not path.exists():
+              raise SystemExit("FAIL: Collector produced no output.")
+
+          data = json.loads(path.read_text(encoding="utf-8"))
+          records = data.get("records", [])
+
+          matches = [
+              record for record in records
+              if record.get("ticker") == "MSFT"
+              and record.get("cik") == "0000789019"
+          ]
+
+          if len(matches) != 1:
+              raise SystemExit("FAIL: Expected exactly one verified MSFT record.")
+
+          record = matches[0]
+
+          if not isinstance(record.get("shortShares"), int):
+              raise SystemExit("FAIL: Missing short-share count.")
+
+          if data.get("publishable") is not False:
+              raise SystemExit("FAIL: Research-only restriction missing.")
+
+          print("SUCCESS: FINRA collector works.")
+          print("Company: Microsoft")
+          print("Ticker: MSFT")
+          print("SEC CIK:", record["cik"])
+          print("Settlement date:", record["asOf"])
+          print("Shares short:", record["shortShares"])
+          print("RESEARCH ONLY: No scores or public feeds modified.")
+          PY
