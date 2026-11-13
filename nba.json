@@ -1,57 +1,31 @@
 {
-  "generated_utc": "2026-11-12T23:41:24.664473Z",
+  "generated_utc": "2026-11-13T03:38:42.220245Z",
   "dates": [
     {
       "games": [
         {
-          "gamePk": "401909976",
-          "gameDate": "2026-11-13T00:00Z",
+          "gamePk": "401909979",
+          "gameDate": "2026-11-13T02:00Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "3rd",
+            "currentQuarter": "3rd"
           },
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "TOR"
+                "abbreviation": "CHA"
               },
-              "score": 0
+              "score": 67
             },
             "home": {
               "team": {
-                "abbreviation": "PHI"
+                "abbreviation": "PHX"
               },
-              "score": 0
-            }
-          }
-        },
-        {
-          "gamePk": "401909977",
-          "gameDate": "2026-11-13T00:00Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "DET"
-              },
-              "score": 0
-            },
-            "home": {
-              "team": {
-                "abbreviation": "WSH"
-              },
-              "score": 0
+              "score": 68
             }
           }
         },
@@ -59,51 +33,77 @@
           "gamePk": "401909978",
           "gameDate": "2026-11-13T01:00Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "DAL"
               },
-              "score": 0
+              "score": 94
             },
             "home": {
               "team": {
                 "abbreviation": "MIN"
               },
-              "score": 0
+              "score": 133
             }
           }
         },
         {
-          "gamePk": "401909979",
-          "gameDate": "2026-11-13T02:00Z",
+          "gamePk": "401909976",
+          "gameDate": "2026-11-13T00:00Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Final",
+            "abstractGameState": "Final"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
           },
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "CHA"
+                "abbreviation": "TOR"
               },
-              "score": 0
+              "score": 112
             },
             "home": {
               "team": {
-                "abbreviation": "PHX"
+                "abbreviation": "PHI"
               },
-              "score": 0
+              "score": 123
+            }
+          }
+        },
+        {
+          "gamePk": "401909977",
+          "gameDate": "2026-11-13T00:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "DET"
+              },
+              "score": 144
+            },
+            "home": {
+              "team": {
+                "abbreviation": "WSH"
+              },
+              "score": 140
             }
           }
         }
