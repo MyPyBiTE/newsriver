@@ -1,9 +1,19 @@
 {
   "items":[
     {
-      "text":"New Orleans port sues to get control of tanker that crashed into cruise ship",
-      "display":"New Orleans port sues to get control of tanker that crashed into cruise ship",
-      "url":"https://globalnews.ca/news/12151263/new-orleans-port-sues",
+      "text":"Leafs finish ugly homestand with another loss",
+      "display":"Leafs finish ugly homestand with another loss",
+      "url":"https://globalnews.ca/news/12151614/leafs-finish-ugly-homestand-with-another-loss",
+      "flags":{
+        "is_breaking":false,
+        "is_landmark":true,
+        "has_bitcoin":false
+      }
+    },
+    {
+      "text":"The French Republic’s forgotten promise of equality",
+      "display":"The French Republic’s forgotten promise of equality",
+      "url":"https://www.aljazeera.com/opinions/2026/11/15/the-french-republics-forgotten-promise-of-equality?traffic_source=rss",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -11,19 +21,9 @@
       }
     },
     {
-      "text":"Strictly's Delta Goodrem reveals Kai Widdrington had to go to hospital due to illness as Aljaz Skorjanec steps in as replacement and helps singer achieve her highest score",
-      "display":"Strictly's Delta Goodrem reveals Kai Widdrington had to go to hospital due to illness as Aljaz Skorjanec steps in as replacement and helps singer achieve her highest score",
-      "url":"https://www.dailymail.com/tvshowbiz/article-16292887/Strictly-hosts-Aljaz-Skorjanec-stepping-Kai-Widdrington-illness-welcome-injured-Jaime-Winstone.html",
-      "flags":{
-        "is_breaking":false,
-        "is_landmark":false,
-        "has_bitcoin":false
-      }
-    },
-    {
-      "text":"Lana Del Rey, Dua Lipa, Zara Larsson Contribute New Music to ‘GTA VI: The Album’",
-      "display":"Lana Del Rey, Dua Lipa, Zara Larsson Contribute New Music to ‘GTA VI: The Album’",
-      "url":"https://www.rollingstone.com/music/music-news/lana-del-rey-dua-lipa-zara-larsson-gta-vi-album-track-list-1235658416",
+      "text":"Tempers flare as Lincoln Riley breaks up heated postgame clash between USC and Indiana",
+      "display":"Tempers flare as Lincoln Riley breaks up heated postgame clash between USC and Indiana",
+      "url":"https://nypost.com/2026/11/15/sports/lincoln-riley-holds-back-usc-player-in-heated-indiana-clash",
       "flags":{
         "is_breaking":false,
         "is_landmark":false,
@@ -31,5 +31,5 @@
       }
     }
   ],
-  "generated_utc":"2026-11-14T20:55:16Z"
+  "generated_utc":"2026-11-15T07:10:24Z"
 }
