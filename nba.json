@@ -1,34 +1,8 @@
 {
-  "generated_utc": "2026-11-15T15:46:02.578890Z",
+  "generated_utc": "2026-11-15T20:36:11.775205Z",
   "dates": [
     {
       "games": [
-        {
-          "gamePk": "401909985",
-          "gameDate": "2026-11-15T18:00Z",
-          "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "IND"
-              },
-              "score": 0
-            },
-            "home": {
-              "team": {
-                "abbreviation": "PHI"
-              },
-              "score": 0
-            }
-          }
-        },
         {
           "gamePk": "401909986",
           "gameDate": "2026-11-15T21:00Z",
@@ -234,6 +208,32 @@
                 "abbreviation": "SAC"
               },
               "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401909985",
+          "gameDate": "2026-11-15T18:00Z",
+          "status": {
+            "detailedState": "Final",
+            "abstractGameState": "Final"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": "Final",
+            "currentQuarter": "Final"
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "IND"
+              },
+              "score": 124
+            },
+            "home": {
+              "team": {
+                "abbreviation": "PHI"
+              },
+              "score": 131
             }
           }
         }
