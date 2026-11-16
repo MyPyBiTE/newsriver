@@ -1,0 +1,165 @@
+name: Test Short Interest Validation
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-short-interest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Download repository
+        uses: actions/checkout@v4
+
+      - name: Collect FINRA short-interest data
+        env:
+          FINRA_CLIENT_ID: ${{ secrets.FINRA_CLIENT_ID }}
+          FINRA_CLIENT_SECRET: ${{ secrets.FINRA_CLIENT_SECRET }}
+        run: |
+          python3 scripts/fetch_finra_short_interest.py \
+            --symbol MSFT \
+            --directory outputs/zero-cost-ticker-directory-development.json \
+            --output "$RUNNER_TEMP/finra-validation.json" \
+            --max-pages 2
+
+      - name: Validate FINRA and Massive measurements
+        env:
+          MASSIVE_API_KEY: ${{ secrets.MASSIVE_API_KEY }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import math
+          import os
+          import sys
+          from datetime import date, datetime, timezone
+          from pathlib import Path
+          from urllib.request import Request, urlopen
+          from urllib.error import HTTPError, URLError
+
+          today = datetime.now(timezone.utc).date()
+
+          # Read FINRA research output.
+          path = Path(os.environ["RUNNER_TEMP"]) / "finra-validation.json"
+
+          if not path.exists():
+              sys.exit("FAIL: FINRA output is missing.")
+
+          finra_data = json.loads(path.read_text(encoding="utf-8"))
+
+          if finra_data.get("publishable") is not False:
+              sys.exit("FAIL: Research-only restriction is missing.")
+
+          matches = [
+              row for row in finra_data.get("records", [])
+              if row.get("ticker") == "MSFT"
+              and row.get("cik") == "0000789019"
+          ]
+
+          if len(matches) != 1:
+              sys.exit("FAIL: Expected one verified MSFT record.")
+
+          finra = matches[0]
+
+          short_shares = finra.get("shortShares")
+
+          if type(short_shares) is not int or short_shares < 0:
+              sys.exit("FAIL: Invalid FINRA short-share count.")
+
+          try:
+              settlement = date.fromisoformat(finra["asOf"])
+          except (KeyError, TypeError, ValueError):
+              sys.exit("FAIL: Invalid FINRA settlement date.")
+
+          if settlement > today:
+              sys.exit("FAIL: FINRA settlement date is in the future.")
+
+          # Retrieve Massive's free-float measurement.
+          key = os.environ.get("MASSIVE_API_KEY", "").strip()
+
+          if not key:
+              sys.exit("FAIL: Massive API key is missing.")
+
+          request = Request(
+              "https://api.massive.com/stocks/vX/float?ticker=MSFT",
+              headers={
+                  "Authorization": "Bearer " + key,
+                  "Accept": "application/json"
+              }
+          )
+
+          try:
+              with urlopen(request, timeout=30) as response:
+                  massive_data = json.load(response)
+          except HTTPError as error:
+              sys.exit(f"FAIL: Massive returned HTTP {error.code}.")
+          except (URLError, TimeoutError, ValueError):
+              sys.exit("FAIL: Massive request failed.")
+
+          if not isinstance(massive_data, dict):
+              sys.exit("FAIL: Invalid Massive response.")
+
+          results = massive_data.get("results")
+
+          if not isinstance(results, list):
+              sys.exit("FAIL: Missing Massive results.")
+
+          float_matches = [
+              row for row in results
+              if isinstance(row, dict)
+              and row.get("ticker") == "MSFT"
+          ]
+
+          if len(float_matches) != 1:
+              sys.exit("FAIL: Expected one MSFT float record.")
+
+          massive = float_matches[0]
+          float_shares = massive.get("free_float")
+
+          if type(float_shares) is not int or float_shares <= 0:
+              sys.exit("FAIL: Invalid free-float share count.")
+
+          try:
+              float_date = date.fromisoformat(massive["effective_date"])
+          except (KeyError, TypeError, ValueError):
+              sys.exit("FAIL: Invalid free-float date.")
+
+          if float_date > today:
+              sys.exit("FAIL: Free-float date is in the future.")
+
+          # Calculate without publishing source measurements.
+          short_interest_pct = 100 * short_shares / float_shares
+
+          if not math.isfinite(short_interest_pct):
+              sys.exit("FAIL: Invalid short-interest calculation.")
+
+          # Positive means the float observation is older.
+          gap_days = (settlement - float_date).days
+
+          # Provisional research rule, not an approved scoring rule.
+          within_provisional_window = 0 <= gap_days <= 90
+
+          print("PASS: FINRA company identity verified.")
+          print("PASS: Massive ticker matched.")
+          print("PASS: Both observations have valid dates.")
+          print("PASS: Short-interest calculation completed.")
+          print("Reporting-date gap:", gap_days, "days")
+          print(
+              "Provisional 90-day date check:",
+              "WITHIN RANGE" if within_provisional_window else "REVIEW"
+          )
+
+          if massive.get("free_float_percent") == 100:
+              print("CAUTION: Reported float is 100%.")
+              print("Independent float verification is recommended.")
+
+          print("Corporate-action verification: PENDING")
+          print("Independent source agreement: PENDING")
+          print("Commercial data permissions: PENDING")
+          print("125-point scorecard: UNCHANGED")
+          print("Short-interest score: PENDING")
+          print("RESEARCH ONLY: No public data published.")
+          PY
