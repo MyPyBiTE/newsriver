@@ -1,0 +1,31 @@
+name: Test SEC 13F Inspector
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test-sec-13f-inspector:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Download repository
+        uses: actions/checkout@v4
+
+      - name: Check Python syntax
+        run: |
+          python3 -m py_compile scripts/inspect_sec_13f_holdings.py
+
+      - name: Run SEC 13F inspector tests
+        run: |
+          python3 scripts/inspect_sec_13f_holdings.py --self-test
+
+      - name: Confirm research-only execution
+        run: |
+          echo "SEC 13F synthetic testing completed."
+          echo "No external SEC data downloaded."
+          echo "No institutional ownership scores calculated."
+          echo "No MYPYBITE scores or public feeds modified."
