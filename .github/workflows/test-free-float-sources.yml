@@ -1,0 +1,30 @@
+name: Test Free Float Sources
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test-free-float-sources:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Download repository
+        uses: actions/checkout@v4
+
+      - name: Check Python syntax
+        run: |
+          python3 -m py_compile scripts/validate_free_float_sources.py
+
+      - name: Run free-float validation tests
+        run: |
+          python3 scripts/validate_free_float_sources.py --self-test
+
+      - name: Confirm research-only execution
+        run: |
+          echo "Synthetic free-float validation completed."
+          echo "No external financial data requested."
+          echo "No MYPYBITE scores or public feeds modified."
