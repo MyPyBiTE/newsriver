@@ -1,0 +1,94 @@
+name: Test Massive Historical Prices (Research Only)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check-msft-history:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Verify MSFT daily history without saving prices
+        env:
+          MASSIVE_API_KEY: ${{ secrets.MASSIVE_API_KEY }}
+
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import sys
+          from datetime import datetime, timedelta, timezone
+          from urllib.error import HTTPError, URLError
+          from urllib.request import Request, urlopen
+
+          key = os.environ.get("MASSIVE_API_KEY", "").strip()
+          if not key:
+              sys.exit("FAIL: MASSIVE_API_KEY secret is missing.")
+
+          end = datetime.now(timezone.utc).date() - timedelta(days=2)
+          start = end - timedelta(days=370)
+
+          url = (
+              "https://api.massive.com/v2/aggs/ticker/MSFT/range/1/day/"
+              f"{start}/{end}?adjusted=true&sort=asc&limit=50000"
+          )
+
+          request = Request(url, headers={
+              "Authorization": f"Bearer {key}",
+              "Accept": "application/json",
+          })
+
+          try:
+              with urlopen(request, timeout=45) as response:
+                  payload = json.load(response)
+          except HTTPError as error:
+              sys.exit(f"FAIL: Massive HTTP {error.code}; verify plan entitlement.")
+          except (URLError, TimeoutError, ValueError) as error:
+              sys.exit(f"FAIL: Request error ({type(error).__name__}).")
+
+          if not isinstance(payload, dict):
+              sys.exit("FAIL: Invalid API response.")
+
+          bars = payload.get("results", [])
+
+          if payload.get("ticker") != "MSFT":
+              sys.exit("FAIL: Unexpected ticker.")
+
+          if payload.get("adjusted") is not True:
+              sys.exit("FAIL: Prices are not split-adjusted.")
+
+          if not isinstance(bars, list) or len(bars) < 200:
+              sys.exit("FAIL: Insufficient historical observations.")
+
+          if any(
+              not isinstance(row, dict)
+              or not isinstance(row.get("t"), int)
+              or not isinstance(row.get("c"), (int, float))
+              or row["c"] <= 0
+              for row in bars
+          ):
+              sys.exit("FAIL: Invalid historical bar.")
+
+          dates = [
+              datetime.fromtimestamp(
+                  row["t"] / 1000, timezone.utc
+              ).date()
+              for row in bars
+          ]
+
+          if dates != sorted(set(dates)):
+              sys.exit("FAIL: Dates unsorted or duplicated.")
+
+          print("PASS: Massive MSFT historical access")
+          print("Observations:", len(bars))
+          print("First date:", dates[0].isoformat())
+          print("Last date:", dates[-1].isoformat())
+          print("Adjustment: splits only")
+          print("Dividend return: not verified")
+          print("RESEARCH ONLY: No prices saved or published")
+          print("No MYPYBITE scores modified")
+          PY
