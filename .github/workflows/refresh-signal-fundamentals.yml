@@ -14,7 +14,7 @@ on:
           - "3000"
           - "6500"
       priority_ticker:
-        description: "Optional ticker to refresh first, e.g. BRK-A. Leave blank for normal operation."
+        description: "Optional exact ticker to refresh first (e.g. BRK-A)"
         type: string
         required: false
         default: ""
@@ -69,26 +69,20 @@ jobs:
             100|1000|3000|6500) ;;
             *) echo "Invalid refresh batch: $REFRESH_BATCH"; exit 1 ;;
           esac
-          ticker_args=()
-          if [ -n "$PRIORITY_TICKER" ]; then
-            PRIORITY_TICKER="${PRIORITY_TICKER^^}"
-            if [[ ! "$PRIORITY_TICKER" =~ ^[A-Z0-9][A-Z0-9.-]{0,19}$ ]]; then
-              echo "Invalid priority ticker."
-              exit 1
-            fi
-            ticker_args=(--ticker "$PRIORITY_TICKER")
-          fi
           echo "SEC cache refresh batch: $REFRESH_BATCH"
-          if [ "${#ticker_args[@]}" -gt 0 ]; then
-            echo "Priority ticker: $PRIORITY_TICKER"
-          fi
           python scripts/build_fundamental_snapshot.py
           python scripts/build_ticker_directory.py
-          # The weekday schedule keeps refreshing 100 records per run.
-          # A manual run may refresh up to 6500 companies once to catch up
-          # after a new financial field is added. The SEC client enforces
-          # a 0.25-second minimum interval between requests.
-          python scripts/build_fundamental_lookup_cache.py --batch-size 6000 --refresh-batch-size "$REFRESH_BATCH" --initial-fill-minimum 5000 "${ticker_args[@]}"
+          # Keep regular weekday refresh behavior unchanged.
+          args=(--batch-size 6000 --refresh-batch-size "$REFRESH_BATCH" --initial-fill-minimum 5000)
+          if [ -n "$PRIORITY_TICKER" ]; then
+            if [[ ! "$PRIORITY_TICKER" =~ ^[A-Z0-9][A-Z0-9.-]{0,19}$ ]]; then
+              echo "Invalid priority ticker; enter an uppercase ticker such as BRK-A."
+              exit 1
+            fi
+            args+=(--ticker "$PRIORITY_TICKER")
+            echo "Priority ticker requested: $PRIORITY_TICKER"
+          fi
+          python scripts/build_fundamental_lookup_cache.py "${args[@]}"
           python scripts/build_signal_feed.py --output signal-feed.json
 
       - name: Build MYPYBITE 125-point scorecard feed
