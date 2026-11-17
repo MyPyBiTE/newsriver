@@ -453,6 +453,7 @@ def main() -> int:
                     "ticker": company["ticker"],
                     "cik": cik,
                     "legalName": company["legalName"],
+                    "aliases": company["aliases"],
                     "cohort": None,
                 },
                 json.loads(text),
