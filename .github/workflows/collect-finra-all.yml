@@ -1,0 +1,107 @@
+name: Collect all FINRA short-interest records
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: finra-all-collection
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    # Retain raw research privately until the public delivery step is configured.
+    if: github.event.repository.private == true
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out private research repository
+        uses: actions/checkout@v4
+
+      - name: Get existing NewsRiver collector and ticker directory
+        uses: actions/checkout@v4
+        with:
+          repository: MyPyBiTE/newsriver
+          ref: main
+          path: source-newsriver
+          persist-credentials: false
+          sparse-checkout: |
+            scripts/fetch_finra_short_interest.py
+            outputs/zero-cost-ticker-directory-development.json
+          sparse-checkout-cone-mode: false
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Test existing collector
+        run: python source-newsriver/scripts/fetch_finra_short_interest.py --self-test
+
+      - name: Collect the latest reporting period across all symbols
+        env:
+          FINRA_CLIENT_ID: ${{ secrets.FINRA_CLIENT_ID }}
+          FINRA_CLIENT_SECRET: ${{ secrets.FINRA_CLIENT_SECRET }}
+        run: |
+          python source-newsriver/scripts/fetch_finra_short_interest.py \
+            --directory source-newsriver/outputs/zero-cost-ticker-directory-development.json \
+            --output "$RUNNER_TEMP/finra-all.json" \
+            --max-pages 100
+
+      - name: Validate and retain the complete collected snapshot
+        env:
+          COLLECTED_PATH: ${{ runner.temp }}/finra-all.json
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from datetime import date, datetime, timezone
+          from pathlib import Path
+
+          payload = json.loads(Path(os.environ['COLLECTED_PATH']).read_text())
+          if payload.get('schema') != 'mypybite.finra-short-shares.RESEARCH-ONLY.v1':
+              raise SystemExit('Unexpected collection format.')
+          if payload.get('publishable') is not False:
+              raise SystemExit('Unexpected publication flag.')
+          records = payload.get('records')
+          if not isinstance(records, list) or not records:
+              raise SystemExit('No verified securities: preserving the previous snapshot.')
+          settlement = date.fromisoformat(payload['settlementDate'])
+          if settlement > datetime.now(timezone.utc).date():
+              raise SystemExit('Future settlement date rejected.')
+          seen = set()
+          for row in records:
+              symbol = row.get('ticker')
+              if not symbol or symbol in seen or row.get('asOf') != settlement.isoformat():
+                  raise SystemExit('Duplicate security or inconsistent reporting date.')
+              if type(row.get('shortShares')) is not int or row['shortShares'] < 0:
+                  raise SystemExit('Invalid reported short-share count.')
+              seen.add(symbol)
+          destination = Path('data/finra')
+          history = destination / 'history'
+          history.mkdir(parents=True, exist_ok=True)
+          text = json.dumps(payload, indent=2) + '\n'
+          (destination / 'latest.json').write_text(text, encoding='utf-8')
+          stamp = datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')
+          (history / f'{settlement}-{stamp}.json').write_text(text, encoding='utf-8')
+          summary = [
+              '## FINRA market-wide collection',
+              f'Settlement date: {settlement}',
+              f'Verified securities retained: {len(records)}',
+              'Coverage: ' + json.dumps(payload.get('coverage', {}), sort_keys=True),
+              'Saved privately. No Zoho display or score changes yet.',
+          ]
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
+              f.write('\n\n'.join(summary) + '\n')
+          PY
+
+      - name: Save only FINRA research files in the private repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- data/finra
+          if ! git diff --cached --quiet; then
+            git commit -m "Retain full-period FINRA short-interest collection"
+            git push
+          fi
