@@ -3,8 +3,8 @@
     {
       "games": [
         {
-          "gamePk": "401933535",
-          "gameDate": "2026-11-20T00:30Z",
+          "gamePk": "401933733",
+          "gameDate": "2026-11-21T19:00Z",
           "status": {
             "detailedState": "Preview",
             "abstractGameState": "Preview"
@@ -16,21 +16,21 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "CIN"
+                "abbreviation": "PHI"
               },
               "score": 0
             },
             "home": {
               "team": {
-                "abbreviation": "ORL"
+                "abbreviation": "NE"
               },
               "score": 0
             }
           }
         },
         {
-          "gamePk": "401933555",
-          "gameDate": "2026-11-20T03:00Z",
+          "gamePk": "401933732",
+          "gameDate": "2026-11-21T21:00Z",
           "status": {
             "detailedState": "Preview",
             "abstractGameState": "Preview"
@@ -42,13 +42,39 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "RSL"
+                "abbreviation": "POR"
               },
               "score": 0
             },
             "home": {
               "team": {
-                "abbreviation": "SEA"
+                "abbreviation": "DAL"
+              },
+              "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401933739",
+          "gameDate": "2026-11-21T23:00Z",
+          "status": {
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "CLB"
+              },
+              "score": 0
+            },
+            "home": {
+              "team": {
+                "abbreviation": "MIA"
               },
               "score": 0
             }
