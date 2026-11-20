@@ -2,9 +2,11 @@ name: Collect all FINRA short-interest records
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '37 11 * * 1-5'
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: finra-all-collection
@@ -17,101 +19,85 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          persist-credentials: false
-
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
-      - name: Verify required secrets are configured
-        env:
-          FINRA_CLIENT_ID: ${{ secrets.FINRA_CLIENT_ID }}
-          FINRA_CLIENT_SECRET: ${{ secrets.FINRA_CLIENT_SECRET }}
-          FINRA_ARCHIVE_PASSWORD: ${{ secrets.FINRA_ARCHIVE_PASSWORD }}
-        run: |
-          python - <<'PY'
-          import os
-          required = ('FINRA_CLIENT_ID', 'FINRA_CLIENT_SECRET', 'FINRA_ARCHIVE_PASSWORD')
-          missing = [key for key in required if not os.environ.get(key)]
-          if missing:
-              raise SystemExit('Add repository secrets: ' + ', '.join(missing))
-          if len(os.environ['FINRA_ARCHIVE_PASSWORD']) < 32:
-              raise SystemExit('Use a unique randomly generated archive password of at least 32 characters.')
-          PY
-
-      - name: Run collector self-tests
+      - name: Test collector
         run: python scripts/fetch_finra_short_interest.py --self-test
-
-      - name: Collect and validate all supported securities
+      - name: Collect and build public FINRA display feed
         env:
           FINRA_CLIENT_ID: ${{ secrets.FINRA_CLIENT_ID }}
           FINRA_CLIENT_SECRET: ${{ secrets.FINRA_CLIENT_SECRET }}
         run: |
           python - <<'PY'
+          """Normalize all verified securities; no publication permission is inferred."""
+          import argparse
+          from datetime import date
           import json
+          from pathlib import Path
+          import re
+          
+          
+          def build(payload):
+              if payload.get('schema') != 'mypybite.finra-short-shares.RESEARCH-ONLY.v1':
+                  raise ValueError('Unexpected collector schema')
+              settlement = payload.get('settlementDate')
+              if not isinstance(settlement, str) or date.fromisoformat(settlement).isoformat() != settlement or not 0 <= (date.today() - date.fromisoformat(settlement)).days <= 45:
+                  raise ValueError('Invalid settlement date')
+              rows = []
+              seen = set()
+              records = payload.get('records')
+              if not isinstance(records, list) or not records:
+                  raise ValueError('Refusing an empty display feed')
+              for item in records:
+                  ticker, cik, shares = item.get('ticker'), item.get('cik'), item.get('shortShares')
+                  if not isinstance(ticker,str) or not re.fullmatch(r'[A-Z0-9][A-Z0-9.\-]{0,19}',ticker) or ticker in seen:
+                      raise ValueError('Invalid or duplicate security')
+                  if not isinstance(cik,str) or not re.fullmatch(r'\d{10}',cik) or int(cik)==0:
+                      raise ValueError('Invalid CIK')
+                  if type(shares) is not int or not 0 <= shares <= 9007199254740991 or item.get('asOf') != settlement:
+                      raise ValueError('Invalid count or mismatched period')
+                  seen.add(ticker)
+                  rows.append({'ticker':ticker,'cik':cik,'shortShares':shares,'settlementDate':settlement})
+              return {'schema':'mypybite.finra-display.v2','delivery':'public-noncommercial',
+                      'source':'FINRA','owner':'FINRA','usage':'Non-commercial personal or professional use only. No further redistribution.','termsUrl':'https://developer.finra.org/specific-terms-equity-data','settlementDate':settlement,'retrievedAt':payload.get('retrievedAt'),
+                      'coverage':payload.get('coverage'),'data':sorted(rows,key=lambda row:row['ticker'])}
+          
+          
+          
           import os
           import subprocess
           import sys
-          from datetime import date, datetime, timezone
-          from pathlib import Path
-
-          output = Path(os.environ['RUNNER_TEMP']) / 'finra-all.json'
-          result = subprocess.run([
-              sys.executable, 'scripts/fetch_finra_short_interest.py',
+          raw = Path(os.environ['RUNNER_TEMP']) / 'finra-research.json'
+          result = subprocess.run([sys.executable, 'scripts/fetch_finra_short_interest.py',
               '--directory', 'outputs/zero-cost-ticker-directory-development.json',
-              '--output', str(output), '--max-pages', '100'
-          ], capture_output=True, text=True)
-          # Do not copy raw provider responses or individual observations to public logs.
+              '--output', str(raw), '--max-pages', '100'], capture_output=True, text=True)
           if result.returncode:
-              raise SystemExit('FINRA collection failed. No archive published. Check credentials and provider availability; do not paste secret values into logs.')
-          payload = json.loads(output.read_text(encoding='utf-8'))
-          if payload.get('schema') != 'mypybite.finra-short-shares.RESEARCH-ONLY.v1' or payload.get('publishable') is not False:
-              raise SystemExit('Unexpected research contract.')
-          settlement = date.fromisoformat(payload['settlementDate'])
-          if not 0 <= (datetime.now(timezone.utc).date() - settlement).days <= 45:
-              raise SystemExit('Settlement date is invalid or stale.')
-          records = payload.get('records')
-          if not isinstance(records, list) or not records:
-              raise SystemExit('No verified securities collected.')
-          seen = set()
-          for row in records:
-              ticker = row.get('ticker')
-              if not ticker or ticker in seen or row.get('asOf') != settlement.isoformat():
-                  raise SystemExit('Duplicate security or reporting-date mismatch.')
-              if type(row.get('shortShares')) is not int or row['shortShares'] < 0:
-                  raise SystemExit('Invalid short-share count.')
-              seen.add(ticker)
-          # Only operational coverage counts enter the public run summary.
-          summary = [
-              '## FINRA full-reporting-period collection',
-              f'Settlement date: {settlement}',
-              f'Verified securities collected: {len(records)}',
-              'Coverage: ' + json.dumps(payload.get('coverage', {}), sort_keys=True),
-              'All-symbol query: no ticker filter was supplied.',
-              'Source observations will be retained only in an encrypted artifact.',
-              'No public feed, Zoho display, percentage, or points changed.'
-          ]
-          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as file:
-              file.write('\n\n'.join(summary) + '\n')
+              raise SystemExit('FINRA collection failed. Existing public feed preserved. Check authentication and provider availability.')
+          try:
+              result = build(json.loads(raw.read_text(encoding='utf-8')))
+          finally:
+              raw.unlink(missing_ok=True)
+          destination = Path('data/finra/display.json')
+          if destination.exists():
+              previous = json.loads(destination.read_text(encoding='utf-8'))
+              if previous.get('settlementDate', '') > result['settlementDate']:
+                  raise SystemExit('Refusing to replace a newer reporting period.')
+          destination.parent.mkdir(parents=True, exist_ok=True)
+          destination.write_text(json.dumps(result, separators=(',', ':'))+'\n', encoding='utf-8')
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as summary:
+              summary.write('## FINRA public display feed\n\nOwner and source: FINRA\n\nSettlement date: '+result['settlementDate']+'\n\nVerified securities: '+str(len(result['data']))+'\n\nCoverage: '+json.dumps(result['coverage'])+'\n\nShares short only; no percentage or scoring changes.\n')
           PY
-
-      - name: Encrypt collected records
-        env:
-          FINRA_ARCHIVE_PASSWORD: ${{ secrets.FINRA_ARCHIVE_PASSWORD }}
+      - name: Publish only the display feed to NewsRiver
         run: |
-          openssl enc -aes-256-cbc -salt -pbkdf2 -iter 600000 \
-            -in "$RUNNER_TEMP/finra-all.json" \
-            -out "$RUNNER_TEMP/finra-all.json.enc" \
-            -pass env:FINRA_ARCHIVE_PASSWORD
-
-      - name: Retain encrypted research download for 30 days
-        uses: actions/upload-artifact@v4
-        with:
-          name: finra-all-encrypted-${{ github.run_id }}
-          path: ${{ runner.temp }}/finra-all.json.enc
-          if-no-files-found: error
-          retention-days: 30
-
-      - name: Remove temporary unencrypted output
-        if: always()
-        run: rm -f -- "$RUNNER_TEMP/finra-all.json"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- data/finra/display.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Refresh FINRA short-interest display feed"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main || exit 1
+            if git push origin HEAD:main; then exit 0; fi
+          done
+          exit 1
