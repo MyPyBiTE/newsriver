@@ -14,6 +14,7 @@ import os
 from pathlib import Path
 import re
 import sys
+from urllib.error import HTTPError
 from urllib.parse import urlencode, urlsplit, urlunsplit, parse_qsl
 from urllib.request import Request, urlopen
 
@@ -57,8 +58,12 @@ def fetch_json(url, headers=None, timeout=40):
     request = Request(url, headers={'Accept': 'application/json',
                                     'User-Agent': 'MYPYBITE Research contact via GitHub MyPyBiTE/newsriver',
                                     **(headers or {})})
-    with urlopen(request, timeout=timeout) as response:
-        return json.load(response)
+    try:
+        with urlopen(request, timeout=timeout) as response:
+            return json.load(response)
+    except HTTPError as exc:
+        endpoint = urlsplit(url)
+        raise RuntimeError(f'{endpoint.hostname}{endpoint.path} returned HTTP {exc.code}') from None
 
 
 def directory_from_sec(sec):
