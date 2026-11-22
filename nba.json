@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-21T20:55:41.941536Z",
+  "generated_utc": "2026-11-22T00:56:20.338449Z",
   "dates": [
     {
       "games": [
@@ -7,25 +7,25 @@
           "gamePk": "401910024",
           "gameDate": "2026-11-22T00:30Z",
           "status": {
-            "detailedState": "Preview",
-            "abstractGameState": "Preview"
+            "detailedState": "Live",
+            "abstractGameState": "Live"
           },
           "linescore": {
-            "currentPeriodOrdinal": null,
-            "currentQuarter": null
+            "currentPeriodOrdinal": "1st",
+            "currentQuarter": "1st"
           },
           "teams": {
             "away": {
               "team": {
                 "abbreviation": "POR"
               },
-              "score": 0
+              "score": 13
             },
             "home": {
               "team": {
                 "abbreviation": "NYK"
               },
-              "score": 0
+              "score": 25
             }
           }
         },
@@ -132,32 +132,6 @@
               "score": 0
             }
           }
-        },
-        {
-          "gamePk": "401910023",
-          "gameDate": "2026-11-21T18:00Z",
-          "status": {
-            "detailedState": "Final",
-            "abstractGameState": "Final"
-          },
-          "linescore": {
-            "currentPeriodOrdinal": "Final",
-            "currentQuarter": "Final"
-          },
-          "teams": {
-            "away": {
-              "team": {
-                "abbreviation": "MIL"
-              },
-              "score": 129
-            },
-            "home": {
-              "team": {
-                "abbreviation": "PHI"
-              },
-              "score": 132
-            }
-          }
         }
       ]
     }
@@ -168,7 +142,7 @@
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261120",
       "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261121"
     ],
-    "games_count": 6,
+    "games_count": 5,
     "http_timeout_sec": 12.0,
     "version": "nba-relay-1.1",
     "preview_hours": 36,
