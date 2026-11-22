@@ -3,8 +3,8 @@
     {
       "games": [
         {
-          "gamePk": "401933733",
-          "gameDate": "2026-11-21T19:00Z",
+          "gamePk": "401933731",
+          "gameDate": "2026-11-22T21:00Z",
           "status": {
             "detailedState": "Preview",
             "abstractGameState": "Preview"
@@ -16,21 +16,21 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "PHI"
+                "abbreviation": "CIN"
               },
               "score": 0
             },
             "home": {
               "team": {
-                "abbreviation": "NE"
+                "abbreviation": "NSH"
               },
-              "score": 2
+              "score": 0
             }
           }
         },
         {
-          "gamePk": "401933732",
-          "gameDate": "2026-11-21T21:00Z",
+          "gamePk": "401933730",
+          "gameDate": "2026-11-22T23:30Z",
           "status": {
             "detailedState": "Preview",
             "abstractGameState": "Preview"
@@ -42,21 +42,21 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "POR"
+                "abbreviation": "CLT"
               },
               "score": 0
             },
             "home": {
               "team": {
-                "abbreviation": "DAL"
+                "abbreviation": "CHI"
               },
-              "score": 3
+              "score": 0
             }
           }
         },
         {
-          "gamePk": "401933739",
-          "gameDate": "2026-11-21T23:00Z",
+          "gamePk": "401933729",
+          "gameDate": "2026-11-23T01:30Z",
           "status": {
             "detailedState": "Preview",
             "abstractGameState": "Preview"
@@ -68,13 +68,13 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "CLB"
+                "abbreviation": "RSL"
               },
-              "score": 3
+              "score": 0
             },
             "home": {
               "team": {
-                "abbreviation": "MIA"
+                "abbreviation": "VAN"
               },
               "score": 0
             }
