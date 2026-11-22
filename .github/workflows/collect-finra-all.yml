@@ -59,7 +59,18 @@ jobs:
                   if type(shares) is not int or not 0 <= shares <= 9007199254740991 or item.get('asOf') != settlement:
                       raise ValueError('Invalid count or mismatched period')
                   seen.add(ticker)
-                  rows.append({'ticker':ticker,'cik':cik,'shortShares':shares,'settlementDate':settlement})
+                  row = {'ticker':ticker,'cik':cik,'shortShares':shares,'settlementDate':settlement}
+                  previous = item.get('previousShortShares')
+                  volume = item.get('averageDailyVolume')
+                  if item.get('stockSplitFlag') == 'N' and type(previous) is int and 0 <= previous <= 9007199254740991:
+                      row['previousShortShares'] = previous
+                      row['shortSharesChange'] = shares - previous
+                      if previous > 0:
+                          row['shortSharesChangePercent'] = round((shares - previous) / previous * 100, 4)
+                  if type(volume) is int and 0 < volume <= 9007199254740991:
+                      row['averageDailyVolume'] = volume
+                      row['daysToCover'] = round(shares / volume, 4)
+                  rows.append(row)
               return {'schema':'mypybite.finra-display.v2','delivery':'public-noncommercial',
                       'source':'FINRA','owner':'FINRA','usage':'Non-commercial personal or professional use only. No further redistribution.','termsUrl':'https://developer.finra.org/specific-terms-equity-data','settlementDate':settlement,'retrievedAt':payload.get('retrievedAt'),
                       'coverage':payload.get('coverage'),'data':sorted(rows,key=lambda row:row['ticker'])}
@@ -87,7 +98,7 @@ jobs:
           destination.parent.mkdir(parents=True, exist_ok=True)
           destination.write_text(json.dumps(result, separators=(',', ':'))+'\n', encoding='utf-8')
           with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as summary:
-              summary.write('## FINRA public display feed\n\nOwner and source: FINRA\n\nSettlement date: '+result['settlementDate']+'\n\nVerified securities: '+str(len(result['data']))+'\n\nCoverage: '+json.dumps(result['coverage'])+'\n\nShares short only; no percentage or scoring changes.\n')
+              summary.write('## FINRA public display feed\n\nOwner and source: FINRA\n\nSettlement date: '+result['settlementDate']+'\n\nVerified securities: '+str(len(result['data']))+'\n\nCoverage: '+json.dumps(result['coverage'])+'\n\nShares short, days to cover and settlement-to-settlement change when available. No float-based scoring changes.\n')
           PY
       - name: Publish only the display feed to NewsRiver
         run: |
