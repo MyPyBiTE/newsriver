@@ -116,6 +116,11 @@ def parse_partitions(payload: Any, *, today: date) -> str:
     return newest.isoformat()
 
 
+def normalize_symbol(symbol: str) -> str:
+    # Keep each share class distinct across SEC and FINRA separator conventions.
+    return re.sub(r"[/ ](?=[A-Z]$)", "-", symbol).replace(".", "-")
+
+
 def sec_directory(path: Path) -> dict[str, str | None]:
     payload = json.loads(path.read_text(encoding="utf-8"))
     if payload.get("schema") != "mypybite.ticker-directory.v1":
@@ -136,7 +141,7 @@ def sec_directory(path: Path) -> dict[str, str | None]:
             continue
         if not isinstance(cik, (str, int)) or not str(cik).isdigit():
             continue
-        all_ids[symbol.replace(".", "-")].add(str(cik).zfill(10))
+        all_ids[normalize_symbol(symbol)].add(str(cik).zfill(10))
     # Never force an ambiguous ticker to a single CIK.
     return {symbol: (next(iter(ciks)) if len(ciks) == 1 else None)
             for symbol, ciks in all_ids.items()}
@@ -195,20 +200,23 @@ def build_research_payload(rows: list[dict[str, Any]], directory: dict[str, str 
             continue
         symbol = row.get("symbolCode")
         shares = row.get("currentShortPositionQuantity")
-        if not isinstance(symbol, str) or not SYMBOL.fullmatch(symbol):
+        symbol = normalize_symbol(symbol) if isinstance(symbol, str) else ""
+        if not SYMBOL.fullmatch(symbol):
             rejected["invalid_symbol"] += 1
             continue
         if type(shares) is not int or shares < 0:
             rejected["invalid_short_shares"] += 1
             continue
-        symbol = symbol.replace(".", "-")
         cik = directory.get(symbol)
         if not cik:
             rejected["no_unique_SEC_CIK"] += 1
             continue
         by_symbol[symbol].append({
             "ticker": symbol, "cik": cik, "asOf": settlement_date,
-            "shortShares": shares, "basis": "reported-short-interest",
+            "shortShares": shares,
+            "previousShortShares": row.get("previousShortPositionQuantity"),
+            "averageDailyVolume": row.get("averageDailyVolumeQuantity"),
+            "basis": "reported-short-interest",
             "sourceUrl": DATA_ENDPOINT,
             "exchangeClass": row.get("marketClassCode"),
             "issueName": row.get("issueName"),
@@ -311,7 +319,7 @@ class Tests(unittest.TestCase):
 
     def test_berkshire_share_classes_match_across_separators(self) -> None:
         cik = "0001067983"
-        rows = [self.sample("BRK.B", 200), self.sample("BRK.A", 10)]
+        rows = [self.sample("BRK/B", 200), self.sample("BRK.A", 10)]
         payload = build_research_payload(
             rows, {"BRK-B": cik, "BRK-A": cik},
             settlement_date=rows[0]["settlementDate"],
