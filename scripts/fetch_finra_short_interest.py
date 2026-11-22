@@ -136,7 +136,7 @@ def sec_directory(path: Path) -> dict[str, str | None]:
             continue
         if not isinstance(cik, (str, int)) or not str(cik).isdigit():
             continue
-        all_ids[symbol].add(str(cik).zfill(10))
+        all_ids[symbol.replace(".", "-")].add(str(cik).zfill(10))
     # Never force an ambiguous ticker to a single CIK.
     return {symbol: (next(iter(ciks)) if len(ciks) == 1 else None)
             for symbol, ciks in all_ids.items()}
@@ -201,6 +201,7 @@ def build_research_payload(rows: list[dict[str, Any]], directory: dict[str, str 
         if type(shares) is not int or shares < 0:
             rejected["invalid_short_shares"] += 1
             continue
+        symbol = symbol.replace(".", "-")
         cik = directory.get(symbol)
         if not cik:
             rejected["no_unique_SEC_CIK"] += 1
@@ -307,6 +308,18 @@ class Tests(unittest.TestCase):
                                          {"MSFT": "0000789019"}, settlement_date="2026-10-30")
         self.assertEqual(payload["coverage"]["uniqueMatchedSecurities"], 0)
         self.assertEqual(payload["coverage"]["rejected"]["ambiguous_FINRA_symbol"], 2)
+
+    def test_berkshire_share_classes_match_across_separators(self) -> None:
+        cik = "0001067983"
+        rows = [self.sample("BRK.B", 200), self.sample("BRK.A", 10)]
+        payload = build_research_payload(
+            rows, {"BRK-B": cik, "BRK-A": cik},
+            settlement_date=rows[0]["settlementDate"],
+        )
+        self.assertEqual(
+            [(row["ticker"], row["shortShares"]) for row in payload["records"]],
+            [("BRK-A", 10), ("BRK-B", 200)],
+        )
 
     def test_symbol_missing_from_directory(self) -> None:
         payload = build_research_payload([self.sample(symbol="XXX")], {},
