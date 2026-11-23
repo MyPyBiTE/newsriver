@@ -59,7 +59,7 @@ def build_feed(
             str(company["cik"]): company.get("facts") or {}
             for company in revenue_cache["companies"]
         }
-        if "annualRevenueFacts" in positions:
+        if "annualIncomeStatementFacts" in positions:
             raise ValueError("Calculator feed already contains annual revenue facts")
     output_rows: list[dict[str, Any]] = []
     seen_ciks: set[str] = set()
@@ -91,7 +91,7 @@ def build_feed(
             score = assemble(fields, row)
         else:
             score = assemble(
-                [*fields, "annualRevenueFacts"],
+                [*fields, "annualIncomeStatementFacts"],
                 [*row, revenue_by_cik.get(cik, {})],
             )
         categories = score["categories"]

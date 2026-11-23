@@ -100,6 +100,39 @@ def score_annual_revenue(facts: Mapping[str, Any]) -> dict[str, Any]:
     return result
 
 
+def score_annual_operating_margin(facts: Mapping[str, Any]) -> dict[str, Any]:
+    revenue = facts.get("revenue") or {}
+    income = facts.get("operatingIncome") or {}
+    revenue_value = _number(revenue.get("value"))
+    income_value = _number(income.get("value"))
+    if revenue_value is None or revenue_value <= 0:
+        return _result(None, "Positive annual revenue is required to calculate operating margin.")
+    if income_value is None:
+        return _result(None, "Operating income for the same fiscal year is missing from the SEC cache.")
+    if not revenue.get("unit") or revenue["unit"] != income.get("unit"):
+        return _result(None, "Operating income and revenue must use the same currency.")
+    start, end = revenue.get("start"), revenue.get("end")
+    if not (_valid_date(start) and _valid_date(end) and start == income.get("start") and end == income.get("end")):
+        return _result(None, "Operating income and revenue must cover the same fiscal year.")
+    duration = (date.fromisoformat(end) - date.fromisoformat(start)).days + 1
+    if not 350 <= duration <= 380:
+        return _result(None, "Operating income and revenue do not cover a full fiscal year.")
+
+    margin = round(income_value / revenue_value * 100, 2)
+    result = operating_margin(margin, end, end)
+    result["reason"] = (
+        f"Operating margin: {margin:g}%. "
+        f"Operating income of {income['unit']} {income['value']:,} divided by "
+        f"revenue of {revenue['unit']} {revenue['value']:,} ({start} to {end})."
+    )
+    result["evidence"] = {
+        "sourceUrls": list(dict.fromkeys(
+            fact["sourceUrl"] for fact in (income, revenue) if fact.get("sourceUrl")
+        )),
+    }
+    return result
+
+
 def score_company(company: Mapping[str, Any]) -> dict[str, Any]:
     """Calculate only 30 of the planned 125 points; pending is never zero."""
     categories = {
@@ -107,8 +140,9 @@ def score_company(company: Mapping[str, Any]) -> dict[str, Any]:
         "revenueGrowth": revenue_growth(company.get("revenueGrowthPercent"), company.get("revenuePeriodEnd")),
         "operatingMargin": operating_margin(company.get("operatingMarginPercent"), company.get("operatingIncomePeriodEnd"), company.get("revenuePeriodEnd")),
     }
-    if "annualRevenueFacts" in company:
-        categories["revenueGrowth"] = score_annual_revenue(company["annualRevenueFacts"])
+    if "annualIncomeStatementFacts" in company:
+        categories["revenueGrowth"] = score_annual_revenue(company["annualIncomeStatementFacts"])
+        categories["operatingMargin"] = score_annual_operating_margin(company["annualIncomeStatementFacts"])
     scored = [item["points"] for item in categories.values() if item["points"] is not None]
     return {
         "ticker": company.get("ticker"),

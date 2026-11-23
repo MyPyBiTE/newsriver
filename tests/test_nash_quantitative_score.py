@@ -71,6 +71,20 @@ class QuantitativeScoreTests(unittest.TestCase):
     def test_margin_period_mismatch(self):
         self.assertIsNone(operating_margin(30, DATE, "2025-09-27")["points"])
 
+    def test_margin_recomputes_signed_income_and_requires_matching_periods(self):
+        fact = {"unit": "USD", "start": "2025-01-01", "end": "2025-12-31"}
+        facts = {
+            "revenue": {**fact, "value": 100},
+            "operatingIncome": {**fact, "value": -20, "sourceUrl": "https://www.sec.gov/filing"},
+        }
+        company = {"annualIncomeStatementFacts": facts}
+        result = score_company(company)["categories"]["operatingMargin"]
+        self.assertEqual(result["points"], 0)
+        self.assertIn("Operating margin: -20%", result["reason"])
+        self.assertEqual(result["evidence"]["sourceUrls"], ["https://www.sec.gov/filing"])
+        facts["operatingIncome"]["start"] = "2025-04-01"
+        self.assertIsNone(score_company(company)["categories"]["operatingMargin"]["points"])
+
     def test_partial_score_does_not_turn_missing_into_zero(self):
         result = score_company({"ticker": "TEST", "cash": 30, "totalDebt": 20, "cashPeriodEnd": DATE, "debtPeriodEnd": DATE})
         self.assertEqual((result["earnedPoints"], result["evaluatedMaxPoints"], result["sectionMaxPoints"], result["complete"]), (5, 10, 30, False))
