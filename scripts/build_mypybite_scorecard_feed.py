@@ -19,11 +19,15 @@ from mypybite_scorecard_125 import CATEGORIES, assemble
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_INPUT = ROOT / "data" / "sec" / "fundamentals" / "calculator-lookup.json"
 DEFAULT_OUTPUT = ROOT / "data" / "sec" / "fundamentals" / "scorecard-lookup.json"
+DEFAULT_REVENUE_CACHE = ROOT / "data" / "sec" / "fundamentals" / "ticker-lookup.json"
 INPUT_SCHEMA = "mypybite.calculator-fundamentals.v1"
 OUTPUT_SCHEMA = "mypybite.signal-scorecards.v1"
 
 
-def build_feed(calculator: dict[str, Any]) -> dict[str, Any]:
+def build_feed(
+    calculator: dict[str, Any],
+    revenue_cache: dict[str, Any] | None = None,
+) -> dict[str, Any]:
     """Score every cached CIK without changing its financial data."""
     if calculator.get("schema") != INPUT_SCHEMA:
         raise ValueError("Unsupported calculator feed schema")
@@ -44,6 +48,19 @@ def build_feed(calculator: dict[str, Any]) -> dict[str, Any]:
         raise ValueError("Calculator feed is missing company identity columns")
 
     positions = {name: index for index, name in enumerate(fields)}
+    revenue_by_cik = {}
+    if revenue_cache is not None:
+        if (
+            revenue_cache.get("schema") != "mypybite.fundamental-lookup-cache.v1"
+            or revenue_cache.get("generatedAt") != calculator.get("generatedAt")
+        ):
+            raise ValueError("Revenue cache and calculator feed must come from the same refresh")
+        revenue_by_cik = {
+            str(company["cik"]): company.get("facts") or {}
+            for company in revenue_cache["companies"]
+        }
+        if "annualRevenueFacts" in positions:
+            raise ValueError("Calculator feed already contains annual revenue facts")
     output_rows: list[dict[str, Any]] = []
     seen_ciks: set[str] = set()
     scored_counts = {category: 0 for category, _ in CATEGORIES}
@@ -70,7 +87,13 @@ def build_feed(calculator: dict[str, Any]) -> dict[str, Any]:
 
         seen_ciks.add(cik)
 
-        score = assemble(fields, row)
+        if revenue_cache is None:
+            score = assemble(fields, row)
+        else:
+            score = assemble(
+                [*fields, "annualRevenueFacts"],
+                [*row, revenue_by_cik.get(cik, {})],
+            )
         categories = score["categories"]
 
         if score["fullModelMaxPoints"] != 125 or len(categories) != len(CATEGORIES):
@@ -191,6 +214,7 @@ def main() -> int:
         type=Path,
         default=DEFAULT_OUTPUT,
     )
+    parser.add_argument("--revenue-cache", type=Path)
 
     args = parser.parse_args()
 
@@ -198,7 +222,13 @@ def main() -> int:
         args.input.read_text(encoding="utf-8")
     )
 
-    feed = build_feed(calculator)
+    cache_path = args.revenue_cache
+    if cache_path is None and args.input == DEFAULT_INPUT:
+        cache_path = DEFAULT_REVENUE_CACHE
+    revenue_cache = (
+        json.loads(cache_path.read_text(encoding="utf-8")) if cache_path else None
+    )
+    feed = build_feed(calculator, revenue_cache)
     write_json_atomic(args.output, feed)
 
     print(

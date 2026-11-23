@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import unittest
 from nash_quantitative_score import cash_vs_debt, revenue_growth, operating_margin, score_company, score_calculator_row
+from build_mypybite_scorecard_feed import build_feed
 
 DATE = "2026-09-26"
 
@@ -36,6 +37,33 @@ class QuantitativeScoreTests(unittest.TestCase):
 
     def test_growth_thresholds(self):
         self.assertEqual([revenue_growth(x, DATE)["points"] for x in (9.9, 10, 20, 20.01)], [0, 5, 5, 10])
+
+    def test_revenue_scorecard_recomputes_from_consecutive_filing_facts(self):
+        calculator = {
+            "schema": "mypybite.calculator-fundamentals.v1",
+            "generatedAt": DATE,
+            "fields": ["ticker", "cik", "aliases", "legalName", "revenueGrowthPercent"],
+            "data": [["TEST", "0000012345", [], "Test", None]],
+        }
+        base_fact = {"unit": "USD", "taxonomy": "us-gaap", "tag": "Revenues"}
+        facts = {
+            "revenue": {**base_fact, "value": 120, "start": "2025-01-01", "end": "2025-12-31"},
+            "revenuePriorYear": {**base_fact, "value": 100, "start": "2024-01-01", "end": "2024-12-31"},
+        }
+        cache = {
+            "schema": "mypybite.fundamental-lookup-cache.v1",
+            "generatedAt": DATE,
+            "companies": [{"cik": "0000012345", "facts": facts}],
+        }
+        result = build_feed(calculator, cache)["data"][0]["categories"]["revenueGrowth"]
+        self.assertEqual(result["points"], 5)
+        self.assertIn("USD 120 (2025-01-01 to 2025-12-31)", result["reason"])
+        self.assertIn("USD 100 (2024-01-01 to 2024-12-31)", result["reason"])
+
+        facts["revenuePriorYear"]["unit"] = "CAD"
+        result = build_feed(calculator, cache)["data"][0]["categories"]["revenueGrowth"]
+        self.assertIsNone(result["points"])
+        self.assertIn("currency", result["reason"])
 
     def test_margin_thresholds(self):
         self.assertEqual([operating_margin(x, DATE, DATE)["points"] for x in (9.9, 10, 25, 25.01)], [0, 5, 5, 10])

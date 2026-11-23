@@ -62,6 +62,44 @@ def operating_margin(margin_percent: Any, operating_income_period: Any, revenue_
     return _result(10 if margin > 25 else 5 if margin >= 10 else 0, f"Operating margin: {margin:g}%")
 
 
+def score_annual_revenue(facts: Mapping[str, Any]) -> dict[str, Any]:
+    current = facts.get("revenue") or {}
+    prior = facts.get("revenuePriorYear") or {}
+    for label, fact in (("Latest", current), ("Prior", prior)):
+        if _number(fact.get("value")) is None:
+            return _result(None, f"{label} fiscal-year revenue is missing from the SEC cache.")
+        start, end = fact.get("start"), fact.get("end")
+        if not (_valid_date(start) and _valid_date(end)):
+            return _result(None, f"{label} fiscal-year revenue is missing reporting dates.")
+        duration = (date.fromisoformat(end) - date.fromisoformat(start)).days + 1
+        if not 350 <= duration <= 380:
+            return _result(None, f"{label} revenue does not cover a full fiscal year.")
+
+    if not current.get("unit") or current["unit"] != prior.get("unit"):
+        return _result(None, "Annual revenue figures do not have matching currency units.")
+    if not current.get("tag") or (current.get("taxonomy"), current["tag"]) != (prior.get("taxonomy"), prior.get("tag")):
+        return _result(None, "Annual revenues use different or unverified reporting concepts.")
+    gap = (date.fromisoformat(current["start"]) - date.fromisoformat(prior["end"])).days
+    if gap != 1:
+        return _result(None, "Revenue figures do not cover consecutive fiscal years.")
+    if prior["value"] <= 0 or current["value"] < 0:
+        return _result(None, "Growth requires positive prior-year revenue and nonnegative current revenue.")
+
+    growth = round((current["value"] / prior["value"] - 1) * 100, 2)
+    result = revenue_growth(growth, current["end"])
+    result["reason"] = (
+        f"Annual revenue growth: {growth:g}%. "
+        f"{current['unit']} {current['value']:,} ({current['start']} to {current['end']}) "
+        f"versus {prior['unit']} {prior['value']:,} ({prior['start']} to {prior['end']})."
+    )
+    result["evidence"] = {
+        "sourceUrls": list(dict.fromkeys(
+            fact["sourceUrl"] for fact in (current, prior) if fact.get("sourceUrl")
+        )),
+    }
+    return result
+
+
 def score_company(company: Mapping[str, Any]) -> dict[str, Any]:
     """Calculate only 30 of the planned 125 points; pending is never zero."""
     categories = {
@@ -69,6 +107,8 @@ def score_company(company: Mapping[str, Any]) -> dict[str, Any]:
         "revenueGrowth": revenue_growth(company.get("revenueGrowthPercent"), company.get("revenuePeriodEnd")),
         "operatingMargin": operating_margin(company.get("operatingMarginPercent"), company.get("operatingIncomePeriodEnd"), company.get("revenuePeriodEnd")),
     }
+    if "annualRevenueFacts" in company:
+        categories["revenueGrowth"] = score_annual_revenue(company["annualRevenueFacts"])
     scored = [item["points"] for item in categories.values() if item["points"] is not None]
     return {
         "ticker": company.get("ticker"),
