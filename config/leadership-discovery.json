@@ -1,13 +1,13 @@
 {
   "schema": "mypybite.leadership-discovery.v1",
-  "generatedAt": "2026-11-24T16:07:37Z",
+  "generatedAt": "2026-11-25T15:54:39Z",
   "rosterAsOf": "2026-10-15",
   "method": "Daily principal-officer observations from official Form 4 titles. Observations are not appointment or tenure confirmation.",
   "form4SearchDepth": 30,
   "seatCount": 150,
-  "candidateSeatCount": 24,
-  "unresolvedSeatCount": 126,
-  "uniqueCandidatePeople": 24,
+  "candidateSeatCount": 25,
+  "unresolvedSeatCount": 125,
+  "uniqueCandidatePeople": 25,
   "seats": [
     {
       "issuerCik": "0000320193",
@@ -590,8 +590,23 @@
       "ticker": "COIN",
       "legalName": "Coinbase Global, Inc.",
       "seat": "chief-financial",
-      "status": "unresolved",
-      "candidates": []
+      "status": "candidate-found",
+      "candidates": [
+        {
+          "personCik": "0001668711",
+          "canonicalName": "HAAS ALESIA J",
+          "reportedTitle": "CHIEF FINANCIAL OFFICER",
+          "lastObservedDate": "2026-11-20",
+          "accessionNumber": "0001668711-26-000004",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000166871126000004/form4-11242026_041109.xml",
+          "identityStatus": "candidate-from-form4",
+          "appointmentDate": null,
+          "appointmentDateStatus": "unresolved",
+          "evaluationEligible": false,
+          "confidence": "D",
+          "role": "chief-financial"
+        }
+      ]
     },
     {
       "issuerCik": "0001403161",

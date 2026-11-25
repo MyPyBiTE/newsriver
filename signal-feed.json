@@ -1,14 +1,14 @@
 {
   "schema": "mypybite.signal-feed.v1",
-  "generatedAt": "2026-11-25T08:07:48Z",
-  "leadershipGeneratedAt": "2026-11-24T16:07:37Z",
+  "generatedAt": "2026-11-25T15:54:39Z",
+  "leadershipGeneratedAt": "2026-11-25T15:54:39Z",
   "fundamentalsGeneratedAt": "2026-11-24T18:16:16Z",
   "disclaimer": "Research preview. Leadership candidates are not confirmed appointments and are not scored. Filing explanations are educational context, not investment advice.",
   "stats": {
     "issuerCount": 75,
     "seatCount": 150,
-    "candidateSeatCount": 24,
-    "unresolvedSeatCount": 126,
+    "candidateSeatCount": 25,
+    "unresolvedSeatCount": 125,
     "maximumManagementScore": 125,
     "availableFilingCount": 11092,
     "publishedFilingCount": 500
@@ -17822,7 +17822,18 @@
         "regulatory"
       ],
       "leadershipStatus": "unlinked",
-      "leadershipCandidates": [],
+      "leadershipCandidates": [
+        {
+          "seat": "chief-financial",
+          "name": "HAAS ALESIA J",
+          "reportedTitle": "CHIEF FINANCIAL OFFICER",
+          "lastObservedDate": "2026-11-20",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000166871126000004/form4-11242026_041109.xml",
+          "status": "candidate-from-form4",
+          "evaluationEligible": false,
+          "confidence": "D"
+        }
+      ],
       "fundamentalStanding": {
         "ticker": "COIN",
         "cik": "0001679788",
@@ -35846,11 +35857,11 @@
       }
     }
   ],
-  "researchGeneratedAt": "2026-11-24T16:07:37Z",
+  "researchGeneratedAt": "2026-11-25T15:54:39Z",
   "freshness": {
     "status": "current",
-    "feedGeneratedAt": "2026-11-25T08:07:48Z",
-    "sourceObservedAt": "2026-11-25T08:07:48Z",
+    "feedGeneratedAt": "2026-11-25T15:54:39Z",
+    "sourceObservedAt": "2026-11-25T15:54:39Z",
     "latestFiledDate": "2026-11-24",
     "latestAcceptedAt": "2026-11-24T21:56:42-05:00",
     "recommendedRefreshSeconds": 300,
