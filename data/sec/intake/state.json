@@ -1,11 +1,17 @@
 {
   "schema": "mypybite.sec-intake.v1",
-  "updatedAt": "2026-11-25T19:31:15Z",
-  "recordCount": 58072,
-  "latestFiledDate": "2026-11-24",
+  "updatedAt": "2026-11-26T19:13:24Z",
+  "recordCount": 59481,
+  "latestFiledDate": "2026-11-25",
   "requestedEndDate": null,
-  "resolvedArchiveEndDate": "2026-11-24",
+  "resolvedArchiveEndDate": "2026-11-25",
   "checkedSources": [
+    {
+      "date": "2026-11-25",
+      "source": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR4/master.20261125.idx",
+      "status": "ok",
+      "targetRecords": 1410
+    },
     {
       "date": "2026-11-24",
       "source": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR4/master.20261124.idx",
@@ -79,11 +85,6 @@
       "source": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR4/master.20261112.idx",
       "status": "ok",
       "targetRecords": 3003
-    },
-    {
-      "date": "2026-11-11",
-      "source": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR4/master.20261111.idx",
-      "status": "not_found"
     }
   ]
 }
