@@ -1,7 +1,7 @@
 {
   "schema": "mypybite.signal-pipeline-state.v1",
   "pipelineVersion": 1,
-  "updatedAt": "2026-11-26T02:26:45Z",
+  "updatedAt": "2026-11-28T02:00:41Z",
   "candidates": {
     "sec:0000004962-26-000409:0000004962": {
       "pipelineVersion": 1,
@@ -7410,6 +7410,31 @@
       "accessionNumber": "0002012383-26-003986",
       "cik": "0002012383",
       "completedAt": "2026-11-26T02:26:45Z",
+      "stage": "document-collection",
+      "reasons": [
+        "Document URL leaves the expected accession directory."
+      ],
+      "eventId": null
+    },
+    "sec:0002001011-26-000159:0001819994": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002001011-26-000159",
+      "cik": "0001819994",
+      "completedAt": "2026-11-28T02:00:41Z",
+      "stage": "publication-gate",
+      "reasons": [
+        "Automatic publication currently supports Form 8-K and 8-K/A only; other forms require a form-specific reader.",
+        "The selected passage must state a concrete corporate action and must not be filing instructions or regulatory boilerplate."
+      ],
+      "eventId": null
+    },
+    "sec:0002001011-26-000158:0001819994": {
+      "pipelineVersion": 1,
+      "status": "quarantined",
+      "accessionNumber": "0002001011-26-000158",
+      "cik": "0001819994",
+      "completedAt": "2026-11-28T02:00:41Z",
       "stage": "document-collection",
       "reasons": [
         "Document URL leaves the expected accession directory."
