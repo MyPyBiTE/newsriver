@@ -3,8 +3,8 @@
     {
       "games": [
         {
-          "gamePk": "401933727",
-          "gameDate": "2026-11-28T01:00Z",
+          "gamePk": "401933737",
+          "gameDate": "2026-11-28T17:30Z",
           "status": {
             "detailedState": "Preview",
             "abstractGameState": "Preview"
@@ -16,21 +16,47 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "MIA"
+                "abbreviation": "CHI"
               },
               "score": 0
             },
             "home": {
               "team": {
-                "abbreviation": "CLB"
+                "abbreviation": "CLT"
+              },
+              "score": 1
+            }
+          }
+        },
+        {
+          "gamePk": "401933724",
+          "gameDate": "2026-11-28T19:30Z",
+          "status": {
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "SJ"
+              },
+              "score": 0
+            },
+            "home": {
+              "team": {
+                "abbreviation": "HOU"
               },
               "score": 0
             }
           }
         },
         {
-          "gamePk": "401933725",
-          "gameDate": "2026-11-28T03:00Z",
+          "gamePk": "401933723",
+          "gameDate": "2026-11-28T21:30Z",
           "status": {
             "detailedState": "Preview",
             "abstractGameState": "Preview"
@@ -42,13 +68,91 @@
           "teams": {
             "away": {
               "team": {
-                "abbreviation": "VAN"
+                "abbreviation": "NE"
               },
               "score": 0
             },
             "home": {
               "team": {
-                "abbreviation": "RSL"
+                "abbreviation": "PHI"
+              },
+              "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401933722",
+          "gameDate": "2026-11-28T23:30Z",
+          "status": {
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "NSH"
+              },
+              "score": 0
+            },
+            "home": {
+              "team": {
+                "abbreviation": "CIN"
+              },
+              "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401933726",
+          "gameDate": "2026-11-29T01:30Z",
+          "status": {
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "STL"
+              },
+              "score": 0
+            },
+            "home": {
+              "team": {
+                "abbreviation": "LAFC"
+              },
+              "score": 0
+            }
+          }
+        },
+        {
+          "gamePk": "401933721",
+          "gameDate": "2026-11-29T03:30Z",
+          "status": {
+            "detailedState": "Preview",
+            "abstractGameState": "Preview"
+          },
+          "linescore": {
+            "currentPeriodOrdinal": null,
+            "currentQuarter": null
+          },
+          "teams": {
+            "away": {
+              "team": {
+                "abbreviation": "DAL"
+              },
+              "score": 0
+            },
+            "home": {
+              "team": {
+                "abbreviation": "POR"
               },
               "score": 0
             }
